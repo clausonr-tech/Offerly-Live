@@ -1,0 +1,3772 @@
+[
+  {
+    "canonicalName": "Bregal Sagemount",
+    "canonicalSlug": "bregal-sagemount",
+    "headlineAum": null,
+    "categories": [
+      "other_finance",
+      "private_credit",
+      "private_equity"
+    ],
+    "confidence": "high",
+    "divisions": [
+      {
+        "slug": "bregal-sagemount-basecamp-i-general-partner-jersey-limited",
+        "name": "Bregal Sagemount Basecamp I General Partner Jersey Limited",
+        "headquarters": "St Helier",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "high",
+        "reason": "general partner entity of Bregal Sagemount"
+      },
+      {
+        "slug": "bregal-sagemount-basecamp-i-jersey-limited",
+        "name": "Bregal Sagemount Basecamp I Jersey Limited",
+        "headquarters": "St Helier",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "high",
+        "reason": "offshore domicile of Bregal Sagemount"
+      },
+      {
+        "slug": "bregal-sagemount-credit-opportunities-fund-ii-gp-limited",
+        "name": "Bregal Sagemount Credit Opportunities Fund II GP Limited",
+        "headquarters": "St Helier",
+        "aum": null,
+        "categories": [
+          "private_credit"
+        ],
+        "confidence": "high",
+        "reason": "GP entity of Bregal Sagemount"
+      },
+      {
+        "slug": "bregal-sagemount-credit-opportunities-fund-ii-manco-limited",
+        "name": "Bregal Sagemount Credit Opportunities Fund II Manco Limited",
+        "headquarters": "St Helier",
+        "aum": null,
+        "categories": [
+          "private_credit"
+        ],
+        "confidence": "high",
+        "reason": "numbered fund of Bregal Sagemount"
+      },
+      {
+        "slug": "bregal-sagemount-credit-opportunities-fund-ii-o-gp-ltd",
+        "name": "Bregal Sagemount Credit Opportunities Fund Ii-o GP LTD",
+        "headquarters": "St Helier",
+        "aum": null,
+        "categories": [
+          "private_credit"
+        ],
+        "confidence": "high",
+        "reason": "GP entity of Bregal Sagemount"
+      },
+      {
+        "slug": "bregal-sagemount-ii-general-partner-jersey-limited",
+        "name": "Bregal Sagemount II General Partner Jersey Limited",
+        "headquarters": "St Helier",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "high",
+        "reason": "general partner entity of Bregal Sagemount"
+      },
+      {
+        "slug": "bregal-sagemount-ii-jersey-limited",
+        "name": "Bregal Sagemount II Jersey Limited",
+        "headquarters": "St Helier",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "high",
+        "reason": "offshore domicile of Bregal Sagemount"
+      },
+      {
+        "slug": "bregal-sagemount-iii-general-partner-jersey-limited",
+        "name": "Bregal Sagemount III General Partner Jersey Limited",
+        "headquarters": "St Helier",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "high",
+        "reason": "general partner entity of Bregal Sagemount"
+      },
+      {
+        "slug": "bregal-sagemount-iii-jersey-limited",
+        "name": "Bregal Sagemount III Jersey Limited",
+        "headquarters": "St Helier",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "high",
+        "reason": "offshore domicile of Bregal Sagemount"
+      },
+      {
+        "slug": "bregal-sagemount-iv-general-partner-jersey-limited",
+        "name": "Bregal Sagemount IV General Partner Jersey Limited",
+        "headquarters": "St Helier, Jersey",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "high",
+        "reason": "general partner entity of Bregal Sagemount"
+      },
+      {
+        "slug": "bregal-sagemount-iv-jersey-limited",
+        "name": "Bregal Sagemount IV Jersey Limited",
+        "headquarters": "St Helier, Jersey",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "high",
+        "reason": "offshore domicile of Bregal Sagemount"
+      }
+    ]
+  },
+  {
+    "canonicalName": "JPMorgan",
+    "canonicalSlug": "jpmorgan",
+    "headlineAum": 542386727193,
+    "categories": [
+      "asset_wealth_management",
+      "hedge_fund",
+      "investment_banking",
+      "other_finance",
+      "sales_trading"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "j-p-morgan",
+        "name": "J.P. Morgan",
+        "headquarters": "United States",
+        "aum": 469980115033,
+        "categories": [
+          "investment_banking"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of JPMorgan (single-word brand - verify)"
+      },
+      {
+        "slug": "jpmorgan-funds-limited",
+        "name": "Jpmorgan Funds Limited",
+        "headquarters": "London",
+        "aum": 72397617747,
+        "categories": [
+          "hedge_fund"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of J.P. Morgan"
+      },
+      {
+        "slug": "j-p-morgan-wealth-management-solutions-inc",
+        "name": "J.p.morgan Wealth Management Solutions INC.",
+        "headquarters": "New York, NY",
+        "aum": 8994413,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of J.P. Morgan"
+      },
+      {
+        "slug": "j-p-morgan-institutional-investments-inc",
+        "name": "J.P. Morgan Institutional Investments INC.",
+        "headquarters": "Jersey City, NJ",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of J.P. Morgan"
+      },
+      {
+        "slug": "j-p-morgan-prime-inc",
+        "name": "J.P. Morgan Prime INC.",
+        "headquarters": "Columbus, OH",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of J.P. Morgan"
+      },
+      {
+        "slug": "jpmorgan-distribution-services-inc",
+        "name": "Jpmorgan Distribution Services, INC.",
+        "headquarters": "Columbus, OH",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of J.P. Morgan"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Wells Fargo",
+    "canonicalSlug": "wells-fargo",
+    "headlineAum": 42995068741,
+    "categories": [
+      "asset_wealth_management",
+      "commercial_banking",
+      "investment_banking",
+      "other_finance",
+      "sales_trading"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "wells-fargo-securities-cib",
+        "name": "Wells Fargo Securities (CIB)",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "investment_banking",
+          "sales_trading"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Wells Fargo"
+      },
+      {
+        "slug": "wells-fargo-advisors",
+        "name": "Wells Fargo Advisors",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Wells Fargo"
+      },
+      {
+        "slug": "wells-fargo-investment-institute-inc",
+        "name": "Wells Fargo Investment Institute, INC.",
+        "headquarters": "Charlotte, NC",
+        "aum": 42995068741,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Wells Fargo"
+      },
+      {
+        "slug": "wells-fargo-advisors-financial-network-llc",
+        "name": "Wells Fargo Advisors Financial Network, LLC",
+        "headquarters": "St. Louis, MO",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Wells Fargo Advisors"
+      },
+      {
+        "slug": "wells-fargo-clearing-services-llc",
+        "name": "Wells Fargo Clearing Services, LLC",
+        "headquarters": "St. Louis, MO",
+        "aum": null,
+        "categories": [
+          "sales_trading"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Wells Fargo"
+      },
+      {
+        "slug": "wells-fargo-prime-services-llc",
+        "name": "Wells Fargo Prime Services, LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Wells Fargo"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Franklin Templeton",
+    "canonicalSlug": "franklin-templeton",
+    "headlineAum": 169594868422,
+    "categories": [
+      "asset_wealth_management",
+      "hedge_fund",
+      "other_finance",
+      "private_equity",
+      "real_estate"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "franklin-templeton-incl-legacy-legg-mason",
+        "name": "Franklin Templeton (incl. legacy Legg Mason)",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "hedge_fund"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Franklin Templeton"
+      },
+      {
+        "slug": "franklin-templeton-private-portfolio-group-llc",
+        "name": "Franklin Templeton Private Portfolio Group, LLC",
+        "headquarters": "New York, NY",
+        "aum": 139884765424,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Franklin Templeton"
+      },
+      {
+        "slug": "franklin-templeton-institutional-llc",
+        "name": "Franklin Templeton Institutional, LLC",
+        "headquarters": "New York, NY",
+        "aum": 29592514998,
+        "categories": [
+          "real_estate",
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Franklin Templeton"
+      },
+      {
+        "slug": "franklin-templeton-alts-brasil-admin-de-investimentos-ltda",
+        "name": "Franklin Templeton Alts Brasil Admin. de Investimentos Ltda.",
+        "headquarters": "Sao Paulo",
+        "aum": 117588000,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Franklin Templeton"
+      },
+      {
+        "slug": "franklin-templeton-private-markets-adviser-llc",
+        "name": "Franklin Templeton Private Markets Adviser, LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Franklin Templeton"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Brookfield",
+    "canonicalSlug": "brookfield",
+    "headlineAum": 218596345574,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance",
+      "private_equity",
+      "real_estate"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "brookfield-asset-management-pic-canada-lp",
+        "name": "Brookfield Asset Management Pic Canada, LP",
+        "headquarters": "Toronto, Ontario",
+        "aum": 152132514240,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Brookfield (single-word brand - verify)"
+      },
+      {
+        "slug": "brookfield-public-securities-group-llc",
+        "name": "Brookfield Public Securities Group LLC",
+        "headquarters": "New York, NY",
+        "aum": 66463831334,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Brookfield (single-word brand - verify)"
+      },
+      {
+        "slug": "brookfield-private-advisors-llc",
+        "name": "Brookfield Private Advisors LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Brookfield (single-word brand - verify)"
+      },
+      {
+        "slug": "brookfield-private-wealth-llc",
+        "name": "Brookfield Private Wealth LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Brookfield (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Jefferies",
+    "canonicalSlug": "jefferies",
+    "headlineAum": 4162591618,
+    "categories": [
+      "asset_wealth_management",
+      "investment_banking",
+      "other_finance",
+      "private_credit",
+      "private_equity"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "jefferies-credit-management-llc",
+        "name": "Jefferies Credit Management LLC",
+        "headquarters": "New York, NY",
+        "aum": 3816686665,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Jefferies (single-word brand - verify)"
+      },
+      {
+        "slug": "jefferies-credit-partners-europe-limited",
+        "name": "Jefferies Credit Partners Europe Limited",
+        "headquarters": "London",
+        "aum": 345904953,
+        "categories": [
+          "private_credit"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Jefferies (single-word brand - verify)"
+      },
+      {
+        "slug": "jefferies-financial-services-inc",
+        "name": "Jefferies Financial Services, INC.",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Jefferies (single-word brand - verify)"
+      },
+      {
+        "slug": "jefferies-prime-finance-llc",
+        "name": "Jefferies Prime Finance LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Jefferies (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Morgan Stanley",
+    "canonicalSlug": "morgan-stanley",
+    "headlineAum": 40854466007,
+    "categories": [
+      "asset_wealth_management",
+      "investment_banking",
+      "other_finance",
+      "private_equity",
+      "sales_trading"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "morgan-stanley-aip-gp-lp",
+        "name": "Morgan Stanley Aip GP LP",
+        "headquarters": "West Conshohocken, PA",
+        "aum": 40854466007,
+        "categories": [
+          "private_equity",
+          "asset_wealth_management"
+        ],
+        "confidence": "high",
+        "reason": "GP entity of Morgan Stanley"
+      },
+      {
+        "slug": "morgan-stanley-capital-services-llc",
+        "name": "Morgan Stanley Capital Services, LLC",
+        "headquarters": "Baltimore, MD",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Morgan Stanley"
+      },
+      {
+        "slug": "morgan-stanley-distribution-inc",
+        "name": "Morgan Stanley Distribution, INC.",
+        "headquarters": "Baltimore, MD",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Morgan Stanley"
+      },
+      {
+        "slug": "morgan-stanley-smith-barney-llc",
+        "name": "Morgan Stanley Smith Barney LLC",
+        "headquarters": "Baltimore, MD",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Morgan Stanley"
+      }
+    ]
+  },
+  {
+    "canonicalName": "State Street Corporation",
+    "canonicalSlug": "state-street",
+    "headlineAum": 100000000,
+    "categories": [
+      "commercial_banking",
+      "hedge_fund",
+      "other_finance",
+      "private_equity"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "state-street-global-advisors",
+        "name": "State Street Global Advisors",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "hedge_fund"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of State Street Corporation"
+      },
+      {
+        "slug": "state-street-digital-ltd",
+        "name": "State Street Digital LTD",
+        "headquarters": "Denver, CO",
+        "aum": 100000000,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of State Street Corporation"
+      },
+      {
+        "slug": "state-street-global-advisors-funds-distributors-llc",
+        "name": "State Street Global Advisors Funds Distributors, LLC",
+        "headquarters": "Boston, MA",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of State Street Global Advisors"
+      },
+      {
+        "slug": "state-street-global-markets-llc",
+        "name": "State Street Global Markets, LLC",
+        "headquarters": "Boston, MA",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of State Street Corporation"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Vanguard",
+    "canonicalSlug": "vanguard",
+    "headlineAum": 2667838207098,
+    "categories": [
+      "asset_wealth_management",
+      "hedge_fund",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "vanguard-portfolio-management-llc",
+        "name": "Vanguard Portfolio Management, LLC",
+        "headquarters": "Malvern, PA",
+        "aum": 2656483509980,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Vanguard (single-word brand - verify)"
+      },
+      {
+        "slug": "vanguard-personalized-indexing-management",
+        "name": "Vanguard Personalized Indexing Management",
+        "headquarters": "Oakland, CA",
+        "aum": 11354697118,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Vanguard (single-word brand - verify)"
+      },
+      {
+        "slug": "vanguard-alternative-assets-adviser-llc",
+        "name": "Vanguard Alternative Assets Adviser, LLC",
+        "headquarters": "Malvern, PA",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Vanguard (single-word brand - verify)"
+      },
+      {
+        "slug": "vanguard-marketing-corporation",
+        "name": "Vanguard Marketing Corporation",
+        "headquarters": "El Paso, TX",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Vanguard (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Artisan Partners",
+    "canonicalSlug": "artisan-partners",
+    "headlineAum": 183619365456,
+    "categories": [
+      "asset_wealth_management",
+      "hedge_fund",
+      "other_finance",
+      "private_equity"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "artisan-partners-limited-partnership",
+        "name": "Artisan Partners Limited Partnership",
+        "headquarters": "Milwaukee, WI",
+        "aum": 183619365456,
+        "categories": [
+          "private_equity",
+          "hedge_fund",
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Artisan Partners (single-word brand - verify)"
+      },
+      {
+        "slug": "artisan-partners-distributors-llc",
+        "name": "Artisan Partners Distributors LLC",
+        "headquarters": "Milwaukee, WI",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Artisan Partners (single-word brand - verify)"
+      },
+      {
+        "slug": "artisan-partners-uk-llp",
+        "name": "Artisan Partners UK LLP",
+        "headquarters": "London",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Artisan Partners (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "BlackRock",
+    "canonicalSlug": "blackrock",
+    "headlineAum": 4283346665093,
+    "categories": [
+      "asset_wealth_management",
+      "hedge_fund",
+      "real_estate",
+      "sales_trading"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "blackrock-fund-advisors",
+        "name": "Blackrock Fund Advisors",
+        "headquarters": "San Francisco, CA",
+        "aum": 4282224366957,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of BlackRock (single-word brand - verify)"
+      },
+      {
+        "slug": "blackrock-realty-advisors-inc",
+        "name": "Blackrock Realty Advisors INC",
+        "headquarters": "New York, NY",
+        "aum": 1122298136,
+        "categories": [
+          "real_estate",
+          "hedge_fund"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of BlackRock (single-word brand - verify)"
+      },
+      {
+        "slug": "blackrock-execution-services",
+        "name": "Blackrock Execution Services",
+        "headquarters": "Princeton, NJ",
+        "aum": null,
+        "categories": [
+          "sales_trading"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of BlackRock (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Capula Investment Management",
+    "canonicalSlug": "capula-investment-management",
+    "headlineAum": 137437353519,
+    "categories": [
+      "hedge_fund",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "capula-investment-management-asia-limited",
+        "name": "Capula Investment Management Asia Limited",
+        "headquarters": "Central",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Capula Investment Management (single-word brand - verify)"
+      },
+      {
+        "slug": "capula-investment-management-singapore-pte-ltd",
+        "name": "Capula Investment Management Singapore Pte.ltd.",
+        "headquarters": "Singapore",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Capula Investment Management (single-word brand - verify)"
+      },
+      {
+        "slug": "capula-investment-management-switzerland-sarl",
+        "name": "Capula Investment Management Switzerland Sarl",
+        "headquarters": "Geneva",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Capula Investment Management (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Goldman Sachs",
+    "canonicalSlug": "goldman-sachs",
+    "headlineAum": 31688347042,
+    "categories": [
+      "asset_wealth_management",
+      "commercial_banking",
+      "investment_banking",
+      "other_finance",
+      "sales_trading"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "goldman-sachs-bank-usa",
+        "name": "Goldman Sachs Bank USA",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "commercial_banking"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Goldman Sachs"
+      },
+      {
+        "slug": "goldman-sachs-wealth-services-l-p",
+        "name": "Goldman Sachs Wealth Services, L.P.",
+        "headquarters": "Cohoes, NY",
+        "aum": 31688347042,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Goldman Sachs"
+      },
+      {
+        "slug": "goldman-sachs-financial-markets-l-p",
+        "name": "Goldman Sachs Financial Markets, L.P.",
+        "headquarters": "Salt Lake City, UT",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Goldman Sachs"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Sixth Street",
+    "canonicalSlug": "sixth-street",
+    "headlineAum": 113723907356,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance",
+      "private_equity"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "sixth-street-lending-partners-advisers-llc",
+        "name": "Sixth Street Lending Partners Advisers, LLC",
+        "headquarters": "Dallas, TX",
+        "aum": 8691301138,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Sixth Street"
+      },
+      {
+        "slug": "sixth-street-specialty-lending-advisers-llc",
+        "name": "Sixth Street Specialty Lending Advisers, LLC",
+        "headquarters": "Dallas, TX",
+        "aum": 3421655019,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Sixth Street"
+      },
+      {
+        "slug": "sixth-street-bd-llc",
+        "name": "Sixth Street Bd, LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Sixth Street"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Summit Financial",
+    "canonicalSlug": "summit-financial",
+    "headlineAum": 6582590937,
+    "categories": [
+      "asset_wealth_management"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "summit-financial-strategies-inc",
+        "name": "Summit Financial Strategies INC",
+        "headquarters": "Columbus, OH",
+        "aum": 2306536262,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Summit Financial (single-word brand - verify)"
+      },
+      {
+        "slug": "summit-financial-wealth-advisors",
+        "name": "Summit Financial Wealth Advisors",
+        "headquarters": "Lafayette, LA",
+        "aum": 1799431900,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Summit Financial (single-word brand - verify)"
+      },
+      {
+        "slug": "summit-financial-working-with-people-you-trust",
+        "name": "Summit Financial Working With People You Trust",
+        "headquarters": "Sterling Heights, MI",
+        "aum": 184673370,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Summit Financial (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Thrivent",
+    "canonicalSlug": "thrivent",
+    "headlineAum": 158345394704,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance",
+      "private_equity"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "thrivent-private-investments",
+        "name": "Thrivent Private Investments",
+        "headquarters": "Minneapolis, MN",
+        "aum": 22781793218,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Thrivent (single-word brand - verify)"
+      },
+      {
+        "slug": "thrivent-advisor-network-llc",
+        "name": "Thrivent Advisor Network, LLC",
+        "headquarters": "Minneapolis, MN",
+        "aum": 6835173774,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Thrivent (single-word brand - verify)"
+      },
+      {
+        "slug": "thrivent-distributors-llc",
+        "name": "Thrivent Distributors, LLC",
+        "headquarters": "Minneapolis, MN",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Thrivent (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Arete Wealth",
+    "canonicalSlug": "arete-wealth",
+    "headlineAum": 2879120559,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "arete-wealth-strategists",
+        "name": "Arete Wealth Strategists",
+        "headquarters": "Brisbane",
+        "aum": 133741614,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Arete Wealth (single-word brand - verify)"
+      },
+      {
+        "slug": "arete-wealth-management-llc",
+        "name": "Arete Wealth Management, LLC",
+        "headquarters": "Chicago, IL",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Arete Wealth (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Bain Capital",
+    "canonicalSlug": "bain-capital",
+    "headlineAum": 96429353000,
+    "categories": [
+      "private_equity"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "bain-capital-ventures",
+        "name": "Bain Capital Ventures",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Bain Capital (single-word brand - verify)"
+      },
+      {
+        "slug": "bain-capital-private-equity-lp",
+        "name": "Bain Capital Private Equity, LP",
+        "headquarters": "Boston, MA",
+        "aum": 96429353000,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Bain Capital (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Bloomberg L.P.",
+    "canonicalSlug": "bloomberg-l-p",
+    "headlineAum": null,
+    "categories": [
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "bloomberg-tradebook-canada-company",
+        "name": "Bloomberg Tradebook Canada Company",
+        "headquarters": "Toronto, Ontario",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Bloomberg Tradebook LLC"
+      },
+      {
+        "slug": "bloomberg-tradebook-llc",
+        "name": "Bloomberg Tradebook LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Bloomberg L.P. (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Carson Group",
+    "canonicalSlug": "carson-group",
+    "headlineAum": 2913403363,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance",
+      "sales_trading"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "carson-group-investing",
+        "name": "Carson Group Investing",
+        "headquarters": "Omaha, NE",
+        "aum": 2048522707,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Carson Group (single-word brand - verify)"
+      },
+      {
+        "slug": "carson-group-brokerage-llc",
+        "name": "Carson Group Brokerage, LLC",
+        "headquarters": "Omaha, NE",
+        "aum": null,
+        "categories": [
+          "sales_trading"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Carson Group (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Citadel Securities",
+    "canonicalSlug": "citadel-securities",
+    "headlineAum": null,
+    "categories": [
+      "hedge_fund",
+      "investment_banking"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "citadel-securities-institutional-llc",
+        "name": "Citadel Securities Institutional LLC",
+        "headquarters": "Miami, FL",
+        "aum": null,
+        "categories": [
+          "investment_banking"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Citadel Securities (single-word brand - verify)"
+      },
+      {
+        "slug": "citadel-securities-swap-dealer-llc",
+        "name": "Citadel Securities Swap Dealer LLC",
+        "headquarters": "Miami, FL",
+        "aum": null,
+        "categories": [
+          "investment_banking"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Citadel Securities (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Citigroup",
+    "canonicalSlug": "citigroup",
+    "headlineAum": 56134085102,
+    "categories": [
+      "asset_wealth_management",
+      "investment_banking",
+      "private_equity",
+      "real_estate"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "citigroup-global-markets-inc",
+        "name": "Citigroup Global Markets INC.",
+        "headquarters": "New York, NY",
+        "aum": 56006655920,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Citigroup (single-word brand - verify)"
+      },
+      {
+        "slug": "citigroup-alternative-investments-llc",
+        "name": "Citigroup Alternative Investments LLC",
+        "headquarters": "New York, NY",
+        "aum": 127429182,
+        "categories": [
+          "private_equity",
+          "real_estate"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Citigroup (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Flow Traders",
+    "canonicalSlug": "flow-traders",
+    "headlineAum": null,
+    "categories": [
+      "sales_trading"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "flow-traders-u-s-institutional-trading-llc",
+        "name": "Flow Traders U.s. Institutional Trading LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "sales_trading"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Flow Traders U.s. LLC"
+      },
+      {
+        "slug": "flow-traders-u-s-llc",
+        "name": "Flow Traders U.s. LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "sales_trading"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Flow Traders"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Jane Street",
+    "canonicalSlug": "jane-street",
+    "headlineAum": null,
+    "categories": [
+      "other_finance",
+      "sales_trading"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "jane-street-execution-services-llc",
+        "name": "Jane Street Execution Services, LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "sales_trading"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Jane Street"
+      },
+      {
+        "slug": "jane-street-options-llc",
+        "name": "Jane Street Options, LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Jane Street"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Janus Henderson",
+    "canonicalSlug": "janus-henderson",
+    "headlineAum": 380428751746,
+    "categories": [
+      "asset_wealth_management",
+      "hedge_fund",
+      "other_finance",
+      "private_equity"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "janus-henderson-investors",
+        "name": "Janus Henderson Investors",
+        "headquarters": "Denver, CO",
+        "aum": 380428751746,
+        "categories": [
+          "private_equity",
+          "hedge_fund",
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Janus Henderson"
+      },
+      {
+        "slug": "janus-henderson-distributors-us-llc",
+        "name": "Janus Henderson Distributors US LLC",
+        "headquarters": "Denver, CO",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Janus Henderson"
+      }
+    ]
+  },
+  {
+    "canonicalName": "L Catterton",
+    "canonicalSlug": "l-catterton",
+    "headlineAum": 9811959516,
+    "categories": [
+      "private_equity",
+      "real_estate"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "l-catterton-europe",
+        "name": "L Catterton Europe",
+        "headquarters": "Paris",
+        "aum": 8031571510,
+        "categories": [
+          "private_equity",
+          "real_estate"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of L Catterton"
+      },
+      {
+        "slug": "l-catterton-asia",
+        "name": "L Catterton Asia",
+        "headquarters": "Ebene",
+        "aum": 1780388006,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of L Catterton"
+      }
+    ]
+  },
+  {
+    "canonicalName": "LaSalle Investment Management",
+    "canonicalSlug": "lasalle-investment-management",
+    "headlineAum": 15065941402,
+    "categories": [
+      "other_finance",
+      "real_estate"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "lasalle-investment-management-asia-pte-ltd",
+        "name": "Lasalle Investment Management Asia Pte. LTD",
+        "headquarters": "Singapore",
+        "aum": 11739111009,
+        "categories": [
+          "real_estate"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of LaSalle Investment Management (single-word brand - verify)"
+      },
+      {
+        "slug": "lasalle-investment-management-distributors-llc",
+        "name": "Lasalle Investment Management Distributors, LLC",
+        "headquarters": "Chicago, IL",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of LaSalle Investment Management (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Milliman",
+    "canonicalSlug": "milliman",
+    "headlineAum": 42647929640,
+    "categories": [
+      "consulting",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "milliman-financial-risk-management-llc",
+        "name": "Milliman Financial Risk Management LLC",
+        "headquarters": "Chicago, IL",
+        "aum": 40329783469,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Milliman (single-word brand - verify)"
+      },
+      {
+        "slug": "milliman-investment-management-services-llc",
+        "name": "Milliman Investment Management Services LLC",
+        "headquarters": "Chicago, IL",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Milliman (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Nationwide",
+    "canonicalSlug": "nationwide",
+    "headlineAum": 83137789807,
+    "categories": [
+      "insurance",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "nationwide-fund-distributors-llc",
+        "name": "Nationwide Fund Distributors LLC",
+        "headquarters": "Columbus, OH",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Nationwide (single-word brand - verify)"
+      },
+      {
+        "slug": "nationwide-investment-services-corporation",
+        "name": "Nationwide Investment Services Corporation",
+        "headquarters": "Columbus, OH",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Nationwide (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Quadriga",
+    "canonicalSlug": "quadriga",
+    "headlineAum": 90520554,
+    "categories": [
+      "other_finance",
+      "private_equity"
+    ],
+    "confidence": "high",
+    "divisions": [
+      {
+        "slug": "quadriga-capital-iiia-gp-limited",
+        "name": "Quadriga Capital Iiia GP Limited",
+        "headquarters": "St. Helier",
+        "aum": 81186525,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "high",
+        "reason": "GP entity of Quadriga"
+      },
+      {
+        "slug": "quadriga-capital-iv-gp-limited",
+        "name": "Quadriga Capital IV GP Limited",
+        "headquarters": "St Helier, Channel Islands",
+        "aum": 9334029,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "high",
+        "reason": "GP entity of Quadriga"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Raymond James",
+    "canonicalSlug": "raymond-james",
+    "headlineAum": 390042864529,
+    "categories": [
+      "asset_wealth_management",
+      "commercial_banking",
+      "investment_banking"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "raymond-james-bank",
+        "name": "Raymond James Bank",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "commercial_banking"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Raymond James"
+      },
+      {
+        "slug": "raymond-james-financial-services-advisors-inc",
+        "name": "Raymond James Financial Services Advisors, INC",
+        "headquarters": "Saint Petersburg, FL",
+        "aum": 390042864529,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Raymond James"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Russell Investments",
+    "canonicalSlug": "russell-investments",
+    "headlineAum": 275014718,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "russell-investments-financial-services-llc",
+        "name": "Russell Investments Financial Services, LLC",
+        "headquarters": "Seattle, WA",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Russell Investments (single-word brand - verify)"
+      },
+      {
+        "slug": "russell-investments-implementation-services-llc",
+        "name": "Russell Investments Implementation Services, LLC",
+        "headquarters": "Seattle, WA",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Russell Investments (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "T. Rowe Price",
+    "canonicalSlug": "t-rowe-price",
+    "headlineAum": 42335297615,
+    "categories": [
+      "hedge_fund",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "t-rowe-price-hong-kong-limited",
+        "name": "T.rowe Price Hong Kong Limited",
+        "headquarters": "Central",
+        "aum": 42335297615,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of T. Rowe Price"
+      },
+      {
+        "slug": "t-rowe-price-investment-services-inc",
+        "name": "T. Rowe Price Investment Services, INC.",
+        "headquarters": "Baltimore, MD",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of T. Rowe Price"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Two Sigma",
+    "canonicalSlug": "two-sigma",
+    "headlineAum": 581655163,
+    "categories": [
+      "hedge_fund",
+      "real_estate",
+      "sales_trading"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "two-sigma-real-estate-lp",
+        "name": "Two Sigma Real Estate, LP",
+        "headquarters": "New York, NY",
+        "aum": 581655163,
+        "categories": [
+          "real_estate"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Two Sigma"
+      },
+      {
+        "slug": "two-sigma-execution-services-llc",
+        "name": "Two Sigma Execution Services, LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "sales_trading"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Two Sigma"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Wealthfront",
+    "canonicalSlug": "wealthfront",
+    "headlineAum": 47839406020,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance",
+      "sales_trading"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "wealthfront-strategies-llc",
+        "name": "Wealthfront Strategies LLC",
+        "headquarters": "Palo Alto, CA",
+        "aum": 111555225,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Wealthfront (single-word brand - verify)"
+      },
+      {
+        "slug": "wealthfront-brokerage-llc",
+        "name": "Wealthfront Brokerage LLC",
+        "headquarters": "Palo Alto, CA",
+        "aum": null,
+        "categories": [
+          "sales_trading"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Wealthfront (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Acrisure",
+    "canonicalSlug": "acrisure",
+    "headlineAum": 231981091,
+    "categories": [
+      "insurance",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "acrisure-re-corporate-advisory-solutions-llc",
+        "name": "Acrisure Re Corporate Advisory & Solutions, LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Acrisure (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Allianz Life",
+    "canonicalSlug": "allianz-life",
+    "headlineAum": null,
+    "categories": [
+      "insurance",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "allianz-life-financial-services-llc",
+        "name": "Allianz Life Financial Services, LLC",
+        "headquarters": "Minneapolis, MN",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Allianz Life"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Angelo Gordon",
+    "canonicalSlug": "angelo-gordon",
+    "headlineAum": null,
+    "categories": [
+      "hedge_fund",
+      "private_equity"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "angelo-gordon-now-tpg-angelo-gordon",
+        "name": "Angelo Gordon (now TPG Angelo Gordon)",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "hedge_fund"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Angelo Gordon"
+      }
+    ]
+  },
+  {
+    "canonicalName": "AssuredPartners",
+    "canonicalSlug": "assuredpartners",
+    "headlineAum": 3878842674,
+    "categories": [
+      "insurance",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "assuredpartners-financial-services-llc",
+        "name": "Assuredpartners Financial Services, LLC",
+        "headquarters": "Tampa, FL",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of AssuredPartners (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Baillie Gifford",
+    "canonicalSlug": "baillie-gifford",
+    "headlineAum": 143996422525,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "baillie-gifford-funds-services-llc",
+        "name": "Baillie Gifford Funds Services LLC",
+        "headquarters": "Edinburgh",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Baillie Gifford"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Bank of America",
+    "canonicalSlug": "bank-of-america",
+    "headlineAum": null,
+    "categories": [
+      "asset_wealth_management",
+      "investment_banking",
+      "other_finance",
+      "sales_trading"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "bank-of-america-bofa-securities",
+        "name": "Bank of America (BofA Securities)",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "investment_banking",
+          "sales_trading",
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Bank of America"
+      }
+    ]
+  },
+  {
+    "canonicalName": "BankFirst",
+    "canonicalSlug": "bankfirst",
+    "headlineAum": null,
+    "categories": [
+      "commercial_banking"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "bankfirst-financial-services",
+        "name": "BankFirst Financial Services",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "commercial_banking"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of BankFirst (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Benchmark",
+    "canonicalSlug": "benchmark",
+    "headlineAum": 102967603,
+    "categories": [
+      "private_equity",
+      "venture_capital"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "benchmark-israel-vc-2007-ltd",
+        "name": "Benchmark Israel Vc 2007 LTD",
+        "headquarters": "Tel Aviv",
+        "aum": 102967603,
+        "categories": [
+          "venture_capital"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Benchmark (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Blackstone",
+    "canonicalSlug": "blackstone",
+    "headlineAum": 183531150199,
+    "categories": [
+      "private_equity",
+      "real_estate"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "blackstone-isg-i-advisors-l-l-c",
+        "name": "Blackstone Isg-i Advisors L.L.C.",
+        "headquarters": "New York, NY",
+        "aum": 183531150199,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Blackstone (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "BNP Paribas USA",
+    "canonicalSlug": "bnp-paribas-usa",
+    "headlineAum": 60801831634,
+    "categories": [
+      "investment_banking",
+      "real_estate"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "bnp-paribas-real-estate-investment-management-france",
+        "name": "Bnp Paribas Real Estate Investment Management France",
+        "headquarters": "Boulogne-billancourt, Ile de France",
+        "aum": 12365653487,
+        "categories": [
+          "real_estate"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of BNP Paribas USA"
+      }
+    ]
+  },
+  {
+    "canonicalName": "BofA Securities",
+    "canonicalSlug": "bofa-securities",
+    "headlineAum": null,
+    "categories": [
+      "investment_banking"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "bofa-securities-prime-inc",
+        "name": "Bofa Securities Prime, INC.",
+        "headquarters": "Charlotte, NC",
+        "aum": null,
+        "categories": [
+          "investment_banking"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of BofA Securities (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "BOK Financial Corporation",
+    "canonicalSlug": "bok-financial",
+    "headlineAum": 4779667621,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "bok-financial-private-wealth-inc",
+        "name": "Bok Financial Private Wealth, INC.",
+        "headquarters": "Denver, CO",
+        "aum": 3721645853,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of BOK Financial Corporation (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Broadridge",
+    "canonicalSlug": "broadridge",
+    "headlineAum": null,
+    "categories": [
+      "market_infrastructure",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "broadridge-business-process-outsourcing-llc",
+        "name": "Broadridge Business Process Outsourcing, LLC",
+        "headquarters": "Edgewood, NY",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Broadridge (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Cantor Fitzgerald",
+    "canonicalSlug": "cantor-fitzgerald",
+    "headlineAum": 3240009707,
+    "categories": [
+      "asset_wealth_management",
+      "investment_banking"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "cantor-fitzgerald-energy-advisors-llc",
+        "name": "Cantor Fitzgerald Energy Advisors, LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Cantor Fitzgerald"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Capital One",
+    "canonicalSlug": "capital-one",
+    "headlineAum": null,
+    "categories": [
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "capital-one-investing-llc",
+        "name": "Capital One Investing, LLC",
+        "headquarters": "Wilmington, DE",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Capital One (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Capitalworks Private Equity Advisor Limited",
+    "canonicalSlug": "capitalworks-private-equity-advisor-limited",
+    "headlineAum": 179118947,
+    "categories": [
+      "other_finance",
+      "private_equity"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "capitalworks-private-equity-advisor-proprietary-limited",
+        "name": "Capitalworks Private Equity Advisor Proprietary Limited",
+        "headquarters": "Johannesburg, Gauteng",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Capitalworks Private Equity Advisor Limited"
+      }
+    ]
+  },
+  {
+    "canonicalName": "CAPTRUST",
+    "canonicalSlug": "captrust",
+    "headlineAum": 2002870528,
+    "categories": [
+      "asset_wealth_management"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "captrust-wealth-advisors",
+        "name": "Captrust Wealth Advisors",
+        "headquarters": "Holland, MI",
+        "aum": 2002870528,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of CAPTRUST (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Cbre Investment Management",
+    "canonicalSlug": "cbre-investment-management",
+    "headlineAum": 23640026498,
+    "categories": [
+      "hedge_fund",
+      "real_estate"
+    ],
+    "confidence": "high",
+    "divisions": [
+      {
+        "slug": "cbre-investment-management-luxembourg-aifm-s-a-r-l",
+        "name": "Cbre Investment Management Luxembourg Aifm S.a R.l.",
+        "headquarters": "Luxembourg",
+        "aum": 799146498,
+        "categories": [
+          "real_estate"
+        ],
+        "confidence": "high",
+        "reason": "offshore domicile of Cbre Investment Management"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Charles Schwab Corporation",
+    "canonicalSlug": "charles-schwab",
+    "headlineAum": 1721025914896,
+    "categories": [
+      "commercial_banking"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "charles-schwab-bank-ssb",
+        "name": "Charles Schwab Bank, SSB",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "commercial_banking"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Charles Schwab Corporation"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Coalition",
+    "canonicalSlug": "coalition",
+    "headlineAum": 48816888,
+    "categories": [
+      "insurance",
+      "venture_capital"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "coalition-operators-llc",
+        "name": "Coalition Operators, LLC",
+        "headquarters": "United States",
+        "aum": 16467500,
+        "categories": [
+          "venture_capital"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Coalition (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Creative Planning",
+    "canonicalSlug": "creative-planning",
+    "headlineAum": 37502470791,
+    "categories": [
+      "asset_wealth_management"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "creative-planning-institutional-advisors-llc",
+        "name": "Creative Planning Institutional Advisors, LLC",
+        "headquarters": "Newport Beach, CA",
+        "aum": 37502470791,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Creative Planning (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Cultivian Sandbox",
+    "canonicalSlug": "cultivian-sandbox",
+    "headlineAum": 90879809,
+    "categories": [
+      "venture_capital"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "cultivian-sandbox-venture-management-llc",
+        "name": "Cultivian Sandbox Venture Management, LLC",
+        "headquarters": "Chicago, IL",
+        "aum": 13168346,
+        "categories": [
+          "venture_capital"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Cultivian Sandbox"
+      }
+    ]
+  },
+  {
+    "canonicalName": "D. E. Shaw",
+    "canonicalSlug": "d-e-shaw",
+    "headlineAum": 213364737381,
+    "categories": [
+      "hedge_fund"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "d-e-shaw-co",
+        "name": "D.E. Shaw & Co",
+        "headquarters": "United States",
+        "aum": 213364737381,
+        "categories": [
+          "hedge_fund"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of D. E. Shaw"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Davis Selected Advisers LP",
+    "canonicalSlug": "davis-selected-advisers-lp",
+    "headlineAum": 52098903997,
+    "categories": [
+      "asset_wealth_management"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "davis-selected-advisers-ny-inc",
+        "name": "Davis Selected Advisers - NY, INC.",
+        "headquarters": "New York, NY",
+        "aum": 21978715086,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Davis Selected Advisers LP"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Deloitte",
+    "canonicalSlug": "deloitte",
+    "headlineAum": null,
+    "categories": [
+      "consulting",
+      "investment_banking"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "deloitte-corporate-finance",
+        "name": "Deloitte Corporate Finance",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "investment_banking"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Deloitte (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Draper Fisher Jurvetson",
+    "canonicalSlug": "draper-fisher-jurvetson",
+    "headlineAum": 11693152114,
+    "categories": [
+      "private_credit",
+      "venture_capital"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "draper-fisher-jurvetson-gotham-management-llc",
+        "name": "Draper Fisher Jurvetson Gotham Management, LLC",
+        "headquarters": "Stamford, CT",
+        "aum": 76300000,
+        "categories": [
+          "venture_capital",
+          "private_credit"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Draper Fisher Jurvetson"
+      }
+    ]
+  },
+  {
+    "canonicalName": "East Coast Asset Management, LLC",
+    "canonicalSlug": "east-coast-asset-management-llc",
+    "headlineAum": 2444580371,
+    "categories": [
+      "asset_wealth_management",
+      "hedge_fund"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "east-coast-asset-management-sezc",
+        "name": "East Coast Asset Management Sezc",
+        "headquarters": "George Town",
+        "aum": 1438466050,
+        "categories": [
+          "hedge_fund"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of East Coast Asset Management, LLC"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Envestnet",
+    "canonicalSlug": "envestnet",
+    "headlineAum": 626340393205,
+    "categories": [
+      "asset_wealth_management",
+      "fintech"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "envestnet-pmc",
+        "name": "Envestnet Pmc",
+        "headquarters": "Berwyn, PA",
+        "aum": 614933249744,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Envestnet (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Evolve Capital",
+    "canonicalSlug": "evolve-capital",
+    "headlineAum": null,
+    "categories": [
+      "investment_banking",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "evolve-capital-ai",
+        "name": "Evolve Capital AI",
+        "headquarters": "Anaheim, CA",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Evolve Capital (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "EY-Parthenon",
+    "canonicalSlug": "ey-parthenon",
+    "headlineAum": null,
+    "categories": [
+      "consulting",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "ey-parthenon-bd-inc",
+        "name": "Ey-parthenon Bd INC.",
+        "headquarters": "Toronto, Ontario",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of EY-Parthenon"
+      }
+    ]
+  },
+  {
+    "canonicalName": "General Atlantic",
+    "canonicalSlug": "general-atlantic",
+    "headlineAum": 125255558471,
+    "categories": [
+      "asset_wealth_management",
+      "private_equity",
+      "real_estate"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "general-atlantic-service-company-l-p",
+        "name": "General Atlantic Service Company, L.P.",
+        "headquarters": "New York, NY",
+        "aum": 125255558471,
+        "categories": [
+          "private_equity",
+          "real_estate",
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of General Atlantic"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Generational Equity",
+    "canonicalSlug": "generational-equity",
+    "headlineAum": 668865356,
+    "categories": [
+      "investment_banking",
+      "real_estate"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "generational-equity-labs-inc",
+        "name": "Generational Equity Labs, INC",
+        "headquarters": "Washington, DC",
+        "aum": 100100000,
+        "categories": [
+          "real_estate"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Generational Equity (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Gilde Healthcare Partners B.v.",
+    "canonicalSlug": "gilde-healthcare-partners-b-v",
+    "headlineAum": 2463342500,
+    "categories": [
+      "private_equity",
+      "venture_capital"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "gilde-healthcare-partners-us-inc",
+        "name": "Gilde Healthcare Partners US, INC.",
+        "headquarters": "Boston, MA",
+        "aum": 81219220,
+        "categories": [
+          "venture_capital"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Gilde Healthcare Partners B.v."
+      }
+    ]
+  },
+  {
+    "canonicalName": "Global Atlantic",
+    "canonicalSlug": "global-atlantic",
+    "headlineAum": 2696672242,
+    "categories": [
+      "insurance",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "global-atlantic-distributors-llc",
+        "name": "Global Atlantic Distributors, LLC",
+        "headquarters": "Hartford, CT",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Global Atlantic (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "GoldenTree Asset Management",
+    "canonicalSlug": "goldentree-asset-management",
+    "headlineAum": 318511665,
+    "categories": [
+      "hedge_fund",
+      "private_credit"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "goldentree-asset-management-credit-advisor-llc",
+        "name": "Goldentree Asset Management Credit Advisor LLC",
+        "headquarters": "New York, NY",
+        "aum": 318511665,
+        "categories": [
+          "private_credit"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of GoldenTree Asset Management (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Harrison Street",
+    "canonicalSlug": "harrison-street",
+    "headlineAum": 24322892636,
+    "categories": [
+      "asset_wealth_management",
+      "real_estate"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "harrison-street-private-wealth-llc",
+        "name": "Harrison Street Private Wealth LLC",
+        "headquarters": "Denver, CO",
+        "aum": 4138608256,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Harrison Street"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Hazard & Siegel, INC.",
+    "canonicalSlug": "hazard-siegel-inc",
+    "headlineAum": 449795352,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "hazard-siegel-advisory-services-llc",
+        "name": "Hazard & Siegel Advisory Services LLC",
+        "headquarters": "Dewitt, NY",
+        "aum": 449795352,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Hazard & Siegel, INC."
+      }
+    ]
+  },
+  {
+    "canonicalName": "Heritage Bank",
+    "canonicalSlug": "heritage-bank",
+    "headlineAum": null,
+    "categories": [
+      "commercial_banking"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "heritage-bank-ourheritage",
+        "name": "Heritage Bank, Inc.",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "commercial_banking"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Heritage Bank (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Horizon Bank",
+    "canonicalSlug": "horizon-bank",
+    "headlineAum": null,
+    "categories": [
+      "commercial_banking"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "horizon-bank-ssb",
+        "name": "Horizon Bank, SSB",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "commercial_banking"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Horizon Bank (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Hub International",
+    "canonicalSlug": "hub-international",
+    "headlineAum": null,
+    "categories": [
+      "insurance",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "hub-international-investment-services-inc",
+        "name": "Hub International Investment Services INC.",
+        "headquarters": "Austin, TX",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Hub International (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "J W Korth & Company",
+    "canonicalSlug": "j-w-korth-company",
+    "headlineAum": 228688211,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "j-w-korth-company-limited-partnership",
+        "name": "J.w. Korth & Company, Limited Partnership",
+        "headquarters": "Lansing, MI",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of J W Korth & Company"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Jackson Financial",
+    "canonicalSlug": "jackson-financial",
+    "headlineAum": 94291677940,
+    "categories": [
+      "asset_wealth_management",
+      "insurance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "jackson-financial-services-llc",
+        "name": "Jackson Financial Services, LLC",
+        "headquarters": "Mt. Pleasant, SC",
+        "aum": 498065507,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Jackson Financial (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "John Hancock Investment Management LLC",
+    "canonicalSlug": "john-hancock-investment-management-llc",
+    "headlineAum": 212052000251,
+    "categories": [
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "john-hancock-investment-management-distributors-llc",
+        "name": "John Hancock Investment Management Distributors LLC",
+        "headquarters": "Boston, MA",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of John Hancock Investment Management LLC"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Kayne Anderson",
+    "canonicalSlug": "kayne-anderson",
+    "headlineAum": 73465876838,
+    "categories": [
+      "asset_wealth_management"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "kayne-anderson-rudnick",
+        "name": "Kayne Anderson Rudnick",
+        "headquarters": "United States",
+        "aum": 39356570820,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Kayne Anderson"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Kearny Jackson, LLC",
+    "canonicalSlug": "kearny-jackson-llc",
+    "headlineAum": 81295518,
+    "categories": [
+      "venture_capital"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "kearny-jackson-vc-llc",
+        "name": "Kearny Jackson Vc, LLC",
+        "headquarters": "United States",
+        "aum": 63124253,
+        "categories": [
+          "venture_capital"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Kearny Jackson, LLC"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Lincoln Investment",
+    "canonicalSlug": "lincoln-investment",
+    "headlineAum": null,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "lincoln-investment-planning-llc",
+        "name": "Lincoln Investment Planning, LLC",
+        "headquarters": "Fort Washington, PA",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Lincoln Investment (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Littlejohn & Co",
+    "canonicalSlug": "littlejohn-co",
+    "headlineAum": 171257236,
+    "categories": [
+      "asset_wealth_management",
+      "private_equity"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "littlejohn-financial-services-inc",
+        "name": "Littlejohn Financial Services INC",
+        "headquarters": "Roseburg, OR",
+        "aum": 171257236,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Littlejohn & Co (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Loomis, Sayles & Co",
+    "canonicalSlug": "loomis-sayles-co",
+    "headlineAum": 386881827641,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "loomis-sayles-distributors-l-p",
+        "name": "Loomis Sayles Distributors, L.P.",
+        "headquarters": "Boston, MA",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Loomis, Sayles & Co"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Lord, Abbett & Co",
+    "canonicalSlug": "lord-abbett-co",
+    "headlineAum": null,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "lord-abbett-distributor-llc",
+        "name": "Lord Abbett Distributor LLC",
+        "headquarters": "Jersey City, NJ",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Lord, Abbett & Co"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Maiden Lane Ventures, LLC",
+    "canonicalSlug": "maiden-lane-ventures-llc",
+    "headlineAum": 248203586,
+    "categories": [
+      "venture_capital"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "maiden-lane-ventures-ii-llc",
+        "name": "Maiden Lane Ventures II , LLC",
+        "headquarters": "San Francisco, CA",
+        "aum": 130597914,
+        "categories": [
+          "venture_capital"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Maiden Lane Ventures, LLC"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Main Street Bank",
+    "canonicalSlug": "main-street-bank",
+    "headlineAum": null,
+    "categories": [
+      "commercial_banking"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "main-street-bank-mymainstreetbank",
+        "name": "Main Street Bank Corp.",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "commercial_banking"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Main Street Bank"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Market Street Wealth Management",
+    "canonicalSlug": "market-street-wealth-management",
+    "headlineAum": 1612980456,
+    "categories": [
+      "asset_wealth_management"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "market-street-wealth-management-advisors-llc",
+        "name": "Market Street Wealth Management Advisors, LLC",
+        "headquarters": "Indianapolis, IN",
+        "aum": 775997048,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Market Street Wealth Management"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Marshall Wace",
+    "canonicalSlug": "marshall-wace",
+    "headlineAum": 58869761275,
+    "categories": [
+      "hedge_fund"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "marshall-wace-us",
+        "name": "Marshall Wace (US)",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "hedge_fund"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Marshall Wace"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Matrix Partners",
+    "canonicalSlug": "matrix-partners",
+    "headlineAum": 1685603545,
+    "categories": [
+      "private_equity",
+      "venture_capital"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "matrix-partners-india-management-llc",
+        "name": "Matrix Partners India Management, LLC",
+        "headquarters": "Port Louis",
+        "aum": 1685603545,
+        "categories": [
+          "venture_capital"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Matrix Partners (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "MidCap Financial",
+    "canonicalSlug": "midcap-financial",
+    "headlineAum": 7270655672,
+    "categories": [
+      "asset_wealth_management",
+      "private_credit",
+      "private_equity"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "midcap-financial-services-capital-management-llc",
+        "name": "Midcap Financial Services Capital Management, LLC",
+        "headquarters": "Bethesda, MD",
+        "aum": 7270655672,
+        "categories": [
+          "private_credit",
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of MidCap Financial (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Monroe Capital",
+    "canonicalSlug": "monroe-capital",
+    "headlineAum": 25260938314,
+    "categories": [
+      "asset_wealth_management",
+      "private_equity"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "monroe-capital-bdc-advisors-llc",
+        "name": "Monroe Capital BDC Advisors, LLC",
+        "headquarters": "Chicago, IL",
+        "aum": 6705330000,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Monroe Capital (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Neuberger Berman",
+    "canonicalSlug": "neuberger-berman",
+    "headlineAum": 1250429106,
+    "categories": [
+      "hedge_fund",
+      "private_equity"
+    ],
+    "confidence": "high",
+    "divisions": [
+      {
+        "slug": "neuberger-berman-aifm-luxembourg-sarl",
+        "name": "Neuberger Berman Aifm Luxembourg Sarl",
+        "headquarters": "Luxembourg",
+        "aum": 1250429106,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "high",
+        "reason": "offshore domicile of Neuberger Berman"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Northern Trust",
+    "canonicalSlug": "northern-trust",
+    "headlineAum": 208387890843,
+    "categories": [
+      "commercial_banking",
+      "hedge_fund"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "northern-trust-asset-management",
+        "name": "Northern Trust Asset Management",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "hedge_fund"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Northern Trust (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Odyssey Group",
+    "canonicalSlug": "odyssey-group",
+    "headlineAum": 610053384,
+    "categories": [
+      "asset_wealth_management",
+      "insurance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "odyssey-group-wealth-advisors",
+        "name": "Odyssey Group Wealth Advisors",
+        "headquarters": "Lancaster, PA",
+        "aum": 420889484,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Odyssey Group (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Oppenheimer & Co",
+    "canonicalSlug": "oppenheimer-and-co",
+    "headlineAum": 177846145,
+    "categories": [
+      "investment_banking",
+      "private_equity"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "oppenheimer-alternative-investment-management-llc",
+        "name": "Oppenheimer Alternative Investment Management, LLC",
+        "headquarters": "New York, NY",
+        "aum": 177846145,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Oppenheimer & Co (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Papamarkou Wellner & CO., INC.",
+    "canonicalSlug": "papamarkou-wellner-co-inc",
+    "headlineAum": 357509070,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "papamarkou-wellner-perkin-advisors",
+        "name": "Papamarkou Wellner Perkin Advisors",
+        "headquarters": "New York, NY",
+        "aum": 357509070,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Papamarkou Wellner & CO., INC."
+      }
+    ]
+  },
+  {
+    "canonicalName": "Pari Passu Ventures LLC",
+    "canonicalSlug": "pari-passu-ventures-llc",
+    "headlineAum": 61330679,
+    "categories": [
+      "private_equity",
+      "venture_capital"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "pari-passu-ventures-lt-llc",
+        "name": "Pari Passu Ventures Lt LLC",
+        "headquarters": "United States",
+        "aum": 4990000,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Pari Passu Ventures LLC"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Partnership Capital Growth, LLC",
+    "canonicalSlug": "partnership-capital-growth-llc",
+    "headlineAum": 141536229,
+    "categories": [
+      "other_finance",
+      "private_equity"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "partnership-capital-growth-investors-management-llc",
+        "name": "Partnership Capital Growth Investors Management, LLC",
+        "headquarters": "Los Gatos, CA",
+        "aum": 141536229,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Partnership Capital Growth, LLC"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Payden & Rygel",
+    "canonicalSlug": "payden-rygel",
+    "headlineAum": 158227256697,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance",
+      "private_credit"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "payden-rygel-distributors",
+        "name": "Payden & Rygel Distributors",
+        "headquarters": "Los Angeles, CA",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Payden & Rygel"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Pershing LLC",
+    "canonicalSlug": "pershing",
+    "headlineAum": null,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "pershing-advisor-solutions-llc",
+        "name": "Pershing Advisor Solutions LLC",
+        "headquarters": "Jersey City, NJ",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Pershing LLC (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Primerica",
+    "canonicalSlug": "primerica",
+    "headlineAum": 15536099534,
+    "categories": [
+      "insurance",
+      "sales_trading"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "primerica-brokerage-services-inc",
+        "name": "Primerica Brokerage Services, INC.",
+        "headquarters": "Duluth, GA",
+        "aum": null,
+        "categories": [
+          "sales_trading"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Primerica (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Principal Financial Group",
+    "canonicalSlug": "principal-financial-group",
+    "headlineAum": null,
+    "categories": [
+      "hedge_fund",
+      "insurance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "principal-financial-group-asset-management",
+        "name": "Principal Financial Group (Asset Management)",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "hedge_fund"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Principal Financial Group (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Prudential Financial",
+    "canonicalSlug": "prudential-financial",
+    "headlineAum": 91470712627,
+    "categories": [
+      "insurance",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "prudential-financial-pgim",
+        "name": "Prudential Financial / PGIM",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Prudential Financial (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Quant Alpha LLC",
+    "canonicalSlug": "quant-alpha-llc",
+    "headlineAum": 417,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "quant-alpha-decisions-llc",
+        "name": "Quant Alpha Decisions LLC",
+        "headquarters": "Naples, FL",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Quant Alpha LLC"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Quantlab",
+    "canonicalSlug": "quantlab",
+    "headlineAum": null,
+    "categories": [
+      "sales_trading"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "quantlab-brokerage-llc",
+        "name": "Quantlab Brokerage, LLC",
+        "headquarters": "Houston, TX",
+        "aum": null,
+        "categories": [
+          "sales_trading"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Quantlab (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Retirement Plan Advisors, LLC",
+    "canonicalSlug": "retirement-plan-advisors-llc",
+    "headlineAum": 3540242913,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "retirement-plan-advisors-services-llc",
+        "name": "Retirement Plan Advisors Services, LLC",
+        "headquarters": "Jefferson City, MO",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Retirement Plan Advisors, LLC"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Santander Bank",
+    "canonicalSlug": "santander-bank",
+    "headlineAum": 3140983898,
+    "categories": [
+      "commercial_banking"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "santander-bank-n-a",
+        "name": "Santander Bank, N.A.",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "commercial_banking"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Santander Bank (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Sarmis Capital Partners S.r.l.",
+    "canonicalSlug": "sarmis-capital-partners-s-r-l",
+    "headlineAum": 202540625,
+    "categories": [
+      "other_finance",
+      "private_equity"
+    ],
+    "confidence": "high",
+    "divisions": [
+      {
+        "slug": "sarmis-capital-partners-i-gp",
+        "name": "Sarmis Capital Partners I GP",
+        "headquarters": "Luxembourg",
+        "aum": 202540625,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "high",
+        "reason": "GP entity of Sarmis Capital Partners S.r.l."
+      }
+    ]
+  },
+  {
+    "canonicalName": "Schroders",
+    "canonicalSlug": "schroders",
+    "headlineAum": 83028104483,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "schroders-greencoat-llp",
+        "name": "Schroders Greencoat LLP",
+        "headquarters": "London",
+        "aum": 483074583,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Schroders (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Securian Financial",
+    "canonicalSlug": "securian-financial",
+    "headlineAum": 41558122082,
+    "categories": [
+      "insurance",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "securian-financial-services-inc",
+        "name": "Securian Financial Services, INC.",
+        "headquarters": "St. Paul, MN",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Securian Financial (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "SEI Investments Company",
+    "canonicalSlug": "sei-investments",
+    "headlineAum": 216428500660,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "sei-investments-distribution-co",
+        "name": "Sei Investments Distribution CO.",
+        "headquarters": "Oaks, PA",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of SEI Investments Company (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Sequoia Capital",
+    "canonicalSlug": "sequoia-capital",
+    "headlineAum": 82165771068,
+    "categories": [
+      "hedge_fund",
+      "private_equity",
+      "venture_capital"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "sequoia-capital-operations-llc",
+        "name": "Sequoia Capital Operations, LLC",
+        "headquarters": "Menlo Park, CA",
+        "aum": 82165771068,
+        "categories": [
+          "private_equity",
+          "venture_capital",
+          "hedge_fund"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Sequoia Capital (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Silver Lake",
+    "canonicalSlug": "silver-lake",
+    "headlineAum": 117699052464,
+    "categories": [
+      "hedge_fund",
+      "private_equity"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "silver-lake-technology-management-llc",
+        "name": "Silver Lake Technology Management, LLC",
+        "headquarters": "Menlo Park, CA",
+        "aum": 117699052464,
+        "categories": [
+          "private_equity",
+          "hedge_fund"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Silver Lake"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Smith, Brown & Groover, INC.",
+    "canonicalSlug": "smith-brown-groover-inc",
+    "headlineAum": 284162648,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "smith-brown-groover-inc-d-b-a-sbg-wealth-management",
+        "name": "Smith, Brown & Groover INC. D/b/a Sbg Wealth Management",
+        "headquarters": "Macon, GA",
+        "aum": 284162648,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Smith, Brown & Groover, INC."
+      }
+    ]
+  },
+  {
+    "canonicalName": "State Farm",
+    "canonicalSlug": "state-farm",
+    "headlineAum": 12938660000,
+    "categories": [
+      "insurance",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "state-farm-vp-management-corp",
+        "name": "State Farm Vp Management CORP.",
+        "headquarters": "Bloomington, IL",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of State Farm"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Stephens Inc",
+    "canonicalSlug": "stephens",
+    "headlineAum": 9552247461,
+    "categories": [
+      "asset_wealth_management",
+      "investment_banking"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "stephens-consulting-llc",
+        "name": "Stephens Consulting, LLC",
+        "headquarters": "Flint, MI",
+        "aum": 5312707,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Stephens Inc (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Swiss Re",
+    "canonicalSlug": "swiss-re",
+    "headlineAum": 6112447046,
+    "categories": [
+      "insurance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "swiss-re-insurance-linked-investment-management-ltd",
+        "name": "Swiss Re Insurance-linked Investment Management LTD",
+        "headquarters": "Zurich",
+        "aum": 1204750963,
+        "categories": [
+          "insurance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Swiss Re"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Third Point",
+    "canonicalSlug": "third-point",
+    "headlineAum": null,
+    "categories": [
+      "hedge_fund",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "third-point-private-capital-llc",
+        "name": "Third Point Private Capital LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Third Point"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Tradeweb",
+    "canonicalSlug": "tradeweb",
+    "headlineAum": null,
+    "categories": [
+      "market_infrastructure",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "tradeweb-direct-llc",
+        "name": "Tradeweb Direct LLC",
+        "headquarters": "New York, NY",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Tradeweb (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Transamerica",
+    "canonicalSlug": "transamerica",
+    "headlineAum": 65942646033,
+    "categories": [
+      "insurance",
+      "investment_banking"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "transamerica-investors-securities-llc",
+        "name": "Transamerica Investors Securities, LLC",
+        "headquarters": "Harrison, NY",
+        "aum": null,
+        "categories": [
+          "investment_banking"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Transamerica (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Tru Independence Asset Management, LLC",
+    "canonicalSlug": "tru-independence-asset-management-llc",
+    "headlineAum": 601597102,
+    "categories": [
+      "asset_wealth_management"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "tru-independence-asset-management-2-llc",
+        "name": "Tru Independence Asset Management 2, LLC",
+        "headquarters": "Portland, OR",
+        "aum": 264745245,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Tru Independence Asset Management, LLC"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Tucker's Farm",
+    "canonicalSlug": "tucker-s-farm",
+    "headlineAum": 249158528,
+    "categories": [
+      "private_equity"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "tucker-s-farm-3-llc",
+        "name": "Tucker's Farm 3, LLC",
+        "headquarters": "Framingham, MA",
+        "aum": 32193480,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Tucker's Farm"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Union Square Ventures",
+    "canonicalSlug": "union-square-ventures",
+    "headlineAum": null,
+    "categories": [
+      "private_equity"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "union-square-ventures-usv",
+        "name": "Union Square Ventures (USV)",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "private_equity"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Union Square Ventures"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Victory Capital",
+    "canonicalSlug": "victory-capital",
+    "headlineAum": 282713179656,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "victory-capital-services-inc",
+        "name": "Victory Capital Services, INC.",
+        "headquarters": "Brooklyn, OH",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Victory Capital (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "Voya Financial",
+    "canonicalSlug": "voya-financial",
+    "headlineAum": 3870673693,
+    "categories": [
+      "asset_wealth_management",
+      "hedge_fund"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "voya-financial-voya-investment-management",
+        "name": "Voya Financial (Voya Investment Management)",
+        "headquarters": "United States",
+        "aum": null,
+        "categories": [
+          "hedge_fund"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of Voya Financial (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "WesBanco",
+    "canonicalSlug": "wesbanco",
+    "headlineAum": 1178482554,
+    "categories": [
+      "commercial_banking",
+      "other_finance"
+    ],
+    "confidence": "low",
+    "divisions": [
+      {
+        "slug": "wesbanco-investment-department",
+        "name": "Wesbanco Investment Department",
+        "headquarters": "Wheeling, WV",
+        "aum": 892606781,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "low",
+        "reason": "brand extension of WesBanco (single-word brand - verify)"
+      }
+    ]
+  },
+  {
+    "canonicalName": "White Lighthouse Investment Management, INC.",
+    "canonicalSlug": "white-lighthouse-investment-management-inc",
+    "headlineAum": 1023181000,
+    "categories": [
+      "asset_wealth_management"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "white-lighthouse-investment-management-s-a-r-l",
+        "name": "White Lighthouse Investment Management S.a.r.l.",
+        "headquarters": "1003 Lausanne",
+        "aum": 104539000,
+        "categories": [
+          "asset_wealth_management"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of White Lighthouse Investment Management, INC."
+      }
+    ]
+  },
+  {
+    "canonicalName": "Wright Investors Service INC",
+    "canonicalSlug": "wright-investors-service-inc",
+    "headlineAum": 1207927898,
+    "categories": [
+      "asset_wealth_management",
+      "other_finance"
+    ],
+    "confidence": "medium",
+    "divisions": [
+      {
+        "slug": "wright-investors-service-distributors-inc",
+        "name": "Wright Investors' Service Distributors, INC.",
+        "headquarters": "Shelton, CT",
+        "aum": null,
+        "categories": [
+          "other_finance"
+        ],
+        "confidence": "medium",
+        "reason": "brand extension of Wright Investors Service INC"
+      }
+    ]
+  }
+]

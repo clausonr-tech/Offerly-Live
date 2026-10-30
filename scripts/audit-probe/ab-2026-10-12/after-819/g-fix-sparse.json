@@ -1,0 +1,491 @@
+{
+  "meta": {
+    "script": "scripts/draft-reply-grader.ts",
+    "ranAt": "2026-10-12T22:48:17.567Z",
+    "judgeModel": "claude-sonnet-5-5",
+    "pinnedModel": "claude-sonnet-5-5",
+    "promptVersion": "reply-grader/1",
+    "promptSha": "8700addf89d0917d22c56b03d0e8805b7dddc72a6d0cc01da37f3424a5cfd300",
+    "promptShaPinned": "8700addf89d0917d22c56b03d0e8805b7dddc72a6d0cc01da37f3424a5cfd300",
+    "comparable": true,
+    "arm": "post",
+    "inputs": [
+      "/private/tmp/claude-501/-Users-kaiclauson-Developer-Offerly-Bing-Bong/b875acd3-e82c-4848-a19b-01e706172ab0/scratchpad/v819/fix-sparse.json"
+    ],
+    "passes": 1,
+    "transport": "claude CLI (subscription); costUsd is notional API accounting, billed to nobody",
+    "blinding": "the judge is sent subject + body only - no id, boxes, leadType, profile, notes, arm, run or commit, and never both arms in one call"
+  },
+  "distribution": {
+    "would_reply": 12,
+    "would_ignore": 4,
+    "off_putting": 0
+  },
+  "byShape": {
+    "ask": {
+      "n": 9,
+      "replied": 9,
+      "ignored": 0,
+      "offPutting": 0
+    },
+    "no_ask": {
+      "n": 3,
+      "replied": 0,
+      "ignored": 3,
+      "offPutting": 0
+    },
+    "conditional": {
+      "n": 4,
+      "replied": 3,
+      "ignored": 1,
+      "offPutting": 0
+    },
+    "unclassified": {
+      "n": 0,
+      "replied": 0,
+      "ignored": 0,
+      "offPutting": 0
+    }
+  },
+  "errored": 0,
+  "tells": {
+    "cv_recital": 12,
+    "no_ask": 5,
+    "template_closer": 4,
+    "no_specific_reason": 1,
+    "nothing_for_me": 1
+  },
+  "calibration": null,
+  "stability": null,
+  "usage": {
+    "inputTokens": 32,
+    "outputTokens": 3549,
+    "cacheReadTokens": 32096,
+    "cacheWriteTokens": 11675,
+    "costUsd": 0.08867320000000001
+  },
+  "results": [
+    {
+      "id": "801",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "recruiter_outreach",
+      "pass": 1,
+      "words": 114,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "Two concrete, easy questions I can answer in two lines (\"when does the application usually open? ... does the program feed into the summer analyst class?\"), and she's a Duke student writing to the Duke recruiter.",
+        "worst_line": "My resume is attached in case it's useful for the sophomore program.",
+        "tells": [
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 215,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 773,
+        "costUsd": 0.0056472
+      },
+      "ms": 4221
+    },
+    {
+      "id": "802",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "recruiter_outreach",
+      "pass": 1,
+      "words": 110,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "The two questions are concrete and I can answer them in two lines (\"when does the application open?\"), or I'd point her to the recruiting team.",
+        "worst_line": "I found your profile on LinkedIn while looking into how Morrow & Pike recruits sophomores.",
+        "tells": [
+          "no_specific_reason",
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 212,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 753,
+        "costUsd": 0.0055372
+      },
+      "ms": 3991
+    },
+    {
+      "id": "803",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "cold_referral",
+      "pass": 1,
+      "words": 133,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "A named colleague pointed her to me (\"Emily Tran, who interned on the consumer team last summer, suggested I reach out\"), and the ask is a clear, small 10-15 minute call, so I'd write back with a time.",
+        "worst_line": "Any day that suits you works for me.",
+        "tells": []
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 205,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 782,
+        "costUsd": 0.0055832
+      },
+      "ms": 4009
+    },
+    {
+      "id": "804",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "cold_referral",
+      "pass": 1,
+      "words": 106,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "Referral from a named colleague in the subject line, plus two easy factual questions (\"when does the sophomore program open for applications?\") I can answer in two lines as a recruiter.",
+        "worst_line": "On campus, I am a consumer sector analyst in the Duke Investment Club.",
+        "tells": [
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 210,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 733,
+        "costUsd": 0.0054372000000000005
+      },
+      "ms": 4305
+    },
+    {
+      "id": "805",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "cold_after_meeting",
+      "pass": 1,
+      "words": 129,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "We met in person, she's a fellow Duke alum, and the ask is small and clear: \"10 to 15 minutes for a call\", so I'd send a quick yes.",
+        "worst_line": "As a consumer sector analyst in the Duke Investment Club, I'm drawn to retail stories like that one.",
+        "tells": [
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 217,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 787,
+        "costUsd": 0.0057232
+      },
+      "ms": 4120
+    },
+    {
+      "id": "806",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "cold_referral",
+      "pass": 1,
+      "words": 127,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "We met at the SEO summit, Emily Tran referred her, and she asks for a specific 10-15 minute call, so I'd write back with a time, as in \"Referred by Emily Tran\".",
+        "worst_line": "Would you have 10-15 minutes for a call about your path, the firm and your work?",
+        "tells": [
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 216,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 779,
+        "costUsd": 0.0056812
+      },
+      "ms": 3960
+    },
+    {
+      "id": "807",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "cold_referral",
+      "pass": 1,
+      "words": 124,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "A named referral from Emily Tran plus a prior meeting at the summit gives me a reason to answer, and the two questions (\"when does the sophomore program open for applications?\") are quick to reply to.",
+        "worst_line": "I'm graduating in 2029, and this summer at Pinecrest Wealth Partners I built a screening model for 40 dividend stocks used in client portfolio reviews.",
+        "tells": [
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 247,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 783,
+        "costUsd": 0.0060072
+      },
+      "ms": 3982
+    },
+    {
+      "id": "808",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "conference_follow_up",
+      "pass": 1,
+      "words": 122,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "We actually met at lunch (\"We spoke at the Morrow & Pike table over lunch, about the grocery turnaround\"), and the two questions about when the sophomore program opens and whether it feeds the summer analyst class are quick for me to answer in a couple of lines.",
+        "worst_line": "I interned at Pinecrest Wealth Partners this summer, where I built a screening model for 40 dividend stocks.",
+        "tells": [
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 254,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 782,
+        "costUsd": 0.0060732
+      },
+      "ms": 3916
+    },
+    {
+      "id": "809",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "redirect_sequence",
+      "pass": 1,
+      "words": 92,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "Marcus Delacroix pointed her to me (\"he suggested I write to you\"), she's a Duke alum like me, and the ask is a small, clear 10-minute call, so I'd write back with a time.",
+        "worst_line": "Thank you for your time!",
+        "tells": [
+          "template_closer",
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 208,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 730,
+        "costUsd": 0.0054052
+      },
+      "ms": 3657
+    },
+    {
+      "id": "813",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "thank_you_offered_help",
+      "pass": 1,
+      "words": 106,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "She offered to pass the resume along, and the email makes it easy by attaching it (\"It's attached so it's easy to forward\"), with a specific takeaway from her talk; forwarding it or replying with a one-liner takes me almost no effort.",
+        "worst_line": "Thank you again for your time and your help!",
+        "tells": [
+          "template_closer"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 216,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 729,
+        "costUsd": 0.0054812
+      },
+      "ms": 5355
+    },
+    {
+      "id": "814",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "thank_you_offered_help",
+      "pass": 1,
+      "words": 96,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "The student attended my session, references a specific part (\"how applications move from the portal to a first round list\"), and says I offered to pass along a resume, so I'd forward it or send a quick acknowledgment.",
+        "worst_line": "I'm not asking for anything beyond that, and I'm grateful for your help.",
+        "tells": [
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 215,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 712,
+        "costUsd": 0.0054032
+      },
+      "ms": 5704
+    },
+    {
+      "id": "815",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "keep_in_touch",
+      "pass": 1,
+      "words": 91,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "It's a real follow-up from someone I actually spoke with (\"We spoke in March about consumer coverage\"), it's short, and the promotion congratulations plus the update give me an easy one-line \"thanks, great to hear, keep in touch\" to type.",
+        "worst_line": "Thank you for the time you gave me in March.",
+        "tells": [
+          "no_ask",
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 228,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 702,
+        "costUsd": 0.0054932
+      },
+      "ms": 5763
+    },
+    {
+      "id": "816",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "close_loop_referrer",
+      "pass": 1,
+      "words": 63,
+      "graded": {
+        "verdict": "would_ignore",
+        "reason": "It's a polite thank-you for an intro I made, and I'd read it warmly but have nothing to answer, since \"I'll keep you posted on how things go\" asks for nothing.",
+        "worst_line": "I'll keep you posted on how things go.",
+        "tells": [
+          "no_ask",
+          "template_closer"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 204,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 643,
+        "costUsd": 0.0050172
+      },
+      "ms": 4542
+    },
+    {
+      "id": "817",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "close_loop_referrer",
+      "pass": 1,
+      "words": 50,
+      "graded": {
+        "verdict": "would_ignore",
+        "reason": "It's a polite thank-you after an intro I made, and I'd read it warmly, but \"No reply is needed\" means I'd just move on without typing anything.",
+        "worst_line": "No reply is needed.",
+        "tells": [
+          "no_ask"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 184,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 630,
+        "costUsd": 0.004765200000000001
+      },
+      "ms": 3937
+    },
+    {
+      "id": "818",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "close_loop_referrer",
+      "pass": 1,
+      "words": 84,
+      "graded": {
+        "verdict": "would_ignore",
+        "reason": "It's a warm thank-you for an intro I made, and I'd smile at \"Thank you for introducing me to Ben Ortega\". It asks nothing, and the last paragraph is just a résumé line, so I'd write nothing back.",
+        "worst_line": "After we talked about consumer coverage in March, I spent the summer as an intern at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews.",
+        "tells": [
+          "cv_recital",
+          "no_ask"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 277,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 688,
+        "costUsd": 0.0059272000000000005
+      },
+      "ms": 4769
+    },
+    {
+      "id": "819",
+      "source": "fix-sparse.json",
+      "arm": "post",
+      "leadType": "redirect_sequence",
+      "pass": 1,
+      "words": 70,
+      "graded": {
+        "verdict": "would_ignore",
+        "reason": "It thanks me for an intro and recites a summer internship (\"built a screening model for 40 dividend stocks\"), but it asks for nothing and gives me nothing to answer, so I'd read it and move on.",
+        "worst_line": "I'd love to stay in touch, and I hope your fall is off to a good start.",
+        "tells": [
+          "no_ask",
+          "cv_recital",
+          "template_closer",
+          "nothing_for_me"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 241,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 669,
+        "costUsd": 0.0054912
+      },
+      "ms": 4856
+    }
+  ]
+}

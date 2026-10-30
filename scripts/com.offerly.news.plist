@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  The news pipeline, every 30 minutes: collect from the approved sources,
+  label new stories, group and rank them for the News tab.
+
+  Model calls go through the `claude` CLI on the owner's Claude subscription,
+  not the API. Sign the CLI in once before installing (see
+  scripts/scheduled-news.sh); a signed-out run still collects, and says
+  AI-BLOCKED in ~/offerly-audit/last-news-run.txt.
+
+  Install (all three schedules):
+    cp scripts/com.offerly.news*.plist ~/Library/LaunchAgents/
+    launchctl load ~/Library/LaunchAgents/com.offerly.news.plist
+    launchctl load ~/Library/LaunchAgents/com.offerly.news-desk.plist
+    launchctl load ~/Library/LaunchAgents/com.offerly.news-scout.plist
+
+  Uninstall: launchctl unload the same three paths.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.offerly.news</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>"/Users/kaiclauson/Developer/Offerly Bing Bong/scripts/scheduled-news.sh" run</string>
+  </array>
+
+  <key>StartInterval</key>
+  <integer>1800</integer>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/offerly-news.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/offerly-news.err.log</string>
+
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>

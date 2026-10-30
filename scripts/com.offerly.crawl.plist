@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  The crawl, HOURLY.
+
+  Replaces the weekly com.offerly.crawl-refresh, whose cadence made the tier
+  system decorative: monitoring_tiers says bulge bracket every 60 minutes and
+  standard every 12 hours, and monitor-run honours those by only fetching
+  sources whose nextCheckAt is due - but a weekly trigger meant a 60 minute
+  tier was in fact checked weekly.
+
+  Hourly here does NOT mean crawling every source hourly. It means asking
+  once an hour which sources are due, which is the question the tiers were
+  written to answer. When nothing is due the run is a database query and
+  exits.
+
+  Costs nothing: the crawl hits free, unauthenticated ATS endpoints and
+  headless Chromium, and spends zero Anthropic tokens. The one paid step -
+  the capped eligibility backfill - is on com.offerly.weekly.plist instead.
+
+  Install:
+    cp scripts/com.offerly.crawl.plist ~/Library/LaunchAgents/
+    launchctl load ~/Library/LaunchAgents/com.offerly.crawl.plist
+
+  Uninstall:
+    launchctl unload ~/Library/LaunchAgents/com.offerly.crawl.plist
+
+  Skipped runs are recorded in ~/offerly-audit/last-scheduled-run.txt rather
+  than vanishing into a log - see scripts/scheduled-crawl.sh.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.offerly.crawl</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>"/Users/kaiclauson/Developer/Offerly Bing Bong/scripts/scheduled-crawl.sh" crawl</string>
+  </array>
+
+  <key>StartInterval</key>
+  <integer>3600</integer>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/offerly-crawl.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/offerly-crawl.err.log</string>
+
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>

@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-13T15:53:40.710Z",
+  "entries": {
+    "overview": {
+      "hash": "6b0823096ca24ebf55d693c0c55ea8bdb3dac18a95cb4f3c9ad2ccdc6e84a42e",
+      "sources": [
+        "src/lib/firm-help-guide.ts",
+        "src/lib/firm-nav.ts"
+      ],
+      "title": "overview",
+      "text": "OVERVIEW\n\nThe Offerly firm portal is where recruiters at banks, funds and other finance firms post internships and campus events to the college students who match with their firm, and see how those students engage.\n\nTo access the portal, sign in at /firms/login with your work email and password. Your work email is confirmed with a code once when you create the account. A sign-in lasts two weeks.\n\nThe portal has three main sections in the sidebar:\n\nPostings (/firms/postings): where you add internships and campus events. When you post an internship, you give the role title, sectors, which summer it runs, and how students apply. It goes live straight away and every matched, eligible student gets notified. When you post an event like a speaker session or info session, you pick which schools it is for, and matched students at those schools are notified. From Postings you can also edit any post or close it to stop showing it to students; closed posts keep their analytics and can be reopened.\n\nAnalytics (/firms/analytics): where you see how students engage. You see totals only: how many students were notified about your posts, clicked apply, or opened or saved your events. You also see - for students who chose to share their profile with firms - how many matched with you, found contacts at your firm, or tracked your roles, and which schools and class years they come from. Groups of fewer than five students are never shown.\n\nStudent matching (/firms/students): where you find students to reach out to. Set your requirements by class years, sectors, cities, schools, degrees and majors; any empty group accepts anyone. You see students who meet them, best first, with why each one matches. Message them on Offerly, email them, open their LinkedIn or read their resume. Only students who chose to share their profile with firms ever appear.\n\nFrom the top bar, use Team (/firms/team) to approve colleagues who sign up with their work email, remove leavers, and hand over ownership. Help answers questions about the portal."
+    },
+    "shell": {
+      "hash": "f925b249884e1b02e37ba1228bda24fd68dbd384ff7ffdd535d7c83fe7503432",
+      "sources": [
+        "src/app/(app)/Footer.tsx",
+        "src/app/(app)/Logo.tsx",
+        "src/app/(app)/Sidebar.tsx",
+        "src/app/(app)/UserMenu.tsx",
+        "src/app/firms/(portal)/FirmHelpMenu.tsx",
+        "src/app/firms/(portal)/FirmNotificationBell.tsx",
+        "src/app/firms/(portal)/FirmNotificationSlot.tsx",
+        "src/app/firms/(portal)/actions.ts",
+        "src/app/firms/(portal)/layout.tsx",
+        "src/app/firms/(portal)/relative-time.ts",
+        "src/lib/firm-account.ts",
+        "src/lib/firm-help-guide.ts",
+        "src/lib/sidebar-rail.ts"
+      ],
+      "title": "Around the portal",
+      "text": "For: navigating and managing your firm account in the Offerly firm portal.\n\nGet there: always visible when signed in to a firm account; the portal frame wraps every page at /firms.\n\nDo here:\n- \"Sections\" sidebar: navigate between Postings, Student matching, and Analytics when your account is approved. Click the section you are on to jump to its top.\n- Offerly logo and \"Firms\" label: link to the firm portal home (/firms).\n- \"Help\" button: search the portal help guide by typing keywords like \"event\", \"analytics\" or \"team\". Results link to full answers. Open the full guide or ask the Help assistant from the footer.\n- notification bell: see new milestones and updates about your posts. The badge shows unread count; opening the bell reads them. Link to the notification center from the footer.\n- account menu: click your name initial to open a dropdown. Choose \"Team\" to approve colleagues, \"Notifications\" to see all updates, \"Settings\" for your profile, \"Help\" for the guide, or \"Sign out\" to end your session.\n\nLimits:\n- Only approved firm accounts see the portal sections. Accounts waiting for approval see a message explaining the status and the full help guide inline.\n- \"Team\" and \"Notifications\" appear in the account menu only for approved accounts.\n- Sessions last 14 days.\n\nRelated: /firms/help (full Help guide and assistant), /firms/settings (account profile)"
+    },
+    "/firms": {
+      "hash": "39b9a2ec7741822c8c2561283ae137a5e4d213d8658da174549cbc2005070559",
+      "sources": [
+        "src/app/(app)/Footer.tsx",
+        "src/app/(app)/Logo.tsx",
+        "src/app/(app)/Sidebar.tsx",
+        "src/app/(app)/UserMenu.tsx",
+        "src/app/firms/(portal)/FirmHelpMenu.tsx",
+        "src/app/firms/(portal)/FirmNotificationBell.tsx",
+        "src/app/firms/(portal)/FirmNotificationIcon.tsx",
+        "src/app/firms/(portal)/FirmNotificationSlot.tsx",
+        "src/app/firms/(portal)/LocalDateTime.tsx",
+        "src/app/firms/(portal)/SavedToast.tsx",
+        "src/app/firms/(portal)/actions.ts",
+        "src/app/firms/(portal)/form-ui.tsx",
+        "src/app/firms/(portal)/layout.tsx",
+        "src/app/firms/(portal)/notification-actions.ts",
+        "src/app/firms/(portal)/page.tsx",
+        "src/app/firms/(portal)/relative-time.ts",
+        "src/lib/content-limits.ts",
+        "src/lib/firm-account.ts",
+        "src/lib/firm-help-guide.ts",
+        "src/lib/help-chat-rules.ts",
+        "src/lib/sidebar-rail.ts",
+        "src/lib/use-anchored-panel.ts"
+      ],
+      "title": "Firm Portal Home",
+      "text": "For: opens Postings (/firms/postings)"
+    },
+    "/firms/analytics": {
+      "hash": "729bc9787dd2ac36899e77bbf5706921e2cc0a289c3712e96d9aef5c7cedeb55",
+      "sources": [
+        "src/app/firms/(portal)/LocalDateTime.tsx",
+        "src/app/firms/(portal)/analytics/page.tsx",
+        "src/lib/firm-analytics-rules.ts"
+      ],
+      "title": "Analytics",
+      "text": "For: See how students engage with your internships, events, and firm profile - total counts only, never individual student data.\nGet there: \"Analytics\" in the sidebar; /firms/analytics\nDo here:\n- View \"Your posts\" stat cards: see total students notified, apply clicks with student count, event clicks, and calendar adds\n- Check \"Engagement, last 8 weeks\" chart: hover over each week's column to see clicks that week\n- Browse \"Internships\" table: for each active or closed role, see students notified, total clicks, and unique students who clicked\n- Browse \"Events\" table: for each event with its date, see students notified, clicks, and saves to calendar\n- Expand \"Students interested in you\" section when available: view matched students (on your top-firms list), those who found contacts at your firm, students tracking your roles, and interviewing students\n- View \"From match to application\" funnel: see students at each stage with percentages of matched students\n- Examine breakdown panels: see \"Schools\", \"Class years\", \"Where they want to work\", and \"Degree\" distributions as horizontal bar charts, largest first\nLimits:\n- Groups of fewer than 5 students never appear in any breakdown; they show as \"Fewer than 5\" or fold into \"Other\"\n- Clicks by the same student within ten minutes count once\n- Demo firm data includes sample numbers and clicks from demo accounts\n- Student profile data (schools, class years, locations, degrees) only appears if students opted in to share profiles with firms\n- A note on page shows when data was last updated"
+    },
+    "/firms/demo": {
+      "hash": "dde69840f8f8b9c058f27bf33705bdd4fc3db254d80772f3acbf293b087a9ed2",
+      "sources": [
+        "src/app/(marketing)/illustrations.tsx",
+        "src/app/AuthShell.tsx",
+        "src/app/firms/FirmAuthFields.tsx",
+        "src/app/firms/auth-actions.ts",
+        "src/app/firms/demo/DemoLoginForm.tsx",
+        "src/app/firms/demo/page.tsx",
+        "src/lib/firm-demo.ts"
+      ],
+      "title": "Firm Demo",
+      "text": "For: trying the firm portal with a demonstration account before signing up with your real firm\nGet there: from /firms/login (the main firm sign-in page), or visit /firms/demo\nDo here:\n- \"Email\": prefilled with the demo account email; you can change it\n- \"Password\": enter the demo password (shared by the Offerly team)\n- \"Show password\" / \"Hide password\": toggle password visibility\n- \"Sign in to the demo\": submit the form to enter the demo portal\n- \"Sign in with your own account\": link back to /firms/login if you are at a real firm\nLimits:\n- only accessible if you are not already signed in as a firm recruiter\n- anything you post in the demo reaches only demo student accounts, never real students\nRelated: Firm Login (/firms/login)"
+    },
+    "/firms/events": {
+      "hash": "cb303fabbf7b202815ba1214156c5b74af378a9d00449588cef0e744f35e04c9",
+      "sources": [
+        "src/app/firms/(portal)/LocalDateTime.tsx",
+        "src/app/firms/(portal)/events/EventForm.tsx",
+        "src/app/firms/(portal)/events/EventList.tsx",
+        "src/app/firms/(portal)/events/SchoolPicker.tsx",
+        "src/app/firms/(portal)/events/actions.ts",
+        "src/app/firms/(portal)/events/event-form-data.ts",
+        "src/app/firms/(portal)/events/page.tsx",
+        "src/app/firms/(portal)/form-ui.tsx",
+        "src/lib/content-limits.ts"
+      ],
+      "title": "Events",
+      "text": "For: post campus recruiting events (info sessions, speaker events, case competitions, office tours, etc.) and manage which ones are live\nGet there: \"Postings\" in the sidebar, then the \"Events\" tab at /firms/postings?type=events\nDo here:\n- \"Post event\": open the form to create a new event\n- \"Edit\": open an existing event's form to change its details\n- \"Close\": take a live event down so matched students no longer see it\n- \"Reopen\": put a closed event back live\n- Search by \"Kind of event\", \"Title\", event date, location, and school to find events in the list\nLimits:\n- Event title: character limit applies\n- Custom event type name (when \"Kind of event\" is \"Other\"): character limit applies\n- Description: character limit applies\n- Location: character limit applies (required if format is not virtual)\n- RSVP link: must be a valid URL\n- Event must have a start date and time\n- If removed by Offerly, event shows \"Removed by Offerly\" and cannot be edited or reopened; contact support\n- Description, title, custom event type name, and location are checked for blocked language and profanity; posts will be rejected if found\n- An event can be open to specific schools (picked from a searchable list of verified schools) or open to matched students at any school\nRelated: Postings (/firms/postings)"
+    },
+    "/firms/events/[id]": {
+      "hash": "653887d4981432de6b16d826be5db72c871ca40e4426aebdaab8351b2b78d2d1",
+      "sources": [
+        "src/app/firms/(portal)/events/EventForm.tsx",
+        "src/app/firms/(portal)/events/SchoolPicker.tsx",
+        "src/app/firms/(portal)/events/[id]/page.tsx",
+        "src/app/firms/(portal)/events/actions.ts",
+        "src/app/firms/(portal)/events/event-form-data.ts",
+        "src/app/firms/(portal)/form-ui.tsx"
+      ],
+      "title": "Edit event",
+      "text": "For: edit a campus event you posted to students at one or more schools\nGet there: from Events list (/firms/postings?type=events), click an event name; or go to /firms/events/[id]\nDo here:\n- \"Kind of event\": choose from a dropdown (info session, speaker event, workshop, networking, recruiting fair, or other)\n- \"What kind of event?\": if you picked \"other\", enter a custom event type students will see\n- \"Title\": name the event, up to character limit\n- \"Description\": explain who is speaking, what students will hear, and who should attend\n- \"Open to students at any school\": check to notify all matched students; leave unchecked to pick specific schools\n- school picker: search and add schools one at a time; students at your firm's verified schools are matched; remove schools by clicking the X on each tag\n- \"Starts\": set date and time in your time zone (required)\n- \"Ends\": set end date and time (optional)\n- \"Format\": choose in-person, virtual, or hybrid\n- \"Where\": enter location if format is not virtual (building name and room)\n- \"RSVP link\": paste a URL where students sign up, if needed\n- \"Register by\": set registration deadline date (optional)\n- \"Save changes\": submit edits; on success, redirects to Events list with confirmation message\n- \"Cancel\": go back to Events list without saving\nLimits:\n- title, custom event type label, location, and description each have character limits\n- \"Starts\" is required; all other date fields are optional\n- \"Where\" is required if format is in-person or hybrid, not shown for virtual events\n- only your firm's verified schools appear in the picker\nRelated: Events list (/firms/postings?type=events)"
+    },
+    "/firms/events/new": {
+      "hash": "795260b676a06f12b5f5d4440c32dfb3808b527e06f13b77ef89f1c281a68f02",
+      "sources": [
+        "src/app/firms/(portal)/events/EventForm.tsx",
+        "src/app/firms/(portal)/events/SchoolPicker.tsx",
+        "src/app/firms/(portal)/events/actions.ts",
+        "src/app/firms/(portal)/events/event-form-data.ts",
+        "src/app/firms/(portal)/events/new/page.tsx",
+        "src/app/firms/(portal)/form-ui.tsx"
+      ],
+      "title": "Post an event",
+      "text": "For: Create a new campus event for students matched with your firm to see.\nGet there: \"Events\" in the sidebar, then \"Post event\" button; /firms/events/new\nDo here:\n- \"Kind of event\": Choose from a list (info session, speaker event, etc.). If you pick \"other\", a second field \"What kind of event?\" appears where you name it.\n- \"Title\": Name the event, e.g. \"Life in M&A with our TMT group\".\n- \"Description\": Explain who is speaking, what students will hear, and who should come.\n- \"Open to students at any school\": Check this to notify all matched students. If unchecked, use the school picker below.\n- School picker: Search and add schools one at a time. Each picked school shows as a removable tag. Students matched with your firm at these schools are notified. When \"Open to students at any school\" is checked, this picker is disabled.\n- \"Starts\": Required. Set the date and time in your own time zone.\n- \"Ends\": Set the end date and time (optional).\n- \"Format\": Choose from a list. If you pick \"virtual\", the \"Where\" field disappears.\n- \"Where\": Required if format is not virtual. Example: \"Huntsman Hall, Room G06\".\n- \"RSVP link\": Paste a URL where students sign up (optional).\n- \"Register by\": Set a registration deadline date (optional).\n- \"Post event\": Submit the form. Matched students are notified immediately.\n- \"Cancel\": Return to events without saving.\nLimits:\n- All required fields must be filled before posting.\n- Title, \"What kind of event?\", \"Where\", and \"Register by\" have character or format limits.\n- When format is \"virtual\", \"Where\" is not shown or required.\nRelated: Events list (/firms/postings?type=events)"
+    },
+    "/firms/help": {
+      "hash": "2f0174ab4e8632bab8aa20931e78e78abf9575e2113c0b94020858204f13f336",
+      "sources": [
+        "src/app/(app)/help/HelpChat.tsx",
+        "src/app/(app)/help/help-actions.ts",
+        "src/app/firms/(portal)/actions.ts",
+        "src/app/firms/(portal)/help/page.tsx",
+        "src/lib/firm-help-assistant-prompt.ts",
+        "src/lib/firm-help-guide.ts"
+      ],
+      "title": "Help",
+      "text": "For: Get answers about the firm portal, posting internships and events, analytics, and campus recruiting from an AI assistant.\nGet there: The help icon or \"Help\" link (exact location not specified in code); /firms/help\nDo here:\n- Ask questions in the text field labeled \"Ask me anything...\": type or paste, then press Enter to send, or Shift+Enter for a new line. The assistant answers in bullet points.\n- Click suggested questions at the top (like \"How do I post an internship?\") to start a conversation without typing.\n- Read answers that include links to related pages (shown as underlined page names with addresses).\n- Browse \"The guide\" section below the assistant: links to \"Post an internship\", \"Post a speaker event or info session\", \"See how students engage\", \"Edit or close a post\", \"Find students to reach out to\", \"Add or remove teammates\", and \"Signing in\", each with a summary.\nLimits:\n- Questions are limited to 1000 characters; the assistant will show your character count when you approach the limit.\n- You can ask as many questions as you like, but the assistant only keeps the last 30 messages in the conversation.\n- The assistant answers from knowledge of the firm portal only; it will decline questions outside recruiting and Offerly.\nRelated: Postings (/firms/postings), Events (/firms/events/new), Analytics (/firms/analytics), Student matching (/firms/students), Team (/firms/team)"
+    },
+    "/firms/internships": {
+      "hash": "81d4ec1e0903f890d7f23c39671dcc98ddd36f7c6d117c8245ac9478d3db0cfc",
+      "sources": [
+        "src/app/firms/(portal)/form-ui.tsx",
+        "src/app/firms/(portal)/internships/PostingForm.tsx",
+        "src/app/firms/(portal)/internships/PostingList.tsx",
+        "src/app/firms/(portal)/internships/actions.ts",
+        "src/app/firms/(portal)/internships/page.tsx",
+        "src/app/firms/(portal)/internships/posting-form-data.ts",
+        "src/lib/content-limits.ts"
+      ],
+      "title": "Post an internship",
+      "text": "For: creating and editing internship postings for students to find and apply to\nGet there: \"Internships\" tab in the sidebar at /firms/postings?type=internships\nDo here:\n- \"Role title\": enter the internship's name\n- \"Sectors\": tick every industry the role belongs to\n- \"Which summer\": pick the summer year from a dropdown\n- \"Location\": optionally enter a city or region\n- \"Graduating classes that can apply\": tick Class of years to limit; leave all unticked to allow any year\n- \"Deadline\": pick \"A set date\", \"Rolling\", or \"Not set yet\"; selecting \"A set date\" requires an \"Apply by\" date\n- \"Applications open\": optionally pick a date when applications start\n- \"Application link\": optionally enter a URL where students apply\n- \"Contact email\": optionally enter an email shown to students\n- \"Contact name\" and \"Contact title\": optionally enter your name and title\n- \"Description\": write a required message shown to students\n- \"Requirements\": optionally describe GPA, degree, visa or other requirements\n- \"Extra details\": optionally add custom labelled fields like compensation or start date; click \"Add a detail\", then type a label and value for each; click X to remove one\n- \"Save changes\" or \"Post internship\" button: submit the form; new postings notify matched students and go live immediately\n- \"Cancel\": return to the postings list without saving\nLimits:\n- \"Role title\", \"Location\", \"Contact name\", \"Contact title\", \"Description\", \"Requirements\", and \"Extra details\" labels and values have character limits\n- \"Description\" has a minimum character limit\n- Maximum number of \"Extra details\" fields allowed\n- Required fields: \"Role title\", at least one \"Sectors\", \"Description\"\n- Text cannot contain slurs, hateful language, or profanity\nRelated: Postings list (/firms/postings), view or close internship (/firms/internships/{id})"
+    },
+    "/firms/internships/[id]": {
+      "hash": "8fa0eaaea0eff782b1f103656b696896f30541373f09967601d85ae28d71d62d",
+      "sources": [
+        "src/app/firms/(portal)/form-ui.tsx",
+        "src/app/firms/(portal)/internships/PostingForm.tsx",
+        "src/app/firms/(portal)/internships/[id]/page.tsx",
+        "src/app/firms/(portal)/internships/actions.ts",
+        "src/app/firms/(portal)/internships/posting-form-data.ts"
+      ],
+      "title": "Edit internship",
+      "text": "For: Edit an internship posting you have already published.\nGet there: \"Internships\" link on the postings list (/firms/postings?type=internships), then click an internship; or directly at /firms/internships/[id]\nDo here:\n- \"Role title\": type the job title. Required field.\n- \"Sectors\": tick every industry this role belongs to. Required field.\n- \"Which summer\": pick the year from the dropdown. Required field.\n- \"Location\": type the office location.\n- \"Graduating classes that can apply\": tick eligible class years. Leave all unticked if any class year can apply.\n- \"Deadline\": choose \"A set date\", \"Rolling\", or \"Not set yet\". If you pick \"A set date\", enter the required deadline date in \"Apply by\".\n- \"Applications open\": enter when applications become available.\n- \"Application link\": paste the URL where students apply. Provide this, a contact email, or both.\n- \"Contact email\": enter the email students can reach you at.\n- \"Contact name\": type your name.\n- \"Contact title\": type your job title.\n- \"Description\": write what students need to know about the team, work, program length, and interview process. Required field.\n- \"Requirements\": list qualifications like GPA or visa sponsorship.\n- \"Extra details\": click \"Add a detail\" to create custom labelled fields for compensation, start date, or anything else. Click the X button to remove a field.\n- \"Save changes\": submit to update the posting. Matched students are notified of changes.\n- \"Cancel\": discard changes and return to the internships list.\nLimits:\n- Character limits apply to \"Role title\", \"Contact name\", \"Contact title\", \"Location\", \"Description\", \"Requirements\", and each \"Extra details\" label and value.\n- Maximum number of custom fields in \"Extra details\".\nRelated: Internships list (/firms/postings?type=internships), New internship posting (/firms/internships/new)"
+    },
+    "/firms/internships/new": {
+      "hash": "1a061a7e73ce200f9da147de600245a93d0dc61d3694d734a88f1eeda4790d07",
+      "sources": [
+        "src/app/firms/(portal)/form-ui.tsx",
+        "src/app/firms/(portal)/internships/PostingForm.tsx",
+        "src/app/firms/(portal)/internships/actions.ts",
+        "src/app/firms/(portal)/internships/new/page.tsx",
+        "src/app/firms/(portal)/internships/posting-form-data.ts"
+      ],
+      "title": "Post an internship",
+      "text": "For: creating a new internship posting for students to see and apply to\nGet there: \"Internships\" link from /firms/postings?type=internships, then the new posting button; web address /firms/internships/new\nDo here:\n- \"Role title\": enter the internship's name, up to 100 characters. Required.\n- \"Sectors\": tick every industry the role belongs to. Required.\n- \"Which summer\": pick the summer year from the dropdown. Required.\n- \"Location\": enter where the internship is based, up to 100 characters. Optional.\n- \"Graduating classes that can apply\": tick each eligible class year. Leave all unticked if any class year can apply.\n- \"Deadline\": choose \"A set date\", \"Rolling\", or \"Not set yet\". If \"A set date\", an \"Apply by\" date field appears and is required.\n- \"Applications open\": enter the date applications become available. Optional.\n- \"Application link\": enter a URL where students submit applications. Optional.\n- \"Contact email\": enter an email students can reach you at. Optional.\n- \"Contact name\": enter your name, up to 100 characters. Optional.\n- \"Contact title\": enter your title, up to 100 characters. Optional.\n- \"Description\": write details about the team, work, program length, and interview process. Required. 50 to 5000 characters.\n- \"Requirements\": list GPA, class year, degree, visa, or other requirements. Optional. Up to 1500 characters.\n- \"Extra details\": add up to 10 custom labelled fields. Each label up to 50 characters, each value up to 150 characters. Click \"Add a detail\" to add rows; click the X to remove them.\n- \"Post internship\": submit the form to publish.\n- \"Cancel\": return to Internships without posting.\nLimits:\n- Contact email and application link: at least one required\n- Students matched with your firm are notified when you post\nRelated: Internships list (/firms/postings?type=internships)"
+    },
+    "/firms/login": {
+      "hash": "2b33bb4f5bf5980f2bb467404f226888899e9aaf8e00f557969f0e5d1456d075",
+      "sources": [
+        "src/app/(marketing)/illustrations.tsx",
+        "src/app/AudienceSwitch.tsx",
+        "src/app/AuthShell.tsx",
+        "src/app/DevAutofill.tsx",
+        "src/app/firms/FirmAuthFields.tsx",
+        "src/app/firms/PasswordField.tsx",
+        "src/app/firms/auth-actions.ts",
+        "src/app/firms/login/FirmLoginForm.tsx",
+        "src/app/firms/login/page.tsx"
+      ],
+      "title": "Firm sign in",
+      "text": "For: Recruiters to log into the firm portal with their work email and password.\nGet there: \"I'm at a firm\" button on login pages, or /firms/login\nDo here:\n- \"Work email\": Enter your work email address (placeholder shows you@yourfirm.com)\n- \"Password\": Enter your password; use the eye icon to show or hide it\n- \"Forgot password?\": Link to reset your password if you don't remember it\n- \"Sign in\": Submit the form to log in\n- \"Try the demo\": Link to a prefilled demo account for showing someone around the portal\n- \"Create a firm account\": Link to sign up for a new firm account\nLimits:\n- Password must be at least 8 characters\n- Login attempts are rate-limited per email address\n- Your session lasts two weeks\n\nRelated: Firm sign up (/firms/signup), Password reset (/firms/reset), Firm portal home (/firms), Student sign in (/login)"
+    },
+    "/firms/notifications": {
+      "hash": "11270a6d56487ba173b4bb5d632936d9defd498cb1c5d652444d658fe88f8cd8",
+      "sources": [
+        "src/app/firms/(portal)/FirmNotificationIcon.tsx",
+        "src/app/firms/(portal)/LocalDateTime.tsx",
+        "src/app/firms/(portal)/notifications/page.tsx"
+      ],
+      "title": "Notifications",
+      "text": "For: See milestones on your posts, engagement surges, and reminders you should act on.\nGet there: \"Notifications\" in the sidebar, /firms/notifications\n\nDo here:\n- Filter by \"Everything\", \"Milestones\", \"Reminders\", or \"Weekly summaries\": click a filter tab to see only those notification types\n- Click a notification: opens the related post, event, or page it refers to\n- Read notification titles and bodies: each shows what happened and when (displayed in your time zone)\n\nLimits:\n- Up to 200 notifications are shown\n- All notifications are marked read when you open this page\n\nRelated: none"
+    },
+    "/firms/postings": {
+      "hash": "6b96eb0d2428139b7591e60371bba8ce9066f42d3799565809128410549e25dd",
+      "sources": [
+        "src/app/firms/(portal)/LocalDateTime.tsx",
+        "src/app/firms/(portal)/SavedToast.tsx",
+        "src/app/firms/(portal)/events/EventList.tsx",
+        "src/app/firms/(portal)/events/actions.ts",
+        "src/app/firms/(portal)/internships/PostingList.tsx",
+        "src/app/firms/(portal)/internships/actions.ts",
+        "src/app/firms/(portal)/postings/NewPostingMenu.tsx",
+        "src/app/firms/(portal)/postings/page.tsx"
+      ],
+      "title": "Postings",
+      "text": "For: See all internships and events your firm has posted, manage which are live, and create new ones.\nGet there: \"Postings\" in the sidebar; /firms/postings\nDo here:\n- \"New posting\": Click to open a menu and choose \"Internship\" to post a new internship role or \"Event\" to post a speaker event, info session or coffee chat.\n- \"All\", \"Internships\", \"Events\": Switch which postings to view. The count next to each shows how many you have of that type.\n- \"Edit\": Click on any posting to edit its details.\n- \"Close\" (on live postings): Hides the posting from students immediately; it stays in your list.\n- \"Reopen\" (on closed postings): Makes a closed posting live to students again.\n- \"Removed by Offerly\": Some postings may be flagged and removed; hover over the badge to see why.\nLimits:\n- Internships removed by Offerly cannot be reopened. If an event or internship contains prohibited language, it will be blocked from posting.\nRelated: Internship editor (/firms/internships/[id]), Event editor (/firms/events/[id])"
+    },
+    "/firms/reset": {
+      "hash": "66ca1ac886d726a368e03dbb682080bded60e4bd7f6699227b81ba483e9f2587",
+      "sources": [
+        "src/app/(marketing)/illustrations.tsx",
+        "src/app/AudienceSwitch.tsx",
+        "src/app/AuthShell.tsx",
+        "src/app/firms/FirmAuthFields.tsx",
+        "src/app/firms/PasswordField.tsx",
+        "src/app/firms/auth-actions.ts",
+        "src/app/firms/reset/FirmResetForm.tsx",
+        "src/app/firms/reset/page.tsx"
+      ],
+      "title": "Reset your password",
+      "text": "For: recover your firm account password if you've forgotten it\nGet there: \"Back to sign in\" link on the sign-in page, or visit /firms/reset\nDo here:\n- \"Work email\": enter your work email address and tap \"Email me a reset code\" to receive a 6-digit code at that address\n- \"Code\": enter the 6-digit code sent to your email\n- \"New password\": set a new password, at least 8 characters\n- \"Confirm new password\": re-enter your new password to verify it matches\n- \"Set password and sign in\": confirm the reset and sign in with your new password\n- \"Use a different email\": go back and try a different work email address\n- \"Back to sign in\": return to the sign-in page\n- \"I'm a student\" / \"I'm at a firm\": switch between student and firm sign-in\nLimits:\n- work email is required\n- new password must be at least 8 characters and match the confirmed password\n- you have a limited number of code attempts per email address\nRelated: Firm sign in (/firms/login)"
+    },
+    "/firms/settings": {
+      "hash": "85e3b4579487a2b4b4282af290d26c2b1ccc23382271439af205cb73ede4a98f",
+      "sources": [
+        "src/app/firms/(portal)/form-ui.tsx",
+        "src/app/firms/(portal)/settings/SettingsForms.tsx",
+        "src/app/firms/(portal)/settings/actions.ts",
+        "src/app/firms/(portal)/settings/page.tsx",
+        "src/lib/content-limits.ts"
+      ],
+      "title": "Settings",
+      "text": "For: managing your account name and password\nGet there: sidebar \"Settings\", /firms/settings\nDo here:\n- \"Name\": enter your name (required, 100 characters max). Click \"Save\" to update it.\n- \"Work email\": view your account email address (read-only)\n- \"Current password\": enter your current password to verify your identity (required)\n- \"New password\": enter a new password (required, 8–200 characters)\n- \"Confirm new password\": re-enter your new password to confirm it matches (required, 8–200 characters). The form checks they match before saving.\n- \"Change password\": submit the password form. Signing out on all other devices happens automatically.\nLimits:\n- Name is limited to 100 characters and cannot contain slurs, hateful language or profanity.\n- New password must be 8–200 characters.\n- Demo firm accounts cannot change their name or password.\n- Changing your password signs you out on every other device."
+    },
+    "/firms/signup": {
+      "hash": "0188b145b03e3b5e1c05e4b9e6bb11c8d8d793bbe52fc662569a99ec99692d62",
+      "sources": [
+        "src/app/(marketing)/illustrations.tsx",
+        "src/app/AudienceSwitch.tsx",
+        "src/app/AuthShell.tsx",
+        "src/app/firms/FirmAuthFields.tsx",
+        "src/app/firms/PasswordField.tsx",
+        "src/app/firms/auth-actions.ts",
+        "src/app/firms/signup/FirmSignupForm.tsx",
+        "src/app/firms/signup/page.tsx"
+      ],
+      "title": "Firm Sign Up",
+      "text": "For: creating a new firm account to post internships and campus events\nGet there: \"I'm at a firm\" button on /firms/signup\nDo here:\n- \"Your name\": enter your full name, up to 100 characters\n- \"Work email\": enter your firm email address; you will receive a 6-digit code there to verify it\n- \"Password\": create a password at least 8 characters long; a toggle shows or hides what you type\n- \"Confirm password\": re-enter your password to verify it matches\n- \"Firm\": optionally enter your firm name, up to 150 characters\n- \"Posting rules\": review the three rules all recruiters must follow, then check the box to agree to the Firm Terms of Service, Posting Guidelines, and Data Protection Addendum\n- \"Continue\": submit the form and move to the code verification step\n- \"Use a different email\": after submitting, you can restart the form with a new email address if needed\n- After you submit, enter the 6-digit code sent to your work email, then press \"Create account\" to finish\nLimits:\n- \"Your name\" is required\n- \"Work email\" is required and must be a valid email format\n- Passwords must be at least 8 characters and at most 200 characters\n- \"Confirm password\" must match \"Password\" exactly\n- You must agree to all three legal documents to continue\n- Name and firm fields are checked for blocked language before submission\n- The code expires after one hour\n- You can attempt the code up to the same limit as a password attempt\n- After your account is created, Offerly reviews it before you can post; colleagues who join your firm later are approved by the first account holder\nRelated: Firm Sign In (/firms/login), Student Sign Up (/signup), home (/)"
+    },
+    "/firms/students": {
+      "hash": "f45191e8bb598aae35e921d860250fac0eb74b406373b6dee3347a5b77ddad89",
+      "sources": [
+        "src/app/firms/(portal)/SavedToast.tsx",
+        "src/app/firms/(portal)/students/actions.ts",
+        "src/app/firms/(portal)/students/page.tsx",
+        "src/lib/content-limits.ts",
+        "src/lib/firm-matching-rules.ts",
+        "src/lib/firm-matching.ts",
+        "src/lib/safe-url.ts"
+      ],
+      "title": "Student matching",
+      "text": "For: Set who you're looking for and see ranked students who fit, with contact options.\nGet there: \"Student matching\" in the sidebar; /firms/students\nDo here:\n- \"Your requirements\" form on the left: set filters for \"Class year\", \"Sectors\", \"Cities\", \"Schools\", \"Degree\", and \"Major\" using checkboxes. Leave groups empty to accept anyone.\n- \"Save and match\": submit the form to apply your requirements. They're saved for your whole firm team. A \"Saved\" confirmation appears briefly at the top.\n- Student list on the right: view ranked results with name, school, graduation year, and major. A count shows how many of the sharing pool match.\n- \"Message\": opens the student's profile to send a message within Offerly.\n- \"Email\": opens your email client to contact the student.\n- \"LinkedIn\": opens the student's LinkedIn profile in a new tab if they shared it.\n- \"Resume\": opens the student's resume in a new tab if they uploaded one.\n- Match reason tags: colored labels show why each student ranks high, like \"Has your firm on their shortlist\" or \"Recruiting for [sector]\".\nLimits:\n- Message text cannot contain slurs, hateful language, or profanity, or it will be rejected.\n- Requirements are saved for the entire firm; all team members see the same filters and results.\n- Only students who opted in to share their profile with firms appear here.\n- If fewer than 5 students are sharing overall, the pool count shows \"Fewer than 5\" instead of an exact number.\nRelated: Individual student profile at /firms/students/[studentId]"
+    },
+    "/firms/students/[id]": {
+      "hash": "f6984c0fb8ffbdfcb89167fb7930b68ef4275790c0563d7c4ef0bf2195e39b06",
+      "sources": [
+        "src/app/firms/(portal)/students/[id]/MessageComposer.tsx",
+        "src/app/firms/(portal)/students/[id]/page.tsx",
+        "src/app/firms/(portal)/students/actions.ts",
+        "src/lib/firm-matching.ts",
+        "src/lib/message-limits.ts",
+        "src/lib/safe-url.ts"
+      ],
+      "title": "Student Profile",
+      "text": "For: viewing a student's details, contact information, and message history, and reaching out to them on Offerly.\nGet there: From \"Student matching\" (/firms/students), click a student's name. Address: /firms/students/[id]\nDo here:\n- View the student's name, school, graduation year, degree level, program, and major\n- \"Recruiting for\": see what types of roles the student is interested in\n- \"Cities\": see what locations they are targeting\n- \"Interests within those\": see their niche interests if they have entered any\n- Click the student's email address to email them directly\n- Click \"LinkedIn\" to visit their LinkedIn profile in a new tab (if they provided one)\n- Click \"Resume\" to view their resume in a new tab (if they uploaded one)\n- \"Messages\" section: see the conversation history with this student\n- Enter a message in the text box: type your introduction and reason for reaching out\n- Click \"Send\" to message the student on Offerly; they will see it in their Offerly inbox\n\nLimits:\n- Messages have a maximum length of 2000 characters\n- You can only message a student who is currently sharing their profile with firms; if they stop sharing, the page returns a 404 error\n- Messages are checked for hateful language and profanity before being sent; if blocked language is detected, an error message appears and the message is not sent\n- If a message fails to send for any other reason, an error message appears\n\nRelated: Student matching (/firms/students)"
+    },
+    "/firms/team": {
+      "hash": "c23488d1d362953aa8a018cda5176c46756acc586a18eb6a2d72df8f7b75b0ef",
+      "sources": [
+        "src/app/firms/(portal)/team/actions.ts",
+        "src/app/firms/(portal)/team/page.tsx",
+        "src/lib/firm-account.ts"
+      ],
+      "title": "Team",
+      "text": "For: Approve new colleagues joining your firm, remove those who leave, and transfer ownership to another team member.\nGet there: \"Team\" in the sidebar; /firms/team\nDo here:\n- \"Approve\": accept a pending colleague's account so they can access the portal\n- \"Decline\": reject a pending colleague's account\n- \"Make owner\": transfer ownership to another active team member; you become a member and they become the owner\n- \"Remove\": sign out a colleague everywhere at once and revoke their portal access\nLimits:\n- Only the firm owner can approve, decline, transfer ownership, or remove colleagues\n- You cannot remove yourself\n- You cannot transfer ownership to yourself\n- Colleagues must join at /firms/signup with a work email address at your firm's domain before they appear here\nRelated: none"
+    }
+  }
+}

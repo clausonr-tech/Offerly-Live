@@ -1,0 +1,455 @@
+{
+  "aggregate": {
+    "scenarios": 20,
+    "drafted": 20,
+    "errored": 0
+  },
+  "scenarios": [
+    {
+      "id": "601",
+      "profile": "full",
+      "boxes": [
+        "first.alum",
+        "first.recruiter"
+      ],
+      "summary": "Reach out for the first time · A campus recruiter · An alum of my school",
+      "leadType": "recruiter_outreach",
+      "ok": true,
+      "subject": "Following Up from the SEO Career Summit",
+      "body": "Hi Olivia,\n\nThank you for the conversation at the SEO Career Summit in New York. I enjoyed hearing more about Morrow & Pike's programs.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke University studying Economics, graduating in May 2029. It was nice to learn you're a fellow Duke alum, and that we're both from Atlanta.\n\nI'm a consumer sector analyst for the Duke Investment Club. Last summer at Pinecrest Wealth Partners, I built a screening model for dividend stocks, and that work left me especially interested in consumer and retail M&A. I'd love to learn more about how to pursue that path at Morrow & Pike.\n\nI had two questions, if you have a moment. First, when does the sophomore program open for applications? Second, does that program typically feed into the summer analyst class?\n\nMy resume is attached. Thank you again for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Following Up from the SEO Career Summit",
+      "preReviewBody": "Hi Olivia,\n\nThank you for the conversation at the SEO Career Summit in New York. I enjoyed hearing more about Morrow & Pike's programs.\n\nMy name is Maya Okafor, and I am a sophomore at Duke University studying Economics, graduating in May 2029. It was nice to learn you are a fellow Duke alum, and it turns out we're both from Atlanta too.\n\nAs a consumer sector analyst for the Duke Investment Club and after spending last summer at Pinecrest Wealth Partners building a screening model for dividend stocks, I've become especially interested in consumer and retail M&A, and I'd love to learn more about how to pursue that at Morrow & Pike.\n\nI had two questions, if you have a moment. First, when does the sophomore program open for applications? Second, does that program typically feed into the summer analyst class?\n\nMy resume is attached. Thank you again for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 7171,
+        "lintMs": 19,
+        "reviewMs": 5420,
+        "reviewRetryMs": null,
+        "totalMs": 12978
+      }
+    },
+    {
+      "id": "603",
+      "profile": "full",
+      "boxes": [
+        "first.alum",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · An alum of my school",
+      "leadType": "cold_referral",
+      "ok": true,
+      "subject": "Referred by Emily Tran",
+      "body": "Hi Rachel,\n\nEmily Tran, who leads the Duke Investment Club and interned on your team, suggested I reach out to you.\n\nI'm a sophomore at Duke studying economics, and I'm originally from Atlanta, same as you. In the Investment Club I cover the consumer sector, and this past summer I interned at Pinecrest Wealth Partners, where I built a screening model for dividend stocks used in client portfolio reviews. That work made me want to dig deeper into consumer and retail M&A, and I'd love to hear how you moved from Duke into covering that space.\n\nWould you have 10-15 minutes for a call? My resume is attached if it's helpful.\n\nThank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Referred by Emily Tran",
+      "preReviewBody": "Hi Rachel,\n\nEmily Tran, who leads the Duke Investment Club and interned on your team, suggested I reach out to you.\n\nI'm a sophomore at Duke studying economics, and like you, I'm originally from Atlanta. In the Investment Club I cover the consumer sector, and this past summer I interned at Pinecrest Wealth Partners, where I built a screening model for dividend stocks used in client portfolio reviews. That work made me want to dig deeper into consumer and retail M&A specifically, and Emily thought you'd be a great person to ask about how you moved from Duke into covering that space.\n\nWould you have 10-15 minutes for a call? I attached my resume for reference.\n\nThank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 6624,
+        "lintMs": 0,
+        "reviewMs": 5544,
+        "reviewRetryMs": null,
+        "totalMs": 12180
+      }
+    },
+    {
+      "id": "605",
+      "profile": "full",
+      "boxes": [
+        "first.recruiter",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · A campus recruiter",
+      "leadType": "cold_referral",
+      "ok": true,
+      "subject": "Referred by Emily Tran",
+      "body": "Hi Olivia,\n\nEmily Tran, who is president of the Duke Investment Club and interned on your team, suggested I write to you. It was also great meeting you briefly at the SEO Career Summit in New York.\n\nMy name is Maya Okafor, and I am a sophomore at Duke University studying Economics, graduating in 2029. I am a consumer sector analyst for the Duke Investment Club, and last summer I interned at Pinecrest Wealth Partners, where I built a screening model for dividend stocks used in client portfolio reviews. That experience is part of what pulled me toward consumer and retail M&A. It's also fun to find another Atlanta person at the firm!\n\nI had two questions about the programs at Morrow & Pike. First, when does the sophomore program open for the next cycle? Second, does that program feed into the summer analyst class?\n\nI attached my resume for your reference. Thank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Referred by Emily Tran",
+      "preReviewBody": "Hi Olivia,\n\nEmily Tran, who is president of the Duke Investment Club and interned on your team, suggested I write to you. It was also great meeting you briefly at the SEO Career Summit in New York.\n\nMy name is Maya Okafor, and I am a sophomore at Duke University studying Economics, graduating in 2029. I am a consumer sector analyst for the Duke Investment Club, and last summer I interned at Pinecrest Wealth Partners, where I built a screening model for dividend stocks used in client portfolio reviews. That experience is part of what pulled me toward consumer and retail M&A. It's also fun to find another Atlanta person at the firm!\n\nI had two questions about the programs at Morrow & Pike. First, when does the sophomore program open for the next cycle? Second, does that program feed into the summer analyst class?\n\nI attached my resume for your reference. Thank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 6820,
+        "lintMs": 1,
+        "reviewMs": 9904,
+        "reviewRetryMs": 7542,
+        "totalMs": 24277
+      }
+    },
+    {
+      "id": "608",
+      "profile": "full",
+      "boxes": [
+        "first.alum",
+        "first.met"
+      ],
+      "summary": "Reach out for the first time · We met in person · An alum of my school",
+      "leadType": "cold_after_meeting",
+      "ok": true,
+      "subject": "Great Meeting You at the SEO Career Summit",
+      "body": "Hi Rachel,\n\nIt was great meeting you at the SEO Career Summit in New York. We spent a good chunk of our conversation on the grocery chain turnaround you worked on, and your point that consumer deals ultimately come down to repeat customers has stayed on my mind.\n\nI'm a sophomore at Duke studying Economics, and a fellow Atlanta native, writing to a fellow Duke alum. I'm a consumer sector analyst for the Duke Investment Club, and I spent this past summer at Pinecrest Wealth Partners building a screening model for dividend stocks used in client portfolio reviews. That work, plus our conversation, has pushed me toward wanting to learn more about consumer and retail M&A specifically.\n\nWould you have 10 to 15 minutes for a call sometime? I'd love to hear more about how your path took you from Duke into consumer coverage. Let me know what timing works best for you, and I've attached my resume in case it's helpful.\n\nThank you again for taking the time to talk at the summit!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Great Meeting You at the SEO Career Summit",
+      "preReviewBody": "Hi Rachel,\n\nIt was great meeting you at the SEO Career Summit in New York! We spent a good chunk of our conversation on the grocery chain turnaround you worked on, and your point that consumer deals ultimately come down to repeat customers has stuck with me since.\n\nI also learned afterward that you're a fellow Duke alum, which I didn't realize while we were talking.\n\nAs a quick reminder, I'm a sophomore at Duke studying Economics. I'm a consumer sector analyst for the Duke Investment Club, and I spent this past summer at Pinecrest Wealth Partners building a screening model for dividend stocks used in client portfolio reviews. That work, plus our conversation, has pushed me toward wanting to learn more about consumer and retail M&A specifically.\n\nWould you have 10 to 15 minutes for a call sometime? I'd love to hear more about how your path took you from Duke into consumer coverage. Whatever time works on your end is fine with me, and I attached my resume for reference.\n\nThank you again for taking the time to talk at the summit!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 9344,
+        "lintMs": 1,
+        "reviewMs": 7294,
+        "reviewRetryMs": null,
+        "totalMs": 16643
+      }
+    },
+    {
+      "id": "613",
+      "profile": "full",
+      "boxes": [
+        "first.met",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · We met in person",
+      "leadType": "cold_referral",
+      "ok": true,
+      "subject": "Referred by Emily Tran",
+      "body": "Hi Rachel,\n\nEmily Tran, president of the Duke Investment Club who interned on your team, suggested I reach out. It was great meeting you at the SEO Career Summit, where we talked about the grocery chain turnaround you worked on. Your point that consumer deals really come down to repeat customers stuck with me.\n\nMy name is Maya Okafor. I'm a sophomore at Duke studying economics, also from Atlanta, and I work as a consumer sector analyst for the Duke Investment Club, which is where my interest in consumer and retail M&A started.\n\nI'd love to hear how you moved from Duke into consumer coverage and more about your path at Morrow & Pike. Would you have 10-15 minutes for a call? I've attached my resume in case it's helpful.\n\nThank you for your time.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Referred by Emily Tran",
+      "preReviewBody": "Hi Rachel,\n\nEmily Tran, president of the Duke Investment Club who interned on your team, suggested I reach out. It was great meeting you at the SEO Career Summit, where we talked about the grocery chain turnaround you worked on. Your point that consumer deals really come down to repeat customers has stuck with me since.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke studying economics. I'm also from Atlanta, and I work as a consumer sector analyst for the Duke Investment Club, which is where my interest in consumer and retail M&A started.\n\nI'd love to hear how you moved from Duke into consumer coverage and more about your path at Morrow & Pike. Would you have 10-15 minutes for a call? I attached my resume for your reference.\n\nThank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 7415,
+        "lintMs": 1,
+        "reviewMs": 5714,
+        "reviewRetryMs": null,
+        "totalMs": 13132
+      }
+    },
+    {
+      "id": "617",
+      "profile": "full",
+      "boxes": [
+        "first.alum",
+        "first.met",
+        "first.recruiter",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · We met in person · A campus recruiter · An alum of my school",
+      "leadType": "cold_referral",
+      "ok": true,
+      "subject": "Referred by Emily Tran",
+      "body": "Hi Olivia,\n\nEmily Tran, who I know from the Duke Investment Club where she served as president and I interned on her team, suggested I reach out to you. We met briefly at the SEO Career Summit in New York, where you talked about the grocery chain turnaround you worked on. What stuck with me was your point that consumer deals really come down to repeat customers.\n\nMy name is Maya Okafor. I'm a sophomore at Duke, both of us from Atlanta, studying economics and graduating in 2029. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews, and I currently work as a consumer sector analyst for the Duke Investment Club. Consumer and retail M&A is the area of finance I'm most drawn to right now.\n\nFirst, do you know when the sophomore program at Morrow & Pike typically opens? Second, does that program feed into the summer analyst class?\n\nMy resume is attached if it's helpful for context. Thanks so much for your time.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Referred by Emily Tran",
+      "preReviewBody": "Hi Olivia,\n\nEmily Tran, who I know from the Duke Investment Club where she served as president and I interned on her team, suggested I reach out to you. We actually met briefly at the SEO Career Summit in New York, where you talked about the grocery chain turnaround you worked on. What stuck with me was your point that consumer deals really come down to repeat customers, which has stayed on my mind since.\n\nMy name is Maya Okafor, and I am a sophomore at Duke University, graduating in 2029, studying economics. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews, and I currently work as a consumer sector analyst for the Duke Investment Club. I was glad to realize we are both from Atlanta. Consumer and retail M&A is the area of finance I am most drawn to right now.\n\nFirst, do you know when the sophomore program at Morrow & Pike typically opens? Second, does that program feed into the summer analyst class?\n\nI attached my resume for your reference. Thank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 7905,
+        "lintMs": 0,
+        "reviewMs": 8072,
+        "reviewRetryMs": 6392,
+        "totalMs": 22384
+      }
+    },
+    {
+      "id": "621",
+      "profile": "full",
+      "boxes": [
+        "first.conference",
+        "first.recruiter"
+      ],
+      "summary": "Reach out for the first time · We met at a conference · A campus recruiter",
+      "leadType": "conference_follow_up",
+      "ok": true,
+      "subject": "Following Up from the SEO Career Summit in New York",
+      "body": "Hi Olivia,\n\nIt was great to meet you at the SEO Career Summit in New York. We spoke at your table about the grocery chain turnaround you worked on, and I'm from Atlanta too, which made it even more interesting to hear how that deal played out on the ground.\n\nI'm Maya Okafor, a sophomore at Duke University studying Economics, graduating in 2029. I'm a consumer sector analyst for the Duke Investment Club, and I spent this past summer at Pinecrest Wealth Partners building a screening model for dividend stocks used in client portfolio reviews. What stuck with me from our conversation was your point that consumer deals really come down to repeat customers. That idea is a big part of why consumer and retail M&A is the area I'm most drawn to.\n\nI had a couple of questions about Morrow & Pike's programs. First, when does the sophomore program open for applications? Second, does that program feed into the summer analyst class?\n\nMy resume is attached. Thanks again for taking the time to talk at the conference.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Following Up from the SEO Career Summit in New York",
+      "preReviewBody": "Hi Olivia,\n\nIt was great to meet you at the SEO Career Summit in New York. We spoke at your table about the grocery chain turnaround you worked on, and I'm also from Atlanta, so I enjoyed hearing how that deal played out on the ground.\n\nI'm Maya Okafor, a sophomore at Duke University studying Economics, graduating in 2029. I'm a consumer sector analyst for the Duke Investment Club, and I spent this past summer at Pinecrest Wealth Partners building a screening model for dividend stocks used in client portfolio reviews. What stuck with me from our conversation was your point that consumer deals really come down to repeat customers, which is a big part of why consumer and retail M&A is the area I'm most drawn to.\n\nI had a couple of questions about Morrow & Pike's programs. First, when does the sophomore program open for applications? Second, does that program feed into the summer analyst class?\n\nMy resume is attached. Thank you again for taking the time to talk at the conference!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 9015,
+        "lintMs": 1,
+        "reviewMs": 7063,
+        "reviewRetryMs": null,
+        "totalMs": 16087
+      }
+    },
+    {
+      "id": "630",
+      "profile": "full",
+      "boxes": [
+        "first.alum",
+        "first.pointed"
+      ],
+      "summary": "Reach out for the first time · Someone I emailed sent me to them · An alum of my school",
+      "leadType": "redirect_sequence",
+      "ok": true,
+      "subject": "Marcus Delacroix Suggested I Write to You",
+      "body": "Hi Rachel,\n\nI emailed Marcus Delacroix about getting into consumer coverage, and he pointed me to you since you run the sophomore program on the consumer team and he thought you'd be the better person to ask.\n\nI'm a sophomore at Duke studying Economics, and I gather you're a Duke alum as well. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews, and I currently work as a consumer sector analyst for the Duke Investment Club. Between the two, I've found myself most drawn to consumer and retail M&A specifically. It also turns out we're both from Atlanta, which was a nice surprise when Marcus mentioned your name.```\n\nWould you have 10 minutes to talk about how you moved from Duke into consumer coverage? I've attached my resume for reference and am glad to work around whatever time suits you.\n\nThank you so much for considering it!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Marcus Delacroix Suggested I Write to You",
+      "preReviewBody": "Hi Rachel,\n\nI emailed Marcus Delacroix about getting into consumer coverage, and he pointed me to you since you run the sophomore program on the consumer team and he thought you'd be the better person to ask.\n\nI'm a sophomore at Duke studying Economics, and I gather you're a Duke alum as well. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews, and I currently work as a consumer sector analyst for the Duke Investment Club. Between the two, I've found myself most drawn to consumer and retail M&A specifically. It also turns out we're both from Atlanta, which was a nice surprise when Marcus mentioned your name.```\n\nWould you have 10 minutes to talk about how you moved from Duke into consumer coverage? I've attached my resume for reference and am glad to work around whatever time suits you.\n\nThank you so much for considering it!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 8080,
+        "lintMs": 0,
+        "reviewMs": 7167,
+        "reviewRetryMs": 5958,
+        "totalMs": 21213
+      }
+    },
+    {
+      "id": "639",
+      "profile": "full",
+      "boxes": [
+        "first.alum",
+        "first.met",
+        "first.pointed",
+        "first.recruiter"
+      ],
+      "summary": "Reach out for the first time · We met in person · Someone I emailed sent me to them · A campus recruiter · An alum of my school",
+      "leadType": "cold_after_meeting",
+      "ok": true,
+      "subject": "Great Meeting You at the SEO Career Summit",
+      "body": "Hi Olivia,\n\nIt was great meeting you at the SEO Career Summit in New York, where we talked about the grocery chain turnaround you worked on. What stuck with me most was your point that consumer deals really come down to repeat customers, and I've been thinking about that since.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke University, Class of 2029, studying Economics. Marcus Delacroix suggested I reach out to you directly, since he mentioned the consumer team runs the sophomore program and hires from it. I was also glad to learn we're both Duke alums.\n\nThis past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews, and I currently work as a consumer sector analyst for the Duke Investment Club. That combination is what's pulled me toward consumer and retail M&A specifically.\n\nI had a couple of questions about the sophomore program. First, when does it typically open for applications? Second, does it feed directly into the summer analyst class? I attached my resume for reference.\n\nThank you so much for your time, and for the conversation in New York!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Great Meeting You at the SEO Career Summit",
+      "preReviewBody": "Hi Olivia,\n\nIt was great meeting you at the SEO Career Summit in New York, where we talked about the grocery chain turnaround you worked on. What stuck with me most was your point that consumer deals really come down to repeat customers, and I've been thinking about that since.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke University, Class of 2029, studying Economics. Marcus Delacroix suggested I reach out to you directly, since he mentioned the consumer team runs the sophomore program and hires from it. I was also glad to learn we're both Duke alums.\n\nThis past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews, and I currently work as a consumer sector analyst for the Duke Investment Club. That combination is what's pulled me toward consumer and retail M&A specifically.\n\nI had a couple of questions about the sophomore program. First, when does it typically open for applications? Second, does it feed directly into the summer analyst class? I attached my resume for reference.\n\nThank you so much for your time, and for the conversation in New York!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 9727,
+        "lintMs": 1,
+        "reviewMs": 8228,
+        "reviewRetryMs": 6462,
+        "totalMs": 24429
+      }
+    },
+    {
+      "id": "641",
+      "profile": "full",
+      "boxes": [
+        "first.conference",
+        "first.pointed"
+      ],
+      "summary": "Reach out for the first time · We met at a conference · Someone I emailed sent me to them",
+      "leadType": "conference_follow_up",
+      "ok": true,
+      "subject": "Following Up from the SEO Career Summit in New York",
+      "body": "Hi Rachel,\n\nIt was great to meet you at the SEO Career Summit in New York, where we talked about the grocery chain turnaround you worked on. Marcus Delacroix suggested I reach out to you directly. He mentioned that the consumer team runs the sophomore program and hires from it.\n\nI'm a sophomore at Duke, also from Atlanta, studying Economics. I work as a consumer sector analyst for the Duke Investment Club, and this past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. What stuck with me from our conversation was your point that consumer deals ultimately come down to repeat customers, and it's part of why consumer and retail M&A is the area I keep coming back to.\n\nWould you have 10 minutes for a call sometime soon? I'd love to hear how you moved from Duke into consumer coverage. I can work around whatever time suits you, and I've included my resume below if it's helpful.\n\nThank you for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Following Up from the SEO Career Summit in New York",
+      "preReviewBody": "Hi Rachel,\n\nIt was great to meet you at the SEO Career Summit in New York, where we talked about the grocery chain turnaround you worked on. Marcus Delacroix suggested I reach out to you directly, since he mentioned the consumer team runs the sophomore program and recruits from it.\n\nI'm a sophomore at Duke (and also from Atlanta), studying Economics, and I work as a consumer sector analyst for the Duke Investment Club. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. What stuck with me from our conversation was your point that consumer deals ultimately come down to repeat customers, and it's part of why consumer and retail M&A is the area I keep coming back to.\n\nWould you have 10 minutes for a call sometime soon? I'd love to hear how you moved from Duke into consumer coverage. I'm flexible on timing and attached my resume for reference.\n\nThank you for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 8323,
+        "lintMs": 0,
+        "reviewMs": 6305,
+        "reviewRetryMs": null,
+        "totalMs": 14636
+      }
+    },
+    {
+      "id": "647",
+      "profile": "full",
+      "boxes": [
+        "thanks.chat",
+        "thanks.helped"
+      ],
+      "summary": "Say thank you · They offered to help · A coffee chat or call",
+      "leadType": "thank_you_offered_help",
+      "ok": true,
+      "subject": "Thank You",
+      "body": "Hi Rachel,\n\nThank you for taking the time to speak with me this morning. I really enjoyed hearing how you think about picking which consumer brands have staying power. As someone who covers consumer at Duke Investment Club, that framework gave me a lot to think about.\n\nThank you as well for offering to pass my resume along. I attached it here so it's easy to forward, and my application is in under requisition #55120.\n\nI appreciate your time and the help!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Thank You",
+      "preReviewBody": "Hi Rachel,\n\nThank you for taking the time to speak with me this morning. I really enjoyed hearing how you think about picking which consumer brands have staying power rather than just chasing whichever one is trending at the moment. As someone who covers consumer at Duke Investment Club, that framework gave me a lot to think about.\n\nThank you as well for offering to pass my resume along. I attached it here so it's easy to forward, and my application is in under requisition #55120.\n\nI appreciate your time and the help!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 4742,
+        "lintMs": 1,
+        "reviewMs": 2842,
+        "reviewRetryMs": null,
+        "totalMs": 7589
+      }
+    },
+    {
+      "id": "648",
+      "profile": "full",
+      "boxes": [
+        "thanks.event",
+        "thanks.helped"
+      ],
+      "summary": "Say thank you · They offered to help · A talk a banker gave",
+      "leadType": "thank_you_offered_help",
+      "ok": true,
+      "subject": "Thank You for Tuesday's Session",
+      "body": "Hi Rachel,\n\nThank you for speaking at the Morrow & Pike info session at Fuqua on Tuesday. Your point about the best analysts writing down every question they get wrong is something I plan to start doing myself. I also asked how the consumer team staffs analysts during the session, and I appreciated you taking that question.\n\nThank you as well for offering to pass my resume along. I've attached it, and my application is in under req #55120.\n\nThanks again for taking the time to help.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Thank You for Tuesday's Session",
+      "preReviewBody": "Hi Rachel,\n\nThank you for speaking at the Morrow & Pike info session at Fuqua on Tuesday. Your point about the best analysts writing down every question they get wrong is something I plan to start doing myself. I was also the one who asked how the consumer team staffs analysts, so thank you for taking that question.\n\nThank you as well for offering to pass my resume along. I attached it here so it's easy to forward, and my application is in under req #55120.\n\nI appreciate you making the time and the offer to help!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 5236,
+        "lintMs": 0,
+        "reviewMs": 4714,
+        "reviewRetryMs": null,
+        "totalMs": 9955
+      }
+    },
+    {
+      "id": "650",
+      "profile": "full",
+      "boxes": [
+        "stay.congrats",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Share an update · Congratulate them",
+      "leadType": "keep_in_touch",
+      "ok": true,
+      "subject": "Congratulations, Rachel",
+      "body": "Hi Rachel,\n\nWe spoke back in March about consumer coverage, and I wanted to share a quick update.\n\nI spent the summer at Pinecrest Wealth Partners building a screening model for dividend-paying stocks. I started tracking three consumer brands closely, like you suggested, which gave me a much better sense of how to read a name over time rather than just at one point.\n\nI saw on LinkedIn this morning that you were promoted to Director. Congratulations! Given how clearly you explained consumer deals on our calls, it makes a lot of sense that you've moved up.\n\nThank you again for the advice back in March!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Congratulations, Rachel",
+      "preReviewBody": "Hi Rachel,\n\nI hope you're doing well! We spoke back in March about consumer coverage, and I wanted to share a quick update.\n\nI spent the summer at Pinecrest Wealth Partners building a screening model for dividend-paying stocks. I also started tracking three consumer brands closely, like you suggested, and it gave me a much better sense of how to read a name over time rather than just at one point.\n\nI also saw on LinkedIn this morning that you were promoted to Director. Congratulations! Given how clearly you explained consumer deals on our calls, it makes a lot of sense that you've moved up.\n\nThank you again for the advice back in March!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 5294,
+        "lintMs": 0,
+        "reviewMs": 5840,
+        "reviewRetryMs": null,
+        "totalMs": 11137
+      }
+    },
+    {
+      "id": "651",
+      "profile": "full",
+      "boxes": [
+        "stay.referrer",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Thank the person who introduced me · Share an update",
+      "leadType": "close_loop_referrer",
+      "ok": true,
+      "subject": "Thank You for the Introduction",
+      "body": "Hi Rachel,\n\nCongratulations on the promotion to Director! Ben and I just got off the phone.\n\nThank you again for connecting us. He walked me through how the consumer team staffs sophomores on live deals. We last spoke in March about consumer coverage, and since then I spent the summer at Pinecrest Wealth Partners building a dividend screening model. I also started tracking three consumer brands, like you suggested.\n\nI'm applying before the October 15 deadline and will let you know how it goes. Thank you again for making the introduction!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Thank You for the Introduction",
+      "preReviewBody": "Hi Rachel,\n\nCongratulations on the promotion to Director! I also wanted to let you know that Ben and I just got off the phone, and to thank you again for connecting us.\n\nHe walked me through how the consumer team staffs sophomores on live deals, which was really helpful to hear directly from someone on the team. Since we last spoke in March about consumer coverage, I spent the summer at Pinecrest Wealth Partners building a dividend screening model, and I've also been tracking three consumer brands like you suggested.\n\nI'm applying before the October 15 deadline and will let you know how it goes. Thank you again for making the introduction!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 5479,
+        "lintMs": 0,
+        "reviewMs": 5397,
+        "reviewRetryMs": null,
+        "totalMs": 10881
+      }
+    },
+    {
+      "id": "652",
+      "profile": "full",
+      "boxes": [
+        "stay.congrats",
+        "stay.referrer"
+      ],
+      "summary": "Stay in touch · Thank the person who introduced me · Congratulate them",
+      "leadType": "close_loop_referrer",
+      "ok": true,
+      "subject": "Thank You, and Congratulations",
+      "body": "Hi Rachel,\n\nBen and I had our call. Thank you again for the introduction. He walked me through how the consumer team staffs sophomores on live deals, which was great to hear directly from him.\n\nI saw this morning that you were promoted to Director. Congratulations! From how clearly you explained consumer deals on our calls, it makes a lot of sense.\n\nI'm applying before the October 15 deadline.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Thank You, and Congratulations",
+      "preReviewBody": "Hi Rachel,\n\nBen and I spoke, and thank you again for the introduction. He walked me through how the consumer team staffs sophomores on live deals, which was incredibly helpful to hear directly from him.\n\nI also saw this morning that you were promoted to Director. Congratulations! From how clearly you explained consumer deals on our calls, it makes a lot of sense.\n\nI'm applying before the October 15 deadline. Thank you again for making the introduction.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 4537,
+        "lintMs": 0,
+        "reviewMs": 4511,
+        "reviewRetryMs": null,
+        "totalMs": 9052
+      }
+    },
+    {
+      "id": "656",
+      "profile": "full",
+      "boxes": [
+        "stay.congrats",
+        "stay.redirected",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Thank the person who sent me elsewhere · Share an update · Congratulate them",
+      "leadType": "redirect_sequence",
+      "ok": true,
+      "subject": "Thank You, and Congratulations",
+      "body": "Hi Rachel,\n\nBen and I spoke since we last talked in March about consumer coverage. He walked me through how the consumer team decides which deals sophomores get staffed on. Thank you again for pointing me his way.\n\nI also saw on LinkedIn this morning that you were promoted to Director. Congratulations! I thought of how clearly you explained consumer deals on our calls, and it made sense to me that you'd been recognized.\n\nI spent the summer at Pinecrest Wealth Partners building a dividend screening model. I also started tracking three consumer brands, like you suggested back in March.\n\nNo need to reply. I just wanted to share the update and send my congratulations.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "Thank You, and Congratulations",
+      "preReviewBody": "Hi Rachel,\n\nI wanted to let you know that Ben and I spoke, and thank you again for pointing me his way back in March when we talked about consumer coverage. He walked me through how the consumer team decides which deals sophomores get staffed on, which was exactly the kind of detail I had been hoping to understand.\n\nI also saw on LinkedIn this morning that you were promoted to Director. Congratulations! It made sense to me given how clearly you explained consumer deals on our calls.\n\nSince we last spoke, I spent the summer at Pinecrest Wealth Partners building a dividend screening model, and I started tracking three consumer brands like you suggested back in March.\n\nNothing needed from you, I just wanted to say thank you and congratulations.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 6155,
+        "lintMs": 1,
+        "reviewMs": 6898,
+        "reviewRetryMs": null,
+        "totalMs": 13060
+      }
+    },
+    {
+      "id": "659",
+      "profile": "full",
+      "boxes": [
+        "stay.referrer",
+        "stay.second",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Ask for a second conversation · Thank the person who introduced me · Share an update",
+      "leadType": "second_conversation",
+      "ok": true,
+      "subject": "An Update, and 15 Minutes Before October 15?",
+      "body": "Hi Rachel,\n\nCongratulations on the promotion to Director! We spoke back in March. Your advice to start tracking a few consumer brands closely has shaped how I've thought about the sector since. I picked three brands and have been following them closely, and I'm far more comfortable talking about consumer names than I was in the spring.\n\nThank you for introducing me to Ben Ortega. We just had our call, and he walked me through how the consumer team staffs sophomores on live deals.\n\nI spent the summer at Pinecrest Wealth Partners building a dividend screening model for client portfolio reviews.\n\nThe summer analyst application closes October 15, and I would value your perspective before I submit. Would you have 15 minutes sometime before then? I've included my resume below for reference.\n\nThank you again for your advice in March and for connecting me with Ben.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "preReviewSubject": "An Update, and 15 Minutes Before October 15?",
+      "preReviewBody": "Hi Rachel,\n\nCongratulations on the promotion to Director! We spoke back in March, and your advice to start tracking a few consumer brands closely has shaped how I have been thinking about the sector since. I picked three brands and have been following them closely, which has made me far more comfortable talking about consumer names than I was in the spring.\n\nThank you also for introducing me to Ben Ortega. We just had our call, and his walkthrough of how the consumer team staffs sophomores on live deals was genuinely useful context I would not have had otherwise.\n\nSince we last spoke, I also spent the summer at Pinecrest Wealth Partners building a dividend screening model for client portfolio reviews.\n\nThe summer analyst application closes October 15, and I would value your perspective before I submit. Would you have 15 minutes sometime before then? I have attached my resume as well.\n\nThank you again, for March and for the introduction to Ben.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "timings": {
+        "draftMs": 7360,
+        "lintMs": 1,
+        "reviewMs": 6806,
+        "reviewRetryMs": null,
+        "totalMs": 14173
+      }
+    },
+    {
+      "id": "802",
+      "profile": "sparse",
+      "boxes": [
+        "first.not_alum",
+        "first.recruiter"
+      ],
+      "summary": "Reach out for the first time · A campus recruiter · Not an alum",
+      "leadType": "recruiter_outreach",
+      "ok": true,
+      "subject": "Question About Morrow & Pike's Sophomore Program",
+      "body": "Hi Olivia,\n\nI came across your profile on LinkedIn and saw that you recruit for Morrow & Pike.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke University studying Economics, graduating in 2029. I'm a consumer sector analyst with the Duke Investment Club, and this past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews.\n\nI had two questions about Morrow & Pike's programs. First, when does the sophomore program typically open for applications? Second, does that program feed into the summer analyst class, or is it a separate process?\n\nI've attached my resume. Thanks so much for your time.\n\nBest,",
+      "preReviewSubject": "Question About Morrow & Pike's Sophomore Program",
+      "preReviewBody": "Hi Olivia,\n\nI came across your profile on LinkedIn and saw that you recruit for Morrow & Pike, so I wanted to reach out directly.\n\nMy name is Maya Okafor, and I am a sophomore at Duke University studying Economics, graduating in May 2029. I'm a consumer sector analyst with the Duke Investment Club, and this past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews.\n\nI had two questions about Morrow & Pike's programs. First, when does the sophomore program typically open for applications? Second, does that program feed into the summer analyst class, or is it a separate process?\n\nMy resume is attached. Thank you very much for your time!\n\nBest,",
+      "timings": {
+        "draftMs": 5676,
+        "lintMs": 5,
+        "reviewMs": 4362,
+        "reviewRetryMs": null,
+        "totalMs": 10048
+      }
+    },
+    {
+      "id": "806",
+      "profile": "sparse",
+      "boxes": [
+        "first.met",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · We met in person",
+      "leadType": "cold_referral",
+      "ok": true,
+      "subject": "Referred by Emily Tran",
+      "body": "Hi Rachel,\n\nWe met in person at the SEO Career Summit in NYC, where I really enjoyed hearing about the grocery chain turnaround you worked on. Emily Tran, who interned on your consumer team last summer, suggested I reach out to you.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke studying economics. I'm a consumer sector analyst with the Duke Investment Club.\n\nWould you have 10-15 minutes for a call sometime soon? I'd love to hear more about your path and the work your team does. I've included my resume below for context.\n\nThank you so much for your time!\n\nBest,",
+      "preReviewSubject": "Referred by Emily Tran",
+      "preReviewBody": "Hi Rachel,\n\nEmily Tran, who interned on your consumer team last summer, suggested I reach out, and I was glad to have already met you in person at the SEO Career Summit in NYC. I really enjoyed hearing about the grocery chain turnaround you worked on and have been thinking about it since.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke studying economics. I'm a consumer sector analyst with the Duke Investment Club, which is part of why that conversation stuck with me.\n\nWould you have 10-15 minutes for a call sometime soon? I'd love to hear more about your path and the work your team does. I've attached my resume as well.\n\nThank you so much for your time!\n\nBest,",
+      "timings": {
+        "draftMs": 6025,
+        "lintMs": 0,
+        "reviewMs": 5469,
+        "reviewRetryMs": null,
+        "totalMs": 11501
+      }
+    },
+    {
+      "id": "825",
+      "profile": "sparse",
+      "boxes": [
+        "stay.redirected",
+        "stay.second"
+      ],
+      "summary": "Stay in touch · Ask for a second conversation · Thank the person who sent me elsewhere",
+      "leadType": "second_conversation",
+      "ok": true,
+      "subject": "An Update, and a Quick Ask",
+      "body": "Hi Rachel,\n\nI hope you're doing well. We spoke back in March, and your advice to track a few brands closely rather than follow the market broadly has stuck with me. I'm now tracking three brands regularly, building out a sense of how their fundamentals move over time.\n\nThank you also for pointing me to Ben Ortega. I had a good conversation with him since we last spoke.\n\nWould you have 15 minutes sometime in the next few weeks? As recruiting conversations start picking up this fall, I'd like to get your read on whether my approach to tracking these companies is actually useful or if I'm missing something important. I'm glad to work around whatever timing suits you best.\n\nThank you again for the advice and the introduction!\n\nBest,",
+      "preReviewSubject": "An Update, and a Quick Ask",
+      "preReviewBody": "Hi Rachel,\n\nI hope you're doing well! We spoke back in March, and your advice to track a few brands closely rather than follow the market broadly has stuck with me. I'm now tracking three brands regularly, building out a sense of how their fundamentals move over time.\n\nI also wanted to thank you for pointing me to Ben Ortega. That conversation was genuinely useful alongside the work I've been doing.\n\nWould you have 15 minutes sometime in the next few weeks? As recruiting conversations start picking up this fall, I'd like to get your read on whether my approach to tracking these companies is actually useful or if I'm missing something important. Whatever time works on your end is fine with me.\n\nThank you again for the advice and the introduction!\n\nBest,",
+      "timings": {
+        "draftMs": 6714,
+        "lintMs": 1,
+        "reviewMs": 5246,
+        "reviewRetryMs": null,
+        "totalMs": 11967
+      }
+    }
+  ]
+}

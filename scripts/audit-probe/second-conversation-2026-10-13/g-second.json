@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "script": "scripts/draft-reply-grader.ts",
+    "ranAt": "2026-10-13T04:54:25.360Z",
+    "judgeModel": "claude-sonnet-5-5",
+    "pinnedModel": "claude-sonnet-5-5",
+    "promptVersion": "reply-grader/1",
+    "promptSha": "8700addf89d0917d22c56b03d0e8805b7dddc72a6d0cc01da37f3424a5cfd300",
+    "promptShaPinned": "8700addf89d0917d22c56b03d0e8805b7dddc72a6d0cc01da37f3424a5cfd300",
+    "comparable": true,
+    "arm": "post",
+    "inputs": [
+      "/private/tmp/claude-501/-Users-kaiclauson-Developer-Offerly-Bing-Bong/b875acd3-e82c-4848-a19b-01e706172ab0/scratchpad/sc/second.json"
+    ],
+    "passes": 1,
+    "transport": "claude CLI (subscription); costUsd is notional API accounting, billed to nobody",
+    "blinding": "the judge is sent subject + body only - no id, boxes, leadType, profile, notes, arm, run or commit, and never both arms in one call"
+  },
+  "distribution": {
+    "would_reply": 4,
+    "would_ignore": 1,
+    "off_putting": 0
+  },
+  "byShape": {
+    "ask": {
+      "n": 5,
+      "replied": 4,
+      "ignored": 1,
+      "offPutting": 0
+    },
+    "no_ask": {
+      "n": 0,
+      "replied": 0,
+      "ignored": 0,
+      "offPutting": 0
+    },
+    "conditional": {
+      "n": 0,
+      "replied": 0,
+      "ignored": 0,
+      "offPutting": 0
+    },
+    "unclassified": {
+      "n": 0,
+      "replied": 0,
+      "ignored": 0,
+      "offPutting": 0
+    }
+  },
+  "errored": 0,
+  "tells": {
+    "vague_ask": 5,
+    "cv_recital": 3,
+    "template_closer": 1,
+    "nothing_for_me": 1
+  },
+  "calibration": null,
+  "stability": null,
+  "usage": {
+    "inputTokens": 10,
+    "outputTokens": 1116,
+    "cacheReadTokens": 6018,
+    "cacheWriteTokens": 7566,
+    "costUsd": 0.042647599999999994
+  },
+  "results": [
+    {
+      "id": "822",
+      "source": "second.json",
+      "arm": "post",
+      "leadType": "second_conversation",
+      "pass": 1,
+      "words": 89,
+      "graded": {
+        "verdict": "would_ignore",
+        "reason": "I remember vaguely talking in March, but \"I'm following three of them now\" doesn't tell me which brands or give me anything to react to, so a second call means real work for me with little to answer.",
+        "worst_line": "I'd like to hear what you make of where I've taken your suggestion, and what you'd look at next.",
+        "tells": [
+          "vague_ask",
+          "cv_recital",
+          "template_closer",
+          "nothing_for_me"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 240,
+        "cacheReadTokens": 0,
+        "cacheWriteTokens": 2701,
+        "costUsd": 0.013208
+      },
+      "ms": 3177
+    },
+    {
+      "id": "823",
+      "source": "second.json",
+      "arm": "post",
+      "leadType": "second_conversation",
+      "pass": 1,
+      "words": 93,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "I know this student, I made the intro to Ben, and the ask is concrete: \"Would you have 15 minutes\" to hear the three brands I suggested tracking, so I'd write back with a day.",
+        "worst_line": "I'd like to walk you through the three brands and hear how you'd keep building on them.",
+        "tells": [
+          "vague_ask"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 216,
+        "cacheReadTokens": 0,
+        "cacheWriteTokens": 2711,
+        "costUsd": 0.013007999999999999
+      },
+      "ms": 2981
+    },
+    {
+      "id": "824",
+      "source": "second.json",
+      "arm": "post",
+      "leadType": "second_conversation",
+      "pass": 1,
+      "words": 102,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "She's a real prior contact who introduced Ben and gave advice in March, and the ask is small and concrete (\"Would you have 15 minutes to talk again?\"), so a quick yes or a short reply is easy.",
+        "worst_line": "I'd value your thoughts on how I'm tracking the brands.",
+        "tells": [
+          "cv_recital",
+          "vague_ask"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 224,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 731,
+        "costUsd": 0.0055692
+      },
+      "ms": 3006
+    },
+    {
+      "id": "825",
+      "source": "second.json",
+      "arm": "post",
+      "leadType": "second_conversation",
+      "pass": 1,
+      "words": 88,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "There's a real prior conversation and a referral I made (\"the person you pointed me to\"), so I know why they wrote to me, and a second call is an easy yes or a quick \"send me the three brands.\"",
+        "worst_line": "Any day and time that suits you works for me.",
+        "tells": [
+          "vague_ask"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 202,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 684,
+        "costUsd": 0.0051612
+      },
+      "ms": 2882
+    },
+    {
+      "id": "826",
+      "source": "second.json",
+      "arm": "post",
+      "leadType": "second_conversation",
+      "pass": 1,
+      "words": 106,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "We actually spoke in March and I pointed them to Ben, so it's a warm follow-up, and \"I'm tracking three now\" is a concrete update that makes a 15-minute chat easy to say yes to.",
+        "worst_line": "I'd like to walk you through what I'm seeing in the three brands and hear what you'd look at next.",
+        "tells": [
+          "cv_recital",
+          "vague_ask"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 234,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 739,
+        "costUsd": 0.0057012
+      },
+      "ms": 3179
+    }
+  ]
+}

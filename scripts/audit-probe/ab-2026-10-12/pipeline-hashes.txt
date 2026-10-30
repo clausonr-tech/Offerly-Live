@@ -1,0 +1,22 @@
+### HASHES BEFORE draft-baseline-pretoday
+64486136a11f1d1021aba3a3475e3b6a  src/lib/draft-prompt.ts
+85a352e5f127de5f5938eb38d93d0bbe  src/lib/draft-review.ts
+890e59ca16da4a98fee883b641ea651e  src/lib/draft-lint.ts
+f332d013bc2be8cff874feeade4b3129  src/lib/email-examples.ts
+6ebb98b2c0bb5107f05ce4a29442460a  src/lib/email-examples-v3.json
+15172ea11df4bb5a763a327362657a27  src/lib/email-examples-v4.json
+3a811c22d9beb14b73c661353dfb9903  src/lib/draft-templates.ts
+4f6712fe509759973dda447cc6b5f51f  src/lib/draft-occasions.ts
+cbedcdb4b43c75f279e9f9d3f2064d31  scripts/draft-cli-eval.ts
+0db01c002c94fa8715a3124e867fccec  scripts/draft-occasions-sim.ts
+### HASHES BEFORE draft-pipeline-perf
+985829ff5df85488ee019d27d3a26e30  src/lib/draft-prompt.ts
+1e042349cf76e76ac7ce796c72853194  src/lib/draft-review.ts
+a53a1bb629a8617bd1f2316c1abfe7f3  src/lib/draft-lint.ts
+e6e114419817d7fdbf4b8b5644e84e77  src/lib/email-examples.ts
+f2122620d667663096298f22210d9283  src/lib/email-examples-v3.json
+4cb381d9c72c57413dc8037b46ab6d92  src/lib/email-examples-v4.json
+33133d0cff05636f90f06ce7b8797996  src/lib/draft-templates.ts
+159a07e007688bb39cb9633c953fa5c4  src/lib/draft-occasions.ts
+cbedcdb4b43c75f279e9f9d3f2064d31  scripts/draft-cli-eval.ts
+6437eeed705d38a5ae6d4a0f958196a2  scripts/draft-occasions-sim.ts

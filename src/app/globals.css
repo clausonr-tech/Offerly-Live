@@ -1,0 +1,2168 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  /* A white with a blue cast rather than the warm cream this used to be -
+     the same family as the landing page's canvas, which is white under navy
+     washes (see .mkt-canvas).
+
+     NOT pure white, deliberately. 62 files in the app put white cards on this
+     surface; a pure-white page would erase every one of their edges. A couple
+     of points of tint is enough to keep that hierarchy while still reading as
+     white rather than cream. */
+  --background: #f7f9fc;
+  --foreground: #0b1526;
+
+  /* Logged-out (marketing + auth) theme tokens. Default is now the white
+     "techy SaaS" look; dark is opt-in via [data-mkt-theme="dark"] on the
+     marketing/auth root (toggled by ThemeToggle). Kept separate from the
+     navy/cream brand tokens above, which the authenticated app always uses
+     regardless of this toggle. */
+  --mkt-bg: #ffffff;
+  /* The band color: the cream the statement band, the floating nav and the
+     pipeline section all share, so those three read as one surface instead of
+     three near-whites. Dark flips it to the app's navy canvas. */
+  --mkt-band: #f7f6f4;
+  --mkt-text: #0a0a0a;
+  --mkt-muted: #4b5563;
+  --mkt-faint: #6b7280;
+  /* Borders carry a navy tint (instead of neutral black) so the accent
+     shows up in the everyday card/divider chrome, not just CTA bands. */
+  --mkt-border: rgba(41, 90, 127, 0.18);
+  --mkt-border-strong: rgba(41, 90, 127, 0.28);
+  /* Form controls need 3:1 against the page to be perceivable as controls,
+     which the decorative card border above does not reach (1.64:1). Same hue,
+     carried far enough up to measure 3.30:1 on white - kept as its own token
+     so darkening the field outline does not darken every card on the site. */
+  --mkt-field-border: rgba(41, 90, 127, 0.65);
+  --mkt-surface: rgba(41, 90, 127, 0.04);
+  --mkt-surface-strong: rgba(41, 90, 127, 0.09);
+  /* Primary buttons/active-states use the navy accent instead of black -
+     makes the brand color the thing you press, not just a background wash. */
+  --mkt-invert: #295a7f;
+  --mkt-invert-text: #ffffff;
+  --mkt-invert-hover: #1c405b;
+  /* Faint icy-blue tint instead of neutral white, so glass cards read as
+     part of the same navy system rather than plain white panels. */
+  --mkt-glass-bg: rgba(233, 241, 247, 0.65);
+  --mkt-glass-shadow: rgba(0, 0, 0, 0.05);
+  --mkt-glass-grad-1: rgba(0, 0, 0, 0.12);
+  --mkt-glass-grad-2: rgba(0, 0, 0, 0.04);
+  --mkt-glow: rgba(10, 10, 10, 0.18);
+  /* Validation red. Tailwind's red-400 is a dark-mode value - on this white
+     canvas it measures 2.89:1, under even the 3:1 floor. red-700 reads at
+     6.47:1 here; the dark block below swaps back to the lighter red. */
+  --mkt-danger: #b91c1c;
+
+  /* Navy brand accent (#295A7F) - used as gradient washes behind marketing
+     sections and on the CTA bands, instead of flat white/black. */
+  --mkt-accent: #295a7f;
+  --mkt-accent-strong: #16324a;
+  --mkt-accent-wash-1: rgba(41, 90, 127, 0.32);
+  --mkt-accent-wash-2: rgba(41, 90, 127, 0.17);
+
+}
+
+/* /home hero wash. The email image itself is the same in both themes - what
+   changes is what it fades INTO at the bottom, where the wordmark sits. Light
+   mode fades to cream so the navy wordmark reads; dark fades to black so the
+   white one does. Treating the image as a photograph on the page rather than
+   recolouring it keeps the in-focus blue sentence legible either way. */
+:root {
+  /* Vertical only. A 90deg component used to run 0.42 -> 0.06 alpha across the
+     frame, and the in-focus sentence spans ~10-41% of the width - so the same
+     fill picked up ~0.35 of wash at its left end and ~0.06 at its right, and
+     read as two different blues. Edge falloff is the artwork's own vignette. */
+  --hero-wash:
+    linear-gradient(90deg, #f7f9fc 0%, rgba(247, 249, 252, 0) 7%,
+      rgba(247, 249, 252, 0) 93%, #f7f9fc 100%),
+    linear-gradient(180deg, rgba(247, 249, 252, 0.5) 0%, rgba(247, 249, 252, 0.1) 30%,
+      rgba(247, 249, 252, 0.16) 56%, rgba(247, 249, 252, 0.9) 86%, #f7f9fc 100%);
+}
+
+/* The statement band. In the dark theme it takes the same navy as the
+   community section directly above it so the two read as one surface; in light
+   it keeps the page's cream. This has to be a scoped rule rather than a
+   Tailwind variant because the marketing theme is an attribute on <html>, not
+   a class, and nothing here registers a matching Tailwind variant.
+
+   It also fixes a real contrast bug: the band's blockquote reads --mkt-text,
+   which flips to #ffffff under the dark theme, so on an always-cream ground
+   the dark theme was painting white text on cream. */
+.approach-band {
+  background-color: var(--mkt-band);
+}
+
+/* Not "@theme inline" - inline mode bakes literal values straight into
+   compiled utility CSS (no var() indirection), which quietly defeats any
+   attempt to override a token's value via a scoped selector further down
+   the cascade (see [data-app-theme="terminal"] below, which needs exactly
+   that indirection to re-skin bg-accent-500/bg-white/text-brand-900/etc.
+   without editing every component). Plain @theme keeps utilities pointing
+   at var(--color-*), so default pages resolve identically to before while
+   the scoped override becomes possible. */
+@theme {
+  /* Literal values, not var(--background)/var(--foreground) indirection -
+     that pattern is what silently broke --color-surface-1 (see the comment
+     below): a custom property inherits the value computed where it was
+     DECLARED, not a live re-resolution against a closer override further
+     down the tree, so bg-background/from-background/etc. rendered the
+     light-mode value even inside the terminal theme. Direct redeclaration,
+     value and all, at every scope that needs to change it - matching
+     --color-white, which never had this bug for exactly that reason. */
+  --color-background: #f7f9fc;
+  --color-foreground: #0b1526;
+  /* The app's own panel surface, one tonal step up from --background - not
+     just an opacity variant of it. A literal value here (not var(--surface-1)
+     indirection): --color-background above LOOKS like it proves that
+     indirection works, but it only renders correctly because .terminal-canvas
+     paints background-color from --background directly - --color-background
+     itself is exactly as broken as this token was. Custom-property
+     inheritance passes down the value computed where a property is
+     DECLARED; since --color-surface-1 was declared once here reading
+     var(--surface-1), every descendant inherited that one computed result
+     forever, never re-resolving against a closer --surface-1 override.
+     --color-white below never had this bug for the same reason: it's
+     redeclared directly, value and all, at every scope that needs to change
+     it - which is what this now does too. */
+  --color-surface-1: #ffffff;
+
+  /* Navy washes for .terminal-canvas below. Same idea as --mkt-accent-wash-*
+     on the marketing side: colour at the edges and corners, clear through the
+     middle where the content sits. Lighter than the marketing values because
+     the app's column is wider (max-w-7xl against max-w-6xl), so the bands
+     reach further into the reading area. */
+  --app-wash-1: rgba(41, 90, 127, 0.26);
+  --app-wash-2: rgba(41, 90, 127, 0.14);
+
+  --color-mkt-bg: var(--mkt-bg);
+  --color-mkt-band: var(--mkt-band);
+  --color-mkt-text: var(--mkt-text);
+  --color-mkt-muted: var(--mkt-muted);
+  --color-mkt-faint: var(--mkt-faint);
+  --color-mkt-border: var(--mkt-border);
+  --color-mkt-border-strong: var(--mkt-border-strong);
+  --color-mkt-field-border: var(--mkt-field-border);
+  --color-mkt-danger: var(--mkt-danger);
+  --color-mkt-surface: var(--mkt-surface);
+  --color-mkt-surface-strong: var(--mkt-surface-strong);
+  --color-mkt-invert: var(--mkt-invert);
+  --color-mkt-invert-text: var(--mkt-invert-text);
+  --color-mkt-invert-hover: var(--mkt-invert-hover);
+  --color-mkt-accent: var(--mkt-accent);
+  --color-mkt-accent-strong: var(--mkt-accent-strong);
+
+  /* Calibri is a proprietary Microsoft font - not licensable for web
+     embedding, so this references it as a system font instead of bundling
+     files. Renders as true Calibri for anyone who already has it installed
+     (most Windows and Office users), falling back to metrically similar
+     humanist sans fonts otherwise. */
+  --font-sans: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  --font-mono: var(--font-geist-mono);
+
+  --color-brand-950: #060b14;
+  --color-brand-900: #0b1526;
+  --color-brand-850: #0f1c30;
+  --color-brand-800: #16273f;
+  --color-brand-700: #203552;
+  --color-brand-600: #2c4568;
+  --color-brand-500: #3d5b85;
+  /* Card and divider edges. Deliberately darker than a typical hairline: on
+     the cream background the previous values (#c7d2e3 / #e4e9f2) read as
+     almost no edge at all, so panels blurred into the page. */
+  /* brand-300 is the hover step above the resting edge. It was referenced by
+     nine `hover:border-brand-300` classes across the app and never defined, so
+     Tailwind emitted no such utility and every one of those hover states did
+     nothing. #7286a8 is 3.5:1 against the page - UI component boundaries need
+     3:1 to be perceivable, and brand-100 managed 1.49:1, which is why these
+     edges looked like they faded into the background. */
+  --color-brand-300: #7286a8;
+  --color-brand-200: #a3b3cc;
+  --color-brand-100: #c5cfe0;
+  --color-brand-50: #f3f5f9;
+
+  --color-accent-700: #14274d;
+  --color-accent-600: #1c3560;
+  --color-accent-500: #24447a;
+  --color-accent-400: #3a5da0;
+  --color-accent-200: #b6c5e0;
+  --color-accent-100: #d8e0f0;
+  --color-accent-50: #eef1f9;
+
+  /* Warm neutral gray for secondary/muted text — measured off apollo.com's
+     actual computed styles (#55585a), used there for nav links and body
+     copy. Warmer/less blue than Tailwind's default slate. Landing-page-only
+     for now, pending approval before it replaces slate-500/600 elsewhere. */
+  --color-warmgray-600: #45484a;
+  /* Section headings and small caps labels use this. #6f7274 on the cream
+     background sat right on the edge of comfortable reading at small sizes. */
+  --color-warmgray-500: #5b5e60;
+
+  /* Muted bronze/gold - used sparingly for premium accent touches (rules,
+     small highlights) alongside the navy/cream base, never as a primary. */
+  --color-gold-700: #6b4f1f;
+  --color-gold-600: #8a6a2f;
+  --color-gold-500: #a8823c;
+  --color-gold-400: #c29a52;
+  --color-gold-200: #e3cf9e;
+  --color-gold-100: #efe3c8;
+  /* Violet: the accent for illustrations, key words in titles and small
+     tags (2026-09-25). An accent only - pages stay on the neutral canvas. */
+  --color-violet-50: #f1eefe;
+  --color-violet-100: #e4defd;
+  --color-violet-200: #cbc1fa;
+  --color-violet-300: #b1a3f5;
+  --color-violet-500: #7c6ae6;
+  --color-violet-600: #6553d0;
+  --color-violet-700: #5042ad;
+  --color-gold-50: #f8f2e3;
+
+  /* Semantic states, kept in the same warm/muted family as the rest of the
+     palette (desaturated terracotta / sage) instead of stock Tailwind
+     red-500 / emerald-500 - so alerts read as part of the same system. */
+  --color-error-800: #5c2318;
+  --color-error-700: #7a2e1f;
+  --color-error-600: #93392a;
+  --color-error-500: #ad4735;
+  --color-error-200: #e8c3b6;
+  --color-error-100: #f2ddd3;
+  --color-error-50: #faf1ec;
+
+  --color-success-800: #2c3f28;
+  --color-success-700: #3a5233;
+  --color-success-600: #4a6640;
+  --color-success-500: #5c7a4f;
+  --color-success-200: #cbdac0;
+  --color-success-100: #e0ead8;
+  --color-success-50: #f2f6ee;
+
+  /* Neutral text/border scale for body copy and dividers - warmer and
+     softer than slate, sits between warmgray-500/600 and brand-900. */
+  --color-warmgray-300: #b7b6b2;
+  --color-warmgray-200: #d8d6d1;
+  --color-warmgray-100: #ece9e3;
+
+  /* Soft, warm-tinted elevation — replaces flat borders with real depth. */
+  --shadow-card: 0 1px 2px rgba(11, 21, 38, 0.05), 0 8px 24px -10px rgba(11, 21, 38, 0.12);
+  --shadow-card-hover: 0 2px 4px rgba(11, 21, 38, 0.06), 0 16px 32px -12px rgba(11, 21, 38, 0.16);
+
+  /* Square corners on the marketing, auth and onboarding pages. The
+     signed-in app redefines these to a real scale on [data-app-theme] -
+     see the note there. rounded-full is untouched either way. */
+  --radius-sm: 0rem;
+  --radius-md: 0rem;
+  --radius-lg: 0rem;
+  --radius-xl: 0rem;
+  --radius-2xl: 0rem;
+}
+
+html {
+  /* Slightly larger base than the 16px default so text fills more of the
+     page and reads less sparse - every rem-based Tailwind text size scales
+     up proportionally from this. */
+  font-size: 17px;
+}
+
+/* Typography belongs to the APP, not to the dark skin. These lived inside the
+   [data-app-theme="terminal"] block, so light mode silently fell back to the
+   marketing stack: Calibri for body AND headings, Geist Mono for mono. The
+   attribute-present selector matches "terminal" and "light" alike, so both
+   themes get the same type and only colour changes between them. */
+[data-app-theme] {
+  --font-sans: var(--font-app-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-app-mono), ui-monospace, monospace;
+  /* Applied here, not only redefined. `body` sets font-family from
+     var(--font-sans) at the ROOT, where it is still the marketing stack
+     (Calibri, which a Mac does not have, so Candara/Optima), and this subtree
+     inherits that resolved value - redefining the variable below body changed
+     nothing that did not name font-sans itself. The whole signed-in app was
+     rendering in Optima next to Plex Mono and a Bodoni heading. */
+  font-family: var(--font-sans);
+
+  /* The signed-in app's corner scale. The @theme tokens above stay 0rem, so
+     the marketing, auth and onboarding pages keep their square look; inside
+     the app every rounded-* utility now means what it says. Tailwind's
+     utilities read these variables at use, so redefining them on this subtree
+     is all it takes - no component carries its own radius for this.
+
+       rounded-sm   6px   chips, tags, calendar bubbles
+       rounded-md  10px   buttons, inputs, menu items, small cards
+       rounded-lg  14px   cards and panels
+       rounded-xl  18px   large panels, popovers and dialogs
+       rounded-2xl 24px   hero banners and page-scale surfaces
+
+     Bare `rounded` is not on the scale - Tailwind compiles it to a fixed
+     4px - and rounded-full is untouched: avatars, dots and pills stay
+     circular. */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-2xl: 24px;
+}
+
+/* Page type. The authenticated app reads in IBM Plex Sans throughout -
+   body, controls, navigation and headings alike - and the editorial serif is
+   kept for the moments that are meant to be the brand: the wordmark, the
+   navy hero banner at the top of a section (.app-hero-title), and the
+   contact-card faces (.display-serif).
+
+   It used to be the other way round: every h1 and h2 in the app was set in
+   Bodoni by one rule, so a panel heading, a card title and the section's own
+   hero all shouted in the same display face, and the rule beat the pixel face
+   inside Interview Prep and the Gmail-style composer too (an element selector
+   outranks their class). Headings now simply inherit, which is what keeps
+   those other media in their own type. :where() keeps this at zero
+   specificity so any utility on a heading wins. */
+[data-app-theme] :where(h1, h2) {
+  letter-spacing: -0.01em;
+}
+
+.app-hero-title {
+  font-family: var(--font-app-display), Georgia, serif;
+  letter-spacing: -0.01em;
+}
+
+/* The contact cards on /home are playing cards, and a playing card has round
+   corners and a serif index in its corner. The 14px is the card's own
+   silhouette - kept literal rather than a token so a change to the app's
+   corner scale does not reshape a playing card. */
+.play-card {
+  border-radius: 14px;
+
+  /* The cards run OPPOSITE the page: navy face on the cream light theme, cream
+     face on the black dark theme. That inversion is what makes a hand of them
+     read as cards laid on a table rather than as panels floating on the page.
+
+     Written as plain hex/rgba per theme rather than palette tokens with opacity
+     modifiers - Tailwind compiles those to oklab(), and an oklab layer in the
+     ancestor stack is what has repeatedly broken canvas-based contrast
+     measurement here. These values can be checked. */
+  background-color: #0b1526;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.16);
+}
+
+/* A dark logo on the navy face - Lazard's black mark, PWP's - disappears into
+   it, so FirmLogo marks a dark logo and the navy face gives it a white tile.
+   The cream face of the dark theme needs none: dark on cream reads. */
+.play-card .logo-backing {
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 2px;
+}
+
+/* The month picker's pop-up (profile internships). Navy with white type on
+   the light theme, white with navy type on the dark one - the Save and
+   Verify buttons' blue (accent-600), inverted for dark. Plain hex for the same reason as .play-card. */
+.month-pop {
+  background-color: #1c3560;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.16);
+}
+.month-pop .month-pop-cell:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+.month-pop .month-pop-cell[aria-pressed="true"] {
+  background-color: #ffffff;
+  color: #1c3560;
+}
+
+/* Secondary lines on a card face. Opacity on the card's OWN ink rather than a
+   grey token, so one rule works on both the navy face and the cream one. */
+.play-card-dim {
+  opacity: 0.72;
+}
+
+/* The status chip goes monochrome on a card face. The relationship colours are
+   tuned for the page background - `bg-signal-lime/10` is all but invisible on
+   navy - and a card face reading in a single ink is truer to a playing card
+   anyway. */
+.play-card-chip {
+  border: 1px solid currentColor;
+  opacity: 0.8;
+}
+
+/* The Offerly wordmark's typeface, for the places that should read as the
+   brand rather than as UI: the name on a contact card, the firm name on a
+   rolodex card, and a card's corner index. Same family as .app-hero-title,
+   exposed as a class for the spans and paragraphs that are not headings. */
+.display-serif {
+  font-family: var(--font-app-display), Georgia, serif;
+}
+
+/* Marketing-side equivalent of .display-serif above, for the homepage's
+   editorial numerals and other non-heading display moments (the .mkt-canvas
+   h1/h2 rule further down already covers actual headings automatically). */
+.mkt-display {
+  font-family: var(--font-mkt-display), Georgia, serif;
+}
+
+/* The application sheets on /home. Paper, not a card: the corners are square
+   (a printed form has no radius), the stock runs OPPOSITE the page the way the
+   contact cards do, and everything drawn on a sheet is the sheet's own ink at
+   varying strength rather than a palette colour - which is what lets one set of
+   rules work on navy stock and on white.
+
+   Light theme is navy stock with white ink; dark theme is white paper with dark
+   ink. Plain hex per theme, not palette tokens with opacity modifiers, for the
+   same reason as .play-card: Tailwind compiles those to oklab() and an oklab
+   layer breaks canvas-based contrast measurement. */
+.doc-sheet {
+  /* Contains the crease blend. .doc-wrinkle::after uses mix-blend-mode, which
+     blends against everything painted beneath it up to the nearest stacking
+     context - and `position: relative` with no z-index does not create one, so
+     without this the fold shading washes over the panels behind the pile.
+     Caught it greying out the whole Contacts section. */
+  isolation: isolate;
+  background-color: #0b1526;
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+/* A ruled line on a form. currentColor so it inherits the stock's ink. */
+.doc-rule {
+  border-top: 1px solid currentColor;
+  opacity: 0.22;
+}
+
+/* Greeked body copy - the bars that stand in for paragraphs nobody reads at
+   this size. Same trick the offer-letter artwork uses in the hero. */
+.doc-line {
+  background-color: currentColor;
+  opacity: 0.16;
+  height: 3px;
+}
+
+/* The received stamp. Struck at an angle and slightly ragged in weight, because
+   a stamp squarely aligned to the form reads as a UI badge rather than as ink
+   pressed onto paper by hand. */
+.doc-stamp {
+  border: 1.5px solid currentColor;
+  opacity: 0.8;
+}
+
+/* 0.62, not the 0.55 this started at: the field captions are 7px mono, which
+   is small text and therefore owes 4.5:1. At 0.55 they measured 4.08:1 on white
+   stock. */
+/* Creases, from a real bump map rather than drawn lines.
+   
+   The first attempt at this was a handful of straight linear-gradient bands and
+   it looked like exactly that: streaks ruled across the form. Paper does not
+   crease in evenly spaced parallel lines.
+   
+   This is the standard crumple recipe instead - fractal turbulence treated as a
+   height field, lit from one side by feDiffuseLighting, so every fold gets a
+   bright face and a dark face the way an actual crease catches light. The
+   result is blended over the sheet rather than painted on it, which is why one
+   set of filters works on navy stock and on white.
+   
+   feComponentTransfer pulls the lit output back toward mid-grey, because mid-
+   grey is the no-op value for `overlay` - without it the filter would just
+   wash the whole sheet lighter. baseFrequency stays low (~0.012) so the folds
+   are paper-sized undulations rather than fine noise. */
+.doc-wrinkle::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: #000;
+  mix-blend-mode: overlay;
+  opacity: 0.55;
+}
+
+.doc-wrinkle-1::after {
+  filter: url(#doc-crumple-1);
+}
+
+.doc-wrinkle-2::after {
+  filter: url(#doc-crumple-2);
+}
+
+.doc-wrinkle-3::after {
+  filter: url(#doc-crumple-3);
+}
+
+/* The fold shading is a texture, not information. Anyone who has asked for less
+   motion and less visual noise gets flat stock. */
+@media (prefers-reduced-motion: reduce) {
+  .doc-wrinkle::after {
+    opacity: 0.28;
+  }
+}
+
+/* Links inside the app footer. Plain rgba rather than text-white/40 with a
+   hover:text-white: this app's dark theme redefines --color-white to #0a0a0a
+   as a themed near-black surface token, so `hover:text-white` resolved to
+   near-black-on-navy - invisible - specifically under dark mode. See
+   (app)/Footer.tsx for the rest of the story. */
+.footer-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-link:hover {
+  color: #ffffff;
+}
+
+/* Navy in light mode; in Dealroom, the same literal value as --background in
+   the [data-app-theme="terminal"] block below - the footer becomes the floor
+   of the page instead of a fixed navy band, dark mode only. The two rules
+   happen to share one hex now that --background itself is brand-900's navy,
+   but are kept separate rather than collapsed into one unconditional rule:
+   they are still two independent decisions ("navy always" vs "match the
+   page") that only currently resolve to the same value. */
+.site-footer {
+  background-color: #0b1526;
+}
+
+/* An empty tick box on a form. */
+.doc-box {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border: 1px solid currentColor;
+  opacity: 0.45;
+}
+
+.doc-label {
+  opacity: 0.62;
+}
+
+/* The marketing site's editorial headlines. The app no longer sets every
+   heading in its serif (see "Page type" above); marketing still does. */
+.mkt-canvas h1,
+.mkt-canvas h2 {
+  font-family: var(--font-mkt-display), Georgia, serif;
+  letter-spacing: -0.01em;
+}
+
+/* Pure black canvas, same as the signup page - a couple of very faint blue
+   blooms (mkt-accent's own hue) keep it from reading as a flat void without
+   contradicting how flat/dark the reference actually is. Applied to the
+   layout's own wrapper div (not body), so it never leaks into marketing/auth. */
+/* Typewriter caret for the /home hero. A hard on/off blink (steps) rather
+   than a fade - a fading caret reads as a pulsing dot, not a cursor. */
+@keyframes caret-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+.caret-blink {
+  animation: caret-blink 1s steps(1, end) infinite;
+}
+
+/* The artwork carries its own near-black "desk" backdrop and a dark vignette.
+   Against the Dealroom canvas they read as depth; on the cream light canvas
+   the strips either side of the card (which spans x=110-1490 of 1600) read as
+   grey bands framing the email. Light mode drops both and lets the card sit on
+   the page, defined by its own border and shadow. */
+/* Light mode: instead of hiding the desk (which let the cream page show beside
+   the card and read as a grey band), paint it the SAME tone as the card's
+   paper. There is then no edge beside the email at all - the whole hero is one
+   continuous light field, and only the outer 7% fades to the page colour. CSS
+   wins over the fill="url(#desk)" presentation attribute. */
+/* Both the backdrop AND the card itself take the page colour in light mode, so
+   the email sits on a single continuous field with no edge or tonal step
+   against the surrounding page. The card's warm paper gradient (#fdfcfa ->
+   #f4f2ec) is what previously made it read as a separate panel. */
+[data-app-theme="light"] .art-desk,
+[data-app-theme="light"] .art-paper {
+  fill: var(--background);
+}
+[data-app-theme="light"] .art-vignette {
+  opacity: 0;
+}
+/* The card shadow is 62% black - fine as depth on the dark canvas, but against
+   a white field it would re-create the grey halo this is meant to remove. */
+[data-app-theme="light"] #cardShadow feDropShadow {
+  flood-opacity: 0.07;
+}
+
+/* The card's hairline border is a full rounded rect, but the crop puts its top
+   and bottom edges out of frame - so only the two vertical sides survive, and
+   on a light canvas they read as a grey outline flanking the email. (Against
+   the Dealroom canvas they were invisible, which is why this only shows in
+   light mode.) The drop shadow already separates the card from the page. */
+[data-app-theme="light"] .art-card-border {
+  stroke: transparent;
+}
+
+/* Right-to-left marquee for the home rolodex. The track renders the firm list
+   TWICE and travels exactly -50%, which lands on the start of the second copy -
+   so the loop is seamless with no visible jump. Duration is set inline from the
+   firm count so the speed stays constant however many firms exist. */
+@keyframes marquee-left {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation-name: marquee-left;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.marquee-pause:hover .marquee-track {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track { animation: none; }
+}
+
+/* Hero email "typing" reveal. Each <text> in the artwork carries .t-line and
+   an --i index; the line wipes in left-to-right via clip-path, staggered by
+   index, so the letter reads as being written out rather than fading in.
+   Applied to the source <text> elements inside #content, which BOTH <use>
+   stamps reference - so the blurred copy and the in-focus sentence reveal
+   together instead of drifting apart. */
+@keyframes type-line {
+  from { clip-path: inset(0 100% 0 0); }
+  to   { clip-path: inset(0 0 0 0); }
+}
+.t-line {
+  clip-path: inset(0 100% 0 0);
+  /* Held until ScrollHero's effect sets data-intro="run" on <html>. Without
+     this the reveal starts at PAINT while the wordmark's timers start at
+     COMMIT, so the two halves of the intro run on different clocks and the gap
+     between them drifts by however long paint took - which on this page was
+     hundreds of ms and on a cold load, seconds. Starting both from the same
+     moment makes the pause exactly what it says it is. */
+  animation-play-state: paused;
+  /* Durations come from ScrollHero as custom properties so the reveal timing
+     and the delay before the wordmark starts share one source of truth - they
+     were duplicated here and in TS, which would silently drift the moment
+     either was tuned. Fallbacks match the defaults there. */
+  animation: type-line var(--type-wipe, 100ms) linear forwards;
+  animation-delay: calc(var(--i) * var(--type-stagger, 60ms));
+}
+
+[data-intro="run"] .t-line {
+  animation-play-state: running;
+}
+
+/* Someone who has asked for less motion gets the finished artwork immediately. */
+@media (prefers-reduced-motion: reduce) {
+  .t-line {
+    clip-path: inset(0 0 0 0);
+    animation: none;
+  }
+  /* No typing means no cursor to justify - hide the carets outright rather
+     than leaving a blinking bar next to finished text. */
+  .caret-blink {
+    animation: none;
+    opacity: 0;
+  }
+}
+
+/* Tagline entrance. It pops in as a whole line rather than typing, so it needs
+   its own arrival - a bare opacity flip reads as a rendering glitch next to the
+   typed wordmark above it. Short and slightly upward so it feels placed. */
+@keyframes tagline-pop {
+  from { opacity: 0; transform: translateY(5px) scale(0.985); }
+  to   { opacity: 1; transform: none; }
+}
+.tagline-pop {
+  animation: tagline-pop 260ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .tagline-pop { animation: none; }
+}
+
+/* The themed container is the colour root, not just the background root.
+   
+   `body` sets `color: var(--foreground)`, but --foreground is redefined on the
+   [data-app-theme] DIV, which is a descendant of body - so body keeps the light
+   value and every element inside that does not carry its own text-* utility
+   inherits navy. On the black canvas that is invisible: it is why typing into
+   an input with no colour class (the resume file field, anything unstyled)
+   produced black-on-black. Setting colour here, where the tokens actually
+   change, fixes the whole subtree at once instead of one class at a time.
+   
+   color-scheme is the other half. Without it the browser paints its OWN parts
+   of a form control from the light palette however the CSS is written - the
+   text caret, the native <select> dropdown, autofill's background, date
+   pickers, scrollbars. Those are not reachable from a utility class. */
+[data-app-theme] {
+  color: var(--foreground);
+}
+
+[data-app-theme="light"] {
+  color-scheme: light;
+}
+
+.terminal-canvas {
+  background-color: var(--background);
+  background-image:
+    /* Bands down the left and right edges, clear well before the centred
+       content column - the same treatment the landing page uses, so moving
+       between signed-out and signed-in does not change the room you are in. */
+    linear-gradient(
+      to right,
+      var(--app-wash-1) 0%,
+      transparent 12%,
+      transparent 88%,
+      var(--app-wash-1) 100%
+    ),
+    radial-gradient(ellipse 1100px 700px at 10% 0%, var(--app-wash-1), transparent 60%),
+    radial-gradient(ellipse 900px 800px at 100% 28%, var(--app-wash-2), transparent 55%),
+    radial-gradient(ellipse 1000px 900px at 0% 62%, var(--app-wash-1), transparent 60%),
+    radial-gradient(ellipse 1000px 800px at 100% 100%, var(--app-wash-2), transparent 55%);
+  background-attachment: fixed;
+}
+
+/* Per-navigation entrance reveal - src/app/(app)/template.tsx remounts on
+   every route change, so this replays on each page load rather than once
+   per session. */
+/* 0.25s, halved from 0.5s. The page already waits on a database in another
+   region; spending another half-second fading in after the data finally
+   arrives is the one part of that wait we were adding ourselves. Still long
+   enough to read as a deliberate entrance rather than a flicker. */
+[data-app-theme] .app-reveal {
+  animation: app-reveal-in 0.25s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* Someone who has asked for less motion should not be made to wait for an
+   entrance at all. */
+@media (prefers-reduced-motion: reduce) {
+  [data-app-theme] .app-reveal {
+    animation: none;
+  }
+}
+
+@keyframes app-reveal-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Any anchor-jump target (in-page nav links, programmatic scrollIntoView)
+   needs clearance under the fixed marketing nav, or its heading lands
+   right at the top of the viewport, hidden behind the nav bar. */
+[id] {
+  scroll-margin-top: 6rem;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  font-feature-settings: "cv11", "ss01";
+  /* Faint warm vignette + hairline grain - adds depth to the flat cream
+     background without any external image asset. */
+  background-image:
+    radial-gradient(ellipse 1200px 700px at 15% -10%, rgba(36, 68, 122, 0.05), transparent 60%),
+    radial-gradient(ellipse 1000px 800px at 100% 0%, rgba(168, 130, 60, 0.05), transparent 55%);
+  background-attachment: fixed;
+}
+
+/* Small uppercase, letter-spaced label — the eyebrow/kicker convention used
+   throughout institutional finance sites for section and category labels. */
+@layer components {
+  .label-eyebrow {
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+}
+
+/* Every card, row, pill, and menu in the app already shares this one border
+   color as its convention - so giving it real elevation here upgrades the
+   whole site's depth at once, consistently, without touching every file. */
+@layer base {
+  .border-brand-100 {
+    box-shadow: var(--shadow-card);
+    transition: box-shadow 0.15s ease;
+  }
+
+  a.border-brand-100:hover,
+  button.border-brand-100:hover {
+    box-shadow: var(--shadow-card-hover);
+  }
+}
+
+/* Marketing-page illustrations: connector lines draw themselves in once on
+   mount, nodes drift very slightly to feel alive without being distracting. */
+@layer utilities {
+  .draw-in path,
+  .draw-in line {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: draw-line 1.6s ease-out forwards;
+  }
+
+  .node-float {
+    animation: node-float 6s ease-in-out infinite;
+  }
+}
+
+@keyframes draw-line {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes node-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* A soft breathing glow behind the "What we do" heading on the homepage -
+   Apple's own move of a living, softly pulsing light source behind a hero
+   rather than a static gradient. Translate is baked into the keyframe
+   itself (not left to a parallel Tailwind transform class) since the
+   animation's `transform` overwrites the whole property every frame either
+   way, so a class-based translate alongside it would just be dead weight. */
+@keyframes glow-pulse {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: translate(-50%, -30%) scale(1);
+  }
+  50% {
+    opacity: 0.75;
+    transform: translate(-50%, -30%) scale(1.1);
+  }
+}
+
+/* The site-wide reduced-motion reset near the bottom of this file is scoped to
+   [data-app-theme], which only the signed-in app sets - so the illustrations on
+   the marketing and auth pages were still drawing themselves in, and
+   .node-float was still looping forever, for people who asked for no motion.
+   .draw-in's RESTING state is the hidden one, so switching the animation off
+   is not enough on its own: the dash offset has to be closed too or the lines
+   never appear at all. */
+@media (prefers-reduced-motion: reduce) {
+  .draw-in path,
+  .draw-in line {
+    animation: none;
+    stroke-dashoffset: 0;
+  }
+
+  .node-float {
+    animation: none;
+  }
+}
+
+/* Glass-morphism surface for the dark logged-out pages (marketing + auth) -
+   frosted panel with a soft light-catching gradient border, independent of
+   the navy/cream brand system used by the authenticated app. */
+@layer components {
+  .liquid-glass {
+    background: var(--mkt-glass-bg);
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: none;
+    box-shadow: inset 0 1px 1px var(--mkt-glass-shadow);
+    position: relative;
+    overflow: hidden;
+  }
+  .liquid-glass::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1.4px;
+    background: linear-gradient(
+      180deg,
+      var(--mkt-glass-grad-1) 0%,
+      var(--mkt-glass-grad-2) 20%,
+      transparent 40%,
+      transparent 60%,
+      var(--mkt-glass-grad-2) 80%,
+      var(--mkt-glass-grad-1) 100%
+    );
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  /* Fixed-dark variant for UI chrome that sits directly on top of the
+     always-dark hero video - independent of the site-wide light/dark
+     toggle, since white text over video needs a dark glass pill no matter
+     which theme the rest of the page is in. */
+  .liquid-glass-dark {
+    background: rgba(0, 0, 0, 0.4);
+    background-blend-mode: luminosity;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: none;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  .liquid-glass-dark::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1.4px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.3) 0%,
+      rgba(255, 255, 255, 0.1) 20%,
+      transparent 40%,
+      transparent 60%,
+      rgba(255, 255, 255, 0.1) 80%,
+      rgba(255, 255, 255, 0.3) 100%
+    );
+    -webkit-mask:
+      linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+}
+
+/* Slow drifting dark gradient field standing in for the hero video - three
+   soft color blooms crossfading/drifting across a black canvas. */
+@layer utilities {
+  .ambient-field {
+    background:
+      radial-gradient(ellipse 60% 50% at 20% 30%, rgba(80, 90, 140, 0.35), transparent 60%),
+      radial-gradient(ellipse 55% 45% at 80% 70%, rgba(140, 110, 60, 0.25), transparent 60%),
+      radial-gradient(ellipse 50% 60% at 60% 20%, rgba(60, 80, 120, 0.3), transparent 55%),
+      #000;
+    background-size: 200% 200%;
+    animation: ambient-drift 22s ease-in-out infinite;
+  }
+}
+
+@keyframes ambient-drift {
+  0% {
+    background-position: 0% 0%, 100% 100%, 50% 0%;
+  }
+  50% {
+    background-position: 30% 40%, 70% 60%, 20% 30%;
+  }
+  100% {
+    background-position: 0% 0%, 100% 100%, 50% 0%;
+  }
+}
+
+/* One continuous navy wash behind the whole marketing site, instead of a
+   flat white sheet with separate per-section backgrounds - fixed to the
+   viewport so the blooms read as one field flowing behind the page as you
+   scroll, rather than a seam at every section boundary. */
+@layer utilities {
+  .mkt-canvas {
+    background-color: var(--mkt-bg);
+    background-image:
+      /* Navy bands on the left/right edges, fading to clear well before the
+         centered content column - cuts down on dead white space on wide
+         viewports without tinting the content itself. */
+      linear-gradient(
+        to right,
+        var(--mkt-accent-wash-1) 0%,
+        transparent 12%,
+        transparent 88%,
+        var(--mkt-accent-wash-1) 100%
+      ),
+      radial-gradient(ellipse 1100px 700px at 10% 0%, var(--mkt-accent-wash-1), transparent 60%),
+      radial-gradient(ellipse 900px 800px at 100% 28%, var(--mkt-accent-wash-2), transparent 55%),
+      radial-gradient(ellipse 1000px 900px at 0% 62%, var(--mkt-accent-wash-1), transparent 60%),
+      radial-gradient(ellipse 1000px 800px at 100% 100%, var(--mkt-accent-wash-2), transparent 55%);
+    background-attachment: fixed;
+  }
+}
+
+/* ============================================================================
+   Signal palette + motion.
+
+   A second, hue-led scale sitting alongside the brand scales. The brand set is
+   deliberately narrow - navy, sage, brick - which is right for a finance
+   product but leaves nothing to distinguish six sectors, four difficulty
+   levels or a status pill from each other. These are those distinctions.
+
+   Muted on purpose. They are saturated enough to read instantly against the
+   black canvas and to carry meaning, but stopped well short of neon: the
+   product is a recruiting tool students bring to interviews, and it has to
+   look considered rather than playful.
+   ========================================================================= */
+@theme {
+  --color-signal-violet: #6d5bb8;
+  --color-signal-cyan: #3d7f93;
+  --color-signal-pink: #a5637f;
+  --color-signal-lime: #4d7a5c;
+  --color-signal-amber: #9a7434;
+  --color-signal-rose: #a85a52;
+
+  --animate-score-pop: score-pop 800ms cubic-bezier(0.2, 0.9, 0.3, 1) forwards;
+  --animate-card-in: card-in 260ms cubic-bezier(0.2, 0.9, 0.3, 1) both;
+  --animate-shake: shake 420ms cubic-bezier(0.36, 0.07, 0.19, 0.97);
+  --animate-flame: flame 1.4s ease-in-out infinite;
+  --animate-pip-fill: pip-fill 320ms cubic-bezier(0.2, 0.9, 0.3, 1) both;
+  --animate-reveal: reveal 420ms cubic-bezier(0.2, 0.9, 0.3, 1) both;
+  --animate-confetti: confetti 1500ms ease-in forwards;
+  --animate-game-jump: game-jump 500ms cubic-bezier(0.3, 0.6, 0.3, 1) both;
+  --animate-game-flash: game-flash 480ms ease-in-out;
+  --animate-cloud-drift-lr: cloud-drift-lr 60s linear infinite;
+  --animate-cloud-drift-rl: cloud-drift-rl 60s linear infinite;
+  --animate-rise-in: rise-in 380ms cubic-bezier(0.2, 0.9, 0.3, 1) both;
+  --animate-slide-up-in: slide-up-in 320ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes score-pop {
+  0% { opacity: 0; transform: translateY(6px) scale(0.85); }
+  25% { opacity: 1; transform: translateY(-2px) scale(1.12); }
+  60% { opacity: 1; transform: translateY(-14px) scale(1); }
+  100% { opacity: 0; transform: translateY(-30px) scale(0.95); }
+}
+
+@keyframes card-in {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Full displacement by the element's own height, not a token offset - reads
+   as physically climbing up from below the viewport edge into its resting
+   spot, not just fading in with a nudge (that's what rise-in is for). */
+@keyframes slide-up-in {
+  from { opacity: 0; transform: translateY(100%); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes reveal {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes shake {
+  10%, 90% { transform: translateX(-2px); }
+  20%, 80% { transform: translateX(3px); }
+  30%, 50%, 70% { transform: translateX(-5px); }
+  40%, 60% { transform: translateX(5px); }
+}
+
+@keyframes flame {
+  0%, 100% { transform: scale(1) rotate(-2deg); }
+  50% { transform: scale(1.14) rotate(2deg); }
+}
+
+@keyframes pip-fill {
+  from { transform: scale(0.4); opacity: 0.4; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes confetti {
+  0% { opacity: 1; transform: translateY(0) rotate(0deg); }
+  100% { opacity: 0; transform: translateY(160px) rotate(540deg); }
+}
+
+/* Platformer game: a jump arc on a correct answer (a translateY bounce layered
+   on top of the position transition that actually moves the character to the
+   next platform), and a double red hit-flash on a wrong one. The sprite is a
+   multicoloured pixel businessman now, not a solid block, so "flash red" is a
+   red overlay div pulsing its opacity on top of the sprite rather than
+   recolouring the sprite itself. */
+@keyframes game-jump {
+  0% { transform: translateY(0); }
+  40% { transform: translateY(-28px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes game-flash {
+  0%, 100% { opacity: 0; }
+  25%, 65% { opacity: 0.65; }
+  45%, 85% { opacity: 0; }
+}
+
+/* Background clouds drifting across the platformer's sky, in vw rather than
+   percent - the game screen is a `fixed inset-0` overlay, so the viewport
+   width IS the scene width, and percent in a transform resolves against the
+   (tiny) cloud's own box, not its container. */
+@keyframes cloud-drift-lr {
+  from { transform: translateX(-30vw); }
+  to { transform: translateX(120vw); }
+}
+
+@keyframes cloud-drift-rl {
+  from { transform: translateX(120vw); }
+  to { transform: translateX(-30vw); }
+}
+
+/* ============================================================================
+   Interaction layer - applied by convention, app subtree only.
+
+   The app markup is highly consistent: cards are `rounded-lg border
+   border-brand-100 bg-white`, primary buttons are `bg-accent-500`, list rows
+   are anchors with `hover:bg-brand-50`. That consistency means interaction can
+   be attached here once, by matching those conventions, instead of editing the
+   className of every card across twenty pages - the same trick
+   [data-app-theme="terminal"] already uses to re-skin the product without
+   touching a component file.
+
+   Scoped under [data-app-theme] throughout, so marketing, login and onboarding
+   are untouched.
+   ========================================================================= */
+
+/* The lift shadow has to be defined per theme, not once. On the default cream
+   canvas a dark shadow reads as depth; on the terminal theme's pure black it is
+   literally invisible - black on black - so there the "shadow" is a soft light
+   halo instead. Same variable, opposite technique. */
+[data-app-theme] {
+  --lift-shadow: 0 8px 22px -10px rgb(0 0 0 / 0.35);
+}
+
+/* Interview Prep's palette, expressed in the site's own tokens (2026-09-28:
+   the page used to carry a separate parchment-and-pixel "digital" identity;
+   it now reads like every other page). The names stay so PracticeSession and
+   SchoolLeaderboard need no per-colour rewiring. The platformer game does not
+   read these - it keeps its own fixed palette as one device screen. */
+[data-app-theme] {
+  --learn-bg: #ffffff;
+  --learn-panel: var(--color-brand-50);
+  --learn-border: var(--color-brand-100);
+  --learn-fg: var(--color-brand-900);
+  --learn-muted: var(--color-warmgray-500);
+  --learn-cyan: var(--color-accent-500);
+  --learn-red: var(--color-error-600);
+  --learn-gold: var(--color-gold-600);
+  --learn-rose: var(--color-accent-400);
+  --learn-green: var(--color-success-700);
+  --learn-selected-bg: var(--color-accent-50);
+  --learn-pass-bg: var(--color-brand-50);
+  --learn-fail-bg: var(--color-error-50);
+}
+
+/* Anything clickable gets a consistent, quick response. */
+[data-app-theme] button:not(:disabled),
+[data-app-theme] a,
+[data-app-theme] [role="button"] {
+  transition:
+    transform 160ms cubic-bezier(0.2, 0.9, 0.3, 1),
+    border-color 160ms ease,
+    background-color 160ms ease,
+    box-shadow 160ms ease,
+    color 160ms ease;
+}
+
+/* Hover: zoom in slightly and lift on a shadow. One behaviour for every
+   control in the product - buttons, card-shaped links, and anything marked
+   role="button" - so the affordance is learned once. */
+[data-app-theme] button:not(:disabled):hover,
+[data-app-theme] [role="button"]:hover,
+[data-app-theme] a[class*="rounded-lg"][class*="border"]:hover,
+[data-app-theme] a[class*="rounded-xl"][class*="border"]:hover,
+[data-app-theme] a[class*="rounded-2xl"][class*="border"]:hover {
+  transform: scale(1.025);
+  box-shadow: var(--lift-shadow);
+}
+
+/* Press: shrink back past resting size, so a click has a distinct bottom. */
+[data-app-theme] button:not(:disabled):active,
+[data-app-theme] [role="button"]:active,
+[data-app-theme] a[class*="rounded-lg"][class*="border"]:active,
+[data-app-theme] a[class*="rounded-xl"][class*="border"]:active,
+[data-app-theme] a[class*="rounded-2xl"][class*="border"]:active {
+  transform: scale(0.985);
+  box-shadow: none;
+}
+
+/* Full-width controls are excluded from the zoom: scaling something already
+   spanning its container pushes it past the edge and clips. They still get the
+   shadow. */
+[data-app-theme] button.w-full:not(:disabled):hover,
+[data-app-theme] a.w-full:hover {
+  transform: none;
+  box-shadow: var(--lift-shadow);
+}
+
+/* List rows: a coloured edge slides in rather than only a background tint, so
+   the row being pointed at is unambiguous in a long divided list.
+
+   Rows only. It used to match every link with that hover tint, so pills and
+   bordered buttons (Connect's Message, "View all" links, cards) grew a blue
+   line down their left side on hover. Anything rounded or fully bordered is a
+   control, not a row, and keeps just its tint. */
+[data-app-theme] a[class*="hover:bg-brand-50"]:not([class*="rounded"]):not([class~="border"]) {
+  position: relative;
+}
+
+[data-app-theme] a[class*="hover:bg-brand-50"]:not([class*="rounded"]):not([class~="border"])::before {
+  content: "";
+  position: absolute;
+  inset-block: 0;
+  inset-inline-start: 0;
+  width: 2px;
+  background: var(--color-signal-violet);
+  transform: scaleY(0);
+  transform-origin: center;
+  transition: transform 160ms cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+
+[data-app-theme] a[class*="hover:bg-brand-50"]:not([class*="rounded"]):not([class~="border"]):hover::before {
+  transform: scaleY(1);
+}
+
+/* On a rounded card the straight bar stood up past the curved corners. Here
+   the edge is a left border on a box with the card's own radius, laid over
+   the card's border, so it bends round the top and bottom corners and thins
+   out where the edge goes flat. It opens from the middle with a clip rather
+   than a stretch, which would squash the curve. */
+[data-app-theme] a[class*="hover:bg-brand-50"][class*="rounded"]::before {
+  inset: -1px;
+  width: auto;
+  background: none;
+  border-left: 2px solid var(--color-signal-violet);
+  border-radius: inherit;
+  pointer-events: none;
+  transform: none;
+  clip-path: inset(50% 0 50% 0);
+  transition: clip-path 160ms cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+
+[data-app-theme] a[class*="hover:bg-brand-50"][class*="rounded"]:hover::before {
+  transform: none;
+  clip-path: inset(0);
+}
+
+/* Inputs answer to focus with the same accent as everything else. */
+[data-app-theme] input:focus-visible,
+[data-app-theme] textarea:focus-visible,
+[data-app-theme] select:focus-visible {
+  outline: none;
+  border-color: var(--color-signal-violet);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-signal-violet) 22%, transparent);
+}
+
+/* ...except inside the email composer, which is drawn to look like a Gmail
+   compose window. Gmail does not glow the edge of the field you are typing in,
+   and a 3px violet ring around the To line - or around a body that spans most
+   of the card - reads as an error state on a surface that is pretending to be
+   another product.
+
+   Scoped to the composer rather than deleted outright: that rule is the only
+   focus indicator on every other form in the app, and dropping it globally
+   would leave keyboard users with nothing.
+
+   The caret is the indicator here instead. That is the ordinary arrangement
+   for a text field - the thing a student needs to know is where their next
+   character will land, and a blinking cursor at that exact spot says it more
+   precisely than a ring around the whole box.
+
+   Specificity is deliberate: [data-app-theme] .gmail-compose input beats
+   [data-app-theme] input whatever order the two end up in. Where the attribute
+   is absent the rule above never applied, so there is nothing to undo. */
+[data-app-theme] .gmail-compose input:focus-visible,
+[data-app-theme] .gmail-compose textarea:focus-visible {
+  box-shadow: none;
+  border-color: #dadce0;
+}
+
+/* Visible keyboard focus everywhere - the hover affordances above do nothing
+   for anyone driving the product from the keyboard. */
+[data-app-theme] a:focus-visible,
+[data-app-theme] button:focus-visible {
+  outline: 2px solid var(--color-signal-violet);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Opt-in entrance for a page's main content and any grid of cards inside it.
+   Capped at twelve children: past that the last card would wait long enough
+   to read as broken rather than as choreography. */
+[data-app-theme] .stagger-in > * {
+  animation: rise-in 380ms cubic-bezier(0.2, 0.9, 0.3, 1) both;
+}
+[data-app-theme] .stagger-in > *:nth-child(1) { animation-delay: 0ms; }
+[data-app-theme] .stagger-in > *:nth-child(2) { animation-delay: 40ms; }
+[data-app-theme] .stagger-in > *:nth-child(3) { animation-delay: 80ms; }
+[data-app-theme] .stagger-in > *:nth-child(4) { animation-delay: 120ms; }
+[data-app-theme] .stagger-in > *:nth-child(5) { animation-delay: 160ms; }
+[data-app-theme] .stagger-in > *:nth-child(6) { animation-delay: 200ms; }
+[data-app-theme] .stagger-in > *:nth-child(7) { animation-delay: 240ms; }
+[data-app-theme] .stagger-in > *:nth-child(8) { animation-delay: 280ms; }
+[data-app-theme] .stagger-in > *:nth-child(n + 9) { animation-delay: 320ms; }
+
+/* Every animation and hover above is decoration. Nothing here is load-bearing,
+   so a reduced-motion preference switches all of it off rather than trying to
+   soften it. */
+@media (prefers-reduced-motion: reduce) {
+  [data-app-theme] *,
+  [data-app-theme] *::before,
+  [data-app-theme] *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  [data-app-theme] button:hover,
+  [data-app-theme] [role="button"]:hover,
+  [data-app-theme] a[class*="rounded-lg"][class*="border"]:hover,
+  [data-app-theme] a[class*="rounded-xl"][class*="border"]:hover,
+  [data-app-theme] a[class*="rounded-2xl"][class*="border"]:hover {
+    transform: none;
+  }
+}
+
+/* The fallback sky, and what the page sits on until a clip is dropped in.
+   Deterministic radial gradients rather than a generated star texture, so it
+   costs no asset and no JavaScript - the point is that a missing /videos file
+   degrades to something that looks intended, which is the failure mode three
+   other pages in this app got wrong. */
+/* The sky the constellation is drawn on. Follows the theme rather than being a
+   fixed near-black: in the light app theme the page is cream, and a hardcoded
+   dark sky turned the whole background muddy. The scattered dots here are the
+   faint field stars behind Taurus, not the constellation itself - that is real
+   catalogue data in Constellation.tsx. */
+.starfield {
+  background-color: var(--background);
+  background-image:
+    radial-gradient(1.4px 1.4px at 12% 22%, rgba(255, 255, 255, 0.9), transparent 60%),
+    radial-gradient(1.1px 1.1px at 62% 14%, rgba(255, 255, 255, 0.75), transparent 60%),
+    radial-gradient(1.6px 1.6px at 84% 38%, rgba(255, 255, 255, 0.85), transparent 60%),
+    radial-gradient(1px 1px at 28% 63%, rgba(255, 255, 255, 0.65), transparent 60%),
+    radial-gradient(1.3px 1.3px at 47% 82%, rgba(255, 255, 255, 0.8), transparent 60%),
+    radial-gradient(1px 1px at 73% 71%, rgba(255, 255, 255, 0.6), transparent 60%),
+    radial-gradient(1.2px 1.2px at 8% 88%, rgba(255, 255, 255, 0.7), transparent 60%),
+    radial-gradient(1px 1px at 92% 9%, rgba(255, 255, 255, 0.55), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 22% 18%, rgba(74, 143, 192, 0.16), transparent 70%),
+    radial-gradient(ellipse 60% 45% at 78% 76%, rgba(41, 90, 127, 0.18), transparent 70%);
+}
+
+/* Field stars are white specks, which only works on a dark sky. On the light
+   theme they invert to faint navy so they read as stars on paper rather than
+   disappearing entirely. */
+[data-app-theme="light"] .starfield {
+  background-image:
+    radial-gradient(1.4px 1.4px at 12% 22%, rgba(11, 21, 38, 0.5), transparent 60%),
+    radial-gradient(1.1px 1.1px at 62% 14%, rgba(11, 21, 38, 0.4), transparent 60%),
+    radial-gradient(1.6px 1.6px at 84% 38%, rgba(11, 21, 38, 0.45), transparent 60%),
+    radial-gradient(1px 1px at 28% 63%, rgba(11, 21, 38, 0.35), transparent 60%),
+    radial-gradient(1.3px 1.3px at 47% 82%, rgba(11, 21, 38, 0.42), transparent 60%),
+    radial-gradient(1px 1px at 73% 71%, rgba(11, 21, 38, 0.32), transparent 60%),
+    radial-gradient(1.2px 1.2px at 8% 88%, rgba(11, 21, 38, 0.38), transparent 60%),
+    radial-gradient(1px 1px at 92% 9%, rgba(11, 21, 38, 0.3), transparent 60%),
+    radial-gradient(ellipse 70% 50% at 22% 18%, rgba(41, 90, 127, 0.08), transparent 70%),
+    radial-gradient(ellipse 60% 45% at 78% 76%, rgba(41, 90, 127, 0.09), transparent 70%);
+}
+
+/* Knocks the background back so the app reads as the foreground. All the text
+   sits on .home-panel on top of this, which is what makes the contrast
+   computable rather than dependent on which frame is on screen. */
+.home-veil {
+  background-color: var(--background);
+  /* Every piece of text on this page sits on its own .home-panel, so the veil
+     is not doing contrast work - it only stops the background competing for
+     attention. At 0.62 it flattened the sky to almost nothing; 0.45 leaves the
+     stars (and a clip, once one is dropped in) actually legible. */
+  /* Light theme runs lighter than this. Once the clip is inverted the sky is
+     already pure white, so the veil is no longer holding back a bright video
+     on a pale page - it is only muting the stars, and at 0.45 it took ~45% of
+     the colour the invert was put there to create. Every text surface is a 94%
+     panel either way, so none of this is doing contrast work. */
+  opacity: 0.28;
+}
+
+/* The surfaces the app floats on. Near-opaque on purpose: at 94% over a 62%
+   veil the moving background contributes at most ~2% of any pixel behind a
+   letterform, so a video playing underneath cannot make text fail contrast. */
+/* Written as plain rgba per theme rather than
+   color-mix(in srgb, var(--background) 94%, transparent). Two reasons: the
+   computed value of a color-mix over an oklab token is not something a canvas
+   fillStyle will reliably parse, which made every contrast measurement of
+   these surfaces silently wrong; and the literal values say what the surface
+   actually is without having to resolve two indirections to find out. */
+.home-panel {
+  /* Follows --background. It is a translucent sheet laid over the page, so a
+     cream panel on the blue-white canvas would read as a different material. */
+  background-color: rgba(247, 249, 252, 0.94);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* The "this one is yours" tint, again as plain rgba rather than an opacity
+   modifier on a palette token - Tailwind compiles those to oklab(), and an
+   oklab layer in the middle of a stack is the thing that has repeatedly made
+   contrast measurement of these cards read as a failure when it was not one. */
+.home-mine {
+  background-color: rgba(41, 90, 127, 0.08);
+}
+
+/* The fade a clamped feed post sits behind its own "... more" trigger under -
+   literal white in both themes now, not a per-theme pair, because the Live
+   Feed cards themselves are fixed white-with-black-text/border in both
+   themes (see the bubble comment in ActivityFeed.tsx) rather than flipping
+   with .home-panel the way they used to. Ignores the .home-mine tint on
+   "this is you" cards: that tint is only 0.08-0.14 alpha, too faint for the
+   seam to show. */
+.feed-fade {
+  background: linear-gradient(to left, #ffffff, #ffffff 45%, transparent);
+}
+
+/* The rule between the dashboard columns and the live feed.
+   Written as an explicit per-theme colour rather than a border-* token: only
+   brand-100/200 exist as border tokens and both are ~0.25-alpha blue, which
+   over the constellation backdrop measured 1.02:1 - a border that is not
+   there. Every other step tried (brand-500, warmgray-500/600, accent-600)
+   silently fell back to an inherited colour, the same missing-token trap as
+   warmgray-400. */
+/* The night-sky clip, per theme.
+   
+   Dark theme gets the footage as shot - a black sky on a black canvas.
+   
+   Light theme has to become a WHITE sky, and a plain invert() would get there
+   but would also complement every hue on the way: warm stars would come out
+   cyan. invert() followed by hue-rotate(180deg) cancels that second effect and
+   leaves only the luminance flip, so each star keeps the colour it was filmed
+   with. saturate() then pushes those colours well past their filmed intensity,
+   which is the point - on a white sky, colour is the only thing left telling
+   the stars apart.
+   
+   brightness() before contrast() is the non-obvious part, and it is doing the
+   real work. After the invert the sky sits at 254 and the stars at ~148, both
+   ABOVE contrast()'s 128 pivot - so simply raising contrast pushed the stars UP
+   into the sky and washed them out (measured: sat 2.6 -> stars at 181 against a
+   254 sky). Darkening first drops the stars below the pivot so contrast drives
+   them down while still pinning the sky at pure white. Measured on a frame at
+   t=5s: sky 255, stars luminance 135, star chroma 114 - against 254/181/26 for
+   the naive version. */
+/* Light theme. The video is white specks on a dark ground, so inverting gives
+   dark specks on a light one. `grayscale` is what makes them read as black:
+   the previous saturate(16) pushed the inverted specks into vivid greens and
+   blues, which is what they looked like on the page. */
+.sky-clip {
+  filter: invert(1) grayscale(1) brightness(0.86) contrast(3.4);
+  /* A multi-pass filter on a full-viewport PLAYING video is real per-frame
+     cost, and without a layer-promotion hint some engines composite it in
+     software rather than on the GPU. will-change asks for the GPU layer up
+     front instead of only once the browser notices the filter is expensive. */
+  will-change: filter;
+}
+
+.feed-divider {
+  border-color: rgba(11, 21, 38, 0.55);
+}
+
+/* A list panel: the Today queue, the Applications sections, the events list.
+ *
+ * These are the stacked row-groups on the dashboard. They used `bg-white`,
+ * which on the dark theme resolves to #0a0a0a - the card-surface convention
+ * where --color-white is redefined (see that token above). That made them
+ * near-black panels on a near-black page, so the group read as one dark mass
+ * with hairlines in it rather than as a distinct card.
+ *
+ * This keeps them genuinely white in BOTH themes and flips the type to navy on
+ * the dark one, so the panel is a light object on a dark page. Written as
+ * literal hex rather than palette tokens for the same reason .play-card is:
+ * the whole point is to escape the theme's own redefinition of "white".
+ */
+.list-panel {
+  background-color: #ffffff;
+}
+
+/* The panel's corner, in the components layer rather than beside the colour
+   above: an unlayered radius beats every Tailwind utility regardless of
+   specificity, so a panel that asked for rounded-xl (the Help menu) or
+   ui-round-md was silently held at this value. Here it is the default, and a
+   rounded-* on the element wins. */
+@layer components {
+  .list-panel {
+    border-radius: var(--radius-lg, 12px);
+  }
+}
+
+/* Every descendant that would otherwise inherit a light-on-dark colour from
+   the page. Scoped to the panel so it cannot leak into the rest of the app. */
+
+/* ---------------------------------------------------------------- */
+/* Community's second-level nav.                                     */
+/*                                                                   */
+/* A segmented strip, deliberately a different shape from the app-wide
+   tab bar directly above it: two rows of underlined tabs stacked read
+   as one confused row, and the pill container is what says "this one
+   is scoped to the page you are on".
+
+   Colours are written out rather than taken from bg-white/text-white
+   utilities, for the reason documented on .list-panel - the dark theme
+   redefines --color-white to #0a0a0a, so those utilities inverted
+   under [data-app-theme="terminal"] and cannot be used for anything
+   that must stay the same colour in both themes. */
+.community-subnav {
+  border-radius: 14px;
+  /* Opaque, bordered and lifted - it floats over the page now rather than
+     sitting in the flow, and the translucent wash it used to have let
+     whatever scrolled underneath show through the bar. Kept a light grey
+     rather than white so the white active chip still reads against it. */
+  background-color: #eef1f6;
+  border: 1px solid rgba(11, 21, 38, 0.1);
+  box-shadow: 0 8px 28px rgba(11, 21, 38, 0.18);
+}
+
+.community-subnav-item {
+  border-radius: 9px;
+  color: rgba(11, 21, 38, 0.62);
+}
+
+.community-subnav-item:hover {
+  color: #0b1526;
+  background-color: rgba(11, 21, 38, 0.05);
+}
+
+/* The active item is a raised chip, so the strip reads as a control
+   rather than a row of links. */
+.community-subnav-item.is-active {
+  background-color: #ffffff;
+  color: #0b1526;
+  box-shadow: 0 1px 2px rgba(11, 21, 38, 0.14);
+}
+
+/* The composer button at the centre of the Community nav.
+   A filled circle, not another ghost chip: everything else in the
+   strip navigates and this one creates, so it should not be
+   mistakable for a fifth tab. Colours written out for the reason on
+   .list-panel - bg-accent-500 and text-white both invert under
+   [data-app-theme="terminal"]. */
+.community-subnav-new {
+  border-radius: 9999px;
+  background-color: #0b1526;
+  color: #ffffff;
+  transition: transform 120ms ease, opacity 120ms ease;
+}
+
+.community-subnav-new:hover {
+  opacity: 0.88;
+  transform: scale(1.06);
+}
+
+.community-subnav-new[aria-current="page"] {
+  opacity: 1;
+  transform: none;
+  box-shadow: 0 0 0 2px rgba(11, 21, 38, 0.25);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .community-subnav-new,
+  .community-subnav-new:hover {
+    transition: none;
+    transform: none;
+  }
+}
+
+/* The school picker's dropdown. Colours written out rather than taken from
+   bg-white / text-brand-900, which both invert under
+   [data-app-theme="terminal"] - the list has to sit on the same surface as
+   the field above it in both themes, and those tokens flip in opposite
+   directions. */
+.combobox-list {
+  border-radius: var(--radius-md, 8px);
+  background-color: #ffffff;
+  color: #0b1526;
+  border: 1px solid rgba(11, 21, 38, 0.14);
+  box-shadow: 0 10px 30px rgba(11, 21, 38, 0.16);
+  list-style: none;
+}
+
+.combobox-list li.is-active {
+  background-color: rgba(11, 21, 38, 0.07);
+}
+
+/* ---------------------------------------------------------------- */
+/* The schedule calendar renders in the LIGHT palette in both themes. */
+/*                                                                    */
+
+/* The card itself, in both themes. */
+.calendar-surface {
+  background-color: #ffffff;
+}
+
+/* .list-panel's dark-theme text overrides have to stand aside inside the
+   calendar. They exist so a white panel in a dark theme gets readable navy
+   type, which is right for a list of rows - but they hard-code
+   rgba(11,21,38,.62) for muted text and a flat border, which is NOT what the
+   same element is in light mode. The calendar has already re-pointed the
+   tokens above, so here it just needs the tokens to be the thing that wins.
+   These rules sit after .list-panel's in source order and match with the same
+   specificity, so they do. */
+
+/* Deliberately NOT a blanket border-color on every descendant. Elements that
+   draw a border already use border-brand-100, which the token reset above
+   resolves correctly; forcing it everywhere else only overrode the
+   currentColor default on elements with no border at all. */
+
+/* The app-wide elevation on .border-brand-100 (the @layer base rule further
+   up) exists so every card, row and pill gets real depth from the one border
+   colour they all share. Inside the calendar that backfires: the grid's
+   hairlines - the frame, the weekday header, and the rule between one date
+   column and the next - carry the same class, so each line was casting
+   `0 8px 24px -12px` beneath itself and read as a soft smudge rather than a
+   crisp rule. Google Calendar's grid is hairlines, not stacked cards.
+
+   The card itself keeps its elevation (it is a panel on the page, like every
+   other one); everything drawn ON it loses it. Unlayered, so it outranks the
+   @layer base rule in both themes without needing !important. */
+.calendar-surface .border-brand-100,
+.calendar-surface a.border-brand-100:hover,
+.calendar-surface button.border-brand-100:hover {
+  box-shadow: none;
+}
+
+/* ---------------------------------------------------------------- */
+/* Hero matching scene: the attribute chips lighting as the scan     */
+/* passes over them.                                                  */
+/*                                                                    */
+/* A CSS animation with a per-chip delay rather than React state:     */
+/* the scan touches six chips in sequence, and driving that from      */
+/* JavaScript would mean six more renders for something the cascade   */
+/* can do for free. The delay is set inline from tagLitAt(), which is */
+/* the same function the canvas uses to decide when that chip starts  */
+/* emitting - so the light and the particles cannot drift apart.      */
+.scene-tag-scan {
+  animation: scene-tag-scan 1100ms ease-out both;
+}
+
+@keyframes scene-tag-scan {
+  0% {
+    border-color: var(--mkt-border);
+    color: var(--mkt-muted);
+    background-color: transparent;
+  }
+  18% {
+    border-color: var(--mkt-accent);
+    color: var(--mkt-accent);
+    background-color: var(--mkt-accent-wash-2);
+  }
+  100% {
+    border-color: var(--mkt-border);
+    color: var(--mkt-muted);
+    background-color: transparent;
+  }
+}
+
+/* The chips are decorative motion; reduced motion gets the settled look. */
+@media (prefers-reduced-motion: reduce) {
+  .scene-tag-scan {
+    animation: none;
+  }
+}
+
+/* The firm heading that bands across the Networking table.
+ *
+ * Explicit hex on both sides rather than brand tokens: brand-900 is navy in
+ * light mode and WHITE in dark, so `bg-brand-900 text-white` would render
+ * white on white the moment someone switched themes.
+ *
+ * Dark mode goes to black rather than the same navy: #0b1526 IS the page's
+ * background there, so the band would disappear into it. Black reads as a
+ * deliberate band against the navy page, and keeps the white ink either way. */
+.firm-band {
+  background-color: #0b1526;
+  color: #ffffff;
+}
+
+/* ---------------------------------------------------------------------------
+   The app's navigation rail.
+
+   Replaces the horizontal tab strip that used to sit under the header. That
+   strip had eight equal-width items and no room for a ninth, so it overflowed
+   into a horizontal scroll nobody discovered, and second-level views had to
+   invent their own floating bar to be reachable at all. A vertical rail has
+   as many rows as it needs and nests its sub-views in place.
+
+   Colours are written out rather than taken from bg-white/text-white
+   utilities, for the reason documented on .list-panel - the dark theme
+   redefines --color-white to #0a0a0a, so those utilities invert under
+   [data-app-theme="terminal"] and cannot be used for anything that has to
+   stay one colour in both themes.
+   --------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------
+   The rail's width lives in ONE variable, on the shell, because three things
+   have to agree on it: the rail itself, the left padding the page content is
+   held off by, and the x position of the retract disc sitting on the border
+   between them. As three literals they were never going to stay in step.
+
+   The collapsed value is set with :has() on the shell, which is what lets a
+   data attribute on a CHILD (the nav) drive a property on its ANCESTOR,
+   without the state having to be lifted into the server layout or the
+   attribute written onto <html> by hand from an effect.
+
+   Only inside the lg query: below it the rail is an off-canvas drawer, where
+   "retracted" means nothing and the full 15rem is what slides in.
+   --------------------------------------------------------------------------- */
+.app-shell {
+  --rail-w: 15rem;
+}
+
+@media (min-width: 1024px) {
+  .app-shell {
+    padding-left: var(--rail-w);
+    transition: padding-left 220ms cubic-bezier(0.2, 0, 0, 1);
+  }
+
+  .app-shell:has(.app-sidebar[data-collapsed="true"]) {
+    /* Wide enough for a 16px mark on a comfortable target: 4.25rem less the
+       rail's own 0.75rem gutters leaves a 46px row. */
+    --rail-w: 4.25rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-shell {
+    transition: none;
+  }
+}
+
+.app-sidebar {
+  position: fixed;
+  inset-block: 0;
+  left: 0;
+  z-index: 50;
+  display: flex;
+  width: var(--rail-w, 15rem);
+  flex-direction: column;
+  gap: 0.25rem;
+  overflow-y: auto;
+  padding: 0.75rem 0.75rem 2rem;
+  background-color: #eef1f6;
+  border-right: 1px solid rgba(11, 21, 38, 0.1);
+  /* Off-canvas by default; the lg query below pins it open. A transform
+     rather than display:none so the drawer slides, and so the links stay in
+     the accessibility tree's normal order. */
+  transform: translateX(-100%);
+  transition: transform 220ms cubic-bezier(0.2, 0, 0, 1), width 220ms cubic-bezier(0.2, 0, 0, 1);
+}
+
+.app-sidebar[data-open="true"] {
+  transform: translateX(0);
+  box-shadow: 0 8px 28px rgba(11, 21, 38, 0.24);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-sidebar {
+    transition: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app-sidebar {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+.app-sidebar-scrim {
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.app-sidebar-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  /* Bottom padding sets how far the wordmark sits clear of the first tab.
+     0.75rem originally, which put them ~17px apart; 6.4rem opened that to
+     113px (about an inch more); 3.2rem is half of that again, landing the gap
+     near 57px.
+
+     In rem rather than `in`, which CSS does support, so the space tracks the
+     type scale the way every other measurement in this rail does - this app's
+     root is 17px, not 16, so an inch here is 5.65rem rather than 6. Same
+     reasoning as the 2.25rem inset on .app-sidebar-item. */
+  padding: 0.25rem 0.5rem 3.2rem;
+}
+
+.app-sidebar-close,
+.app-sidebar-opener {
+  border-radius: 9px;
+  color: rgba(11, 21, 38, 0.62);
+}
+
+.app-sidebar-close:hover,
+.app-sidebar-opener:hover {
+  color: #0b1526;
+  background-color: rgba(11, 21, 38, 0.05);
+}
+
+.app-sidebar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+}
+
+.app-sidebar-item {
+  display: flex;
+  align-items: center;
+  /* Label left, mark right. The marks line up into a column rather than
+     sitting at a different x on every row, which is what a label-hugging
+     icon would do with labels this uneven ("News" against "Interview Prep"). */
+  justify-content: space-between;
+  gap: 0.5rem;
+  border-radius: 9px;
+  /* Right padding is the inset asked for: 2.25rem = 36px, a shade under a
+     centimetre at the CSS 96dpi reference, measured from the chip's right
+     edge to the mark. Written in rem rather than cm so it scales with the
+     rest of the rail if the type scale ever moves. */
+  padding: 0.5rem 2.25rem 0.5rem 0.625rem;
+  font-size: 13px;
+  letter-spacing: -0.01em;
+  color: rgba(11, 21, 38, 0.62);
+  transition: color 120ms ease, background-color 120ms ease;
+}
+
+/* A shade lighter than the label. The mark is an aid to scanning, not a
+   second thing to read, and at full strength it competed with the word. */
+.app-sidebar-icon {
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+.app-sidebar-item.is-active .app-sidebar-icon {
+  opacity: 1;
+}
+
+.app-sidebar-item:hover {
+  color: #0b1526;
+  background-color: rgba(11, 21, 38, 0.05);
+}
+
+/* The active section is a raised chip, the same move .community-subnav-item
+   makes, so the rail reads as a control rather than a column of links. */
+.app-sidebar-item.is-active {
+  background-color: #ffffff;
+  color: #0b1526;
+  font-weight: 500;
+  box-shadow: 0 1px 2px rgba(11, 21, 38, 0.14);
+}
+
+/* Sub-views sit on a hairline that runs down the group, which is what says
+   they belong to the section above rather than being three more sections. */
+.app-sidebar-sublist {
+  margin: 0.125rem 0 0.375rem 1.0625rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  border-left: 1px solid rgba(11, 21, 38, 0.14);
+  padding-left: 0.5rem;
+}
+
+.app-sidebar-subitem {
+  position: relative;
+  display: block;
+  border-radius: 7px;
+  padding: 0.3125rem 0.5rem;
+  font-size: 12.5px;
+  /* 0.68, not the 0.55 this started at: blended against the rail's #eef1f6
+     that came out at 3.8:1, under the 4.5:1 floor for text this size. */
+  color: rgba(11, 21, 38, 0.68);
+  transition: color 120ms ease, background-color 120ms ease;
+}
+
+.app-sidebar-subitem:hover {
+  color: #0b1526;
+  background-color: rgba(11, 21, 38, 0.05);
+}
+
+.app-sidebar-subitem.is-active {
+  color: #0b1526;
+  font-weight: 500;
+  background-color: rgba(11, 21, 38, 0.06);
+}
+
+/* A tick ON the group's hairline beside the current view. The tinted chip
+   alone was a 6% wash - on a glance down the rail it did not say which of the
+   five rows you were on. The tick sits where the eye already follows the
+   group, so it reads as "here" without a second chip competing with the
+   section's. -0.5rem - 1px lands it exactly over the sublist's border. */
+.app-sidebar-subitem.is-active::before {
+  content: "";
+  position: absolute;
+  left: calc(-0.5rem - 1px);
+  top: 0.3rem;
+  bottom: 0.3rem;
+  width: 2px;
+  border-radius: 9999px;
+  background-color: currentColor;
+}
+
+/* ---------------------------------------------------------------------------
+   Retracted rail: marks only, plus the wordmark.
+
+   Every rule here is inside the lg query on purpose. The same nav renders as a
+   drawer below lg, and a drawer that has slid in showing seven unlabelled
+   icons is not a navigation - it is a puzzle. The data attribute is rendered
+   at every width; this is where it is allowed to mean something.
+   --------------------------------------------------------------------------- */
+@media (min-width: 1024px) {
+  .app-sidebar[data-collapsed="true"] {
+    /* Narrower gutters than the open rail's 0.75rem, or a 46px row inside
+       68px leaves the marks looking wedged rather than centred. */
+    padding-inline: 0.6875rem;
+    overflow-x: hidden;
+  }
+
+  /* Centre the mark in the row: the open rail pushes label left and mark right
+     with space-between and a 2.25rem right inset, and both of those would put
+     a lone icon off centre. */
+  .app-sidebar[data-collapsed="true"] .app-sidebar-item {
+    justify-content: center;
+    padding-inline: 0;
+  }
+
+  /* Clipped, not display:none. A link whose only child is a decorative,
+     aria-hidden icon has no accessible name - a screen reader would read the
+     whole rail as seven anonymous links. This keeps the name and takes no
+     space. */
+  .app-sidebar[data-collapsed="true"] .app-sidebar-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  /* The sub-views go with the labels. They are text-only rows - there is no
+     mark to fall back on - so at 68px wide they would be an indented column of
+     clipped words hanging under an icon. */
+  .app-sidebar[data-collapsed="true"] .app-sidebar-sublist {
+    display: none;
+  }
+
+  /* The wordmark stays, and centres over the marks below it. The drawer's
+     close button is already lg:hidden, so space-between has nothing to push
+     against and would leave the O hard left of a centred column. */
+  .app-sidebar[data-collapsed="true"] .app-sidebar-head {
+    justify-content: center;
+    padding-inline: 0;
+  }
+
+  /* The full wordmark is ~85px wide and would be crushed into the 46px row,
+     so the collapsed rail shows the O-and-arrow mark alone. */
+  .app-sidebar[data-collapsed="true"] .app-logo-wordmark {
+    display: none;
+  }
+  .app-sidebar[data-collapsed="true"] .app-logo-mark {
+    display: block;
+  }
+}
+
+/* The mark is only for the collapsed rail (above); everywhere else the app
+   frame shows the full wordmark. */
+.app-logo-mark {
+  display: none;
+}
+
+/* ---------------------------------------------------------------------------
+   The retract disc, sitting on the rail's right border at its exact midpoint.
+
+   Centred by subtracting HALF THE DISC from the coordinates rather than by
+   translate(-50%,-50%), which is the obvious way to do it and is wrong here.
+   globals.css gives every control in the app one hover affordance -
+   `[data-app-theme] button:not(:disabled):hover { transform: scale(1.025) }` -
+   and transform is a single property: that rule REPLACES a positioning
+   translate rather than composing with it, so the disc jumped down and right
+   by half its own size the moment the pointer touched it. Nothing about that
+   is visible in this block, which is exactly why it is written down here.
+   Positioning with left/top leaves transform free for whatever global styling
+   wants it, and the rule below then stills it outright.
+
+   left follows --rail-w so the disc rides the border as the rail animates,
+   rather than jumping to the new position when the transition ends.
+
+   z-index above the rail's own 50, or the rail's background paints over the
+   half of the disc that overlaps it.
+   --------------------------------------------------------------------------- */
+.app-rail-toggle {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .app-rail-toggle {
+    position: fixed;
+    /* 0.75rem is half of the 1.5rem box below. Change one, change both. */
+    left: calc(var(--rail-w) - 0.75rem);
+    top: calc(50% - 0.75rem);
+    z-index: 51;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 9999px;
+    border: 1px solid rgba(11, 21, 38, 0.16);
+    background-color: #ffffff;
+    color: rgba(11, 21, 38, 0.62);
+    box-shadow: 0 1px 3px rgba(11, 21, 38, 0.16);
+    transition:
+      left 220ms cubic-bezier(0.2, 0, 0, 1),
+      color 120ms ease,
+      background-color 120ms ease;
+  }
+
+  .app-rail-toggle:hover {
+    color: #0b1526;
+    background-color: #f3f5f9;
+  }
+
+  /* Held still on hover and press, against the app-wide scale(1.025)/scale(0.985)
+     pair. Every other control in the product can afford to grow a little; this
+     one is a 24px disc balanced on a 1px border, where a 2.5% zoom reads as the
+     thing wobbling rather than responding. Colour carries the feedback instead.
+     Specificity has to beat `[data-app-theme] button:not(:disabled):hover`, so
+     the selector matches its shape rather than relying on the class alone. */
+  [data-app-theme] button.app-rail-toggle:not(:disabled):hover,
+  [data-app-theme] button.app-rail-toggle:not(:disabled):active {
+    transform: none;
+  }
+
+  .app-rail-toggle:focus-visible {
+    outline: 2px solid var(--color-accent-500);
+    outline-offset: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .app-rail-toggle {
+    transition: none;
+  }
+}
+
+/* ---------------------------------------------------------------------------
+   Rounded corners, named.
+
+   The --radius-* tokens are live inside the app (see [data-app-theme]), so
+   Tailwind's rounded-* utilities are the first thing to reach for. These
+   classes predate that, when the tokens were all 0rem and a surface that
+   wanted a radius had to name one; they now resolve to the same scale so
+   the two can never disagree.
+
+     .ui-round-sm   = rounded-sm   chips, calendar bubbles, small labels
+     .ui-round-md   = rounded-md   cards, inputs, buttons
+     .ui-round-lg   = rounded-lg   dialogs and large panels
+   --------------------------------------------------------------------------- */
+.ui-round-sm {
+  border-radius: var(--radius-sm, 6px);
+}
+
+.ui-round-md {
+  border-radius: var(--radius-md, 10px);
+}
+
+.ui-round-lg {
+  border-radius: var(--radius-lg, 14px);
+}
+
+/* Calendar event bubbles.
+ *
+ * Pinned rather than left to rounded-md, which is now 10px and would be too
+ * much here.
+ *
+ * 6px - the .ui-round-sm step - and not more. These are 10-11px labels in a
+ * 56px-per-hour grid, and a radius that reads as "rounded" at card scale eats
+ * the corners of a bubble this small: a 30-minute event is 26px tall, so
+ * anything past about 7px turns it into a lozenge and costs readable width
+ * for the title. Kept as its own class rather than swapped for .ui-round-sm
+ * because the reasoning above is specific to this element's size.
+ */
+.cal-bubble {
+  border-radius: 6px;
+}
+
+
+
+/* ---------------------------------------------------------------------------
+   External Network's contact map (dashboard/ContactMap). The student's own
+   dot sends out a slow ring; everything else is still.
+   --------------------------------------------------------------------------- */
+.contact-map .contact-map-pulse {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: contact-map-pulse 2.8s ease-out infinite;
+}
+@keyframes contact-map-pulse {
+  0% { transform: scale(1); opacity: 0.9; }
+  100% { transform: scale(2.6); opacity: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .contact-map .contact-map-pulse {
+    animation: none;
+    opacity: 0;
+  }
+}
+
+/* Video interview coach: the 3-2-1 before recording. Each number pops in;
+   the component drops the animation under prefers-reduced-motion. */
+@keyframes vi-pop {
+  0% { transform: scale(1.35); opacity: 0; }
+  25% { opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* The market strip (news/MarketBoard.tsx): a group brought up to the chart
+   rises in, the one it replaced drops into the chips, and switching stocks
+   slides the chart across. None of it with reduced motion on. */
+@keyframes market-rise {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes market-drop {
+  from { opacity: 0; transform: translateY(-14px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes market-slide {
+  from { opacity: 0; transform: translateX(12px); }
+  to { opacity: 1; transform: none; }
+}
+.market-rise { animation: market-rise 0.35s ease-out; }
+.market-drop { animation: market-drop 0.35s ease-out; }
+.market-slide { animation: market-slide 0.25s ease-out; }
+@media (prefers-reduced-motion: reduce) {
+  .market-rise,
+  .market-drop,
+  .market-slide { animation: none; }
+}
+
+/* ---------------------------------------------------------------------------
+   Finance News: the briefing and the market board, split.
+
+   From lg up the page puts them side by side (DigestView in news/page.tsx).
+   Once the student expands the board across the page, the split gives way:
+   the board takes the full row on top and the briefing runs full length below
+   it, as it would with no split at all. Driven by the board's own data-wide
+   rather than a prop, because the choice lives in the board (and in this
+   browser's storage), not on the server that renders the page. */
+@media (min-width: 1024px) {
+  .news-split:has([data-wide="true"]) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .news-split:has([data-wide="true"]) .news-split-board {
+    order: -1;
+  }
+  .news-split:has([data-wide="true"]) .news-split-briefing,
+  .news-split:has([data-wide="true"]) .news-split-briefing > div {
+    position: static;
+    max-height: none;
+    min-height: 0;
+    overflow: visible;
+  }
+}

@@ -1,0 +1,582 @@
+{
+  "at": "2026-10-12T18:45:55.200Z",
+  "why": "published under the board owner's name; the job belongs to a portfolio company",
+  "retracted": [
+    {
+      "postingId": "1ad63a27-e436-4953-8e8c-4f80dd40c6af",
+      "title": "Praktikant Agentur-Entwicklung (m/w/d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/dusseldorf/praktikant-agentur-entwicklung-m-w-d/3382/38041753664",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "e2409114-8dae-401f-a235-693a5bdbb7d9",
+      "title": "New and Green Tech - Intern Business Development (m/f/d)*",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/new-and-green-tech-intern-business-development-m-f-d/3342/44471957888",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "dc5305d2-83b0-4d83-b86d-728b0115b03c",
+      "title": "Actuarial Intern",
+      "applicationUrl": "https://careers.munichre.com/en/job/hartford/actuarial-intern/3342/44309546048",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "00ee3323-aa54-42e4-a374-8efb69091da7",
+      "title": "Praktikant Digital Business, Marketing & Analytics (m/w/d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/hamburg/praktikant-digital-business-marketing-and-analytics-m-w-d/3382/42785488192",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "80139dea-bf95-4fee-b08d-c879ea031973",
+      "title": "International Graduate Trainee - focus on mathematics/actuarial science (m/f/d)*",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/international-graduate-trainee-focus-on-mathematics-actuarial-science-m-f-d/3342/39929260416",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "efdf8db0-73a9-4050-9e1f-6fdd598ab086",
+      "title": "Engineering Intern, NA Integrated Analytics (2027 Summer - New York)",
+      "applicationUrl": "https://careers.munichre.com/en/job/new-york/engineering-intern-na-integrated-analytics-2027-summer-new-york/3342/44660124096",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "5a8260e4-7c44-491e-85fa-9f28357729aa",
+      "title": "Business Analyst Intern, NA Integrated Analytics (2027 Summer - New York)",
+      "applicationUrl": "https://careers.munichre.com/en/job/new-york/business-analyst-intern-na-integrated-analytics-2027-summer-new-york/3342/44660124224",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "15c7483d-c0dc-448d-ba3f-097bf27d57a1",
+      "title": "Werkstudent Compliance (m/w/d)*",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/werkstudent-compliance-m-w-d/3342/44041682304",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "aec6daf7-2f6d-4306-96df-76bd04abccd2",
+      "title": "Praktikant Partner Development & Sales Support Bankenkooperation (m/w/d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/dusseldorf/praktikant-partner-development-and-sales-support-bankenkooperation-m-w-d/3382/43892850240",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "f30314de-a8fe-4efb-a209-7709ad5a3b34",
+      "title": "Risk Modeling Intern",
+      "applicationUrl": "https://careers.munichre.com/en/job/hartford/risk-modeling-intern/3342/45384530368",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "89355933-a85f-4bfc-bfdf-63301cd939f8",
+      "title": "Werkstudent im Bereich Real Estate Asset Management Germany (m|w|d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/werkstudent-im-bereich-real-estate-asset-management-germany-m-w-d/3197/45059189568",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "65371d0c-ba30-4916-9693-85e0aa8c831f",
+      "title": "Insurance Risk Management Intern",
+      "applicationUrl": "https://careers.munichre.com/en/job/amelia/insurance-risk-management-intern/3342/44723358336",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "1d96a9ce-2ff9-4731-8424-74fceeaf496b",
+      "title": "Data Science Intern",
+      "applicationUrl": "https://careers.munichre.com/en/job/hartford/data-science-intern/3342/44309546240",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "720d5f17-b260-4c7c-bf0b-0e5daafb64ba",
+      "title": "Graphic Design Intern - Summer 2027",
+      "applicationUrl": "https://careers.munichre.com/en/job/amelia/graphic-design-intern-summer-2027/3342/45319110848",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "d838f0e1-0838-4448-9fae-5035ff1249db",
+      "title": "UX Design Intern",
+      "applicationUrl": "https://careers.munichre.com/en/job/amelia/ux-design-intern/3342/44351245952",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "6e263793-904d-4f50-9d66-cc87ef17e3e4",
+      "title": "Actuarial Intern, US Life (2027 Summer - New York)",
+      "applicationUrl": "https://careers.munichre.com/en/job/new-york/actuarial-intern-us-life-2027-summer-new-york/3342/43163956608",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "2cbaa6ca-a781-486d-9141-f679057ab751",
+      "title": "Praktikant Business Analytics Bankenkooperation (m/w/d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/dusseldorf/praktikant-business-analytics-bankenkooperation-m-w-d/3382/42889742784",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "cb56527e-4312-4c4f-b1bb-51abfb1785f6",
+      "title": "Intern Content Marketing & Strategy (m/f/d)*",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/intern-content-marketing-and-strategy-m-f-d/3342/45382782336",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "b266a1dd-c465-4a6f-a62e-c9224c889920",
+      "title": "Praktikant*in Projektassistenz in der internationalen Stiftungsarbeit (m/f/d)*",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/praktikant-in-projektassistenz-in-der-internationalen-stiftungsarbeit-m-f-d/3342/44660125248",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "a970fd59-2993-414d-ac05-d84c442cd0a0",
+      "title": "Accounting Intern",
+      "applicationUrl": "https://careers.munichre.com/en/job/amelia/accounting-intern/3342/44351244992",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "f8a5fb66-e98a-4b7d-9c70-e24b4e4237d6",
+      "title": "Werkstudent Data Enablement (m|w|d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/werkstudent-data-enablement-m-w-d/3197/42834734848",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "26b82d30-0131-43dd-b666-cbfb9c21ee91",
+      "title": "Praktikant Recruitinganalyse (m/w/d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/dusseldorf/praktikant-recruitinganalyse-m-w-d/3382/45095898496",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "4ec2be30-7c50-4344-bed0-0eb4ca17d524",
+      "title": "Werkstudent Komposit-Schadenbereich - Archiv & Wettbewerbsanalyse (m/w/d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/dusseldorf/werkstudent-komposit-schadenbereich-archiv-and-wettbewerbsanalyse-m-w-d/3382/44898433664",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "7d5a30eb-088f-4214-9c61-0e21d4d19369",
+      "title": "Marketing Strategy Intern",
+      "applicationUrl": "https://careers.munichre.com/en/job/amelia/marketing-strategy-intern/3342/44428393600",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "637aadb0-f812-4f39-9b1a-fb35efc91a0e",
+      "title": "Engineering Co-op, NA Integrated Analytics (2027 Summer - Toronto)",
+      "applicationUrl": "https://careers.munichre.com/en/job/toronto/engineering-co-op-na-integrated-analytics-2027-summer-toronto/3342/45322527040",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "926af35d-8622-4b66-a307-507674a66a59",
+      "title": "Actuarial Co-op, Life & Health (2027 Winter - Toronto, 4 months)",
+      "applicationUrl": "https://careers.munichre.com/en/job/toronto/actuarial-co-op-life-and-health-2027-winter-toronto-4-months/3342/44895576704",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "a73176c8-d98d-4bac-b895-7b5686d8fe38",
+      "title": "Praktikant Business Development Analytics (m/w/d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/dusseldorf/praktikant-business-development-analytics-m-w-d/3382/34128791552",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "6c4ba71b-e58b-4072-a4ee-33ab3164428e",
+      "title": "Praktikant Business Development Vertrieb & Transformation (m/w/d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/dusseldorf/praktikant-business-development-vertrieb-and-transformation-m-w-d/3382/29870984128",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "5de7f58d-64bc-4f42-855d-b4b667e2fb5a",
+      "title": "Werkstudent Risikomanagement (m/w/d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/dusseldorf/werkstudent-risikomanagement-m-w-d/3382/29874652800",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "063d9f07-df0d-4a48-95b9-6fd2cd0ebcff",
+      "title": "Reinsurance Accounting Operations Co-op (Winter 2027 - Toronto, 4 months)",
+      "applicationUrl": "https://careers.munichre.com/en/job/toronto/reinsurance-accounting-operations-co-op-winter-2027-toronto-4-months/3342/44895576320",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "442c6348-700a-4ab0-985c-7d90bc8c1835",
+      "title": "Internship Opportunity: CRM System Design & Global Stakeholder Consulting (m/f/d)*",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/internship-opportunity-crm-system-design-and-global-stakeholder-consulting-m-f-d/3342/43162331456",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "1000a9f3-faa0-417e-9baf-857138ff4724",
+      "title": "Intern Consultant AI Governance & Strategy (m/f/d)*",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/intern-consultant-ai-governance-and-strategy-m-f-d/3342/41632975104",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "56e43564-71c2-4781-9c64-09907ea4c4c4",
+      "title": "International Graduate Trainee - focus on business administration/economics (m/f/d)*",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/international-graduate-trainee-focus-on-business-administration-economics-m-f-d/3342/39929260544",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "42c5b363-d926-45a5-83ff-06cbfccce237",
+      "title": "Praktikant Change Management (m/w/d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/dusseldorf/praktikant-change-management-m-w-d/3382/38077040000",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "9bb7ddb8-d2ee-4d50-8799-7890ebab51ed",
+      "title": "Werkstudent im Bereich HR People Strategy (m|w|d) - Schwerpunkt Talent Management & People Development",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/werkstudent-im-bereich-hr-people-strategy-m-w-d-schwerpunkt-talent-management-and-people-development/3197/45006466176",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "1d96a9ce-2ff9-4731-8424-74fceeaf496b",
+      "title": "Data Science Intern",
+      "applicationUrl": "https://careers.munichre.com/en/job/hartford/data-science-intern/3342/44309546240",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "35c3736d-73fe-408b-aaab-df8ed57c588c",
+      "title": "Data and Analytics Intern",
+      "applicationUrl": "https://careers.munichre.com/en/job/amelia/data-and-analytics-intern/3342/44428393536",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "393f6cd3-91a1-4b5f-a75b-f6933b0fff98",
+      "title": "Praktikant Recruiting & HR Marketing (m/w/d)*",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/praktikant-recruiting-and-hr-marketing-m-w-d/3342/43928193088",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "152bcf2d-7a27-499d-8562-b57a9d7354e3",
+      "title": "Intern - IAM - Application Life Cycle Management (m/f/d)*",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/intern-iam-application-life-cycle-management-m-f-d/3342/41156974912",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "d0b140a4-af2d-49dc-8ba7-6979a1f42dfa",
+      "title": "Praktikum im Bereich Infrastructure Equity Transactions (m|w|d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/praktikum-im-bereich-infrastructure-equity-transactions-m-w-d/3197/38915328832",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "cbbc962c-2c8c-4c71-b200-ecfb6f9aa410",
+      "title": "Werkstudent Datenschutz (m/w/d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/dusseldorf/werkstudent-datenschutz-m-w-d/3382/29336788288",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "b816ecb8-b8a1-42ec-a93b-dec0db327bdf",
+      "title": "Accounting Intern",
+      "applicationUrl": "https://jobs.onemainfinancial.com/job/irving/accounting-intern/21631/101138608416",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Oca Ventures, LLC"
+    },
+    {
+      "postingId": "5aa3116e-a9bc-42dd-b455-b8a279734ec1",
+      "title": "Analytics Intern",
+      "applicationUrl": "https://jobs.onemainfinancial.com/job/wilmington/analytics-intern/21631/100341806928",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Oca Ventures, LLC"
+    },
+    {
+      "postingId": "22d4c1cb-0d92-40e8-a255-43fae83f9ce4",
+      "title": "Product Design Intern",
+      "applicationUrl": "https://boards.greenhouse.io/coinbase/jobs/8175339#app",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Blockchain Capital, LLC"
+    },
+    {
+      "postingId": "02d9e7f5-4a8d-46c4-8060-19430833608c",
+      "title": "Product Manager (HR Technology) Intern",
+      "applicationUrl": "https://boards.greenhouse.io/coinbase/jobs/8175504#app",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Blockchain Capital, LLC"
+    },
+    {
+      "postingId": "eb47742c-8fe6-44db-9660-d9ad1307e162",
+      "title": "Real Estate & Builds Intern (EWX)",
+      "applicationUrl": "https://boards.greenhouse.io/coinbase/jobs/8175507#app",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Blockchain Capital, LLC"
+    },
+    {
+      "postingId": "47e91107-8070-453d-bb33-f7b158aa72a6",
+      "title": "Crypto Inventory Operations Intern",
+      "applicationUrl": "https://boards.greenhouse.io/coinbase/jobs/8175435#app",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Blockchain Capital, LLC"
+    },
+    {
+      "postingId": "fe4025b7-6c3a-4622-b2e0-44fdba66602f",
+      "title": "Business Analyst Internship (Summer 2027)",
+      "applicationUrl": "https://inserocpa.zohorecruit.com/jobs/Careers/583248000010330027/Business-Analyst-Internship-Summer-2027-?source=CareerSite",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Rallyday Partners, LLC"
+    },
+    {
+      "postingId": "d4058548-1f39-45e2-83d1-9df49c93b4f0",
+      "title": "User Research Intern",
+      "applicationUrl": "https://boards.greenhouse.io/coinbase/jobs/8175360#app",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Blockchain Capital, LLC"
+    },
+    {
+      "postingId": "6a3daf86-aaec-492d-933e-46072797ddf3",
+      "title": "Sales Intern",
+      "applicationUrl": "https://boards.greenhouse.io/coinbase/jobs/8187551#app",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Blockchain Capital, LLC"
+    },
+    {
+      "postingId": "99df8121-779f-400e-a296-89129e732cff",
+      "title": "Werkstudent im Bereich Investment Management (m|w|d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/werkstudent-im-bereich-investment-management-m-w-d/3197/45562292096",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "ef1d539b-93c5-47dc-97f0-af74998e9fd0",
+      "title": "Intern Support AI-Driven Underwriting Innovation at Munich Re (m/f/d)*",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/intern-support-ai-driven-underwriting-innovation-at-munich-re-m-f-d/3342/45648354816",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "36f559ab-e088-4815-9469-d08b3698fb98",
+      "title": "Praktikant Recruitingstrategie (m/w/d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/dusseldorf/praktikant-recruitingstrategie-m-w-d/3382/45095898432",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "2d759517-b2c7-45c7-91a2-5c0beb0452b0",
+      "title": "Reinsurance Accounting - IFRS17 Guidance and Support - Intern (m/f/d)*",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/reinsurance-accounting-ifrs17-guidance-and-support-intern-m-f-d/3342/45422311488",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "ad8bf91d-923f-4086-ba2d-6880e031a8a7",
+      "title": "Intern, Underwriting",
+      "applicationUrl": "https://careers.munichre.com/en/job/kuala-lumpur/intern-underwriting/3342/45335050560",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "7e2083c8-8048-4533-9928-b4425e80b05d",
+      "title": "Data Science Intern, NA Integrated Analytics (2027 Summer - New York)",
+      "applicationUrl": "https://careers.munichre.com/en/job/new-york/data-science-intern-na-integrated-analytics-2027-summer-new-york/3342/44660124160",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "dc5305d2-83b0-4d83-b86d-728b0115b03c",
+      "title": "Actuarial Intern",
+      "applicationUrl": "https://careers.munichre.com/en/job/hartford/actuarial-intern/3342/44309546048",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "cdfca0f8-f803-4803-85c9-006597cafa88",
+      "title": "Werkstudent in Business Management Alternatives (m|w|d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/werkstudent-in-business-management-alternatives-m-w-d/3197/43986437952",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "40f42a3f-6edc-42f7-99a7-03664ab219ab",
+      "title": "Intern Climate Advisory (m/f/d)*",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/intern-climate-advisory-m-f-d/3342/43991928832",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "187f5566-e302-409d-b4aa-1db3bb410455",
+      "title": "Werkstudent im Bereich Investment Risk Management (m|w|d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/werkstudent-im-bereich-investment-risk-management-m-w-d/3197/45022341440",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "047f89c0-bbec-43fc-bafa-0e41057dea50",
+      "title": "Werkstudent im Bereich Recruiting & Employer Branding (m|w|d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/werkstudent-im-bereich-recruiting-and-employer-branding-m-w-d/3197/45562292288",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "b860c4b1-b25e-4b90-9783-eaf193c4b63f",
+      "title": "Corporate Reserving Actuarial Intern",
+      "applicationUrl": "https://careers.munichre.com/en/job/new-york/corporate-reserving-actuarial-intern/3342/45672390144",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "00ee3323-aa54-42e4-a374-8efb69091da7",
+      "title": "Praktikant Digital Business, Marketing & Analytics (m/w/d)",
+      "applicationUrl": "https://careers.munichre.com/en/job/hamburg/praktikant-digital-business-marketing-and-analytics-m-w-d/3382/42785488192",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    },
+    {
+      "postingId": "01f53cd3-0078-4c85-99e9-abbe3189fbe0",
+      "title": "Intern Civil Engineering Corporate Underwriting (m/w/d)*",
+      "applicationUrl": "https://careers.munichre.com/en/job/munich/intern-civil-engineering-corporate-underwriting-m-w-d/3342/42367453632",
+      "isActive": true,
+      "origin": "crawler",
+      "connectorId": "getro",
+      "firmName": "Group 11"
+    }
+  ]
+}

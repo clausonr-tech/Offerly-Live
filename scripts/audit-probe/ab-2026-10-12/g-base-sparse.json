@@ -1,0 +1,512 @@
+{
+  "meta": {
+    "script": "scripts/draft-reply-grader.ts",
+    "ranAt": "2026-10-12T22:04:53.894Z",
+    "judgeModel": "claude-sonnet-5-5",
+    "pinnedModel": "claude-sonnet-5-5",
+    "promptVersion": "reply-grader/1",
+    "promptSha": "8700addf89d0917d22c56b03d0e8805b7dddc72a6d0cc01da37f3424a5cfd300",
+    "promptShaPinned": "8700addf89d0917d22c56b03d0e8805b7dddc72a6d0cc01da37f3424a5cfd300",
+    "comparable": true,
+    "arm": "post",
+    "inputs": [
+      "/private/tmp/claude-501/-Users-kaiclauson-Developer-Offerly-Bing-Bong/b875acd3-e82c-4848-a19b-01e706172ab0/scratchpad/ab/base-sparse.json"
+    ],
+    "passes": 1,
+    "transport": "claude CLI (subscription); costUsd is notional API accounting, billed to nobody",
+    "blinding": "the judge is sent subject + body only - no id, boxes, leadType, profile, notes, arm, run or commit, and never both arms in one call"
+  },
+  "distribution": {
+    "would_reply": 7,
+    "would_ignore": 4,
+    "off_putting": 5
+  },
+  "byShape": {
+    "ask": {
+      "n": 9,
+      "replied": 5,
+      "ignored": 1,
+      "offPutting": 3
+    },
+    "no_ask": {
+      "n": 3,
+      "replied": 0,
+      "ignored": 3,
+      "offPutting": 0
+    },
+    "conditional": {
+      "n": 4,
+      "replied": 2,
+      "ignored": 0,
+      "offPutting": 2
+    },
+    "unclassified": {
+      "n": 0,
+      "replied": 0,
+      "ignored": 0,
+      "offPutting": 0
+    }
+  },
+  "errored": 0,
+  "tells": {
+    "cv_recital": 14,
+    "template_closer": 9,
+    "placeholder_left_in": 5,
+    "no_ask": 4,
+    "vague_ask": 3,
+    "reads_machine_written": 3,
+    "no_specific_reason": 1,
+    "awkward_phrasing": 1
+  },
+  "calibration": null,
+  "stability": null,
+  "usage": {
+    "inputTokens": 32,
+    "outputTokens": 3644,
+    "cacheReadTokens": 32096,
+    "cacheWriteTokens": 11725,
+    "costUsd": 0.08982319999999999
+  },
+  "results": [
+    {
+      "id": "801",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "recruiter_outreach",
+      "pass": 1,
+      "words": 102,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "Two concrete, easy questions (\"when does the program open? ... does it feed into the summer analyst class?\") plus a shared Duke link make this a quick two-line answer.",
+        "worst_line": "This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews.",
+        "tells": [
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 233,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 748,
+        "costUsd": 0.0057272
+      },
+      "ms": 3142
+    },
+    {
+      "id": "802",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "recruiter_outreach",
+      "pass": 1,
+      "words": 98,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "Two concrete, easy-to-answer questions (\"when does the sophomore program open for applications?\") mean I can fire back a two-line reply, or point her to the careers page.",
+        "worst_line": "I found your profile on LinkedIn.",
+        "tells": [
+          "no_specific_reason",
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 205,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 739,
+        "costUsd": 0.0054112
+      },
+      "ms": 3185
+    },
+    {
+      "id": "803",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "cold_referral",
+      "pass": 1,
+      "words": 154,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "A named colleague pointed her at me (\"Emily Tran, who interned on the consumer team last summer\"), and the ask is a clear, small 10-15 minute call, so I'd write back.",
+        "worst_line": "I am recruiting right now and would love to hear about your path, your work, and what Morrow & Pike is like.",
+        "tells": [
+          "cv_recital",
+          "template_closer"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 229,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 801,
+        "costUsd": 0.0058992
+      },
+      "ms": 3047
+    },
+    {
+      "id": "804",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "cold_referral",
+      "pass": 1,
+      "words": 119,
+      "graded": {
+        "verdict": "off_putting",
+        "reason": "The unfilled slot \"graduating in [graduation month] 2029\" shows a template was sent without a check, which makes me think less of her even though the referral and the two questions are easy to answer.",
+        "worst_line": "graduating in [graduation month] 2029",
+        "tells": [
+          "placeholder_left_in",
+          "cv_recital",
+          "template_closer"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 214,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 763,
+        "costUsd": 0.0055972
+      },
+      "ms": 3112
+    },
+    {
+      "id": "805",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "cold_after_meeting",
+      "pass": 1,
+      "words": 133,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "We actually met at the summit and she names the grocery turnaround I worked on (\"I enjoyed hearing about the grocery chain turnaround\"), plus a Duke link and a clear 10-15 minute ask, so a quick yes is easy.",
+        "worst_line": "I'm recruiting right now and would be grateful to learn about your path, Morrow & Pike, and the work you do.",
+        "tells": [
+          "cv_recital",
+          "vague_ask"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 250,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 799,
+        "costUsd": 0.0061012
+      },
+      "ms": 3188
+    },
+    {
+      "id": "806",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "cold_referral",
+      "pass": 1,
+      "words": 128,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "I met her at the summit, she names a colleague's referral (\"Emily Tran, who interned on the consumer team\"), and the ask is a simple 10-15 minute call, so a one-line \"sure, Thursday\" is easy.",
+        "worst_line": "I'd love to hear about your path, Morrow & Pike, and the work you do.",
+        "tells": [
+          "cv_recital",
+          "template_closer"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 233,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 799,
+        "costUsd": 0.0059312
+      },
+      "ms": 3086
+    },
+    {
+      "id": "807",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "cold_referral",
+      "pass": 1,
+      "words": 131,
+      "graded": {
+        "verdict": "off_putting",
+        "reason": "The unfilled slot \"I'm graduating in [graduation month] 2029\" tells me this was templated and sent without a proofread, which outweighs the real referral and the easy questions.",
+        "worst_line": "I'm graduating in [graduation month] 2029.",
+        "tells": [
+          "placeholder_left_in",
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 212,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 810,
+        "costUsd": 0.0057652
+      },
+      "ms": 2864
+    },
+    {
+      "id": "808",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "conference_follow_up",
+      "pass": 1,
+      "words": 119,
+      "graded": {
+        "verdict": "off_putting",
+        "reason": "The unfilled slot \"graduating in [graduation month] 2029\" shows a mail-merge sloppiness that undercuts the specific lunch-table detail, and the questions are things I'd expect her to find on the careers site.",
+        "worst_line": "graduating in [graduation month] 2029",
+        "tells": [
+          "placeholder_left_in",
+          "cv_recital",
+          "reads_machine_written",
+          "template_closer"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 238,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 772,
+        "costUsd": 0.0058732
+      },
+      "ms": 3344
+    },
+    {
+      "id": "809",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "redirect_sequence",
+      "pass": 1,
+      "words": 99,
+      "graded": {
+        "verdict": "off_putting",
+        "reason": "The unfilled slot \"[what you originally asked Marcus]\" sits in the opening sentence, so it looks careless and templated, and it undercuts the Marcus referral that would otherwise have gotten a reply.",
+        "worst_line": "Marcus Delacroix suggested I write to you after I emailed him about [what you originally asked Marcus].",
+        "tells": [
+          "placeholder_left_in",
+          "cv_recital",
+          "vague_ask",
+          "template_closer",
+          "reads_machine_written"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 260,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 733,
+        "costUsd": 0.0059372
+      },
+      "ms": 3340
+    },
+    {
+      "id": "813",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "thank_you_offered_help",
+      "pass": 1,
+      "words": 96,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "She references a specific thing I said (\"write down every question they get wrong\") and says I offered to pass her resume along, which is easy to act on: she attached it, so I can forward it with a one-line reply.",
+        "worst_line": "I can see how useful that habit would be.",
+        "tells": [
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 202,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 716,
+        "costUsd": 0.0052892
+      },
+      "ms": 3098
+    },
+    {
+      "id": "814",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "thank_you_offered_help",
+      "pass": 1,
+      "words": 88,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "She offered to pass the resume along, and he's made that easy: \"I've attached it so it's easy to forward.\" Forwarding it takes one click.",
+        "worst_line": "I'm a sophomore at Duke studying Economics, and this past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks.",
+        "tells": [
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 233,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 693,
+        "costUsd": 0.0055072
+      },
+      "ms": 2977
+    },
+    {
+      "id": "815",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "keep_in_touch",
+      "pass": 1,
+      "words": 81,
+      "graded": {
+        "verdict": "would_ignore",
+        "reason": "It's a polite, warm update from someone I spoke to in March, but \"If you ever have a few minutes to catch up\" gives me nothing concrete to answer, so I'd probably read it warmly and not type anything.",
+        "worst_line": "If you ever have a few minutes to catch up, I'd enjoy that, though I understand if your schedule is full.",
+        "tells": [
+          "vague_ask",
+          "template_closer"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 239,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 687,
+        "costUsd": 0.0055432
+      },
+      "ms": 2930
+    },
+    {
+      "id": "816",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "close_loop_referrer",
+      "pass": 1,
+      "words": 61,
+      "graded": {
+        "verdict": "would_ignore",
+        "reason": "It's a polite thank-you for an intro I made, and I'd smile and move on; the odd pivot to \"I spent the summer at Pinecrest Wealth Partners building a dividend screen\" doesn't give me anything to answer.",
+        "worst_line": "After we spoke in March about consumer coverage, I spent the summer at Pinecrest Wealth Partners building a dividend screen.",
+        "tells": [
+          "no_ask",
+          "awkward_phrasing",
+          "template_closer"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 262,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 648,
+        "costUsd": 0.005617200000000001
+      },
+      "ms": 3391
+    },
+    {
+      "id": "817",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "close_loop_referrer",
+      "pass": 1,
+      "words": 67,
+      "graded": {
+        "verdict": "would_ignore",
+        "reason": "It's a polite thank-you for an intro I made, and \"No need to reply\" means I'd read it warmly and not type anything back.",
+        "worst_line": "No need to reply.",
+        "tells": [
+          "no_ask",
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 182,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 656,
+        "costUsd": 0.0048492
+      },
+      "ms": 2612
+    },
+    {
+      "id": "818",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "close_loop_referrer",
+      "pass": 1,
+      "words": 77,
+      "graded": {
+        "verdict": "would_ignore",
+        "reason": "It's a polite thank-you for an intro I made, and I'd read it warmly, but nothing in it needs an answer beyond \"glad it helped,\" so I'd likely type nothing.",
+        "worst_line": "Thank you again for the introduction, and I hope we can stay in touch.",
+        "tells": [
+          "template_closer",
+          "no_ask",
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 221,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 672,
+        "costUsd": 0.0053032
+      },
+      "ms": 3186
+    },
+    {
+      "id": "819",
+      "source": "base-sparse.json",
+      "arm": "post",
+      "leadType": "redirect_sequence",
+      "pass": 1,
+      "words": 82,
+      "graded": {
+        "verdict": "off_putting",
+        "reason": "The thank-you is hollow because the key sentence is an unfilled slot: \"[one specific thing that came of the conversation]\" shows a template went out unchecked.",
+        "worst_line": "It was the right call: [one specific thing that came of the conversation].",
+        "tells": [
+          "placeholder_left_in",
+          "cv_recital",
+          "template_closer",
+          "no_ask",
+          "reads_machine_written"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 231,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 689,
+        "costUsd": 0.005471200000000001
+      },
+      "ms": 3319
+    }
+  ]
+}

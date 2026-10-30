@@ -1,0 +1,789 @@
+{
+  "manifestVersion": 1,
+  "name": "offerly-synthetic-v1",
+  "description": "Tiny generated, verbatim (fillers kept) text fixtures for pipeline tests and dry runs. Not real recordings, not real reviewers - the 'human' scores are illustrative. Never use for training or to report model quality.",
+  "items": [
+    {
+      "id": "syn.beh.strong-01",
+      "source": {
+        "dataset": "offerly-synthetic",
+        "split": "test",
+        "originalId": null,
+        "attribution": null,
+        "version": "offerly-synthetic-v1",
+        "licenseSource": "Generated in this repository; no external source."
+      },
+      "license": "Offerly-synthetic (generated text; no personal data)",
+      "consentBasis": "Written by Offerly for pipeline testing. No real person, recording or answer.",
+      "permittedUse": "evaluation",
+      "tasks": [
+        "asr",
+        "grader"
+      ],
+      "mediaPath": null,
+      "durationSec": 40,
+      "referenceTranscript": "Last spring our investment club was losing members, and as the new president my job was to turn that around. I interviewed ten former members, found that meetings felt like lectures, and redesigned them around small pitch teams with a weekly stock vote. Within one semester membership grew from twelve to thirty one, and I learned that asking people what they need beats guessing.",
+      "verbatimFillers": true,
+      "question": {
+        "prompt": "Tell me about a time you took on a leadership role.",
+        "kind": "behavioral",
+        "sector": null,
+        "specialty": null,
+        "topic": "Leadership",
+        "difficulty": "foundational",
+        "expectedPoints": [
+          "Describes a specific situation with enough context to follow",
+          "Makes the candidate's own role and responsibility clear",
+          "Explains concrete actions the candidate personally took",
+          "States a result, ideally measurable",
+          "Reflects on what was learned"
+        ]
+      },
+      "expected": {
+        "coveredPoints": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "factualErrors": [],
+        "star": {
+          "situation": true,
+          "task": true,
+          "action": true,
+          "result": true,
+          "reflection": true
+        }
+      },
+      "reviews": [
+        {
+          "reviewer": "R1",
+          "blind": true,
+          "scores": {
+            "grammarClarity": 88,
+            "pacePauses": 85,
+            "fillers": 90,
+            "structure": 90,
+            "relevance": 92,
+            "completeness": 88,
+            "logic": 86,
+            "concision": 84,
+            "overall": 88
+          },
+          "classification": "strong"
+        },
+        {
+          "reviewer": "R2",
+          "blind": true,
+          "scores": {
+            "grammarClarity": 84,
+            "pacePauses": 80,
+            "fillers": 86,
+            "structure": 86,
+            "relevance": 90,
+            "completeness": 84,
+            "logic": 82,
+            "concision": 80,
+            "overall": 85
+          },
+          "classification": "strong"
+        }
+      ],
+      "adjudicated": {
+        "scores": {
+          "grammarClarity": 86,
+          "pacePauses": 83,
+          "fillers": 88,
+          "structure": 88,
+          "relevance": 91,
+          "completeness": 86,
+          "logic": 84,
+          "concision": 82,
+          "overall": 87
+        },
+        "classification": "strong",
+        "method": "mean of R1 and R2, class by discussion"
+      },
+      "slices": {
+        "audio": "clean",
+        "accent": null,
+        "accentSource": "none",
+        "speakingSpeed": "typical",
+        "answerLength": "medium"
+      },
+      "annotations": null,
+      "delivery": {
+        "verifiedBy": "synthetic",
+        "method": "Hand-annotated from the synthetic text for tests; no recording exists.",
+        "speakingSec": 38,
+        "pauses": [],
+        "fillers": [],
+        "repeatedPhrases": [],
+        "disfluencies": []
+      }
+    },
+    {
+      "id": "syn.beh.average-01",
+      "source": {
+        "dataset": "offerly-synthetic",
+        "split": "test",
+        "originalId": null,
+        "attribution": null,
+        "version": "offerly-synthetic-v1",
+        "licenseSource": "Generated in this repository; no external source."
+      },
+      "license": "Offerly-synthetic (generated text; no personal data)",
+      "consentBasis": "Written by Offerly for pipeline testing. No real person, recording or answer.",
+      "permittedUse": "evaluation",
+      "tasks": [
+        "asr",
+        "grader"
+      ],
+      "mediaPath": null,
+      "durationSec": 25,
+      "referenceTranscript": "So I was, um, the captain of my intramural soccer team. We had some problems with people not showing up. I made a group chat and reminded everyone before games, and attendance got better. It was a good experience.",
+      "verbatimFillers": true,
+      "question": {
+        "prompt": "Tell me about a time you took on a leadership role.",
+        "kind": "behavioral",
+        "sector": null,
+        "specialty": null,
+        "topic": "Leadership",
+        "difficulty": "foundational",
+        "expectedPoints": [
+          "Describes a specific situation with enough context to follow",
+          "Makes the candidate's own role and responsibility clear",
+          "Explains concrete actions the candidate personally took",
+          "States a result, ideally measurable",
+          "Reflects on what was learned"
+        ]
+      },
+      "expected": {
+        "coveredPoints": [
+          1,
+          3,
+          4
+        ],
+        "factualErrors": [],
+        "star": {
+          "situation": true,
+          "task": false,
+          "action": true,
+          "result": true,
+          "reflection": false
+        }
+      },
+      "reviews": [
+        {
+          "reviewer": "R1",
+          "blind": true,
+          "scores": {
+            "grammarClarity": 70,
+            "pacePauses": 72,
+            "fillers": 60,
+            "structure": 58,
+            "relevance": 75,
+            "completeness": 55,
+            "logic": 62,
+            "concision": 70,
+            "overall": 63
+          },
+          "classification": "average"
+        },
+        {
+          "reviewer": "R2",
+          "blind": true,
+          "scores": {
+            "grammarClarity": 66,
+            "pacePauses": 70,
+            "fillers": 56,
+            "structure": 52,
+            "relevance": 72,
+            "completeness": 50,
+            "logic": 58,
+            "concision": 74,
+            "overall": 58
+          },
+          "classification": "average"
+        },
+        {
+          "reviewer": "R3",
+          "blind": true,
+          "scores": {
+            "grammarClarity": 66,
+            "pacePauses": 68,
+            "fillers": 56,
+            "structure": 54,
+            "relevance": 71,
+            "completeness": 51,
+            "logic": 58,
+            "concision": 66,
+            "overall": 59
+          },
+          "classification": "average"
+        }
+      ],
+      "adjudicated": {
+        "scores": {
+          "grammarClarity": 68,
+          "pacePauses": 71,
+          "fillers": 58,
+          "structure": 55,
+          "relevance": 74,
+          "completeness": 53,
+          "logic": 60,
+          "concision": 72,
+          "overall": 61
+        },
+        "classification": "average",
+        "method": "mean of R1 and R2, class by discussion"
+      },
+      "slices": {
+        "audio": "clean",
+        "accent": null,
+        "accentSource": "none",
+        "speakingSpeed": "fast",
+        "answerLength": "short"
+      },
+      "annotations": null,
+      "delivery": {
+        "verifiedBy": "synthetic",
+        "method": "Hand-annotated from the synthetic text for tests; no recording exists.",
+        "speakingSec": 22,
+        "pauses": [
+          {
+            "startSec": 3.0,
+            "endSec": 5.0
+          }
+        ],
+        "fillers": [
+          "um"
+        ],
+        "repeatedPhrases": [],
+        "disfluencies": []
+      }
+    },
+    {
+      "id": "syn.beh.poor-01",
+      "source": {
+        "dataset": "offerly-synthetic",
+        "split": "test",
+        "originalId": null,
+        "attribution": null,
+        "version": "offerly-synthetic-v1",
+        "licenseSource": "Generated in this repository; no external source."
+      },
+      "license": "Offerly-synthetic (generated text; no personal data)",
+      "consentBasis": "Written by Offerly for pipeline testing. No real person, recording or answer.",
+      "permittedUse": "evaluation",
+      "tasks": [
+        "asr",
+        "grader"
+      ],
+      "mediaPath": null,
+      "durationSec": 15,
+      "referenceTranscript": "I think leadership is really important and I have always been a natural leader. People usually listen to me. I like being in charge of things.",
+      "verbatimFillers": true,
+      "question": {
+        "prompt": "Tell me about a time you took on a leadership role.",
+        "kind": "behavioral",
+        "sector": null,
+        "specialty": null,
+        "topic": "Leadership",
+        "difficulty": "foundational",
+        "expectedPoints": [
+          "Describes a specific situation with enough context to follow",
+          "Makes the candidate's own role and responsibility clear",
+          "Explains concrete actions the candidate personally took",
+          "States a result, ideally measurable",
+          "Reflects on what was learned"
+        ]
+      },
+      "expected": {
+        "coveredPoints": [],
+        "factualErrors": [],
+        "star": {
+          "situation": false,
+          "task": false,
+          "action": false,
+          "result": false,
+          "reflection": false
+        }
+      },
+      "reviews": [
+        {
+          "reviewer": "R1",
+          "blind": true,
+          "scores": {
+            "grammarClarity": 72,
+            "pacePauses": 65,
+            "fillers": 80,
+            "structure": 30,
+            "relevance": 40,
+            "completeness": 20,
+            "logic": 35,
+            "concision": 60,
+            "overall": 38
+          },
+          "classification": "poor"
+        },
+        {
+          "reviewer": "R2",
+          "blind": true,
+          "scores": {
+            "grammarClarity": 70,
+            "pacePauses": 60,
+            "fillers": 76,
+            "structure": 35,
+            "relevance": 45,
+            "completeness": 25,
+            "logic": 40,
+            "concision": 58,
+            "overall": 42
+          },
+          "classification": "poor"
+        }
+      ],
+      "adjudicated": {
+        "scores": {
+          "grammarClarity": 71,
+          "pacePauses": 63,
+          "fillers": 78,
+          "structure": 33,
+          "relevance": 43,
+          "completeness": 23,
+          "logic": 38,
+          "concision": 59,
+          "overall": 40
+        },
+        "classification": "poor",
+        "method": "mean of R1 and R2, class by discussion"
+      },
+      "slices": {
+        "audio": "clean",
+        "accent": null,
+        "accentSource": "none",
+        "speakingSpeed": "typical",
+        "answerLength": "short"
+      },
+      "annotations": null,
+      "delivery": null
+    },
+    {
+      "id": "syn.tech.strong-01",
+      "source": {
+        "dataset": "offerly-synthetic",
+        "split": "test",
+        "originalId": null,
+        "attribution": null,
+        "version": "offerly-synthetic-v1",
+        "licenseSource": "Generated in this repository; no external source."
+      },
+      "license": "Offerly-synthetic (generated text; no personal data)",
+      "consentBasis": "Written by Offerly for pipeline testing. No real person, recording or answer.",
+      "permittedUse": "evaluation",
+      "tasks": [
+        "asr",
+        "grader"
+      ],
+      "mediaPath": null,
+      "durationSec": 35,
+      "referenceTranscript": "You start with equity value, which for a public company is the share price times diluted shares, say two point five billion dollars. Then you add total debt, both short term and long term, add preferred stock and any non-controlling interest, and subtract cash and cash equivalents, because an acquirer effectively gets that cash back.",
+      "verbatimFillers": true,
+      "question": {
+        "prompt": "Walk me from equity value to enterprise value.",
+        "kind": "technical",
+        "sector": "investment_banking",
+        "specialty": null,
+        "topic": "Valuation",
+        "difficulty": "intermediate",
+        "expectedPoints": [
+          "Start from equity value (market capitalisation for a public company)",
+          "Add debt, including short- and long-term borrowings",
+          "Subtract cash and cash equivalents",
+          "Add preferred stock and non-controlling interest"
+        ]
+      },
+      "expected": {
+        "coveredPoints": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "factualErrors": [],
+        "star": null
+      },
+      "reviews": [
+        {
+          "reviewer": "R1",
+          "blind": true,
+          "scores": {
+            "grammarClarity": 86,
+            "pacePauses": 84,
+            "fillers": 90,
+            "structure": 88,
+            "relevance": 94,
+            "completeness": 95,
+            "logic": 90,
+            "concision": 85,
+            "overall": 90
+          },
+          "classification": "strong"
+        },
+        {
+          "reviewer": "R2",
+          "blind": true,
+          "scores": {
+            "grammarClarity": 82,
+            "pacePauses": 80,
+            "fillers": 88,
+            "structure": 84,
+            "relevance": 92,
+            "completeness": 90,
+            "logic": 88,
+            "concision": 82,
+            "overall": 87
+          },
+          "classification": "strong"
+        }
+      ],
+      "adjudicated": {
+        "scores": {
+          "grammarClarity": 84,
+          "pacePauses": 82,
+          "fillers": 89,
+          "structure": 86,
+          "relevance": 93,
+          "completeness": 93,
+          "logic": 89,
+          "concision": 84,
+          "overall": 89
+        },
+        "classification": "strong",
+        "method": "mean of R1 and R2, class by discussion"
+      },
+      "slices": {
+        "audio": "clean",
+        "accent": null,
+        "accentSource": "none",
+        "speakingSpeed": "typical",
+        "answerLength": "medium"
+      },
+      "annotations": {
+        "financeTerms": [
+          "equity value",
+          "non-controlling interest",
+          "preferred stock",
+          "cash equivalents"
+        ],
+        "numbers": [
+          "2.5 billion"
+        ],
+        "namedEntities": []
+      },
+      "delivery": null
+    },
+    {
+      "id": "syn.tech.average-01",
+      "source": {
+        "dataset": "offerly-synthetic",
+        "split": "test",
+        "originalId": null,
+        "attribution": null,
+        "version": "offerly-synthetic-v1",
+        "licenseSource": "Generated in this repository; no external source."
+      },
+      "license": "Offerly-synthetic (generated text; no personal data)",
+      "consentBasis": "Written by Offerly for pipeline testing. No real person, recording or answer.",
+      "permittedUse": "evaluation",
+      "tasks": [
+        "asr",
+        "grader"
+      ],
+      "mediaPath": null,
+      "durationSec": 20,
+      "referenceTranscript": "Enterprise value is equity value plus debt minus cash. Uh, you take the market cap, add the debt the company has, and take away the cash, because the buyer gets the cash.",
+      "verbatimFillers": true,
+      "question": {
+        "prompt": "Walk me from equity value to enterprise value.",
+        "kind": "technical",
+        "sector": "investment_banking",
+        "specialty": null,
+        "topic": "Valuation",
+        "difficulty": "intermediate",
+        "expectedPoints": [
+          "Start from equity value (market capitalisation for a public company)",
+          "Add debt, including short- and long-term borrowings",
+          "Subtract cash and cash equivalents",
+          "Add preferred stock and non-controlling interest"
+        ]
+      },
+      "expected": {
+        "coveredPoints": [
+          1,
+          2,
+          3
+        ],
+        "factualErrors": [],
+        "star": null
+      },
+      "reviews": [
+        {
+          "reviewer": "R1",
+          "blind": true,
+          "scores": {
+            "grammarClarity": 74,
+            "pacePauses": 70,
+            "fillers": 62,
+            "structure": 66,
+            "relevance": 85,
+            "completeness": 62,
+            "logic": 72,
+            "concision": 80,
+            "overall": 70
+          },
+          "classification": "average"
+        },
+        {
+          "reviewer": "R2",
+          "blind": true,
+          "scores": {
+            "grammarClarity": 70,
+            "pacePauses": 68,
+            "fillers": 60,
+            "structure": 60,
+            "relevance": 82,
+            "completeness": 58,
+            "logic": 70,
+            "concision": 78,
+            "overall": 66
+          },
+          "classification": "average"
+        }
+      ],
+      "adjudicated": {
+        "scores": {
+          "grammarClarity": 72,
+          "pacePauses": 69,
+          "fillers": 61,
+          "structure": 63,
+          "relevance": 84,
+          "completeness": 60,
+          "logic": 71,
+          "concision": 79,
+          "overall": 68
+        },
+        "classification": "average",
+        "method": "mean of R1 and R2, class by discussion"
+      },
+      "slices": {
+        "audio": "noisy",
+        "accent": null,
+        "accentSource": "none",
+        "speakingSpeed": "typical",
+        "answerLength": "short"
+      },
+      "annotations": {
+        "financeTerms": [
+          "equity value",
+          "market cap"
+        ],
+        "numbers": [],
+        "namedEntities": []
+      },
+      "delivery": {
+        "verifiedBy": "synthetic",
+        "method": "Hand-annotated from the synthetic text for tests; no recording exists.",
+        "speakingSec": 18,
+        "pauses": [],
+        "fillers": [
+          "uh"
+        ],
+        "repeatedPhrases": [],
+        "disfluencies": []
+      }
+    },
+    {
+      "id": "syn.tech.poor-01",
+      "source": {
+        "dataset": "offerly-synthetic",
+        "split": "test",
+        "originalId": null,
+        "attribution": null,
+        "version": "offerly-synthetic-v1",
+        "licenseSource": "Generated in this repository; no external source."
+      },
+      "license": "Offerly-synthetic (generated text; no personal data)",
+      "consentBasis": "Written by Offerly for pipeline testing. No real person, recording or answer.",
+      "permittedUse": "evaluation",
+      "tasks": [
+        "asr",
+        "grader"
+      ],
+      "mediaPath": null,
+      "durationSec": 22,
+      "referenceTranscript": "You take enterprise value and add cash to get equity value, and debt does not really matter because it is on the balance sheet anyway. So equity value is basically the same as enterprise value most of the time.",
+      "verbatimFillers": true,
+      "question": {
+        "prompt": "Walk me from equity value to enterprise value.",
+        "kind": "technical",
+        "sector": "investment_banking",
+        "specialty": null,
+        "topic": "Valuation",
+        "difficulty": "intermediate",
+        "expectedPoints": [
+          "Start from equity value (market capitalisation for a public company)",
+          "Add debt, including short- and long-term borrowings",
+          "Subtract cash and cash equivalents",
+          "Add preferred stock and non-controlling interest"
+        ]
+      },
+      "expected": {
+        "coveredPoints": [],
+        "factualErrors": [
+          "Adds cash instead of subtracting it",
+          "Says debt does not affect the bridge"
+        ],
+        "star": null
+      },
+      "reviews": [
+        {
+          "reviewer": "R1",
+          "blind": true,
+          "scores": {
+            "grammarClarity": 72,
+            "pacePauses": 68,
+            "fillers": 82,
+            "structure": 40,
+            "relevance": 50,
+            "completeness": 10,
+            "logic": 20,
+            "concision": 62,
+            "overall": 30
+          },
+          "classification": "poor"
+        },
+        {
+          "reviewer": "R2",
+          "blind": true,
+          "scores": {
+            "grammarClarity": 70,
+            "pacePauses": 66,
+            "fillers": 80,
+            "structure": 45,
+            "relevance": 55,
+            "completeness": 15,
+            "logic": 25,
+            "concision": 60,
+            "overall": 34
+          },
+          "classification": "poor"
+        }
+      ],
+      "adjudicated": {
+        "scores": {
+          "grammarClarity": 71,
+          "pacePauses": 67,
+          "fillers": 81,
+          "structure": 43,
+          "relevance": 53,
+          "completeness": 13,
+          "logic": 23,
+          "concision": 61,
+          "overall": 32
+        },
+        "classification": "poor",
+        "method": "mean of R1 and R2, class by discussion"
+      },
+      "slices": {
+        "audio": "clean",
+        "accent": null,
+        "accentSource": "none",
+        "speakingSpeed": "typical",
+        "answerLength": "medium"
+      },
+      "annotations": {
+        "financeTerms": [
+          "enterprise value",
+          "balance sheet"
+        ],
+        "numbers": [],
+        "namedEntities": []
+      },
+      "delivery": null
+    },
+    {
+      "id": "syn.delivery.mixed-01",
+      "source": {
+        "dataset": "offerly-synthetic",
+        "split": "test",
+        "originalId": null,
+        "attribution": null,
+        "version": "offerly-synthetic-v1",
+        "licenseSource": "Generated in this repository; no external source."
+      },
+      "license": "Offerly-synthetic (generated text; no personal data)",
+      "consentBasis": "Written by Offerly for pipeline testing. No real person, recording or answer.",
+      "permittedUse": "evaluation",
+      "tasks": [
+        "asr"
+      ],
+      "mediaPath": null,
+      "durationSec": 20,
+      "referenceTranscript": "Basically, um, I I think the the deal was, like, kind of risky. I like the model though. Th- the model, you know, showed the margin going up, the margin going up, the margin going up.",
+      "verbatimFillers": true,
+      "question": null,
+      "expected": null,
+      "reviews": null,
+      "adjudicated": null,
+      "delivery": {
+        "verifiedBy": "synthetic",
+        "method": "Hand-annotated from the synthetic text for tests; no recording exists.",
+        "speakingSec": 18,
+        "pauses": [
+          {
+            "startSec": 6.0,
+            "endSec": 9.5
+          }
+        ],
+        "fillers": [
+          "basically",
+          "um",
+          "like",
+          "kind of",
+          "you know"
+        ],
+        "repeatedPhrases": [
+          {
+            "phrase": "the margin going up",
+            "count": 3
+          }
+        ],
+        "disfluencies": [
+          {
+            "type": "repetition",
+            "text": "I I"
+          },
+          {
+            "type": "repetition",
+            "text": "the the"
+          },
+          {
+            "type": "cutoff",
+            "text": "th- the"
+          }
+        ]
+      },
+      "slices": {
+        "audio": "clean",
+        "accent": null,
+        "accentSource": "none",
+        "speakingSpeed": "typical",
+        "answerLength": "medium"
+      },
+      "annotations": null
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Weekly crawl, run unattended.
+
+  STILL NOT INSTALLED, deliberately - see "Why it stays uninstalled" below.
+  Nothing is scheduled until someone runs the launchctl load command.
+
+  FIXED 18 September 2026. As written it could not have worked, in three
+  separate ways, and because it was never loaded none of them ever surfaced:
+
+    1. It ran `npm run crawl:refresh`. There is no such script - and never
+       was. The crawl is `monitor:run`.
+    2. It cd'd to "$HOME/offerly-site", which is not where this repository
+       lives.
+    3. It called npm at "$HOME/.local/node-v24.19.0-darwin-arm64/bin/npm",
+       which does not exist on this machine. Node is installed via nvm.
+
+  So there has never been a scheduled crawl. Every crawl to date has been run
+  by hand, and the old comment below about the schedule "burning API budget"
+  was wrong on top of that: a crawl makes no API-keyed calls at all. It hits
+  free, unauthenticated ATS and careers endpoints plus headless Chromium, and
+  spends zero Anthropic tokens. Measured by tracing monitor-run.ts's imports -
+  the only LLM path in the monitoring code, llm-extract.ts, is reachable just
+  from the manual backfill-eligibility.ts.
+
+  Install:
+    cp scripts/com.offerly.crawl-refresh.plist ~/Library/LaunchAgents/
+    launchctl load ~/Library/LaunchAgents/com.offerly.crawl-refresh.plist
+
+  Uninstall:
+    launchctl unload ~/Library/LaunchAgents/com.offerly.crawl-refresh.plist
+
+  Runs Sundays at 04:15: crawls every due source, publishes whatever the
+  classifier auto-approved (which now also alerts the students watching that
+  firm), then spends a capped 25 model calls filling in eligibility the
+  deterministic parser could not read.
+
+  That last step is the ONLY thing here that costs money, and it is
+  deliberately a separate step rather than part of the crawl. The crawl itself
+  stays free and deterministic, third-party posting text reaches a model only
+  in this bounded pass, and a prompt change can be re-run over the same stored
+  rows without re-fetching a single careers page - all three of which are
+  properties backfill-eligibility.ts's own header asks for. --limit 25 keeps
+  a week's spend to 25 Haiku calls whatever the crawl turned up.
+
+  Weekly rather than daily is the right cadence:
+  firms publish a deadline once, months ahead, so a daily sweep spends ~7x the
+  requests to learn the same thing. The per-source tiers inside monitor-run
+  already check the urgent boards far more often than this when run by hand.
+
+  WHY IT STAYS UNINSTALLED
+  ------------------------
+  PGlite is single-writer. If this fires while the dev server is up, the two
+  processes contend for one data directory, which is how this repository lost
+  a database on 18 September 2026.
+
+  That is now caught rather than hoped about: the guard in
+  src/lib/monitoring/exclusive-db.ts connects to the dev port and the crawl
+  refuses to start. So the failure mode is no longer corruption - it is a
+  silently SKIPPED weekly run every week you happen to leave the server
+  running, with the reason only in the log below.
+
+  Install it once the app is on real Postgres (next step #7), which removes the
+  constraint entirely. Until then, running it by hand is the honest option.
+
+  NOTE: the npm path below is nvm's current version. If Node is upgraded, this
+  breaks silently - launchd will log "no such file or directory" to the error
+  log and nothing else will tell you.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.offerly.crawl-refresh</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>cd "/Users/kaiclauson/Developer/Offerly Bing Bong" &amp;&amp; export PATH="$HOME/.nvm/versions/node/v24.19.0/bin:$PATH" &amp;&amp; npm run monitor:run -- --limit 110 &amp;&amp; npx tsx --env-file=.env.local --conditions=react-server scripts/promote-approved-listings.ts &amp;&amp; npx tsx --env-file=.env.local --conditions=react-server scripts/backfill-eligibility.ts --limit 25 --apply</string>
+  </array>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key><integer>0</integer>
+    <key>Hour</key><integer>4</integer>
+    <key>Minute</key><integer>15</integer>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/offerly-crawl-refresh.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/offerly-crawl-refresh.err.log</string>
+
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>

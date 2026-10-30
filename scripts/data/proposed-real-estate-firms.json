@@ -1,0 +1,89 @@
+{
+  "generatedAt": "2026-09-19T18:44:11.278Z",
+  "source": "SEC Form ADV Part 1A",
+  "category": "real_estate",
+  "note": "Domains verified against firm names. Private brokerages do not file ADV and are absent.",
+  "firms": [
+    {
+      "name": "PRINCIPAL REAL ESTATE",
+      "website": "https://principalcef.com",
+      "category": "real_estate",
+      "crd": "109008",
+      "state": "IA",
+      "employees": 477,
+      "aum": 105646930594
+    },
+    {
+      "name": "STEPSTONE GROUP REAL ESTATE LP",
+      "website": "https://stepstonepw.com",
+      "category": "real_estate",
+      "crd": "281698",
+      "state": "CA",
+      "employees": 117,
+      "aum": 17212566630
+    },
+    {
+      "name": "BAIN CAPITAL REAL ESTATE, LP",
+      "website": "https://baincapitalrealestate.com",
+      "category": "real_estate",
+      "crd": "291809",
+      "state": "MA",
+      "employees": 125,
+      "aum": 9995431000
+    },
+    {
+      "name": "MADISON REALTY CAPITAL",
+      "website": "https://madisonrealtycapital.com",
+      "category": "real_estate",
+      "crd": "158988",
+      "state": "NY",
+      "employees": 76,
+      "aum": 5573213294
+    },
+    {
+      "name": "APOLLO REAL ESTATE FUND ADVISER, LLC",
+      "website": "https://ir.apollo.com",
+      "category": "real_estate",
+      "crd": "169120",
+      "state": "NY",
+      "employees": 3564,
+      "aum": 4269091755
+    },
+    {
+      "name": "SOUND POINT COMMERCIAL REAL ESTATE FINANCE LLC",
+      "website": "https://cre.soundpointcap.com",
+      "category": "real_estate",
+      "crd": "311808",
+      "state": "NY",
+      "employees": 25,
+      "aum": 2723360506
+    },
+    {
+      "name": "HAMMES REALTY ADVISORS, LLC",
+      "website": "https://hammespartners.com",
+      "category": "real_estate",
+      "crd": "165693",
+      "state": "WI",
+      "employees": 40,
+      "aum": 2020277795
+    },
+    {
+      "name": "MACK REAL ESTATE CREDIT STRATEGIES, L.P.",
+      "website": "https://mackregroup.com",
+      "category": "real_estate",
+      "crd": "167609",
+      "state": "NY",
+      "employees": 70,
+      "aum": 1048754256
+    },
+    {
+      "name": "BX REIT ADVISORS L.L.C.",
+      "website": "https://breit.com",
+      "category": "real_estate",
+      "crd": "288053",
+      "state": "NY",
+      "employees": 562,
+      "aum": null
+    }
+  ]
+}

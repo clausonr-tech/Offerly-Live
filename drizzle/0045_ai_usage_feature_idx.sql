@@ -1,0 +1,15 @@
+-- An index for the Help assistant's shared daily budget.
+--
+-- lib/help-gate.ts sums input_tokens and output_tokens over
+-- ai_usage WHERE feature = 'chat' AND created_at >= <today>, and it does so
+-- inside an advisory lock taken before every question. The only index on the
+-- table is (user_id, created_at), so that aggregate was a sequential scan of a
+-- table that grows with every AI call in the app - a resume review alone writes
+-- six rows. A scan inside a lock on an 8-connection pool is a self-inflicted
+-- denial of service, and because lib/rate-limit.ts falls back to a per-process
+-- counter when the database is unreachable, exhausting that pool would quietly
+-- weaken every rate limiter in the app at the same time.
+--
+-- Replay-safe: migrations from 0006 on run against the shared database (see
+-- scripts/test/migration-replay.test.ts), so this must survive re-running.
+CREATE INDEX IF NOT EXISTS "ai_usage_feature_created_idx" ON "ai_usage" ("feature","created_at");

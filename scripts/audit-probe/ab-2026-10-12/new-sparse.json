@@ -1,0 +1,1537 @@
+{
+  "meta": {
+    "script": "scripts/draft-cli-eval.ts",
+    "ranAt": "2026-10-12T21:59:30.993Z",
+    "transport": "claude CLI (subscription)",
+    "model": "claude-sonnet-5-5",
+    "review": true,
+    "seed": "quality",
+    "scenarios": 16,
+    "filter": null,
+    "profile": "sparse",
+    "caveat": "quality only; durations are CLI durations, not production latency; studentResumeSummary path only"
+  },
+  "aggregate": {
+    "scenarios": 16,
+    "drafted": 16,
+    "errored": 0,
+    "issuesPre": 9,
+    "issuesPost": 3,
+    "issuesPreMean": 0.563,
+    "issuesPostMean": 0.188,
+    "lintForReviewPre": 3,
+    "lintForReviewPost": 0,
+    "lintForStudentPost": 0,
+    "lintCleanPre": 13,
+    "lintCleanPost": 16,
+    "reviewRan": 16,
+    "reviewApplied": 16,
+    "reviewRejected": 0,
+    "reviewErrored": 0,
+    "reviewRetried": 0,
+    "reviewRetrySkippedForTime": 0,
+    "guardAcceptRate": 1,
+    "problems": 43,
+    "problemsMean": 2.688,
+    "problemsNeedsStudent": 2,
+    "wordsPreMean": 104.375,
+    "wordsPostMean": 99.125,
+    "overCeilingPre": 0,
+    "overCeilingPost": 0,
+    "overCeilingWordsPost": 0,
+    "contractionsPreMean": 2.688,
+    "contractionsPostMean": 2.625,
+    "contractionRatePreMean": 2.524,
+    "contractionRatePostMean": 2.625,
+    "zeroContractionPre": 1,
+    "zeroContractionPost": 1,
+    "longestIRunPreMean": 1.313,
+    "longestIRunPostMean": 1.188,
+    "threeIStartsPre": 1,
+    "threeIStartsPost": 1,
+    "cannedLinesPre": 9,
+    "cannedLinesPost": 11,
+    "cannedResumePre": 9,
+    "cannedResumePost": 9,
+    "cannedFlexibilityPre": 0,
+    "cannedFlexibilityPost": 2,
+    "cannedEasyOutPre": 0,
+    "cannedEasyOutPost": 0,
+    "pleasantryOpenPre": 0,
+    "pleasantryOpenPost": 0,
+    "repeatedSentencesPre": 10,
+    "repeatedSentencesPost": 11,
+    "blockedLanguage": 0,
+    "inputTokens": 76,
+    "outputTokens": 46208,
+    "cacheReadTokens": 190761,
+    "cacheWriteTokens": 148021,
+    "costUsdSubscription": 1.0925,
+    "draftMsMean": 13266.5,
+    "reviewMsMean": 9155.375,
+    "totalMsMean": 22427.938
+  },
+  "scenarios": [
+    {
+      "id": "801",
+      "profile": "sparse",
+      "boxes": [
+        "first.alum",
+        "first.recruiter"
+      ],
+      "summary": "Reach out for the first time · A campus recruiter · An alum of my school",
+      "leadType": "recruiter_outreach",
+      "ceiling": 200,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "alum box checked, but the shared school isn't mentioned"
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 93,
+          "sentences": 8,
+          "contractions": 2,
+          "contractionRate": 2.15,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [
+          "alum box checked, but the shared school isn't mentioned"
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 93,
+          "sentences": 8,
+          "contractions": 2,
+          "contractionRate": 2.15,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 0,
+        "needsStudent": 0,
+        "kinds": {}
+      },
+      "notesForStudent": [
+        "Your profile has no graduation month, so the email says \"graduating in 2029\" without one.",
+        "Today is October 12, 2026, so check Morrow & Pike's careers page first in case the sophomore program dates are already posted."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2404,
+        "cacheReadTokens": 13630,
+        "cacheWriteTokens": 2753,
+        "costUsd": 0.037786
+      },
+      "timings": {
+        "draftMs": 10194,
+        "lintMs": 1,
+        "reviewMs": 9050,
+        "reviewRetryMs": null,
+        "totalMs": 19250
+      },
+      "preReviewSubject": "Duke ’29: Questions About Morrow & Pike's Sophomore Program",
+      "preReviewBody": "Hi Olivia,\n\nMy name is Maya Okafor, and I'm a sophomore studying Economics at Duke University, your alma mater, graduating in 2029. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. At Duke, I'm a consumer sector analyst in the Duke Investment Club.\n\nI have two questions about Morrow & Pike's sophomore program. First, when does the application open? Second, does the program feed into the summer analyst class?\n\nMy resume is attached. Thank you very much for your time!\n\nBest,",
+      "subject": "Duke ’29: Questions About Morrow & Pike's Sophomore Program",
+      "body": "Hi Olivia,\n\nMy name is Maya Okafor, and I'm a sophomore studying Economics at Duke University, your alma mater, graduating in 2029. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. At Duke, I'm a consumer sector analyst in the Duke Investment Club.\n\nI have two questions about Morrow & Pike's sophomore program. First, when does the application open? Second, does the program feed into the summer analyst class?\n\nMy resume is attached. Thank you very much for your time!\n\nBest,"
+    },
+    {
+      "id": "802",
+      "profile": "sparse",
+      "boxes": [
+        "first.not_alum",
+        "first.recruiter"
+      ],
+      "summary": "Reach out for the first time · A campus recruiter · Not an alum",
+      "leadType": "recruiter_outreach",
+      "ceiling": 180,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 108,
+          "sentences": 9,
+          "contractions": 1,
+          "contractionRate": 0.93,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 109,
+          "sentences": 9,
+          "contractions": 0,
+          "contractionRate": 0,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 2,
+        "needsStudent": 0,
+        "kinds": {
+          "grammar": 1,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "The email says you found Olivia on LinkedIn, since no meeting was described.",
+        "I wrote 'last summer' for your Pinecrest internship, which your resume dates Jun to Aug 2026. Change it if you'd rather name the months."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 1734,
+        "cacheReadTokens": 12266,
+        "cacheWriteTokens": 2801,
+        "costUsd": 0.031005200000000004
+      },
+      "timings": {
+        "draftMs": 6333,
+        "lintMs": 0,
+        "reviewMs": 7422,
+        "reviewRetryMs": null,
+        "totalMs": 13758
+      },
+      "preReviewSubject": "Sophomore Program Questions for Morrow & Pike",
+      "preReviewBody": "Hi Olivia,\n\nI found your profile on LinkedIn while looking into recruiting at Morrow & Pike. My name is Maya Okafor, and I am a sophomore at Duke University studying economics, graduating in 2029.\n\nLast summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. At Duke, I'm a consumer sector analyst in the Duke Investment Club.\n\nI had two questions about the sophomore program. First, when does the application open? Second, does the program feed into the summer analyst class, or are the two processes separate?\n\nMy resume is attached. Thank you very much for your time!\n\nBest,",
+      "subject": "Sophomore Program Questions for Morrow & Pike",
+      "body": "Hi Olivia,\n\nI found your profile on LinkedIn while looking into recruiting at Morrow & Pike. My name is Maya Okafor, and I am a sophomore at Duke University studying economics, graduating in 2029.\n\nLast summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. At Duke, I am a consumer sector analyst in the Duke Investment Club.\n\nI have two questions about the sophomore program. First, when does the application open? Second, does the program feed into the summer analyst class, or are the two processes separate?\n\nMy resume is attached. Thank you very much for your time!\n\nBest,"
+    },
+    {
+      "id": "803",
+      "profile": "sparse",
+      "boxes": [
+        "first.alum",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · An alum of my school",
+      "leadType": "cold_referral",
+      "ceiling": 200,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "alum box checked, but the shared school isn't mentioned"
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 123,
+          "sentences": 8,
+          "contractions": 5,
+          "contractionRate": 4.07,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "my resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 121,
+          "sentences": 8,
+          "contractions": 5,
+          "contractionRate": 4.13,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "my resume is attached",
+            "flexibilityLine": "Any time that suits you works for me",
+            "easyOutLine": null
+          },
+          "cannedCount": 2,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 4,
+        "needsStudent": 0,
+        "kinds": {
+          "flow": 2,
+          "invented": 1,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "You didn't say how you know Emily, so the email only says she suggested you reach out. Add that after her name if you'd like.",
+        "Your notes didn't say Emily's internship was at Morrow & Pike, so the email doesn't say that either."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 6,
+        "outputTokens": 4299,
+        "cacheReadTokens": 27098,
+        "cacheWriteTokens": 5014,
+        "costUsd": 0.0684776
+      },
+      "timings": {
+        "draftMs": 24608,
+        "lintMs": 1,
+        "reviewMs": 10404,
+        "reviewRetryMs": null,
+        "totalMs": 35014
+      },
+      "preReviewSubject": "Referred by Emily Tran",
+      "preReviewBody": "Hi Rachel,\n\nEmily Tran, who interned on the consumer team last summer, suggested I reach out to you.\n\nMy name is Maya Okafor, and I'm a sophomore studying economics at Duke, where you studied as well. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. At school, I'm a consumer sector analyst in the Duke Investment Club.\n\nI'm recruiting and would love to hear about your path, Morrow & Pike, and what your work looks like day to day. Would you have 10-15 minutes for a call? I'll take whatever slot opens up on your end, and my resume is attached in case it's useful.\n\nThank you for your time!\n\nBest,",
+      "subject": "Referred by Emily Tran",
+      "body": "Hi Rachel,\n\nEmily Tran, who interned on the consumer team last summer, suggested I reach out to you.\n\nMy name is Maya Okafor, and I'm a sophomore studying economics at Duke, where you're a fellow Duke alum. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. At school, I'm a consumer sector analyst in the Duke Investment Club.\n\nI'd love to hear about your path to Morrow & Pike and what your work looks like day to day. Would you have 10-15 minutes for a call? Any time that suits you works for me, and my resume is attached in case it's useful.\n\nThank you for your time!\n\nBest,"
+    },
+    {
+      "id": "804",
+      "profile": "sparse",
+      "boxes": [
+        "first.recruiter",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · A campus recruiter",
+      "leadType": "cold_referral",
+      "ceiling": 165,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 109,
+          "sentences": 9,
+          "contractions": 0,
+          "contractionRate": 0,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 114,
+          "sentences": 9,
+          "contractions": 2,
+          "contractionRate": 1.75,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 1,
+        "needsStudent": 0,
+        "kinds": {
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "Today's date was given as both Sept 20 and Oct 12, 2026. It doesn't change the email, but check that you're still within a few days of getting Emily's referral.",
+        "I wrote that Emily interned on the consumer team at Morrow & Pike, assuming her internship was at this firm. Correct it if it wasn't."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 1907,
+        "cacheReadTokens": 5754,
+        "cacheWriteTokens": 12184,
+        "costUsd": 0.0689648
+      },
+      "timings": {
+        "draftMs": 7163,
+        "lintMs": 11,
+        "reviewMs": 8109,
+        "reviewRetryMs": null,
+        "totalMs": 15294
+      },
+      "preReviewSubject": "Referred by Emily Tran",
+      "preReviewBody": "Hi Olivia,\n\nEmily Tran, who interned on the consumer team at Morrow & Pike last summer, suggested I write to you.\n\nMy name is Maya Okafor, and I am a sophomore at Duke University studying economics, graduating in 2029. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. At Duke, I am a consumer sector analyst in the Duke Investment Club.\n\nI have two questions about the firm's programs. First, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?\n\nMy resume is attached. Thank you for your time!\n\nBest,",
+      "subject": "Referred by Emily Tran",
+      "body": "Hi Olivia,\n\nEmily Tran, who interned on the consumer team at Morrow & Pike last summer, suggested I write to you.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke University studying economics, graduating in 2029. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. At Duke, I'm a consumer sector analyst in the Duke Investment Club.\n\nI have two questions about the firm's programs. First, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?\n\nMy resume is attached, with more detail on the Pinecrest model. Thank you for your time!\n\nBest,"
+    },
+    {
+      "id": "805",
+      "profile": "sparse",
+      "boxes": [
+        "first.alum",
+        "first.met"
+      ],
+      "summary": "Reach out for the first time · We met in person · An alum of my school",
+      "leadType": "cold_after_meeting",
+      "ceiling": 200,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 157,
+          "sentences": 9,
+          "contractions": 5,
+          "contractionRate": 3.18,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "my resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 150,
+          "sentences": 8,
+          "contractions": 4,
+          "contractionRate": 2.67,
+          "longestIRun": 2,
+          "canned": {
+            "resumeLine": "my resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 4,
+        "needsStudent": 0,
+        "kinds": {
+          "flow": 1,
+          "grammar": 1,
+          "tone": 2
+        }
+      },
+      "notesForStudent": [
+        "The event date wasn't given, so the email doesn't name a day. Add one if you remember it.",
+        "Today's date is October 12, so check that it's still within a few days of the summit. Cold emails like this work best when sent soon after the event."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 6,
+        "outputTokens": 3915,
+        "cacheReadTokens": 17106,
+        "cacheWriteTokens": 13130,
+        "costUsd": 0.0951032
+      },
+      "timings": {
+        "draftMs": 17484,
+        "lintMs": 0,
+        "reviewMs": 10822,
+        "reviewRetryMs": null,
+        "totalMs": 28309
+      },
+      "preReviewSubject": "Great Meeting You at the SEO Career Summit in NYC",
+      "preReviewBody": "Hi Rachel,\n\nThank you for talking with me at the SEO Career Summit in NYC. Hearing about the grocery chain turnaround you worked on was the part of the conversation I most wanted to follow up on.\n\nI'm Maya Okafor, an economics sophomore at Duke, where you studied as an alum. This summer I interned at Pinecrest Wealth Partners and built a screening model for 40 dividend stocks that was used in client portfolio reviews. On campus I'm a consumer sector analyst in the Duke Investment Club, so a turnaround in a grocery business sits right in the sector I cover.\n\nWould you have 10-15 minutes for a call to continue the conversation? I'd love to hear how you came to Morrow & Pike and what your work there looks like. Any time that suits you is fine with me, and my resume is attached if it's useful to see what I've worked on.\n\nThank you for your time!\n\nBest,",
+      "subject": "Great Meeting You at the SEO Career Summit in NYC",
+      "body": "Hi Rachel,\n\nThe grocery chain turnaround you worked on was the part of our conversation at the SEO Career Summit in NYC that I most wanted to follow up on. Thank you for talking with me there.\n\nI'm Maya Okafor, an economics sophomore at Duke, and you're a fellow Duke alum. This summer I interned at Pinecrest Wealth Partners and built a screening model for 40 dividend stocks that was used in client portfolio reviews. On campus I'm a consumer sector analyst in the Duke Investment Club, so a turnaround in a grocery business sits right in the sector I cover.\n\nWould you have 10-15 minutes for a call to continue the conversation? I'd love to hear how you came to Morrow & Pike and what your work there looks like. I can fit a call around your calendar, and my resume is attached to show the Pinecrest model in more detail.\n\nBest,"
+    },
+    {
+      "id": "806",
+      "profile": "sparse",
+      "boxes": [
+        "first.met",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · We met in person",
+      "leadType": "cold_referral",
+      "ceiling": 180,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 127,
+          "sentences": 8,
+          "contractions": 3,
+          "contractionRate": 2.36,
+          "longestIRun": 2,
+          "canned": {
+            "resumeLine": "my resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 131,
+          "sentences": 9,
+          "contractions": 4,
+          "contractionRate": 3.05,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 4,
+        "needsStudent": 0,
+        "kinds": {
+          "flow": 1,
+          "invented": 1,
+          "structure": 1,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "The date of the summit wasn't given, so the email names the event without a day.",
+        "You didn't say how you know Emily beyond her interning on the consumer team and telling you to reach out, so the email says only that. Add more if you like.",
+        "The email says Emily interned on the consumer team without naming the firm, since your notes didn't say which one. Check that it reads correctly for Rachel."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 6,
+        "outputTokens": 4660,
+        "cacheReadTokens": 17146,
+        "cacheWriteTokens": 14344,
+        "costUsd": 0.1074172
+      },
+      "timings": {
+        "draftMs": 20931,
+        "lintMs": 0,
+        "reviewMs": 11910,
+        "reviewRetryMs": null,
+        "totalMs": 32845
+      },
+      "preReviewSubject": "Referred by Emily Tran, and Great to Meet You at the SEO Career Summit",
+      "preReviewBody": "Hi Rachel,\n\nEmily Tran, who interned on the consumer team last summer, suggested I reach out to you, and I was glad to meet you at the SEO Career Summit in New York before I had written. I enjoyed hearing about the grocery chain turnaround you worked on.\n\nI'm Maya Okafor, a sophomore at Duke studying economics. At Pinecrest Wealth Partners I built a screening model for 40 dividend stocks used in client portfolio reviews, and I'm a consumer sector analyst in the Duke Investment Club.\n\nI'm recruiting and would love to hear about your path, Morrow & Pike, and the work you do. Would you have 10-15 minutes for a call? Any window that suits you is fine, and my resume is attached.\n\nThank you for your time!\n\nBest,",
+      "subject": "Referred by Emily Tran, and Great to Meet You at the SEO Career Summit",
+      "body": "Hi Rachel,\n\nI enjoyed hearing about the grocery chain turnaround you worked on when we met at the SEO Career Summit in New York. Emily Tran, who interned on the consumer team last summer, suggested I reach out to you.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke studying economics. At Pinecrest Wealth Partners I built a screening model for 40 dividend stocks used in client portfolio reviews, and I'm a consumer sector analyst in the Duke Investment Club.\n\nI'd love to hear about your path and the work you do at Morrow & Pike. Would you have 10-15 minutes for a call? Tell me a time that suits you and I'll make it work. My resume is attached with the Pinecrest project on it.\n\nThank you for your time!\n\nBest,"
+    },
+    {
+      "id": "807",
+      "profile": "sparse",
+      "boxes": [
+        "first.alum",
+        "first.met",
+        "first.recruiter",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · We met in person · A campus recruiter · An alum of my school",
+      "leadType": "cold_referral",
+      "ceiling": 200,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "alum box checked, but the shared school isn't mentioned"
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 117,
+          "sentences": 8,
+          "contractions": 2,
+          "contractionRate": 1.71,
+          "longestIRun": 2,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 115,
+          "sentences": 10,
+          "contractions": 4,
+          "contractionRate": 3.48,
+          "longestIRun": 3,
+          "canned": {
+            "resumeLine": "I've attached my resume",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 5,
+        "needsStudent": 1,
+        "kinds": {
+          "flow": 3,
+          "mismatch": 1,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "Your notes said \"the grocery chain turnaround she worked on\" without saying who \"she\" is. I wrote it as Emily's work. If it was Olivia's, change that sentence.",
+        "The event date wasn't given, so I left it out.",
+        "Changed 'she' to 'you', assuming Olivia worked on the turnaround. 'She' could have read as Emily. Please confirm that's right."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 6,
+        "outputTokens": 5137,
+        "cacheReadTokens": 26171,
+        "cacheWriteTokens": 5215,
+        "costUsd": 0.0774762
+      },
+      "timings": {
+        "draftMs": 18665,
+        "lintMs": 1,
+        "reviewMs": 17838,
+        "reviewRetryMs": null,
+        "totalMs": 36507
+      },
+      "preReviewSubject": "Referred by Emily Tran",
+      "preReviewBody": "Hi Olivia,\n\nEmily Tran, who interned on the consumer team last summer, told me to reach out to you, and we then met at the SEO Career Summit in NYC, where we talked about the grocery chain turnaround she worked on.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke, where you studied as well, majoring in economics and graduating in 2029. I'm a consumer sector analyst in the Duke Investment Club, and at Pinecrest Wealth Partners I built a screening model for 40 dividend stocks.\n\nI have two questions about preparing. First, when does the sophomore program open? Second, does it feed into the summer analyst class?\n\nMy resume is attached. Thank you for your time!\n\nBest,",
+      "subject": "Referred by Emily Tran",
+      "body": "Hi Olivia,\n\nI enjoyed our conversation at the SEO Career Summit in NYC about the grocery chain turnaround you worked on. Emily Tran, who interned on the consumer team last summer, told me to reach out to you.\n\nMy name is Maya Okafor. I'm a sophomore economics major at Duke, graduating in 2029, and you're a fellow Duke alum. I'm a consumer sector analyst in the Duke Investment Club, and at Pinecrest Wealth Partners I built a screening model for 40 dividend stocks.\n\nI have two questions. First, when does the sophomore program open? Second, does it feed into the summer analyst class?\n\nI've attached my resume, which includes the Pinecrest model. Thank you for your time!\n\nBest,"
+    },
+    {
+      "id": "808",
+      "profile": "sparse",
+      "boxes": [
+        "first.conference",
+        "first.recruiter"
+      ],
+      "summary": "Reach out for the first time · We met at a conference · A campus recruiter",
+      "leadType": "conference_follow_up",
+      "ceiling": 170,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 122,
+          "sentences": 9,
+          "contractions": 3,
+          "contractionRate": 2.46,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 113,
+          "sentences": 9,
+          "contractions": 3,
+          "contractionRate": 2.65,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 1,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 1
+        }
+      },
+      "notesForStudent": [
+        "I left out the 10-minute call request, because with a campus recruiter the two questions are the whole ask.",
+        "I added no date for the conversation since none was given; add one if you'd like.",
+        "I wrote 'I enjoyed hearing how you think about it' as a light touch; delete it if it doesn't match how the conversation went."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2347,
+        "cacheReadTokens": 5754,
+        "cacheWriteTokens": 10239,
+        "costUsd": 0.0655848
+      },
+      "timings": {
+        "draftMs": 11353,
+        "lintMs": 7,
+        "reviewMs": 7069,
+        "reviewRetryMs": null,
+        "totalMs": 18446
+      },
+      "preReviewSubject": "Following Up from the SEO Career Summit in New York",
+      "preReviewBody": "Hi Olivia,\n\nIt was great to meet you at the SEO Career Summit in New York. We spoke at the Morrow & Pike table at lunch about the grocery turnaround, and I enjoyed hearing how you think about it.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke University studying Economics, graduating in 2029. This summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks, and at school I'm a consumer sector analyst in Duke Investment Club.\n\nI have two questions. First, when does the sophomore program open? Second, does it feed into the summer analyst class?\n\nMy resume is attached if you'd like more detail on the screening model. Thank you for your time!\n\nBest,",
+      "subject": "Following Up from the SEO Career Summit in New York",
+      "body": "Hi Olivia,\n\nIt was great to meet you at the SEO Career Summit in New York. We spoke at the Morrow & Pike table at lunch about the grocery turnaround.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke University studying Economics, graduating in 2029. This summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks, and at school I'm a consumer sector analyst in Duke Investment Club.\n\nI have two questions. First, when does the sophomore program open? Second, does it feed into the summer analyst class?\n\nMy resume is attached if you'd like more detail on the screening model. Thank you for your time!\n\nBest,"
+    },
+    {
+      "id": "809",
+      "profile": "sparse",
+      "boxes": [
+        "first.alum",
+        "first.pointed"
+      ],
+      "summary": "Reach out for the first time · Someone I emailed sent me to them · An alum of my school",
+      "leadType": "redirect_sequence",
+      "ceiling": 200,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "alum box checked, but the shared school isn't mentioned"
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 100,
+          "sentences": 7,
+          "contractions": 5,
+          "contractionRate": 5,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "I've attached my resume",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 88,
+          "sentences": 7,
+          "contractions": 3,
+          "contractionRate": 3.41,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": "any time that suits you works for me",
+            "easyOutLine": null
+          },
+          "cannedCount": 2,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 0,
+        "kinds": {
+          "flow": 1,
+          "tone": 2
+        }
+      },
+      "notesForStudent": [
+        "You didn't say what you originally asked Marcus about or why he pointed you to Rachel, so the email only says he pointed you to her. If you want to add the topic, put it in the second sentence.",
+        "Your email adds your signature, so the draft ends on \"Best,\"."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2376,
+        "cacheReadTokens": 5754,
+        "cacheWriteTokens": 9588,
+        "costUsd": 0.0632708
+      },
+      "timings": {
+        "draftMs": 11703,
+        "lintMs": 0,
+        "reviewMs": 7180,
+        "reviewRetryMs": null,
+        "totalMs": 18887
+      },
+      "preReviewSubject": "Marcus Delacroix Suggested I Write to You",
+      "preReviewBody": "Hi Rachel,\n\nMarcus Delacroix pointed me to you after I emailed him, and I'm grateful he did.\n\nI'm Maya Okafor, a sophomore at Duke studying economics, where I know you studied as well. This past summer I interned at Pinecrest Wealth Partners and built a screening model for 40 dividend stocks that was used in client portfolio reviews. On campus, I'm a consumer sector analyst in the Duke Investment Club.\n\nCould we find 10 minutes for a call? I've attached my resume so you can see my background, and I'm glad to fit whatever time suits you.\n\nThank you for considering it!\n\nBest,",
+      "subject": "Marcus Delacroix Suggested I Write to You",
+      "body": "Hi Rachel,\n\nMarcus Delacroix pointed me to you after I emailed him.\n\nI'm Maya Okafor, a sophomore studying economics at Duke, and you're a fellow Duke alum. This past summer I interned at Pinecrest Wealth Partners and built a screening model for 40 dividend stocks that was used in client portfolio reviews. On campus, I'm a consumer sector analyst in the Duke Investment Club.\n\nCould we find 10 minutes for a call? My resume is attached, and any time that suits you works for me.\n\nThank you for considering it!\n\nBest,"
+    },
+    {
+      "id": "813",
+      "profile": "sparse",
+      "boxes": [
+        "thanks.event",
+        "thanks.helped"
+      ],
+      "summary": "Say thank you · They offered to help · A talk a banker gave",
+      "leadType": "thank_you_offered_help",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 99,
+          "sentences": 7,
+          "contractions": 4,
+          "contractionRate": 4.04,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 99,
+          "sentences": 6,
+          "contractions": 3,
+          "contractionRate": 3.03,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 1,
+        "needsStudent": 0,
+        "kinds": {
+          "flow": 1
+        }
+      },
+      "notesForStudent": [
+        "You didn't give a day for the session, so the email names it without one.",
+        "If the session was more than a day or two ago, the email will read as late, so send it soon."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 8,
+        "outputTokens": 3239,
+        "cacheReadTokens": 25558,
+        "cacheWriteTokens": 12081,
+        "costUsd": 0.08584159999999999
+      },
+      "timings": {
+        "draftMs": 16851,
+        "lintMs": 1,
+        "reviewMs": 7714,
+        "reviewRetryMs": null,
+        "totalMs": 24568
+      },
+      "preReviewSubject": "Thank You for the Morrow & Pike Info Session",
+      "preReviewBody": "Hi Rachel,\n\nThank you for speaking at the Morrow & Pike info session at Fuqua. I'm a Duke sophomore studying economics, and your point that the best analysts write down every question they get wrong is the one I came away with. It's a useful standard for my work as a consumer sector analyst in the Duke Investment Club.\n\nThank you as well for offering to pass my resume along. It's attached so it's easy to forward. It includes the dividend stock screening model I built as a summer intern at Pinecrest Wealth Partners.\n\nI appreciate your time and the offer!\n\nBest,",
+      "subject": "Thank You for the Morrow & Pike Info Session",
+      "body": "Hi Rachel,\n\nThank you for speaking at the Morrow & Pike info session at Fuqua. I'm a Duke sophomore studying economics, and your point that the best analysts write down every question they get wrong is the one I came away with. It's a useful standard for my work as a consumer sector analyst in the Duke Investment Club.\n\nYou also offered to pass my resume along, so I've attached it to make it easy to forward. It includes the dividend stock screening model I built as a summer intern at Pinecrest Wealth Partners.\n\nI appreciate your time and the offer!\n\nBest,"
+    },
+    {
+      "id": "814",
+      "profile": "sparse",
+      "boxes": [
+        "thanks.helped",
+        "thanks.session"
+      ],
+      "summary": "Say thank you · They offered to help · A session a recruiter ran",
+      "leadType": "thank_you_offered_help",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 114,
+          "sentences": 8,
+          "contractions": 4,
+          "contractionRate": 3.51,
+          "longestIRun": 3,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 84,
+          "sentences": 6,
+          "contractions": 2,
+          "contractionRate": 2.38,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 6,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 2,
+          "flow": 3,
+          "structure": 1
+        }
+      },
+      "notesForStudent": [
+        "Today's date appears as both September 20 and October 12, 2026 in your message. I didn't mention when the session happened, so check that this thank-you is still timely.",
+        "Your email adds the signature, so the draft ends on \"Best,\"."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2127,
+        "cacheReadTokens": 5754,
+        "cacheWriteTokens": 9896,
+        "costUsd": 0.06201280000000001
+      },
+      "timings": {
+        "draftMs": 6439,
+        "lintMs": 0,
+        "reviewMs": 10271,
+        "reviewRetryMs": null,
+        "totalMs": 16712
+      },
+      "preReviewSubject": "Thank You for Running the Morrow & Pike Session",
+      "preReviewBody": "Hi Olivia,\n\nThank you for running the Morrow & Pike session at Fuqua. Organizing an evening like that takes real work, and it showed.\n\nI found your walkthrough of how applications move from the portal to a first round list the most useful part. It's the piece of the process that's hardest to see from the outside.\n\nThank you as well for offering to pass my resume along. I attached it so it's easy to forward. I'm a Duke sophomore studying economics, a consumer sector analyst in the Duke Investment Club, and I built a dividend stock screening model during my internship at Pinecrest Wealth Partners this summer.\n\nI appreciate you making the time for us!\n\nBest,",
+      "subject": "Thank You for Running the Morrow & Pike Session",
+      "body": "Hi Olivia,\n\nThank you for running the Morrow & Pike session at Fuqua. Your walkthrough of how applications move from the portal to a first round list was the part I found most useful.\n\nYou offered to pass my resume along, so I've attached it to make forwarding easy. I'm a Duke sophomore studying economics and a consumer sector analyst in the Duke Investment Club. This summer I built a dividend stock screening model during my internship at Pinecrest Wealth Partners.\n\nThanks again for your time.\n\nBest,"
+    },
+    {
+      "id": "815",
+      "profile": "sparse",
+      "boxes": [
+        "stay.congrats",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Share an update · Congratulate them",
+      "leadType": "keep_in_touch",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 94,
+          "sentences": 7,
+          "contractions": 3,
+          "contractionRate": 3.19,
+          "longestIRun": 2,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 79,
+          "sentences": 7,
+          "contractions": 3,
+          "contractionRate": 3.8,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 1,
+          "flow": 1,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "No advice from Rachel was mentioned, so I didn't tie your update to any. If she gave you specific advice, add a clause saying how you used it.",
+        "The email has no ask or call offer, as you wanted.",
+        "Her directory title says Vice President, but you said she was promoted to director, so I wrote it that way. Check her LinkedIn for the exact title.",
+        "I wrote 'on my mind' about the conversation to connect it to your consumer analyst role. Change it if that isn't accurate."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2422,
+        "cacheReadTokens": 5754,
+        "cacheWriteTokens": 10687,
+        "costUsd": 0.0681268
+      },
+      "timings": {
+        "draftMs": 11460,
+        "lintMs": 0,
+        "reviewMs": 7954,
+        "reviewRetryMs": null,
+        "totalMs": 19417
+      },
+      "preReviewSubject": "Congratulations, and a Quick Update",
+      "preReviewBody": "Hi Rachel,\n\nWe spoke back in March about consumer coverage, and I'd like to share a short update from my side.\n\nThis summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews. I'm also a consumer sector analyst in the Duke Investment Club, so our conversation has been on my mind as I look at those names.\n\nI saw on LinkedIn that you were promoted to director. Congratulations! It's wonderful news.\n\nThank you again for the time you gave me in March.\n\nBest,",
+      "subject": "Congratulations, and a Quick Update",
+      "body": "Hi Rachel,\n\nI saw on LinkedIn that you were promoted to director. Congratulations! It's wonderful news.\n\nWe spoke back in March about consumer coverage, and I'd like to share a short update from my side. This summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews. I'm also a consumer sector analyst in the Duke Investment Club.\n\nThank you for the time you gave me in March.\n\nBest,"
+    },
+    {
+      "id": "816",
+      "profile": "sparse",
+      "boxes": [
+        "stay.referrer",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Thank the person who introduced me · Share an update",
+      "leadType": "close_loop_referrer",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "a statement and a thank-you joined with \", and\"; make the thanks its own sentence: \", and thank you\""
+        ],
+        "lintForReview": [
+          "a statement and a thank-you joined with \", and\"; make the thanks its own sentence: \", and thank you\""
+        ],
+        "lintForStudent": [],
+        "voice": {
+          "words": 73,
+          "sentences": 4,
+          "contractions": 1,
+          "contractionRate": 1.37,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 60,
+          "sentences": 5,
+          "contractions": 1,
+          "contractionRate": 1.67,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 2,
+        "needsStudent": 0,
+        "kinds": {
+          "grammar": 1,
+          "flow": 1
+        }
+      },
+      "notesForStudent": [
+        "No next step was given, so the email only says you'll keep Rachel posted. Add one if you have a plan.",
+        "The date of the call wasn't given, so the email says it just finished. Edit if that's not accurate."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2250,
+        "cacheReadTokens": 5754,
+        "cacheWriteTokens": 10242,
+        "costUsd": 0.0646268
+      },
+      "timings": {
+        "draftMs": 11783,
+        "lintMs": 1,
+        "reviewMs": 7594,
+        "reviewRetryMs": null,
+        "totalMs": 19380
+      },
+      "preReviewSubject": "Thank You for Introducing Me to Ben",
+      "preReviewBody": "Hi Rachel,\n\nBen Ortega and I just finished our call, and thank you for introducing us after we talked about consumer coverage in March.\n\nHe explained how the consumer team staffs deals, and it was a useful look at how that work gets organized.\n\nSince we last spoke, I spent the summer at Pinecrest Wealth Partners, where I built a dividend screen covering 40 stocks.\n\nI'd enjoy keeping you posted as the year goes on.\n\nBest,",
+      "subject": "Thank You for Introducing Me to Ben",
+      "body": "Hi Rachel,\n\nBen Ortega and I just finished our call. Thank you for introducing us after we talked about consumer coverage in March.\n\nHe explained how the consumer team staffs deals.\n\nSince we last spoke, I spent the summer at Pinecrest Wealth Partners, where I built a dividend screen covering 40 stocks.\n\nI'd enjoy keeping you posted as the year goes on.\n\nBest,"
+    },
+    {
+      "id": "817",
+      "profile": "sparse",
+      "boxes": [
+        "stay.congrats",
+        "stay.referrer"
+      ],
+      "summary": "Stay in touch · Thank the person who introduced me · Congratulate them",
+      "leadType": "close_loop_referrer",
+      "ceiling": 110,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "answer may be missing (0%): introducedTo = \"ben ortega\"",
+          "a statement and a thank-you joined with \", and\"; make the thanks its own sentence: \", and thank you\""
+        ],
+        "lintForReview": [
+          "a statement and a thank-you joined with \", and\"; make the thanks its own sentence: \", and thank you\""
+        ],
+        "lintForStudent": [],
+        "voice": {
+          "words": 77,
+          "sentences": 5,
+          "contractions": 1,
+          "contractionRate": 1.3,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [
+          "answer may be missing (0%): introducedTo = \"ben ortega\""
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 75,
+          "sentences": 6,
+          "contractions": 2,
+          "contractionRate": 2.67,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 0,
+        "kinds": {
+          "flow": 3
+        }
+      },
+      "notesForStudent": [
+        "The congratulations is kept simple because no reason for the promotion was given.",
+        "The subject line is a suggestion; the original request gave none."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2473,
+        "cacheReadTokens": 5754,
+        "cacheWriteTokens": 9875,
+        "costUsd": 0.0653888
+      },
+      "timings": {
+        "draftMs": 11228,
+        "lintMs": 1,
+        "reviewMs": 8095,
+        "reviewRetryMs": null,
+        "totalMs": 19326
+      },
+      "preReviewSubject": "Thank You, and Congratulations",
+      "preReviewBody": "Hi Rachel,\n\nBen and I just spoke, and thank you for introducing us. He explained how the consumer team staffs deals, which was a useful view for me as a consumer sector analyst in Duke Investment Club, and a nice complement to the dividend stock screening model I built at Pinecrest Wealth Partners this summer.\n\nI also saw on LinkedIn that you were promoted to director. Congratulations!\n\nI'd like to stay in touch, and nothing is needed from you.\n\nBest,",
+      "subject": "Thank You, and Congratulations",
+      "body": "Hi Rachel,\n\nThank you for introducing me to Ben. We just had our call, and he explained how the consumer team staffs deals. That was useful to hear as a consumer sector analyst in Duke Investment Club, and it complements the dividend stock screening model I built at Pinecrest Wealth Partners this summer.\n\nI saw on LinkedIn that you were promoted to director. Congratulations!\n\nI'd like to stay in touch, and there's nothing I need from you.\n\nBest,"
+    },
+    {
+      "id": "818",
+      "profile": "sparse",
+      "boxes": [
+        "stay.congrats",
+        "stay.referrer",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Thank the person who introduced me · Share an update · Congratulate them",
+      "leadType": "close_loop_referrer",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "a statement and a thank-you joined with \", and\"; make the thanks its own sentence: \", and thank you\""
+        ],
+        "lintForReview": [
+          "a statement and a thank-you joined with \", and\"; make the thanks its own sentence: \", and thank you\""
+        ],
+        "lintForStudent": [],
+        "voice": {
+          "words": 75,
+          "sentences": 5,
+          "contractions": 2,
+          "contractionRate": 2.67,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 76,
+          "sentences": 6,
+          "contractions": 2,
+          "contractionRate": 2.63,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 1,
+        "needsStudent": 0,
+        "kinds": {
+          "flow": 1
+        }
+      },
+      "notesForStudent": [
+        "Your notes didn't say what happens next for you, so the email only says you'll keep Rachel posted. Add a specific next step if you have one.",
+        "Today is October 12 but you said Rachel was last spoken to in March, so the email treats that as past. Check the call with Ben was recent enough to say 'just spoke'."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2125,
+        "cacheReadTokens": 5754,
+        "cacheWriteTokens": 10835,
+        "costUsd": 0.0657488
+      },
+      "timings": {
+        "draftMs": 12171,
+        "lintMs": 1,
+        "reviewMs": 5829,
+        "reviewRetryMs": null,
+        "totalMs": 18007
+      },
+      "preReviewSubject": "Thank You, and Congratulations",
+      "preReviewBody": "Hi Rachel,\n\nBen Ortega and I just spoke, and thank you for introducing us after our conversation about consumer coverage in March. He explained how the consumer team staffs deals, which was a useful window into the work for me as a consumer sector analyst in the Duke Investment Club.\n\nI also saw on LinkedIn that you've been promoted to director. Congratulations!\n\nI'll keep you posted on how things go, and I hope we stay in touch.\n\nBest,",
+      "subject": "Thank You, and Congratulations",
+      "body": "Hi Rachel,\n\nBen Ortega and I just had our call. Thank you for introducing us after our conversation about consumer coverage in March. He explained how the consumer team staffs deals, which was a useful window into the work for me as a consumer sector analyst in the Duke Investment Club.\n\nI also saw on LinkedIn that you've been promoted to director. Congratulations!\n\nI'll keep you posted on how things go, and I hope we stay in touch.\n\nBest,"
+    },
+    {
+      "id": "819",
+      "profile": "sparse",
+      "boxes": [
+        "stay.redirected",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Thank the person who sent me elsewhere · Share an update",
+      "leadType": "redirect_sequence",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "placeholder: [one thing you learned from Ben]"
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 82,
+          "sentences": 6,
+          "contractions": 2,
+          "contractionRate": 2.44,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [
+          "placeholder: [one thing you learned from Ben]"
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 79,
+          "sentences": 6,
+          "contractions": 2,
+          "contractionRate": 2.53,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 1,
+        "kinds": {
+          "flow": 2,
+          "other": 1
+        }
+      },
+      "notesForStudent": [
+        "You didn't say what came out of the conversation with Ben, so fill in the highlighted line with one specific thing you learned.",
+        "Your note says you spoke with Ben in March, so the email says that without a more exact date.",
+        "Placeholder left as is. Fill it in before sending."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2793,
+        "cacheReadTokens": 5754,
+        "cacheWriteTokens": 9137,
+        "costUsd": 0.0656368
+      },
+      "timings": {
+        "draftMs": 13898,
+        "lintMs": 0,
+        "reviewMs": 9225,
+        "reviewRetryMs": null,
+        "totalMs": 23127
+      },
+      "preReviewSubject": "Thank you for pointing me to Ben Ortega",
+      "preReviewBody": "Hi Rachel,\n\nI spoke with Ben Ortega in March about consumer coverage, and I'm grateful you pointed me to him. Choosing the right person for my questions was the real favor.\n\nThe most useful part was [one thing you learned from Ben].\n\nSince then, I spent the summer as an intern at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews.\n\nI'd enjoy sharing how things go from here. Thank you again for the redirect!\n\nBest,",
+      "subject": "Thank you for pointing me to Ben Ortega",
+      "body": "Hi Rachel,\n\nI spoke with Ben Ortega in March about consumer coverage, and I'm grateful you pointed me to him. Choosing the right person for my questions was the real favor.\n\nThe most useful part was [one thing you learned from Ben].\n\nThis summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews.\n\nI'd enjoy sharing how things go from here. Thank you again for pointing me to Ben!\n\nBest,"
+    }
+  ]
+}

@@ -1,0 +1,817 @@
+{
+  "meta": {
+    "script": "scripts/draft-cli-eval.ts",
+    "ranAt": "2026-10-13T16:18:44.895Z",
+    "transport": "claude CLI (subscription)",
+    "model": "claude-sonnet-5-5",
+    "review": true,
+    "seed": "offerly",
+    "scenarios": 99,
+    "filter": "stay.update",
+    "profile": "sparse",
+    "caveat": "quality only; durations are CLI durations, not production latency; studentResumeSummary path only"
+  },
+  "aggregate": {
+    "scenarios": 8,
+    "drafted": 8,
+    "errored": 0,
+    "issuesPre": 4,
+    "issuesPost": 0,
+    "issuesPreMean": 0.5,
+    "issuesPostMean": 0,
+    "lintForReviewPre": 4,
+    "lintForReviewPost": 0,
+    "lintForStudentPost": 0,
+    "lintCleanPre": 4,
+    "lintCleanPost": 8,
+    "reviewRan": 8,
+    "reviewApplied": 8,
+    "reviewRejected": 0,
+    "reviewErrored": 0,
+    "reviewRetried": 0,
+    "reviewRetrySkippedForTime": 0,
+    "guardAcceptRate": 1,
+    "problems": 26,
+    "problemsMean": 3.25,
+    "problemsNeedsStudent": 0,
+    "wordsPreMean": 94.5,
+    "wordsPostMean": 82.25,
+    "overCeilingPre": 0,
+    "overCeilingPost": 0,
+    "overCeilingWordsPost": 0,
+    "contractionsPreMean": 2.125,
+    "contractionsPostMean": 2,
+    "contractionRatePreMean": 2.197,
+    "contractionRatePostMean": 2.356,
+    "zeroContractionPre": 0,
+    "zeroContractionPost": 0,
+    "longestIRunPreMean": 1.125,
+    "longestIRunPostMean": 1,
+    "threeIStartsPre": 0,
+    "threeIStartsPost": 0,
+    "cannedLinesPre": 1,
+    "cannedLinesPost": 1,
+    "cannedResumePre": 0,
+    "cannedResumePost": 0,
+    "cannedFlexibilityPre": 0,
+    "cannedFlexibilityPost": 0,
+    "cannedEasyOutPre": 1,
+    "cannedEasyOutPost": 1,
+    "pleasantryOpenPre": 0,
+    "pleasantryOpenPost": 0,
+    "repeatedSentencesPre": 3,
+    "repeatedSentencesPost": 4,
+    "blockedLanguage": 0,
+    "inputTokens": 32,
+    "outputTokens": 20496,
+    "cacheReadTokens": 54361,
+    "cacheWriteTokens": 74216,
+    "costUsdSubscription": 0.5128,
+    "draftMsMean": 12077.625,
+    "reviewMsMean": 9492.75,
+    "totalMsMean": 21577.875
+  },
+  "scenarios": [
+    {
+      "id": "815",
+      "profile": "sparse",
+      "boxes": [
+        "stay.congrats",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Share an update · Congratulate them",
+      "leadType": "keep_in_touch",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 108,
+          "sentences": 7,
+          "contractions": 2,
+          "contractionRate": 1.85,
+          "longestIRun": 2,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": "I completely understand if"
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 95,
+          "sentences": 6,
+          "contractions": 2,
+          "contractionRate": 2.11,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": "I understand if"
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 5,
+        "needsStudent": 0,
+        "kinds": {
+          "flow": 2,
+          "invented": 2,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "You didn't mention any advice Rachel gave you, so the email doesn't tie your update to any. If she suggested something you acted on, add a sentence about it.",
+        "No reason was given for the congratulations, so it stays simple.",
+        "Your resume isn't mentioned, since this email doesn't call for it."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2845,
+        "cacheReadTokens": 5827,
+        "cacheWriteTokens": 10838,
+        "costUsd": 0.0729754
+      },
+      "timings": {
+        "draftMs": 13076,
+        "lintMs": 0,
+        "reviewMs": 10011,
+        "reviewRetryMs": null,
+        "totalMs": 23091
+      },
+      "preReviewSubject": "Congratulations, and a Quick Update",
+      "preReviewBody": "Hi Rachel,\n\nWe spoke in March about consumer coverage at Morrow & Pike, and I have a short update to share.\n\nThis summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews. I'm also a consumer sector analyst in the Duke Investment Club, so the coverage we talked about is still on my mind.\n\nI saw on LinkedIn that you were promoted to director. Congratulations!\n\nIf you ever have 10 minutes to catch up, I'd enjoy it, and I completely understand if things are busy. Thank you again for the time you gave me in March.\n\nBest,",
+      "subject": "Congratulations, and a Quick Update",
+      "body": "Hi Rachel,\n\nCongratulations on your promotion to director, which I saw on LinkedIn. We spoke in March about consumer coverage, and I have a short update to share.\n\nThis summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews. I'm also a consumer sector analyst in the Duke Investment Club, the area we talked about.\n\nIf you ever have time to catch up, I'd enjoy it, and I understand if things are busy. Thank you for the time you gave me in March.\n\nBest,"
+    },
+    {
+      "id": "816",
+      "profile": "sparse",
+      "boxes": [
+        "stay.referrer",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Thank the person who introduced me · Share an update",
+      "leadType": "close_loop_referrer",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "a statement and a thank-you joined with \", and\"; make the thanks its own sentence: \", and thank you\""
+        ],
+        "lintForReview": [
+          "a statement and a thank-you joined with \", and\"; make the thanks its own sentence: \", and thank you\""
+        ],
+        "lintForStudent": [],
+        "voice": {
+          "words": 85,
+          "sentences": 5,
+          "contractions": 1,
+          "contractionRate": 1.18,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 60,
+          "sentences": 5,
+          "contractions": 1,
+          "contractionRate": 1.67,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 4,
+        "needsStudent": 0,
+        "kinds": {
+          "flow": 1,
+          "invented": 1,
+          "tone": 1,
+          "grammar": 1
+        }
+      },
+      "notesForStudent": [
+        "You didn't say what you're doing next, so the email only says you'll keep Rachel posted. Add a concrete next step if you have one.",
+        "I left out any link between the dividend screen and the consumer sector in a way that goes beyond what you told me; check that the line about putting your consumer interest to work sounds true to you, or cut it."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2461,
+        "cacheReadTokens": 5827,
+        "cacheWriteTokens": 10312,
+        "costUsd": 0.06703139999999999
+      },
+      "timings": {
+        "draftMs": 12025,
+        "lintMs": 5,
+        "reviewMs": 8862,
+        "reviewRetryMs": null,
+        "totalMs": 20908
+      },
+      "preReviewSubject": "Thank You for the Introduction",
+      "preReviewBody": "Hi Rachel,\n\nBen Ortega and I just spoke, and thank you for putting us in touch.\n\nHe explained how the consumer team staffs deals, which gave me a much clearer picture of the consumer coverage we talked about in March.\n\nSince then, I spent the summer at Pinecrest Wealth Partners building a dividend screen, and it was a great way to put my interest in the consumer sector to work.\n\nI'll keep you posted on how things go. It meant a lot that you made the introduction!\n\nBest,",
+      "subject": "Thank You for the Introduction",
+      "body": "Hi Rachel,\n\nBen Ortega and I just spoke. Thank you for putting us in touch.\n\nHe explained how the consumer team staffs deals, which gave me a much clearer picture of the consumer coverage we talked about in March.\n\nSince then, I interned at Pinecrest Wealth Partners for the summer, building a dividend screen. I'll keep you posted on how things go.\n\nBest,"
+    },
+    {
+      "id": "818",
+      "profile": "sparse",
+      "boxes": [
+        "stay.congrats",
+        "stay.referrer",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Thank the person who introduced me · Share an update · Congratulate them",
+      "leadType": "close_loop_referrer",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "a statement and a thank-you joined with \", and\"; make the thanks its own sentence: \", and thank you\""
+        ],
+        "lintForReview": [
+          "a statement and a thank-you joined with \", and\"; make the thanks its own sentence: \", and thank you\""
+        ],
+        "lintForStudent": [],
+        "voice": {
+          "words": 101,
+          "sentences": 8,
+          "contractions": 3,
+          "contractionRate": 2.97,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 98,
+          "sentences": 9,
+          "contractions": 2,
+          "contractionRate": 2.04,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 0,
+        "kinds": {
+          "grammar": 1,
+          "invented": 1,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "I added that you still think about the March conversation; delete that sentence if it isn't true.",
+        "Your signature is added by your email, so the draft ends on \"Best,\"."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2535,
+        "cacheReadTokens": 5827,
+        "cacheWriteTokens": 10920,
+        "costUsd": 0.0702034
+      },
+      "timings": {
+        "draftMs": 11637,
+        "lintMs": 0,
+        "reviewMs": 8879,
+        "reviewRetryMs": null,
+        "totalMs": 20521
+      },
+      "preReviewSubject": "Thank You, and Congratulations",
+      "preReviewBody": "Hi Rachel,\n\nBen Ortega and I just spoke, and thank you for introducing us. He explained how the consumer team staffs deals, which was a helpful view for me as a consumer sector analyst in Duke Investment Club.\n\nOn my end, I spent the summer as an intern at Pinecrest Wealth Partners, building a screening model for 40 dividend stocks.\n\nI also saw on LinkedIn that you've been promoted to director. Congratulations! Our conversation about consumer coverage in March is one I still think about.\n\nNothing needed from you. I'm grateful for the introduction, and I'll keep you posted on how things go.\n\nBest,",
+      "subject": "Thank You, and Congratulations",
+      "body": "Hi Rachel,\n\nBen Ortega and I just had our call. Thank you for introducing us. He explained how the consumer team staffs deals, which gave me a helpful view as a consumer sector analyst in Duke Investment Club.\n\nOn my end, I spent the summer as an intern at Pinecrest Wealth Partners, building a screening model for 40 dividend stocks.\n\nI also saw on LinkedIn that you've been promoted to director. Congratulations! We last spoke in March about consumer coverage, and it was good to see your news.\n\nNothing needed from you. I'll keep you posted on how things go.\n\nBest,"
+    },
+    {
+      "id": "819",
+      "profile": "sparse",
+      "boxes": [
+        "stay.redirected",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Thank the person who sent me elsewhere · Share an update",
+      "leadType": "redirect_sequence",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "a statement and a thank-you joined with \", and\"; make the thanks its own sentence: \", and thank you\""
+        ],
+        "lintForReview": [
+          "a statement and a thank-you joined with \", and\"; make the thanks its own sentence: \", and thank you\""
+        ],
+        "lintForStudent": [],
+        "voice": {
+          "words": 69,
+          "sentences": 4,
+          "contractions": 1,
+          "contractionRate": 1.45,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 58,
+          "sentences": 4,
+          "contractions": 1,
+          "contractionRate": 1.72,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 0,
+        "kinds": {
+          "flow": 2,
+          "grammar": 1
+        }
+      },
+      "notesForStudent": [
+        "Nothing was given about what specifically came out of the talk with Ben, so the email just says it was worth having. Add one detail if you'd like.",
+        "Your email adds the signature, so the draft ends on \"Best,\"."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2234,
+        "cacheReadTokens": 5827,
+        "cacheWriteTokens": 9318,
+        "costUsd": 0.0607854
+      },
+      "timings": {
+        "draftMs": 11782,
+        "lintMs": 8,
+        "reviewMs": 8168,
+        "reviewRetryMs": null,
+        "totalMs": 19966
+      },
+      "preReviewSubject": "Following Up on Ben Ortega",
+      "preReviewBody": "Hi Rachel,\n\nI spoke with Ben Ortega in March about consumer coverage, and thank you for sending me his way. The conversation was well worth having.\n\nSince then, I spent the summer at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews.\n\nI appreciate you thinking of Ben, and I'd be glad to keep you posted on how things go.\n\nBest,",
+      "subject": "Following Up on Ben Ortega",
+      "body": "Hi Rachel,\n\nThank you for sending me to Ben Ortega. We spoke in March about consumer coverage, and the conversation was well worth having.\n\nThis summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews.\n\nI'd be glad to keep you posted on how things go.\n\nBest,"
+    },
+    {
+      "id": "821",
+      "profile": "sparse",
+      "boxes": [
+        "stay.congrats",
+        "stay.redirected",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Thank the person who sent me elsewhere · Share an update · Congratulate them",
+      "leadType": "redirect_sequence",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "a statement and a thank-you joined with \", and\"; make the thanks its own sentence: \", and thank you\""
+        ],
+        "lintForReview": [
+          "a statement and a thank-you joined with \", and\"; make the thanks its own sentence: \", and thank you\""
+        ],
+        "lintForStudent": [],
+        "voice": {
+          "words": 92,
+          "sentences": 7,
+          "contractions": 1,
+          "contractionRate": 1.09,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 73,
+          "sentences": 7,
+          "contractions": 1,
+          "contractionRate": 1.37,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 4,
+        "needsStudent": 0,
+        "kinds": {
+          "flow": 2,
+          "grammar": 1,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "You didn't say what came out of the conversation with Ben, so the email only says it was worth having. If one specific thing stood out, add a sentence about it.",
+        "The email doesn't say when the summer was or when you saw the LinkedIn news beyond what you typed."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2413,
+        "cacheReadTokens": 5827,
+        "cacheWriteTokens": 10090,
+        "costUsd": 0.0656634
+      },
+      "timings": {
+        "draftMs": 10187,
+        "lintMs": 0,
+        "reviewMs": 8739,
+        "reviewRetryMs": null,
+        "totalMs": 18930
+      },
+      "preReviewSubject": "Thank You, and Congratulations",
+      "preReviewBody": "Hi Rachel,\n\nBen Ortega and I spoke in March about consumer coverage, and thank you for pointing me to him. It was a conversation worth having, and I'm grateful you took the time to think about who I should talk to.\n\nSince then, I spent the summer at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews.\n\nI also saw on LinkedIn that you were promoted to director. Congratulations!\n\nNothing needed on your end. I just wanted you to know how it went.\n\nBest,",
+      "subject": "Thank You, and Congratulations",
+      "body": "Hi Rachel,\n\nBen Ortega and I spoke in March about consumer coverage, and the conversation was well worth having. Thank you for pointing me to him.\n\nThis summer I worked at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews.\n\nI also saw on LinkedIn that you were promoted to director. Congratulations!\n\nNo reply needed. I'm sharing this so you know how it went.\n\nBest,"
+    },
+    {
+      "id": "822",
+      "profile": "sparse",
+      "boxes": [
+        "stay.second",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Ask for a second conversation · Share an update",
+      "leadType": "second_conversation",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 99,
+          "sentences": 7,
+          "contractions": 3,
+          "contractionRate": 3.03,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 86,
+          "sentences": 7,
+          "contractions": 3,
+          "contractionRate": 3.49,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 1,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 1
+        }
+      },
+      "notesForStudent": [
+        "I wrote that tracking brands changed how you read consumer names. Delete that clause if it isn't true.",
+        "You didn't give a reason for asking now, so the draft asks for the 15 minutes plainly. Add one if you have it, such as a recruiting date.",
+        "The draft doesn't name the three brands. You could add them in a clause if you'd like."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2214,
+        "cacheReadTokens": 5827,
+        "cacheWriteTokens": 9538,
+        "costUsd": 0.0614654
+      },
+      "timings": {
+        "draftMs": 12845,
+        "lintMs": 1,
+        "reviewMs": 8583,
+        "reviewRetryMs": null,
+        "totalMs": 21431
+      },
+      "preReviewSubject": "A Second Conversation, If You Have 15 Minutes",
+      "preReviewBody": "Hi Rachel,\n\nWe spoke in March, and you suggested I track a few brands. I'm following three now, and it has changed how I read the consumer names I come across.\n\nSince we last talked, I spent the summer at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews.\n\nWould you have 15 minutes to talk again? I'd value your view on how I'm tracking the three brands and where to take it next. Any week that suits you works on my end.\n\nThank you again for the first conversation!\n\nBest,",
+      "subject": "A Second Conversation, If You Have 15 Minutes",
+      "body": "Hi Rachel,\n\nWe spoke in March, and you suggested I track a few brands. I'm following three now.\n\nSince we last talked, I spent the summer at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews.\n\nWould you have 15 minutes to talk again? I'd value your view on how I'm tracking the three brands and where to take it next. Any week that suits you works on my end.\n\nThank you again for the first conversation!\n\nBest,"
+    },
+    {
+      "id": "824",
+      "profile": "sparse",
+      "boxes": [
+        "stay.referrer",
+        "stay.second",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Ask for a second conversation · Thank the person who introduced me · Share an update",
+      "leadType": "second_conversation",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 112,
+          "sentences": 8,
+          "contractions": 3,
+          "contractionRate": 2.68,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 104,
+          "sentences": 7,
+          "contractions": 3,
+          "contractionRate": 2.88,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 0,
+        "kinds": {
+          "flow": 2,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "No reason for asking now was given, so the ask is plain. Add one (like a deadline) if you have it.",
+        "You didn't say which three brands you track or what you've noticed. Adding one specific would strengthen the email.",
+        "The email is dated September 2026, so March is about six months ago."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2815,
+        "cacheReadTokens": 5827,
+        "cacheWriteTokens": 10579,
+        "costUsd": 0.0716394
+      },
+      "timings": {
+        "draftMs": 12553,
+        "lintMs": 0,
+        "reviewMs": 9848,
+        "reviewRetryMs": null,
+        "totalMs": 22403
+      },
+      "preReviewSubject": "A Second Conversation, If You Have 15 Minutes",
+      "preReviewBody": "Hi Rachel,\n\nWe spoke in March, and you suggested I track a few brands. I'm now following three, which fits with covering the consumer sector as an analyst in Duke Investment Club.\n\nThank you for introducing me to Ben Ortega. We just had our call, and he explained how the consumer team staffs deals. Since we last spoke, I also spent the summer at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks.\n\nWould you have 15 minutes to talk again? Any time that suits you would work for me, and I'd value hearing your read on what I've been doing.\n\nThank you for the advice and for the introduction!\n\nBest,",
+      "subject": "A Second Conversation, If You Have 15 Minutes",
+      "body": "Hi Rachel,\n\nWe spoke in March, and you suggested I track a few brands. I'm now following three, which fits the consumer sector I cover as an analyst in Duke Investment Club.\n\nBen Ortega and I just had our call, and he explained how the consumer team staffs deals. Since we last spoke, I also spent the summer at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks.\n\nWould you have 15 minutes to talk again? I'd value hearing your read on what I've been doing, and I can fit around your calendar.\n\nThank you for the advice and for the introduction!\n\nBest,"
+    },
+    {
+      "id": "826",
+      "profile": "sparse",
+      "boxes": [
+        "stay.redirected",
+        "stay.second",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Ask for a second conversation · Thank the person who sent me elsewhere · Share an update",
+      "leadType": "second_conversation",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 90,
+          "sentences": 6,
+          "contractions": 3,
+          "contractionRate": 3.33,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 84,
+          "sentences": 6,
+          "contractions": 3,
+          "contractionRate": 3.57,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 1,
+          "tone": 1,
+          "flow": 1
+        }
+      },
+      "notesForStudent": [
+        "You didn't say which three brands you're tracking or what happened with Ben Ortega, so the draft names neither. Add a brand or a line about Ben if you'd like.",
+        "No reason for asking now was given, so the ask is plain. Add one if there's a real deadline or recruiting date.",
+        "Your TODAY date and the system date differ (Sept 20 vs Oct 13). Either way it's well past six weeks since March."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2979,
+        "cacheReadTokens": 13572,
+        "cacheWriteTokens": 2621,
+        "costUsd": 0.0429964
+      },
+      "timings": {
+        "draftMs": 12516,
+        "lintMs": 1,
+        "reviewMs": 12852,
+        "reviewRetryMs": null,
+        "totalMs": 25373
+      },
+      "preReviewSubject": "Thank You, and a Second Conversation?",
+      "preReviewBody": "Hi Rachel,\n\nThank you for pointing me to Ben Ortega after we spoke in March. You also told me to track a few brands, and I'm now following three.\n\nSince then I spent the summer at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews.\n\nWould you have 15 minutes to talk again? I'd like to tell you how the brand tracking is going. Whatever time suits you works on my end, and I'm glad to keep you posted either way.\n\nBest,",
+      "subject": "Thank You, and a Second Conversation?",
+      "body": "Hi Rachel,\n\nThank you for pointing me to Ben Ortega after we spoke in March. You also told me to track a few brands, and I'm now following three.\n\nThis summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews.\n\nWould you be open to talking again? I'd like to tell you how the brand tracking is going. If your calendar is full, I'm glad to share the update over email instead.\n\nBest,"
+    }
+  ]
+}

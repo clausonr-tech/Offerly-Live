@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "ranAt": "2026-10-13T18:58:32.908Z",
+    "judgeModel": "claude-sonnet-5-5",
+    "promptVersion": "resume-prose/1",
+    "promptSha": "bb5d5f2937e1108604102647c44f9207edf7b48a44983ccefd90372870d5e5fe",
+    "passes": 2,
+    "inputs": [
+      "scripts/audit-probe/resume-review-2026-10-13/A-adaptive.json",
+      "scripts/audit-probe/resume-review-2026-10-13/B-nothink.json",
+      "scripts/audit-probe/resume-review-2026-10-13/B2-nothink.json",
+      "scripts/audit-probe/resume-review-2026-10-13/P-A.json",
+      "scripts/audit-probe/resume-review-2026-10-13/P-B.json"
+    ],
+    "blinding": "summary + improvements only - no model, effort, thinking, arm or filename"
+  },
+  "results": [
+    {
+      "id": "A-adaptive",
+      "pass": 1,
+      "verdict": "written_for_me",
+      "reason": "It quotes my own lines, like \"Responsible for maintaining the weekly dividend screen\" and 'Finacial Modeling', and names Pinecrest, Duke Investment Club and my mismatched dates, so I could open the file and start editing.",
+      "weakest_line": "Your resume has a clean, well-organized foundation: it fits on one page with a logical structure, and the simple single-column layout will parse cleanly through ATS systems.",
+      "tells": [
+        "quotes_my_words",
+        "names_my_specifics",
+        "restates_without_advising",
+        "padding"
+      ]
+    },
+    {
+      "id": "B-nothink",
+      "pass": 1,
+      "verdict": "written_for_me",
+      "reason": "It quotes my own words and tells me what to change, e.g. \"'Finacial Modeling' under SKILLS is misspelled\" and \"Pinecrest bullets mix tense... Convert all three to past tense (e.g. 'Built')\", so I could open the file and start editing, even though it repeats itself a lot.",
+      "weakest_line": "Your resume has a clean, parser-friendly layout and correct chronological structure, which gives you a solid base to build on.",
+      "tells": [
+        "quotes_my_words",
+        "names_my_specifics",
+        "gives_a_usable_rewrite",
+        "padding"
+      ]
+    },
+    {
+      "id": "B2-nothink",
+      "pass": 1,
+      "verdict": "written_for_me",
+      "reason": "It quotes my own text, like \"'Finacial Modeling' under SKILLS is misspelled\" and \"'Builds models' is present tense while the internship is a past role (May-Aug 2024)\", and each quote comes with a concrete fix, so I could start editing now.",
+      "weakest_line": "Finance resumes typically separate technical skills by category (e.g. modeling, data/terminal tools, languages) and only list what can be defended in an interview.",
+      "tells": [
+        "quotes_my_words",
+        "names_my_specifics",
+        "restates_without_advising",
+        "padding"
+      ]
+    },
+    {
+      "id": "P-A",
+      "pass": 1,
+      "verdict": "written_for_me",
+      "reason": "It quotes my exact lines, like \"Responsible for maintaining the weekly dividend screen\" and 'Finacial Modeling', and says what to change them to, so I could open the file and start editing.",
+      "weakest_line": "Add leadership roles, coursework, a fuller technical/language skills line and an interests line to fill a genuine full page.",
+      "tells": [
+        "quotes_my_words",
+        "names_my_specifics",
+        "gives_a_usable_rewrite"
+      ]
+    },
+    {
+      "id": "P-B",
+      "pass": 1,
+      "verdict": "written_for_me",
+      "reason": "It quotes my own text (\"Finacial Modeling\", \"MY JOURNEY\", \"06/2023-09/2023\" vs \"May 2024 - Aug 2024\", \"Responsible for maintaining...\") and tells me exactly what to change, so I could start editing, though it repeats itself a lot.",
+      "weakest_line": "Add universe size, model count, portfolio AUM, number of pitches - whatever you can verify from your files or a manager.",
+      "tells": [
+        "quotes_my_words",
+        "names_my_specifics",
+        "gives_a_usable_rewrite"
+      ]
+    },
+    {
+      "id": "A-adaptive",
+      "pass": 2,
+      "verdict": "written_for_me",
+      "reason": "It quotes my own lines, like \"Responsible for maintaining the weekly dividend screen\" and 'Finacial Modeling', and names Pinecrest, Duke Investment Club and my mismatched dates, so I could open the file and start editing.",
+      "weakest_line": "Your resume has a clean, well-organized foundation: it fits on one page with a logical structure, and the simple single-column layout will parse cleanly through ATS systems.",
+      "tells": [
+        "quotes_my_words",
+        "names_my_specifics",
+        "padding"
+      ]
+    },
+    {
+      "id": "B-nothink",
+      "pass": 2,
+      "verdict": "written_for_me",
+      "reason": "It quotes my own text (\"Finacial Modeling\", \"Responsible for maintaining\", \"Builds models\", \"MY JOURNEY\", \"06/2023-09/2023\") and tells me the exact fix, so I could open the file and start editing, even though it repeats itself.",
+      "weakest_line": "Your resume has a clean, parser-friendly layout and correct chronological structure, which gives you a solid base to build on.",
+      "tells": [
+        "quotes_my_words",
+        "names_my_specifics",
+        "gives_a_usable_rewrite",
+        "could_be_any_resume",
+        "padding",
+        "vague_instruction"
+      ]
+    },
+    {
+      "id": "B2-nothink",
+      "pass": 2,
+      "verdict": "written_for_me",
+      "reason": "It quotes my own text (\"Finacial Modeling\", \"My Journey\", \"Builds models\", \"Responsible for maintaining\") and the date mismatch between Pinecrest and Duke Investment Club, so I could start editing: \"Pick one format and apply it to both roles.\"",
+      "weakest_line": "Your resume is clean and easy to follow - the reverse-chronological layout is clear, dates don't leave gaps, and the plain single-column format should extract well if it goes through a scanning system.",
+      "tells": [
+        "quotes_my_words",
+        "names_my_specifics",
+        "restates_without_advising",
+        "could_be_any_resume",
+        "padding"
+      ]
+    },
+    {
+      "id": "P-A",
+      "pass": 2,
+      "verdict": "written_for_me",
+      "reason": "It quotes my exact lines, like \"Responsible for maintaining the weekly dividend screen\" and 'Finacial Modeling', and says what to change, e.g. \"Make all three past: 'Built'\", so I could open the file and edit.",
+      "weakest_line": "Add leadership roles, coursework, a fuller technical/language skills line and an interests line to fill a genuine full page.",
+      "tells": [
+        "quotes_my_words",
+        "names_my_specifics",
+        "gives_a_usable_rewrite",
+        "could_be_any_resume",
+        "padding"
+      ]
+    },
+    {
+      "id": "P-B",
+      "pass": 2,
+      "verdict": "written_for_me",
+      "reason": "It quotes my own text (\"Finacial Modeling\", \"MY JOURNEY\", \"06/2023-09/2023\" vs \"May 2024 - Aug 2024\", \"Presented stock pitches to the club\") and tells me exactly what to change, though it repeats itself a lot.",
+      "weakest_line": "Use \"EXPERIENCE\" or \"PROFESSIONAL EXPERIENCE\" and keep the remaining headings in that standard vocabulary.",
+      "tells": [
+        "quotes_my_words",
+        "names_my_specifics",
+        "gives_a_usable_rewrite",
+        "vague_instruction",
+        "padding"
+      ]
+    }
+  ],
+  "usage": {
+    "inputTokens": 20,
+    "outputTokens": 2884,
+    "cacheReadTokens": 22860,
+    "cacheWriteTokens": 13156,
+    "costUsd": 0.086076
+  }
+}

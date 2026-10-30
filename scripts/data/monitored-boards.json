@@ -1,0 +1,855 @@
+{
+ "generatedAt": "2026-09-20T01:14:41.821Z",
+ "note": "Board list exported from the 2026-09-18 23:48 snapshot so the Archive sweep can run without opening the database. Regenerate after the restore.",
+ "count": 106,
+ "boards": [
+  {
+   "slug": "barclays-us",
+   "name": "Barclays (US)",
+   "tier": "critical",
+   "careersUrl": "https://search.jobs.barclays/graduates-investment-banking",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "citigroup",
+   "name": "Citigroup",
+   "tier": "critical",
+   "careersUrl": "https://citi.eightfold.ai/careers/join?jtn_form_id=jtn-early-career",
+   "connectorId": "eightfold",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "deutsche-bank-us",
+   "name": "Deutsche Bank (US)",
+   "tier": "critical",
+   "careersUrl": "https://careers.db.com/students-graduates/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "goldman-sachs",
+   "name": "Goldman Sachs",
+   "tier": "critical",
+   "careersUrl": "https://higher.gs.com/roles",
+   "connectorId": "goldman",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "jpmorgan",
+   "name": "JPMorgan",
+   "tier": "critical",
+   "careersUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions",
+   "connectorId": "oracle-hcm",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "morgan-stanley",
+   "name": "Morgan Stanley",
+   "tier": "critical",
+   "careersUrl": "https://morganstanley.tal.net/candidate/jobboard/vacancy/1/adv/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "ubs-incl-credit-suisse-ib-us",
+   "name": "UBS (incl. Credit Suisse IB, US)",
+   "tier": "critical",
+   "careersUrl": "https://www.ubs.com/global/en/careers/professional-careers/investment-bank.html",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "allen-and-company",
+   "name": "Allen & Company",
+   "tier": "high",
+   "careersUrl": "https://www.allenco.com/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "centerview-partners",
+   "name": "Centerview Partners",
+   "tier": "high",
+   "careersUrl": "https://www.centerviewpartners.com/careers.aspx",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "ducera-partners",
+   "name": "Ducera Partners",
+   "tier": "high",
+   "careersUrl": "https://boards.greenhouse.io/ducerapartnerscampus",
+   "connectorId": "greenhouse",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "evercore",
+   "name": "Evercore",
+   "tier": "high",
+   "careersUrl": "https://evercore.tal.net/candidate/jobboard/vacancy/2/adv/",
+   "connectorId": "talentlink",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "greenhill-and-co",
+   "name": "Greenhill & Co",
+   "tier": "high",
+   "careersUrl": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "guggenheim-securities",
+   "name": "Guggenheim Securities",
+   "tier": "high",
+   "careersUrl": "https://guggenheim.wd1.myworkdayjobs.com/Guggenheim_Careers_Campus",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "houlihan-lokey",
+   "name": "Houlihan Lokey",
+   "tier": "high",
+   "careersUrl": "https://hl.wd1.myworkdayjobs.com/Campus",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "jefferies",
+   "name": "Jefferies",
+   "tier": "high",
+   "careersUrl": "https://jefferies.tal.net/candidate/jobboard/vacancy/2/adv/",
+   "connectorId": "talentlink",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "lazard",
+   "name": "Lazard",
+   "tier": "high",
+   "careersUrl": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/jobs",
+   "connectorId": "oracle-hcm",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "liontree",
+   "name": "LionTree",
+   "tier": "high",
+   "careersUrl": "https://liontree.com/contact/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "moelis-and-company",
+   "name": "Moelis & Company",
+   "tier": "high",
+   "careersUrl": "https://moelis-careers.tal.net/candidate/jobboard/vacancy/2/adv/",
+   "connectorId": "talentlink",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "pjt-partners",
+   "name": "PJT Partners",
+   "tier": "high",
+   "careersUrl": "https://pjtpartners.wd1.myworkdayjobs.com/Students",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "perella-weinberg-partners",
+   "name": "Perella Weinberg Partners",
+   "tier": "high",
+   "careersUrl": "https://pwpcareers.tal.net/candidate/jobboard/vacancy/2/adv/",
+   "connectorId": "talentlink",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "qatalyst-partners",
+   "name": "Qatalyst Partners",
+   "tier": "high",
+   "careersUrl": "https://qatalyst.com/contact/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "rothschild-and-co-us",
+   "name": "Rothschild & Co (US)",
+   "tier": "high",
+   "careersUrl": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "solomon-partners-fka-peter-j-solomon-company",
+   "name": "Solomon Partners (fka Peter J. Solomon Company)",
+   "tier": "high",
+   "careersUrl": "https://job-boards.greenhouse.io/solomonpartnersstudentsgraduates",
+   "connectorId": "greenhouse",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "union-square-advisors",
+   "name": "Union Square Advisors",
+   "tier": "high",
+   "careersUrl": "https://www.usadvisors.com/join-our-team/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "ankura",
+   "name": "Ankura",
+   "tier": "standard",
+   "careersUrl": "https://ankura.wd5.myworkdayjobs.com/Ankura",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "bdo-capital-advisors",
+   "name": "BDO Capital Advisors",
+   "tier": "standard",
+   "careersUrl": "https://ebqb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs",
+   "connectorId": "oracle-hcm",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "bgc-group",
+   "name": "BGC Group",
+   "tier": "standard",
+   "careersUrl": "https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003",
+   "connectorId": "oracle-hcm",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "bmo-capital-markets-us",
+   "name": "BMO Capital Markets (US)",
+   "tier": "standard",
+   "careersUrl": "https://bmo.wd3.myworkdayjobs.com/External",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "bnp-paribas-usa",
+   "name": "BNP Paribas USA",
+   "tier": "standard",
+   "careersUrl": "https://bnppus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-5db317b8ad85/candidate/jobboard/vacancy/1/adv/",
+   "connectorId": "talentlink",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "baker-tilly-capital",
+   "name": "Baker Tilly Capital",
+   "tier": "standard",
+   "careersUrl": "https://bakertilly.wd5.myworkdayjobs.com/BTCareers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "bank-of-america",
+   "name": "Bank of America",
+   "tier": "standard",
+   "careersUrl": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-6f0048376f93/candidate/jobboard/vacancy/2/adv/",
+   "connectorId": "talentlink",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "berkeley-research-group",
+   "name": "Berkeley Research Group",
+   "tier": "standard",
+   "careersUrl": "https://thinkbrg.wd5.myworkdayjobs.com/BRG_External_Career_Site",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "brown-gibbons-lang",
+   "name": "Brown Gibbons Lang & Company",
+   "tier": "standard",
+   "careersUrl": "https://boards.greenhouse.io/browngibbonslangcompany",
+   "connectorId": "greenhouse",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "cain-brothers",
+   "name": "Cain Brothers",
+   "tier": "standard",
+   "careersUrl": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "cantor-fitzgerald",
+   "name": "Cantor Fitzgerald",
+   "tier": "standard",
+   "careersUrl": "https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003",
+   "connectorId": "oracle-hcm",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "cowen-now-td-cowen",
+   "name": "Cowen (now TD Cowen)",
+   "tier": "standard",
+   "careersUrl": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "d-a-davidson-co",
+   "name": "D.A. Davidson & Co",
+   "tier": "standard",
+   "careersUrl": "https://jobs.lever.co/dadavidson",
+   "connectorId": "lever",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "financial-technology-partners",
+   "name": "Financial Technology Partners",
+   "tier": "standard",
+   "careersUrl": "https://job-boards.greenhouse.io/financialtechnologypartners",
+   "connectorId": "greenhouse",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "hsbc-us",
+   "name": "HSBC (US)",
+   "tier": "standard",
+   "careersUrl": "https://www.hsbc.com/careers/students-and-graduates/university-students-and-graduates/investment-banking",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "harris-williams",
+   "name": "Harris Williams",
+   "tier": "standard",
+   "careersUrl": "https://pnc.wd5.myworkdayjobs.com/HarrisWilliams",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "intrepid-investment-bankers",
+   "name": "Intrepid Investment Bankers",
+   "tier": "standard",
+   "careersUrl": "https://mufgub.wd3.myworkdayjobs.com/en-US/MUFG-Careers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "leerink-partners",
+   "name": "Leerink Partners",
+   "tier": "standard",
+   "careersUrl": "https://leerink.wd5.myworkdayjobs.com/en-US/leerinkpartners",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "lincoln-international",
+   "name": "Lincoln International",
+   "tier": "standard",
+   "careersUrl": "https://www.lincolninternational.com/campus-early-careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "mufg-securities-americas",
+   "name": "MUFG Securities Americas",
+   "tier": "standard",
+   "careersUrl": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "miller-buckfire",
+   "name": "Miller Buckfire",
+   "tier": "standard",
+   "careersUrl": "https://careers-stifel.icims.com/jobs/search?mode=job&iis=Company+Website",
+   "connectorId": "icims",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "mizuho-americas",
+   "name": "Mizuho Americas",
+   "tier": "standard",
+   "careersUrl": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "nomura-us",
+   "name": "Nomura (US)",
+   "tier": "standard",
+   "careersUrl": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-3348347fc789/candidate/jobboard/vacancy/1/adv/",
+   "connectorId": "talentlink",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "piper-sandler",
+   "name": "Piper Sandler",
+   "tier": "standard",
+   "careersUrl": "https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "raymond-james",
+   "name": "Raymond James",
+   "tier": "standard",
+   "careersUrl": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "seaport-global",
+   "name": "Seaport Global",
+   "tier": "standard",
+   "careersUrl": "https://jobs.lever.co/seaportglobal",
+   "connectorId": "lever",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "stifel",
+   "name": "Stifel",
+   "tier": "standard",
+   "careersUrl": "https://careers-stifel.icims.com/jobs/search?mode=job&iis=Company+Website",
+   "connectorId": "icims",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "stout",
+   "name": "Stout",
+   "tier": "standard",
+   "careersUrl": "https://stout.wd5.myworkdayjobs.com/Stout-Student-Careers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "td-securities",
+   "name": "TD Securities",
+   "tier": "standard",
+   "careersUrl": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "william-blair",
+   "name": "William Blair",
+   "tier": "standard",
+   "careersUrl": "https://boards.greenhouse.io/williamblair",
+   "connectorId": "greenhouse",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "agc-partners",
+   "name": "AGC Partners",
+   "tier": "discovery",
+   "careersUrl": "https://www.agcpartners.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "academy-securities",
+   "name": "Academy Securities",
+   "tier": "discovery",
+   "careersUrl": "https://academysecurities.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "alantra",
+   "name": "Alantra",
+   "tier": "discovery",
+   "careersUrl": "https://www.alantra.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "berkery-noyes",
+   "name": "Berkery Noyes",
+   "tier": "discovery",
+   "careersUrl": "https://berkerynoyes.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "blackarch-partners",
+   "name": "BlackArch Partners",
+   "tier": "discovery",
+   "careersUrl": "https://blackarchpartners.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "blaylock-van",
+   "name": "Blaylock Van",
+   "tier": "discovery",
+   "careersUrl": "https://blaylockvan.com/internship-program/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "bourne-partners",
+   "name": "Bourne Partners",
+   "tier": "discovery",
+   "careersUrl": "https://bourne-partners.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "cibc-capital-markets",
+   "name": "CIBC Capital Markets",
+   "tier": "discovery",
+   "careersUrl": "https://www.cibc.com/en/about-cibc/careers.html",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "canaccord-genuity",
+   "name": "Canaccord Genuity",
+   "tier": "discovery",
+   "careersUrl": "https://www.canaccordgenuity.com/global-careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "capstone-partners",
+   "name": "Capstone Partners",
+   "tier": "discovery",
+   "careersUrl": "https://www.capstonepartners.com/about/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "cary-street-partners",
+   "name": "Cary Street Partners",
+   "tier": "discovery",
+   "careersUrl": "https://carystreetpartners.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "cascadia-capital",
+   "name": "Cascadia Capital",
+   "tier": "discovery",
+   "careersUrl": "https://www.cascadiacapital.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "chardan",
+   "name": "Chardan",
+   "tier": "discovery",
+   "careersUrl": "https://www.chardan.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "clearsight-advisors",
+   "name": "Clearsight Advisors",
+   "tier": "discovery",
+   "careersUrl": "https://clearsightadvisors.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "configure-partners",
+   "name": "Configure Partners",
+   "tier": "discovery",
+   "careersUrl": "https://configurepartners.com/contact/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "deloitte",
+   "name": "Deloitte",
+   "tier": "discovery",
+   "careersUrl": "https://apply.deloitte.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "edgemont-partners",
+   "name": "Edgemont Partners",
+   "tier": "discovery",
+   "careersUrl": "https://www.edgemont.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "founders-advisors",
+   "name": "Founders Advisors",
+   "tier": "discovery",
+   "careersUrl": "https://foundersib.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "g2-capital-advisors",
+   "name": "G2 Capital Advisors",
+   "tier": "discovery",
+   "careersUrl": "https://g2capitaladvisors.com/about/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "gp-bullhound",
+   "name": "GP Bullhound",
+   "tier": "discovery",
+   "careersUrl": "https://www.gpbullhound.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "grace-matthews",
+   "name": "Grace Matthews",
+   "tier": "discovery",
+   "careersUrl": "https://gracematthews.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "harvey",
+   "name": "Harvey & Company",
+   "tier": "discovery",
+   "careersUrl": "https://harveyllc.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "hennepin-partners",
+   "name": "Hennepin Partners",
+   "tier": "discovery",
+   "careersUrl": "https://hennepinpartners.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "hyde-park-capital",
+   "name": "Hyde Park Capital",
+   "tier": "discovery",
+   "careersUrl": "https://www.hydeparkcapital.com/about/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "kbw-keefe-bruyette-and-woods",
+   "name": "KBW (Keefe, Bruyette & Woods)",
+   "tier": "discovery",
+   "careersUrl": "https://www.kbw.com/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "kroll",
+   "name": "Kroll",
+   "tier": "discovery",
+   "careersUrl": "https://careers.kroll.com/en",
+   "connectorId": "kroll",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "livingstone-partners",
+   "name": "Livingstone Partners",
+   "tier": "discovery",
+   "careersUrl": "https://livingstonepartners.com/about-us/work-at-livingstone/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "loop-capital",
+   "name": "Loop Capital",
+   "tier": "discovery",
+   "careersUrl": "https://www.loopcapital.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "mts-health-partners",
+   "name": "MTS Health Partners",
+   "tier": "discovery",
+   "careersUrl": "https://www.mtspartners.com/who-we-are/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "macquarie-group",
+   "name": "Macquarie Group",
+   "tier": "discovery",
+   "careersUrl": "https://www.macquarie.com/us/en/careers.html",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "matrix-capital-markets-group",
+   "name": "Matrix Capital Markets Group",
+   "tier": "discovery",
+   "careersUrl": "https://matrixcmg.com/our-firm/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "mercer-capital",
+   "name": "Mercer Capital",
+   "tier": "discovery",
+   "careersUrl": "https://mercercapital.com/about/careers-at-mercer-capital/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "oppenheimer-and-co",
+   "name": "Oppenheimer & Co",
+   "tier": "discovery",
+   "careersUrl": "https://www.oppenheimer.com/careers/banking-analyst-program",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "p-m-corporate-finance",
+   "name": "P&M Corporate Finance",
+   "tier": "discovery",
+   "careersUrl": "https://pmcf.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "park-lane",
+   "name": "Park Lane",
+   "tier": "discovery",
+   "careersUrl": "https://www.prkln.com/internships",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "progress-partners",
+   "name": "Progress Partners",
+   "tier": "discovery",
+   "careersUrl": "https://progresspartners.com/careers-at-progress-partners/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "provident-healthcare-partners",
+   "name": "Provident Healthcare Partners",
+   "tier": "discovery",
+   "careersUrl": "https://www.providenthp.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "rbc-capital-markets-us",
+   "name": "RBC Capital Markets (US)",
+   "tier": "discovery",
+   "careersUrl": "https://www.rbccm.com/en/careers/campus-recruiting",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "robert-w-baird",
+   "name": "Robert W. Baird",
+   "tier": "discovery",
+   "careersUrl": "https://www.bairdcareers.com/our-teams/global-investment-banking/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "roberts-ryan",
+   "name": "Roberts & Ryan",
+   "tier": "discovery",
+   "careersUrl": "https://roberts-ryan.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "roth-capital-partners",
+   "name": "Roth Capital Partners",
+   "tier": "discovery",
+   "careersUrl": "https://www.roth.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "smbc-nikko-securities-america",
+   "name": "SMBC Nikko Securities America",
+   "tier": "discovery",
+   "careersUrl": "https://www.smbcgroup.com/americas/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "samuel-a-ramirez",
+   "name": "Samuel A. Ramirez & Company",
+   "tier": "discovery",
+   "careersUrl": "https://www.ramirezco.com/Careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "scotiabank-global-banking-and-markets",
+   "name": "Scotiabank Global Banking and Markets",
+   "tier": "discovery",
+   "careersUrl": "https://www.scotiabank.com/careers/en/careers.html",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "siebert-williams-shank-co",
+   "name": "Siebert Williams Shank & Co",
+   "tier": "discovery",
+   "careersUrl": "https://www.siebertwilliams.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "silverwood-partners",
+   "name": "Silverwood Partners",
+   "tier": "discovery",
+   "careersUrl": "https://silverwoodpartners.com/about-us/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "soci-t-g-n-rale-us",
+   "name": "Société Générale (US)",
+   "tier": "discovery",
+   "careersUrl": "https://careers.societegenerale.com/en/internships-trainee-programs",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "stephens",
+   "name": "Stephens Inc",
+   "tier": "discovery",
+   "careersUrl": "https://www.stephens.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "the-mclean-group",
+   "name": "The McLean Group",
+   "tier": "discovery",
+   "careersUrl": "https://mcleanllc.com/jobs/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "truist-securities",
+   "name": "Truist Securities (truistsecurities.com)",
+   "tier": "discovery",
+   "careersUrl": "https://www.truist.com/commercial-corporate-institutional/investment-banking/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "tully-holland",
+   "name": "Tully & Holland",
+   "tier": "discovery",
+   "careersUrl": "https://www.tullyandholland.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  },
+  {
+   "slug": "zachary-scott",
+   "name": "Zachary Scott",
+   "tier": "discovery",
+   "careersUrl": "https://zacharyscott.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking"
+  }
+ ]
+}

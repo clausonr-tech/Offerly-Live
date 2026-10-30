@@ -1,0 +1,56 @@
+# HAND CHECK - 40 of 141 recorded denials, drawn 2026-10-13
+#
+# The question for each row: was this a real undergraduate finance internship?
+# Open the url, read the posting, and put ONE of these in the YOUR_VERDICT column:
+#
+#   agree   - the agent was right to deny it
+#   WRONG   - this IS a real undergraduate finance internship and should be published
+#   unsure  - you could not tell from the page
+#
+# Leave nothing blank. Then:
+#   npx tsx --env-file=.env.local --conditions=react-server \
+#     scripts/review-agent-sample.ts --score scripts/data/handcheck-2026-10-13.tsv
+#
+# Sampled per reason rather than uniformly: a uniform draw would be almost
+# all obvious non-internships and would teach nothing about the hard cases.
+YOUR_VERDICT	firm	title	agent_reason	url	id
+Full time	Moneco Advisors	Client Services Manager	the page shows no student or internship language	https://job-boards.greenhouse.io/monecoadvisors/jobs/4307774009	7ac51b2f-7f9b-4555-a896-b4a8f750f4ac
+Full time	Kroll	Analyst Fixed Asset Advisory Services	re-read the page: it does not describe an internship	https://careers.kroll.com/en/job/madrid/analyst-fixed-asset-advisory-services/21014529	1c278aec-f830-4026-af0d-457eb82aeca7
+Full time	Kroll	Associate Investigations Diligence And Compliance Talent Pool	a careers-site placeholder, not a specific opening	https://careers.kroll.com/en/job/london/associate-investigations-diligence-and-compliance-talent-pool/21015055	2cf54f26-219d-4cc6-93d8-fa7cd1cc100d
+Full time	Miller Buckfire	Fund Banking Analyst	the page shows no student or internship language	https://careers-stifel.icims.com/jobs/9377/fund-banking-analyst/job	bac20548-928c-47da-befe-d9298b2d76a2
+Page doesn’t go to internship site	Intrepid Investment Bankers	Analyst Program	re-read the page: it does not describe an internship	https://intrepidib.com/analyst-program/	dbad2f8b-6360-43a8-ac5d-1b31c4abc5d0
+Page doesn’t go to internship site	Castik Capital Sarl	Interact Software Leading employee experience platform	the page shows no student or internship language	https://castik.com/portfolio/interact-software	cad5b254-af70-45d0-9f4f-3d1ab36c810c
+Page doesn’t go to internship site	Greenspring Advisors, LLC	The Decision Dividend	re-read the page: it does not describe an internship	https://greenspringadvisors.com/the-decision-dividend/	7e2558bb-9005-495d-a105-9fd0690aea29
+Full time	Bridgefront Capital, LLC	Quantitative Researcher	the page shows no student or internship language	https://jobs.ashbyhq.com/bridgefrontcapital/07a33f79-c982-4939-a0fb-a001b34cc678	d24ae505-b21b-4b36-9dff-f4880b1165b3
+Full time	Kroll	Analyst Competition And Regulatory Economics	re-read the page: it does not describe an internship	https://careers.kroll.com/en/job/berlin/analyst-competition-and-regulatory-economics/21014776	f4495ec8-c645-486c-bafe-bdb648a9694b
+Full time	Lazard	Analyst - Technology - Business Services	the page shows no student or internship language	https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6494	ff8ba67c-f9a9-4215-932e-84c0969edda4
+Full time	Kroll	Associate Manager Investigations Diligence And Compliance Specialist	re-read the page: it does not describe an internship	https://careers.kroll.com/en/job/united-states/associate-manager-investigations-diligence-and-compliance-specialist/21014492	52240105-1c9c-4a16-b915-1c07c4ee3686
+Page doesn’t go to internship site	Aprio Wealth Management, LLC	Speak to an Advisor	the page shows no student or internship language	https://www.wealth.aprio.com/speak-to-an-advisor/	8b1ba735-ee45-4a4b-8f89-8546c64b216f
+Full time	Kroll	Associate Investigations Diligence And Compliance Core Chinese Language	re-read the page: it does not describe an internship	https://careers.kroll.com/en/job/hong-kong/associate-investigations-diligence-and-compliance-core-chinese-language/21014793	62f76a26-70f7-4d91-8e74-96af28d787a5
+Full time	Berkeley Research Group	Managing Consultant	the page shows no student or internship language	https://thinkbrg.wd5.myworkdayjobs.com/BRG_External_Career_Site/job/Brussels-BEL/Senior-Managing-Consultant--German-Speaker-_JR100828	f04ad157-6cd1-4282-ad0c-24ac5017fbe9
+Full time	Kroll	Associate Investigations Diligence And Compliance Core	re-read the page: it does not describe an internship	https://careers.kroll.com/en/job/kuala-lumpur/associate-investigations-diligence-and-compliance-core/21014981	5355ca06-b3b1-447b-8dcb-22e28a1cc4b5
+Full time	Proof	1099 Process Server	the page shows no student or internship language	https://www.proofserve.com/careers/4697979005?gh_jid=4697979005	583126f4-f403-4064-a730-24843057fcd6
+Full time	Kroll	Analyst Valuation Services	re-read the page: it does not describe an internship	https://careers.kroll.com/en/job/new-delhi/analyst-valuation-services/21014808	d70b5983-edde-46d8-bdc8-00cf4c5575bf
+Page doesn’t go to internship site	Emerson Equity LLC	Kathleen Morrissey Chief Operating Officer	the page shows no student or internship language	https://www.emersonequity.com/company/our-team/kathleen-morrissey/	a9a7805b-d951-48e0-9fac-622c8738b536
+Full time	Kroll	Consultant Issuer Services Kroll Restructuring Administration	re-read the page: it does not describe an internship	https://careers.kroll.com/en/job/manila/consultant-issuer-services-kroll-restructuring-administration/21015099	82a17980-d679-4bf7-acf9-e1154ac80666
+Full time	Cantor Fitzgerald	Network Operations Analyst	the page shows no student or internship language	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/249831	c5064a70-708b-4f0f-b033-69fcd7dcd0cd
+Full time	Weiss Asset Management	Investment Compliance Analyst	re-read the page: it does not describe an internship	https://job-boards.greenhouse.io/weissassetmanagement/jobs/8846459002	da5bd6d3-3965-4ca0-b26f-bfc0f3ab2634
+Full time	Frec	Backend Engineer	the page shows no student or internship language	https://jobs.ashbyhq.com/frec/3251b1c3-d6dd-4654-af14-38eb1570137c	7a3f45a8-e38b-4e88-83cf-1deb73a91937
+Full time	Greenspring Advisors, LLC	Private Wealth	re-read the page: it does not describe an internship	https://greenspringadvisors.com/private-wealth-management/	5988c3e6-1225-4960-a11e-c9209b65b4cc
+Full time	Guild Garage Group LLC	In-Home Sales Representative (Paid Technical Training)	the page shows no student or internship language	https://job-boards.greenhouse.io/guildgaragegroup/jobs/4425740009	7778631e-d929-4333-ba3a-57fa45045283
+Full time	Greenspring Advisors, LLC	Private Wealth Client	re-read the page: it does not describe an internship	https://greenspringadvisors.com/private-wealth-client/	8bfa2acb-707c-4c97-9142-68f9ca12774b
+Full time	BGC Group	Events & Sponsorship Executive	the page shows no student or internship language	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/249750	9f5ac9e4-8a5b-4128-9c2f-64ce31e81ff2
+Full time	Boulay Wealth	PrimeGlobal	re-read the page: it does not describe an internship	https://boulaygroup.com/primeglobal/	fa1d0cd6-a367-4bf0-9317-fa8b7ea8a832
+Full time	Integral Corporation	Stratège SEO Sénior	the page shows no student or internship language	https://integral.bamboohr.com/careers/127	149a42fa-35a6-4088-a459-f1d986dd1f87
+Full time	Kroll	Associate Investigations Diligence And Compliance Italian Speaker	re-read the page: it does not describe an internship	https://careers.kroll.com/en/job/london/associate-investigations-diligence-and-compliance-italian-speaker/21014477	3851f4c7-4021-4367-ad56-d6caef23d1ad
+Full time	Stifel	Registered Client Service Associate	the page shows no student or internship language	https://careers-stifel.icims.com/jobs/9761/registered-client-service-associate/job	ba550ebf-6f9f-413d-8c80-0350d5327a0c
+Full time	Ankura	Digital Advisory Associate	re-read the page: it does not describe an internship	https://ankura.wd5.myworkdayjobs.com/Ankura/job/UK-London/Digital-Advisory-Associate_R105079	39f99c8b-2649-4e2f-b81b-26de52912c40
+Full time	Miller Buckfire	IB Associate - Diversified Industrials & Services	the page shows no student or internship language	https://careers-stifel.icims.com/jobs/9812/ib-associate---diversified-industrials-%26-services/job	8672deac-dcec-461b-aca0-25562c50f27b
+Full time	Greenspring Advisors, LLC	Radio Show	re-read the page: it does not describe an internship	https://greenspringadvisors.com/financial-freedom/	a0e4a14a-ae1f-47da-8c47-cd4a4da21332
+Full time	Pzena Investment Management LLC	RFP Associate 	the page shows no student or internship language	https://job-boards.greenhouse.io/pzenainvestmentmanagement/jobs/5438133008	2b658135-9cc4-42cd-a66b-22c29d53149b
+Full time	Vanguard	Taking center stage at Vanguard's tech conference	re-read the page: it does not describe an internship	https://www.vanguardjobs.com/career-blog/2026/08/05/taking-center-stage-at-vanguard-tech-conference/	4fd1270e-1f76-405a-82b9-176d844c5aaa
+Full time	Miller Buckfire	Client Service Associate	the page shows no student or internship language	https://careers-stifel.icims.com/jobs/9656/client-service-associate/job	1af85729-0fac-49da-b315-b05bd2ac30fe
+Full time	Financial Technology Partners	Experienced Analyst, Investment Banking	re-read the page: it does not describe an internship	https://job-boards.greenhouse.io/financialtechnologypartners/jobs/8499313002	e794f2d6-8cf2-49da-a3e4-48ea0c64acab
+Full time	Ethic	Portfolio Manager 	the page shows no student or internship language	https://job-boards.greenhouse.io/ethic/jobs/7855059003	a6eae677-ea1a-455b-bbcd-6587d45fcfa2
+Full time	Stifel	IT Associate I - Service Desk	the page shows no student or internship language	https://careers-stifel.icims.com/jobs/8521/it-associate-i---service-desk/job	49844543-bf79-4f6d-a967-e7875d3cd02c
+Full time	Proof	1099 Process Server	the page shows no student or internship language	https://www.proofserve.com/careers/4706629005?gh_jid=4706629005	c5cff590-081f-4884-8f66-1fa1a50d01d6

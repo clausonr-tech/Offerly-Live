@@ -1,0 +1,323 @@
+{
+  "meta": {
+    "ranAt": "2026-10-13T04:36:55.666Z",
+    "cfg": {
+      "model": "claude-sonnet-5",
+      "effort": "high",
+      "thinking": "adaptive",
+      "maxTokens": 6000,
+      "speed": null
+    },
+    "ms": 51511,
+    "usage": {
+      "input_tokens": 3119,
+      "output_tokens": 7313
+    },
+    "costUsd": 0.0794
+  },
+  "found": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    "F9",
+    "F10",
+    "F11",
+    "F12"
+  ],
+  "missed": [],
+  "review": {
+    "score": 35,
+    "summary": "Your resume has a clean, well-organized foundation: it fits on one page with a logical structure, and the simple single-column layout will parse cleanly through ATS systems. The biggest lift right now is replacing the generic objective statement at the top with something specific to you, and then going through your Experience bullets to fix the inconsistent verb tenses and add concrete scope or results to each one.",
+    "strengths": [
+      "Fits cleanly on one page with Education listed first, a solid structural starting point",
+      "Experience entries run in correct reverse-chronological order",
+      "Single-column plain-text layout with no tables or graphics, which parses cleanly through ATS systems",
+      "Dates and locations are present and formatted as fields, giving something consistent to work from"
+    ],
+    "dimensions": [
+      {
+        "id": "honest",
+        "label": "First impression",
+        "max": 30,
+        "score": 8,
+        "notes": "",
+        "issues": [
+          {
+            "severity": "major",
+            "title": "Objective statement at the top",
+            "detail": "The 'Incredibly passionate...leverage my skills' block is the first thing a screener reads and says nothing about you. Cut it entirely and let Education and Experience open the page."
+          },
+          {
+            "severity": "major",
+            "title": "No GPA next to degree",
+            "detail": "Education lists school, degree and 2029 grad date but no GPA. On a finance resume this reads as a GPA worth hiding. Add it directly after the degree line."
+          },
+          {
+            "severity": "minor",
+            "title": "References line at the bottom",
+            "detail": "'Available upon request' is assumed in finance recruiting and wastes the bottom of the page. Delete it and use that space for a third bullet or a leadership/activities line."
+          },
+          {
+            "severity": "minor",
+            "title": "Inconsistent date formatting",
+            "detail": "Pinecrest uses 'May 2024 - Aug 2024' while Duke Investment Club uses '06/2023-09/2023' with no spaces. Pick one date style and apply it to both entries."
+          }
+        ]
+      },
+      {
+        "id": "bullets",
+        "label": "Experience & impact",
+        "max": 25,
+        "score": 6,
+        "notes": "",
+        "issues": [
+          {
+            "severity": "major",
+            "title": "Weak opener, no outcome",
+            "detail": "'Responsible for maintaining the weekly dividend screen' reads as a duty, not an accomplishment. A screener sees no scope (how many names?) and no result (what did the screen catch or change?). Lead with the action and close on impact."
+          },
+          {
+            "severity": "major",
+            "title": "Vague research bullet, no result",
+            "detail": "'Assisted with various research projects for the consumer team' names no company, no deliverable, and no outcome - 'various' signals you can't recall specifics. State what you researched and what it fed into (a pitch, a memo, a client call)."
+          },
+          {
+            "severity": "minor",
+            "title": "Tense slip, no measurable use",
+            "detail": "'Builds models used in client portfolio reviews' is present tense while every other bullet is past, and 'used in' doesn't say how often or to what effect. Fix the tense and quantify the reviews or the model's role."
+          },
+          {
+            "severity": "minor",
+            "title": "Pitch bullet has no outcome",
+            "detail": "'Presented stock pitches to the club' doesn't say how many, on what names, or whether any were adopted, debated, or ranked well. A bare activity line - add count and result."
+          }
+        ]
+      },
+      {
+        "id": "ats",
+        "label": "Keywords & scanning",
+        "max": 15,
+        "score": 8,
+        "notes": "",
+        "issues": [
+          {
+            "severity": "major",
+            "title": "Non-standard heading 'MY JOURNEY'",
+            "detail": "'MY JOURNEY' is not a recognized section header, so parsers may fail to tag the Pinecrest and Duke Investment Club entries as work experience at all. Rename to 'EXPERIENCE' or 'WORK EXPERIENCE'."
+          },
+          {
+            "severity": "minor",
+            "title": "Misspelled skill keyword",
+            "detail": "'Finacial Modeling' under SKILLS is misspelled, so any keyword match or filter searching for 'Financial Modeling' will miss it entirely. Correct the spelling."
+          },
+          {
+            "severity": "minor",
+            "title": "Inconsistent date formatting",
+            "detail": "Dates mix formats: 'May 2024 - Aug 2024' versus '06/2023-09/2023'. Some parsers date-bucket entries incorrectly when formats vary; use one consistent format throughout, e.g. 'Month YYYY - Month YYYY'."
+          }
+        ]
+      },
+      {
+        "id": "tone",
+        "label": "Industry fit",
+        "max": 15,
+        "score": 9,
+        "notes": "",
+        "issues": [
+          {
+            "severity": "major",
+            "title": "Objective reads generic, not finance",
+            "detail": "\"Incredibly passionate and detail-oriented team player seeking a world-class finance internship where I can leverage my skills\" uses the inflated, interchangeable language a screener associates with a mass-mailed template, not a candidate who has done the work. Cut the adjectives and state what you actually bring."
+          },
+          {
+            "severity": "minor",
+            "title": "Skills list too thin and generic",
+            "detail": "\"Finacial Modeling, Excel, PowerPoint\" (also misspelled) reads as entry-level software literacy rather than finance-specific capability. A screener expects precision here - name the actual tools and modeling work from your Pinecrest experience, not a catch-all list."
+          }
+        ]
+      },
+      {
+        "id": "polish",
+        "label": "Proofing & consistency",
+        "max": 15,
+        "score": 4,
+        "notes": "",
+        "issues": [
+          {
+            "severity": "major",
+            "title": "Objective is pure filler",
+            "detail": "\"Incredibly passionate and detail-oriented team player seeking a world-class finance internship where I can leverage my skills\" is generic boilerplate that reads identically on any other student's resume. Cut it or replace with specific, factual positioning."
+          },
+          {
+            "severity": "major",
+            "title": "Verb tense breaks mid-bullet",
+            "detail": "Under Pinecrest (a finished internship), bullets mix \"Responsible for maintaining,\" \"Assisted with,\" and \"Builds models\" (present tense). A screener reads the tense shift as carelessness; make all three past tense since the role ended."
+          },
+          {
+            "severity": "minor",
+            "title": "Date formats don't match",
+            "detail": "Pinecrest shows \"May 2024 - Aug 2024\" while Duke Investment Club shows \"06/2023-09/2023\" - two different date styles on one page. Pick one format (spelled-out month or MM/YYYY) and apply it everywhere."
+          },
+          {
+            "severity": "minor",
+            "title": "Misspelled skill heading",
+            "detail": "\"Finacial Modeling\" in the Skills line is missing the 'n' in Financial. A typo in the skills list itself undercuts the claim to being detail-oriented; proofread this line specifically."
+          }
+        ]
+      }
+    ],
+    "improvements": [
+      {
+        "severity": "major",
+        "title": "Objective statement at the top",
+        "detail": "The 'Incredibly passionate...leverage my skills' block is the first thing a screener reads and says nothing about you. Cut it entirely and let Education and Experience open the page.",
+        "dimension": "First impression"
+      },
+      {
+        "severity": "major",
+        "title": "No GPA next to degree",
+        "detail": "Education lists school, degree and 2029 grad date but no GPA. On a finance resume this reads as a GPA worth hiding. Add it directly after the degree line.",
+        "dimension": "First impression"
+      },
+      {
+        "severity": "major",
+        "title": "Weak opener, no outcome",
+        "detail": "'Responsible for maintaining the weekly dividend screen' reads as a duty, not an accomplishment. A screener sees no scope (how many names?) and no result (what did the screen catch or change?). Lead with the action and close on impact.",
+        "dimension": "Experience & impact"
+      },
+      {
+        "severity": "major",
+        "title": "Vague research bullet, no result",
+        "detail": "'Assisted with various research projects for the consumer team' names no company, no deliverable, and no outcome - 'various' signals you can't recall specifics. State what you researched and what it fed into (a pitch, a memo, a client call).",
+        "dimension": "Experience & impact"
+      },
+      {
+        "severity": "major",
+        "title": "Non-standard heading 'MY JOURNEY'",
+        "detail": "'MY JOURNEY' is not a recognized section header, so parsers may fail to tag the Pinecrest and Duke Investment Club entries as work experience at all. Rename to 'EXPERIENCE' or 'WORK EXPERIENCE'.",
+        "dimension": "Keywords & scanning"
+      },
+      {
+        "severity": "major",
+        "title": "Objective reads generic, not finance",
+        "detail": "\"Incredibly passionate and detail-oriented team player seeking a world-class finance internship where I can leverage my skills\" uses the inflated, interchangeable language a screener associates with a mass-mailed template, not a candidate who has done the work. Cut the adjectives and state what you actually bring.",
+        "dimension": "Industry fit"
+      },
+      {
+        "severity": "major",
+        "title": "Objective is pure filler",
+        "detail": "\"Incredibly passionate and detail-oriented team player seeking a world-class finance internship where I can leverage my skills\" is generic boilerplate that reads identically on any other student's resume. Cut it or replace with specific, factual positioning.",
+        "dimension": "Proofing & consistency"
+      },
+      {
+        "severity": "major",
+        "title": "Verb tense breaks mid-bullet",
+        "detail": "Under Pinecrest (a finished internship), bullets mix \"Responsible for maintaining,\" \"Assisted with,\" and \"Builds models\" (present tense). A screener reads the tense shift as carelessness; make all three past tense since the role ended.",
+        "dimension": "Proofing & consistency"
+      },
+      {
+        "severity": "minor",
+        "title": "References line at the bottom",
+        "detail": "'Available upon request' is assumed in finance recruiting and wastes the bottom of the page. Delete it and use that space for a third bullet or a leadership/activities line.",
+        "dimension": "First impression"
+      },
+      {
+        "severity": "minor",
+        "title": "Inconsistent date formatting",
+        "detail": "Pinecrest uses 'May 2024 - Aug 2024' while Duke Investment Club uses '06/2023-09/2023' with no spaces. Pick one date style and apply it to both entries.",
+        "dimension": "First impression"
+      },
+      {
+        "severity": "minor",
+        "title": "Tense slip, no measurable use",
+        "detail": "'Builds models used in client portfolio reviews' is present tense while every other bullet is past, and 'used in' doesn't say how often or to what effect. Fix the tense and quantify the reviews or the model's role.",
+        "dimension": "Experience & impact"
+      },
+      {
+        "severity": "minor",
+        "title": "Pitch bullet has no outcome",
+        "detail": "'Presented stock pitches to the club' doesn't say how many, on what names, or whether any were adopted, debated, or ranked well. A bare activity line - add count and result.",
+        "dimension": "Experience & impact"
+      },
+      {
+        "severity": "minor",
+        "title": "Misspelled skill keyword",
+        "detail": "'Finacial Modeling' under SKILLS is misspelled, so any keyword match or filter searching for 'Financial Modeling' will miss it entirely. Correct the spelling.",
+        "dimension": "Keywords & scanning"
+      },
+      {
+        "severity": "minor",
+        "title": "Inconsistent date formatting",
+        "detail": "Dates mix formats: 'May 2024 - Aug 2024' versus '06/2023-09/2023'. Some parsers date-bucket entries incorrectly when formats vary; use one consistent format throughout, e.g. 'Month YYYY - Month YYYY'.",
+        "dimension": "Keywords & scanning"
+      },
+      {
+        "severity": "minor",
+        "title": "Skills list too thin and generic",
+        "detail": "\"Finacial Modeling, Excel, PowerPoint\" (also misspelled) reads as entry-level software literacy rather than finance-specific capability. A screener expects precision here - name the actual tools and modeling work from your Pinecrest experience, not a catch-all list.",
+        "dimension": "Industry fit"
+      },
+      {
+        "severity": "minor",
+        "title": "Date formats don't match",
+        "detail": "Pinecrest shows \"May 2024 - Aug 2024\" while Duke Investment Club shows \"06/2023-09/2023\" - two different date styles on one page. Pick one format (spelled-out month or MM/YYYY) and apply it everywhere.",
+        "dimension": "Proofing & consistency"
+      },
+      {
+        "severity": "minor",
+        "title": "Misspelled skill heading",
+        "detail": "\"Finacial Modeling\" in the Skills line is missing the 'n' in Financial. A typo in the skills list itself undercuts the claim to being detail-oriented; proofread this line specifically.",
+        "dimension": "Proofing & consistency"
+      }
+    ],
+    "rewrites": [
+      {
+        "kind": "bullet",
+        "severity": "major",
+        "before": "Responsible for maintaining the weekly dividend screen.",
+        "after": "Maintained weekly dividend screen across [add figure: how many names/sectors tracked], surfacing [add figure: how many] actionable dividend changes for the consumer team.",
+        "note": "Swap opener for action verb, add scope and result."
+      },
+      {
+        "kind": "bullet",
+        "severity": "major",
+        "before": "Assisted with various research projects for the consumer team.",
+        "after": "Researched [add detail: specific companies or subsector] for the consumer team, findings incorporated into [add outcome: pitch, memo, or client deck].",
+        "note": "Name the companies researched and the deliverable."
+      },
+      {
+        "kind": "bullet",
+        "severity": "minor",
+        "before": "Builds models used in client portfolio reviews.",
+        "after": "Built [add detail: model type, e.g., DCF or comps] models used in [add figure: number] client portfolio reviews.",
+        "note": "Fix tense to past; quantify usage."
+      },
+      {
+        "kind": "bullet",
+        "severity": "minor",
+        "before": "Presented stock pitches to the club.",
+        "after": "Presented [add figure: number] stock pitches to the club, with [add outcome: e.g., one added to model portfolio].",
+        "note": "Add count and result of the pitches."
+      },
+      {
+        "kind": "summary",
+        "severity": "major",
+        "before": "Incredibly passionate and detail-oriented team player seeking a world-class finance internship where I can leverage my skills.",
+        "after": "Duke Economics student with experience maintaining a dividend screen and building client portfolio models at a wealth management firm, seeking an investment banking analyst internship with a focus on consumer sector coverage.",
+        "note": "Replace adjectives with specific, verifiable experience and focus."
+      },
+      {
+        "kind": "skills",
+        "severity": "minor",
+        "before": "Finacial Modeling, Excel, PowerPoint",
+        "after": "Financial Modeling, Excel, PowerPoint, [add: Bloomberg/Capital IQ/VBA if used at Pinecrest]",
+        "note": "Fix spelling; add any specific tools actually used."
+      }
+    ]
+  }
+}

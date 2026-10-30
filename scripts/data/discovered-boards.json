@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-09-20T20:34:52.314Z",
+  "count": 21,
+  "discovered": [
+    {
+      "firmId": "ecd27036-3992-44a0-9e4d-cb97d29a5c3d",
+      "sourceId": "1a82e71c-a4fe-449d-bbaf-ff9dc7ee057e",
+      "firmName": "Ducera Partners",
+      "currentUrl": "https://boards.greenhouse.io/ducerapartnerscampus",
+      "connectorId": "greenhouse",
+      "boardUrl": "http://job-boards.greenhouse.io/ducerapartnerscampus",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "9e92920e-be05-4d09-b2c4-27ee68371fd2",
+      "sourceId": "1e1d0f3f-85f1-4204-94dc-0008d7107480",
+      "firmName": "CIBC Capital Markets",
+      "currentUrl": "https://www.cibc.com/en/about-cibc/careers.html",
+      "connectorId": "workday",
+      "boardUrl": "https://cibc.wd3.myworkdayjobs.com/search?q=banking+centre&jobFamilyGroup=4bbe6c74e8a7011d49ad22a881011310&jobFamilyGroup=4bbe6c74e8a70132da752ca881011910&Country=a30a87ed25634629aa6c3958aa2b91ea",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "50c85b93-b250-4365-b4e5-b171cab5dc45",
+      "sourceId": "460788d0-bc43-4ea0-b2d7-302831af00e6",
+      "firmName": "BNP Paribas USA",
+      "currentUrl": "https://bnppus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-5db317b8ad85/candidate/jobboard/vacancy/1/adv/",
+      "connectorId": "talentlink",
+      "boardUrl": "https://bnppus.tal.net/candidate/jobboard/vacancy/1/adv/",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "6e369a00-91ce-4c63-974d-c901c92d25a8",
+      "sourceId": "623bcc61-b939-430a-ad76-45f3bd3ae4e6",
+      "firmName": "Solomon Partners (fka Peter J. Solomon Company)",
+      "currentUrl": "https://job-boards.greenhouse.io/solomonpartnersstudentsgraduates",
+      "connectorId": "greenhouse",
+      "boardUrl": "http://job-boards.greenhouse.io/solomonpartnersstudentsgraduates",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "dc8e9f35-4950-4bf9-b56b-b88bc3a3f0cb",
+      "sourceId": "6d00459e-23b4-41cb-93bf-9ac59d7033b9",
+      "firmName": "Symmetry Investments LP",
+      "currentUrl": "https://jobs.lever.co/symmetryinvestments",
+      "connectorId": "lever",
+      "boardUrl": "https://jobs.lever.co/symmetryinvestments",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "fd9a5e2d-817f-4336-ba63-b72c72be0f53",
+      "sourceId": "7f22395c-0fa3-4337-980c-2ff93af5120b",
+      "firmName": "Satori Capital, LLC",
+      "currentUrl": "https://jobs.lever.co/satoricapital",
+      "connectorId": "lever",
+      "boardUrl": "https://jobs.lever.co/satoricapital",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "643d3c9b-c8ef-4503-8ad4-b4254e6460c1",
+      "sourceId": "92e741aa-bf5e-4e26-86de-d9a809f68954",
+      "firmName": "Learn Capital",
+      "currentUrl": "https://learncapital.getro.com/jobs",
+      "connectorId": "ashby",
+      "boardUrl": "https://jobs.ashbyhq.com/amplify/bbf801cb-1b92-42dc-8d0d-51e908f2bc32",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "5126c91a-3afa-47b9-bfdc-6c7b5fc70e71",
+      "sourceId": "731e5e0d-320a-46ee-91c7-71fe5e347859",
+      "firmName": "Endless LLP",
+      "currentUrl": "https://endless.breezy.hr/",
+      "connectorId": "breezy",
+      "boardUrl": "https://endless.breezy.hr/?share_id=0.9333416840522044",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "97777da7-3af4-4cb3-b48d-d7ecc81174d3",
+      "sourceId": "845b7afa-f692-455e-9a2d-5190cf4afe60",
+      "firmName": "True",
+      "currentUrl": "https://true.breezy.hr/",
+      "connectorId": "breezy",
+      "boardUrl": "https://true.breezy.hr/?share_id=0.007006301705483553",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "8e0f12d3-489e-44f7-8374-04a488624395",
+      "sourceId": "b28b6b98-eaf3-43ff-a7b5-3873f58f1107",
+      "firmName": "Setpoint Capital",
+      "currentUrl": "https://job-boards.greenhouse.io/setpointcapital",
+      "connectorId": "greenhouse",
+      "boardUrl": "http://job-boards.greenhouse.io/setpointcapital",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "a7a6ae2c-52a3-41a4-b7b2-dc603ad14280",
+      "sourceId": "d7234990-4599-4146-9faa-6db6d4dcff13",
+      "firmName": "M33 Growth LLC",
+      "currentUrl": "https://jobs.lever.co/m33growth",
+      "connectorId": "lever",
+      "boardUrl": "https://jobs.lever.co/m33growth",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "6245efbb-ef0d-49a4-a16a-13cc92524c45",
+      "sourceId": "21f24401-a913-47ee-ad2b-46f47e18681c",
+      "firmName": "Acme",
+      "currentUrl": "https://acme.breezy.hr/",
+      "connectorId": "breezy",
+      "boardUrl": "https://acme.breezy.hr/?share_id=0.20440113367035506",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "00533376-87aa-4e64-a3a0-eedb4947ef30",
+      "sourceId": "9ed8a1e6-1169-4509-a842-78e805453784",
+      "firmName": "Ballistic Ventures",
+      "currentUrl": "https://ballisticventures.getro.com/jobs",
+      "connectorId": "lever",
+      "boardUrl": "https://jobs.lever.co/revealtech/7c4ccab2-dce5-42de-8ca0-811b5a6a9ed0",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "5b36883f-9a5d-4c1c-a4ef-287a0fbd81b0",
+      "sourceId": "72570cbf-4648-476e-826d-e487a99cf4fa",
+      "firmName": "Mac Venture Capital",
+      "currentUrl": "https://macventurecapital.getro.com/jobs",
+      "connectorId": "getro",
+      "boardUrl": "https://www.getro.com/getro-jobs",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "e78484c1-1ff3-490c-92f8-9690b396fafa",
+      "sourceId": "5e85cedb-39fc-4aa7-8824-c2f702c9b994",
+      "firmName": "Pact",
+      "currentUrl": "https://job-boards.greenhouse.io/pact",
+      "connectorId": "greenhouse",
+      "boardUrl": "http://job-boards.greenhouse.io/pact",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "a83934de-db13-4f11-808e-edc662513d6f",
+      "sourceId": "998bd260-f1e3-48a1-b4d6-e906e9fad422",
+      "firmName": "Juxtapose",
+      "currentUrl": "https://jobs.ashbyhq.com/juxtapose",
+      "connectorId": "ashby",
+      "boardUrl": "https://jobs.ashbyhq.com/juxtapose",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "2b076701-f8e6-4c9a-92d2-04357783ab07",
+      "sourceId": "966e1161-da3a-4185-841f-90f034d2060f",
+      "firmName": "Laurion Capital Management LP",
+      "currentUrl": "https://job-boards.greenhouse.io/laurioncapitalmanagement",
+      "connectorId": "greenhouse",
+      "boardUrl": "http://job-boards.greenhouse.io/laurioncapitalmanagement",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "a2e8dd8e-a46f-4647-8ec8-2c8a377725ea",
+      "sourceId": "f02313a1-2593-4feb-9a01-fc60ebd7baca",
+      "firmName": "Theorem",
+      "currentUrl": "https://jobs.ashbyhq.com/theorem",
+      "connectorId": "ashby",
+      "boardUrl": "https://jobs.ashbyhq.com/theorem",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "60af88c4-ead0-49e3-96a8-54af04ba08ee",
+      "sourceId": "3f05506c-a7a3-4eed-9ba5-46b8ef428e44",
+      "firmName": "Lead Edge Capital Management, LLC",
+      "currentUrl": "https://job-boards.greenhouse.io/leadedgecapitalmanagement",
+      "connectorId": "greenhouse",
+      "boardUrl": "http://job-boards.greenhouse.io/leadedgecapitalmanagement",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "76519f36-5c93-418a-a238-91c48e21c241",
+      "sourceId": "55300349-2b3f-41a9-aca1-53dfec7ae060",
+      "firmName": "Energize Capital LLC",
+      "currentUrl": "https://job-boards.greenhouse.io/energizecapital",
+      "connectorId": "greenhouse",
+      "boardUrl": "http://job-boards.greenhouse.io/energizecapital",
+      "viaVendorCdn": false
+    },
+    {
+      "firmId": "ae5e5bcf-930c-4fc3-8084-f53a4f641040",
+      "sourceId": "323d5197-74f5-4e23-bf4d-b02ba49d9b08",
+      "firmName": "Mercury Fund",
+      "currentUrl": "https://mercuryfund.getro.com/jobs",
+      "connectorId": "ashby",
+      "boardUrl": "https://jobs.ashbyhq.com/plasma/1e03282b-3f40-4701-a1c8-9aaa984b99f0",
+      "viaVendorCdn": false
+    }
+  ]
+}

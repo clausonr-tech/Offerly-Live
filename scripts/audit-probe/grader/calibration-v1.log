@@ -1,0 +1,172 @@
+scripts/draft-reply-grader.ts - 28 emails, one model call each, blind.
+  judge claude-sonnet-5-5 (pinned)
+  prompt reply-grader/1 (sha 8700addf89d0)
+  arm post (the email that would reach the student)
+  from scripts/audit-probe/output1/q-full.json, scripts/audit-probe/output1/q-sparse.json
+  4 at a time, 2 attempts each, one pass
+  transport: claude CLI on the subscription - nothing here bills anything.
+  601 would_reply
+  602 off_putting
+  603 would_reply
+  604 would_reply
+  606 off_putting
+  607 off_putting
+  614 would_reply
+  615 would_reply
+  616 off_putting
+  617 off_putting
+  644 off_putting
+  645 off_putting
+  646 off_putting
+  647 would_reply
+  660 would_reply
+  661 would_reply
+  801 off_putting
+  804 off_putting
+  805 would_reply
+  807 off_putting
+  808 off_putting
+  806 would_reply
+  809 off_putting
+  817 would_ignore
+  815 would_ignore
+  816 would_ignore
+  818 would_reply
+  819 off_putting
+
+=== DISTRIBUTION (post-review) ===
+graded 28, errored 0  
+
+  would_reply    11 of 28  (39%)
+  would_ignore    3 of 28  (11%)
+  off_putting    14 of 28  (50%)
+
+  THE NUMBER: 11 of 28 would get a reply.
+
+  Tells, most common first:
+     23  cv_recital
+     14  placeholder_left_in
+     10  reads_machine_written
+      9  template_closer
+      4  no_ask
+      2  overclaims_connection
+      2  no_specific_reason
+      1  awkward_phrasing
+      1  vague_ask
+
+  worst_line was verbatim in 28 of 28 (0 emails had nothing to name).
+
+  Per email:
+    601  would_reply   137w  Met at the summit, a Duke/Atlanta link, and two concrete factual questions I can answer in two lines: "when does the sophomore program open?"
+         worst: "I'm also a consumer sector analyst in the Duke Investment Club."
+         tells: cv_recital
+    602  off_putting   131w  An unfilled slot, "graduating in [graduation month] 2029", sits in the middle of the intro and shows a template was sent without a check.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, cv_recital, reads_machine_written
+    603  would_reply   137w  Emily Tran, someone from my team, pointed her to me ("interned on your team and suggested I write to you"), and the ask is a easy 10-15 minute call, so I'd write back with a time.
+         worst: "Thank you for your time!"
+         tells: template_closer, cv_recital
+    604  would_reply   160w  Emily Tran, who interned on my team, pointed her to me ("suggested that I reach out to you"), and the ask is a simple 10-15 minute call, so I'd answer with a time.
+         worst: "Any time that suits you works for me, and my resume is attached if you'd like more detail on the screening model."
+         tells: cv_recital
+    606  off_putting   157w  The unfilled slot "graduating in [graduation month] 2029" shows a sloppy mail-merge, and the stacked connections (referral, summit, alum, "fellow Atlanta native") feel padded.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, overclaims_connection, reads_machine_written, cv_recital
+    607  off_putting   139w  The unfilled slot "graduating in [graduation month] 2029" shows a template, and the referral line is muddled ("I interned on her team" for a club president), so I trust the rest less.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, awkward_phrasing, reads_machine_written, cv_recital
+    614  would_reply   158w  Referral from someone I know ("Emily Tran, president of the Duke Investment Club, interned on your team"), a real meeting, a fellow Duke alum, and a clear 10-15 minute ask make it easy to say "sure, try Thursday."
+         worst: "Thank you so much for your time!"
+         tells: template_closer, cv_recital
+    615  would_reply   149w  A named referral from an intern on my team plus a specific conversation we had ("the grocery chain turnaround") and a small, clear ask of "10-15 minutes for a call" make this easy to say yes to.
+         worst: "Thank you so much for your time!"
+         tells: template_closer, cv_recital
+    616  off_putting   170w  The unfilled slot "graduating in [graduation month] 2029" shows a mail-merge or machine draft, and it undercuts the specific referral and meeting details, even though the two questions are easy to answer.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, reads_machine_written, cv_recital
+    617  off_putting   158w  The unfilled slot "I graduate in [graduation month] 2029" shows a mail-merge sent without a read-through, and it makes the "kept thinking about" warmth feel fake.
+         worst: "I graduate in [graduation month] 2029."
+         tells: placeholder_left_in, reads_machine_written, cv_recital
+    644  off_putting   174w  The unfilled slot "graduating in [graduation month] 2029" shows a template was sent without checking, which undercuts the otherwise real connection (we met, and Marcus referred her).
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, cv_recital, reads_machine_written
+    645  off_putting   173w  The unfilled slot "graduating in [graduation month] 2029" shows a template, which undercuts the personal details about the summit and the grocery turnaround.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, reads_machine_written, cv_recital
+    646  off_putting   163w  The unfilled slot "graduating in [graduation month] 2029" shows a mail-merge template, and it undercuts the personal details about meeting me at the summit.
+         worst: "I'm studying Economics and graduating in [graduation month] 2029"
+         tells: placeholder_left_in, cv_recital, reads_machine_written
+    647  would_reply    85w  She's following up on a real conversation, attached the resume with the req number "my application is in under req #55120", so forwarding it is a trivial action and I'd likely reply with a one-liner.
+         worst: "Hearing how you pick which consumer brands have staying power was a highlight for me, and it ties directly to my work as the consumer sector analyst in the Duke Investment Club."
+    660  would_reply   115w  I referred her to Ben, she followed up, and acted on my advice ("I started tracking three consumer brands"), with a concrete, small ask of 15 minutes before a clear deadline.
+         worst: "I'm a consumer sector analyst in Duke Investment Club, and this summer at Pinecrest Wealth Partners I built a screening model for 40 dividend stocks used in client portfolio reviews."
+         tells: cv_recital
+    661  would_reply   113w  She's someone I actually spoke with in March, I pointed her to Ben, and she asks for a small, concrete thing ("Would you have 15 minutes before then?"), so I'd send a quick yes or a time.
+         worst: "I'd like to hear where my thinking on those brands is still thin, and I'm flexible on timing."
+    801  off_putting   119w  The unfilled slot "graduating in [graduation month] 2029" shows a mail-merge template, and the questions it asks are ones the recruiting page would answer.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, no_specific_reason, cv_recital, overclaims_connection, reads_machine_written
+    804  off_putting   107w  The unfilled slot "graduating in [graduation month] 2029" shows a mail-merge template went out unchecked, which makes me think the referral name is boilerplate too.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, cv_recital, template_closer
+    805  would_reply   140w  We actually met at the summit and share Duke, she references the grocery turnaround I talked about, and the ask is a specific 10-15 minute call, so I'd write back with a time.
+         worst: "Any time that suits you works for me, and my resume is attached."
+    806  would_reply   128w  We met at the summit, Emily Tran sent her, and she asks for a simple 10-15 minute call, so I'd write back with a time: "Emily Tran, who interned on the consumer team last summer, suggested I reach out to you."
+         worst: "Any time that suits you works for me, and my resume is attached."
+         tells: cv_recital
+    807  off_putting   133w  The unfilled slot in "I graduate in [graduation month] 2029" shows the email was templated and not proofread, and that outweighs the real referral and the two easy questions.
+         worst: "I graduate in [graduation month] 2029."
+         tells: placeholder_left_in, cv_recital
+    808  off_putting   122w  The unfilled slot "graduating in [graduation month] 2029" shows a mail-merge draft sent without a read-through, which overrides the otherwise easy, specific questions.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, cv_recital
+    809  off_putting    98w  The unfilled slot "[what you originally asked Marcus about]" in the opening line shows a mail-merge or template left unchecked, and it undermines the one thing that made the referral useful.
+         worst: "after I emailed him about [what you originally asked Marcus about]."
+         tells: placeholder_left_in, cv_recital, template_closer, reads_machine_written, no_specific_reason
+    815  would_ignore  105w  It's a friendly update from someone I did speak with, but the only ask is "a few minutes to catch up sometime," so there's nothing concrete for me to answer in a line.
+         worst: "If you have a few minutes to catch up sometime, I'd enjoy that, and I understand if things are busy."
+         tells: vague_ask, cv_recital, template_closer
+    816  would_ignore   71w  It's a polite thank-you for an intro I made, and I'd read it warmly, but nothing in it needs an answer, and the internship line "built a dividend stock screen" is an unrelated aside.
+         worst: "Since then, I interned at Pinecrest Wealth Partners for the summer and built a dividend stock screen."
+         tells: no_ask, template_closer, cv_recital
+    817  would_ignore   56w  It's a polite thank-you for an intro I made, and "Please don't feel you need to write back" tells me I can skip it, so I'd read it warmly and not type anything.
+         worst: "Please don't feel you need to write back."
+         tells: no_ask
+    818  would_reply    77w  Rachel made the intro to Ben and the student closed the loop with a thanks and congratulations on "promoted to director", so I'd likely type a quick "glad it worked out, congrats to you too."
+         worst: "I'd enjoy staying in touch and will keep you posted on how things go."
+         tells: no_ask, template_closer
+    819  off_putting    71w  The email has an unfilled slot where the point should be: "[one specific thing from Ben's advice]". It's a thank-you that was sent without being finished, so it looks careless.
+         worst: "[one specific thing from Ben's advice]"
+         tells: placeholder_left_in, no_ask, template_closer, cv_recital
+
+  Notional cost: $0.1646 of subscription accounting for 28 calls (6723 output tokens). Billed to nobody.
+
+=== CALIBRATION against the 28-email human read ===
+docs/concepts/audit/OUTPUT-1-quality.md, 11 October 2026.
+Human totals: 13 would reply, 14 off-putting, 1 deliberately expects no reply, 0 merely ignored.
+
+  AGREEMENT: 26 of 28 verdicts match (93%).
+  Baseline to beat: always answering "off_putting" would score 14 of 28 (50%).
+  817 ("no reply wanted" in the human read) was graded "would_ignore" - counted as agreement.
+
+  2 DISAGREEMENTS, both reasons side by side:
+
+  --- 815 (q-sparse.json) ---
+    human: would_reply
+           Congratulations first, update second, no ask. A two-line reply is easy.
+    judge: would_ignore
+           It's a friendly update from someone I did speak with, but the only ask is "a few minutes to catch up sometime," so there's nothing concrete for me to answer in a line.
+           worst_line: "If you have a few minutes to catch up sometime, I'd enjoy that, and I understand if things are busy."
+           tells: vague_ask, cv_recital, template_closer
+
+  --- 816 (q-sparse.json) ---
+    human: would_reply
+           Short and warm, though the review cut the one sentence with a pulse.
+    judge: would_ignore
+           It's a polite thank-you for an intro I made, and I'd read it warmly, but nothing in it needs an answer, and the internship line "built a dividend stock screen" is an unrelated aside.
+           worst_line: "Since then, I interned at Pinecrest Wealth Partners for the summer and built a dividend stock screen."
+           tells: no_ask, template_closer, cv_recital
+
+
+Total: 28 calls, 28 graded, 0 errored, $0.1646 of subscription accounting.
+Wrote scripts/audit-probe/grader/calibration-v1.json

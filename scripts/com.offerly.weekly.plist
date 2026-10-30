@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  The one scheduled step that spends money: a capped 25 model calls filling in
+  eligibility the deterministic parser could not read.
+
+  Separate from the hourly crawl on purpose. Folded into that job it would be
+  600 Haiku calls a day to re-learn almost nothing - firms publish eligibility
+  once, months ahead.
+
+  Sundays 04:15.
+
+  Install:
+    cp scripts/com.offerly.weekly.plist ~/Library/LaunchAgents/
+    launchctl load ~/Library/LaunchAgents/com.offerly.weekly.plist
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.offerly.weekly</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>"/Users/kaiclauson/Developer/Offerly Bing Bong/scripts/scheduled-crawl.sh" weekly</string>
+  </array>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key><integer>0</integer>
+    <key>Hour</key><integer>4</integer>
+    <key>Minute</key><integer>15</integer>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/offerly-weekly.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/offerly-weekly.err.log</string>
+
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>

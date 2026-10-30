@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  A SANITIZED, COMMITTED sample of the SEC Form ADV Part 1A firm feed.
+
+  Hand-written, not a slice of the real 2.9MB extract. Firm names and website
+  addresses are public information straight off the filings; every CRD number,
+  headcount and RAUM figure below is SYNTHETIC and deliberately unrealistic
+  (CRDs are sequential from 900001) so nothing here can be mistaken for real
+  regulatory data or quietly become a source of truth.
+
+  Each <Firm> block is one scenario the parser has to get right. The scenarios
+  are named in the comment above each block and asserted by name in
+  scripts/test/form-adv.test.ts - if you add a block, add its assertion.
+
+  The real feed is IA_FIRM_SEC_Feed_MM_DD_YYYY.xml.gz and is attribute-only
+  XML, which is why the parser splits on <Firm> rather than taking an XML
+  parser dependency to read six attributes.
+-->
+<IAPDFirmSECReport>
+
+  <!-- 1. NORMAL CORPORATE WEBSITE. The ordinary case: one address, the
+          firm's own domain, both size figures present. -->
+  <Firm>
+    <Info FirmCrdNb="900001" SECRgnCD="NYRO" BusNm="Evercore Inc." LegalNm="Evercore Inc."/>
+    <MainAddr Strt1="55 East 52nd Street" City="New York" State="NY" Cntry="United States"/>
+    <Item5A TtlEmp="2100"/>
+    <Item5F Q5F2A="11000000000" Q5F2B="1000000000" Q5F2C="12000000000"/>
+    <WebAddr>https://www.evercore.com</WebAddr>
+  </Firm>
+
+  <!-- 2. MISSING WEBSITE. Common for small advisers. Must parse - the CRD,
+          name and size are still usable - with domain null. -->
+  <Firm>
+    <Info FirmCrdNb="900002" SECRgnCD="CHRO" BusNm="Quietwater Advisers LLC" LegalNm="Quietwater Advisers LLC"/>
+    <MainAddr Strt1="1 Wacker Drive" City="Chicago" State="IL" Cntry="United States"/>
+    <Item5A TtlEmp="4"/>
+    <Item5F Q5F2C="185000000"/>
+  </Firm>
+
+  <!-- 3. LINKEDIN COUNTRY SUBDOMAIN. ch.linkedin.com is the Swiss LinkedIn,
+          not a Swiss firm. Rejected by SUBDOMAIN, not by exact match - an
+          exact-match blocklist lets every country subdomain through, and 13
+          of them are in the firm directory today because of that. -->
+  <Firm>
+    <Info FirmCrdNb="900003" SECRgnCD="NYRO" BusNm="Alpenblick Capital AG" LegalNm="Alpenblick Capital AG"/>
+    <MainAddr Strt1="Bahnhofstrasse 1" City="Zurich" State="" Cntry="Switzerland"/>
+    <Item5A TtlEmp="31"/>
+    <Item5F Q5F2C="2400000000"/>
+    <WebAddr>https://ch.linkedin.com/company/alpenblick-capital</WebAddr>
+  </Firm>
+
+  <!-- 4. CAREERS SUBDOMAIN. A real host belonging to the real firm. KEPT:
+          Form ADV is where size comes from, and dropping the row would lose
+          the headcount as well. Whether careers.db.com may vouch for an
+          EMAIL is a different question, answered by classifyDomain. -->
+  <Firm>
+    <Info FirmCrdNb="900004" SECRgnCD="NYRO" BusNm="Deutsche Bank Securities Inc." LegalNm="Deutsche Bank Securities Inc."/>
+    <MainAddr Strt1="1 Columbus Circle" City="New York" State="NY" Cntry="United States"/>
+    <Item5A TtlEmp="8400"/>
+    <Item5F Q5F2C="94000000000"/>
+    <WebAddr>https://careers.db.com/</WebAddr>
+  </Firm>
+
+  <!-- 5. ATS / JOBS HOST. morganstanley.tal.net is an applicant tracking
+          system, not the firm. Same treatment as the careers subdomain and
+          for the same reason: it is still uniquely this firm's, so it sizes
+          correctly and is refused later, at the email gate. tal.net reaching
+          verified_domain is the bug this fixture pins. -->
+  <Firm>
+    <Info FirmCrdNb="900005" SECRgnCD="NYRO" BusNm="Morgan Stanley Smith Barney LLC" LegalNm="Morgan Stanley Smith Barney LLC"/>
+    <MainAddr Strt1="1585 Broadway" City="New York" State="NY" Cntry="United States"/>
+    <Item5A TtlEmp="15500"/>
+    <Item5F Q5F2C="1450000000000"/>
+    <WebAddr>https://morganstanley.tal.net/candidate/jobboard/vacancy/1/adv/</WebAddr>
+  </Firm>
+
+  <!-- 6. SHARED PARENT-COMPANY DOMAIN (the parent). key.com covers three
+          separate filers. First writer wins in the index; this is the one
+          that wins. -->
+  <Firm>
+    <Info FirmCrdNb="900006" SECRgnCD="CHRO" BusNm="KeyCorp" LegalNm="KeyCorp"/>
+    <MainAddr Strt1="127 Public Square" City="Cleveland" State="OH" Cntry="United States"/>
+    <Item5A TtlEmp="17000"/>
+    <Item5F Q5F2C="52000000000"/>
+    <WebAddr>https://www.key.com</WebAddr>
+  </Firm>
+
+  <!-- 7. SUBSIDIARY WITH THE SAME DOMAIN. Cain Brothers is a healthcare
+          investment bank inside KeyBanc; it files key.com too. A COLLISION,
+          not an error in the feed - and the reason a domain index must never
+          be read as "this domain is that firm". -->
+  <Firm>
+    <Info FirmCrdNb="900007" SECRgnCD="NYRO" BusNm="Cain Brothers &amp; Company, LLC" LegalNm="Cain Brothers &amp; Company, LLC"/>
+    <MainAddr Strt1="452 Fifth Avenue" City="New York" State="NY" Cntry="United States"/>
+    <Item5A TtlEmp="120"/>
+    <Item5F Q5F2C="0"/>
+    <WebAddr>https://www.key.com/about/cain-brothers.html</WebAddr>
+  </Firm>
+
+  <!-- 8. NONTRADITIONAL BUT LEGITIMATE TLD. home.barclays is a brand TLD, so
+          the host has no dot-com and `.barclays` IS the public suffix. Any
+          check that assumes two labels, or that strips a leading subdomain,
+          breaks here. -->
+  <Firm>
+    <Info FirmCrdNb="900008" SECRgnCD="NYRO" BusNm="Barclays Capital Inc." LegalNm="Barclays Capital Inc."/>
+    <MainAddr Strt1="745 Seventh Avenue" City="New York" State="NY" Cntry="United States"/>
+    <Item5A TtlEmp="9200"/>
+    <Item5F Q5F2C="76000000000"/>
+    <WebAddr>https://home.barclays/careers/</WebAddr>
+  </Firm>
+
+  <!-- 9. MALFORMED WEBSITE. Three unusable addresses and nothing else. Must
+          yield domain null WITHOUT throwing: one exception here aborts the
+          whole 2.9MB parse. -->
+  <Firm>
+    <Info FirmCrdNb="900009" SECRgnCD="BSRO" BusNm="Fatfinger Partners LP" LegalNm="Fatfinger Partners LP"/>
+    <MainAddr Strt1="10 Post Office Square" City="Boston" State="MA" Cntry="United States"/>
+    <Item5A TtlEmp="7"/>
+    <Item5F Q5F2C="410000000"/>
+    <WebAddr>http://</WebAddr>
+    <WebAddr>not a url at all</WebAddr>
+    <WebAddr>://broken.example</WebAddr>
+  </Firm>
+
+  <!-- 10. DUPLICATE / CONFLICTING RECORD. The same CRD filed twice with
+           different figures - an amended filing left in the feed. The index
+           keeps the first and the audit must be able to COUNT the rest
+           rather than silently overwrite. -->
+  <Firm>
+    <Info FirmCrdNb="900010" SECRgnCD="NYRO" BusNm="Doubled Advisors LLC" LegalNm="Doubled Advisors LLC"/>
+    <MainAddr Strt1="200 Park Avenue" City="New York" State="NY" Cntry="United States"/>
+    <Item5A TtlEmp="55"/>
+    <Item5F Q5F2C="3100000000"/>
+    <WebAddr>https://doubledadvisors.example</WebAddr>
+  </Firm>
+  <Firm>
+    <Info FirmCrdNb="900010" SECRgnCD="NYRO" BusNm="Doubled Advisors LLC (amended)" LegalNm="Doubled Advisors LLC"/>
+    <MainAddr Strt1="200 Park Avenue" City="New York" State="NY" Cntry="United States"/>
+    <Item5A TtlEmp="58"/>
+    <Item5F Q5F2C="3300000000"/>
+    <WebAddr>https://www.doubledadvisors.example/</WebAddr>
+  </Firm>
+
+  <!-- 11. SOCIAL LISTED FIRST. Item 1.I takes several addresses and filers
+           put their LinkedIn in the first slot. Taking addresses[0] is how
+           Blue Owl Real Estate became linkedin.com. -->
+  <Firm>
+    <Info FirmCrdNb="900011" SECRgnCD="NYRO" BusNm="Secondslot Capital Management LLC" LegalNm="Secondslot Capital Management LLC"/>
+    <MainAddr Strt1="9 West 57th Street" City="New York" State="NY" Cntry="United States"/>
+    <Item5A TtlEmp="240"/>
+    <Item5F Q5F2C="18000000000"/>
+    <WebAddr>https://www.linkedin.com/company/secondslot</WebAddr>
+    <WebAddr>https://open.spotify.com/show/secondslot-podcast</WebAddr>
+    <WebAddr>https://www.secondslot.example</WebAddr>
+  </Firm>
+
+  <!-- 12. ZERO AUM WITH A HEADCOUNT. A pure advisory firm manages nothing.
+           Zero must survive as zero: read as "unknown" it floats over a size
+           floor it should fail. -->
+  <Firm>
+    <Info FirmCrdNb="900012" SECRgnCD="SFRO" BusNm="Puresell Advisory Group LLC" LegalNm="Puresell Advisory Group LLC"/>
+    <MainAddr Strt1="1 Market Street" City="San Francisco" State="CA" Cntry="United States"/>
+    <Item5A TtlEmp="18"/>
+    <Item5F Q5F2A="0" Q5F2B="0" Q5F2C="0"/>
+    <WebAddr>https://puresell.example</WebAddr>
+  </Firm>
+
+  <!-- 13. MISSING SIZE FIELDS ENTIRELY. Exempt reporting advisers often file
+           neither item. Null is unknown; it must never read as zero, which
+           would make the firm look tiny instead of unmeasured. -->
+  <Firm>
+    <Info FirmCrdNb="900013" SECRgnCD="NYRO" BusNm="Unstated Capital LLC" LegalNm="Unstated Capital LLC"/>
+    <MainAddr Strt1="300 Park Avenue" City="New York" State="NY" Cntry="United States"/>
+    <WebAddr>https://unstated.example</WebAddr>
+  </Firm>
+
+  <!-- 14. NO NAME AT ALL. A truncated block. The parser drops it rather than
+           inventing an empty-named firm that would take a domain key. -->
+  <Firm>
+    <MainAddr Strt1="Nowhere" City="Nowhere" State="ZZ" Cntry="United States"/>
+    <Item5A TtlEmp="1"/>
+    <WebAddr>https://nameless.example</WebAddr>
+  </Firm>
+
+  <!-- 15. BUSINESS NAME ABSENT, LEGAL NAME PRESENT. BusNm is preferred; the
+           fall back to LegalNm is what keeps these firms in the file. -->
+  <Firm>
+    <Info FirmCrdNb="900015" SECRgnCD="NYRO" LegalNm="Legalonly Holdings L.L.C."/>
+    <MainAddr Strt1="1 State Street" City="New York" State="NY" Cntry="United States"/>
+    <Item5A TtlEmp="12"/>
+    <Item5F Q5F2C="640000000"/>
+    <WebAddr>legalonly.example</WebAddr>
+  </Firm>
+
+</IAPDFirmSECReport>

@@ -1,0 +1,11 @@
+985829ff5df85488ee019d27d3a26e30  src/lib/draft-prompt.ts
+1e042349cf76e76ac7ce796c72853194  src/lib/draft-review.ts
+a53a1bb629a8617bd1f2316c1abfe7f3  src/lib/draft-lint.ts
+e6e114419817d7fdbf4b8b5644e84e77  src/lib/email-examples.ts
+f2122620d667663096298f22210d9283  src/lib/email-examples-v3.json
+4cb381d9c72c57413dc8037b46ab6d92  src/lib/email-examples-v4.json
+da8e47498def06caa118aa7aab030543  src/lib/email-examples-v5.json
+6abcb0232aada08d87a4b247d9de460a  src/lib/draft-templates.ts
+159a07e007688bb39cb9633c953fa5c4  src/lib/draft-occasions.ts
+cbedcdb4b43c75f279e9f9d3f2064d31  scripts/draft-cli-eval.ts
+6437eeed705d38a5ae6d4a0f958196a2  scripts/draft-occasions-sim.ts

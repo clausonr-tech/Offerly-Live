@@ -1,0 +1,3883 @@
+{
+  "at": "2026-10-12T18:34:20.126Z",
+  "retired": [
+    {
+      "id": "0942840a-e5ab-4461-a8bb-9ce744bbdac6",
+      "firm": "PJT Partners",
+      "title": "2027 January Off-Cycle Analyst (PJT Park Hill - Private Capital Soluti",
+      "why": "listing closed"
+    },
+    {
+      "id": "ab73340b-ebe1-48dc-9d1d-34fbbf1ffe29",
+      "firm": "PJT Partners",
+      "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Lo",
+      "why": "listing closed"
+    },
+    {
+      "id": "d06dfa14-a6f4-442f-ac4e-ba29537064a8",
+      "firm": "PJT Partners",
+      "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Mi",
+      "why": "listing closed"
+    },
+    {
+      "id": "565671ba-f908-4644-84e7-8eea799d7604",
+      "firm": "PJT Partners",
+      "title": "2027 Summer Analyst (Corporate Rotational) London",
+      "why": "listing closed"
+    },
+    {
+      "id": "33da405e-169c-49ab-8eec-b29b68c966c1",
+      "firm": "BMO Capital Markets (US)",
+      "title": "UX/UI Designer, Winter 2027 (Co-op/Internship)- 8 months",
+      "why": "listing closed"
+    },
+    {
+      "id": "c7f2cbc5-d524-485b-8c25-6b8dceddbf28",
+      "firm": "Citigroup",
+      "title": "Banking, Corporate Banking, Placement Analyst, Stockholm - Sweden, 202",
+      "why": "listing closed"
+    },
+    {
+      "id": "c90396f1-6d04-4d17-a128-6efa07700df7",
+      "firm": "PJT Partners",
+      "title": "2027 Summer Analyst (PJT Park Hill - Private Capital Solutions) London",
+      "why": "listing closed"
+    },
+    {
+      "id": "eb9682b1-9ba3-4383-a08d-838000f52424",
+      "firm": "D.A. Davidson & Co",
+      "title": "Consumer Group, Investment Banking – Summer Analyst – 2028 Grads",
+      "why": "listing closed"
+    },
+    {
+      "id": "e72347e0-4e6f-4ff5-951a-1744ee18057e",
+      "firm": "Nomura (US)",
+      "title": "2027 - Investment Banking Off Cycle Internship – Paris (January start)",
+      "why": "listing closed"
+    },
+    {
+      "id": "26397210-b987-4a9c-8a36-acf07a935a97",
+      "firm": "Nomura (US)",
+      "title": "2027 Investment Banking Summer Internship Program - Singapore",
+      "why": "listing closed"
+    },
+    {
+      "id": "03e9ab11-1661-479b-b527-9c1fbc05785a",
+      "firm": "Morgan Stanley",
+      "title": "2027 Institutional Equities Off Cycle Internship - Transactional Manag",
+      "why": "listing closed"
+    },
+    {
+      "id": "0e0ac571-dcbd-476f-8819-f17ae8a28066",
+      "firm": "Morgan Stanley",
+      "title": "2027 Japan Summer Analyst Program (Tokyo)",
+      "why": "listing closed"
+    },
+    {
+      "id": "ef1fad53-4db9-4102-bbfe-db2061c6d9db",
+      "firm": "Nomura (US)",
+      "title": "2027 Global Markets Summer Internship Program- Singapore",
+      "why": "listing closed"
+    },
+    {
+      "id": "6b18aefa-ad3d-4894-8b9e-e377d59a067c",
+      "firm": "BDO Capital Advisors",
+      "title": "Advisory Intern, Risk, Resilience - Summer 2027 (New York)",
+      "why": "listing closed"
+    },
+    {
+      "id": "dbf802de-694a-404b-9197-874566c7e1a1",
+      "firm": "Starwood Capital Group",
+      "title": "2027 SREIT Operations Summer Analyst",
+      "why": "listing closed"
+    },
+    {
+      "id": "d8b888b8-eb65-4842-b88a-7f3c4bff8e8d",
+      "firm": "Nomura (US)",
+      "title": "2027 Global Markets Graduate Internship Program- Singapore",
+      "why": "listing closed"
+    },
+    {
+      "id": "202f1b0f-6a9b-4146-a540-e5cdabe75ff9",
+      "firm": "Nomura (US)",
+      "title": "2027 Investment Banking Summer Internship Program - Taiwan",
+      "why": "listing closed"
+    },
+    {
+      "id": "3e2f1b88-ccdb-4956-a46c-ea4a2f9a8325",
+      "firm": "Morgan Stanley",
+      "title": "2027 Technology Summer Analyst Program (Singapore)",
+      "why": "listing closed"
+    },
+    {
+      "id": "a4b49a45-8179-4567-a3ff-203d51f7f895",
+      "firm": "Morgan Stanley",
+      "title": "2027 Finance Summer Analyst Program (Hong Kong)",
+      "why": "listing closed"
+    },
+    {
+      "id": "1a307055-cacd-4577-a4eb-06bcb834793c",
+      "firm": "Citigroup",
+      "title": "Banking, Corporate Banking, Summer Analyst, Amsterdam - The Netherland",
+      "why": "listing closed"
+    },
+    {
+      "id": "dc2e437c-aba4-4911-97ec-9afce760027d",
+      "firm": "Nomura (US)",
+      "title": "2027 Global Markets Graduate Internship Program - Hong Kong",
+      "why": "listing closed"
+    },
+    {
+      "id": "7675af96-53e6-435a-85db-25e609cd2809",
+      "firm": "Morgan Stanley",
+      "title": "2027 Quantitative Finance Off-Cycle Internship (Paris)",
+      "why": "listing closed"
+    },
+    {
+      "id": "180eb0c3-5a1f-40b6-a0f3-2d7d42a67484",
+      "firm": "Morgan Stanley",
+      "title": "2027 Firm Risk Management Summer Analyst Program (Hong Kong)",
+      "why": "listing closed"
+    },
+    {
+      "id": "838ca489-62a8-4ee4-ac8d-02123ae7cf55",
+      "firm": "Citigroup",
+      "title": "Markets – Sales and Trading, Summer Analyst, London – United Kingdom, ",
+      "why": "listing closed"
+    },
+    {
+      "id": "759418d7-8c07-4561-8eab-dfefef97c637",
+      "firm": "Houlihan Lokey",
+      "title": "2027 Summer Financial Analyst - General Partner Advisory (Class of 202",
+      "why": "listing closed"
+    },
+    {
+      "id": "fa89850c-4ee6-4414-b8d6-8bdbdf562456",
+      "firm": "Morgan Stanley",
+      "title": "2027 Sales and Trading Off-Cycle Internship (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "255ab384-df0b-4a02-8f3e-ad24f284b524",
+      "firm": "Baker Tilly Capital",
+      "title": "Managed Services Associates (HR Consulting) (BT Summer Intern Conversi",
+      "why": "listing closed"
+    },
+    {
+      "id": "e16d24f3-bd8d-4095-a29c-c8b145e023be",
+      "firm": "Morgan Stanley",
+      "title": "2027 Fixed Income Off-Cycle Internship (Copenhagen)",
+      "why": "listing closed"
+    },
+    {
+      "id": "c91b4258-1c48-4501-ae31-7bd6b4a13ef6",
+      "firm": "Greenhill & Co",
+      "title": "2027-01-01 00:00:00+00",
+      "why": "listing closed"
+    },
+    {
+      "id": "76134370-9d6f-47f2-9f2f-69da950a1469",
+      "firm": "Lightbank",
+      "title": "Vertical Operations Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "f29058bd-19a8-4773-bbf1-8242ae5487da",
+      "firm": "Houlihan Lokey",
+      "title": "Corporate Development Intern (Summer 2027)",
+      "why": "listing closed"
+    },
+    {
+      "id": "e7a5fdba-bf78-4aab-ad6b-60310e79f6ee",
+      "firm": "Morgan Stanley",
+      "title": "2027 Internal Audit - Technology Audit Summer Analyst Program (New Yor",
+      "why": "listing closed"
+    },
+    {
+      "id": "ffd825c2-1d22-42ff-a0dd-017f332ce589",
+      "firm": "Moelis & Company",
+      "title": "2027 Summer Analyst, Private Capital Advisory – London",
+      "why": "listing closed"
+    },
+    {
+      "id": "dc73e993-3740-4b70-a80a-6cce9841b1fc",
+      "firm": "Moelis & Company",
+      "title": "2027 Summer Analyst, Investment Banking - Private Capital Advisory LP-",
+      "why": "listing closed"
+    },
+    {
+      "id": "0f822eaf-9bdc-4f14-91fe-ffb2c0c4f23b",
+      "firm": "Raymond James",
+      "title": "AMP Financial Advisor Trainee",
+      "why": "listing closed"
+    },
+    {
+      "id": "70744b0d-b81e-4537-b344-831f2d913ebc",
+      "firm": "Nomura (US)",
+      "title": "2027 Investment Banking Summer Internship Program - Hong Kong",
+      "why": "listing closed"
+    },
+    {
+      "id": "eff815d5-a45d-4255-95d8-8cc0c632f387",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking Off-Cycle Internship (Dubai)",
+      "why": "listing closed"
+    },
+    {
+      "id": "70637e35-164b-4658-9565-dbfd11f46726",
+      "firm": "William Blair",
+      "title": "London Investment Banking Summer Analyst, Summer 2027 Programme",
+      "why": "listing closed"
+    },
+    {
+      "id": "6c664318-3cfc-4808-86e6-fb9cfecc3dec",
+      "firm": "Financial Technology Partners",
+      "title": "2027 January IBD Intern Analyst (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "4060e0a7-9334-465a-989c-fa7611fae624",
+      "firm": "Morgan Stanley",
+      "title": "2027 Institutional Equity Division Industrial Placement / Summer Analy",
+      "why": "listing closed"
+    },
+    {
+      "id": "f756e0c1-d6fb-4e5d-93e3-d8a5e4505646",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Management Off-Cycle Internship – Parametric EMEA (Par",
+      "why": "listing closed"
+    },
+    {
+      "id": "ab4e3f48-dd3c-49f6-97cc-32e926221253",
+      "firm": "Berkeley Research Group",
+      "title": "2027 Summer Associate (Intern)",
+      "why": "listing closed"
+    },
+    {
+      "id": "936531c3-92f8-4cf9-bdc3-0baa06ab718c",
+      "firm": "Mizuho Americas",
+      "title": "Mizuho | Greenhill - Investment Banking Internship 2027 (Stockholm)",
+      "why": "listing closed"
+    },
+    {
+      "id": "37a9ecc7-95eb-4856-831c-ae4d1e30e64d",
+      "firm": "Morgan Stanley",
+      "title": "2027 Internal Audit Summer Analyst Programme (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "77de7798-b57f-493c-a876-c430e2bd85a9",
+      "firm": "Jefferies",
+      "title": "2027 Investment Banking Summer Associate Program – Charlotte or New Yo",
+      "why": "listing closed"
+    },
+    {
+      "id": "08933315-ddea-4ebb-80a2-95e91c873d28",
+      "firm": "JPMorgan",
+      "title": "2027 Markets Quantitative Trading & Research Analyst Program – Off-Cyc",
+      "why": "listing closed"
+    },
+    {
+      "id": "ac89a50e-2595-4b50-9bf0-248175b38712",
+      "firm": "Morgan Stanley",
+      "title": "2027 Internal Audit - Technology Audit Summer Analyst Program (Baltimo",
+      "why": "listing closed"
+    },
+    {
+      "id": "f2ae7026-0458-4788-8ce9-a9328fed15db",
+      "firm": "Nomura (US)",
+      "title": "2027 International Wealth Management Summer Internship Program – Hong ",
+      "why": "listing closed"
+    },
+    {
+      "id": "049619bd-8eed-4340-9bce-eb740ab4ed6b",
+      "firm": "Morgan Stanley",
+      "title": "2027 AlphaWise Summer Associate Program (New York)",
+      "why": "listing closed"
+    },
+    {
+      "id": "64f7d127-0983-4ada-b6f5-74ec7b8dd9e8",
+      "firm": "Stifel",
+      "title": "2027 Eaton Partners Project Management/Execution Summer Analyst - Stam",
+      "why": "listing closed"
+    },
+    {
+      "id": "8d265fa7-8d2a-4448-9a4e-3669f360df89",
+      "firm": "Citigroup",
+      "title": "Banking, Corporate Banking, Placement Analyst, Helsinki - Finland, 202",
+      "why": "listing closed"
+    },
+    {
+      "id": "9bd99c77-854f-4523-96d6-9e13c41d493b",
+      "firm": "Nomura (US)",
+      "title": "2027 - Global Markets (Sales, Trading, Structuring & Research) - Summe",
+      "why": "listing closed"
+    },
+    {
+      "id": "15d70688-74eb-462d-ab17-9d089b4275b4",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking Off-Cycle Internship (Frankfurt or Munich)",
+      "why": "listing closed"
+    },
+    {
+      "id": "79ae0439-1ec8-4199-8eec-1ec1eee19f14",
+      "firm": "Morgan Stanley",
+      "title": "2027 Operations Summer Analyst Program (Baltimore)",
+      "why": "listing closed"
+    },
+    {
+      "id": "e6f144b2-b1ec-4840-9945-a30b1b5f3219",
+      "firm": "Morgan Stanley",
+      "title": "2027 Marketing Summer Analyst Program (New York)",
+      "why": "listing closed"
+    },
+    {
+      "id": "81f53da7-6e2f-4f80-b316-b729683e887d",
+      "firm": "Citigroup",
+      "title": "Services – Internship, Bogotá – Colombia, 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "a23adce1-5f88-4ff9-ae2b-815b71449e75",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking Off-Cycle Internship - Real Estate Banking (Pa",
+      "why": "listing closed"
+    },
+    {
+      "id": "0807a501-0cb1-4a73-9a7d-565f15b2b2cb",
+      "firm": "Citigroup",
+      "title": "Services - Summer Analyst, Ireland - Dublin, 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "2708cbc6-2a72-4272-9274-f51b99535626",
+      "firm": "Raymond James",
+      "title": "AMP Financial Advisor Trainee - Bedford, NH",
+      "why": "listing closed"
+    },
+    {
+      "id": "8caf628b-87e0-40be-a514-e2000c6644c3",
+      "firm": "Baker Tilly Capital",
+      "title": "Managed Services Associates (AFS) (BT Intern Conversions Only)",
+      "why": "listing closed"
+    },
+    {
+      "id": "e9582bb8-6f2a-4e4d-9d4c-209ec635d67b",
+      "firm": "Lazard",
+      "title": "2027 Q2 or Q3 – M&A Internship – Zurich",
+      "why": "listing closed"
+    },
+    {
+      "id": "700ad051-f986-4cc1-9afa-7774d8f06c8d",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Wealth Management Internship, Summer 2027- Newport Beach, CA (10 Weeks",
+      "why": "listing closed"
+    },
+    {
+      "id": "c3aa8e71-c2ab-42fb-97aa-08239b56ac2a",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Private Wealth Administrative Assistant - Peterborough, Winter 2027 (C",
+      "why": "listing closed"
+    },
+    {
+      "id": "a81f212a-9dd1-4314-aee7-23ea85952a8b",
+      "firm": "Moelis & Company",
+      "title": "2027 Summer Analyst, Investment Banking - Capital Structure Advisory -",
+      "why": "listing closed"
+    },
+    {
+      "id": "59472948-0fb1-4997-83dc-d05ff03c221d",
+      "firm": "Moelis & Company",
+      "title": "2027 Summer Analyst, Investment Banking – Hong Kong",
+      "why": "listing closed"
+    },
+    {
+      "id": "39e952e0-6a9c-410d-82ce-e4c86a23207d",
+      "firm": "Ankura",
+      "title": "Internship 2027, Disputes & Economics",
+      "why": "listing closed"
+    },
+    {
+      "id": "78dd6fbe-6b1d-4b0f-9dc0-e0206267a767",
+      "firm": "Ankura",
+      "title": "Summer Internship 2027, Construction, Disputes & Advisory (Graduate Pr",
+      "why": "listing closed"
+    },
+    {
+      "id": "0a3008ed-77a2-47ba-ac1d-d10e253b2db4",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 MUFG 6 month Milan  internship: Japanese Corporate Banking Divisi",
+      "why": "listing closed"
+    },
+    {
+      "id": "8aa92cc4-a465-48bf-bb45-4a7601035eb2",
+      "firm": "Ankura",
+      "title": "University Intern, Disputes & Economics",
+      "why": "listing closed"
+    },
+    {
+      "id": "6476aa60-5148-4182-acd3-8cae977e0fbe",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 MUFG 6 month Amsterdam internship: Japanese Corporate Banking Div",
+      "why": "listing closed"
+    },
+    {
+      "id": "1628150e-4882-4214-a61e-fd0519a66ae1",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Business Management Coordinator, Winter 2027 (Co-op/Internship) - 4 mo",
+      "why": "listing closed"
+    },
+    {
+      "id": "3caecb01-fe6c-4dad-9a4b-e11474a574c2",
+      "firm": "Citigroup",
+      "title": "Citi Global Wealth, Summer Analyst, Geneva - Switzerland, 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "58a034a2-ad2f-4211-9a7b-c423d7ec5db2",
+      "firm": "Citigroup",
+      "title": "Banking, Investment Banking, Placement Analyst, Madrid - Spain 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "cfcefe23-a51d-476f-a807-2fad91f1fd92",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Personal Banking Associate, Winter 2027 (Co-op/Internship), Magog - 4 ",
+      "why": "listing closed"
+    },
+    {
+      "id": "c8b27a5a-c863-49f3-9e1d-3c2ff892638d",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Personal Banking Associate, Winter 2027 (Co-op/Internship), Saint-Geor",
+      "why": "listing closed"
+    },
+    {
+      "id": "002db096-f272-489b-9a87-dade27511f75",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Marketing Coordinator, Winter 2027 (Co-op/Internship) - 8 Months",
+      "why": "listing closed"
+    },
+    {
+      "id": "aa271b4c-e9f7-4aad-a995-ffc702542aec",
+      "firm": "Evercore",
+      "title": "Private Capital Advisory - Credit Advisory Off-Cycle Internship (Jan -",
+      "why": "listing closed"
+    },
+    {
+      "id": "b45b5572-5f52-4574-b6d4-3a56badbcfbb",
+      "firm": "Moelis & Company",
+      "title": "2028 Summer Analyst, Investment Banking - Houston",
+      "why": "listing closed"
+    },
+    {
+      "id": "f0752567-ceab-4cc2-89cd-c6e59b175fb3",
+      "firm": "Evercore",
+      "title": "Stockholm Off-Cycle Internship - Generalist Team (January - June 2027)",
+      "why": "listing closed"
+    },
+    {
+      "id": "e057b076-95c7-45db-b34d-dba4fdbf292c",
+      "firm": "Nomura (US)",
+      "title": "2027 - Investment Banking Off Cycle Internship – Paris (July start)",
+      "why": "listing closed"
+    },
+    {
+      "id": "9ea88c7c-50ae-4384-b925-b3974aa6ebee",
+      "firm": "Evercore",
+      "title": "Q3 2027 Internship Programme (Frankfurt)",
+      "why": "listing closed"
+    },
+    {
+      "id": "48095f28-47d2-4ab8-8f93-b5796d6a28d3",
+      "firm": "PJT Partners",
+      "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) St",
+      "why": "listing closed"
+    },
+    {
+      "id": "5287f07f-777b-415c-b246-c366753513d5",
+      "firm": "PJT Partners",
+      "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Ho",
+      "why": "listing closed"
+    },
+    {
+      "id": "784b8881-ba1b-482d-86cc-a5726236fdac",
+      "firm": "Evercore",
+      "title": "2028 Strategic Advisory: Mergers & Acquisitions Summer Analyst Program",
+      "why": "listing closed"
+    },
+    {
+      "id": "a05a9074-add8-4cc8-aebf-9f076a8c1493",
+      "firm": "PJT Partners",
+      "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Mu",
+      "why": "listing closed"
+    },
+    {
+      "id": "c21bf37e-0bee-48c7-8684-9f873acc2899",
+      "firm": "Evercore",
+      "title": "Paris Off-Cycle Internship - Telecoms Team (January - June 2027)",
+      "why": "listing closed"
+    },
+    {
+      "id": "1399eebc-0c63-4cc8-b1b9-f996c79b9a24",
+      "firm": "Barclays (US)",
+      "title": "Global Transaction Banking Summer Internship Programme 2027 Dublin",
+      "why": "listing closed"
+    },
+    {
+      "id": "6dedf4be-2b4d-483a-9697-d18c8040f659",
+      "firm": "Lazard",
+      "title": "2027-03-01 00:00:00+00",
+      "why": "listing closed"
+    },
+    {
+      "id": "42e8faff-4970-4241-97de-68fbe5c5f82b",
+      "firm": "Morgan Stanley",
+      "title": "2027 Non-Financial Risk Summer Analyst Programme (Glasgow)",
+      "why": "listing closed"
+    },
+    {
+      "id": "455195f7-5182-46ae-82b9-744d45855ab9",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Personal Banking Associate, Winter 2027 (Co-op/Internship), Victoriavi",
+      "why": "listing closed"
+    },
+    {
+      "id": "91befe76-858c-4820-bb1b-2a34b91fa458",
+      "firm": "Lazard",
+      "title": "2027 Asset Management Business Strategy Summer Internship",
+      "why": "listing closed"
+    },
+    {
+      "id": "74c41bcc-7022-4e4b-95e3-c32cada81fb0",
+      "firm": "Group 11",
+      "title": "Intern Operations & Process Automation - Credit Underwriting (m/f/d)*",
+      "why": "listing closed"
+    },
+    {
+      "id": "84444e74-2d4f-48c0-8d89-48e691eeaa08",
+      "firm": "Citigroup",
+      "title": "Services - Summer Analyst, UK - London, 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "373daf0e-60c6-478c-8142-1e5fae792fe7",
+      "firm": "Group 11",
+      "title": "Intern for Governance / Reporting, Compliance in Group Technology (IT)",
+      "why": "listing closed"
+    },
+    {
+      "id": "0f515d1b-b809-4b71-829f-1d1bc9922ac9",
+      "firm": "Berkeley Research Group",
+      "title": "Intern - Economics, Disputes and Investigations",
+      "why": "listing closed"
+    },
+    {
+      "id": "be12dfad-640f-4974-ba28-97bdae95341e",
+      "firm": "Baker Tilly Capital",
+      "title": "Summer 2027 - Digital Advisory Solutions Internship",
+      "why": "listing closed"
+    },
+    {
+      "id": "a5c70fee-db31-4c38-8433-ba5722f675d7",
+      "firm": "Stout",
+      "title": "Intern Summer 2027, Business Valuation (Cleveland)",
+      "why": "listing closed"
+    },
+    {
+      "id": "9f320ac8-0403-49c0-ad7c-109693dd4d05",
+      "firm": "Miller Buckfire",
+      "title": "2027 Eaton Partners Private Capital Advisory Summer Analyst - New York",
+      "why": "listing closed"
+    },
+    {
+      "id": "db0b09a3-de3d-4ab4-8cc6-6cdaa48ef848",
+      "firm": "Stout",
+      "title": "Intern Summer 2027, Business Valuation (Detroit)",
+      "why": "listing closed"
+    },
+    {
+      "id": "f167dcf0-cf6f-4b68-8edb-0e7f8f47c5dd",
+      "firm": "Clera",
+      "title": "Sales - Internship",
+      "why": "listing closed"
+    },
+    {
+      "id": "26f88a03-4214-4540-b9bc-f02621acddf3",
+      "firm": "Stout",
+      "title": "Intern Summer 2027, Real Estate (Dallas)",
+      "why": "listing closed"
+    },
+    {
+      "id": "c533817c-ecbe-4e46-b235-ad53f7243a94",
+      "firm": "Stout",
+      "title": "Intern Summer 2027, Real Estate (Chicago)",
+      "why": "listing closed"
+    },
+    {
+      "id": "06ddd7ea-0d81-4b81-bad1-0baa1def3c77",
+      "firm": "Stout",
+      "title": "Intern Summer 2027, Machinery and Equipment (Chicago)",
+      "why": "listing closed"
+    },
+    {
+      "id": "aec6fe98-3021-48f5-9f33-6814a7efa041",
+      "firm": "Stout",
+      "title": "Intern Summer 2027, Business Valuation (Houston)",
+      "why": "listing closed"
+    },
+    {
+      "id": "bd6d9705-a587-4168-b74f-cd7a10d698ec",
+      "firm": "Stout",
+      "title": "Summer 2027 Intern - Disputes, Claims & Investigations: Philadelphia",
+      "why": "listing closed"
+    },
+    {
+      "id": "dd1560d8-9591-4c57-a770-4eea75768406",
+      "firm": "Barclays (US)",
+      "title": "International Corporate Banking Off Cycle Internship Programme 2027 Am",
+      "why": "listing closed"
+    },
+    {
+      "id": "6f81b039-a59a-466d-abd1-4692ba77fea3",
+      "firm": "Clera",
+      "title": "Sales Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "fad10815-4f06-4138-82fb-2a194871ab37",
+      "firm": "Group 11",
+      "title": "Actuarial Co-op, Life & Health (2027 Summer - Montreal, 4 months)",
+      "why": "listing closed"
+    },
+    {
+      "id": "122a2561-24c3-4d0b-8842-b58eeacfd89e",
+      "firm": "Nomura (US)",
+      "title": "2027 - Global Markets - Rates Structuring  -  Off Cycle Internship – P",
+      "why": "listing closed"
+    },
+    {
+      "id": "170e005e-8c90-46b7-85a7-d86222b15abf",
+      "firm": "Nomura (US)",
+      "title": "2027 - Investment Banking Off Cycle Internship – Madrid (July start)",
+      "why": "listing closed"
+    },
+    {
+      "id": "528026b3-6da2-4c8c-832d-6e1b2bc30ed1",
+      "firm": "Cowen (now TD Cowen)",
+      "title": "Branch Manager Trainee - Outremont, Montreal",
+      "why": "listing closed"
+    },
+    {
+      "id": "a3a06be4-4a0d-4f10-aaf4-53b23f16df2b",
+      "firm": "Cowen (now TD Cowen)",
+      "title": "Branch Manager Trainee - Sherbrooke, Estrie",
+      "why": "listing closed"
+    },
+    {
+      "id": "85b67f19-92f2-43ee-9594-2e0ebc08e8f3",
+      "firm": "Group 11",
+      "title": "Werkstudent Alternatives ESG Integration - Schwerpunkt Immobilien (m|w",
+      "why": "listing closed"
+    },
+    {
+      "id": "84d0ab46-e142-4481-8faf-6f7a88fe6aa6",
+      "firm": "Aleph",
+      "title": "Global Partnerships Operations Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "e925a103-30bb-43d5-8df4-94373b63146f",
+      "firm": "Group 11",
+      "title": "Internship Opportunity: Actuary with focus on Risk modelling (m/f/d)*",
+      "why": "listing closed"
+    },
+    {
+      "id": "9ceeb355-2315-48f3-9464-7c43e556122c",
+      "firm": "Morgan Stanley",
+      "title": "2027 Sales & Trading Summer Analyst Programme (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "23a5d458-f796-4b76-b5b6-ce1cbf43b4e8",
+      "firm": "Morgan Stanley",
+      "title": "2027 Fund Services Summer Analyst Programme - Accounting (Glasgow)",
+      "why": "listing closed"
+    },
+    {
+      "id": "e6df526b-1aaf-421b-b6e6-3afa6964b432",
+      "firm": "Morgan Stanley",
+      "title": "2027 Finance Summer Analyst Programme (Glasgow)",
+      "why": "listing closed"
+    },
+    {
+      "id": "71adbdce-e444-4f6c-a824-c3e9f51456e2",
+      "firm": "Morgan Stanley",
+      "title": "2027 Institutional Equities Trading Off-Cycle Internship (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "e468059f-d46d-45d7-8a5b-54aea612b697",
+      "firm": "Morgan Stanley",
+      "title": "2027 Sales & Trading Off-Cycle Internship (Zurich)",
+      "why": "listing closed"
+    },
+    {
+      "id": "e0dadc5b-6258-4140-8934-ae673823c880",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Management Off-Cycle Internship - Real Estate Investin",
+      "why": "listing closed"
+    },
+    {
+      "id": "d218e07b-aa4c-4c00-922e-12e1f166d805",
+      "firm": "Morgan Stanley",
+      "title": "2027 Sales & Trading Off-Cycle Internship Business Control Unit (Paris",
+      "why": "listing closed"
+    },
+    {
+      "id": "e96ca2ba-93d4-4534-bb81-32dfb4ab1b86",
+      "firm": "Morgan Stanley",
+      "title": "2027 Technology Industrial Placement Programme (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "608f13a7-25a1-4922-ac55-978f0fbf36ad",
+      "firm": "Morgan Stanley",
+      "title": "2027 Operations Off-Cycle Analyst Programme (Glasgow)",
+      "why": "listing closed"
+    },
+    {
+      "id": "b6b7c10b-1e87-4869-a581-de22d355f223",
+      "firm": "Morgan Stanley",
+      "title": "2027 Firm Risk Management Summer Analyst Program (Singapore)",
+      "why": "listing closed"
+    },
+    {
+      "id": "510bcdea-ef62-4e77-8e2d-36d79c9bdc4c",
+      "firm": "Morgan Stanley",
+      "title": "2027 Finance Industrial Placement Programme (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "80c83f1d-0bdd-4bfa-9452-30e095a33d9d",
+      "firm": "Morgan Stanley",
+      "title": "2027 Operations Summer Analyst Programme (Glasgow)",
+      "why": "listing closed"
+    },
+    {
+      "id": "7c4e0f25-32f7-447a-a653-a1530bef7a31",
+      "firm": "Morgan Stanley",
+      "title": "2027 Fixed Income Division Industrial Placement / Summer Analyst Progr",
+      "why": "listing closed"
+    },
+    {
+      "id": "5b255847-65fb-419e-961e-d79d34f4708f",
+      "firm": "Morgan Stanley",
+      "title": "2027 Global Capital Markets Industrial Placement / Summer Analyst Prog",
+      "why": "listing closed"
+    },
+    {
+      "id": "d19490a3-8972-4801-ac8b-f7bbfd311646",
+      "firm": "Morgan Stanley",
+      "title": "2027 Technology Summer Analyst Programme - Application Development (Gl",
+      "why": "listing closed"
+    },
+    {
+      "id": "49ce35af-4d71-4f94-9610-cbe35b781bf8",
+      "firm": "Morgan Stanley",
+      "title": "2027 Operations Industrial Placement Programme (Frankfurt)",
+      "why": "listing closed"
+    },
+    {
+      "id": "023b3c92-245c-4d02-9d58-3e995f3f284d",
+      "firm": "Morgan Stanley",
+      "title": "2027 Technology Summer Analyst Program (Hong Kong)",
+      "why": "listing closed"
+    },
+    {
+      "id": "0d3481c5-7efd-4a8c-a4b7-26b5a0907309",
+      "firm": "Clera",
+      "title": "Growth & Marketing Intern / New-Grad",
+      "why": "listing closed"
+    },
+    {
+      "id": "4ecf7812-eea5-4ade-aa83-c786ee8e875f",
+      "firm": "MUFG Securities Americas",
+      "title": "2001-01-01 00:00:00+00",
+      "why": "listing closed"
+    },
+    {
+      "id": "bce5b699-ef49-4ab5-a200-796c612a6ae3",
+      "firm": "Morgan Stanley",
+      "title": "2027 Institutional Equity Division Quantitative Finance Summer Analyst",
+      "why": "listing closed"
+    },
+    {
+      "id": "d42c5264-1f68-4b5c-afc5-7b5cc7f2f830",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Management Off-Cycle Internship - Global Sales & Marke",
+      "why": "listing closed"
+    },
+    {
+      "id": "9b4f7704-0ab9-4780-b277-97f824eeab98",
+      "firm": "Morgan Stanley",
+      "title": "2027 ISG & MSIM Spring Insight Programme (Frankfurt)",
+      "why": "listing closed"
+    },
+    {
+      "id": "bcb1e4fb-6cc1-448a-b51e-a6e34d49e13b",
+      "firm": "Morgan Stanley",
+      "title": "2027 Sales & Trading Off-Cycle Internship (Frankfurt)",
+      "why": "listing closed"
+    },
+    {
+      "id": "f7ce8062-6e19-4cb9-9eb2-84679d256772",
+      "firm": "Rothschild & Co (US)",
+      "title": "Private Equity Analyst Intern (FAPEP) – Fund investments, secondaries ",
+      "why": "listing closed"
+    },
+    {
+      "id": "a05d22c9-813a-4f1a-8cd1-fd3084e008ea",
+      "firm": "Morgan Stanley",
+      "title": "2027 Sales & Trading Off-Cycle Internship (Madrid)",
+      "why": "listing closed"
+    },
+    {
+      "id": "8bbf4b98-a8e4-4507-96b6-24e3d696f917",
+      "firm": "Morgan Stanley",
+      "title": "2027 Spring Investment Management Fixed Income Co-op Program – Investm",
+      "why": "listing closed"
+    },
+    {
+      "id": "e00223a0-54db-4ff4-b3fc-c15fe1729d4d",
+      "firm": "Lightbank",
+      "title": "Data Analytics Intern (8 months)",
+      "why": "listing closed"
+    },
+    {
+      "id": "e971f95d-8677-49df-8b53-c02a6052e712",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Management  Off-cycle Internship – Emerging Markets Tr",
+      "why": "listing closed"
+    },
+    {
+      "id": "191d37b6-2d24-4024-9e13-5697f95c5249",
+      "firm": "Morgan Stanley",
+      "title": "2027 Institutional Equity Derivatives & Trading Co-Op (New York)",
+      "why": "listing closed"
+    },
+    {
+      "id": "170cb280-049e-43dc-8d2c-ef88f94b2589",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking Industrial Placement Program (Taipei)",
+      "why": "listing closed"
+    },
+    {
+      "id": "fa2e9ffc-a639-486a-9438-0596539a5be8",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Quantitative Developer (Alpha Research Team) - GAM, Summer 2027 (Co-op",
+      "why": "listing closed"
+    },
+    {
+      "id": "d725a654-91b4-44a3-b22a-de8879256340",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Private Wealth Analyst, Summer 2027 (Co-op/Internship) - 4 months",
+      "why": "listing closed"
+    },
+    {
+      "id": "5fd6456d-9e35-4c74-a7d5-f018a0d37486",
+      "firm": "Lazard",
+      "title": "2027 Q2 - Debt Advisory & Restructuring Internship - Frankfurt",
+      "why": "listing closed"
+    },
+    {
+      "id": "2d3a700e-dc29-416a-960e-df3e9e6de027",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 MUFG UK Apprenticeship Programme: Treasury Services",
+      "why": "listing closed"
+    },
+    {
+      "id": "149be492-a0e4-46ba-bd34-af14ccda3dec",
+      "firm": "Lazard",
+      "title": "Stage H/F - Analyste Fixed Income Pôle High Yield – Janvier 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "7a8f52ae-60d0-4839-b5de-e1b5189ab34a",
+      "firm": "Miller Buckfire",
+      "title": "2027 Eaton Partners Project Management/Execution Summer Analyst - Stam",
+      "why": "listing closed"
+    },
+    {
+      "id": "a6407266-d99b-4592-85c7-97fe1b360db2",
+      "firm": "Cain Brothers",
+      "title": "2027 KBCM Investment Banking Summer Analyst - Boston, MA",
+      "why": "listing closed"
+    },
+    {
+      "id": "5a99aa08-3dda-41dc-8080-b1078cb6f7ce",
+      "firm": "Lightbank",
+      "title": "People & Culture Intern (10 months)",
+      "why": "listing closed"
+    },
+    {
+      "id": "a0a11c87-c4d8-4a03-8946-481ebafb7680",
+      "firm": "Morgan Stanley",
+      "title": "2027 Fixed Income Off-Cycle Internship (Milan)",
+      "why": "listing closed"
+    },
+    {
+      "id": "c743acfd-af1f-4915-866c-106ded004676",
+      "firm": "Morgan Stanley",
+      "title": "2027 Sales & Trading Off-Cycle Internship (Paris)",
+      "why": "listing closed"
+    },
+    {
+      "id": "399cb183-439c-476a-b6d5-206e8d6b9510",
+      "firm": "Morgan Stanley",
+      "title": "2027 Global Capital Markets Off-Cycle Internship (Paris)",
+      "why": "listing closed"
+    },
+    {
+      "id": "45d9176f-eefb-49f8-bec2-d06355fc90e6",
+      "firm": "Morgan Stanley",
+      "title": "2027 Technology Summer Analyst Programme (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "008693fa-6da3-4192-be00-dec72b7710e0",
+      "firm": "Morgan Stanley",
+      "title": "2027 Corporate Treasury Industrial Placement Programme (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "27f089c7-0fbd-456e-b521-84055ae0a46e",
+      "firm": "Morgan Stanley",
+      "title": "2027 Institutional Equity Division Business Control Unit Industrial Pl",
+      "why": "listing closed"
+    },
+    {
+      "id": "81cc8fbc-5d86-4c98-ae14-9dc873993034",
+      "firm": "Morgan Stanley",
+      "title": "2027 Fund Services Summer Analyst Programme - Analytics (Glasgow)",
+      "why": "listing closed"
+    },
+    {
+      "id": "6ff041be-e6f2-49a9-b286-5ec4297af73e",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking Off-Cycle Internship (Stockholm)",
+      "why": "listing closed"
+    },
+    {
+      "id": "e019cc0e-307d-48d5-9749-a2cc1c7fafa1",
+      "firm": "Piper Sandler",
+      "title": "Off-Cycle Internship Programme",
+      "why": "listing closed"
+    },
+    {
+      "id": "f13e0cef-797f-4dbd-8abc-92362c7a4d3c",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking Industrial Placement / Summer Analyst Program ",
+      "why": "listing closed"
+    },
+    {
+      "id": "385d7a1b-0b1c-4a7a-8609-c6ada3f2ccda",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking Off-Cycle Internship (Paris)",
+      "why": "listing closed"
+    },
+    {
+      "id": "18ea8ab9-4b9a-4f98-a9ae-eafeb1e3be1f",
+      "firm": "Group 11",
+      "title": "Actuarial Data Scientist Intern (Non-Life) (m/f/d)*",
+      "why": "listing closed"
+    },
+    {
+      "id": "e021b719-6d71-451b-ac9b-aaba92199046",
+      "firm": "Houlihan Lokey",
+      "title": "Off-Cycle Intern, Financial and Valuation Advisory - London",
+      "why": "listing closed"
+    },
+    {
+      "id": "92bc6ed6-30d8-4eec-bd4b-b26abc8b4103",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Management Off-Cycle Internship - Real Estate Investin",
+      "why": "listing closed"
+    },
+    {
+      "id": "b64b863f-19a6-40b8-b2f6-fe91a251c9ae",
+      "firm": "Group 11",
+      "title": "Werkstudent AI Governance (m/w/d)",
+      "why": "listing closed"
+    },
+    {
+      "id": "6824096f-5000-4e6c-9f18-7edcce510b0e",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 MUFG Apprenticeship Programme: Client KYC",
+      "why": "listing closed"
+    },
+    {
+      "id": "df7b1db4-77e0-457f-9125-0c0670253362",
+      "firm": "Ankura",
+      "title": "University Intern, Disputes & Economics - Valuation & Transaction Advi",
+      "why": "listing closed"
+    },
+    {
+      "id": "5f0d1af8-d26d-480f-9e1d-9c3f39aba564",
+      "firm": "Group 11",
+      "title": "Stagiaire en actuariat, vie et santé (été 2027, 4 mois)",
+      "why": "listing closed"
+    },
+    {
+      "id": "c00759a9-e53d-495c-9d7a-b1659a9ff30b",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 MUFG UK Apprenticeship Programme:  Structured Finance - Portfolio",
+      "why": "listing closed"
+    },
+    {
+      "id": "13ea2a74-14aa-441c-b2bd-75d8c612c6f4",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 MUFG Apprenticeship Programme: Client Lifecycle Management",
+      "why": "listing closed"
+    },
+    {
+      "id": "63737a88-86cd-4127-889a-3defd718eed9",
+      "firm": "Citigroup",
+      "title": "Citi Global Wealth, Summer Analyst, Bertrange - Luxembourg 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "90c88bba-afaa-42f5-869d-5572b8c63729",
+      "firm": "Group 11",
+      "title": "Praktikant Digitalisierung & KI-Lösungen (m/w/d)*",
+      "why": "listing closed"
+    },
+    {
+      "id": "5d0101af-bc57-47b7-a991-658055a8ac8a",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Management Off-cycle Internship – Emerging Markets Tra",
+      "why": "listing closed"
+    },
+    {
+      "id": "13cf824d-be56-4d1a-963e-fa1a4b00312b",
+      "firm": "Morgan Stanley",
+      "title": "2027 ISG Central Risk Industrial Placement Internship (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "aebf359a-83b2-42da-bbb1-ea1fe99d0604",
+      "firm": "Citigroup",
+      "title": "Citi Global Wealth, Summer Analyst, London - United Kingdom, 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "1543cbe3-50e2-4bab-9b42-d9552f7570fa",
+      "firm": "Raymond James",
+      "title": "Financial Advisor Trainee",
+      "why": "listing closed"
+    },
+    {
+      "id": "1c82f86f-b9c2-4ca2-b289-3d85db80cc66",
+      "firm": "Raymond James",
+      "title": "Financial Advisor Trainee (Frisco, TX)",
+      "why": "listing closed"
+    },
+    {
+      "id": "5322ec96-1521-4a03-b7ce-eec20f9ba96e",
+      "firm": "Group 11",
+      "title": "Praktikant Real Estate Strategy & Analytics (m/w/d)*",
+      "why": "listing closed"
+    },
+    {
+      "id": "a3a5af46-c600-4973-9192-74183220ebb7",
+      "firm": "Lightbank",
+      "title": "Fraud Analyst Intern (Earnings)",
+      "why": "listing closed"
+    },
+    {
+      "id": "4168b338-b820-4c73-9289-579e519612e4",
+      "firm": "Lazard",
+      "title": "2026-09-01 00:00:00+00",
+      "why": "listing closed"
+    },
+    {
+      "id": "ef45cea4-c160-45d7-a22d-4a7801d47353",
+      "firm": "Intrepid Investment Bankers",
+      "title": "Internship, Credit Analysis Department 1",
+      "why": "listing closed"
+    },
+    {
+      "id": "6c56b062-543c-49f6-9f16-93d23565a028",
+      "firm": "Piper Sandler",
+      "title": "Investment Banking Analyst - Equity Private Placements",
+      "why": "listing closed"
+    },
+    {
+      "id": "603afa59-8b6a-43fc-af0d-4754926fa973",
+      "firm": "Houlihan Lokey",
+      "title": "Summer Financial Analyst 2027 - Financial Restructuring, Shanghai",
+      "why": "listing closed"
+    },
+    {
+      "id": "dedf3b93-4477-4eff-b9ad-0a4bcc5b9ed6",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Private Wealth Administrative Assistant, Winter 2027 (Co-op/Internship",
+      "why": "listing closed"
+    },
+    {
+      "id": "b6da30af-1ef2-47ce-ad8d-6eeab76ee8ec",
+      "firm": "Harris Williams",
+      "title": "Primary Fund Placement Analyst - Project Management & Distribution (NY",
+      "why": "listing closed"
+    },
+    {
+      "id": "c5a85455-bb13-4a6e-81d3-0cc2544e3eea",
+      "firm": "Ankura",
+      "title": "University Intern, Risk Advisory, eDiscovery",
+      "why": "listing closed"
+    },
+    {
+      "id": "8c9ab8d6-aa8c-4255-83a3-0f95170b1c90",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Actuarial Analyst, Winter 2027 (Co-op/Internship) - 4 months",
+      "why": "listing closed"
+    },
+    {
+      "id": "46bacd65-f2e4-403a-8d5e-27deac23f3c2",
+      "firm": "Houlihan Lokey",
+      "title": "Summer 2027 Financial Analyst (Class of 2028), Corporate Valuation Adv",
+      "why": "listing closed"
+    },
+    {
+      "id": "1b29f178-2235-49a6-a98b-a7f913bae8b1",
+      "firm": "Greenhill & Co",
+      "title": "Mizuho | Greenhill - 2027 M&A Internship - Madrid",
+      "why": "listing closed"
+    },
+    {
+      "id": "a2cdcd2c-f5f2-42b0-ba78-863e2cfc9748",
+      "firm": "JPMorgan",
+      "title": "Product Manager, Merchant Insights AI Transformation-Payments-Vice Pre",
+      "why": "listing closed"
+    },
+    {
+      "id": "a3fa88e9-098f-4348-b739-2a20e156a8d3",
+      "firm": "Ankura",
+      "title": "University Intern, Risk Advisory, Forensics",
+      "why": "listing closed"
+    },
+    {
+      "id": "9692f57f-c3be-456c-bd8e-ae1e09d88950",
+      "firm": "Rothschild & Co (US)",
+      "title": "Germany - Frankfurt - M&A and Strategic Advisory - Summer Internship 2",
+      "why": "listing closed"
+    },
+    {
+      "id": "4f13dee2-b795-48e7-91fd-9ed8fa5f0263",
+      "firm": "Lightbank",
+      "title": "Chargeback Analyst Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "410297b7-3ea5-47fe-8db8-d3e5a1d8623f",
+      "firm": "Lightbank",
+      "title": "Corporate Strategy Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "c893f4fa-25a5-4cb1-81f5-1f0484dd21d1",
+      "firm": "Lightbank",
+      "title": "Creative Production Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "900c723a-53ff-4cb3-9ff3-c838e639cefe",
+      "firm": "Lightbank",
+      "title": "Paid Social Media Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "52fc93d3-ec37-4324-8e8c-df7fc02f382d",
+      "firm": "Cain Brothers",
+      "title": "Summer 2027 Corporate Center – Specialty Design and Storytelling Inter",
+      "why": "listing closed"
+    },
+    {
+      "id": "e3d16649-7a73-4a3f-8416-c7feef959a26",
+      "firm": "Lightbank",
+      "title": "Travel Risk Operations Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "fbf062db-410b-46f8-9b9b-9cdaac3927d9",
+      "firm": "Lightbank",
+      "title": "Fraud Analyst Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "e5bdf619-8840-40d5-a86c-53ce3cc21f7e",
+      "firm": "Citigroup",
+      "title": "Chief Operating Office - Summer Analyst, UK - Belfast, 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "ffb7c200-2d67-4aa3-a8ae-a504fc42cc73",
+      "firm": "Cain Brothers",
+      "title": "Summer 2027 Corporate Center – Centricity and Design Strategy Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "c9309bf1-7222-4ce0-9865-1e072f8d3263",
+      "firm": "Group 11",
+      "title": "Intern Artificial Intelligence (m/f/d)*",
+      "why": "listing closed"
+    },
+    {
+      "id": "6e79e5e0-6c3c-4a01-b05b-a58797251b4e",
+      "firm": "Group 11",
+      "title": "Praktikum im Sprachendienst (m/w/d)*",
+      "why": "listing closed"
+    },
+    {
+      "id": "9658e0ec-5b16-4c08-b2dc-9593570e5e62",
+      "firm": "Group 11",
+      "title": "Underwriting Co-op (2027 Winter - Toronto, 8 or 12 months)",
+      "why": "listing closed"
+    },
+    {
+      "id": "0c74bf6f-afe0-4deb-9140-4735700cbed2",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Wealth Investorline Associate, Winter 2027 (Co-op/Internship) - 4 mont",
+      "why": "listing closed"
+    },
+    {
+      "id": "559095b6-b957-49eb-a243-03fdd30fd830",
+      "firm": "Group 11",
+      "title": "Werkstudent im Bereich Reporting (m|w|d)",
+      "why": "listing closed"
+    },
+    {
+      "id": "92f3d29d-d1e3-49dd-b0fe-0b0dac707c4e",
+      "firm": "Lightbank",
+      "title": "User Experience Research Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "ec8f5b84-477a-4e48-b953-452d0f1c9e0f",
+      "firm": "Group 11",
+      "title": "Werkstudent im Bereich Institutional Clients (m|w|d)",
+      "why": "listing closed"
+    },
+    {
+      "id": "7ffaf729-9076-48cc-b425-a1c23eb2cd48",
+      "firm": "Group 11",
+      "title": "Internship Tactical Asset Allocation - Data Analytics (m/f/d)*",
+      "why": "listing closed"
+    },
+    {
+      "id": "0f2e8d5c-fa1d-4e26-acbe-b6861512b4d1",
+      "firm": "Cain Brothers",
+      "title": "Desktop Support Internship",
+      "why": "listing closed"
+    },
+    {
+      "id": "370f534b-5dc5-4db2-9af4-eefd0b968495",
+      "firm": "Group 11",
+      "title": "Corporate Reserving Actuarial Intern - Summer 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "ed3cab63-cf66-4d65-b3dd-24f519d2e24d",
+      "firm": "Lightbank",
+      "title": "Brand Design Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "18358e71-016f-43ee-ad4c-d4bb320a28be",
+      "firm": "Piper Sandler",
+      "title": "Campus Recruiting - 2027 Investment Banking Analyst – Specialty Financ",
+      "why": "listing closed"
+    },
+    {
+      "id": "fb7491f7-37d0-4739-adca-844b9cc28d9b",
+      "firm": "Piper Sandler",
+      "title": "Campus Recruiting - 2027 Investment Banking Analyst - Secondary Capita",
+      "why": "listing closed"
+    },
+    {
+      "id": "cdcbade9-ca91-409f-8116-ac1681aab84a",
+      "firm": "Lightbank",
+      "title": "Corporate Finance intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "8134dccf-8228-4e0a-b777-ff34c53e2657",
+      "firm": "Piper Sandler",
+      "title": "Campus Recruiting - 2027 Investment Banking Analyst - Technology",
+      "why": "listing closed"
+    },
+    {
+      "id": "76a425fa-ad78-43c4-b8f7-dd576aeecc38",
+      "firm": "Starwood Capital Group",
+      "title": "Japan Acquisitions Internship",
+      "why": "listing closed"
+    },
+    {
+      "id": "02c0fe8e-837a-473e-89d4-5a6598acaa34",
+      "firm": "Morgan Stanley",
+      "title": "2027 Risk Management Off Cycle Internship (Frankfurt)",
+      "why": "listing closed"
+    },
+    {
+      "id": "e9543a80-6fab-42b7-be0d-dffed6d90796",
+      "firm": "Nomura (US)",
+      "title": "2027 - Investment Banking - Coverage & Advisory  - Summer Internship -",
+      "why": "listing closed"
+    },
+    {
+      "id": "3cc81875-57af-47f2-adc4-ce72f9fb6c52",
+      "firm": "Nomura (US)",
+      "title": "2027 - Global Markets - Structured Solution Sales  -  Off Cycle Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "53a7e900-a6bf-4404-b92f-6a5855c471ba",
+      "firm": "Nomura (US)",
+      "title": "2027 - Global Markets - Rates Sales  - 6 Month Off Cycle Internship – ",
+      "why": "listing closed"
+    },
+    {
+      "id": "5df9e75b-1d13-47fe-b323-264a804b8035",
+      "firm": "Morgan Stanley",
+      "title": "2027 Financial Resources & Strategy Industrial Placement Internship (L",
+      "why": "listing closed"
+    },
+    {
+      "id": "9b127fbc-7db8-459f-9e1d-0d4d1549c98e",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking Summer Analyst Programme (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "d0e18cb5-7143-4d98-9fd3-da406b8df9b9",
+      "firm": "Baker Tilly Capital",
+      "title": "Summer 2027 Compliance Advisory Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "c394a3b1-934b-45db-9ffd-c90c520d04f5",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 MUFG 6-Month Early Careers Placement - Germany",
+      "why": "listing closed"
+    },
+    {
+      "id": "9f69a715-27a3-4a46-9896-9c4fc7b831f3",
+      "firm": "Lazard",
+      "title": "March 2027 - Investment Banking intern - Real Estate team - Paris",
+      "why": "listing closed"
+    },
+    {
+      "id": "eebdc968-4847-4c1d-9163-44061247db42",
+      "firm": "Lazard",
+      "title": "January 2027 - M&A Internship - Energy, Transport, and Infrastructure ",
+      "why": "listing closed"
+    },
+    {
+      "id": "0ed170b7-3f5f-4ea6-b03d-e98b7fe4b068",
+      "firm": "Rothschild & Co (US)",
+      "title": "Administrative & Finance Intern – Five Arrows - Luxembourg – March 202",
+      "why": "listing closed"
+    },
+    {
+      "id": "3c9ea1fd-b8b5-4b6b-9e86-bef42c06f8a2",
+      "firm": "Rothschild & Co (US)",
+      "title": "Internship - Investment Analyst - Five Arrows Growth Partners - Januar",
+      "why": "listing closed"
+    },
+    {
+      "id": "b2a92959-384d-44d8-818f-d268b87bf559",
+      "firm": "Citigroup",
+      "title": "Markets – Sales and Trading, Off-Cycle Internship, Paris – France, 202",
+      "why": "listing closed"
+    },
+    {
+      "id": "c6c2a376-cb4d-41de-afb5-7dbad1b93f6e",
+      "firm": "JPMorgan",
+      "title": "2027 Global Corporate Banking (CEE Team) - Off-Cycle Internship Progra",
+      "why": "listing closed"
+    },
+    {
+      "id": "039ec7b5-92bd-429a-a535-856d49b9e755",
+      "firm": "Jefferies",
+      "title": "2027 Jefferies Finance Summer Analyst - New York, Financial Planning &",
+      "why": "listing closed"
+    },
+    {
+      "id": "382fca81-0a3f-44b0-a3a7-3079b2ce4b7a",
+      "firm": "Group 11",
+      "title": "Werkstudent Aktuariat Pricing (m/w/d)",
+      "why": "listing closed"
+    },
+    {
+      "id": "ff73a8c8-0fd1-4808-b541-bf3dfcc724ec",
+      "firm": "Cain Brothers",
+      "title": "2027 Summer Real Estate Capital Internship - Dallas",
+      "why": "listing closed"
+    },
+    {
+      "id": "f4cbc67e-b520-4a6a-ac2a-fdb968fc049b",
+      "firm": "JPMorgan",
+      "title": "Vice President - Personalization & Insights Product Delivery - Transfo",
+      "why": "listing closed"
+    },
+    {
+      "id": "8dc72a25-3980-4013-8a2a-148f0a47c2e2",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 Summer Analyst - Risk Management - Tempe, AZ",
+      "why": "listing closed"
+    },
+    {
+      "id": "d6bfb856-03b2-4863-9b42-e50c8ae9eb5b",
+      "firm": "BDO Capital Advisors",
+      "title": "Advisory Intern, Cyber, Compliance & Assessment - Summer 2027 (Multipl",
+      "why": "listing closed"
+    },
+    {
+      "id": "4d6121a6-f04c-4e12-89fe-ecd146556589",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Accounting Analyst, CPA Trainee (New or Recent Graduate Opportunity )",
+      "why": "listing closed"
+    },
+    {
+      "id": "2dabb40a-8c64-49fe-af60-5c07820081f2",
+      "firm": "Group 11",
+      "title": "Summer Leadership Development Intern - Underwriting",
+      "why": "listing closed"
+    },
+    {
+      "id": "6df789d6-7e0b-481f-9dc5-55abe4e67f2a",
+      "firm": "Citigroup",
+      "title": "Banking, Corporate Banking, Placement Analyst, Copenhagen - Denmark, 2",
+      "why": "listing closed"
+    },
+    {
+      "id": "2d58f5d4-043c-4fd5-96c2-aeeb5353b58b",
+      "firm": "Citigroup",
+      "title": "Banking - Investment Banking, Summer Associate, Houston Energy (North ",
+      "why": "listing closed"
+    },
+    {
+      "id": "608a3137-2b27-4682-a521-1469bf0322fe",
+      "firm": "Group 11",
+      "title": "Internship with the Design Team (m/f/d*)",
+      "why": "listing closed"
+    },
+    {
+      "id": "16adc86b-f23e-48df-93d1-9b37c9887386",
+      "firm": "Rothschild & Co (US)",
+      "title": "2027 Global Advisory Zurich Internship: (January - April)",
+      "why": "listing closed"
+    },
+    {
+      "id": "e77750d0-e667-4eb9-b417-ee0a859af42b",
+      "firm": "Morgan Stanley",
+      "title": "2027 Sales & Trading Industrial Placement Internship (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "023fb312-9dbb-4416-94d9-1b3ea8b5c8dc",
+      "firm": "Group 11",
+      "title": "Werkstudent in Business Transformation Management (m|w|d)",
+      "why": "listing closed"
+    },
+    {
+      "id": "68566265-cc4e-4987-9fce-a4dabb860af3",
+      "firm": "Ankura",
+      "title": "University Intern, Construction Disputes & Advisory, Forensic Accounti",
+      "why": "listing closed"
+    },
+    {
+      "id": "ffdf1433-7f48-41c5-bd04-e1aaa11f5d1b",
+      "firm": "Houlihan Lokey",
+      "title": "Summer 2027 Financial Analyst (Class of 2028), Portfolio Valuation and",
+      "why": "listing closed"
+    },
+    {
+      "id": "9686ded7-9859-4a95-96e8-c82b3675e74d",
+      "firm": "Citigroup",
+      "title": "Young Apprentice - C00 - MUMBAI",
+      "why": "listing closed"
+    },
+    {
+      "id": "1a9421e1-873c-4408-ad7f-59e922351193",
+      "firm": "Barclays (US)",
+      "title": "2027 Operations Analyst Summer Internship Programme Glasgow",
+      "why": "listing closed"
+    },
+    {
+      "id": "35f104de-de0e-4085-92a0-6cf996d6f771",
+      "firm": "Morgan Stanley",
+      "title": "2027 Quantitative Finance Off-Cycle Internship (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "46a1ae91-045c-4c4f-b0f7-ffdcde040695",
+      "firm": "JPMorgan",
+      "title": "2027 Forest Economics and Research Internship – Emerging Talent Summer",
+      "why": "listing closed"
+    },
+    {
+      "id": "ffc7d6f1-543f-42b6-aeff-aa5bd04f630f",
+      "firm": "Ankura",
+      "title": "University Intern, Construction Disputes & Advisory (Forensic Accounti",
+      "why": "listing closed"
+    },
+    {
+      "id": "d51f299a-9175-43e0-bcf7-cb706dc232a1",
+      "firm": "Morgan Stanley",
+      "title": "2027 Programme CEGEP d'ete en Technologie (Montreal) / 2027 Technology",
+      "why": "listing closed"
+    },
+    {
+      "id": "af3d2a3b-832b-4c24-b58e-f8db29589006",
+      "firm": "JPMorgan",
+      "title": "2027 Forestry Finance Internship – Emerging Talent Summer Experience P",
+      "why": "listing closed"
+    },
+    {
+      "id": "7d80d833-d37b-426b-b5b0-09faaa911fad",
+      "firm": "JPMorgan",
+      "title": "2027 Forestry Field Office Internship – Emerging Talent Summer Experie",
+      "why": "listing closed"
+    },
+    {
+      "id": "3317f170-4335-4481-91a6-117d29e6da54",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Management Sophomore Summer Analyst Program - Private ",
+      "why": "listing closed"
+    },
+    {
+      "id": "381886ca-9490-4791-b1cd-c6f5c8426cde",
+      "firm": "Morgan Stanley",
+      "title": "2027 Corporate Treasury Summer Analyst Program (New York)",
+      "why": "listing closed"
+    },
+    {
+      "id": "e7a390ea-dfd2-434b-9c0e-68fe14053b30",
+      "firm": "Morgan Stanley",
+      "title": "2027 Programme d'ete en Technologie (Montreal) / 2027 Summer Technolog",
+      "why": "listing closed"
+    },
+    {
+      "id": "235054a1-3fdc-4213-8a13-2899602f8016",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Management Summer Analyst Program - Strategic Function",
+      "why": "listing closed"
+    },
+    {
+      "id": "cad6d29b-3502-4c65-8641-cc64170e7648",
+      "firm": "Cain Brothers",
+      "title": "APDP PCA Trainee",
+      "why": "listing closed"
+    },
+    {
+      "id": "06dd384d-4fc2-45fb-a0a4-b8f7a33a2e31",
+      "firm": "Morgan Stanley",
+      "title": "2027 Fixed Income Strats Summer Associate Program (New York)",
+      "why": "listing closed"
+    },
+    {
+      "id": "68f4f79b-8542-45f5-b7a5-6491f55d18b8",
+      "firm": "Morgan Stanley",
+      "title": "2027 Technology Summer Analyst Program (Calgary)",
+      "why": "listing closed"
+    },
+    {
+      "id": "501aa71b-f50f-43fe-a364-2806b95724ea",
+      "firm": "Morgan Stanley",
+      "title": "2027 Spring Investment Management Fixed Income Co-op Program – Quantit",
+      "why": "listing closed"
+    },
+    {
+      "id": "f8539fea-e1a2-45f0-9607-2a7e396e5edd",
+      "firm": "Ankura",
+      "title": "University Intern, Ankura Capital Advisors",
+      "why": "listing closed"
+    },
+    {
+      "id": "b690f1c9-aa1e-415f-9140-719186049cad",
+      "firm": "Cain Brothers",
+      "title": "2027 KBCM Investment Banking Summer Analyst - San Francisco, CA",
+      "why": "listing closed"
+    },
+    {
+      "id": "586e2f93-ac13-4de2-b2a6-4338ab0191ba",
+      "firm": "Morgan Stanley",
+      "title": "2027 Finance Summer Analyst Program (Baltimore)",
+      "why": "listing closed"
+    },
+    {
+      "id": "916dee45-b23b-4f7f-ab6c-7b5b63617898",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking and Global Capital Markets Strats Summer Assoc",
+      "why": "listing closed"
+    },
+    {
+      "id": "2bc7cf10-429b-49ac-b6c2-9a9f34590cd0",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Management Summer Analyst Program - Sales (Boston)",
+      "why": "listing closed"
+    },
+    {
+      "id": "778c6cf2-63d0-482b-a527-aea8a7da2452",
+      "firm": "Raymond James",
+      "title": "Financial Advisor Trainee-Greenville, SC",
+      "why": "listing closed"
+    },
+    {
+      "id": "e2071447-ddd6-4044-81c5-706cad51336e",
+      "firm": "Raymond James",
+      "title": "Data Insights Analyst - Sr. Advisor",
+      "why": "listing closed"
+    },
+    {
+      "id": "1a465601-91fd-4925-9081-86f0961b2a92",
+      "firm": "Houlihan Lokey",
+      "title": "Off-Cycle Intern, Financial and Valuation Advisory (Hong Kong)",
+      "why": "listing closed"
+    },
+    {
+      "id": "fc749dea-e454-4d1a-827d-f9466e29c194",
+      "firm": "Houlihan Lokey",
+      "title": "Summer Financial Analyst 2027 - Financial Restructuring, Hong Kong",
+      "why": "listing closed"
+    },
+    {
+      "id": "ffcc00cf-2c6e-4b85-9b01-2d4d70c4d04c",
+      "firm": "Piper Sandler",
+      "title": "2027 Summer Internship Program - Equity Sales & Trading",
+      "why": "listing closed"
+    },
+    {
+      "id": "12330c74-8401-4454-a4af-fe5fedc988ef",
+      "firm": "Lazard",
+      "title": "Stage H/F - Analyste ESG/ISR (Gestion Actions) - Janvier 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "059c8140-b58d-469c-968d-bb02f150dc28",
+      "firm": "Citigroup",
+      "title": "Functions - Enterprise Services and Public Affairs, Summer Analyst, Ne",
+      "why": "listing closed"
+    },
+    {
+      "id": "488027dc-d2d2-4a7a-95fb-6b0405daf1b5",
+      "firm": "Lazard",
+      "title": "2027 M&A Internship - Stockholm",
+      "why": "listing closed"
+    },
+    {
+      "id": "c528b886-d0a2-49ae-8d57-502b5f2cec54",
+      "firm": "Citigroup",
+      "title": "Functions - Finance, Summer Associate, New York - USA, 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "ff45f58c-eb5c-42bb-88ea-57426c3d9b3a",
+      "firm": "Greenhill & Co",
+      "title": "Mizuho | Greenhill - Investment Banking Internship 2027 (Stockholm)",
+      "why": "listing closed"
+    },
+    {
+      "id": "4b6bde9c-c48b-445a-85d9-4d86a52f25ae",
+      "firm": "MTS Health Partners",
+      "title": "2028 Summer Analyst, Investment Banking",
+      "why": "listing closed"
+    },
+    {
+      "id": "f3be7866-ee6f-45dd-9c80-4a216107d10f",
+      "firm": "Cain Brothers",
+      "title": "2027 Summer Real Estate Capital Internship - Denver CDLI",
+      "why": "listing closed"
+    },
+    {
+      "id": "c436f2e4-aee4-4c61-bddf-ee915a927a11",
+      "firm": "Citigroup",
+      "title": "Banking – Corporate Banking, Internship, São Paulo – Brazil, 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "2fd61206-3ed6-4b15-87c2-064aaf11df3b",
+      "firm": "Citigroup",
+      "title": "Client - Citi Research, Summer Analyst, London - United Kingdom, 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "510a9392-c91a-44cd-9533-661ae3199ed5",
+      "firm": "Cain Brothers",
+      "title": "Data & BI Sr Associate, ESS Reporting & Insights",
+      "why": "listing closed"
+    },
+    {
+      "id": "2c595744-1fc4-4682-b30d-d9c037262aae",
+      "firm": "JPMorgan",
+      "title": "Finance Data & Insights (FDI) Chief of Staff, Vice President",
+      "why": "listing closed"
+    },
+    {
+      "id": "764e4139-82b3-4385-9da3-5520c6e4e5c3",
+      "firm": "Raymond James",
+      "title": "Financial Advisor Trainee (Fort Worth, TX)",
+      "why": "listing closed"
+    },
+    {
+      "id": "6e920799-b905-43db-934a-8a2ed1a3c9b2",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 MUFG Apprenticeship Programme: Client KYC",
+      "why": "listing closed"
+    },
+    {
+      "id": "eb2de10d-cdc5-4958-b762-11457bcaf7ff",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 MUFG Apprenticeship Programme: Client Lifecycle Management",
+      "why": "listing closed"
+    },
+    {
+      "id": "c9e26261-d7ba-4424-8d87-a4b7ef857e14",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 MUFG UK Apprenticeship Programme:  Structured Finance - Portfolio",
+      "why": "listing closed"
+    },
+    {
+      "id": "b2d01ded-dc0a-4d29-9fef-e8c82feb1768",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 MUFG UK Apprenticeship Programme: Strategy and Business Reporting",
+      "why": "listing closed"
+    },
+    {
+      "id": "89f9fe4a-0a8b-4243-859e-4c2c73ef861f",
+      "firm": "Piper Sandler",
+      "title": "Campus Recruiting - 2027 Investment Banking Analyst - Equity Capital M",
+      "why": "listing closed"
+    },
+    {
+      "id": "eff7a997-521d-4a15-b044-aa9ad518457c",
+      "firm": "JPMorgan",
+      "title": "Finance Data & Insights - Data Domain Architect Lead - Vice President",
+      "why": "listing closed"
+    },
+    {
+      "id": "f8190108-7702-4d52-ba60-4f265d90d1b3",
+      "firm": "MUFG Securities Americas",
+      "title": "Internship, Credit Analysis Department 1",
+      "why": "listing closed"
+    },
+    {
+      "id": "a20a7062-87d2-440c-a09f-c37be492304e",
+      "firm": "Barclays (US)",
+      "title": "2027 Operations Analyst Summer Internship Programme Knutsford",
+      "why": "listing closed"
+    },
+    {
+      "id": "3fdff1de-777f-4ce8-9b3e-5378fb9a17a8",
+      "firm": "Stifel",
+      "title": "2027 Eaton Partners Private Capital Advisory Summer Analyst - New York",
+      "why": "listing closed"
+    },
+    {
+      "id": "60ce7a33-4b13-4f38-90f5-0d449cef72ed",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 MUFG UK Summer Analyst Programme: Global Client Sales",
+      "why": "listing closed"
+    },
+    {
+      "id": "aba6d57e-e072-404e-b005-2c434ed594b0",
+      "firm": "Lazard",
+      "title": "January 2027 - Internship - Lazard Investment Banking Intern (Central ",
+      "why": "listing closed"
+    },
+    {
+      "id": "6a973ddb-2991-4e61-bdf1-d92743f56756",
+      "firm": "Lazard",
+      "title": "2027 Investment Compliance Summer Internship",
+      "why": "listing closed"
+    },
+    {
+      "id": "c7d1b384-0c81-4ba8-9482-67f32f3e858b",
+      "firm": "BDO Capital Advisors",
+      "title": "Advisory Intern, Management Consulting, People Strategy & Solutions, V",
+      "why": "listing closed"
+    },
+    {
+      "id": "59283062-cf87-4319-afac-a9d0a53255df",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 MUFG 6-Month Early Careers Placement - Germany",
+      "why": "listing closed"
+    },
+    {
+      "id": "8f131200-f5e6-4bfb-bfca-5cb3ca5fc8b0",
+      "firm": "Jefferies",
+      "title": "2027 Treasury Summer Analyst Program – New York",
+      "why": "listing closed"
+    },
+    {
+      "id": "a8c7f8e2-4942-4b6f-a444-9a76411790ef",
+      "firm": "Moelis & Company",
+      "title": "2027 Investment Banking Summer Associate – Technology – San Francisco",
+      "why": "listing closed"
+    },
+    {
+      "id": "22fb003e-af08-4e56-8fff-6a3d98c974b6",
+      "firm": "Evercore",
+      "title": "2028 Summer Analyst Program: Global Technology – New York",
+      "why": "listing closed"
+    },
+    {
+      "id": "baf3d1b3-8b95-48f3-a9aa-18793e116c2c",
+      "firm": "Berkeley Research Group",
+      "title": "2027 Summer Associate – Corporate Finance – Valuation (New York and Bo",
+      "why": "listing closed"
+    },
+    {
+      "id": "0d9764db-7d98-4c1a-8600-a7421baa4022",
+      "firm": "JPMorgan",
+      "title": "2027 Trust Management Internship - Emerging Talent Summer Experience P",
+      "why": "listing closed"
+    },
+    {
+      "id": "24ee626f-4984-4867-82d4-8b0949af67c7",
+      "firm": "Morgan Stanley",
+      "title": "2027 Global Capital Markets Summer Analyst Programme (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "e1891030-458a-48d3-9622-a4b7abd5c1b6",
+      "firm": "Group 11",
+      "title": "Praktikant im Bereich HR Learning & Talent Development (w/m/d)*",
+      "why": "listing closed"
+    },
+    {
+      "id": "35cf8d33-0c6a-43a6-be33-489f10e27b7c",
+      "firm": "Morgan Stanley",
+      "title": "2027 Corporate Finance Off-cycle Internship (Zurich)",
+      "why": "listing closed"
+    },
+    {
+      "id": "b53fe6eb-e70d-498f-8c73-21a651964b7d",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 MUFG UK Summer Analyst Programme: Global Client Sales",
+      "why": "listing closed"
+    },
+    {
+      "id": "a8e7373c-c364-485d-9748-08432aef42de",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Credit Analyst Trainee",
+      "why": "listing closed"
+    },
+    {
+      "id": "b3b43fb0-5c58-4953-88d6-909480448a84",
+      "firm": "Moelis & Company",
+      "title": "2027 Investment Banking Summer Associate – Capital Structure Advisory ",
+      "why": "listing closed"
+    },
+    {
+      "id": "7e2d2825-1717-46d6-b4c5-f55da8d2c1ee",
+      "firm": "Moelis & Company",
+      "title": "2027 Investment Banking Summer Associate – Life Sciences – New York",
+      "why": "listing closed"
+    },
+    {
+      "id": "74439a31-6929-439a-970c-b5bc36458a84",
+      "firm": "Morgan Stanley",
+      "title": "2027 Spring Investment Management Fixed Income Co-op Program – Quantit",
+      "why": "listing closed"
+    },
+    {
+      "id": "658b72b7-b1db-4079-9eb4-b931c2b85f05",
+      "firm": "BDO Capital Advisors",
+      "title": "Advisory Intern, Management Consulting, People Strategy & Solutions - ",
+      "why": "listing closed"
+    },
+    {
+      "id": "0d825fee-06b9-4334-a164-5f4723f5b2ca",
+      "firm": "Jefferies",
+      "title": "2027 Compliance Summer Analyst Program – New York",
+      "why": "listing closed"
+    },
+    {
+      "id": "e5c0efdf-727f-45e8-8438-24041b5339b1",
+      "firm": "Evercore",
+      "title": "2027 Evercore Wealth Management Summer Analyst Program – New York",
+      "why": "listing closed"
+    },
+    {
+      "id": "133df91b-3eb7-403d-8498-e713ed9a2d38",
+      "firm": "Jefferies",
+      "title": "2027 Marketing Summer Analyst Program – New York",
+      "why": "listing closed"
+    },
+    {
+      "id": "0bef73ab-897a-408f-a981-3f0f932f9c7a",
+      "firm": "Jefferies",
+      "title": "2027 Risk Management Summer Internship Program – New York",
+      "why": "listing closed"
+    },
+    {
+      "id": "4f01df48-6937-46d3-a0ff-6a7dc275c98a",
+      "firm": "Jefferies",
+      "title": "2027 Operations Summer Analyst Program – New York and Jersey City",
+      "why": "listing closed"
+    },
+    {
+      "id": "9cf4ebe8-42f9-4cec-a640-83a37bdd5e75",
+      "firm": "BDO Capital Advisors",
+      "title": "Advisory Intern, Forensic Technology - Summer 2027 (Atlanta, Boston, C",
+      "why": "listing closed"
+    },
+    {
+      "id": "39eb98c9-a4dd-4664-9bb6-de3f2f572d4d",
+      "firm": "Group 11",
+      "title": "Praktikant Portfolio- und Claims Management (m/w/d)* - für Emile Sando",
+      "why": "listing closed"
+    },
+    {
+      "id": "99a347c2-dddb-4c1f-acb1-4a2dca191765",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Analyst, Capital Markets Treasury - Winter 2027 (Co-op/Internship) - 4",
+      "why": "listing closed"
+    },
+    {
+      "id": "95138867-47a9-497f-a08a-7160324413f2",
+      "firm": "Piper Sandler",
+      "title": "2027 Summer Internship Program - Fixed Income Services",
+      "why": "listing closed"
+    },
+    {
+      "id": "ef44fd0d-079e-438c-b4ef-de45b16f6360",
+      "firm": "Nomura (US)",
+      "title": "2027 Global Markets Summer Internship Program- Hong Kong",
+      "why": "listing closed"
+    },
+    {
+      "id": "ba9f0a1b-ace4-43d3-9437-b8d37c2865aa",
+      "firm": "Moelis & Company",
+      "title": "2027 Summer Analyst, Investment Banking - Private Capital Advisory Pri",
+      "why": "listing closed"
+    },
+    {
+      "id": "f6bd268b-a5ba-4ceb-9dc0-c60f1aef0161",
+      "firm": "Jefferies",
+      "title": "2027 Internal Audit Summer Analyst Program – New York",
+      "why": "listing closed"
+    },
+    {
+      "id": "b2efe2a4-15dd-43f9-9e18-5431c2016d3b",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Management Off-Cycle Internship - Global Sales & Marke",
+      "why": "listing closed"
+    },
+    {
+      "id": "9425474d-f78b-4b7a-81eb-7a0f46ae16a8",
+      "firm": "Clera",
+      "title": "Generalist Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "aa9cc311-3778-4db6-b6ba-1d34fe8cd2db",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 Summer Analyst - Risk Management - Tampa, FL",
+      "why": "listing closed"
+    },
+    {
+      "id": "ef601f8a-06f7-45d0-aa4c-f108d29010ff",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking Off-Cycle Internship (Milan)",
+      "why": "listing closed"
+    },
+    {
+      "id": "63229f20-ab13-45ab-812a-070c89bc74e2",
+      "firm": "PJT Partners",
+      "title": "2027 January Off-Cycle Analyst (Strategic Advisory & Restructuring) Du",
+      "why": "listing closed"
+    },
+    {
+      "id": "d049d24f-9a8b-48c0-8125-2c2224aa7970",
+      "firm": "Clera",
+      "title": "Founder's Associate Intern / Working Student",
+      "why": "listing closed"
+    },
+    {
+      "id": "18969d62-42d6-41ab-9a9b-b3b04900b895",
+      "firm": "Rothschild & Co (US)",
+      "title": "Stage Fund Controlling Luxembourg – Janvier 2027 (Internship – 6 month",
+      "why": "listing closed"
+    },
+    {
+      "id": "990311ec-62dc-4754-861d-51ac05fd4128",
+      "firm": "William Blair",
+      "title": "2027 Investment Banking Summer Analyst, Life Sciences, Biotechnology",
+      "why": "listing closed"
+    },
+    {
+      "id": "23216c58-9b96-450c-ace8-880b94cf4a25",
+      "firm": "TD Securities",
+      "title": "Branch Manager Trainee - Outremont, Montreal",
+      "why": "listing closed"
+    },
+    {
+      "id": "8b8ea043-360e-459a-92e2-41abe6f167a7",
+      "firm": "Baker Tilly Capital",
+      "title": "Summer 2027 Risk Advisory Intern - Business Risk Services",
+      "why": "listing closed"
+    },
+    {
+      "id": "90efbdec-fb36-4440-8c80-154f93b27b12",
+      "firm": "Baker Tilly Capital",
+      "title": "Summer 2027 Risk Advisory Intern - Cyber Risk Services",
+      "why": "listing closed"
+    },
+    {
+      "id": "72b7ed69-e190-4f0e-b8f6-92e07ce4a502",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 MUFG UK Apprenticeship Programme: Treasury Services",
+      "why": "listing closed"
+    },
+    {
+      "id": "9a6cb75d-97f7-477c-8e36-f5d43cfcedfb",
+      "firm": "Mizuho Americas",
+      "title": "Mizuho | Greenhill - 2027 M&A Internship - Madrid",
+      "why": "listing closed"
+    },
+    {
+      "id": "6f0e2a91-0801-4ce6-ae30-10a1839483f9",
+      "firm": "Stout",
+      "title": "Summer 2027 Intern - Disputes, Claims & Investigations: New York",
+      "why": "listing closed"
+    },
+    {
+      "id": "48f4d14e-e8df-42dd-a601-080d946726f9",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Retail and Wealth Operational Risk Analyst, Winter 2027 (Co-op/Interns",
+      "why": "listing closed"
+    },
+    {
+      "id": "eeddd60e-d15a-403d-9ff3-d13a60a42fc0",
+      "firm": "Clera",
+      "title": "Sales Internship",
+      "why": "listing closed"
+    },
+    {
+      "id": "90bb2e7b-dc90-4ca9-adff-d6843b39d392",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 MUFG UK Apprenticeship Programme: Loans Middle Office",
+      "why": "listing closed"
+    },
+    {
+      "id": "92b429b9-03fb-4adc-abbb-c227f6d0ef86",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 MUFG UK Apprenticeship Programme: Strategy and Business Reporting",
+      "why": "listing closed"
+    },
+    {
+      "id": "7d5f5575-e316-4226-bc4b-76e090e01386",
+      "firm": "Rothschild & Co (US)",
+      "title": "Germany - Frankfurt - Global Financing Solutions and Restructuring & L",
+      "why": "listing closed"
+    },
+    {
+      "id": "05bd60ac-837d-4045-971b-a4f7b4d22459",
+      "firm": "BDO Capital Advisors",
+      "title": "Advisory Intern, Privacy & Data Protection - Summer 2027 (Multiple Loc",
+      "why": "listing closed"
+    },
+    {
+      "id": "9b295fe3-4289-419b-aa7b-bbb9efc61355",
+      "firm": "Group 11",
+      "title": "Intern - Data, Analytics and AI",
+      "why": "listing closed"
+    },
+    {
+      "id": "28b9f83d-640d-43e5-9a1e-0d2ead7b8a79",
+      "firm": "Group 11",
+      "title": "Praktikant im Bereich Sales Training & Weiterbildung (m/w/d)",
+      "why": "listing closed"
+    },
+    {
+      "id": "56d72099-eac4-4c23-bce9-e2eebc92ad98",
+      "firm": "Morgan Stanley",
+      "title": "2027 Fixed Income Research Off-Cycle Internship (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "7c071174-044e-439b-91de-6b53197acba6",
+      "firm": "Raymond James",
+      "title": "Financial Advisor Trainee-Raleigh, NC",
+      "why": "listing closed"
+    },
+    {
+      "id": "74dddfe1-266a-4df8-8b92-10322c679153",
+      "firm": "Raymond James",
+      "title": "Financial Advisor Trainee-Birmingham, AL",
+      "why": "listing closed"
+    },
+    {
+      "id": "a0c77401-c818-42a0-9620-59a31fd37235",
+      "firm": "Raymond James",
+      "title": "Financial Advisor Trainee (Miami, FL)",
+      "why": "listing closed"
+    },
+    {
+      "id": "2f18dd06-b0a1-4620-b212-5a3024ba7a5e",
+      "firm": "Clera",
+      "title": "Founder Associate Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "9661b457-7748-4369-a2a6-79d2475aa5be",
+      "firm": "JPMorgan",
+      "title": "Vice President, Product Delivery - Personalization & Insights Platform",
+      "why": "listing closed"
+    },
+    {
+      "id": "a8b19dba-d705-4639-986c-cfe9ad91bde9",
+      "firm": "Rothschild & Co (US)",
+      "title": "Long Term Internship - Global Advisory FIG - Janvier 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "e772ef85-0a33-4e4b-ad81-3c92041963c2",
+      "firm": "Barclays (US)",
+      "title": "Banking Off Cycle Internship Programme 2027 Amsterdam",
+      "why": "listing closed"
+    },
+    {
+      "id": "252360ee-7763-462f-b9d0-24f6493049c1",
+      "firm": "Citigroup",
+      "title": "Banking - Capital Markets, Summer Associate, New York (North America –",
+      "why": "listing closed"
+    },
+    {
+      "id": "214ebc9e-6e68-4e23-94fc-448f2ba0eb4c",
+      "firm": "Morgan Stanley",
+      "title": "2027 Global Capital Markets Off-Cycle Internship (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "827c9b55-d022-4b0c-a08e-c6df7800b41e",
+      "firm": "Houlihan Lokey",
+      "title": "Off-Cycle Intern - Capital Solutions, Debt Advisory (Q1, 2027)",
+      "why": "listing closed"
+    },
+    {
+      "id": "991a1f79-afd6-4271-af17-446b9d74c283",
+      "firm": "Raymond James",
+      "title": "Branch Operations Manager Trainee-Charlotte, NC",
+      "why": "listing closed"
+    },
+    {
+      "id": "a6f616d4-536d-4b4b-ba06-f19611615d39",
+      "firm": "Citigroup",
+      "title": "Banking, Corporate Banking, Placement Analyst, Amsterdam - The Netherl",
+      "why": "listing closed"
+    },
+    {
+      "id": "3b60c219-508d-4463-983c-7ee070d70aef",
+      "firm": "Citigroup",
+      "title": "Banking - Investment Banking, Summer Associate, Chicago (North America",
+      "why": "listing closed"
+    },
+    {
+      "id": "7c3fd63a-8ab2-4f49-9b2d-969b260f85f6",
+      "firm": "MUFG Securities Americas",
+      "title": "Apprentice Global Operations",
+      "why": "listing closed"
+    },
+    {
+      "id": "b7e4f57e-575e-4329-a454-ebd077421571",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Business Banking Relationship Manager Trainee",
+      "why": "listing closed"
+    },
+    {
+      "id": "ad498ae4-a04c-4e77-ad6b-7614ec78b5f8",
+      "firm": "Intrepid Investment Bankers",
+      "title": "Apprentice Global Operations",
+      "why": "listing closed"
+    },
+    {
+      "id": "12eca36d-75e1-4453-b3a2-59214bee1e6e",
+      "firm": "Rothschild & Co (US)",
+      "title": "Stage - Private Equity Investment Analyst - FAPI - Janvier / Mars 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "a3536b43-9279-4629-906e-938c6834d9e8",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking Off-Cycle Internship (Madrid)",
+      "why": "listing closed"
+    },
+    {
+      "id": "a8ccbd4c-726d-4483-b692-759e96ff1217",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 MUFG 6 month Milan  internship: Japanese Corporate Banking Divisi",
+      "why": "listing closed"
+    },
+    {
+      "id": "32fcd78c-9279-4957-908b-4c0d957120ac",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 MUFG 6 month Amsterdam internship: Japanese Corporate Banking Div",
+      "why": "listing closed"
+    },
+    {
+      "id": "be3ea052-22df-4d83-800d-fe5353bc84b6",
+      "firm": "Baker Tilly Capital",
+      "title": "Intern - People Solutions",
+      "why": "listing closed"
+    },
+    {
+      "id": "844457fa-00bb-423f-8804-942ced30f6ab",
+      "firm": "Citigroup",
+      "title": "Banking, Corporate Banking, Summer Analyst, Zurich - Switzerland, 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "97ed963c-7fbe-4603-bdd2-64f5b92208b0",
+      "firm": "Lazard",
+      "title": "2027 London Financial Advisory Summer Internship",
+      "why": "listing closed"
+    },
+    {
+      "id": "2b7e6c07-6474-49c9-87f7-ab6dcfb3a1ad",
+      "firm": "Baker Tilly Capital",
+      "title": "Summer 2027 Public Sector Advisory Intern (Fiscal Operations)",
+      "why": "listing closed"
+    },
+    {
+      "id": "d563c649-2590-4c8f-8e55-090cf2dfc7af",
+      "firm": "Cain Brothers",
+      "title": "2027 Summer Real Estate Capital Internship - Boston IPG",
+      "why": "listing closed"
+    },
+    {
+      "id": "f82d4caf-1bc4-427e-bebd-b1b2a24e5ecb",
+      "firm": "JPMorgan",
+      "title": "2027 Commercial & Specialized Industries Summer Analyst Program",
+      "why": "listing closed"
+    },
+    {
+      "id": "39b80a19-db89-47c3-bac8-3cc9aec1dce6",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2001-01-01 00:00:00+00",
+      "why": "listing closed"
+    },
+    {
+      "id": "46991278-21dc-4a11-ad98-69262c02fbdd",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Environmental Health & Safety Coordinator, Winter 2027 (Co-op/Internsh",
+      "why": "listing closed"
+    },
+    {
+      "id": "93714080-e315-407a-8fa6-902643e9deca",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 MUFG UK Apprenticeship Programme: Loans Middle Office",
+      "why": "listing closed"
+    },
+    {
+      "id": "db475c49-7651-46e0-bd2d-18e04a89a1b1",
+      "firm": "Ankura",
+      "title": "University Intern, Strategic Finance, Turnaround & Restructuring",
+      "why": "listing closed"
+    },
+    {
+      "id": "a4318e84-eb1a-42ad-a948-fc97475b9570",
+      "firm": "TD Securities",
+      "title": "Branch Manager Trainee - Sherbrooke, Estrie",
+      "why": "listing closed"
+    },
+    {
+      "id": "1ad08104-f593-4682-bf9f-ded4080f205a",
+      "firm": "JPMorgan",
+      "title": "2027 Commercial & Investment Bank - Global Investment Banking Analyst ",
+      "why": "listing closed"
+    },
+    {
+      "id": "3e5aa709-2e73-4cc1-a095-4257aa90b3ba",
+      "firm": "Houlihan Lokey",
+      "title": "Q2 2027 Off-Cycle Internship - Corporate Finance (Industrials)",
+      "why": "listing closed"
+    },
+    {
+      "id": "53c32871-09d4-4508-9bbd-e1cb8dd8c3d6",
+      "firm": "Cain Brothers",
+      "title": "Summer 2027 Corporate Center – Employee Experience Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "39b75068-cd7d-4264-b5c5-b6858aae86d3",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking Off-Cycle Internship (Tel Aviv)",
+      "why": "listing closed"
+    },
+    {
+      "id": "5dde2990-de03-4ca2-98ac-26373e88e57e",
+      "firm": "Cain Brothers",
+      "title": "Summer 2027 Corporate Center – Client Experience Design Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "ce397c85-0b27-488c-8562-308ac7862027",
+      "firm": "Cain Brothers",
+      "title": "Summer 2027 Corporate Center – Design Excellence & Operations Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "b993126a-9031-4ef6-96e7-2026f6e7a10c",
+      "firm": "Cain Brothers",
+      "title": "Summer 2027 Corporate Center – 360 Measurement & Impact Intern",
+      "why": "listing closed"
+    },
+    {
+      "id": "193ee0d7-840d-48e9-ba32-8c125635aa2c",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 Summer Analyst - GFCD - Irving, TX",
+      "why": "listing closed"
+    },
+    {
+      "id": "6d53e195-2ef4-47ef-9248-6ff379d5f857",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 Summer Analyst - GFCD - Irving, TX",
+      "why": "listing closed"
+    },
+    {
+      "id": "d3fbccaf-a789-4557-8ac7-805c40a154e3",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking Off-Cycle Internship (London)",
+      "why": "listing closed"
+    },
+    {
+      "id": "1bb20e88-97ec-46cd-9cb1-24554685cd80",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 Summer Analyst Program: Information Technology - Jersey City, NJ",
+      "why": "listing closed"
+    },
+    {
+      "id": "80d2d0b0-9fde-4b65-a48e-4e0e4a1b1c8c",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 Summer Analyst - Risk Management - New York, NY",
+      "why": "listing closed"
+    },
+    {
+      "id": "c15090d7-52bc-4765-b73a-9d132fbff524",
+      "firm": "Moelis & Company",
+      "title": "2027 Investment Banking Summer Associate – Business Services – San Fra",
+      "why": "listing closed"
+    },
+    {
+      "id": "c69bde8c-c6f0-49b1-8458-0efb54828459",
+      "firm": "Moelis & Company",
+      "title": "2027 Investment Banking Summer Associate – Generalist – Los Angeles",
+      "why": "listing closed"
+    },
+    {
+      "id": "950cdb50-ce5d-4884-a9e1-86ac1ad3b60f",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking Summer Associate Program (Regions)",
+      "why": "listing closed"
+    },
+    {
+      "id": "6b034ed1-7c98-4be6-b67f-1b7ccd657b5d",
+      "firm": "Intrepid Investment Bankers",
+      "title": "6 month internship - Debt Capital Markets Bonds & Loans - January 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "042b9888-5b50-4496-9fa7-5dbc09973539",
+      "firm": "MUFG Securities Americas",
+      "title": "6 month internship - Debt Capital Markets Bonds & Loans - January 2027",
+      "why": "listing closed"
+    },
+    {
+      "id": "c419ab1e-8a13-4c6f-95fa-58a3cd4e9fa2",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 Summer Analyst - Risk Management - Tempe, AZ",
+      "why": "listing closed"
+    },
+    {
+      "id": "9bf95d85-9c03-4d26-b424-f14fedbc615a",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 Summer Analyst - Risk Management - Tampa, FL",
+      "why": "listing closed"
+    },
+    {
+      "id": "e6f8787b-f4fd-4e36-802c-9b46aa02f397",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 Summer Analyst - Risk Management - New York, NY",
+      "why": "listing closed"
+    },
+    {
+      "id": "fc3c54c2-8d82-457a-8cba-00598fcb298c",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 Summer Analyst Program: Information Technology - Jersey City, NJ",
+      "why": "listing closed"
+    },
+    {
+      "id": "73cd3a41-542f-44a2-84ed-090e85bfc0f4",
+      "firm": "Morgan Stanley",
+      "title": "Parametric - 2027 Client Reporting Intern - ( Seattle)",
+      "why": "listing closed"
+    },
+    {
+      "id": "b55f82af-0364-4dc1-8c1b-72c681e0ba74",
+      "firm": "Intrepid Investment Bankers",
+      "title": "2027 Summer Analyst Program: Information Technology - Tempe, AZ",
+      "why": "listing closed"
+    },
+    {
+      "id": "220aa8ed-7b88-4e25-a752-13bd0231ffcd",
+      "firm": "MUFG Securities Americas",
+      "title": "2027 Summer Analyst Program: Information Technology - Tempe, AZ",
+      "why": "listing closed"
+    },
+    {
+      "id": "2d657ad6-a4f7-4966-a03d-046363ebda04",
+      "firm": "JPMorgan",
+      "title": "2027 Markets Quantitative Trading & Research Associate Program – Off-C",
+      "why": "listing closed"
+    },
+    {
+      "id": "94a2cf50-2c3e-4efa-abca-892322084056",
+      "firm": "Morgan Stanley",
+      "title": "2027 Internal Audit - Business Audit Summer Analyst Program (New York)",
+      "why": "listing closed"
+    },
+    {
+      "id": "ec52a395-1423-424f-9717-708e35363364",
+      "firm": "Morgan Stanley",
+      "title": "2027 Internal Audit - Business Audit Summer Analyst Program (Baltimore",
+      "why": "listing closed"
+    },
+    {
+      "id": "8bc90987-7c7a-40a6-8e74-a287372ed1f5",
+      "firm": "Morgan Stanley",
+      "title": "2027 Institutional Equities Trading Off-Cycle Internship (Paris)",
+      "why": "listing closed"
+    },
+    {
+      "id": "44d136f5-1d41-4130-98aa-550f164cebef",
+      "firm": "Ankura",
+      "title": "University Intern, Disputes & Economics - Healthcare and Life Sciences",
+      "why": "listing closed"
+    },
+    {
+      "id": "fbd90d34-e4c0-4065-a937-ffd6a4143417",
+      "firm": "Ankura",
+      "title": "University Intern, Construction, Disputes & Advisory",
+      "why": "listing closed"
+    },
+    {
+      "id": "98e14906-deb2-41b1-87b3-233d7dcd8f5c",
+      "firm": "Citigroup",
+      "title": "Banking, Investment Banking, Placement Analyst Internship, Milan - Ita",
+      "why": "listing closed"
+    },
+    {
+      "id": "33ea67af-e5f4-4a67-9f5b-5a44eaaa84f8",
+      "firm": "Citigroup",
+      "title": "Banking, Financing, Equity Capital Markets, Placement Analyst, London ",
+      "why": "listing closed"
+    },
+    {
+      "id": "23bbb7fe-42a1-4f60-b3bb-09a33e4f858f",
+      "firm": "Morgan Stanley",
+      "title": "2027 Internal Audit Summer Analyst Programme (Glasgow)",
+      "why": "listing closed"
+    },
+    {
+      "id": "544d3912-6ac3-4166-8741-52500399be0d",
+      "firm": "Morgan Stanley",
+      "title": "2027 Investment Banking Summer Associate Program (New York)",
+      "why": "listing closed"
+    }
+  ],
+  "reportedNotRetired": [
+    {
+      "id": "b802fc82-fee8-4d78-a278-1c681c09ccb1",
+      "firm": "Citigroup",
+      "title": "Banking - Investment / Corporate / Commercial Banking - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "fbcac12f-58f1-467c-8317-6512c894e764",
+      "firm": "Bank of America",
+      "title": "Global Quantitative Research 2027 Off-Cycle Analyst - Paris",
+      "why": "no backing listing"
+    },
+    {
+      "id": "d1125c62-4f6d-4721-84e4-85d4735646bb",
+      "firm": "Bank of America",
+      "title": "Strategy & Management Summer Analyst Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "16c22664-6526-4123-b9e1-e75db7949b12",
+      "firm": "Bank of America",
+      "title": "GCIB Credit, 2027 Summer Analyst - Paris",
+      "why": "no backing listing"
+    },
+    {
+      "id": "4d7f8adf-920b-47f6-8e20-506d42c851a1",
+      "firm": "Bank of America",
+      "title": "Global Payments Solutions Summer Analyst Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "a0ac848e-007e-4ed0-a877-9bd2a700d67e",
+      "firm": "Bank of America",
+      "title": "Finance Management Summer Analyst Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "2d0b0903-d8e2-4006-a22b-78bbed4a705a",
+      "firm": "JPMorgan",
+      "title": "Equities - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "60279cb6-90c3-4361-95c4-c02feac268d3",
+      "firm": "Lincoln International",
+      "title": "Investment Banking (all groups, US) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "4059a3ba-7c84-45e2-8bd2-253773331126",
+      "firm": "Bank of America",
+      "title": "Quantitative Data Analytics Summer Analyst Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "ff8ac090-7ff0-4485-acbc-a6c0031326be",
+      "firm": "Piper Sandler",
+      "title": "Financial Services Group (fka Sandler O'Neill) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "e1410fc9-1092-48e5-8477-a79ee6c4035d",
+      "firm": "Bank of America",
+      "title": "Global Risk Management - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "df678903-66b5-470e-88cd-b2fd3e1adcd6",
+      "firm": "Bank of America",
+      "title": "Global Payments Solutions Summer Analyst - 2027 - Jakarta",
+      "why": "no backing listing"
+    },
+    {
+      "id": "a8e27973-8e0a-4434-9d4b-903090eca1e1",
+      "firm": "Bank of America",
+      "title": "Global Banking Operations Summer Analyst - 2027 - Kuala Lumpur",
+      "why": "no backing listing"
+    },
+    {
+      "id": "f24e6375-4b15-4654-9fdb-53f69ffeb023",
+      "firm": "Allen & Company",
+      "title": "M&A Advisory / Media (US) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "44ac9127-8068-4a95-aee8-31321a59aa4f",
+      "firm": "Bank of America",
+      "title": "Global Corporate & Investment Banking - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "22262084-95db-4af2-b367-37c7840902e4",
+      "firm": "Barclays (US)",
+      "title": "Investment Bank - Banking (M&A/Coverage/ECM/DCM) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "8f29acb3-bea9-42a2-a374-e4b26c69b16f",
+      "firm": "Barclays (US)",
+      "title": "Markets (Global Markets S&T) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "f05070f8-d7d9-4565-9341-bb3a234b9965",
+      "firm": "Barclays (US)",
+      "title": "Research - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "cf81ec2a-5836-42d1-91e0-14eee68e8985",
+      "firm": "BMO Capital Markets (US)",
+      "title": "Investment Banking - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "3a8b2917-fc54-4a39-861c-cd067e524584",
+      "firm": "Citigroup",
+      "title": "Markets - Capital Markets / Quantitative Analysis - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "005522f5-a503-4acd-87c8-ba2c6dc557c5",
+      "firm": "Citigroup",
+      "title": "Citi Private Bank Analyst Program - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "753588d8-582b-4b7d-bb9a-abe2a43c422e",
+      "firm": "Citigroup",
+      "title": "Research - Equity Research / Global Strategy & Macro - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "3997c0b6-d522-45e1-9fe9-f72e990fc7b6",
+      "firm": "Citigroup",
+      "title": "Risk Management - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "775ad51b-1fe1-4ea0-8ad1-7888072311b2",
+      "firm": "Configure Partners",
+      "title": "Restructuring & Middle-Market Advisory - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "1429d919-9b3b-43e5-b68e-35214f76e7bd",
+      "firm": "Cowen (now TD Cowen)",
+      "title": "Investment Banking / Equity Research / Capital Markets - Summer Analys",
+      "why": "no backing listing"
+    },
+    {
+      "id": "44015178-0542-4ded-8ce5-90f492e4fe1a",
+      "firm": "Deutsche Bank (US)",
+      "title": "Investment Bank & Capital Markets - Coverage - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "4b1bc765-4aa7-4c00-b53a-fc6c0e84f36c",
+      "firm": "Deutsche Bank (US)",
+      "title": "Fixed Income & Currencies (FIC) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "54a392de-3627-4453-b182-080c19049ffb",
+      "firm": "Deutsche Bank (US)",
+      "title": "Origination & Advisory (M&A, ECM, DCM) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "59e89d1e-ef35-400b-b160-f1a304fcda28",
+      "firm": "Deutsche Bank (US)",
+      "title": "Research - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "a3008bc0-1d9a-46cd-8db2-e6f19bbd69ca",
+      "firm": "Ducera Partners",
+      "title": "Restructuring & Special Situations / M&A - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "e2b520b3-5163-4673-966b-16aedaebc623",
+      "firm": "Evercore",
+      "title": "Lateral / Experienced Hires (US/Canada/APAC) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "0cb975d5-92ad-42d0-a90e-2d91cacf4287",
+      "firm": "Evercore",
+      "title": "Campus Recruiting (US) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "d9d7c6ed-4f27-4cd7-adb7-8f2563d9b601",
+      "firm": "Goldman Sachs",
+      "title": "Investment Banking (M&A, Industry Coverage, Leveraged Finance, ECM, DC",
+      "why": "no backing listing"
+    },
+    {
+      "id": "8d8b9660-7601-495f-b581-cb6906f52635",
+      "firm": "Goldman Sachs",
+      "title": "Global Banking & Markets - Transaction Banking - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "0319bee0-0bde-44fd-b0a0-41345c2ffd54",
+      "firm": "Goldman Sachs",
+      "title": "Global Investment Research - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "231672b3-c5b1-44c0-9faa-d26ad13a45e6",
+      "firm": "Goldman Sachs",
+      "title": "Platform Solutions / Enterprise Partnerships - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "9da91bcc-1195-4187-b7bb-5d538c8a85fc",
+      "firm": "Goldman Sachs",
+      "title": "Risk - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "5c595c14-0758-4b64-895e-8aeaa99e737b",
+      "firm": "Greenhill & Co",
+      "title": "M&A Advisory / Restructuring (all US) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "f3a6f9e4-9c68-42d2-ac9d-bdc6d6e88e61",
+      "firm": "Guggenheim Securities",
+      "title": "Investment Banking (incl. Capital Structure Advisory/Restructuring) - ",
+      "why": "no backing listing"
+    },
+    {
+      "id": "274269ba-6132-4e0a-8f97-ee2e9362ed90",
+      "firm": "Harris Williams",
+      "title": "Analyst Recruiting (USA) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "00c99ebd-462d-4a61-8744-904c18aeddbd",
+      "firm": "Harris Williams",
+      "title": "Head of Recruiting (overall) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "c4d6001b-2cc7-4e17-a62b-ab3a66eca363",
+      "firm": "Harris Williams",
+      "title": "Senior Banker (Lateral) Recruiting - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "9098af3a-b3a7-4aae-97a6-c235a131c324",
+      "firm": "Harris Williams",
+      "title": "MBA/Associate Recruiting - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "b714472e-f5a8-4a40-a9a7-f43bda9fa37f",
+      "firm": "Harris Williams",
+      "title": "Experienced Associate Recruiting - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "b488d938-1960-4c23-9ac8-b054e4b39544",
+      "firm": "Harris Williams",
+      "title": "Business Ops & Talent - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "e76672f3-4094-4f75-87e4-3e85eed34e9b",
+      "firm": "Houlihan Lokey",
+      "title": "Corporate Finance / M&A - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "44393cc5-6d4f-40d8-9141-a49d402b5a58",
+      "firm": "Houlihan Lokey",
+      "title": "Financial Restructuring - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "14b44480-5673-40b9-8aa2-c0ada08d8b02",
+      "firm": "HSBC (US)",
+      "title": "Investment Banking - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "026816ae-e51a-450f-8338-b222491bf688",
+      "firm": "Jefferies",
+      "title": "Investment Banking - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "f11dee23-1e76-4dc4-9153-c7b6843481ab",
+      "firm": "Jefferies",
+      "title": "Fixed Income - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "34fd9a2d-c377-49bc-8c82-b3bfe9400988",
+      "firm": "Jefferies",
+      "title": "Equities - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "8c7598d2-e6e2-408b-b52b-34a9910f3e42",
+      "firm": "Jefferies",
+      "title": "Research - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "917ea33a-55e7-4cad-b5cf-2f2c3e0500cb",
+      "firm": "Jefferies",
+      "title": "Private Fund Advisory Group (within IB) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "c4d68038-a00c-43e3-b7e3-cb8ae2007ab9",
+      "firm": "JPMorgan",
+      "title": "Payments / Global Corporate Banking (CIB) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "8687699c-218a-4df1-a3b7-1e9f112fb7e2",
+      "firm": "JPMorgan",
+      "title": "Research - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "e03ba9ae-bcfc-4645-9563-01e731bda9aa",
+      "firm": "JPMorgan",
+      "title": "Risk Management - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "2bb86f9e-a50a-4d57-9cd0-5fb28c80144f",
+      "firm": "KBW (Keefe, Bruyette & Woods)",
+      "title": "Financial Institutions IB / Equity Research - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "a2126b14-3440-45a2-b84a-69b54934f431",
+      "firm": "LionTree",
+      "title": "M&A Advisory (Media/Tech/Telecom, US) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "92da2cf4-2d19-4da1-a676-d79124b0ec10",
+      "firm": "Mizuho Americas",
+      "title": "Banking - Investment & Corporate Banking, M&A, Restructuring, Project ",
+      "why": "no backing listing"
+    },
+    {
+      "id": "4c7207c4-4e86-4c16-bbf8-0debc9b48101",
+      "firm": "Mizuho Americas",
+      "title": "Markets - Equities - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "39a97c33-b1d8-4b80-8edf-7e3ba44b95ed",
+      "firm": "Mizuho Americas",
+      "title": "Markets - Fixed Income - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "7ad3e468-436c-4f63-8c87-0441781a92c2",
+      "firm": "Moelis & Company",
+      "title": "All divisions (US) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "bbcbad64-a10c-4b42-9703-f3a9cd589da2",
+      "firm": "Moelis & Company",
+      "title": "Campus / University Hires - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "ca8b9647-d322-4adc-a73f-41f7dfcd84a9",
+      "firm": "Morgan Stanley",
+      "title": "Investment Banking & Capital Markets - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "293682ae-75f2-422a-8c5b-1b0aa8ae9d23",
+      "firm": "Morgan Stanley",
+      "title": "Research - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "caf4f07e-7c3f-48a0-b837-9934297cdbb4",
+      "firm": "Morgan Stanley",
+      "title": "Investment Management (incl. Private Markets) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "44d9bea2-df18-4c41-b4fc-e13cbd2ce47c",
+      "firm": "Morgan Stanley",
+      "title": "General candidate inquiries - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "1b0131f6-94db-4c13-b773-e3a94b9283b7",
+      "firm": "Nomura (US)",
+      "title": "Investment Banking (incl. SF) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "97ad5ca0-e24c-4133-a920-88513536c13d",
+      "firm": "Oppenheimer & Co",
+      "title": "Investment Banking Analyst Program - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "89583bbd-9257-4878-80bc-a2d320a50166",
+      "firm": "Oppenheimer & Co",
+      "title": "Equity Research - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "78aae0f3-1cea-494b-bafc-f42545a300bb",
+      "firm": "Perella Weinberg Partners",
+      "title": "Campus / Intern & Graduate Recruitment (US) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "56e2e019-131e-4325-bafd-67e26e03e03b",
+      "firm": "Perella Weinberg Partners",
+      "title": "Experienced Hires (all divisions incl. Restructuring) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "aafa7349-78c3-405c-a9b0-e64dfd2d2a89",
+      "firm": "Piper Sandler",
+      "title": "Investment Banking / M&A / Restructuring (all US) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "6d79729d-92b9-4815-91ad-a5ee366aefda",
+      "firm": "Qatalyst Partners",
+      "title": "M&A Advisory (Technology, US) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "36cef4ee-0ecd-4535-be11-049ef57dfe76",
+      "firm": "Raymond James",
+      "title": "Investment Banking / Equity Capital Markets - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "e04c561c-eb52-4f0d-9554-45c8c770ef45",
+      "firm": "RBC Capital Markets (US)",
+      "title": "Global Investment Banking - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "7fc159a3-a45e-4f1a-bc07-bffefca6e5d1",
+      "firm": "RBC Capital Markets (US)",
+      "title": "Global Markets - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "643f1786-b87d-47c8-a96c-45bd465b50a8",
+      "firm": "RBC Capital Markets (US)",
+      "title": "Corporate Banking - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "ac81ff29-299d-4854-892a-7c6ffc7ba49f",
+      "firm": "RBC Capital Markets (US)",
+      "title": "Sustainable Finance / Energy Transition - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "67e58347-bf6a-4207-9ae2-f6ed28489b2e",
+      "firm": "RBC Capital Markets (US)",
+      "title": "US Municipal Finance - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "a55d41ce-3dfe-446f-86f7-032e60611a81",
+      "firm": "RBC Capital Markets (US)",
+      "title": "Research - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "a20984f6-fcd2-43cd-b369-3e61b1af8c7b",
+      "firm": "Robert W. Baird",
+      "title": "Global Investment Banking - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "d2fa29bb-53d9-4d98-82b8-39422611fe52",
+      "firm": "Rothschild & Co (US)",
+      "title": "M&A Advisory - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "821ac12b-6215-41b6-81ae-d027dcfd4334",
+      "firm": "Société Générale (US)",
+      "title": "Investment Banking (Summer Analyst Program, NY) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "b3e640bd-0db0-490e-9909-a183e1de5393",
+      "firm": "Solomon Partners (fka Peter J. Solomon Company)",
+      "title": "M&A Advisory / Restructuring - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "b337df90-35c7-413f-8aa7-decc180eb7f6",
+      "firm": "Stifel",
+      "title": "Investment Banking / Institutional - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "4e47eb6e-2abb-4500-be9a-1b039db3ab93",
+      "firm": "UBS (incl. Credit Suisse IB, US)",
+      "title": "Investment Bank - Global Banking (M&A, ECM, DCM, Lev Fin) - Summer Ana",
+      "why": "no backing listing"
+    },
+    {
+      "id": "48bcd11d-345d-45dc-86ee-7eb32da1a1dd",
+      "firm": "UBS (incl. Credit Suisse IB, US)",
+      "title": "Investment Bank - Global Markets - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "117f12f5-c5e7-4c27-bcac-2defef0b91af",
+      "firm": "UBS (incl. Credit Suisse IB, US)",
+      "title": "Asset Management - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "b211dadf-fb97-45cf-a86a-4201cc345cce",
+      "firm": "Union Square Advisors",
+      "title": "M&A Advisory (Technology, US) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "c98ac30c-1945-472f-b6b5-762af21d19d8",
+      "firm": "William Blair",
+      "title": "Equity Research - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "7f490e5e-3821-4456-9218-aa0d4ce47312",
+      "firm": "William Blair",
+      "title": "Investment Management - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "7a329267-72e3-4441-9ab0-a028b2911585",
+      "firm": "PJT Partners",
+      "title": "Restructuring & Special Situations, Strategic Advisory - Summer Analys",
+      "why": "no backing listing"
+    },
+    {
+      "id": "7ed9130f-b008-43b3-8628-40367b96e6e2",
+      "firm": "William Blair",
+      "title": "Investment Banking (Campus) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "97e0ca08-662b-4de7-a9ea-afa94d80fa27",
+      "firm": "Centerview Partners",
+      "title": "M&A Advisory / all divisions - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "7a605c28-a396-4154-ac66-c0bb3f1e10b2",
+      "firm": "Lazard",
+      "title": "Financial Advisory (M&A) - US - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "c95aec3a-0f72-47be-a4e4-02ad2798a7bc",
+      "firm": "JPMorgan",
+      "title": "Investment Banking (Corporate Client Banking, M&A, Coverage) - Summer ",
+      "why": "no backing listing"
+    },
+    {
+      "id": "1d851926-202a-4505-905c-4c36f08bf431",
+      "firm": "Bank of America",
+      "title": "Sustainability & Global Research - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "84681a80-4abc-4d44-8052-00713db1be23",
+      "firm": "Bank of America",
+      "title": "Private Bank - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "b450f540-8f8a-4913-88f6-37b5c53bf4f7",
+      "firm": "Bank of America",
+      "title": "Global Payments Solutions - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "e73b275d-6dd0-4399-8fd2-a6dbc67d4484",
+      "firm": "Bank of America",
+      "title": "Quantitative Data Analytics - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "cfb365e2-d285-4eb2-b1e0-2e842aabaf20",
+      "firm": "Bank of America",
+      "title": "Campus Recruiting hub (all divisions) - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "2d6df5b1-330e-4cf0-8beb-40c135d8d34f",
+      "firm": "Wells Fargo",
+      "title": "Investment Banking Analyst Program - Summer Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "69f58073-42ba-4b43-b9de-7c003d869898",
+      "firm": "Bank of America",
+      "title": "Chief Operating Officer Group Summer Analyst - 2027 - Hong Kong",
+      "why": "no backing listing"
+    },
+    {
+      "id": "3484dea9-f0cf-4ca6-8907-6782a42d4c34",
+      "firm": "Bank of America",
+      "title": "Investment Banking 2027 Off-cycle Analyst, Consumer and Retail (CoRe) ",
+      "why": "no backing listing"
+    },
+    {
+      "id": "57861deb-b011-4615-8caf-37598978d762",
+      "firm": "Bank of America",
+      "title": "Global Payments Solutions Summer Analyst - 2027 - Shanghai",
+      "why": "no backing listing"
+    },
+    {
+      "id": "2bade6a0-ba9a-4944-8410-63a33da5b68d",
+      "firm": "Bank of America",
+      "title": "Investment Banking 2027 Summer Analyst - Frankfurt",
+      "why": "no backing listing"
+    },
+    {
+      "id": "e2a295ae-c2ba-44ba-87f9-982ecdd6f551",
+      "firm": "Bank of America",
+      "title": "Investment Banking 2027 Off-cycle Analyst, Multi-Industries (GIG) - Lo",
+      "why": "no backing listing"
+    },
+    {
+      "id": "62d815cc-b930-48c1-a5fb-517c195f1fa9",
+      "firm": "Bank of America",
+      "title": "Global Quantitative Data Analytics, Summer 2027 Analyst - London",
+      "why": "no backing listing"
+    },
+    {
+      "id": "fb160687-3bd0-423c-8aea-6c8e9ac6184a",
+      "firm": "Bank of America",
+      "title": "Chief People Organization, Summer 2027 Analyst - Chester",
+      "why": "no backing listing"
+    },
+    {
+      "id": "9d8096a9-c304-41e5-865f-6fd06b82ea31",
+      "firm": "Bank of America",
+      "title": "Global Markets Quantitative Strategies Data Group 2027 Off-cycle Assoc",
+      "why": "no backing listing"
+    },
+    {
+      "id": "a8309b83-8da9-4951-8cad-fb16b46551e6",
+      "firm": "Bank of America",
+      "title": "Global Capital Markets 2027, Off-Cycle Analyst (Debt Capital Markets) ",
+      "why": "no backing listing"
+    },
+    {
+      "id": "34e302d5-a417-4c1f-b4aa-67e5b4434956",
+      "firm": "Bank of America",
+      "title": "Global Technology Summer Analyst (Information Security / Cybersecurity",
+      "why": "no backing listing"
+    },
+    {
+      "id": "40f919d0-be0a-4577-af4e-4087d23b12a6",
+      "firm": "Bank of America",
+      "title": "Global Markets, (Sales & Trading) Rotational Programme 2027, Summer An",
+      "why": "no backing listing"
+    },
+    {
+      "id": "490a7fb0-6b8e-4c2e-8e6c-0bac5f59d6a6",
+      "firm": "Bank of America",
+      "title": "Global Research 2027 Summer Analyst - London",
+      "why": "no backing listing"
+    },
+    {
+      "id": "0074a6cd-c542-4c55-80ec-dcacca3a34d3",
+      "firm": "Bank of America",
+      "title": "Global Markets Chief Operating Office 2027 Summer Analyst Program - Lo",
+      "why": "no backing listing"
+    },
+    {
+      "id": "d3a6941c-0afd-4059-9aad-5041ed64266d",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking 2027, Off-Cycle Analyst – Stockholm",
+      "why": "no backing listing"
+    },
+    {
+      "id": "f5e3200e-10bf-4e7f-b12f-c58b6e7859f0",
+      "firm": "Bank of America",
+      "title": "Quantitative Strategies & Data Group Summer Associate Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "32ae1995-34da-4931-bc98-f4824a94854c",
+      "firm": "Bank of America",
+      "title": "Global Quantitative Research Summer Associate Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "158d9f4c-da4e-46df-820c-3bc1fa1c01e6",
+      "firm": "Bank of America",
+      "title": "Global Investment Banking Summer Analyst - 2027 - Hong Kong",
+      "why": "no backing listing"
+    },
+    {
+      "id": "8de4c61d-3a39-4bc6-8b32-3cde09670f89",
+      "firm": "Bank of America",
+      "title": "Chief People Organization, Summer 2027 Analyst - London",
+      "why": "no backing listing"
+    },
+    {
+      "id": "3d216187-db96-4e7d-8c18-3db72c05baf6",
+      "firm": "Bank of America",
+      "title": "Global Capital Markets 2027, Off-Cycle Analyst (Leveraged Finance) – L",
+      "why": "no backing listing"
+    },
+    {
+      "id": "99e7ceef-b9be-4448-be38-c5a658839fea",
+      "firm": "Bank of America",
+      "title": "Investment Banking, 2027 Off-Cycle Analyst - Milan",
+      "why": "no backing listing"
+    },
+    {
+      "id": "2d705084-78b4-40df-8715-04bc077e8c7d",
+      "firm": "Bank of America",
+      "title": "Global Technology Summer Analyst (Core Technology Infrastructure [CTI]",
+      "why": "no backing listing"
+    },
+    {
+      "id": "3f36d16f-21c5-422f-94dc-626b38227986",
+      "firm": "Bank of America",
+      "title": "Investment Banking 2027 Off-cycle Analyst, Real Estate, Gaming and Lei",
+      "why": "no backing listing"
+    },
+    {
+      "id": "a7e142a5-9cf2-4a9f-bde0-e98c354c8a65",
+      "firm": "Bank of America",
+      "title": "Investment Banking H2-2027 Off-Cycle Analyst - Paris",
+      "why": "no backing listing"
+    },
+    {
+      "id": "8da76b55-3f98-4dec-841c-2c834da5957a",
+      "firm": "Bank of America",
+      "title": "Global Markets Sales and Trading 2027 Off-Cycle Analyst - Paris",
+      "why": "no backing listing"
+    },
+    {
+      "id": "77669ff2-9b24-4237-87ba-5d455d999f50",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking 2027, Off-Cycle Analyst – Dubai",
+      "why": "no backing listing"
+    },
+    {
+      "id": "1b987767-b604-4788-8295-c2079030d53e",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking 2027, Off-Cycle Analyst – Frankfurt",
+      "why": "no backing listing"
+    },
+    {
+      "id": "5fdb6e67-4523-4679-9753-e6e3ab877363",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking 2027, Off-Cycle Analyst – Milan",
+      "why": "no backing listing"
+    },
+    {
+      "id": "9bac6467-cb45-4f9f-a277-ce26d5c17bfb",
+      "firm": "Bank of America",
+      "title": "Global Human Resources Summer Associate Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "6484f743-19c6-4c67-a96c-004a751b5029",
+      "firm": "Bank of America",
+      "title": "Global Risk, Summer 2027 Analyst - London",
+      "why": "no backing listing"
+    },
+    {
+      "id": "44b9736f-95c7-418d-89b8-46de484a56c3",
+      "firm": "Bank of America",
+      "title": "Global Markets Sales & Trading Summer Associate Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "a5042e6c-6329-4a70-a35c-e1d9455cb26b",
+      "firm": "Bank of America",
+      "title": "2027 Brazil Fixed Income Sales & Trading Desk Internship Program",
+      "why": "no backing listing"
+    },
+    {
+      "id": "b57f44c3-1129-4973-8a8c-86f279c397da",
+      "firm": "Bank of America",
+      "title": "Investment Banking 2027 Off-Cycle Analyst - Stockholm",
+      "why": "no backing listing"
+    },
+    {
+      "id": "e2db970f-9641-41cd-ab8b-b26f902a1f11",
+      "firm": "Bank of America",
+      "title": "Investment Banking 2027 Off-Cycle Analyst - Zurich",
+      "why": "no backing listing"
+    },
+    {
+      "id": "2a1210b1-ee39-4589-8ec6-bdad1d90fb97",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking 2027 Summer Analyst – London",
+      "why": "no backing listing"
+    },
+    {
+      "id": "ada21f20-4eb4-4f81-a373-cbe2fb43ea94",
+      "firm": "Bank of America",
+      "title": "Canada | Toronto | Global Payment Solutions Summer Analyst | 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "1cc95879-f154-462e-a6d9-10eb652e732f",
+      "firm": "Bank of America",
+      "title": "Global Investment Banking Summer Analyst - 2027 - Bangkok",
+      "why": "no backing listing"
+    },
+    {
+      "id": "f72357f7-753f-4e15-8694-f2e922a7f085",
+      "firm": "Bank of America",
+      "title": "Commodities Summer Analyst Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "0f0742d0-64a5-4065-bb95-3600e84d6e73",
+      "firm": "Bank of America",
+      "title": "COO - GCIB Regulatory Summer Analyst Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "ae4d5e9c-4e41-4f00-921f-1f89fb09bfbc",
+      "firm": "Bank of America",
+      "title": "Global Investment Banking Summer Analyst - 2027 - Singapore",
+      "why": "no backing listing"
+    },
+    {
+      "id": "f0c7cb35-e13f-4f05-bb28-634f20281b8e",
+      "firm": "Bank of America",
+      "title": "Global Markets Sales & Trading Rotational Summer Analyst - 2027 - Hong",
+      "why": "no backing listing"
+    },
+    {
+      "id": "c6fdc5f4-560f-4a33-826e-8c385aff7101",
+      "firm": "Bank of America",
+      "title": "Global Payments Solutions Summer Analyst - 2027 - Taipei",
+      "why": "no backing listing"
+    },
+    {
+      "id": "a8719f61-9b05-4f82-a3c2-568677da22ef",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking Summer Analyst - 2027 - Shanghai",
+      "why": "no backing listing"
+    },
+    {
+      "id": "c0831026-e003-475e-945f-b4ab21081b74",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking Summer Analyst - 2027 - Kuala Lumpur",
+      "why": "no backing listing"
+    },
+    {
+      "id": "08af42f7-8c9d-4ac0-a1c0-09402fd4a996",
+      "firm": "Bank of America",
+      "title": "Global Capital Markets Summer Analyst - 2027 - Seoul",
+      "why": "no backing listing"
+    },
+    {
+      "id": "cdcaaecf-d9fe-418d-a4c2-494e55028e48",
+      "firm": "Bank of America",
+      "title": "2026 Brazil Equity Capital Markets Internship Program",
+      "why": "no backing listing"
+    },
+    {
+      "id": "d2eb0e8b-38b7-4519-bc3f-d81483bd8b1d",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking Summer Analyst - 2027 - Singapore",
+      "why": "no backing listing"
+    },
+    {
+      "id": "1b13223c-5bcf-49ce-a3f4-175188533337",
+      "firm": "Bank of America",
+      "title": "Global Investment Banking Summer Analyst - 2027 - Seoul",
+      "why": "no backing listing"
+    },
+    {
+      "id": "0803ae78-ed14-40f6-aa5d-d942798ed535",
+      "firm": "Bank of America",
+      "title": "Global Operations Summer Analyst Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "7f261c45-7a95-4941-a900-4fce26fcd079",
+      "firm": "Bank of America",
+      "title": "Global Technology Analyst - Industrial Attachment (Business Analyst) -",
+      "why": "no backing listing"
+    },
+    {
+      "id": "04d7d9f7-20dc-45a2-833c-f8c136b45990",
+      "firm": "Bank of America",
+      "title": "Global Operations Autumn Job - Tokyo - 2026",
+      "why": "no backing listing"
+    },
+    {
+      "id": "64a548b5-a4a2-43f7-9535-0b4b7a936cab",
+      "firm": "Bank of America",
+      "title": "2027 Brazil Investment Banking Internship Program",
+      "why": "no backing listing"
+    },
+    {
+      "id": "9c23d7e5-dec8-439b-afbf-d5d677dbc8fc",
+      "firm": "Bank of America",
+      "title": "Investment Banking H1-2027 Off-Cycle Analyst - Paris",
+      "why": "no backing listing"
+    },
+    {
+      "id": "cd3fa13f-6332-48c3-aaef-44dec0bb7203",
+      "firm": "Bank of America",
+      "title": "Global Investment Banking 2027 Summer Analyst - London",
+      "why": "no backing listing"
+    },
+    {
+      "id": "61540b08-0710-406f-a300-149b90f1e352",
+      "firm": "Bank of America",
+      "title": "Global Banking Operations Summer Analyst - 2027 - Manila",
+      "why": "no backing listing"
+    },
+    {
+      "id": "4dd9517e-02c0-40f9-a407-dcec2794490c",
+      "firm": "Bank of America",
+      "title": "Global Banking Operations Summer Analyst - 2027 - Singapore",
+      "why": "no backing listing"
+    },
+    {
+      "id": "7ea633e4-ea3e-4be8-bbd5-5c50c12e2224",
+      "firm": "Bank of America",
+      "title": "Investment Banking, 2027 Off-cycle Analyst, Technology, Media and Tele",
+      "why": "no backing listing"
+    },
+    {
+      "id": "54748bc1-d130-4267-96d4-748a8809f3be",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking 2027, Off-Cycle Analyst – Zurich",
+      "why": "no backing listing"
+    },
+    {
+      "id": "e6cde84e-b989-40c6-b9da-9ea3c4d610a3",
+      "firm": "Bank of America",
+      "title": "Investment Banking 2027 Off-cycle Analyst, UK & Ireland Investment Ban",
+      "why": "no backing listing"
+    },
+    {
+      "id": "733ff868-17b2-4ea0-b2ba-d2b14fb7f93a",
+      "firm": "Bank of America",
+      "title": "Investment Banking 2027 Off-Cycle Analyst - Amsterdam",
+      "why": "no backing listing"
+    },
+    {
+      "id": "93920e28-cba8-4a21-bc79-37fc12770f9e",
+      "firm": "Bank of America",
+      "title": "Investment Banking, 2027 Off-Cycle Analyst - Dubai",
+      "why": "no backing listing"
+    },
+    {
+      "id": "57f91b95-46d7-4b76-94e2-76507879232b",
+      "firm": "Bank of America",
+      "title": "Global Markets, (Sales & Trading Private Side) Rotational Programme 20",
+      "why": "no backing listing"
+    },
+    {
+      "id": "48b3466d-d5a0-4b6c-8d31-9ee1981243aa",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking 2027, Off-Cycle Analyst – Madrid",
+      "why": "no backing listing"
+    },
+    {
+      "id": "b964cd91-3129-458d-aad1-db84384d8447",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking 2027 Off-Cycle Analyst, Financial Institution",
+      "why": "no backing listing"
+    },
+    {
+      "id": "e5aee08b-1175-494c-ba94-6841eb0fba86",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking 2027, Off-Cycle Analyst – Paris",
+      "why": "no backing listing"
+    },
+    {
+      "id": "9e6f8c13-d6fc-4ed7-87ff-191e8825557e",
+      "firm": "Bank of America",
+      "title": "Global Capital Markets 2027 Summer Analyst (DCM, ECM, Leveraged Financ",
+      "why": "no backing listing"
+    },
+    {
+      "id": "cf00f70e-c583-49cd-9efe-127523eb0e61",
+      "firm": "Bank of America",
+      "title": "Global Markets Sales & Trading Rotational Summer Analyst - 2027 - Sing",
+      "why": "no backing listing"
+    },
+    {
+      "id": "eb4669b7-60fd-4d7e-954b-642d9016d5e0",
+      "firm": "Bank of America",
+      "title": "Global Capital Markets Summer Analyst - 2027 - Hong Kong",
+      "why": "no backing listing"
+    },
+    {
+      "id": "be2d917a-0b6a-4a74-ada5-20768c65b46e",
+      "firm": "Bank of America",
+      "title": "Global Infrastructure Credit, 2027 Summer Analyst - London",
+      "why": "no backing listing"
+    },
+    {
+      "id": "b3fe836e-51be-4dfb-89e4-bb5c28b2b5d4",
+      "firm": "Bank of America",
+      "title": "Global Technology Technology Infrastructure Summer 2027 Analyst - Ches",
+      "why": "no backing listing"
+    },
+    {
+      "id": "212ed924-3286-4e51-a32d-ef4d9107e2a6",
+      "firm": "Bank of America",
+      "title": "Global Operations Operations Analyst Summer 2027 - Dublin",
+      "why": "no backing listing"
+    },
+    {
+      "id": "0e95612b-e160-49d2-adc5-4af2c0b1b1a6",
+      "firm": "Bank of America",
+      "title": "Global Operations Operations Analyst Summer 2027 - London",
+      "why": "no backing listing"
+    },
+    {
+      "id": "1292cf0b-22c1-42d6-84d1-a141d087d724",
+      "firm": "Bank of America",
+      "title": "GCIB Credit 2027 Summer Analyst - Dublin",
+      "why": "no backing listing"
+    },
+    {
+      "id": "4cea789a-1acb-44f9-bdbd-ba9bc3ff8a82",
+      "firm": "Bank of America",
+      "title": "Global Operations Operations Analyst Summer 2027 - Chester",
+      "why": "no backing listing"
+    },
+    {
+      "id": "9883c693-a3b0-4cd4-b6ec-f0e2542ae4bb",
+      "firm": "Bank of America",
+      "title": "Global Technology, Cyber Security, Summer 2027 Analyst - Chester",
+      "why": "no backing listing"
+    },
+    {
+      "id": "6b895977-038f-49c2-8006-1e43bc72f8c2",
+      "firm": "Bank of America",
+      "title": "GCIB Credit 2027 Summer Analyst - Frankfurt",
+      "why": "no backing listing"
+    },
+    {
+      "id": "796053fb-db61-4a26-af41-3f010bc99371",
+      "firm": "Bank of America",
+      "title": "Global Operations, Operations Analyst Summer 2027 - Bromley",
+      "why": "no backing listing"
+    },
+    {
+      "id": "ea74c534-fc5b-400b-a68d-3a5fc786fe01",
+      "firm": "Bank of America",
+      "title": "GM Credit 2027 Summer Analyst - London",
+      "why": "no backing listing"
+    },
+    {
+      "id": "ead034fd-e6ce-440b-a6bc-01933f11a270",
+      "firm": "Bank of America",
+      "title": "2027 Brazil Legal Internship Program",
+      "why": "no backing listing"
+    },
+    {
+      "id": "15de9a11-aba1-4ddf-b7fb-ba29e084df17",
+      "firm": "Bank of America",
+      "title": "GCIB Credit, 2027 Summer Analyst - London",
+      "why": "no backing listing"
+    },
+    {
+      "id": "a8896b85-8214-4a6e-88f0-787b0ac24e98",
+      "firm": "Bank of America",
+      "title": "Global Markets Quantitative Strategies Data Group 2027 Summer Associat",
+      "why": "no backing listing"
+    },
+    {
+      "id": "3c5421f1-0cc0-4559-8457-9a1b35f58d47",
+      "firm": "Bank of America",
+      "title": "Strategy & Management Summer Associate Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "ef02040f-7e8d-4c5d-99ff-c4960f7c4c19",
+      "firm": "Bank of America",
+      "title": "Global Technology Summer Analyst (Business Analyst) - 2027 - Singapore",
+      "why": "no backing listing"
+    },
+    {
+      "id": "b12d856a-dd76-4507-8fe4-91f9e11fb700",
+      "firm": "Bank of America",
+      "title": "2027 Japan Summer Analyst Program",
+      "why": "no backing listing"
+    },
+    {
+      "id": "ef0ea96c-4a2f-4509-a7b7-6f72c68e9648",
+      "firm": "Bank of America",
+      "title": "Brazil - Apprentice Program",
+      "why": "no backing listing"
+    },
+    {
+      "id": "19fbdab6-a86c-44aa-8df6-5a937a021d8d",
+      "firm": "Bank of America",
+      "title": "Global Markets Chief Operating Office, Summer Analyst - Paris",
+      "why": "no backing listing"
+    },
+    {
+      "id": "c17ae27a-6184-43eb-a8a5-aaababb2ed1c",
+      "firm": "Bank of America",
+      "title": "Chief People Organization Summer Analyst Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "b3fda14b-7344-459b-b7dc-e2131ea98bc4",
+      "firm": "Bank of America",
+      "title": "Global Risk Summer Analyst Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "8af37e00-05d4-4caf-9bf3-0f6ae4bb8728",
+      "firm": "Bank of America",
+      "title": "Enterprise Credit Summer Analyst Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "ef56490c-5fb0-4eca-9959-0df78b6b4724",
+      "firm": "Bank of America",
+      "title": "Global Technology Summer Analyst 2027 - Business Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "404c8f26-6183-4cc8-9a1b-0205282759cb",
+      "firm": "Bank of America",
+      "title": "Global Markets Chief Operating Office Summer Analyst Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "0e748c07-6468-4722-861c-9a9e9b1e493f",
+      "firm": "Bank of America",
+      "title": "Global Technology Summer Analyst 2027 - Cybersecurity Analyst",
+      "why": "no backing listing"
+    },
+    {
+      "id": "1c0f47e9-b25c-4669-93a4-bd6397fa6b41",
+      "firm": "Bank of America",
+      "title": "Global Technology Summer Analyst 2027 - Software Engineer and Mainfram",
+      "why": "no backing listing"
+    },
+    {
+      "id": "8791b33a-0192-4638-9639-200035b300ed",
+      "firm": "Bank of America",
+      "title": "Global Markets Fixed Income, Currencies & Commodities Sales Summer Ana",
+      "why": "no backing listing"
+    },
+    {
+      "id": "05d111e6-48f2-4be4-867c-07893b3b36bb",
+      "firm": "Bank of America",
+      "title": "Global Markets Fixed Income, Currencies & Commodities Sales Summer Ana",
+      "why": "no backing listing"
+    },
+    {
+      "id": "23e43dc8-e091-4646-b71f-51bbb3e5f7dc",
+      "firm": "Bank of America",
+      "title": "Global Quantitative Strategies Summer Associate - 2027 - Hong Kong",
+      "why": "no backing listing"
+    },
+    {
+      "id": "e3abeb36-837a-4df8-a2c1-6634579cb89d",
+      "firm": "Bank of America",
+      "title": "Global Markets Fixed Income, Currencies & Commodities Sales Summer Ana",
+      "why": "no backing listing"
+    },
+    {
+      "id": "16f9474c-46f6-4f7e-ba86-da159b37e7d0",
+      "firm": "Bank of America",
+      "title": "Global Technology Summer Analyst Program (Application Production Servi",
+      "why": "no backing listing"
+    },
+    {
+      "id": "7197cb09-a8bf-4e14-85eb-5f53f188bfd3",
+      "firm": "Bank of America",
+      "title": "Global Technology Summer Analyst (Software Engineer) - 2027 - Singapor",
+      "why": "no backing listing"
+    },
+    {
+      "id": "c105168c-b85a-4c7c-91c2-b758bc01674a",
+      "firm": "Bank of America",
+      "title": "Enterprise Credit Summer Analyst - 2027 - Shanghai",
+      "why": "no backing listing"
+    },
+    {
+      "id": "287a2b5d-e399-4e27-af49-6023452f703f",
+      "firm": "Bank of America",
+      "title": "Enterprise Credit Summer Analyst - 2027 - Singapore",
+      "why": "no backing listing"
+    },
+    {
+      "id": "bea51432-b0ff-479d-b02b-29d33e462a4e",
+      "firm": "Bank of America",
+      "title": "Enterprise Credit Summer Analyst - 2027 - Hong Kong",
+      "why": "no backing listing"
+    },
+    {
+      "id": "e9b8df6d-3fcc-47b9-9b13-39ca5db5ba70",
+      "firm": "Bank of America",
+      "title": "Global Payments Solutions Summer Analyst - 2027 - Singapore",
+      "why": "no backing listing"
+    },
+    {
+      "id": "faaf963f-9707-4275-9563-174313cca0dc",
+      "firm": "Bank of America",
+      "title": "Global Payments Solutions Summer Analyst - 2027 - Kuala Lumpur",
+      "why": "no backing listing"
+    },
+    {
+      "id": "0cfcc07b-1b76-4f15-8799-c7a1d649557b",
+      "firm": "Bank of America",
+      "title": "Global Payments Solutions Summer Analyst - 2027 - Seoul",
+      "why": "no backing listing"
+    },
+    {
+      "id": "fd738430-c988-423d-bf64-ef0dcd23c575",
+      "firm": "Bank of America",
+      "title": "Investment Banking 2027 Off-Cycle Analyst - Frankfurt",
+      "why": "no backing listing"
+    },
+    {
+      "id": "8fe2123e-3ca6-4807-af1d-009de0edd2f1",
+      "firm": "Bank of America",
+      "title": "2027 Brazil Executive Assistant – Administrative support Internship Pr",
+      "why": "no backing listing"
+    },
+    {
+      "id": "ab210128-4b21-497d-ae74-8dbd3a1591eb",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking Summer Analyst - 2027 - Hong Kong",
+      "why": "no backing listing"
+    },
+    {
+      "id": "df813e6d-fe23-48dc-9cb1-abe2c0e8ba69",
+      "firm": "Bank of America",
+      "title": "Investment Banking 2027 Off-cycle Analyst, Financial Sponsors Group (F",
+      "why": "no backing listing"
+    },
+    {
+      "id": "876243cc-1206-4fda-9d71-7851d03e0534",
+      "firm": "Bank of America",
+      "title": "Investment Banking 2027 Off-Cycle Analyst - Madrid",
+      "why": "no backing listing"
+    },
+    {
+      "id": "4d0cc0c0-f6f8-48e1-8eeb-227815ff2ba6",
+      "firm": "Piper Sandler",
+      "title": "2027 Investment Banking Analyst - Equity Private Placements",
+      "why": "no backing listing"
+    },
+    {
+      "id": "8777fa8e-e627-431c-b34d-dee2b57c7f24",
+      "firm": "Mizuho Americas",
+      "title": "2027-01-01 00:00:00+00",
+      "why": "no backing listing"
+    },
+    {
+      "id": "3e5aed82-5a52-45ab-9917-3a7e4d077604",
+      "firm": "Bank of America",
+      "title": "Latin America Investment Banking Summer Associate Program – 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "6baeb2e9-5ee5-4acb-ab44-b7656c79ab9d",
+      "firm": "Houlihan Lokey",
+      "title": "Q2 2027 Off-Cycle Internship - Corporate Finance (Technology)",
+      "why": "no backing listing"
+    },
+    {
+      "id": "cd958937-f955-49c3-be07-f7da0e26e6f5",
+      "firm": "Houlihan Lokey",
+      "title": "Q2 2027 Off-Cycle Internship - Corporate Finance (IT Services)",
+      "why": "no backing listing"
+    },
+    {
+      "id": "c3f44c16-be38-4433-a795-547a6064e335",
+      "firm": "Bank of America",
+      "title": "Investment Banking 2027 Off-cycle Analyst, Financial Institutions Grou",
+      "why": "no backing listing"
+    },
+    {
+      "id": "c234e039-5897-435f-a80f-6166f12300cc",
+      "firm": "Bank of America",
+      "title": "Global Investment Banking Summer Associate Program - 2027",
+      "why": "no backing listing"
+    },
+    {
+      "id": "5a44335a-8216-46a0-a7f7-a33122e41989",
+      "firm": "Guggenheim Securities",
+      "title": "2027 Guggenheim Securities Investment Banking Summer Associate – New Y",
+      "why": "no backing listing"
+    },
+    {
+      "id": "c4fce7fb-ea19-41d5-9b1a-f400a7497f59",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking Subsidiaries 2027, Off-Cycle Analyst – Dublin",
+      "why": "no backing listing"
+    },
+    {
+      "id": "622e832f-cc69-4703-a6ec-7c52832d2577",
+      "firm": "Bank of America",
+      "title": "Global Corporate Banking Summer Analyst - 2027 - Seoul",
+      "why": "no backing listing"
+    },
+    {
+      "id": "0a384c99-4bf0-4ba5-b10e-977d8d8cd36a",
+      "firm": "Bank of America",
+      "title": "Global Investment Banking Summer Analyst - 2027 - Mumbai",
+      "why": "no backing listing"
+    },
+    {
+      "id": "eeb37e3d-a1d3-4cab-b24e-25c075f36e5e",
+      "firm": "Bank of America",
+      "title": "Global Payment Solutions 2027 Summer Analyst - London",
+      "why": "no backing listing"
+    },
+    {
+      "id": "e7bb7a9c-1411-4073-95b9-e6e1e35c4702",
+      "firm": "D.A. Davidson & Co",
+      "title": "Class of 2028 Diversified Industrials Group, Investment Banking - Summ",
+      "why": "no backing listing"
+    },
+    {
+      "id": "72403c42-52cb-48c5-b101-bcdb91154a9d",
+      "firm": "D.A. Davidson & Co",
+      "title": "Class of 2028 Equity Capital Markets Research Intern",
+      "why": "no backing listing"
+    },
+    {
+      "id": "756ecfaf-5696-4991-bea9-d65749c14626",
+      "firm": "Bank of America",
+      "title": "Leasing Credit – Global Vendor Finance and International Asset Finance",
+      "why": "no backing listing"
+    },
+    {
+      "id": "6a5c2867-9951-4596-970c-d6ffb924e3e1",
+      "firm": "BDO Capital Advisors",
+      "title": "2027-01-01 00:00:00+00",
+      "why": "no backing listing"
+    },
+    {
+      "id": "26c16a1b-f949-4232-bdc1-a67869657965",
+      "firm": "Guggenheim Securities",
+      "title": "2027 Guggenheim Securities Investment Banking Summer Associate – Los A",
+      "why": "no backing listing"
+    },
+    {
+      "id": "c2043358-26e0-45f6-8907-f22fb0e6117d",
+      "firm": "D.A. Davidson & Co",
+      "title": "Class of 2028 Financial Institutions Group, Investment Banking - Summe",
+      "why": "no backing listing"
+    }
+  ]
+}

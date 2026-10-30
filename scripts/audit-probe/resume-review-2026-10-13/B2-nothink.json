@@ -1,0 +1,332 @@
+{
+  "meta": {
+    "ranAt": "2026-10-13T04:39:00.408Z",
+    "cfg": {
+      "model": "claude-sonnet-5",
+      "effort": "high",
+      "thinking": "disabled",
+      "maxTokens": 6000,
+      "speed": null
+    },
+    "ms": 22945,
+    "usage": {
+      "input_tokens": 3275,
+      "output_tokens": 3208
+    },
+    "costUsd": 0.0386
+  },
+  "found": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    "F9",
+    "F10",
+    "F11",
+    "F12"
+  ],
+  "missed": [],
+  "review": {
+    "score": 31,
+    "summary": "Your resume is clean and easy to follow - the reverse-chronological layout is clear, dates don't leave gaps, and the plain single-column format should extract well if it goes through a scanning system. The biggest lift right now is to cut the objective statement entirely and retire the 'My Journey' header in favor of 'Experience,' then go back through your bullets to replace duty-listing openers like 'Responsible for' and 'Assisted with' with strong verbs tied to actual results. Tightening tense consistency, fixing the 'Finacial' typo, and filling out your skills section would also sharpen the overall impression.",
+    "strengths": [
+      "Reverse-chronological experience order with no unexplained date gaps between roles",
+      "Single-column plain text layout with no tables, graphics, or headers/footers carrying content, so it should extract cleanly in a parser"
+    ],
+    "dimensions": [
+      {
+        "id": "honest",
+        "label": "First impression",
+        "max": 30,
+        "score": 8,
+        "notes": "",
+        "issues": [
+          {
+            "severity": "major",
+            "title": "Objective statement wastes top real estate",
+            "detail": "'Incredibly passionate and detail-oriented team player...leverage my skills' is the first thing a screener reads. It says nothing a bullet shouldn't instead. Cut it entirely - banking resumes don't use objectives."
+          },
+          {
+            "severity": "major",
+            "title": "No GPA next to degree",
+            "detail": "Education lists school, degree, and graduation date but omits GPA. On this screen, an absent GPA reads as a low one being hidden. Add it directly after the degree line, or expect it to count against you either way."
+          },
+          {
+            "severity": "major",
+            "title": "References line has no place here",
+            "detail": "'Available upon request' is a dead line - every candidate has references, and no one asks for them on a resume. Delete the whole section and use that space for a third bullet or an activities line."
+          },
+          {
+            "severity": "minor",
+            "title": "Section header 'My Journey' reads unprofessional",
+            "detail": "Standard convention is 'Experience' or 'Work Experience.' 'My Journey' is the kind of label that makes a screener wonder whether the rest of the document was taken seriously - rename it."
+          }
+        ]
+      },
+      {
+        "id": "bullets",
+        "label": "Experience & impact",
+        "max": 25,
+        "score": 6,
+        "notes": "",
+        "issues": [
+          {
+            "severity": "major",
+            "title": "Bullets list duties, not outcomes",
+            "detail": "All four bullets under Pinecrest and Duke Investment Club describe tasks ('maintaining the dividend screen', 'presented stock pitches') with no result - no return generated, no recommendation adopted, no accuracy or time saved. A screener reads these as a job description, not impact.'"
+          },
+          {
+            "severity": "major",
+            "title": "Weak opening verbs throughout",
+            "detail": "'Responsible for maintaining' and 'Assisted with various research projects' are passive, duty-listing openers. These read as watching the work happen rather than owning it - replace with a strong action verb tied to what was actually produced."
+          },
+          {
+            "severity": "minor",
+            "title": "Tense inconsistency signals carelessness",
+            "detail": "'Builds models' is present tense while the internship is a past role (May-Aug 2024) and the surrounding bullets are past tense - a screener catches this fast and reads it as an unproofed draft."
+          },
+          {
+            "severity": "minor",
+            "title": "No scope or scale given anywhere",
+            "detail": "'various research projects' and 'stock pitches' give no sense of scope - how many companies, what sector coverage, what was the thesis outcome. Add a number or concrete scope to every bullet so the reader can size the work."
+          }
+        ]
+      },
+      {
+        "id": "ats",
+        "label": "Keywords & scanning",
+        "max": 15,
+        "score": 8,
+        "notes": "",
+        "issues": [
+          {
+            "severity": "major",
+            "title": "Non-standard heading 'My Journey'",
+            "detail": "'MY JOURNEY' is used where a parser expects 'EXPERIENCE' or 'WORK EXPERIENCE'. Most ATS systems map content into fields by recognized headers, so this block risks being dropped or miscategorized entirely. Rename it to a standard label."
+          },
+          {
+            "severity": "minor",
+            "title": "Misspelled skill won't match keyword search",
+            "detail": "'Finacial Modeling' under SKILLS is misspelled, so any ATS keyword match or recruiter search for 'Financial Modeling' will miss this resume entirely. Correct the spelling."
+          },
+          {
+            "severity": "minor",
+            "title": "Thin skills section limits keyword matches",
+            "detail": "SKILLS lists only three items (Finacial Modeling, Excel, PowerPoint). Parsers and recruiter searches often rank candidates by keyword count; add specific tools a finance screen searches for, e.g. PowerPoint, Bloomberg, Capital IQ, VBA, if truthful."
+          }
+        ]
+      },
+      {
+        "id": "tone",
+        "label": "Industry fit",
+        "max": 15,
+        "score": 5,
+        "notes": "The objective and skills sections read as generic and self-described rather than evidenced, which is the opposite of how finance screeners expect a candidate to present. The section header 'MY JOURNEY' compounds this by sounding like a personal blog rather than a professional track record.",
+        "issues": [
+          {
+            "severity": "major",
+            "title": "Objective uses inflated self-description",
+            "detail": "'Incredibly passionate and detail-oriented team player' and 'world-class' are adjectives the candidate applies to herself with no evidence behind them. Finance resumes either cut the objective entirely or replace it with a one-line summary stating school, concentration, and the specific area of finance targeted."
+          },
+          {
+            "severity": "major",
+            "title": "'MY JOURNEY' header breaks industry register",
+            "detail": "This section should be called 'EXPERIENCE' or 'WORK EXPERIENCE'. 'My Journey' reads as casual, personal-brand language that is out of place on a banking or PE resume and signals a misread of the audience."
+          },
+          {
+            "severity": "minor",
+            "title": "Skills list is bare and uncalibrated",
+            "detail": "'Finacial Modeling, Excel, PowerPoint' (also misspelled) gives no sense of proficiency level. Finance resumes typically separate technical skills by category (e.g. modeling, data/terminal tools, languages) and only list what can be defended in an interview."
+          }
+        ]
+      },
+      {
+        "id": "polish",
+        "label": "Proofing & consistency",
+        "max": 15,
+        "score": 4,
+        "notes": "",
+        "issues": [
+          {
+            "severity": "major",
+            "title": "Objective full of generic filler",
+            "detail": "'Incredibly passionate and detail-oriented team player' and 'world-class finance internship where I can leverage my skills' are stock phrases that could sit on any resume. Cut the objective entirely or replace with specifics about what you're targeting.'"
+          },
+          {
+            "severity": "major",
+            "title": "Inconsistent verb tense in bullets",
+            "detail": "Pinecrest bullets mix tenses: 'Responsible for' and 'Assisted with' (past framing) sit beside 'Builds models' (present tense) for the same completed 2024 internship. Use past tense throughout since the role has ended."
+          },
+          {
+            "severity": "minor",
+            "title": "Date format differs across entries",
+            "detail": "Pinecrest uses 'May 2024 - Aug 2024' while Duke Investment Club uses '06/2023-09/2023'. Pick one format and apply it to both roles."
+          },
+          {
+            "severity": "minor",
+            "title": "Misspelled skill, 'Finacial'",
+            "detail": "'Finacial Modeling' under SKILLS is a typo for 'Financial Modeling' - a spelling error on the one line meant to showcase a core competency undercuts the detail-oriented claim you're making elsewhere."
+          }
+        ]
+      }
+    ],
+    "improvements": [
+      {
+        "severity": "major",
+        "title": "Objective statement wastes top real estate",
+        "detail": "'Incredibly passionate and detail-oriented team player...leverage my skills' is the first thing a screener reads. It says nothing a bullet shouldn't instead. Cut it entirely - banking resumes don't use objectives.",
+        "dimension": "First impression"
+      },
+      {
+        "severity": "major",
+        "title": "No GPA next to degree",
+        "detail": "Education lists school, degree, and graduation date but omits GPA. On this screen, an absent GPA reads as a low one being hidden. Add it directly after the degree line, or expect it to count against you either way.",
+        "dimension": "First impression"
+      },
+      {
+        "severity": "major",
+        "title": "References line has no place here",
+        "detail": "'Available upon request' is a dead line - every candidate has references, and no one asks for them on a resume. Delete the whole section and use that space for a third bullet or an activities line.",
+        "dimension": "First impression"
+      },
+      {
+        "severity": "major",
+        "title": "Bullets list duties, not outcomes",
+        "detail": "All four bullets under Pinecrest and Duke Investment Club describe tasks ('maintaining the dividend screen', 'presented stock pitches') with no result - no return generated, no recommendation adopted, no accuracy or time saved. A screener reads these as a job description, not impact.'",
+        "dimension": "Experience & impact"
+      },
+      {
+        "severity": "major",
+        "title": "Weak opening verbs throughout",
+        "detail": "'Responsible for maintaining' and 'Assisted with various research projects' are passive, duty-listing openers. These read as watching the work happen rather than owning it - replace with a strong action verb tied to what was actually produced.",
+        "dimension": "Experience & impact"
+      },
+      {
+        "severity": "major",
+        "title": "Non-standard heading 'My Journey'",
+        "detail": "'MY JOURNEY' is used where a parser expects 'EXPERIENCE' or 'WORK EXPERIENCE'. Most ATS systems map content into fields by recognized headers, so this block risks being dropped or miscategorized entirely. Rename it to a standard label.",
+        "dimension": "Keywords & scanning"
+      },
+      {
+        "severity": "major",
+        "title": "Objective uses inflated self-description",
+        "detail": "'Incredibly passionate and detail-oriented team player' and 'world-class' are adjectives the candidate applies to herself with no evidence behind them. Finance resumes either cut the objective entirely or replace it with a one-line summary stating school, concentration, and the specific area of finance targeted.",
+        "dimension": "Industry fit"
+      },
+      {
+        "severity": "major",
+        "title": "'MY JOURNEY' header breaks industry register",
+        "detail": "This section should be called 'EXPERIENCE' or 'WORK EXPERIENCE'. 'My Journey' reads as casual, personal-brand language that is out of place on a banking or PE resume and signals a misread of the audience.",
+        "dimension": "Industry fit"
+      },
+      {
+        "severity": "major",
+        "title": "Objective full of generic filler",
+        "detail": "'Incredibly passionate and detail-oriented team player' and 'world-class finance internship where I can leverage my skills' are stock phrases that could sit on any resume. Cut the objective entirely or replace with specifics about what you're targeting.'",
+        "dimension": "Proofing & consistency"
+      },
+      {
+        "severity": "major",
+        "title": "Inconsistent verb tense in bullets",
+        "detail": "Pinecrest bullets mix tenses: 'Responsible for' and 'Assisted with' (past framing) sit beside 'Builds models' (present tense) for the same completed 2024 internship. Use past tense throughout since the role has ended.",
+        "dimension": "Proofing & consistency"
+      },
+      {
+        "severity": "minor",
+        "title": "Section header 'My Journey' reads unprofessional",
+        "detail": "Standard convention is 'Experience' or 'Work Experience.' 'My Journey' is the kind of label that makes a screener wonder whether the rest of the document was taken seriously - rename it.",
+        "dimension": "First impression"
+      },
+      {
+        "severity": "minor",
+        "title": "Tense inconsistency signals carelessness",
+        "detail": "'Builds models' is present tense while the internship is a past role (May-Aug 2024) and the surrounding bullets are past tense - a screener catches this fast and reads it as an unproofed draft.",
+        "dimension": "Experience & impact"
+      },
+      {
+        "severity": "minor",
+        "title": "No scope or scale given anywhere",
+        "detail": "'various research projects' and 'stock pitches' give no sense of scope - how many companies, what sector coverage, what was the thesis outcome. Add a number or concrete scope to every bullet so the reader can size the work.",
+        "dimension": "Experience & impact"
+      },
+      {
+        "severity": "minor",
+        "title": "Misspelled skill won't match keyword search",
+        "detail": "'Finacial Modeling' under SKILLS is misspelled, so any ATS keyword match or recruiter search for 'Financial Modeling' will miss this resume entirely. Correct the spelling.",
+        "dimension": "Keywords & scanning"
+      },
+      {
+        "severity": "minor",
+        "title": "Thin skills section limits keyword matches",
+        "detail": "SKILLS lists only three items (Finacial Modeling, Excel, PowerPoint). Parsers and recruiter searches often rank candidates by keyword count; add specific tools a finance screen searches for, e.g. PowerPoint, Bloomberg, Capital IQ, VBA, if truthful.",
+        "dimension": "Keywords & scanning"
+      },
+      {
+        "severity": "minor",
+        "title": "Skills list is bare and uncalibrated",
+        "detail": "'Finacial Modeling, Excel, PowerPoint' (also misspelled) gives no sense of proficiency level. Finance resumes typically separate technical skills by category (e.g. modeling, data/terminal tools, languages) and only list what can be defended in an interview.",
+        "dimension": "Industry fit"
+      },
+      {
+        "severity": "minor",
+        "title": "Date format differs across entries",
+        "detail": "Pinecrest uses 'May 2024 - Aug 2024' while Duke Investment Club uses '06/2023-09/2023'. Pick one format and apply it to both roles.",
+        "dimension": "Proofing & consistency"
+      },
+      {
+        "severity": "minor",
+        "title": "Misspelled skill, 'Finacial'",
+        "detail": "'Finacial Modeling' under SKILLS is a typo for 'Financial Modeling' - a spelling error on the one line meant to showcase a core competency undercuts the detail-oriented claim you're making elsewhere.",
+        "dimension": "Proofing & consistency"
+      }
+    ],
+    "rewrites": [
+      {
+        "kind": "bullet",
+        "severity": "major",
+        "before": "Responsible for maintaining the weekly dividend screen.",
+        "after": "Maintained a weekly dividend screen across [add figure: how many names/sectors?], flagging [add figure: how many] yield anomalies that fed into client portfolio recommendations.",
+        "note": "Lead with the verb, state the scope and the use."
+      },
+      {
+        "kind": "bullet",
+        "severity": "major",
+        "before": "Assisted with various research projects for the consumer team.",
+        "after": "Built [add detail: what deliverable - comp table, sector note?] on [add figure: how many] consumer names, used by the team in [add context: pitch, client call, internal review].",
+        "note": "Name the deliverable and who used it."
+      },
+      {
+        "kind": "bullet",
+        "severity": "minor",
+        "before": "Builds models used in client portfolio reviews.",
+        "after": "Built [add detail: type of model, e.g. DCF/comp] models incorporated into [add figure: how many] client portfolio reviews.",
+        "note": "Fix tense; quantify reach."
+      },
+      {
+        "kind": "bullet",
+        "severity": "minor",
+        "before": "Presented stock pitches to the club.",
+        "after": "Pitched [add figure: how many] consumer stocks to the investment club, with [add outcome: how many adopted into the fund / member vote result].",
+        "note": "Add count and result of the pitch."
+      },
+      {
+        "kind": "summary",
+        "severity": "major",
+        "before": "Incredibly passionate and detail-oriented team player seeking a world-class finance internship where I can leverage my skills.",
+        "after": "Duke University Economics student with experience in consumer sector research and dividend analysis, seeking a summer analyst role in investment banking or private equity.",
+        "note": "Cut self-praise; state background and target role plainly."
+      },
+      {
+        "kind": "skills",
+        "severity": "minor",
+        "before": "Finacial Modeling, Excel, PowerPoint",
+        "after": "Financial Modeling, Microsoft Excel (VBA), PowerPoint, [add: Bloomberg/Capital IQ/FactSet if used]",
+        "note": "Fix spelling; add specific tools actually used."
+      }
+    ]
+  }
+}

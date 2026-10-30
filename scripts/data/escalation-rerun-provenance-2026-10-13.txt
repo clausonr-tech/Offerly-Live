@@ -1,0 +1,28 @@
+Escalation re-run provenance
+recorded (UTC): Tue Oct 13 23:19:43 UTC 2026
+git HEAD: 0f61d4eed740b632bd5d8320aabf10ffb0eac090
+
+md5:
+MD5 (scripts/review-agent.ts) = 0a382830464f27dc1b48944f03910f28
+MD5 (src/lib/monitoring/classify.ts) = 8fba2b925118414713c965c339bb8c49
+MD5 (src/lib/monitoring/page-identity.ts) = 96eb64c585fe8efe69c452140303b59e
+
+crawl.lock at ~/offerly-audit/crawl.lock: ABSENT at start of run
+
+command:
+npx tsx --env-file=.env.local --conditions=react-server scripts/review-agent.ts --ids-from scripts/data/recall-sample-2026-10-13.json --redo --record-only --concurrency 3 --max-releases 200
+
+baseline verdict files:
+scripts/data/review-agent-2026-10-13-19-03-14.json
+scripts/data/review-agent-2026-10-13-18-59-08.json
+ground truth: scripts/data/recall-sample-human-2026-10-13.tsv (not modified)
+
+--- OUTCOME (appended Tue Oct 13 23:29:43 UTC 2026) ---
+exit code: 0; "RECORD-ONLY mode" confirmed in log; 0 released.
+no "stopped at the N-release cap" line; no "backed off"; no 429/503.
+output: scripts/data/review-agent-2026-10-13-23-27-50.json (290 entries, 290 unique ids)
+re-examined 290 of 318; 28 skipped by the status=open gate (status=closed since the 14:56 draw)
+byRead per examination (264): render=130 get=90 render-escalated=36 none=3 title-only=5
+byRead per listing row (290): render=141 get=91 render-escalated=50 title-only=5 none=3
+CONFOUND: "adjudicator failed" skips = 42 (baseline 1). 38 of 41 agreement losses are these.
+log: /private/tmp/claude-501/-Users-kaiclauson-Developer-Offerly-Bing-Bong/54bdd70c-d528-45de-9126-81e09adb083d/scratchpad/escalation-rerun.log

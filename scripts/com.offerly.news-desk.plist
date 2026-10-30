@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  The sector desk, twice a day (04:45 and 13:00 local time): a full news run,
+  then the top three stories per sector with a question to ask a professional,
+  then the daily briefing. 04:45 so the briefing is written before the digest's
+  5am edition; the Mac is scheduled to wake at 04:30
+  (sudo pmset repeat wakeorpoweron MTWRFSU 04:30:00).
+  See com.offerly.news.plist for install and uninstall.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.offerly.news-desk</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>"/Users/kaiclauson/Developer/Offerly Bing Bong/scripts/scheduled-news.sh" desk</string>
+  </array>
+
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict>
+      <key>Hour</key>
+      <integer>4</integer>
+      <key>Minute</key>
+      <integer>45</integer>
+    </dict>
+    <dict>
+      <key>Hour</key>
+      <integer>13</integer>
+      <key>Minute</key>
+      <integer>0</integer>
+    </dict>
+  </array>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/offerly-news-desk.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/offerly-news-desk.err.log</string>
+</dict>
+</plist>

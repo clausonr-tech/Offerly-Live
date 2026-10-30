@@ -1,0 +1,229 @@
+{
+  "derivedAt": "2026-10-13",
+  "planned": [
+    {
+      "firmId": "40442f34-5a0d-482f-9a54-1eb5e112d996",
+      "firm": "BDO Capital Advisors",
+      "category": "investment_banking",
+      "cycleYear": 2028,
+      "evidence": "From this firm's own posting dates: Internship postings were archived on this careers page from 2025-11-13 (https://ebqb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/10683); 2026-09-17 (https://ebqb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/14061). Window widened to ±7 days around those dates; derived from archive history, not stated by the firm.",
+      "sourceUrl": "https://ebqb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/14061",
+      "opensStart": "2026-09-10",
+      "opensEnd": "2026-11-20"
+    }
+  ],
+  "refused": [
+    {
+      "firm": "Harris Williams",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Archimed",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Point72 Asset Management",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Stout",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Société Générale (US)",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Blockchain Capital, LLC",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Starwood Capital Group",
+      "why": "postings too far apart in the year to be one season"
+    },
+    {
+      "firm": "Houlihan Lokey",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Bessemer Venture Partners",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Oca Ventures, LLC",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Evercore",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "BlackRock",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Aleph",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Lazard",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Kroll",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "MUFG Securities Americas",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "TD Securities",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Greenhill & Co",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Raymond James",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Ankura",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Perella Weinberg Partners",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Lightbank",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Piper Sandler",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Providence Equity Partners",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "BMO Capital Markets (US)",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Baker Tilly Capital",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Pai Partners",
+      "why": "postings too far apart in the year to be one season"
+    },
+    {
+      "firm": "Scrum Ventures LLC",
+      "why": "only one calendar year of postings (2025)"
+    },
+    {
+      "firm": "Barclays (US)",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Berkeley Research Group",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Citigroup",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Partech Partners",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "D. E. Shaw",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Clera",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Leerink Partners",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Cowen (now TD Cowen)",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Group 11",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Moelis & Company",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Intrepid Investment Bankers",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Rallyday Partners, LLC",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Capstone Partners",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "D.A. Davidson & Co",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Cain Brothers",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Chalfen Ventures LLP",
+      "why": "only one calendar year of postings (2025)"
+    },
+    {
+      "firm": "Mizuho Americas",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Jefferies",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "General Catalyst",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Ramp",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "JPMorgan",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "PJT Partners",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "MTS Health Partners",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Guggenheim Securities",
+      "why": "only one calendar year of postings (2026)"
+    },
+    {
+      "firm": "Brevan Howard (US)",
+      "why": "only one calendar year of postings (2026)"
+    }
+  ]
+}

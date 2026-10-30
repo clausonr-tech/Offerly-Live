@@ -1,0 +1,86 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+# ...except the template. It holds variable NAMES and a localhost redirect
+# URI, no secrets, and without it a fresh clone has no idea what to set.
+!.env.example
+
+# vercel
+.vercel
+
+# local embedded postgres data (PGlite)
+/local-data
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# local backup artifacts
+*.bak
+
+# Exported training corpus. De-identified, but still derived from real student
+# writing and governed by a consent record that lives in the database - it does
+# not belong in git history, where it cannot be removed when someone deletes
+# their account and the deletion promise no longer holds.
+/training-data
+
+# Personal Claude Code overrides for this checkout. The shared .claude/
+# config (launch.json, agents/) is committed; this file is not, because it
+# holds machine-specific paths.
+/.claude/settings.local.json
+
+# Regenerated crawler datasets - large, machine-produced, and rebuilt by the
+# scripts that read them. form-adv-firms.json is 2.9MB and the SEC republishes
+# the feed daily, so committing it would churn the repo for no review value.
+#   npx tsx --conditions=react-server scripts/ingest-form-adv.ts
+#   npx tsx --conditions=react-server scripts/probe-boards.ts --category X
+scripts/data/form-adv-firms.json
+scripts/data/probed-*.json
+src/lib/firm-seeds-bulk.json.bak
+
+# Database recovery points. Real student rows - they do not belong in git.
+/backups
+
+# Local transcripts and validation logs produced by the supervised
+# Claude-implements / Codex-reviews security loop.
+/.agent-loop
+
+# One-shot guard for the authorized live Crustdata shape probe. Local only:
+# a fresh clone has no spend history to protect.
+scripts/.crustdata-shape-probe-sent
+scripts/.crustdata-profile-url-probe-sent
+
+# a second dev server's build folder (next.config.ts NEXT_DIST_DIR)
+/.next-*/
+graphify-out/

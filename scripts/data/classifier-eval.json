@@ -1,0 +1,215 @@
+{
+  "note": "Labelled cases for the relevance classifier. Every entry is a REAL posting this pipeline has seen, with the answer a human would give. Sourced from the incidents recorded in classify.ts's own comments - each one is a bug that reached production or nearly did, so its correct answer is documented rather than guessed. Add a case whenever a new failure is found; that is how this file earns its keep.",
+  "cases": [
+    {
+      "id": "bofa-international",
+      "title": "International",
+      "description": "Bank of America global careers listing page for international opportunities across our franchise.",
+      "expectRelevant": false,
+      "why": "substring 'intern' inside 'International' - matched before word boundaries were required"
+    },
+    {
+      "id": "alantra-internal-rules",
+      "title": "Bylaws, Regulations and other Internal rules",
+      "description": "Corporate governance documents covering the internal rules of the group and its subsidiaries.",
+      "expectRelevant": false,
+      "why": "'Internal' matched the 'intern' substring"
+    },
+    {
+      "id": "bdo-international-tax",
+      "title": "International Tax",
+      "description": "BDO International Tax practice - advising multinational clients on cross-border tax matters.",
+      "expectRelevant": false,
+      "why": "both a substring match and an off-profession role"
+    },
+    {
+      "id": "evercore-full-time-analyst",
+      "title": "2027 Strategic Advisory: Mergers & Acquisitions Full Time Analyst Program - Richmond",
+      "description": "Our Full Time Analyst Program is a three-year programme for graduating students joining the firm after completing their degree.",
+      "expectRelevant": false,
+      "why": "contains 'analyst program' but is a graduate job a student cannot apply to as an intern"
+    },
+    {
+      "id": "evercore-full-time-associate",
+      "title": "Full Time Associate Program - New York",
+      "description": "The Full Time Associate Program recruits MBA graduates into the firm's advisory business.",
+      "expectRelevant": false,
+      "why": "same collision - 'associate program' in the title of a full-time role"
+    },
+    {
+      "id": "lazard-swe-internship",
+      "title": "2027 Software Engineer Summer Internship",
+      "description": "Join our technology team for a ten week summer internship building trading and analytics systems.",
+      "expectRelevant": false,
+      "why": "a real internship, but a technology role this product does not cover"
+    },
+    {
+      "id": "evercore-networking-reception",
+      "title": "2028 Summer Analyst Evercore Networking Reception - University of Southern California",
+      "description": "Join Evercore bankers for an evening reception to learn about our Summer Analyst Program.",
+      "expectRelevant": false,
+      "why": "says Summer Analyst, is an invitation to meet the firm rather than a job"
+    },
+    {
+      "id": "evercore-coffee-chats",
+      "title": "2028 Evercore Summer Analyst Chicago - Industrials Coffee Chats",
+      "description": "Sign up for a coffee chat with members of our Industrials team.",
+      "expectRelevant": false,
+      "why": "recruiting event, plural 'Chats' - a singular-anchored pattern missed these"
+    },
+    {
+      "id": "evercore-structured-event",
+      "title": "2028 Summer Analyst Intro to Evercore - Duke",
+      "description": "An introduction to Evercore for Duke students. Event Date: 15 Oct 2026. Registration Deadline: 10 Oct 2026.",
+      "expectRelevant": false,
+      "why": "title reads exactly like an internship; only the source's own Event Date metadata separates it"
+    },
+    {
+      "id": "deutsche-marketing-prose",
+      "title": "Our internship opportunities are your steppingstone to a career",
+      "description": "Copyright 2023 Deutsche Bank AG. Our internship opportunities are your steppingstone to a rewarding career in finance.",
+      "expectRelevant": false,
+      "why": "marketing prose, and the 2023 came from a copyright line rather than a programme"
+    },
+    {
+      "id": "filter-control",
+      "title": "Clear Region EMEA (22 Results) AEJ",
+      "description": "Clear Region EMEA (22 Results) AEJ Americas (14 Results) Filter by location Filter by business area",
+      "expectRelevant": false,
+      "why": "page furniture scraped as a listing - must be rejected as not-a-posting, not sent for review"
+    },
+    {
+      "id": "campus-recruiter-job",
+      "title": "Campus Recruiter, Associate",
+      "description": "Manage campus recruiting for the firm's Summer Analyst Program, including on-campus events and candidate pipelines.",
+      "expectRelevant": false,
+      "why": "a job working ON recruiting, not an internship - UK/US usage trap"
+    },
+    {
+      "id": "ib-associate-technology",
+      "title": "Investment Banking Associate - Technology",
+      "description": "Many of our associates join us after completing our Summer Analyst Program. Execute M&A and capital markets transactions for technology clients.",
+      "expectRelevant": false,
+      "why": "description mentions the internship programme - this shape let 223 full-time roles through in one run"
+    },
+    {
+      "id": "william-blair-real-posting",
+      "title": "London Investment Banking Summer Analyst, Summer 2027 Programme",
+      "description": "Our Summer Analyst Programme places penultimate-year students alongside senior bankers on live M&A transactions. Candidates must be enrolled in a bachelor degree.",
+      "expectRelevant": true,
+      "why": "a genuine posting that was wrongly excluded when exclusions were run against the description ('senior')"
+    },
+    {
+      "id": "piper-sandler-summer-analyst",
+      "title": "2027 Investment Banking Summer Analyst - Minneapolis",
+      "description": "Piper Sandler is seeking Summer Analysts for our 2027 Investment Banking programme. Open to students in their penultimate year.",
+      "expectRelevant": true,
+      "why": "the ordinary correct case - relevance, sector and cycle all present"
+    },
+    {
+      "id": "houlihan-restructuring",
+      "title": "Summer Financial Analyst 2027 - Financial Restructuring, London",
+      "description": "Must be in your penultimate year of study at a highly regarded university, completing your final university assessments in Spring or Summer 2028.",
+      "expectRelevant": true,
+      "why": "recovered by the adjudicator - real internship whose title the phrase list handles"
+    },
+    {
+      "id": "off-cycle-analyst",
+      "title": "2027 January Off-Cycle Analyst",
+      "description": "A six month off-cycle placement in our advisory team starting January 2027, open to students on a placement year.",
+      "expectRelevant": true,
+      "why": "an internship whose title never says 'intern'"
+    },
+    {
+      "id": "lazard-french-stage",
+      "title": "Stage H/F - Private Equity - Janvier 2027",
+      "description": "Ce stage s'adresse aux etudiants en derniere annee d'ecole de commerce. Les candidats doivent etre inscrits dans un etablissement d'enseignement superieur.",
+      "expectRelevant": true,
+      "why": "42 of these were lost before 'stage h/f' entered the phrase list. Kept as a regression guard - if it ever stops matching, the same 42 go missing again."
+    },
+    {
+      "id": "kroll-transfer-pricing",
+      "title": "Intern, Transfer Pricing",
+      "description": "Join Kroll's Transfer Pricing practice supporting multinational clients on intercompany pricing studies.",
+      "expectRelevant": false,
+      "why": "a tax practice line that never uses the word 'tax' - reached students as a banking opening"
+    },
+    {
+      "id": "kroll-trade-customs",
+      "title": "Intern, Trade and Customs",
+      "description": "Support clients on customs valuation, duty optimisation and trade compliance matters.",
+      "expectRelevant": false,
+      "why": "same shape as transfer pricing - tax practice, no 'tax' in the title"
+    },
+    {
+      "id": "software-developer-internship",
+      "title": "Software Developer, Winter 2027 (Internship) - 4 months",
+      "description": "Build and maintain internal applications for a four month winter internship term.",
+      "expectRelevant": false,
+      "why": "plain English technology role that was PUBLISHED - the rule said 'software engineer' and not 'developer'"
+    },
+    {
+      "id": "french-ai-engineer",
+      "title": "Stage H/F - Ingenieur IA Multi-Equipes - janvier 2027",
+      "description": "Stage de six mois en intelligence artificielle, aupres de nos equipes techniques.",
+      "expectRelevant": false,
+      "why": "French technology internship - every exclusion rule was written against English titles"
+    },
+    {
+      "id": "summer-year-division-analyst",
+      "title": "Summer 2027 Financial Analyst (Class of 2028), Corporate Valuation Advisory",
+      "description": "A ten week summer programme in corporate valuation for students in their penultimate year.",
+      "expectRelevant": true,
+      "why": "real internship with BOTH a year and a division between 'summer' and 'analyst'"
+    },
+    {
+      "id": "financial-engineer-internship",
+      "title": "Internship - Financial Engineer - Corporate & Investment banking - New York",
+      "description": "A quantitative internship in our corporate and investment banking division, open to students.",
+      "expectRelevant": true,
+      "why": "the non-regression that bounds the technology rule - a Financial Engineer is quant finance, in scope"
+    },
+    {
+      "id": "hr-summer-analyst",
+      "title": "2027 Human Resources Summer Analyst Program - New York, Campus Recruiting",
+      "description": "Join our Human Resources team for a ten week summer programme supporting campus recruiting and compensation.",
+      "expectRelevant": false,
+      "why": "a real internship at a real bank, in HR - same footing as tax: nobody using Offerly is looking for it"
+    },
+    {
+      "id": "french-legal-intern",
+      "title": "Stage H/F - Juriste Corporate - Juillet 2027",
+      "description": "Stage de six mois au sein de la direction juridique, pour etudiants en derniere annee de droit.",
+      "expectRelevant": false,
+      "why": "legal internship - excluded like tax, and only visible once the audit read French titles"
+    },
+    {
+      "id": "campus-recruiting-posts-ib-role",
+      "title": "2027 Campus Recruiting - Investment Banking Summer Associate - Houston",
+      "description": "Our Investment Banking Summer Associate programme runs ten weeks for penultimate year students.",
+      "expectRelevant": true,
+      "why": "THE BOUNDARY for the HR rule - the department that posts a role is not the role. Five of these are live"
+    },
+    {
+      "id": "marketing-summer-analyst",
+      "title": "2027 Marketing Summer Analyst Program - New York",
+      "description": "A ten week summer programme in our marketing team, open to students in their penultimate year.",
+      "expectRelevant": true,
+      "why": "IN SCOPE by decision (19 Sep 2026) - marketing and sales at financial firms count. Flagged by the corpus audit and deliberately kept"
+    },
+    {
+      "id": "im-sales-and-marketing",
+      "title": "2027 Investment Management Off-Cycle Internship - Global Sales & Marketing",
+      "description": "An off-cycle internship supporting distribution across our investment management business, for current students.",
+      "expectRelevant": true,
+      "why": "distribution is a core asset and wealth management career - excluding it would have removed real AWM openings"
+    },
+    {
+      "id": "french-marketing-stage",
+      "title": "Stage H/F - Charge de Marketing en Gestion d'Actifs - Janvier 2027",
+      "description": "Stage de six mois en marketing au sein de notre activite de gestion d'actifs, pour etudiants.",
+      "expectRelevant": true,
+      "why": "same decision, in French - guards the boundary of the legal/HR exclusions added alongside it"
+    }
+  ]
+}

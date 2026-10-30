@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  The source scout, weekly (Monday 07:00 local time): finds publishers the
+  registry does not have, measures them, and proposes the good ones. It never
+  approves - review with `npm run news:sources -- list proposed`.
+  See com.offerly.news.plist for install and uninstall.
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.offerly.news-scout</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>-lc</string>
+    <string>"/Users/kaiclauson/Developer/Offerly Bing Bong/scripts/scheduled-news.sh" scout</string>
+  </array>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key>
+    <integer>1</integer>
+    <key>Hour</key>
+    <integer>7</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/offerly-news-scout.log</string>
+  <key>StandardErrorPath</key>
+  <string>/tmp/offerly-news-scout.err.log</string>
+</dict>
+</plist>

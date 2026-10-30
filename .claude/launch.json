@@ -1,0 +1,115 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "offerly-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "port": 3001
+    },
+    {
+      "name": "offerly-firms-test",
+      "runtimeExecutable": "env",
+      "runtimeArgs": [
+        "DATABASE_URL=",
+        "PGLITE_DATA_DIR=./local-data/pglite-firms-test",
+        "EMAIL_TRANSPORT=console",
+        "NEXT_DIST_DIR=.next-firms-test",
+        "npx",
+        "next",
+        "dev",
+        "--port",
+        "3002"
+      ],
+      "port": 3002
+    },
+    {
+      "name": "offerly-dev-alt",
+      "runtimeExecutable": "env",
+      "runtimeArgs": [
+        "NEXT_DIST_DIR=.next-alt",
+        "npx",
+        "next",
+        "dev",
+        "--port",
+        "3003"
+      ],
+      "port": 3003
+    },
+    {
+      "name": "offerly-news-test",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd '/Users/kaiclauson/Developer/Offerly Bing Bong/.claude/worktrees/news-pipeline' && export DEV_LOGIN_STUDENT_PASSWORD=\"$(grep '^DEV_LOGIN_STUDENT_PASSWORD=' '/Users/kaiclauson/Developer/Offerly Bing Bong/.env.local' | cut -d= -f2-)\"; DATABASE_URL= PGLITE_DATA_DIR=/private/tmp/claude-501/-Users-kaiclauson-Developer-Offerly-Bing-Bong/1bdc8da6-462a-4200-a53d-795645b0ef9f/scratchpad/pglite-news EMAIL_TRANSPORT=console NEXT_DIST_DIR=.next-news npx next dev --port 3005"
+      ],
+      "port": 3005
+    },
+    {
+      "name": "offerly-news-digest",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd '/Users/kaiclauson/Developer/Offerly Bing Bong/.claude/worktrees/news-digest' && export DEV_LOGIN_STUDENT_PASSWORD=\"$(grep '^DEV_LOGIN_STUDENT_PASSWORD=' '/Users/kaiclauson/Developer/Offerly Bing Bong/.env.local' | cut -d= -f2-)\"; DATABASE_URL= PGLITE_DATA_DIR=/private/tmp/claude-501/-Users-kaiclauson-Developer-Offerly-Bing-Bong/1bdc8da6-462a-4200-a53d-795645b0ef9f/scratchpad/pglite-news EMAIL_TRANSPORT=console NEXT_DIST_DIR=.next-news npx next dev --port 3006"
+      ],
+      "port": 3006
+    },
+    {
+      "name": "offerly-app-details",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd '/Users/kaiclauson/Developer/Offerly Bing Bong/.claude/worktrees/application-details' && export DEV_LOGIN_STUDENT_PASSWORD=\"$(grep '^DEV_LOGIN_STUDENT_PASSWORD=' '/Users/kaiclauson/Developer/Offerly Bing Bong/.env.local' | cut -d= -f2-)\"; DATABASE_URL= PGLITE_DATA_DIR=/private/tmp/claude-501/-Users-kaiclauson-Developer-Offerly-Bing-Bong/1bdc8da6-462a-4200-a53d-795645b0ef9f/scratchpad/pglite-news EMAIL_TRANSPORT=console NEXT_DIST_DIR=.next-app npx next dev --port 3007"
+      ],
+      "port": 3007
+    },
+    {
+      "name": "offerly-new-logo",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd '/Users/kaiclauson/Developer/Offerly Bing Bong/.claude/worktrees/new-logo' && export DEV_LOGIN_STUDENT_PASSWORD=\"$(grep '^DEV_LOGIN_STUDENT_PASSWORD=' '/Users/kaiclauson/Developer/Offerly Bing Bong/.env.local' | cut -d= -f2-)\"; DATABASE_URL= PGLITE_DATA_DIR=/private/tmp/claude-501/-Users-kaiclauson-Developer-Offerly-Bing-Bong/1bdc8da6-462a-4200-a53d-795645b0ef9f/scratchpad/pglite-news EMAIL_TRANSPORT=console NEXT_DIST_DIR=.next-logo npx next dev --port 3008"
+      ],
+      "port": 3008
+    },
+    {
+      "name": "offerly-news-live",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd '/Users/kaiclauson/Developer/Offerly Bing Bong/.claude/worktrees/news-pipeline' && DATABASE_CA_CERT_FILE=\"$HOME/.config/offerly/supabase-ca.crt\" OFFERLY_DB_POOL=3 NEXT_DIST_DIR=.next-news-live npx next dev --port 3009"
+      ],
+      "port": 3009
+    },
+    {
+      "name": "offerly-news-v2",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd '/Users/kaiclauson/Developer/Offerly Bing Bong/.claude/worktrees/news-v2' && export DEV_LOGIN_STUDENT_PASSWORD=\"$(grep '^DEV_LOGIN_STUDENT_PASSWORD=' '/Users/kaiclauson/Developer/Offerly Bing Bong/.env.local' | cut -d= -f2-)\"; DATABASE_URL= PGLITE_DATA_DIR=/private/tmp/claude-501/-Users-kaiclauson-Developer-Offerly-Bing-Bong/1bdc8da6-462a-4200-a53d-795645b0ef9f/scratchpad/pglite-v2 EMAIL_TRANSPORT=console NEXT_DIST_DIR=.next-v2 npx next dev --port 3010"
+      ],
+      "port": 3010
+    },
+    {
+      "name": "offerly-main-live",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd '/Users/kaiclauson/Developer/Offerly Bing Bong/.claude/worktrees/news-v2' && export DEV_LOGIN_STUDENT_PASSWORD=\"$(grep '^DEV_LOGIN_STUDENT_PASSWORD=' '/Users/kaiclauson/Developer/Offerly Bing Bong/.env.local' | cut -d= -f2-)\"; DATABASE_CA_CERT_FILE=\"$HOME/.config/offerly/supabase-ca.crt\" OFFERLY_DB_POOL=3 NEXT_DIST_DIR=.next-v2 npx next dev --port 3013"
+      ],
+      "port": 3013
+    },
+    {
+      "name": "offerly-draft-perf",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd '/Users/kaiclauson/Developer/Offerly Bing Bong/.claude/worktrees/draft-pipeline-perf' && DATABASE_CA_CERT_FILE=\"$HOME/.config/offerly/supabase-ca.crt\" OFFERLY_DB_POOL=3 NEXT_DIST_DIR=.next-draft-perf npx next dev --port 3014"
+      ],
+      "port": 3014
+    }
+  ]
+}

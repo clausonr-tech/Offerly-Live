@@ -1,0 +1,280 @@
+{
+  "derivedAt": "2026-10-13",
+  "planned": [
+    {
+      "sourceId": "0b40179f-bfc3-427b-a76f-6f8b3d5ceaca",
+      "firm": "Raymond James",
+      "text": "opens ~Sep (cycle 2027: 2026-09-21; from firm posting dates, 26 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "94d5b250-0095-4252-9ae0-b5dd8b9d37d4",
+      "firm": "Baker Tilly Capital",
+      "text": "opens ~Sep (cycle 2027: 2026-09-18; from firm posting dates, 8 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "ab530772-8eb5-42d7-a30f-c9432de303c9",
+      "firm": "Mizuho Americas",
+      "text": "opens ~Sep (cycle 2027: 2026-09-08; from firm posting dates, 11 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "fa81635e-5c5a-4a9f-9248-5f94ca4e1fd5",
+      "firm": "Cowen (now TD Cowen)",
+      "text": "opens ~Jul (cycle 2027: 2026-07-29; from firm posting dates, 31 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "bd4d013a-e9a2-4f67-b6bb-044075a8f895",
+      "firm": "Capstone Partners",
+      "text": "opens ~Sep (cycle 2027: 2026-09-18; from firm posting dates, 3 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "36b3f49e-39d6-4d48-a067-07894aa43fbd",
+      "firm": "D.A. Davidson & Co",
+      "text": "opens ~Aug (cycle 2028: 2026-08-27; cycle 2027: 2026-09-11; from firm posting dates, 22 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "eddbd520-9588-49ae-80c5-69896b47e604",
+      "firm": "Houlihan Lokey",
+      "text": "opens ~Jul (cycle 2027: 2026-07-02; from firm posting dates, 30 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "6b7e096f-53a5-473f-8ec2-fccc5d6ac0ff",
+      "firm": "Guggenheim Securities",
+      "text": "opens ~Aug (cycle 2027: 2026-08-24; from firm posting dates, 3 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "01126a6e-6288-448d-aecf-19418c9277ca",
+      "firm": "PJT Partners",
+      "text": "opens ~Sep (cycle 2027: 2026-09-01; from firm posting dates, 9 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "6e7ff0cb-7c3a-4883-957a-c390a70c0f44",
+      "firm": "BMO Capital Markets (US)",
+      "text": "opens ~Sep (cycle 2027: 2026-09-18; from firm posting dates, 21 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "cb2d1405-c0cd-4248-b96f-62d43b1a99a7",
+      "firm": "Greenhill & Co",
+      "text": "opens ~Sep (cycle 2027: 2026-09-08; from firm posting dates, 13 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "4540e50a-8f1e-421e-ad6a-8e00ebb2a0ac",
+      "firm": "Stout",
+      "text": "opens ~Sep (cycle 2027: 2026-09-15; from firm posting dates, 58 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "f6fd02e0-c8b5-46ed-bc0b-20c2cedb5ab1",
+      "firm": "MUFG Securities Americas",
+      "text": "opens ~Sep (cycle 2027: 2026-09-19; from firm posting dates, 53 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "405cf8bf-4da2-4cbd-bc9d-b121479ba3a9",
+      "firm": "Moelis & Company",
+      "text": "opens ~Sep (cycle 2027: 2026-09-08; from firm posting dates, 11 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "820a2dc4-4167-498f-aaac-748b690b298d",
+      "firm": "Kroll",
+      "text": "opens ~Jul (cycle 2027: 2026-07-24; from firm posting dates, 24 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "a2e3856a-827a-4ea1-bc8a-da6f39c387ac",
+      "firm": "Piper Sandler",
+      "text": "opens ~Sep (cycle 2027: 2026-09-10; from firm posting dates, 22 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "a1d8acc2-9334-4c96-ad91-f2caf6ea7068",
+      "firm": "Ankura",
+      "text": "opens ~Sep (cycle 2027: 2026-09-10; from firm posting dates, 52 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "2a6a351f-98a3-4c6e-9781-c7169dc46aaa",
+      "firm": "Berkeley Research Group",
+      "text": "opens ~Sep (cycle 2027: 2026-09-13; from firm posting dates, 3 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "5ede1e3c-f9fd-45ef-b744-7f7c7028a396",
+      "firm": "Cowen (now TD Cowen)",
+      "text": "opens ~Jul (cycle 2027: 2026-07-29; from firm posting dates, 31 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "76cb1dd1-d943-449b-867a-4f10eb22beb4",
+      "firm": "Perella Weinberg Partners",
+      "text": "varies (cycle 2028: 2026-10-08; cycle 2027: 2026-08-20; from firm posting dates, 11 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "966a3a75-37ab-430e-919a-2fbe210abfed",
+      "firm": "Jefferies",
+      "text": "opens ~May (cycle 2027: 2026-05-11; from firm posting dates, 84 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "b6e6f3a1-33f0-4cac-a9ef-8275431ed69b",
+      "firm": "TD Securities",
+      "text": "opens ~Jul (cycle 2027: 2026-07-29; from firm posting dates, 18 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "34a8fea9-16a7-400c-9812-b35885d44bbe",
+      "firm": "Evercore",
+      "text": "varies (cycle 2028: 2026-09-09; cycle 2027: 2026-07-01; from firm posting dates, 67 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "aeecaecc-23d1-4ffb-a9ca-db9c445f0a31",
+      "firm": "Société Générale (US)",
+      "text": "varies (cycle 2027: 2026-08-06; cycle 2026: 2026-05-20; from firm posting dates, 15 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "f8e234af-1ae7-4133-a155-beb188f19496",
+      "firm": "BDO Capital Advisors",
+      "text": "varies (cycle 2028: 2026-09-17; cycle 2027: 2025-11-13; from firm posting dates, 11 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "acd4b37a-d9e1-40f4-8ee3-f458d3ebbef9",
+      "firm": "Intrepid Investment Bankers",
+      "text": "opens ~Sep (cycle 2027: 2026-09-19; from firm posting dates, 53 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "a5d10fca-3a73-49e4-832a-58d07b44a5d7",
+      "firm": "Starwood Capital Group",
+      "text": "opens ~Jan (cycle 2027: 2026-01-23; from firm posting dates, 5 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "e4db4317-1d3a-47fd-8806-c413daf64cd8",
+      "firm": "Lightbank",
+      "text": "opens ~Sep (cycle 2027: 2026-09-16; from firm posting dates, 13 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "ac463348-75c1-47c5-9bd1-fb17d20698f2",
+      "firm": "Partech Partners",
+      "text": "opens ~Sep (cycle 2027: 2026-09-28; from firm posting dates, 2 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "47cebf81-7822-46c6-b250-96312c33da1e",
+      "firm": "Aleph",
+      "text": "opens ~Aug (cycle 2027: 2026-08-21; from firm posting dates, 2 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "610c1702-b91f-45df-aef6-41cb36fd378a",
+      "firm": "Group 11",
+      "text": "varies (cycle 2027: 2026-07-08; cycle 2026: 2026-05-25; from firm posting dates, 81 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "2b64aa3c-451a-48da-a1c0-51da06721523",
+      "firm": "Société Générale (US)",
+      "text": "varies (cycle 2027: 2026-08-06; cycle 2026: 2026-05-20; from firm posting dates, 15 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "d7229957-eb67-4895-8fd9-f252991f3ede",
+      "firm": "Partech Partners",
+      "text": "opens ~Sep (cycle 2027: 2026-09-28; from firm posting dates, 2 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "950b5a0c-79f0-4839-8a96-5bcbe84a8dbd",
+      "firm": "Point72 Asset Management",
+      "text": "opens ~Apr (cycle 2027: 2026-04-02; from firm posting dates, 12 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "e53af6e1-d3d2-4732-ae68-2e52a14091c6",
+      "firm": "Brevan Howard (US)",
+      "text": "opens ~Sep (cycle 2027: 2026-09-12; from firm posting dates, 3 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "a6f1175e-0da1-4ad3-b978-05a9c380e350",
+      "firm": "Archimed",
+      "text": "opens ~Jul (cycle 2027: 2026-07-21; from firm posting dates, 20 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "2b13ed92-7470-4dc7-a261-fd49004581ac",
+      "firm": "Blockchain Capital, LLC",
+      "text": "opens ~Sep (cycle 2027: 2026-09-09; from firm posting dates, 20 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "b98f2634-1c00-4c39-8c54-dd3521dce62f",
+      "firm": "Oca Ventures, LLC",
+      "text": "opens ~Sep (cycle 2028: 2026-09-09; from firm posting dates, 2 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "bc04aa6d-e51e-4b1f-ac90-5a45b9c394fc",
+      "firm": "Intrepid Investment Bankers",
+      "text": "opens ~Sep (cycle 2027: 2026-09-19; from firm posting dates, 53 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "94878483-8061-4b74-9240-10fe804e6b8d",
+      "firm": "Pai Partners",
+      "text": "opens ~Jul (cycle 2027: 2026-07-03; from firm posting dates, 6 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "8e375085-485c-475c-bbe8-64f56a2a0b36",
+      "firm": "Bessemer Venture Partners",
+      "text": "opens ~Sep (cycle 2027: 2026-09-17; from firm posting dates, 2 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "8aaa862c-c1eb-48b7-a148-ddd36744a723",
+      "firm": "Archimed",
+      "text": "opens ~Jul (cycle 2027: 2026-07-21; from firm posting dates, 20 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "cb6d1b62-c14a-4d1f-8557-eaa7c2898f30",
+      "firm": "D. E. Shaw",
+      "text": "opens ~Sep (cycle 2027: 2026-09-20; from firm posting dates, 6 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "7a66f1bf-b83a-4e1b-a79d-0b7662662b3b",
+      "firm": "JPMorgan",
+      "text": "opens ~Sep (cycle 2027: 2026-09-11; from firm posting dates, 16 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "f166cf09-610c-4caf-81dd-3b421573f1c2",
+      "firm": "Citigroup",
+      "text": "opens ~Sep (cycle 2027: 2026-09-11; from firm posting dates, 76 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "522501aa-f3b4-4e76-b012-d7ec106eaa4d",
+      "firm": "Pai Partners",
+      "text": "opens ~Jul (cycle 2027: 2026-07-03; from firm posting dates, 6 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "f4a7a2ca-6797-43af-8053-b84467ce0fb0",
+      "firm": "BlackRock",
+      "text": "opens ~Jan (cycle 2027: 2026-01-15; from firm posting dates, 2 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "9d365496-3fc3-46fb-8f1e-2e63cecbe703",
+      "firm": "Citigroup",
+      "text": "opens ~Sep (cycle 2027: 2026-09-11; from firm posting dates, 76 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "2a18cd9a-4618-48c1-98ce-2237543d1430",
+      "firm": "Cain Brothers",
+      "text": "opens ~Sep (cycle 2027: 2026-09-20; from firm posting dates, 21 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "1b518235-f40f-46e3-8bc1-d1d4dfecb031",
+      "firm": "Blockchain Capital, LLC",
+      "text": "opens ~Sep (cycle 2027: 2026-09-09; from firm posting dates, 20 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "6f663b55-9b81-4c03-bda2-3942fc22ecc5",
+      "firm": "Barclays (US)",
+      "text": "opens ~Sep (cycle 2027: 2026-09-18; from firm posting dates, 7 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "db4a6405-87ba-4326-8e8f-4c6e662a637f",
+      "firm": "Greenhill & Co",
+      "text": "opens ~Sep (cycle 2027: 2026-09-08; from firm posting dates, 13 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "d2787877-2e3b-4bf2-ad24-470f3757cb8b",
+      "firm": "Clera",
+      "text": "varies (cycle 2027: 2026-09-18; cycle 2026: 2026-05-31; from firm posting dates, 27 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "5d10e8ab-9401-4dc5-89f3-b317de901b84",
+      "firm": "Lazard",
+      "text": "opens ~Jun (cycle 2027: 2026-06-16; cycle 2026: 2026-06-28; from firm posting dates, 99 listings, derived 2026-10-13)"
+    },
+    {
+      "sourceId": "0c438e00-b483-4f00-8307-a5b3167d2c8d",
+      "firm": "Cain Brothers",
+      "text": "opens ~Sep (cycle 2027: 2026-09-20; from firm posting dates, 21 listings, derived 2026-10-13)"
+    }
+  ]
+}

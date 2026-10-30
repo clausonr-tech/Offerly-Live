@@ -1,0 +1,37 @@
+{
+ "generatedAt": "2026-09-20T02:00:08.411Z",
+ "years": 5,
+ "count": 2,
+ "rows": [
+  {
+   "key": "barclays-us::investment_banking",
+   "firmSlug": "barclays-us",
+   "firmName": "Barclays (US)",
+   "tier": "critical",
+   "industry": "investment_banking",
+   "careersUrl": "https://search.jobs.barclays/graduates-investment-banking",
+   "outcome": "error",
+   "cycleYear": null,
+   "opensStart": null,
+   "opensEnd": null,
+   "releaseDates": [],
+   "note": "CDX unavailable after 5 attempts: HTTP 503",
+   "checkedAt": "2026-09-20T01:50:20.543Z"
+  },
+  {
+   "key": "citigroup::investment_banking",
+   "firmSlug": "citigroup",
+   "firmName": "Citigroup",
+   "tier": "critical",
+   "industry": "investment_banking",
+   "careersUrl": "https://citi.eightfold.ai/careers/join?jtn_form_id=jtn-early-career",
+   "outcome": "error",
+   "cycleYear": null,
+   "opensStart": null,
+   "opensEnd": null,
+   "releaseDates": [],
+   "note": "CDX unavailable after 5 attempts: HTTP 503",
+   "checkedAt": "2026-09-20T01:54:55.715Z"
+  }
+ ]
+}

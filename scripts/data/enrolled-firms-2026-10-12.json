@@ -1,0 +1,151 @@
+{
+  "at": "2026-10-12T00:25:48.048Z",
+  "enrolled": [
+    {
+      "firmId": "4af3e0f1-0b30-496c-9b89-04334318e654",
+      "firmName": "TIAA / Nuveen",
+      "careersUrl": "https://nuveen.com/careers",
+      "connectorId": "generic",
+      "sourceType": "generic_html",
+      "sectorCategory": "other_finance",
+      "tier": "discovery",
+      "evidence": "/careers answered 200 and reads like a board"
+    },
+    {
+      "firmId": "57d91155-eda8-4b34-8433-57c5e6d7531a",
+      "firmName": "Blue Owl Real Estate Capital LLC",
+      "careersUrl": "https://blueowl.com/careers",
+      "connectorId": "generic",
+      "sourceType": "generic_html",
+      "sectorCategory": "real_estate",
+      "tier": "discovery",
+      "evidence": "/careers answered 200 and reads like a board"
+    },
+    {
+      "firmId": "899aba4b-e7f2-4533-a9c7-02751a01479c",
+      "firmName": "Icapital Fund Advisors LLC",
+      "careersUrl": "https://icapital.com/careers",
+      "connectorId": "generic",
+      "sourceType": "generic_html",
+      "sectorCategory": "asset_wealth_management",
+      "tier": "discovery",
+      "evidence": "/careers answered 200 and reads like a board"
+    },
+    {
+      "firmId": "20008d0f-494c-408e-a653-0aa878dfe54f",
+      "firmName": "State Street Corporation",
+      "careersUrl": "https://statestreet.com/careers",
+      "connectorId": "generic",
+      "sourceType": "generic_html",
+      "sectorCategory": "commercial_banking",
+      "tier": "discovery",
+      "evidence": "/careers answered 200 and reads like a board"
+    }
+  ],
+  "refused": [
+    {
+      "firm": "Level Four Capital Management",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Kroll (formerly Duff & Phelps)",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "BOKF, National Association",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Blue Owl Credit Advisors LLC",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "The Baupost Group, L.L.C.",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Onex Partners Manager LP",
+      "reason": "duplicate: the same board is already monitored (url:onex.com/careers) - linked, not polled twice"
+    },
+    {
+      "firm": "First Sentier Investors International Im Limited",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "First Sentier Investors (UK) Im Limited",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Bsp CLO Management LLC",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Stone Point Credit Adviser LLC",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Eldridge Credit Advisers, LLC",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Pyrford International LTD",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "B.u. Italy S.r.l.",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Bregal Unternehmerkapital UK LTD",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Bu Bregal Unternehmerkapital Gmbh",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Franklin Bsp Capital Adviser LLC",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Ping an of China Asset Management (Hong Kong) Company Limited",
+      "reason": "skip: a CDN host, not a board"
+    },
+    {
+      "firm": "Coreview Capital Management Limited",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Churchill Dlc Advisor LLC",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Long Corridor Asset Management Limited",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Sv Health Investors, LLC",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Diversify Wealth Management, LLC",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Meeder Asset Management, INC.",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Ashton Thomas Securities, LLC",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Avantax Planning Partners, INC.",
+      "reason": "no careers page found at the usual paths"
+    },
+    {
+      "firm": "Blue Owl Technology Credit Advisors II LLC",
+      "reason": "duplicate: the same board is already monitored (url:blueowl.com/careers) - linked, not polled twice"
+    }
+  ]
+}

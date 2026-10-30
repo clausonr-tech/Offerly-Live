@@ -1,0 +1,11 @@
+-- IF NOT EXISTS, because this column reached at least one database without
+-- going through drizzle. On Supabase (us-east-2, Offerly_Recruit) both
+-- degree_* columns were already present while drizzle.__drizzle_migrations
+-- still ended at 0002 - so `db:migrate` opened with this statement, Postgres
+-- answered "column already exists", and drizzle-kit exited inside its spinner
+-- without printing the error. Every later migration silently never ran.
+--
+-- Adding the guard is safe to do after the fact: drizzle decides what to apply
+-- from the journal's `when` timestamp, not from the file's hash, so a database
+-- that HAS recorded this one will not re-run it either way.
+ALTER TABLE "users" ADD COLUMN IF NOT EXISTS "degree_level" text;

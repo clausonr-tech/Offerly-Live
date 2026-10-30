@@ -1,0 +1,28 @@
+-- One tracked application per (user, firm, role).
+--
+-- IF NOT EXISTS, because every migration in this project must be re-runnable.
+--
+-- scripts/test/helpers/test-db.ts applies drizzle/*.sql TWICE on purpose, and
+-- migration-0008.test.ts asserts the second pass is a no-op - the guarantee
+-- that a re-run, a resumed deploy or a replay against a partially-migrated
+-- database cannot fail halfway. A bare CREATE UNIQUE INDEX breaks that: the
+-- second attempt raises `relation "applications_user_firm_role_key" already
+-- exists` and took five of that file's seven tests down with it.
+--
+-- And it does not fail alone. The shared database's drizzle ledger is not a
+-- complete record of what has been applied to it - 0006 and 0007 were applied
+-- by hand and never recorded - so `drizzle-kit migrate` replays migrations
+-- that are already in place, inside ONE transaction. A statement that cannot
+-- survive a second run takes every migration queued behind it down with it.
+--
+-- Safe to change after the fact: drizzle decides what to apply from the
+-- journal's `when` timestamp, not the file's hash, so a database that has
+-- already recorded this migration will not re-run it either way. The index is
+-- already applied on Offerly_Recruit, where this is now a no-op.
+--
+-- Duplicates were cleared before this was added rather than by it:
+-- scripts/dedupe-tracked-applications.ts collapses them, reparenting each
+-- losing copy's events and contacts onto the survivor first. A migration that
+-- silently deleted a student's rows to satisfy its own index would be the
+-- wrong place to do that, and would be unreviewable after the fact.
+CREATE UNIQUE INDEX IF NOT EXISTS "applications_user_firm_role_key" ON "applications" USING btree ("user_id","firm","role");

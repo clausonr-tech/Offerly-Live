@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "ranAt": "2026-10-13T00:01:01.548Z",
+    "draftConfig": {
+      "model": "claude-sonnet-5",
+      "effort": "low",
+      "thinking": "disabled",
+      "maxTokens": 4096
+    },
+    "review": {
+      "model": "claude-sonnet-5",
+      "effort": "medium",
+      "thinking": "adaptive",
+      "maxTokens": 6000
+    },
+    "concurrency": 1,
+    "transport": "Anthropic API - this run cost real money",
+    "costUsd": 0.7234
+  },
+  "distribution": {
+    "draftMs": {
+      "n": 20,
+      "min": 4632,
+      "p50": 7368,
+      "p90": 8410,
+      "max": 8923,
+      "mean": 6950
+    },
+    "lintMs": {
+      "n": 20,
+      "min": 0,
+      "p50": 1,
+      "p90": 8,
+      "max": 19,
+      "mean": 3
+    },
+    "reviewMs": {
+      "n": 20,
+      "min": 9264,
+      "p50": 21548,
+      "p90": 52565,
+      "max": 53204,
+      "mean": 23192
+    },
+    "reviewRetryMs": {
+      "n": 4,
+      "min": 4760,
+      "p50": 5314,
+      "p90": 5462,
+      "max": 5462,
+      "mean": 5178
+    },
+    "totalMs": {
+      "n": 20,
+      "min": 13908,
+      "p50": 31181,
+      "p90": 61515,
+      "max": 61656,
+      "mean": 31196
+    }
+  },
+  "scenarios": [
+    {
+      "id": "601",
+      "profile": "full",
+      "t": {
+        "draftMs": 7345,
+        "lintMs": 19,
+        "reviewMs": 19671,
+        "reviewRetryMs": 4760,
+        "totalMs": 31838
+      }
+    },
+    {
+      "id": "603",
+      "profile": "full",
+      "t": {
+        "draftMs": 7896,
+        "lintMs": 0,
+        "reviewMs": 30107,
+        "reviewRetryMs": 5314,
+        "totalMs": 43329
+      }
+    },
+    {
+      "id": "605",
+      "profile": "full",
+      "t": {
+        "draftMs": 7368,
+        "lintMs": 0,
+        "reviewMs": 21548,
+        "reviewRetryMs": 5462,
+        "totalMs": 34383
+      }
+    },
+    {
+      "id": "608",
+      "profile": "full",
+      "t": {
+        "draftMs": 7662,
+        "lintMs": 2,
+        "reviewMs": 28758,
+        "reviewRetryMs": null,
+        "totalMs": 36427
+      }
+    },
+    {
+      "id": "613",
+      "profile": "full",
+      "t": {
+        "draftMs": 8215,
+        "lintMs": 1,
+        "reviewMs": 23779,
+        "reviewRetryMs": null,
+        "totalMs": 32017
+      }
+    },
+    {
+      "id": "617",
+      "profile": "full",
+      "t": {
+        "draftMs": 8410,
+        "lintMs": 1,
+        "reviewMs": 53204,
+        "reviewRetryMs": null,
+        "totalMs": 61656
+      }
+    },
+    {
+      "id": "621",
+      "profile": "full",
+      "t": {
+        "draftMs": 7961,
+        "lintMs": 1,
+        "reviewMs": 18451,
+        "reviewRetryMs": null,
+        "totalMs": 26424
+      }
+    },
+    {
+      "id": "630",
+      "profile": "full",
+      "t": {
+        "draftMs": 8923,
+        "lintMs": 1,
+        "reviewMs": 52565,
+        "reviewRetryMs": null,
+        "totalMs": 61515
+      }
+    },
+    {
+      "id": "639",
+      "profile": "full",
+      "t": {
+        "draftMs": 8094,
+        "lintMs": 2,
+        "reviewMs": 30673,
+        "reviewRetryMs": null,
+        "totalMs": 38792
+      }
+    },
+    {
+      "id": "641",
+      "profile": "full",
+      "t": {
+        "draftMs": 8329,
+        "lintMs": 0,
+        "reviewMs": 16424,
+        "reviewRetryMs": 5177,
+        "totalMs": 29945
+      }
+    },
+    {
+      "id": "647",
+      "profile": "full",
+      "t": {
+        "draftMs": 4709,
+        "lintMs": 8,
+        "reviewMs": 10273,
+        "reviewRetryMs": null,
+        "totalMs": 15002
+      }
+    },
+    {
+      "id": "648",
+      "profile": "full",
+      "t": {
+        "draftMs": 4632,
+        "lintMs": 1,
+        "reviewMs": 9264,
+        "reviewRetryMs": null,
+        "totalMs": 13908
+      }
+    },
+    {
+      "id": "650",
+      "profile": "full",
+      "t": {
+        "draftMs": 4968,
+        "lintMs": 1,
+        "reviewMs": 17862,
+        "reviewRetryMs": null,
+        "totalMs": 22843
+      }
+    },
+    {
+      "id": "651",
+      "profile": "full",
+      "t": {
+        "draftMs": 5517,
+        "lintMs": 6,
+        "reviewMs": 25650,
+        "reviewRetryMs": null,
+        "totalMs": 31181
+      }
+    },
+    {
+      "id": "652",
+      "profile": "full",
+      "t": {
+        "draftMs": 5166,
+        "lintMs": 1,
+        "reviewMs": 12694,
+        "reviewRetryMs": null,
+        "totalMs": 17868
+      }
+    },
+    {
+      "id": "656",
+      "profile": "full",
+      "t": {
+        "draftMs": 6942,
+        "lintMs": 1,
+        "reviewMs": 13150,
+        "reviewRetryMs": null,
+        "totalMs": 20102
+      }
+    },
+    {
+      "id": "659",
+      "profile": "full",
+      "t": {
+        "draftMs": 7922,
+        "lintMs": 1,
+        "reviewMs": 29195,
+        "reviewRetryMs": null,
+        "totalMs": 37148
+      }
+    },
+    {
+      "id": "802",
+      "profile": "sparse",
+      "t": {
+        "draftMs": 5937,
+        "lintMs": 5,
+        "reviewMs": 9821,
+        "reviewRetryMs": null,
+        "totalMs": 15771
+      }
+    },
+    {
+      "id": "806",
+      "profile": "sparse",
+      "t": {
+        "draftMs": 6327,
+        "lintMs": 1,
+        "reviewMs": 16537,
+        "reviewRetryMs": null,
+        "totalMs": 22879
+      }
+    },
+    {
+      "id": "825",
+      "profile": "sparse",
+      "t": {
+        "draftMs": 6678,
+        "lintMs": 1,
+        "reviewMs": 24208,
+        "reviewRetryMs": null,
+        "totalMs": 30891
+      }
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "script": "scripts/draft-reply-grader.ts",
+    "ranAt": "2026-10-13T15:56:11.642Z",
+    "judgeModel": "claude-sonnet-5-5",
+    "pinnedModel": "claude-sonnet-5-5",
+    "promptVersion": "reply-grader/1",
+    "promptSha": "8700addf89d0917d22c56b03d0e8805b7dddc72a6d0cc01da37f3424a5cfd300",
+    "promptShaPinned": "8700addf89d0917d22c56b03d0e8805b7dddc72a6d0cc01da37f3424a5cfd300",
+    "comparable": true,
+    "arm": "post",
+    "inputs": [
+      "/private/tmp/claude-501/-Users-kaiclauson-Developer-Offerly-Bing-Bong/b875acd3-e82c-4848-a19b-01e706172ab0/scratchpad/kit/after.json"
+    ],
+    "passes": 1,
+    "transport": "claude CLI (subscription); costUsd is notional API accounting, billed to nobody",
+    "blinding": "the judge is sent subject + body only - no id, boxes, leadType, profile, notes, arm, run or commit, and never both arms in one call"
+  },
+  "distribution": {
+    "would_reply": 3,
+    "would_ignore": 5,
+    "off_putting": 0
+  },
+  "byShape": {
+    "ask": {
+      "n": 4,
+      "replied": 2,
+      "ignored": 2,
+      "offPutting": 0
+    },
+    "no_ask": {
+      "n": 2,
+      "replied": 1,
+      "ignored": 1,
+      "offPutting": 0
+    },
+    "conditional": {
+      "n": 2,
+      "replied": 0,
+      "ignored": 2,
+      "offPutting": 0
+    },
+    "unclassified": {
+      "n": 0,
+      "replied": 0,
+      "ignored": 0,
+      "offPutting": 0
+    }
+  },
+  "errored": 0,
+  "tells": {
+    "cv_recital": 8,
+    "no_ask": 4,
+    "vague_ask": 3,
+    "nothing_for_me": 3,
+    "template_closer": 2
+  },
+  "calibration": null,
+  "stability": null,
+  "usage": {
+    "inputTokens": 16,
+    "outputTokens": 2068,
+    "cacheReadTokens": 10030,
+    "cacheWriteTokens": 11669,
+    "costUsd": 0.06939400000000001
+  },
+  "results": [
+    {
+      "id": "815",
+      "source": "after.json",
+      "arm": "post",
+      "leadType": "keep_in_touch",
+      "pass": 1,
+      "words": 99,
+      "graded": {
+        "verdict": "would_ignore",
+        "reason": "It's a polite congratulations with a real prior contact (\"We spoke in March\"), but the ask is a vague \"10 minutes to catch up\" and the internship recital is about them, so I'd say thanks in my head and move on.",
+        "worst_line": "If you have 10 minutes to catch up this fall, I'd love to hear how the new role is going, though I understand if the promotion has kept you busy.",
+        "tells": [
+          "cv_recital",
+          "vague_ask",
+          "nothing_for_me"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 263,
+        "cacheReadTokens": 0,
+        "cacheWriteTokens": 2725,
+        "costUsd": 0.013534000000000001
+      },
+      "ms": 3533
+    },
+    {
+      "id": "816",
+      "source": "after.json",
+      "arm": "post",
+      "leadType": "close_loop_referrer",
+      "pass": 1,
+      "words": 74,
+      "graded": {
+        "verdict": "would_ignore",
+        "reason": "It's a polite thank-you for an intro I made, which I'd read warmly, but nothing in it needs an answer, and the Pinecrest line, \"I built a screening model for 40 dividend stocks\", is an out-of-place credential.",
+        "worst_line": "Over the summer, I worked at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews.",
+        "tells": [
+          "cv_recital",
+          "template_closer",
+          "no_ask"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 269,
+        "cacheReadTokens": 0,
+        "cacheWriteTokens": 2675,
+        "costUsd": 0.013394
+      },
+      "ms": 3654
+    },
+    {
+      "id": "818",
+      "source": "after.json",
+      "arm": "post",
+      "leadType": "close_loop_referrer",
+      "pass": 1,
+      "words": 87,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "Rachel made the intro herself, so a thank-you saying \"Ben Ortega and I just spoke\" plus the promotion congrats is warm and real, and I'd fire back a one-line \"glad it helped, good luck.\"",
+        "worst_line": "I'm a consumer sector analyst in the Duke Investment Club.",
+        "tells": [
+          "cv_recital",
+          "no_ask"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 228,
+        "cacheReadTokens": 0,
+        "cacheWriteTokens": 2714,
+        "costUsd": 0.013139999999999999
+      },
+      "ms": 3515
+    },
+    {
+      "id": "819",
+      "source": "after.json",
+      "arm": "post",
+      "leadType": "redirect_sequence",
+      "pass": 1,
+      "words": 87,
+      "graded": {
+        "verdict": "would_ignore",
+        "reason": "Rachel did make the intro, so the thanks is real, but it gives me nothing to answer: \"I'd enjoy keeping you posted on how things go!\" is the only forward motion, and the paragraph of internship detail is about the student, not about what Ben said.",
+        "worst_line": "This summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that went into client portfolio reviews.",
+        "tells": [
+          "cv_recital",
+          "no_ask",
+          "template_closer"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 274,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 712,
+        "costUsd": 0.0059932
+      },
+      "ms": 3090
+    },
+    {
+      "id": "821",
+      "source": "after.json",
+      "arm": "post",
+      "leadType": "redirect_sequence",
+      "pass": 1,
+      "words": 78,
+      "graded": {
+        "verdict": "would_ignore",
+        "reason": "It's a polite thank-you for the intro to Ben, but it says nothing about what came of the conversation, and the internship line, \"built a screening model for 40 dividend stocks\", is a résumé aside, so I'd read it warmly and not type a reply.",
+        "worst_line": "This summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews.",
+        "tells": [
+          "cv_recital",
+          "no_ask",
+          "nothing_for_me"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 274,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 691,
+        "costUsd": 0.0059092
+      },
+      "ms": 3447
+    },
+    {
+      "id": "822",
+      "source": "after.json",
+      "arm": "post",
+      "leadType": "second_conversation",
+      "pass": 1,
+      "words": 89,
+      "graded": {
+        "verdict": "would_ignore",
+        "reason": "There's a real prior conversation (\"We spoke in March, and you suggested I track a few brands\"), but the ask is a 15-minute call to hear how the tracking is going, which gives me nothing to answer quickly and nothing in it for me.",
+        "worst_line": "I'd like to tell you how the brand tracking is going and hear what you think of where I've taken it.",
+        "tells": [
+          "vague_ask",
+          "cv_recital",
+          "nothing_for_me"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 253,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 696,
+        "costUsd": 0.005719200000000001
+      },
+      "ms": 3139
+    },
+    {
+      "id": "824",
+      "source": "after.json",
+      "arm": "post",
+      "leadType": "second_conversation",
+      "pass": 1,
+      "words": 112,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "I introduced them, they followed up on my suggestion (\"you suggested I track a few brands\"), and the ask is a small, easy 15 minutes, so I'd likely send a quick yes or a one-line steer.",
+        "worst_line": "I also spent the summer at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews.",
+        "tells": [
+          "cv_recital"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 248,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 744,
+        "costUsd": 0.0058612000000000004
+      },
+      "ms": 3444
+    },
+    {
+      "id": "826",
+      "source": "after.json",
+      "arm": "post",
+      "leadType": "second_conversation",
+      "pass": 1,
+      "words": 89,
+      "graded": {
+        "verdict": "would_reply",
+        "reason": "We actually spoke, I pointed them to Ben Ortega and they followed up, and the ask is a concrete 15 minutes: \"Would you have 15 minutes in the coming weeks to talk about how I'm tracking the three brands?\"",
+        "worst_line": "This summer at Pinecrest Wealth Partners, I built a screening model for 40 dividend stocks that went into client portfolio reviews.",
+        "tells": [
+          "cv_recital",
+          "vague_ask"
+        ]
+      },
+      "worstLineVerbatim": true,
+      "error": null,
+      "usage": {
+        "inputTokens": 2,
+        "outputTokens": 259,
+        "cacheReadTokens": 2006,
+        "cacheWriteTokens": 712,
+        "costUsd": 0.0058432
+      },
+      "ms": 3213
+    }
+  ]
+}

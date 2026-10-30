@@ -1,0 +1,69 @@
+diff --git a/node_modules/postgres/cf/src/connection.js b/node_modules/postgres/cf/src/connection.js
+index 8e79170..ec92a2d 100644
+--- a/node_modules/postgres/cf/src/connection.js
++++ b/node_modules/postgres/cf/src/connection.js
+@@ -172,11 +172,16 @@ function Connection(options, queues = {}, { onopen = noop, onend = noop, onclose
+         : (query = q, query.active = true)
+ 
+       build(q)
+-      return write(toBuffer(q))
++      const ready = write(toBuffer(q))
+         && !q.describeFirst
+         && !q.cursorFn
+         && sent.length < max_pipeline
+-        && (!q.options.onexecute || q.options.onexecute(connection))
++      // Offerly patch: sql.begin reserves its connection in onexecute, so it
++      // must run whether or not this connection can take another query.
++      // Upstream skipped it when pipelining was refused, which made
++      // max_pipeline: 0 throw UNSAFE_TRANSACTION on every transaction.
++      q.options.onexecute && q.options.onexecute(connection)
++      return ready
+     } catch (error) {
+       sent.length === 0 && write(Sync)
+       errored(error)
+diff --git a/node_modules/postgres/cjs/src/connection.js b/node_modules/postgres/cjs/src/connection.js
+index 07f6716..19f160f 100644
+--- a/node_modules/postgres/cjs/src/connection.js
++++ b/node_modules/postgres/cjs/src/connection.js
+@@ -170,11 +170,16 @@ function Connection(options, queues = {}, { onopen = noop, onend = noop, onclose
+         : (query = q, query.active = true)
+ 
+       build(q)
+-      return write(toBuffer(q))
++      const ready = write(toBuffer(q))
+         && !q.describeFirst
+         && !q.cursorFn
+         && sent.length < max_pipeline
+-        && (!q.options.onexecute || q.options.onexecute(connection))
++      // Offerly patch: sql.begin reserves its connection in onexecute, so it
++      // must run whether or not this connection can take another query.
++      // Upstream skipped it when pipelining was refused, which made
++      // max_pipeline: 0 throw UNSAFE_TRANSACTION on every transaction.
++      q.options.onexecute && q.options.onexecute(connection)
++      return ready
+     } catch (error) {
+       sent.length === 0 && write(Sync)
+       errored(error)
+diff --git a/node_modules/postgres/src/connection.js b/node_modules/postgres/src/connection.js
+index 1b1cccd..2765118 100644
+--- a/node_modules/postgres/src/connection.js
++++ b/node_modules/postgres/src/connection.js
+@@ -170,11 +170,16 @@ function Connection(options, queues = {}, { onopen = noop, onend = noop, onclose
+         : (query = q, query.active = true)
+ 
+       build(q)
+-      return write(toBuffer(q))
++      const ready = write(toBuffer(q))
+         && !q.describeFirst
+         && !q.cursorFn
+         && sent.length < max_pipeline
+-        && (!q.options.onexecute || q.options.onexecute(connection))
++      // Offerly patch: sql.begin reserves its connection in onexecute, so it
++      // must run whether or not this connection can take another query.
++      // Upstream skipped it when pipelining was refused, which made
++      // max_pipeline: 0 throw UNSAFE_TRANSACTION on every transaction.
++      q.options.onexecute && q.options.onexecute(connection)
++      return ready
+     } catch (error) {
+       sent.length === 0 && write(Sync)
+       errored(error)

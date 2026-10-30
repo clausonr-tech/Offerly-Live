@@ -1,0 +1,1897 @@
+{
+  "capturedAt": "2026-10-13T16:17:39.652Z",
+  "note": "sha256 of buildDraftPrompt(...).system for every prompt a student can produce, captured BEFORE the system prompt was split into cache tiers. draft-tiers-test.ts asserts the tiers still concatenate to exactly these bytes.",
+  "rows": [
+    {
+      "id": "first_contact:first.alum",
+      "lead": "cold_email",
+      "also": [],
+      "boxIds": [
+        "first.alum"
+      ],
+      "chars": 24930,
+      "bytes": 24966,
+      "sha256": "f42267516676a1eb9d33c811695469803eb2383718fa336a739255a1ad8777f0"
+    },
+    {
+      "id": "first_contact:first.not_alum",
+      "lead": "cold_not_alum",
+      "also": [],
+      "boxIds": [
+        "first.not_alum"
+      ],
+      "chars": 23108,
+      "bytes": 23152,
+      "sha256": "f561c387410a925884841970a669b599c1bdf69a1be40474f5272f5035521e0b"
+    },
+    {
+      "id": "first_contact:first.recruiter",
+      "lead": "recruiter_outreach",
+      "also": [],
+      "boxIds": [
+        "first.recruiter"
+      ],
+      "chars": 17623,
+      "bytes": 17637,
+      "sha256": "1801d58b9670c9eb346ffe4dda92a3090a29f09eb08b89c0508def7f9bc50770"
+    },
+    {
+      "id": "first_contact:first.alum+first.recruiter",
+      "lead": "recruiter_outreach",
+      "also": [
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.recruiter"
+      ],
+      "chars": 23720,
+      "bytes": 23744,
+      "sha256": "35ea0df3afecf9f3464dd314bbdbac0e33173aa4bcba656f3bf97c51238f6b0d"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.recruiter",
+      "lead": "recruiter_outreach",
+      "also": [
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.recruiter"
+      ],
+      "chars": 19701,
+      "bytes": 19715,
+      "sha256": "35e865ff083c372838d62ed53dde4c5126ee6bb76353025409f6120173f49ea9"
+    },
+    {
+      "id": "first_contact:first.inbox",
+      "lead": "recruiting_inbox",
+      "also": [],
+      "boxIds": [
+        "first.inbox"
+      ],
+      "chars": 22446,
+      "bytes": 22492,
+      "sha256": "f46a3dd89ca2fdf59b40fd7e9786e76d2fb760b935af292290800bf5adeed728"
+    },
+    {
+      "id": "first_contact:first.referred",
+      "lead": "cold_referral",
+      "also": [],
+      "boxIds": [
+        "first.referred"
+      ],
+      "chars": 22455,
+      "bytes": 22491,
+      "sha256": "baf0a816a6dd435f25e54ce06ccf28301b30a623af6996d552355885768e1c04"
+    },
+    {
+      "id": "first_contact:first.alum+first.referred",
+      "lead": "cold_referral",
+      "also": [
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.referred"
+      ],
+      "chars": 28597,
+      "bytes": 28655,
+      "sha256": "f96f0a9ab2604cbb111d9370a3d18b797f57e12ee3488489f90ffe4ee10a1843"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.referred",
+      "lead": "cold_referral",
+      "also": [
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.referred"
+      ],
+      "chars": 24417,
+      "bytes": 24453,
+      "sha256": "575442557e10656c50459ca55d0e89ffe91b98670ce3cc205285bbf3fc2d8290"
+    },
+    {
+      "id": "first_contact:first.recruiter+first.referred",
+      "lead": "cold_referral",
+      "also": [
+        "recruiter_outreach"
+      ],
+      "boxIds": [
+        "first.recruiter",
+        "first.referred"
+      ],
+      "chars": 27502,
+      "bytes": 27544,
+      "sha256": "422611da687143b0f8ff97ce6aa0b1dc21a55178434c4c55c8392be672f30b55"
+    },
+    {
+      "id": "first_contact:first.alum+first.recruiter+first.referred",
+      "lead": "cold_referral",
+      "also": [
+        "recruiter_outreach",
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.recruiter",
+        "first.referred"
+      ],
+      "chars": 30028,
+      "bytes": 30090,
+      "sha256": "1ee76f2b2e4b8f0028a73eb6adba781284bf6392249fd7f242341a05088a47a5"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.recruiter+first.referred",
+      "lead": "cold_referral",
+      "also": [
+        "recruiter_outreach",
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.recruiter",
+        "first.referred"
+      ],
+      "chars": 25464,
+      "bytes": 25506,
+      "sha256": "0c126ce9eba5c92cea684559531be88e2c3805231a668a499e0aded344a1f99d"
+    },
+    {
+      "id": "first_contact:first.met",
+      "lead": "cold_after_meeting",
+      "also": [],
+      "boxIds": [
+        "first.met"
+      ],
+      "chars": 21626,
+      "bytes": 21648,
+      "sha256": "3930723f6decc0fa8e612b336c18914ce16722afcf0af37311d9d6c30b6bc648"
+    },
+    {
+      "id": "first_contact:first.alum+first.met",
+      "lead": "cold_after_meeting",
+      "also": [
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.met"
+      ],
+      "chars": 27654,
+      "bytes": 27686,
+      "sha256": "8f72995b2bfc3b282fd8dc87de4b3bca3b194529954692bb935367f5d1887a04"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.met",
+      "lead": "cold_after_meeting",
+      "also": [
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.met"
+      ],
+      "chars": 23593,
+      "bytes": 23615,
+      "sha256": "45c7f748fd4e34c491b810144dbd7eefd1d5e7c8ce181e2d408baa788505797f"
+    },
+    {
+      "id": "first_contact:first.recruiter+first.met",
+      "lead": "cold_after_meeting",
+      "also": [
+        "recruiter_outreach"
+      ],
+      "boxIds": [
+        "first.recruiter",
+        "first.met"
+      ],
+      "chars": 23706,
+      "bytes": 23728,
+      "sha256": "08667a6763079cfdb34cba7cf13af65c699d4b628a1f5e80a3fd914caa25c87f"
+    },
+    {
+      "id": "first_contact:first.alum+first.recruiter+first.met",
+      "lead": "cold_after_meeting",
+      "also": [
+        "recruiter_outreach",
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.recruiter",
+        "first.met"
+      ],
+      "chars": 29188,
+      "bytes": 29230,
+      "sha256": "5c882fefb97ed4f67cce6b9eafc786d555bb61b1346876df48b3c9a72f86540a"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.recruiter+first.met",
+      "lead": "cold_after_meeting",
+      "also": [
+        "recruiter_outreach",
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.recruiter",
+        "first.met"
+      ],
+      "chars": 24640,
+      "bytes": 24668,
+      "sha256": "2ddeadb3e768cfa3e7d42278a3bfd5d37fe56299f89431ef06aae7ee83588dec"
+    },
+    {
+      "id": "first_contact:first.referred+first.met",
+      "lead": "cold_referral",
+      "also": [
+        "cold_after_meeting"
+      ],
+      "boxIds": [
+        "first.referred",
+        "first.met"
+      ],
+      "chars": 27432,
+      "bytes": 27476,
+      "sha256": "1b56f9b8b5a1730298ab000100a91947e27aa00a6bc07481e71c384f7dcc5ca7"
+    },
+    {
+      "id": "first_contact:first.alum+first.referred+first.met",
+      "lead": "cold_referral",
+      "also": [
+        "cold_after_meeting",
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.referred",
+        "first.met"
+      ],
+      "chars": 29801,
+      "bytes": 29867,
+      "sha256": "02afbb16cb2a5c0b1123188b8486df00864d570325d363967dc9242d104ada1d"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.referred+first.met",
+      "lead": "cold_referral",
+      "also": [
+        "cold_after_meeting",
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.referred",
+        "first.met"
+      ],
+      "chars": 25353,
+      "bytes": 25395,
+      "sha256": "4cf2be93e1cc66c0051fec296e3606384bf724e7b84b85a77fb39555093148ff"
+    },
+    {
+      "id": "first_contact:first.recruiter+first.referred+first.met",
+      "lead": "cold_referral",
+      "also": [
+        "cold_after_meeting",
+        "recruiter_outreach"
+      ],
+      "boxIds": [
+        "first.recruiter",
+        "first.referred",
+        "first.met"
+      ],
+      "chars": 28221,
+      "bytes": 28269,
+      "sha256": "6e88b52a9eddfd390bc08df5ae3307bc01e1002e230c2b3029c097686d70c0fe"
+    },
+    {
+      "id": "first_contact:first.alum+first.recruiter+first.referred+first.met",
+      "lead": "cold_referral",
+      "also": [
+        "cold_after_meeting",
+        "recruiter_outreach",
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.recruiter",
+        "first.referred",
+        "first.met"
+      ],
+      "chars": 26585,
+      "bytes": 26629,
+      "sha256": "510105b0adfc9620a1f24ba52a9f31e47f890d0e804852fede06a818108dd4b8"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.recruiter+first.referred+first.met",
+      "lead": "cold_referral",
+      "also": [
+        "cold_after_meeting",
+        "recruiter_outreach",
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.recruiter",
+        "first.referred",
+        "first.met"
+      ],
+      "chars": 25493,
+      "bytes": 25535,
+      "sha256": "daf806a55f5ee4eb8f7904cab885bdd96824bf6c7c6af3e20aa2eeb28e02ad89"
+    },
+    {
+      "id": "first_contact:first.conference",
+      "lead": "conference_follow_up",
+      "also": [],
+      "boxIds": [
+        "first.conference"
+      ],
+      "chars": 16970,
+      "bytes": 16976,
+      "sha256": "8b01f6564c2ddef88e89f1454e1ae9a6aafa2529e84a877ffa7f30d6c45469c1"
+    },
+    {
+      "id": "first_contact:first.alum+first.conference",
+      "lead": "conference_follow_up",
+      "also": [
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.conference"
+      ],
+      "chars": 18936,
+      "bytes": 18942,
+      "sha256": "337c958abfbdc44ab7c0dca4722c3fd16a10182b2a9ecaf8614b01df17ac0758"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.conference",
+      "lead": "conference_follow_up",
+      "also": [
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.conference"
+      ],
+      "chars": 18943,
+      "bytes": 18949,
+      "sha256": "54f3019cc2479584a8fc8f6138ef381ce8b8b41c4d9279bfa6c7e76c5073f726"
+    },
+    {
+      "id": "first_contact:first.recruiter+first.conference",
+      "lead": "conference_follow_up",
+      "also": [
+        "recruiter_outreach"
+      ],
+      "boxIds": [
+        "first.recruiter",
+        "first.conference"
+      ],
+      "chars": 22110,
+      "bytes": 22118,
+      "sha256": "12ace430274f590c01fd67d7a5f50460e411c3e1c67ebc7ee6da1383602d1b8a"
+    },
+    {
+      "id": "first_contact:first.alum+first.recruiter+first.conference",
+      "lead": "conference_follow_up",
+      "also": [
+        "recruiter_outreach",
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.recruiter",
+        "first.conference"
+      ],
+      "chars": 23792,
+      "bytes": 23814,
+      "sha256": "b1453f424df38db6f87b41d81359cd2986ccd4d89af46daaf47c11fcba01d3d8"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.recruiter+first.conference",
+      "lead": "conference_follow_up",
+      "also": [
+        "recruiter_outreach",
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.recruiter",
+        "first.conference"
+      ],
+      "chars": 19990,
+      "bytes": 20002,
+      "sha256": "616f93d1ff1f3c0ab6802ee8ed9ff5fae1048e1d509258933e700d613d17e695"
+    },
+    {
+      "id": "first_contact:first.referred+first.conference",
+      "lead": "cold_referral",
+      "also": [
+        "conference_follow_up"
+      ],
+      "boxIds": [
+        "first.referred",
+        "first.conference"
+      ],
+      "chars": 24425,
+      "bytes": 24461,
+      "sha256": "136558992233db07bb6096c6bc42604f0bcf445ab84eb401b1304f9b4285bd48"
+    },
+    {
+      "id": "first_contact:first.alum+first.referred+first.conference",
+      "lead": "cold_referral",
+      "also": [
+        "conference_follow_up",
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.referred",
+        "first.conference"
+      ],
+      "chars": 29322,
+      "bytes": 29386,
+      "sha256": "88f14c4812bb53608b741913d100f024fff1b9e1fdfc4f0b31a354327dd6a2b1"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.referred+first.conference",
+      "lead": "cold_referral",
+      "also": [
+        "conference_follow_up",
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.referred",
+        "first.conference"
+      ],
+      "chars": 25359,
+      "bytes": 25401,
+      "sha256": "93d7609c41fc0be4dd5d1f1956ddb6bb5f70792ad53d59c27921e236a712a692"
+    },
+    {
+      "id": "first_contact:first.recruiter+first.referred+first.conference",
+      "lead": "cold_referral",
+      "also": [
+        "conference_follow_up",
+        "recruiter_outreach"
+      ],
+      "boxIds": [
+        "first.recruiter",
+        "first.referred",
+        "first.conference"
+      ],
+      "chars": 29843,
+      "bytes": 29893,
+      "sha256": "f123d1fb58b6339eff71269309484f01a4dedf6d0cee0442df0b6df58cc4869e"
+    },
+    {
+      "id": "first_contact:first.alum+first.recruiter+first.referred+first.conference",
+      "lead": "cold_referral",
+      "also": [
+        "conference_follow_up",
+        "recruiter_outreach",
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.recruiter",
+        "first.referred",
+        "first.conference"
+      ],
+      "chars": 30063,
+      "bytes": 30125,
+      "sha256": "3719eb3c20a5dd6c27f8a10aa2d0eabbe536de16a9d1e18f952ccb239a5a1ffa"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.recruiter+first.referred+first.conference",
+      "lead": "cold_referral",
+      "also": [
+        "conference_follow_up",
+        "recruiter_outreach",
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.recruiter",
+        "first.referred",
+        "first.conference"
+      ],
+      "chars": 25499,
+      "bytes": 25541,
+      "sha256": "5835262b997be61705a3ac8a62589b9deb41eedd423abffd03e30117a295e2c7"
+    },
+    {
+      "id": "first_contact:first.pointed",
+      "lead": "redirect_sequence",
+      "also": [],
+      "boxIds": [
+        "first.pointed"
+      ],
+      "chars": 16173,
+      "bytes": 16181,
+      "sha256": "b46d2af67efa636182c4b514f056525027640f641b5a77b01c74d55409148e44"
+    },
+    {
+      "id": "first_contact:first.alum+first.pointed",
+      "lead": "redirect_sequence",
+      "also": [
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.pointed"
+      ],
+      "chars": 20892,
+      "bytes": 20908,
+      "sha256": "0fbd7a08eb2062786da374211c1ee8b97398b83bd2d3117dd4be0821ebc286d4"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.pointed",
+      "lead": "redirect_sequence",
+      "also": [
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.pointed"
+      ],
+      "chars": 18150,
+      "bytes": 18158,
+      "sha256": "e75e31a7db3d92fa77ebf16f0527fc4d779cd300756f98f5e65112f02c7f4fde"
+    },
+    {
+      "id": "first_contact:first.recruiter+first.pointed",
+      "lead": "redirect_sequence",
+      "also": [
+        "recruiter_outreach"
+      ],
+      "boxIds": [
+        "first.recruiter",
+        "first.pointed"
+      ],
+      "chars": 18263,
+      "bytes": 18271,
+      "sha256": "d2bc9e0686200a044b8b82cb49efa2c5db5f9f8c54642d014c3b1f4515e2858c"
+    },
+    {
+      "id": "first_contact:first.alum+first.recruiter+first.pointed",
+      "lead": "redirect_sequence",
+      "also": [
+        "recruiter_outreach",
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.recruiter",
+        "first.pointed"
+      ],
+      "chars": 23466,
+      "bytes": 23498,
+      "sha256": "5d90a1699df3b881ce2f12b2288590de4b897c737e912e8e31f689df50d79982"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.recruiter+first.pointed",
+      "lead": "redirect_sequence",
+      "also": [
+        "recruiter_outreach",
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.recruiter",
+        "first.pointed"
+      ],
+      "chars": 19197,
+      "bytes": 19211,
+      "sha256": "d5684e4c2ef61b6160ca2d2640569f7e569713fb138e88298d206f18b9c434c4"
+    },
+    {
+      "id": "first_contact:first.met+first.pointed",
+      "lead": "cold_after_meeting",
+      "also": [
+        "redirect_sequence"
+      ],
+      "boxIds": [
+        "first.met",
+        "first.pointed"
+      ],
+      "chars": 23605,
+      "bytes": 23627,
+      "sha256": "fa4b46d1b7cb2bde8625c770550f2f9fc1cae720b06489135a91d633e99ba7d8"
+    },
+    {
+      "id": "first_contact:first.alum+first.met+first.pointed",
+      "lead": "cold_after_meeting",
+      "also": [
+        "redirect_sequence",
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.met",
+        "first.pointed"
+      ],
+      "chars": 28767,
+      "bytes": 28813,
+      "sha256": "ecac9724041f28a1d8c6c2007d7ebaccbe49b5792f9736ad62581aca8322e60d"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.met+first.pointed",
+      "lead": "cold_after_meeting",
+      "also": [
+        "redirect_sequence",
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.met",
+        "first.pointed"
+      ],
+      "chars": 24539,
+      "bytes": 24567,
+      "sha256": "9bb6bf581a646bc96eeadb2366cc5813f6cc431b44acca9ebd1f0a7feb9fde4d"
+    },
+    {
+      "id": "first_contact:first.recruiter+first.met+first.pointed",
+      "lead": "cold_after_meeting",
+      "also": [
+        "redirect_sequence",
+        "recruiter_outreach"
+      ],
+      "boxIds": [
+        "first.recruiter",
+        "first.met",
+        "first.pointed"
+      ],
+      "chars": 24652,
+      "bytes": 24680,
+      "sha256": "4572f8975d73e1006922473c02a91bc293804678a987e14269532b83449900b7"
+    },
+    {
+      "id": "first_contact:first.alum+first.recruiter+first.met+first.pointed",
+      "lead": "cold_after_meeting",
+      "also": [
+        "redirect_sequence",
+        "recruiter_outreach",
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.recruiter",
+        "first.met",
+        "first.pointed"
+      ],
+      "chars": 29672,
+      "bytes": 29720,
+      "sha256": "0a1b68e184ad4bb0426ade94ef1ac4f72d4aaa2b5d55ca50f6ec70773b00a118"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.recruiter+first.met+first.pointed",
+      "lead": "cold_after_meeting",
+      "also": [
+        "redirect_sequence",
+        "recruiter_outreach",
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.recruiter",
+        "first.met",
+        "first.pointed"
+      ],
+      "chars": 24679,
+      "bytes": 24707,
+      "sha256": "3163d7e121590e4626ce3118e542e86654686390570c1ef6f765832d770ab9fc"
+    },
+    {
+      "id": "first_contact:first.conference+first.pointed",
+      "lead": "conference_follow_up",
+      "also": [
+        "redirect_sequence"
+      ],
+      "boxIds": [
+        "first.conference",
+        "first.pointed"
+      ],
+      "chars": 18955,
+      "bytes": 18961,
+      "sha256": "6c2f96ca2a896b070a40d4c60ebf6978b31c78a9c0a78fb44ac4bd6d68259f72"
+    },
+    {
+      "id": "first_contact:first.alum+first.conference+first.pointed",
+      "lead": "conference_follow_up",
+      "also": [
+        "redirect_sequence",
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.conference",
+        "first.pointed"
+      ],
+      "chars": 22414,
+      "bytes": 22434,
+      "sha256": "248ca5b1d061a90372ec4b8d51d6e48dfbd86980863759a7abb7c397c5431e08"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.conference+first.pointed",
+      "lead": "conference_follow_up",
+      "also": [
+        "redirect_sequence",
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.conference",
+        "first.pointed"
+      ],
+      "chars": 19889,
+      "bytes": 19901,
+      "sha256": "6db00c228a92797fc25b3a2e946f3ce9caa429cd5a53a3fcdcbe1b51a97e3749"
+    },
+    {
+      "id": "first_contact:first.recruiter+first.conference+first.pointed",
+      "lead": "conference_follow_up",
+      "also": [
+        "redirect_sequence",
+        "recruiter_outreach"
+      ],
+      "boxIds": [
+        "first.recruiter",
+        "first.conference",
+        "first.pointed"
+      ],
+      "chars": 22839,
+      "bytes": 22853,
+      "sha256": "44f4ae671a38eefd492bc387758789851307d0943c6c366e444a683bfdce6272"
+    },
+    {
+      "id": "first_contact:first.alum+first.recruiter+first.conference+first.pointed",
+      "lead": "conference_follow_up",
+      "also": [
+        "redirect_sequence",
+        "recruiter_outreach",
+        "cold_email"
+      ],
+      "boxIds": [
+        "first.alum",
+        "first.recruiter",
+        "first.conference",
+        "first.pointed"
+      ],
+      "chars": 24298,
+      "bytes": 24328,
+      "sha256": "a5a079de995ff42121b97c5ec86eabdfd00a40ad0b37fbedc2afb2c74e71c8b0"
+    },
+    {
+      "id": "first_contact:first.not_alum+first.recruiter+first.conference+first.pointed",
+      "lead": "conference_follow_up",
+      "also": [
+        "redirect_sequence",
+        "recruiter_outreach",
+        "cold_not_alum"
+      ],
+      "boxIds": [
+        "first.not_alum",
+        "first.recruiter",
+        "first.conference",
+        "first.pointed"
+      ],
+      "chars": 20029,
+      "bytes": 20041,
+      "sha256": "892e5ce722189dfa1ed646d13d24a4b04ec99e23aaf08405d7b9fc1c571e6340"
+    },
+    {
+      "id": "follow_up:follow.first",
+      "lead": "follow_up_1",
+      "also": [],
+      "boxIds": [
+        "follow.first"
+      ],
+      "chars": 18069,
+      "bytes": 18083,
+      "sha256": "d915a7604a2ee0d06067a7c3197ad80bf004067fbfffbc5369ccab30b59dd76e"
+    },
+    {
+      "id": "follow_up:follow.final",
+      "lead": "follow_up_2",
+      "also": [],
+      "boxIds": [
+        "follow.final"
+      ],
+      "chars": 17966,
+      "bytes": 17980,
+      "sha256": "f27567626b222134158022fb3a3d8e0a5fe4c1e74ba915a1dc283b670dfc1cbc"
+    },
+    {
+      "id": "follow_up:follow.recruiter",
+      "lead": "recruiter_follow_up",
+      "also": [],
+      "boxIds": [
+        "follow.recruiter"
+      ],
+      "chars": 15043,
+      "bytes": 15047,
+      "sha256": "1c27af95cf9a989cefc98f447a11e7978ddca08be953237bf29fc5d8233cd828"
+    },
+    {
+      "id": "follow_up:follow.inbox",
+      "lead": "recruiting_inbox_follow_up",
+      "also": [],
+      "boxIds": [
+        "follow.inbox"
+      ],
+      "chars": 17007,
+      "bytes": 17027,
+      "sha256": "85f17474d33d9a89fab9c2c391a1d9b47f622ed3493042a1c9e5f090a3d9847e"
+    },
+    {
+      "id": "follow_up:follow.quiet",
+      "lead": "stalled_thread_nudge",
+      "also": [],
+      "boxIds": [
+        "follow.quiet"
+      ],
+      "chars": 15091,
+      "bytes": 15095,
+      "sha256": "2374083bd1e2b3c570fd3a8d000f2d5f5b68053a5900832ab07fadbd42b2f693"
+    },
+    {
+      "id": "follow_up:follow.later",
+      "lead": "not_now_reply",
+      "also": [],
+      "boxIds": [
+        "follow.later"
+      ],
+      "chars": 15593,
+      "bytes": 15597,
+      "sha256": "5d8e38e36c9ca1819d094a1d450a7fb457806a061e5a1f843a1dd38624d2d31c"
+    },
+    {
+      "id": "follow_up:follow.interview",
+      "lead": "interview_check_in",
+      "also": [],
+      "boxIds": [
+        "follow.interview"
+      ],
+      "chars": 18503,
+      "bytes": 18513,
+      "sha256": "1a1276a09d0d78cd26d3141747d4866bce070f7b34f950947d192cb875b44673"
+    },
+    {
+      "id": "reply:reply.call",
+      "lead": "call_scheduling",
+      "also": [],
+      "boxIds": [
+        "reply.call"
+      ],
+      "chars": 18421,
+      "bytes": 18439,
+      "sha256": "b3a92d7cdea88e3830f9cd5e8e53e309ff06ad62be7d362cc33302deeb8ff4dd"
+    },
+    {
+      "id": "reply:reply.coffee",
+      "lead": "coffee_in_person_reply",
+      "also": [],
+      "boxIds": [
+        "reply.coffee"
+      ],
+      "chars": 15193,
+      "bytes": 15197,
+      "sha256": "f0a35a26a7ba437ca53bb21b40c95b9a7175deba64dc7ae402e831835d7b95f0"
+    },
+    {
+      "id": "reply:reply.not_now",
+      "lead": "not_now_reply",
+      "also": [],
+      "boxIds": [
+        "reply.not_now"
+      ],
+      "chars": 15593,
+      "bytes": 15597,
+      "sha256": "5d8e38e36c9ca1819d094a1d450a7fb457806a061e5a1f843a1dd38624d2d31c"
+    },
+    {
+      "id": "reply:reply.pointed",
+      "lead": "redirect_sequence",
+      "also": [],
+      "boxIds": [
+        "reply.pointed"
+      ],
+      "chars": 16173,
+      "bytes": 16181,
+      "sha256": "b46d2af67efa636182c4b514f056525027640f641b5a77b01c74d55409148e44"
+    },
+    {
+      "id": "reply:reply.scheduling",
+      "lead": "recruiter_scheduling_reply",
+      "also": [],
+      "boxIds": [
+        "reply.scheduling"
+      ],
+      "chars": 17180,
+      "bytes": 17190,
+      "sha256": "5041b2185d79891131abf6340390f96b31d7e2e2075219d8684f836cf088621c"
+    },
+    {
+      "id": "reply:reply.move",
+      "lead": "reschedule_call",
+      "also": [],
+      "boxIds": [
+        "reply.move"
+      ],
+      "chars": 17319,
+      "bytes": 17333,
+      "sha256": "bfdd5d053d44c736057f561c733b619a16b6b9967bdadf55ed2354ae1d1d20f7"
+    },
+    {
+      "id": "thanks:thanks.chat",
+      "lead": "thank_you_chat",
+      "also": [],
+      "boxIds": [
+        "thanks.chat"
+      ],
+      "chars": 18141,
+      "bytes": 18153,
+      "sha256": "4e6cb87aab78090ea900a1c8426df5cb27e51b7ca5ae78639af29e1ed60512f0"
+    },
+    {
+      "id": "thanks:thanks.helped",
+      "lead": "thank_you_offered_help",
+      "also": [],
+      "boxIds": [
+        "thanks.helped"
+      ],
+      "chars": 17159,
+      "bytes": 17171,
+      "sha256": "c1cbde6fb6f1f21ce7e1c79afbbe66aeca6ae1534e943846d019223f4e51f46f"
+    },
+    {
+      "id": "thanks:thanks.chat+thanks.helped",
+      "lead": "thank_you_offered_help",
+      "also": [
+        "thank_you_chat"
+      ],
+      "boxIds": [
+        "thanks.chat",
+        "thanks.helped"
+      ],
+      "chars": 23050,
+      "bytes": 23074,
+      "sha256": "05cba600288a3c2c90faa9fef751b1e194e05ced9694dc3dcef353f64f017342"
+    },
+    {
+      "id": "thanks:thanks.event",
+      "lead": "thank_you_event",
+      "also": [],
+      "boxIds": [
+        "thanks.event"
+      ],
+      "chars": 19315,
+      "bytes": 19335,
+      "sha256": "736acf0ecda95a2c72b6542e463308135677877588f747202dddc8b45d3e7c5f"
+    },
+    {
+      "id": "thanks:thanks.helped+thanks.event",
+      "lead": "thank_you_offered_help",
+      "also": [
+        "thank_you_event"
+      ],
+      "boxIds": [
+        "thanks.helped",
+        "thanks.event"
+      ],
+      "chars": 21996,
+      "bytes": 22024,
+      "sha256": "1c44d110e09c59a488263e765182b470387388368a157c4121a3fc6f5cefb1f3"
+    },
+    {
+      "id": "thanks:thanks.session",
+      "lead": "thank_you_recruiter_session",
+      "also": [],
+      "boxIds": [
+        "thanks.session"
+      ],
+      "chars": 15262,
+      "bytes": 15270,
+      "sha256": "dc9976d4c7e58320a4554912c711a4dcee65a4359607855b50295e82775ea6cb"
+    },
+    {
+      "id": "thanks:thanks.helped+thanks.session",
+      "lead": "thank_you_offered_help",
+      "also": [
+        "thank_you_recruiter_session"
+      ],
+      "boxIds": [
+        "thanks.helped",
+        "thanks.session"
+      ],
+      "chars": 22066,
+      "bytes": 22086,
+      "sha256": "f7368e16ab1e27ad99fb399d7b36480d98827383eb61afc790ab1b8a4001451b"
+    },
+    {
+      "id": "thanks:thanks.interview",
+      "lead": "thank_you_interview",
+      "also": [],
+      "boxIds": [
+        "thanks.interview"
+      ],
+      "chars": 19216,
+      "bytes": 19240,
+      "sha256": "98192d4cac3212cc8157fc5c4790b75e3553e8e6f5ddced8f874d8d8217e1c0c"
+    },
+    {
+      "id": "thanks:thanks.superday",
+      "lead": "thank_you_superday",
+      "also": [],
+      "boxIds": [
+        "thanks.superday"
+      ],
+      "chars": 16713,
+      "bytes": 16723,
+      "sha256": "b09884f7c98a0da209550c6191ac66c8ca5435e8a4b8e28f30d11e5d045c7e39"
+    },
+    {
+      "id": "thanks:thanks.screen",
+      "lead": "thank_you_phone_screen",
+      "also": [],
+      "boxIds": [
+        "thanks.screen"
+      ],
+      "chars": 16850,
+      "bytes": 16862,
+      "sha256": "350a85435c78184fc34ad085af7da6494477b6d3f2fcd0ef72922a72476f754f"
+    },
+    {
+      "id": "thanks:thanks.recorded",
+      "lead": "recorded_round_note",
+      "also": [],
+      "boxIds": [
+        "thanks.recorded"
+      ],
+      "chars": 16710,
+      "bytes": 16728,
+      "sha256": "169224a64656e8028e30405f87f3bf0b869453fc2360bd17333d38925efcc127"
+    },
+    {
+      "id": "stay:stay.update",
+      "lead": "keep_in_touch",
+      "also": [],
+      "boxIds": [
+        "stay.update"
+      ],
+      "chars": 19337,
+      "bytes": 19347,
+      "sha256": "5ea40aa8deee41ba797ad64156fb6a2a219082a18e58f5168b39d213aaddd9e7"
+    },
+    {
+      "id": "stay:stay.congrats",
+      "lead": "congratulations",
+      "also": [],
+      "boxIds": [
+        "stay.congrats"
+      ],
+      "chars": 16014,
+      "bytes": 16018,
+      "sha256": "054d0e7b0ead4079fda59b20ed42f84da3aa1525d38fb62ef24be366dfb627d9"
+    },
+    {
+      "id": "stay:stay.update+stay.congrats",
+      "lead": "keep_in_touch",
+      "also": [
+        "congratulations"
+      ],
+      "boxIds": [
+        "stay.update",
+        "stay.congrats"
+      ],
+      "chars": 25082,
+      "bytes": 25100,
+      "sha256": "c6fbfa08051447da61c9ef680a35795421702a287e95747467f60943e77c40bf"
+    },
+    {
+      "id": "stay:stay.referrer",
+      "lead": "close_loop_referrer",
+      "also": [],
+      "boxIds": [
+        "stay.referrer"
+      ],
+      "chars": 17591,
+      "bytes": 17601,
+      "sha256": "af69ae5e8a3798a1aafae179c808ade33d44a5b1a2b1f279703d1fe6f496eeef"
+    },
+    {
+      "id": "stay:stay.update+stay.referrer",
+      "lead": "close_loop_referrer",
+      "also": [
+        "keep_in_touch"
+      ],
+      "boxIds": [
+        "stay.update",
+        "stay.referrer"
+      ],
+      "chars": 23101,
+      "bytes": 23117,
+      "sha256": "a6a7914f1c300bb3ea13b768545fffd2628bb65a61123cc685faf4a415adb198"
+    },
+    {
+      "id": "stay:stay.congrats+stay.referrer",
+      "lead": "close_loop_referrer",
+      "also": [
+        "congratulations"
+      ],
+      "boxIds": [
+        "stay.congrats",
+        "stay.referrer"
+      ],
+      "chars": 22079,
+      "bytes": 22093,
+      "sha256": "e86551fef64ea4b084c7f46df711c992fa800b1fcc807805ab3932056be590a7"
+    },
+    {
+      "id": "stay:stay.update+stay.congrats+stay.referrer",
+      "lead": "close_loop_referrer",
+      "also": [
+        "keep_in_touch",
+        "congratulations"
+      ],
+      "boxIds": [
+        "stay.update",
+        "stay.congrats",
+        "stay.referrer"
+      ],
+      "chars": 24726,
+      "bytes": 24752,
+      "sha256": "53483f9a0bb8a7b2d6a4494cc75c4e30071e48a80bd923c0472df48aff4c345a"
+    },
+    {
+      "id": "stay:stay.redirected",
+      "lead": "redirect_sequence",
+      "also": [],
+      "boxIds": [
+        "stay.redirected"
+      ],
+      "chars": 16173,
+      "bytes": 16181,
+      "sha256": "b46d2af67efa636182c4b514f056525027640f641b5a77b01c74d55409148e44"
+    },
+    {
+      "id": "stay:stay.update+stay.redirected",
+      "lead": "redirect_sequence",
+      "also": [
+        "keep_in_touch"
+      ],
+      "boxIds": [
+        "stay.update",
+        "stay.redirected"
+      ],
+      "chars": 20209,
+      "bytes": 20221,
+      "sha256": "0c38a33ce30b0424be77a657514f0623608a122d50815dd52dd9dd35b9aaf865"
+    },
+    {
+      "id": "stay:stay.congrats+stay.redirected",
+      "lead": "redirect_sequence",
+      "also": [
+        "congratulations"
+      ],
+      "boxIds": [
+        "stay.congrats",
+        "stay.redirected"
+      ],
+      "chars": 20133,
+      "bytes": 20141,
+      "sha256": "1013fc50868b320c46fc8ee1a240fb6fa0e394e774f7d01729d792bea258805c"
+    },
+    {
+      "id": "stay:stay.update+stay.congrats+stay.redirected",
+      "lead": "redirect_sequence",
+      "also": [
+        "keep_in_touch",
+        "congratulations"
+      ],
+      "boxIds": [
+        "stay.update",
+        "stay.congrats",
+        "stay.redirected"
+      ],
+      "chars": 23503,
+      "bytes": 23527,
+      "sha256": "6c52316f76861b0884466e25cdb4ace022a7279edf50ae0ec838ffa9fcf816f2"
+    },
+    {
+      "id": "stay:stay.second",
+      "lead": "second_conversation",
+      "also": [],
+      "boxIds": [
+        "stay.second"
+      ],
+      "chars": 16482,
+      "bytes": 16488,
+      "sha256": "cd4d9093bf588cee07bb0fe8505c97eea2a6fbbf5407cb0e0b76fcedeca64e84"
+    },
+    {
+      "id": "stay:stay.update+stay.second",
+      "lead": "second_conversation",
+      "also": [
+        "keep_in_touch"
+      ],
+      "boxIds": [
+        "stay.update",
+        "stay.second"
+      ],
+      "chars": 21331,
+      "bytes": 21341,
+      "sha256": "d058727bb86d9497f7600538d7242d2fbb27a068a38b4719cee01389c4f63e40"
+    },
+    {
+      "id": "stay:stay.referrer+stay.second",
+      "lead": "second_conversation",
+      "also": [
+        "close_loop_referrer"
+      ],
+      "boxIds": [
+        "stay.referrer",
+        "stay.second"
+      ],
+      "chars": 20398,
+      "bytes": 20412,
+      "sha256": "0be3bbde3afb53e511bf32a55c35191639b6e4a3b198eba79e6db4eb87de33c2"
+    },
+    {
+      "id": "stay:stay.update+stay.referrer+stay.second",
+      "lead": "second_conversation",
+      "also": [
+        "close_loop_referrer",
+        "keep_in_touch"
+      ],
+      "boxIds": [
+        "stay.update",
+        "stay.referrer",
+        "stay.second"
+      ],
+      "chars": 23543,
+      "bytes": 23563,
+      "sha256": "42482ec7fdd1a280784917629db5c46315f68ed8fb7fea492b5fe2ef8943fb83"
+    },
+    {
+      "id": "stay:stay.redirected+stay.second",
+      "lead": "second_conversation",
+      "also": [
+        "redirect_sequence"
+      ],
+      "boxIds": [
+        "stay.redirected",
+        "stay.second"
+      ],
+      "chars": 20356,
+      "bytes": 20368,
+      "sha256": "2040010203e0e7fa62b6150d346bcd8ecc2993f79e28a29ae71b176c44f50721"
+    },
+    {
+      "id": "stay:stay.update+stay.redirected+stay.second",
+      "lead": "second_conversation",
+      "also": [
+        "redirect_sequence",
+        "keep_in_touch"
+      ],
+      "boxIds": [
+        "stay.update",
+        "stay.redirected",
+        "stay.second"
+      ],
+      "chars": 23651,
+      "bytes": 23671,
+      "sha256": "cc50887db43ebbe789bfa2532d46b4976d83c8ee172d8346a9d3efca6d3fc4a8"
+    },
+    {
+      "id": "ask:ask.referral",
+      "lead": "referral_ask",
+      "also": [],
+      "boxIds": [
+        "ask.referral"
+      ],
+      "chars": 19017,
+      "bytes": 19039,
+      "sha256": "ebe4cc8b643f8e577599dd1d85e6a0998070fca72a238df776f3c9530fb0a3a8"
+    },
+    {
+      "id": "ask:ask.referral_check",
+      "lead": "referral_ask",
+      "also": [],
+      "boxIds": [
+        "ask.referral_check"
+      ],
+      "chars": 19017,
+      "bytes": 19039,
+      "sha256": "ebe4cc8b643f8e577599dd1d85e6a0998070fca72a238df776f3c9530fb0a3a8"
+    },
+    {
+      "id": "ask:ask.other_firm",
+      "lead": "referral_ask",
+      "also": [],
+      "boxIds": [
+        "ask.other_firm"
+      ],
+      "chars": 19017,
+      "bytes": 19039,
+      "sha256": "ebe4cc8b643f8e577599dd1d85e6a0998070fca72a238df776f3c9530fb0a3a8"
+    },
+    {
+      "id": "ask:ask.professor",
+      "lead": "professor_recommendation",
+      "also": [],
+      "boxIds": [
+        "ask.professor"
+      ],
+      "chars": 17560,
+      "bytes": 17570,
+      "sha256": "9b92449218af92e00d96cb5c96dd034d024a40f04787343dbaa15b94da543450"
+    },
+    {
+      "id": "ask:ask.reference",
+      "lead": "reference_request",
+      "also": [],
+      "boxIds": [
+        "ask.reference"
+      ],
+      "chars": 17186,
+      "bytes": 17194,
+      "sha256": "f8bbc1163e2bdb87eb386b9d2ec94c2726c4e2c5f6df15076899e0c9843786db"
+    },
+    {
+      "id": "offers:offers.accept",
+      "lead": "accept_offer",
+      "also": [],
+      "boxIds": [
+        "offers.accept"
+      ],
+      "chars": 19194,
+      "bytes": 19204,
+      "sha256": "b0205253883893176caac3422c39d6955eac8d21021670ca522496a35e5d0bd9"
+    },
+    {
+      "id": "offers:offers.decline",
+      "lead": "decline_offer",
+      "also": [],
+      "boxIds": [
+        "offers.decline"
+      ],
+      "chars": 18433,
+      "bytes": 18445,
+      "sha256": "e28d172175396543f93e6799b455600674539aff4689aaf570a81471e833a522"
+    },
+    {
+      "id": "offers:offers.extension",
+      "lead": "offer_extension",
+      "also": [],
+      "boxIds": [
+        "offers.extension"
+      ],
+      "chars": 19325,
+      "bytes": 19341,
+      "sha256": "91cb83f47eaaaf2613951a08f2eaed40d9576e3e7bccc4b273bbceb0fe6ae447"
+    },
+    {
+      "id": "offers:offers.withdraw",
+      "lead": "withdraw_process",
+      "also": [],
+      "boxIds": [
+        "offers.withdraw"
+      ],
+      "chars": 15638,
+      "bytes": 15644,
+      "sha256": "fb691c3c0d5eb6cf780c1279091f2aec07d671d57fc0af97661981e591f9fe66"
+    },
+    {
+      "id": "offers:offers.rejection",
+      "lead": "after_rejection",
+      "also": [],
+      "boxIds": [
+        "offers.rejection"
+      ],
+      "chars": 17887,
+      "bytes": 17895,
+      "sha256": "6a75b0c5b2852128755534216cda3f3e25959068767dffe8aace9d9d6c70199c"
+    },
+    {
+      "id": "offers:offers.helper",
+      "lead": "thank_helper_offer",
+      "also": [],
+      "boxIds": [
+        "offers.helper"
+      ],
+      "chars": 15081,
+      "bytes": 15085,
+      "sha256": "f1093f361d3029aedff366471e9f04c3a939288da90fe199131ea7b390e08a62"
+    },
+    {
+      "id": "custom:custom.describe",
+      "lead": "custom",
+      "also": [],
+      "boxIds": [
+        "custom.describe"
+      ],
+      "chars": 39809,
+      "bytes": 39809,
+      "sha256": "84f33c60f3eb6d2a9b57dbd781510dc4662543bb113a79cf40322896e30f875a"
+    },
+    {
+      "id": "type:cold_email",
+      "lead": "cold_email",
+      "also": [],
+      "boxIds": [
+        "first.alum"
+      ],
+      "chars": 24930,
+      "bytes": 24966,
+      "sha256": "f42267516676a1eb9d33c811695469803eb2383718fa336a739255a1ad8777f0"
+    },
+    {
+      "id": "type:cold_after_meeting",
+      "lead": "cold_after_meeting",
+      "also": [],
+      "boxIds": [
+        "first.met"
+      ],
+      "chars": 21626,
+      "bytes": 21648,
+      "sha256": "3930723f6decc0fa8e612b336c18914ce16722afcf0af37311d9d6c30b6bc648"
+    },
+    {
+      "id": "type:cold_not_alum",
+      "lead": "cold_not_alum",
+      "also": [],
+      "boxIds": [
+        "first.not_alum"
+      ],
+      "chars": 23108,
+      "bytes": 23152,
+      "sha256": "f561c387410a925884841970a669b599c1bdf69a1be40474f5272f5035521e0b"
+    },
+    {
+      "id": "type:cold_referral",
+      "lead": "cold_referral",
+      "also": [],
+      "boxIds": [
+        "first.referred"
+      ],
+      "chars": 22455,
+      "bytes": 22491,
+      "sha256": "baf0a816a6dd435f25e54ce06ccf28301b30a623af6996d552355885768e1c04"
+    },
+    {
+      "id": "type:recruiting_inbox",
+      "lead": "recruiting_inbox",
+      "also": [],
+      "boxIds": [
+        "first.inbox"
+      ],
+      "chars": 22446,
+      "bytes": 22492,
+      "sha256": "f46a3dd89ca2fdf59b40fd7e9786e76d2fb760b935af292290800bf5adeed728"
+    },
+    {
+      "id": "type:conference_follow_up",
+      "lead": "conference_follow_up",
+      "also": [],
+      "boxIds": [
+        "first.conference"
+      ],
+      "chars": 16970,
+      "bytes": 16976,
+      "sha256": "8b01f6564c2ddef88e89f1454e1ae9a6aafa2529e84a877ffa7f30d6c45469c1"
+    },
+    {
+      "id": "type:recruiter_outreach",
+      "lead": "recruiter_outreach",
+      "also": [],
+      "boxIds": [
+        "first.recruiter"
+      ],
+      "chars": 17623,
+      "bytes": 17637,
+      "sha256": "1801d58b9670c9eb346ffe4dda92a3090a29f09eb08b89c0508def7f9bc50770"
+    },
+    {
+      "id": "type:follow_up_1",
+      "lead": "follow_up_1",
+      "also": [],
+      "boxIds": [
+        "follow.first"
+      ],
+      "chars": 18069,
+      "bytes": 18083,
+      "sha256": "d915a7604a2ee0d06067a7c3197ad80bf004067fbfffbc5369ccab30b59dd76e"
+    },
+    {
+      "id": "type:follow_up_2",
+      "lead": "follow_up_2",
+      "also": [],
+      "boxIds": [
+        "follow.final"
+      ],
+      "chars": 17966,
+      "bytes": 17980,
+      "sha256": "f27567626b222134158022fb3a3d8e0a5fe4c1e74ba915a1dc283b670dfc1cbc"
+    },
+    {
+      "id": "type:recruiting_inbox_follow_up",
+      "lead": "recruiting_inbox_follow_up",
+      "also": [],
+      "boxIds": [
+        "follow.inbox"
+      ],
+      "chars": 17007,
+      "bytes": 17027,
+      "sha256": "85f17474d33d9a89fab9c2c391a1d9b47f622ed3493042a1c9e5f090a3d9847e"
+    },
+    {
+      "id": "type:interview_check_in",
+      "lead": "interview_check_in",
+      "also": [],
+      "boxIds": [
+        "follow.interview"
+      ],
+      "chars": 18503,
+      "bytes": 18513,
+      "sha256": "1a1276a09d0d78cd26d3141747d4866bce070f7b34f950947d192cb875b44673"
+    },
+    {
+      "id": "type:recruiter_follow_up",
+      "lead": "recruiter_follow_up",
+      "also": [],
+      "boxIds": [
+        "follow.recruiter"
+      ],
+      "chars": 15043,
+      "bytes": 15047,
+      "sha256": "1c27af95cf9a989cefc98f447a11e7978ddca08be953237bf29fc5d8233cd828"
+    },
+    {
+      "id": "type:stalled_thread_nudge",
+      "lead": "stalled_thread_nudge",
+      "also": [],
+      "boxIds": [
+        "follow.quiet"
+      ],
+      "chars": 15091,
+      "bytes": 15095,
+      "sha256": "2374083bd1e2b3c570fd3a8d000f2d5f5b68053a5900832ab07fadbd42b2f693"
+    },
+    {
+      "id": "type:call_scheduling",
+      "lead": "call_scheduling",
+      "also": [],
+      "boxIds": [
+        "reply.call"
+      ],
+      "chars": 18421,
+      "bytes": 18439,
+      "sha256": "b3a92d7cdea88e3830f9cd5e8e53e309ff06ad62be7d362cc33302deeb8ff4dd"
+    },
+    {
+      "id": "type:reschedule_call",
+      "lead": "reschedule_call",
+      "also": [],
+      "boxIds": [
+        "reply.move"
+      ],
+      "chars": 17319,
+      "bytes": 17333,
+      "sha256": "bfdd5d053d44c736057f561c733b619a16b6b9967bdadf55ed2354ae1d1d20f7"
+    },
+    {
+      "id": "type:recruiter_scheduling_reply",
+      "lead": "recruiter_scheduling_reply",
+      "also": [],
+      "boxIds": [
+        "reply.scheduling"
+      ],
+      "chars": 17180,
+      "bytes": 17190,
+      "sha256": "5041b2185d79891131abf6340390f96b31d7e2e2075219d8684f836cf088621c"
+    },
+    {
+      "id": "type:not_now_reply",
+      "lead": "not_now_reply",
+      "also": [],
+      "boxIds": [
+        "follow.later"
+      ],
+      "chars": 15593,
+      "bytes": 15597,
+      "sha256": "5d8e38e36c9ca1819d094a1d450a7fb457806a061e5a1f843a1dd38624d2d31c"
+    },
+    {
+      "id": "type:redirect_sequence",
+      "lead": "redirect_sequence",
+      "also": [],
+      "boxIds": [
+        "first.pointed"
+      ],
+      "chars": 16173,
+      "bytes": 16181,
+      "sha256": "b46d2af67efa636182c4b514f056525027640f641b5a77b01c74d55409148e44"
+    },
+    {
+      "id": "type:coffee_in_person_reply",
+      "lead": "coffee_in_person_reply",
+      "also": [],
+      "boxIds": [
+        "reply.coffee"
+      ],
+      "chars": 15193,
+      "bytes": 15197,
+      "sha256": "f0a35a26a7ba437ca53bb21b40c95b9a7175deba64dc7ae402e831835d7b95f0"
+    },
+    {
+      "id": "type:thank_you_chat",
+      "lead": "thank_you_chat",
+      "also": [],
+      "boxIds": [
+        "thanks.chat"
+      ],
+      "chars": 18141,
+      "bytes": 18153,
+      "sha256": "4e6cb87aab78090ea900a1c8426df5cb27e51b7ca5ae78639af29e1ed60512f0"
+    },
+    {
+      "id": "type:thank_you_offered_help",
+      "lead": "thank_you_offered_help",
+      "also": [],
+      "boxIds": [
+        "thanks.helped"
+      ],
+      "chars": 17159,
+      "bytes": 17171,
+      "sha256": "c1cbde6fb6f1f21ce7e1c79afbbe66aeca6ae1534e943846d019223f4e51f46f"
+    },
+    {
+      "id": "type:thank_you_event",
+      "lead": "thank_you_event",
+      "also": [],
+      "boxIds": [
+        "thanks.event"
+      ],
+      "chars": 19315,
+      "bytes": 19335,
+      "sha256": "736acf0ecda95a2c72b6542e463308135677877588f747202dddc8b45d3e7c5f"
+    },
+    {
+      "id": "type:keep_in_touch",
+      "lead": "keep_in_touch",
+      "also": [],
+      "boxIds": [
+        "stay.update"
+      ],
+      "chars": 19337,
+      "bytes": 19347,
+      "sha256": "5ea40aa8deee41ba797ad64156fb6a2a219082a18e58f5168b39d213aaddd9e7"
+    },
+    {
+      "id": "type:close_loop_referrer",
+      "lead": "close_loop_referrer",
+      "also": [],
+      "boxIds": [
+        "stay.referrer"
+      ],
+      "chars": 17591,
+      "bytes": 17601,
+      "sha256": "af69ae5e8a3798a1aafae179c808ade33d44a5b1a2b1f279703d1fe6f496eeef"
+    },
+    {
+      "id": "type:referral_ask",
+      "lead": "referral_ask",
+      "also": [],
+      "boxIds": [
+        "ask.referral"
+      ],
+      "chars": 19017,
+      "bytes": 19039,
+      "sha256": "ebe4cc8b643f8e577599dd1d85e6a0998070fca72a238df776f3c9530fb0a3a8"
+    },
+    {
+      "id": "type:thank_you_recruiter_session",
+      "lead": "thank_you_recruiter_session",
+      "also": [],
+      "boxIds": [
+        "thanks.session"
+      ],
+      "chars": 15262,
+      "bytes": 15270,
+      "sha256": "dc9976d4c7e58320a4554912c711a4dcee65a4359607855b50295e82775ea6cb"
+    },
+    {
+      "id": "type:second_conversation",
+      "lead": "second_conversation",
+      "also": [],
+      "boxIds": [
+        "stay.second"
+      ],
+      "chars": 16482,
+      "bytes": 16488,
+      "sha256": "cd4d9093bf588cee07bb0fe8505c97eea2a6fbbf5407cb0e0b76fcedeca64e84"
+    },
+    {
+      "id": "type:congratulations",
+      "lead": "congratulations",
+      "also": [],
+      "boxIds": [
+        "stay.congrats"
+      ],
+      "chars": 16014,
+      "bytes": 16018,
+      "sha256": "054d0e7b0ead4079fda59b20ed42f84da3aa1525d38fb62ef24be366dfb627d9"
+    },
+    {
+      "id": "type:thank_you_interview",
+      "lead": "thank_you_interview",
+      "also": [],
+      "boxIds": [
+        "thanks.interview"
+      ],
+      "chars": 19216,
+      "bytes": 19240,
+      "sha256": "98192d4cac3212cc8157fc5c4790b75e3553e8e6f5ddced8f874d8d8217e1c0c"
+    },
+    {
+      "id": "type:thank_you_superday",
+      "lead": "thank_you_superday",
+      "also": [],
+      "boxIds": [
+        "thanks.superday"
+      ],
+      "chars": 16713,
+      "bytes": 16723,
+      "sha256": "b09884f7c98a0da209550c6191ac66c8ca5435e8a4b8e28f30d11e5d045c7e39"
+    },
+    {
+      "id": "type:thank_you_phone_screen",
+      "lead": "thank_you_phone_screen",
+      "also": [],
+      "boxIds": [
+        "thanks.screen"
+      ],
+      "chars": 16850,
+      "bytes": 16862,
+      "sha256": "350a85435c78184fc34ad085af7da6494477b6d3f2fcd0ef72922a72476f754f"
+    },
+    {
+      "id": "type:recorded_round_note",
+      "lead": "recorded_round_note",
+      "also": [],
+      "boxIds": [
+        "thanks.recorded"
+      ],
+      "chars": 16710,
+      "bytes": 16728,
+      "sha256": "169224a64656e8028e30405f87f3bf0b869453fc2360bd17333d38925efcc127"
+    },
+    {
+      "id": "type:withdraw_process",
+      "lead": "withdraw_process",
+      "also": [],
+      "boxIds": [
+        "offers.withdraw"
+      ],
+      "chars": 15638,
+      "bytes": 15644,
+      "sha256": "fb691c3c0d5eb6cf780c1279091f2aec07d671d57fc0af97661981e591f9fe66"
+    },
+    {
+      "id": "type:after_rejection",
+      "lead": "after_rejection",
+      "also": [],
+      "boxIds": [
+        "offers.rejection"
+      ],
+      "chars": 17887,
+      "bytes": 17895,
+      "sha256": "6a75b0c5b2852128755534216cda3f3e25959068767dffe8aace9d9d6c70199c"
+    },
+    {
+      "id": "type:offer_extension",
+      "lead": "offer_extension",
+      "also": [],
+      "boxIds": [
+        "offers.extension"
+      ],
+      "chars": 19325,
+      "bytes": 19341,
+      "sha256": "91cb83f47eaaaf2613951a08f2eaed40d9576e3e7bccc4b273bbceb0fe6ae447"
+    },
+    {
+      "id": "type:accept_offer",
+      "lead": "accept_offer",
+      "also": [],
+      "boxIds": [
+        "offers.accept"
+      ],
+      "chars": 19194,
+      "bytes": 19204,
+      "sha256": "b0205253883893176caac3422c39d6955eac8d21021670ca522496a35e5d0bd9"
+    },
+    {
+      "id": "type:decline_offer",
+      "lead": "decline_offer",
+      "also": [],
+      "boxIds": [
+        "offers.decline"
+      ],
+      "chars": 18433,
+      "bytes": 18445,
+      "sha256": "e28d172175396543f93e6799b455600674539aff4689aaf570a81471e833a522"
+    },
+    {
+      "id": "type:thank_helper_offer",
+      "lead": "thank_helper_offer",
+      "also": [],
+      "boxIds": [
+        "offers.helper"
+      ],
+      "chars": 15081,
+      "bytes": 15085,
+      "sha256": "f1093f361d3029aedff366471e9f04c3a939288da90fe199131ea7b390e08a62"
+    },
+    {
+      "id": "type:professor_recommendation",
+      "lead": "professor_recommendation",
+      "also": [],
+      "boxIds": [
+        "ask.professor"
+      ],
+      "chars": 17560,
+      "bytes": 17570,
+      "sha256": "9b92449218af92e00d96cb5c96dd034d024a40f04787343dbaa15b94da543450"
+    },
+    {
+      "id": "type:reference_request",
+      "lead": "reference_request",
+      "also": [],
+      "boxIds": [
+        "ask.reference"
+      ],
+      "chars": 17186,
+      "bytes": 17194,
+      "sha256": "f8bbc1163e2bdb87eb386b9d2ec94c2726c4e2c5f6df15076899e0c9843786db"
+    },
+    {
+      "id": "type:custom",
+      "lead": "custom",
+      "also": [],
+      "boxIds": [
+        "custom.describe"
+      ],
+      "chars": 39809,
+      "bytes": 39809,
+      "sha256": "84f33c60f3eb6d2a9b57dbd781510dc4662543bb113a79cf40322896e30f875a"
+    }
+  ]
+}

@@ -1,0 +1,1560 @@
+{
+  "meta": {
+    "script": "scripts/draft-cli-eval.ts",
+    "ranAt": "2026-10-13T23:36:33.658Z",
+    "transport": "claude CLI (subscription)",
+    "model": "claude-sonnet-5",
+    "review": true,
+    "seed": "quality",
+    "scenarios": 16,
+    "filter": null,
+    "profile": "full",
+    "caveat": "quality only; durations are CLI durations, not production latency; studentResumeSummary path only"
+  },
+  "aggregate": {
+    "scenarios": 16,
+    "drafted": 16,
+    "errored": 0,
+    "issuesPre": 17,
+    "issuesPost": 8,
+    "issuesPreMean": 1.063,
+    "issuesPostMean": 0.5,
+    "lintForReviewPre": 7,
+    "lintForReviewPost": 0,
+    "lintForStudentPost": 0,
+    "lintCleanPre": 10,
+    "lintCleanPost": 16,
+    "reviewRan": 16,
+    "reviewApplied": 14,
+    "reviewRejected": 2,
+    "reviewErrored": 0,
+    "reviewRetried": 4,
+    "reviewRetrySkippedForTime": 0,
+    "guardAcceptRate": 0.875,
+    "problems": 54,
+    "problemsMean": 3.375,
+    "problemsNeedsStudent": 2,
+    "wordsPreMean": 140.813,
+    "wordsPostMean": 135.438,
+    "overCeilingPre": 0,
+    "overCeilingPost": 0,
+    "overCeilingWordsPost": 0,
+    "contractionsPreMean": 1.625,
+    "contractionsPostMean": 3.313,
+    "contractionRatePreMean": 1.129,
+    "contractionRatePostMean": 2.508,
+    "zeroContractionPre": 4,
+    "zeroContractionPost": 1,
+    "longestIRunPreMean": 0.875,
+    "longestIRunPostMean": 1.375,
+    "threeIStartsPre": 1,
+    "threeIStartsPost": 2,
+    "cannedLinesPre": 14,
+    "cannedLinesPost": 13,
+    "cannedResumePre": 13,
+    "cannedResumePost": 13,
+    "cannedFlexibilityPre": 1,
+    "cannedFlexibilityPost": 0,
+    "cannedEasyOutPre": 0,
+    "cannedEasyOutPost": 0,
+    "pleasantryOpenPre": 0,
+    "pleasantryOpenPost": 0,
+    "repeatedSentencesPre": 7,
+    "repeatedSentencesPost": 12,
+    "blockedLanguage": 0,
+    "inputTokens": 112,
+    "outputTokens": 273308,
+    "cacheReadTokens": 288291,
+    "cacheWriteTokens": 355736,
+    "costUsdSubscription": 4.2139,
+    "draftMsMean": 71120.5,
+    "reviewMsMean": 93072.875,
+    "totalMsMean": 168773.688
+  },
+  "scenarios": [
+    {
+      "id": "601",
+      "profile": "full",
+      "boxes": [
+        "first.alum",
+        "first.recruiter"
+      ],
+      "summary": "Reach out for the first time · A campus recruiter · An alum of my school",
+      "leadType": "recruiter_outreach",
+      "ceiling": 200,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "answer may be missing (0%): specificReason = \"both from Atlanta\"",
+          "common ground tacked onto a paragraph: \"I was glad to see you're a fellow Duke alum.\""
+        ],
+        "lintForReview": [
+          "common ground tacked onto a paragraph: \"I was glad to see you're a fellow Duke alum.\""
+        ],
+        "lintForStudent": [],
+        "voice": {
+          "words": 132,
+          "sentences": 10,
+          "contractions": 2,
+          "contractionRate": 1.52,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [
+          "answer may be missing (0%): specificReason = \"both from Atlanta\""
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 131,
+          "sentences": 10,
+          "contractions": 3,
+          "contractionRate": 2.29,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "I've attached my resume",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": true,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 6,
+        "needsStudent": 0,
+        "kinds": {
+          "flow": 1,
+          "invented": 2,
+          "structure": 1,
+          "tone": 2
+        }
+      },
+      "notesForStudent": [
+        "You and Olivia are both verified to be from Atlanta as well, but I kept only the Duke connection in the email so it doesn't read like a list of reasons to connect. Feel free to mention Atlanta yourself if you'd like.",
+        "No specific topic from your conversation at the SEO Career Summit was given, so I referenced the event itself without describing what you discussed."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 10,
+        "outputTokens": 16910,
+        "cacheReadTokens": 28366,
+        "cacheWriteTokens": 18382,
+        "costUsd": 0.24832120000000002
+      },
+      "timings": {
+        "draftMs": 41237,
+        "lintMs": 1,
+        "reviewMs": 110687,
+        "reviewRetryMs": 17369,
+        "totalMs": 169301
+      },
+      "preReviewSubject": "Following Up from the SEO Career Summit",
+      "preReviewBody": "Hi Olivia,\n\nThank you for the conversation at the SEO Career Summit in New York.\n\nMy name is Maya Okafor, and I am a sophomore at Duke University, graduating in May 2029. I was glad to see you're a fellow Duke alum.\n\nThis past summer I interned at Pinecrest Wealth Partners, where I built a screening model for dividend stocks used in client portfolio reviews, and I currently cover the consumer sector for the Duke Investment Club. That work has pointed me toward consumer and retail M&A, which is the part of the industry I'm most curious about.\n\nI had two questions about Morrow & Pike's sophomore program. First, when does it open? Second, does it feed directly into the summer analyst class?\n\nMy resume is attached. Thank you very much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "Following Up from the SEO Career Summit",
+      "body": "Hi Olivia,\n\nThank you for the conversation at the SEO Career Summit in New York.\n\nMy name is Maya Okafor, a sophomore at Duke University graduating in 2029, reaching out to you as a fellow Duke alum.\n\nThis past summer, I interned at Pinecrest Wealth Partners, where I built a screening model for dividend stocks used in client portfolio reviews. I currently cover the consumer sector for the Duke Investment Club. That work has pointed me toward consumer and retail M&A, which is the part of the industry I'm most curious about.\n\nI had two questions about Morrow & Pike's sophomore program. First, when does it open? Second, does it feed into the summer analyst class?\n\nI've attached my resume in case it's helpful for the sophomore program. Thank you for your time.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "602",
+      "profile": "full",
+      "boxes": [
+        "first.not_alum",
+        "first.recruiter"
+      ],
+      "summary": "Reach out for the first time · A campus recruiter · Not an alum",
+      "leadType": "recruiter_outreach",
+      "ceiling": 180,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "common ground doubled or tacked on with \"like you\"/\"like me\": \"like you\""
+        ],
+        "lintForReview": [
+          "common ground doubled or tacked on with \"like you\"/\"like me\": \"like you\""
+        ],
+        "lintForStudent": [],
+        "voice": {
+          "words": 141,
+          "sentences": 10,
+          "contractions": 3,
+          "contractionRate": 2.13,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 133,
+          "sentences": 11,
+          "contractions": 4,
+          "contractionRate": 3.01,
+          "longestIRun": 3,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 4,
+        "needsStudent": 0,
+        "kinds": {
+          "structure": 2,
+          "invented": 2
+        }
+      },
+      "notesForStudent": [],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 8,
+        "outputTokens": 10079,
+        "cacheReadTokens": 15680,
+        "cacheWriteTokens": 24294,
+        "costUsd": 0.201118
+      },
+      "timings": {
+        "draftMs": 30820,
+        "lintMs": 14,
+        "reviewMs": 67131,
+        "reviewRetryMs": null,
+        "totalMs": 97977
+      },
+      "preReviewSubject": "Following Up from the SEO Career Summit",
+      "preReviewBody": "Hi Olivia,\n\nIt was great meeting you at the SEO Career Summit in New York.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke University, graduating in May 2029. I'm majoring in Economics, and like you, I'm from Atlanta.\n\nThis past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews, and I currently work as a consumer sector analyst for the Duke Investment Club. That combination has pulled my interest toward consumer and retail M&A, which is part of why I wanted to learn more about what Morrow & Pike offers.\n\nI had two questions, if you have a moment. First, when does the sophomore program open for applications? Second, does it typically feed into the summer analyst class?\n\nMy resume is attached. Thank you for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "Following Up from the SEO Career Summit",
+      "body": "Hi Olivia,\n\nIt was great meeting you at the SEO Career Summit in New York.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke University, graduating in 2029. I'm majoring in Economics, and I'm also from Atlanta.\n\nThis past summer, I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. I currently work as a consumer sector analyst for the Duke Investment Club. I'm especially drawn to consumer and retail M&A, which is why I wanted to learn more about what Morrow & Pike offers.\n\nI had two questions, if you have a moment. First, when does the sophomore program open for applications? Second, does it typically feed into the summer analyst class?\n\nMy resume is attached. Thank you for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "603",
+      "profile": "full",
+      "boxes": [
+        "first.alum",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · An alum of my school",
+      "leadType": "cold_referral",
+      "ceiling": 200,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "answer may be missing (0%): specificReason = \"both from Atlanta\"",
+          "alum box checked, but the shared school isn't mentioned",
+          "relays an opinion nobody typed: \"Emily thought you'd\""
+        ],
+        "lintForReview": [
+          "relays an opinion nobody typed: \"Emily thought you'd\""
+        ],
+        "lintForStudent": [],
+        "voice": {
+          "words": 130,
+          "sentences": 8,
+          "contractions": 2,
+          "contractionRate": 1.54,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "I attached my resume",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [
+          "answer may be missing (0%): specificReason = \"both from Atlanta\""
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 117,
+          "sentences": 9,
+          "contractions": 6,
+          "contractionRate": 5.13,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 5,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 1,
+          "structure": 1,
+          "grammar": 1,
+          "flow": 1,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "You mentioned you're both from Atlanta, but since the recipient is also a Duke alum (a checked connection) and the rules say not to stack two overlaps, I used the Duke connection and left the Atlanta detail out.",
+        "I noticed the two date references I was given (Sept 20 and Oct 13, 2026) don't match; it didn't affect this email since no deadline is involved, but worth checking."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 6,
+        "outputTokens": 11038,
+        "cacheReadTokens": 11932,
+        "cacheWriteTokens": 19439,
+        "costUsd": 0.1905344
+      },
+      "timings": {
+        "draftMs": 43816,
+        "lintMs": 6,
+        "reviewMs": 62822,
+        "reviewRetryMs": null,
+        "totalMs": 106650
+      },
+      "preReviewSubject": "Referred by Emily Tran",
+      "preReviewBody": "Hi Rachel,\n\nEmily Tran, who is president of the Duke Investment Club and who I interned under on her team there, suggested I reach out to you.\n\nI'm a sophomore at Duke, your alma mater as well, studying Economics. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews, and at school I cover the consumer sector for the Investment Club. That work is what has pulled my interest specifically toward consumer and retail M&A.\n\nEmily thought you'd be a great person to ask about how you moved from Duke into consumer coverage at Morrow & Pike. Would you have 10-15 minutes for a call? I attached my resume for reference.\n\nThank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "Referred by Emily Tran",
+      "body": "Hi Rachel,\n\nEmily Tran suggested I reach out to you. She's president of the Duke Investment Club, where I interned on her team.\n\nI'm a sophomore studying Economics at Duke, where you also studied. This past summer, I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. At school, I cover the consumer sector for the Investment Club, and that's what's pulled my interest toward consumer and retail M&A.\n\nI'd love to hear how you moved from Duke into consumer coverage at Morrow & Pike. Would you have 10-15 minutes for a call? My resume is attached in case it's useful.\n\nThank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "604",
+      "profile": "full",
+      "boxes": [
+        "first.not_alum",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · Not an alum",
+      "leadType": "cold_referral",
+      "ceiling": 180,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "relays an opinion nobody typed: \"Emily thought you'd\""
+        ],
+        "lintForReview": [
+          "relays an opinion nobody typed: \"Emily thought you'd\""
+        ],
+        "lintForStudent": [],
+        "voice": {
+          "words": 140,
+          "sentences": 7,
+          "contractions": 3,
+          "contractionRate": 2.14,
+          "longestIRun": 0,
+          "canned": {
+            "resumeLine": "resume for your reference",
+            "flexibilityLine": "Whatever time works best for you",
+            "easyOutLine": null
+          },
+          "cannedCount": 2,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 130,
+          "sentences": 9,
+          "contractions": 4,
+          "contractionRate": 3.08,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "I've attached my resume",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 1,
+        "kinds": {
+          "invented": 1,
+          "flow": 1,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "Your notes said you wanted to ask Rachel about 'how she moved from Duke into consumer coverage,' but you also said Rachel didn't attend your school, so I left out the Duke reference and just asked about her move into consumer coverage generally. Double-check which is correct and adjust if needed.",
+        "Removed the invented opinion attributed to Emily and replaced it with a direct, non-attributed statement of what Maya wants to learn. Added back the fact that Emily interned on Rachel's team, since that's the actual reason for the referral noted in your facts, not a club connection. Please confirm Emily interned on Rachel's team at Morrow & Pike specifically, not just that she's Investment Club president."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 6,
+        "outputTokens": 17352,
+        "cacheReadTokens": 15737,
+        "cacheWriteTokens": 17429,
+        "costUsd": 0.24639540000000004
+      },
+      "timings": {
+        "draftMs": 57804,
+        "lintMs": 1,
+        "reviewMs": 112607,
+        "reviewRetryMs": null,
+        "totalMs": 170416
+      },
+      "preReviewSubject": "Referred by Emily Tran",
+      "preReviewBody": "Hi Rachel,\n\nEmily Tran, the president of the Duke Investment Club, where I work with her as a consumer sector analyst, suggested I reach out to you.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke studying economics, originally from Atlanta. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for dividend stocks used in client portfolio reviews, and covering the consumer sector for the Investment Club is what pulled me toward consumer and retail M&A.\n\nEmily thought you'd be a great person to ask about how you moved into consumer coverage, which is what I'm hoping to learn more about. Would you have 10-15 minutes for a call? Whatever time works best for you is fine with me, and I attached my resume for your reference.\n\nThank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "Referred by Emily Tran",
+      "body": "Hi Rachel,\n\nEmily Tran, president of the Duke Investment Club where I work with her as a consumer sector analyst, suggested I reach out to you. She interned on your team.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke studying economics, originally from Atlanta. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for dividend stocks used in client portfolio reviews. Covering the consumer sector for the Investment Club is what pulled me toward consumer and retail M&A.\n\nI'd love to hear how you moved into consumer coverage. Would you have 10-15 minutes for a call? I'm open to whatever time works on your end, and I've attached my resume with more detail on my background.\n\nThank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "606",
+      "profile": "full",
+      "boxes": [
+        "first.alum",
+        "first.recruiter",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · A campus recruiter · An alum of my school",
+      "leadType": "cold_referral",
+      "ceiling": 200,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "answer may be missing (0%): specificReason = \"both from Atlanta\"",
+          "alum box checked, but the shared school isn't mentioned"
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 149,
+          "sentences": 9,
+          "contractions": 3,
+          "contractionRate": 2.01,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "I've attached my resume",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [
+          "answer may be missing (0%): specificReason = \"both from Atlanta\""
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 140,
+          "sentences": 11,
+          "contractions": 5,
+          "contractionRate": 3.57,
+          "longestIRun": 2,
+          "canned": {
+            "resumeLine": "I've attached my resume",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 1,
+          "structure": 2
+        }
+      },
+      "notesForStudent": [
+        "You gave two overlaps with Olivia (shared Duke ties and both being from Atlanta). I used the Duke connection, since it fits naturally with the referral and the recruiter's role, and left out Atlanta to avoid stacking two connections in one email. Let me know if you'd rather swap it in instead."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 8,
+        "outputTokens": 18556,
+        "cacheReadTokens": 24747,
+        "cacheWriteTokens": 31019,
+        "costUsd": 0.31460140000000003
+      },
+      "timings": {
+        "draftMs": 107767,
+        "lintMs": 0,
+        "reviewMs": 77193,
+        "reviewRetryMs": null,
+        "totalMs": 184967
+      },
+      "preReviewSubject": "Referred by Emily Tran",
+      "preReviewBody": "Hi Olivia,\n\nEmily Tran, the president of the Duke Investment Club who I work with as a consumer sector analyst, suggested I reach out to you. It was great meeting you at the SEO Career Summit in New York, where we talked about Morrow & Pike.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke, where I understand you studied as well, graduating in 2029 and studying economics. Last summer I interned at Pinecrest Wealth Partners, where I built a screening model for dividend stocks used in client portfolio reviews, and I've become especially drawn to consumer and retail M&A.\n\nI had a couple of questions about Morrow & Pike's programs. First, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?\n\nI've attached my resume, which has more on my internship and club work. Thank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "Referred by Emily Tran",
+      "body": "Hi Olivia,\n\nEmily Tran, the president of the Duke Investment Club who I work with as a consumer sector analyst, suggested I reach out to you. It was great meeting you at the SEO Career Summit in New York.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke, where you're a fellow alum. I'm studying economics and graduating in 2029.\n\nLast summer I interned at Pinecrest Wealth Partners, where I built a screening model for dividend stocks used in client portfolio reviews. I've become especially drawn to consumer and retail M&A.\n\nI had a couple of questions about Morrow & Pike's programs. First, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?\n\nI've attached my resume, which has more on my internship and club work. Thank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "607",
+      "profile": "full",
+      "boxes": [
+        "first.not_alum",
+        "first.recruiter",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · A campus recruiter · Not an alum",
+      "leadType": "cold_referral",
+      "ceiling": 180,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "3 clauses strung together with \", and\": \"My name is Maya Okafor, and I am a sophomore at Duke University studyi…\""
+        ],
+        "lintForReview": [
+          "3 clauses strung together with \", and\": \"My name is Maya Okafor, and I am a sophomore at Duke University studyi…\""
+        ],
+        "lintForStudent": [],
+        "voice": {
+          "words": 163,
+          "sentences": 10,
+          "contractions": 0,
+          "contractionRate": 0,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "I have attached my resume",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 155,
+          "sentences": 11,
+          "contractions": 1,
+          "contractionRate": 0.65,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "I've attached my resume",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": true,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 1,
+        "kinds": {
+          "mismatch": 1,
+          "other": 1,
+          "structure": 1
+        }
+      },
+      "notesForStudent": [
+        "The sentence read as if you interned on Olivia's team, but FACTS show Emily is the one who interned there, which is why she referred you. Rewrote so the internship is attributed to Emily. Please confirm this is right."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 12,
+        "outputTokens": 19420,
+        "cacheReadTokens": 37071,
+        "cacheWriteTokens": 33401,
+        "costUsd": 0.3352422
+      },
+      "timings": {
+        "draftMs": 54551,
+        "lintMs": 0,
+        "reviewMs": 120518,
+        "reviewRetryMs": 15329,
+        "totalMs": 190406
+      },
+      "preReviewSubject": "Referred by Emily Tran",
+      "preReviewBody": "Hi Olivia,\n\nEmily Tran, president of the Duke Investment Club, suggested I write to you after interning on your team. We also met at the SEO Career Summit in New York.\n\nMy name is Maya Okafor, and I am a sophomore at Duke University studying economics, graduating in 2029, and I am from Atlanta as well.\n\nThis past summer, I interned at Pinecrest Wealth Partners, where I built a screening model for dividend stocks used in client portfolio reviews, and I currently serve as the consumer sector analyst for the Duke Investment Club. That work has pulled me toward consumer and retail M&A specifically, which is why I wanted to learn more about Morrow & Pike's programs.\n\nI had two questions. First, when does the sophomore program open for the upcoming cycle? Second, does it feed into the summer analyst class?\n\nI have attached my resume, which includes more detail on the screening work and club experience above. Thank you very much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "Referred by Emily Tran",
+      "body": "Hi Olivia,\n\nEmily Tran, president of the Duke Investment Club, suggested I write to you. She interned on your team. We also met at the SEO Career Summit in New York.\n\nMy name is Maya Okafor, a sophomore at Duke University from Atlanta, studying economics and graduating in 2029.\n\nThis past summer, I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews, and I currently serve as the consumer sector analyst for the Duke Investment Club. That work has pulled me toward consumer and retail M&A, which is why I wanted to learn more about Morrow & Pike's programs.\n\nI had two questions. First, when does the sophomore program open for the upcoming cycle? Second, does it feed into the summer analyst class?\n\nI've attached my resume, which includes more detail on the screening work and club experience above. Thank you very much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "614",
+      "profile": "full",
+      "boxes": [
+        "first.alum",
+        "first.met",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · We met in person · An alum of my school",
+      "leadType": "cold_referral",
+      "ceiling": 200,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "alum box checked, but the shared school isn't mentioned"
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 152,
+          "sentences": 7,
+          "contractions": 3,
+          "contractionRate": 1.97,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "I attached my resume",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [
+          "alum box checked, but the shared school isn't mentioned"
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 152,
+          "sentences": 7,
+          "contractions": 3,
+          "contractionRate": 1.97,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "I attached my resume",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": false,
+        "rejected": "dropped something the student typed: \"that consumer deals come down to repeat customers\"",
+        "retried": true,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 0,
+        "kinds": {
+          "structure": 2,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "Since the facts give both a shared hometown (Atlanta) and a shared school (Duke), I only worked in Atlanta as the connection to avoid stacking two overlaps in one email; Duke still comes up naturally since you mention studying there."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 8,
+        "outputTokens": 22727,
+        "cacheReadTokens": 23004,
+        "cacheWriteTokens": 25310,
+        "costUsd": 0.3331268
+      },
+      "timings": {
+        "draftMs": 101341,
+        "lintMs": 1,
+        "reviewMs": 110468,
+        "reviewRetryMs": 20420,
+        "totalMs": 232240
+      },
+      "preReviewSubject": "Referred by Emily Tran",
+      "preReviewBody": "Hi Rachel,\n\nEmily Tran, who runs the Duke Investment Club and interned on your team, suggested I reach out, and I was glad to meet you at the SEO Career Summit in New York, where we talked about the grocery chain turnaround you worked on. You mentioned that consumer deals come down to repeat customers, which is the kind of thing I've been trying to understand as a consumer sector analyst for the club.\n\nI'm a sophomore at Duke studying economics, also from Atlanta, and this past summer I interned at Pinecrest Wealth Partners, where I built a screening model for dividend stocks used in client portfolio reviews.\n\nConsumer and retail M&A is the area I keep coming back to, and I'd love to hear how you moved from Duke into consumer coverage. Would you have 10-15 minutes for a call? I attached my resume for reference.\n\nThank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "Referred by Emily Tran",
+      "body": "Hi Rachel,\n\nEmily Tran, who runs the Duke Investment Club and interned on your team, suggested I reach out, and I was glad to meet you at the SEO Career Summit in New York, where we talked about the grocery chain turnaround you worked on. You mentioned that consumer deals come down to repeat customers, which is the kind of thing I've been trying to understand as a consumer sector analyst for the club.\n\nI'm a sophomore at Duke studying economics, also from Atlanta, and this past summer I interned at Pinecrest Wealth Partners, where I built a screening model for dividend stocks used in client portfolio reviews.\n\nConsumer and retail M&A is the area I keep coming back to, and I'd love to hear how you moved from Duke into consumer coverage. Would you have 10-15 minutes for a call? I attached my resume for reference.\n\nThank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "615",
+      "profile": "full",
+      "boxes": [
+        "first.met",
+        "first.not_alum",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · We met in person · Not an alum",
+      "leadType": "cold_referral",
+      "ceiling": 180,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "common ground doubled or tacked on with \"like you\"/\"like me\": \"also from Atlanta like you\"",
+          "relays an opinion nobody typed: \"Emily thought you'd\""
+        ],
+        "lintForReview": [
+          "common ground doubled or tacked on with \"like you\"/\"like me\": \"also from Atlanta like you\"",
+          "relays an opinion nobody typed: \"Emily thought you'd\""
+        ],
+        "lintForStudent": [],
+        "voice": {
+          "words": 169,
+          "sentences": 7,
+          "contractions": 2,
+          "contractionRate": 1.18,
+          "longestIRun": 0,
+          "canned": {
+            "resumeLine": "I attached my resume",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [
+          "referral lead, but the referrer isn't in the opening"
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 160,
+          "sentences": 10,
+          "contractions": 4,
+          "contractionRate": 2.5,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 5,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 1,
+          "structure": 2,
+          "tone": 2
+        }
+      },
+      "notesForStudent": [
+        "You mentioned wanting to ask how Rachel moved 'from Duke' into consumer coverage, but since she isn't a Duke alum, I rephrased the question to ask how she found her way into consumer and retail coverage, without implying a shared school."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 6,
+        "outputTokens": 19205,
+        "cacheReadTokens": 17190,
+        "cacheWriteTokens": 21211,
+        "costUsd": 0.28034400000000004
+      },
+      "timings": {
+        "draftMs": 78850,
+        "lintMs": 1,
+        "reviewMs": 107618,
+        "reviewRetryMs": null,
+        "totalMs": 186474
+      },
+      "preReviewSubject": "Referred by Emily Tran, and Great to Meet You at the SEO Career Summit",
+      "preReviewBody": "Hi Rachel,\n\nEmily Tran, who leads the Duke Investment Club and interned on your team, suggested I reach out, and I ended up meeting you in person at the SEO Career Summit in New York before I had the chance to send this. We talked about the grocery chain turnaround you worked on, and your point that consumer deals ultimately come down to repeat customers is something I keep coming back to as I think about why that sector interests me.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke studying economics, also from Atlanta like you. As a consumer sector analyst for the Duke Investment Club, I spend a lot of time looking at retail names, and Emily thought you'd be a great person to ask about how you found your way into consumer and retail coverage.\n\nWould you have 10-15 minutes for a call? Any time that works for you works for me, and I attached my resume for context.\n\nThank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "Referred by Emily Tran, and Great to Meet You at the SEO Career Summit",
+      "body": "Hi Rachel,\n\nIt was great meeting you at the SEO Career Summit in New York, where we talked about the grocery chain turnaround you worked on. Your point that consumer deals ultimately come down to repeat customers has stuck with me as I think about why consumer and retail M&A is the part of finance that draws me most. Emily Tran, who leads the Duke Investment Club and interned on your team, had already suggested I reach out before we met.\n\nMy name is Maya Okafor. I'm a sophomore at Duke studying economics, and we're both from Atlanta. As a consumer sector analyst for the Duke Investment Club, I spend a lot of time looking at retail names, and I'd love to hear about your path into consumer and retail coverage.\n\nWould you have 10-15 minutes for a call? Whatever time is easiest for you works for me. My resume is attached if it's helpful.\n\nThank you so much for your time.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "616",
+      "profile": "full",
+      "boxes": [
+        "first.met",
+        "first.recruiter",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · We met in person · A campus recruiter",
+      "leadType": "cold_referral",
+      "ceiling": 180,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 165,
+          "sentences": 9,
+          "contractions": 1,
+          "contractionRate": 0.61,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 164,
+          "sentences": 11,
+          "contractions": 4,
+          "contractionRate": 2.44,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "I've attached my resume",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 5,
+        "needsStudent": 0,
+        "kinds": {
+          "structure": 3,
+          "flow": 1,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 6,
+        "outputTokens": 22527,
+        "cacheReadTokens": 17963,
+        "cacheWriteTokens": 24307,
+        "costUsd": 0.3261026
+      },
+      "timings": {
+        "draftMs": 94371,
+        "lintMs": 1,
+        "reviewMs": 118420,
+        "reviewRetryMs": null,
+        "totalMs": 212797
+      },
+      "preReviewSubject": "Referred by Emily Tran",
+      "preReviewBody": "Hi Olivia,\n\nEmily Tran, who leads the Duke Investment Club and whose team I interned on, suggested I write to you, and I was glad to meet you in person at the SEO Career Summit in New York. I enjoyed hearing about the grocery chain turnaround you worked on, and your point that consumer deals come down to repeat customers is something I have kept thinking about since.\n\nMy name is Maya Okafor, a fellow Atlanta native and a sophomore at Duke University studying economics, graduating in 2029. At Pinecrest Wealth Partners this summer, I built a screening model for dividend stocks used in client portfolio reviews, and as the consumer sector analyst for the Duke Investment Club, I've grown especially interested in consumer and retail M&A.\n\nI had two questions about Morrow & Pike's programs. First, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?\n\nMy resume is attached as well. Thank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "Referred by Emily Tran",
+      "body": "Hi Olivia,\n\nEmily Tran, who leads the Duke Investment Club and whose team I interned on, suggested I write to you. It was great talking with you about the grocery chain turnaround you worked on at the SEO Career Summit in New York. Your point that consumer deals come down to repeat customers is something I've kept thinking about since our conversation.\n\nMy name is Maya Okafor, a sophomore studying economics at Duke University and a fellow Atlanta native, graduating in 2029. At Pinecrest Wealth Partners this summer, I built a screening model for dividend stocks used in client portfolio reviews. As the consumer sector analyst for the Duke Investment Club, I've grown especially interested in consumer and retail M&A.\n\nI had two questions about Morrow & Pike's programs. First, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?\n\nI've attached my resume in case it's helpful for the sophomore program. Thank you so much for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "617",
+      "profile": "full",
+      "boxes": [
+        "first.alum",
+        "first.met",
+        "first.recruiter",
+        "first.referred"
+      ],
+      "summary": "Reach out for the first time · Someone I know suggested them · We met in person · A campus recruiter · An alum of my school",
+      "leadType": "cold_referral",
+      "ceiling": 200,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "answer may be missing (0%): specificReason = \"both from Atlanta\"",
+          "alum box checked, but the shared school isn't mentioned"
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 129,
+          "sentences": 7,
+          "contractions": 0,
+          "contractionRate": 0,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [
+          "answer may be missing (0%): specificReason = \"both from Atlanta\""
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 136,
+          "sentences": 10,
+          "contractions": 4,
+          "contractionRate": 2.94,
+          "longestIRun": 2,
+          "canned": {
+            "resumeLine": "I've attached my resume",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 4,
+        "needsStudent": 0,
+        "kinds": {
+          "structure": 2,
+          "flow": 1,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "I left out the shared Atlanta hometown since house style only allows one overlap in the opening, and the Duke alum connection was the one required here, so I used that instead."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 6,
+        "outputTokens": 20264,
+        "cacheReadTokens": 16987,
+        "cacheWriteTokens": 21899,
+        "costUsd": 0.2936454
+      },
+      "timings": {
+        "draftMs": 93233,
+        "lintMs": 1,
+        "reviewMs": 101943,
+        "reviewRetryMs": null,
+        "totalMs": 195181
+      },
+      "preReviewSubject": "Referred by Emily Tran, and We Met at the SEO Career Summit",
+      "preReviewBody": "Hi Olivia,\n\nEmily Tran, who leads the Duke Investment Club and interned on your team, suggested I reach out, and we also spoke at the SEO Career Summit in New York about the grocery chain turnaround you worked on.\n\nMy name is Maya Okafor, and I am a sophomore at Duke, Class of 2029, studying economics, which I was glad to learn is also where you studied. I am a consumer sector analyst for the Duke Investment Club, and what you said about consumer deals coming down to repeat customers is part of what has drawn me to consumer and retail M&A.\n\nFirst, when does the sophomore program at Morrow & Pike open? Second, does it feed into the summer analyst class?\n\nMy resume is attached. Thank you for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "Referred by Emily Tran, and We Met at the SEO Career Summit",
+      "body": "Hi Olivia,\n\nIt was great meeting you at the SEO Career Summit in New York, where we talked about the grocery chain turnaround you worked on. Emily Tran, president of the Duke Investment Club, interned on your team and suggested I reach out.\n\nMy name is Maya Okafor. I'm a sophomore at Duke studying economics, and you're a fellow Duke alum. I'm a consumer sector analyst for the Duke Investment Club. What you said about consumer deals coming down to repeat customers is part of what draws me to consumer and retail M&A.\n\nFirst, when does the sophomore program at Morrow & Pike open? Second, does it feed into the summer analyst class?\n\nI've attached my resume, including the dividend screening model I built as an intern at Pinecrest Wealth Partners this summer. Thank you for your time.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "644",
+      "profile": "full",
+      "boxes": [
+        "first.conference",
+        "first.pointed",
+        "first.recruiter"
+      ],
+      "summary": "Reach out for the first time · We met at a conference · Someone I emailed sent me to them · A campus recruiter",
+      "leadType": "conference_follow_up",
+      "ceiling": 170,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 142,
+          "sentences": 9,
+          "contractions": 4,
+          "contractionRate": 2.82,
+          "longestIRun": 3,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 135,
+          "sentences": 9,
+          "contractions": 4,
+          "contractionRate": 2.96,
+          "longestIRun": 3,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 1,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 1
+        }
+      },
+      "notesForStudent": [],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 6,
+        "outputTokens": 15805,
+        "cacheReadTokens": 15400,
+        "cacheWriteTokens": 18992,
+        "costUsd": 0.23711
+      },
+      "timings": {
+        "draftMs": 85896,
+        "lintMs": 1,
+        "reviewMs": 80329,
+        "reviewRetryMs": null,
+        "totalMs": 166234
+      },
+      "preReviewSubject": "Following Up from the SEO Career Summit in New York",
+      "preReviewBody": "Hi Olivia,\n\nIt was great meeting you at the SEO Career Summit in New York, where we talked about the grocery chain turnaround you worked on. What stuck with me was how much that deal came down to repeat customers, which is part of why I've been drawn to consumer and retail M&A.\n\nI'm Maya Okafor, a sophomore at Duke University graduating in 2029, and I'm originally from Atlanta as well. I also wrote to Marcus Delacroix, who suggested I follow up with you directly since the consumer team runs the sophomore program and hires from it. I've been working as a consumer sector analyst for the Duke Investment Club, so that connection made sense to me.\n\nFirst, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?\n\nMy resume is attached. Thank you for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "Following Up from the SEO Career Summit in New York",
+      "body": "Hi Olivia,\n\nIt was great meeting you at the SEO Career Summit in New York, where we talked about the grocery chain turnaround you worked on. What stuck with me was how much that deal came down to repeat customers, which is part of why I've been drawn to consumer and retail M&A.\n\nI'm Maya Okafor, a sophomore at Duke University graduating in 2029, and I'm originally from Atlanta as well. I also wrote to Marcus Delacroix, who suggested I follow up with you directly since the consumer team runs the sophomore program and hires from it. I've been working as a consumer sector analyst for the Duke Investment Club.\n\nFirst, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?\n\nMy resume is attached. Thank you for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "645",
+      "profile": "full",
+      "boxes": [
+        "first.alum",
+        "first.conference",
+        "first.pointed",
+        "first.recruiter"
+      ],
+      "summary": "Reach out for the first time · We met at a conference · Someone I emailed sent me to them · A campus recruiter · An alum of my school",
+      "leadType": "conference_follow_up",
+      "ceiling": 200,
+      "ok": true,
+      "pre": {
+        "issues": [
+          "answer may be missing (0%): specificReason = \"both from Atlanta\"",
+          "alum box checked, but the shared school isn't mentioned"
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 164,
+          "sentences": 9,
+          "contractions": 1,
+          "contractionRate": 0.61,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [
+          "answer may be missing (0%): specificReason = \"both from Atlanta\"",
+          "6 paragraphs - a paragraph per box?"
+        ],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 160,
+          "sentences": 11,
+          "contractions": 2,
+          "contractionRate": 1.25,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 0,
+        "kinds": {
+          "wrong_person": 1,
+          "mismatch": 1,
+          "structure": 1
+        }
+      },
+      "notesForStudent": [
+        "You also mentioned both being from Atlanta, but since the Duke connection (and Olivia's role as the Duke recruiter) was already doing a lot of work here, I left the hometown overlap out rather than stacking two connections. You can swap it in for the Duke mention if you'd rather lead with that instead."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 8,
+        "outputTokens": 30623,
+        "cacheReadTokens": 22502,
+        "cacheWriteTokens": 40763,
+        "costUsd": 0.47379840000000006
+      },
+      "timings": {
+        "draftMs": 138977,
+        "lintMs": 1,
+        "reviewMs": 161034,
+        "reviewRetryMs": null,
+        "totalMs": 300019
+      },
+      "preReviewSubject": "Following Up from the SEO Career Summit in New York",
+      "preReviewBody": "Hi Olivia,\n\nI met Marcus Delacroix at the SEO Career Summit in New York, where we spoke about the grocery chain turnaround he worked on. What stuck with me was his point that consumer deals really come down to repeat customers, which is the part of retail M&A that keeps drawing me in. After the conference, he suggested I write to you, since the consumer team runs the sophomore program and hires out of it.\n\nMy name is Maya Okafor, and I'm a sophomore at Duke University, your alma mater, graduating in 2029 and studying Economics. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for dividend stocks used in client portfolio reviews, and I currently serve as the consumer sector analyst for the Duke Investment Club.\n\nFirst, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?\n\nMy resume is attached. Thank you for your time, and for passing along Marcus's note.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "Following Up from the SEO Career Summit in New York",
+      "body": "Hi Olivia,\n\nI met you at the SEO Career Summit in New York, where we talked about the grocery chain turnaround you worked on. What stuck with me was your point that consumer deals come down to repeat customers, which is the part of retail M&A that keeps drawing me in.\n\nI emailed Marcus Delacroix afterward, and he suggested I write to you since the consumer team runs the sophomore program and hires from it.\n\nMy name is Maya Okafor. I'm a sophomore at Duke University, studying Economics and graduating in 2029, and you're a fellow Duke alum.\n\nThis past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. I currently serve as the consumer sector analyst for the Duke Investment Club.\n\nFirst, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?\n\nMy resume is attached. Thank you for your time.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "646",
+      "profile": "full",
+      "boxes": [
+        "first.conference",
+        "first.not_alum",
+        "first.pointed",
+        "first.recruiter"
+      ],
+      "summary": "Reach out for the first time · We met at a conference · Someone I emailed sent me to them · A campus recruiter · Not an alum",
+      "leadType": "conference_follow_up",
+      "ceiling": 180,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 159,
+          "sentences": 9,
+          "contractions": 1,
+          "contractionRate": 0.63,
+          "longestIRun": 0,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 159,
+          "sentences": 10,
+          "contractions": 4,
+          "contractionRate": 2.52,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": "My resume is attached",
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 1,
+        "needsStudent": 0,
+        "kinds": {
+          "wrong_person": 1
+        }
+      },
+      "notesForStudent": [
+        "I assumed Marcus Delacroix uses \"he\" since that's a traditionally male name and the note calling the turnaround \"she worked on\" didn't match anyone named in the facts — please fix the pronoun if that's wrong.",
+        "Since Olivia is a campus recruiter, I kept the ask to the two program questions and left out any request for a 10-minute call, per the no-call-with-recruiters rule."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 6,
+        "outputTokens": 16243,
+        "cacheReadTokens": 12158,
+        "cacheWriteTokens": 19786,
+        "costUsd": 0.2440176
+      },
+      "timings": {
+        "draftMs": 73983,
+        "lintMs": 1,
+        "reviewMs": 83848,
+        "reviewRetryMs": null,
+        "totalMs": 157838
+      },
+      "preReviewSubject": "Following Up from the SEO Career Summit in New York",
+      "preReviewBody": "Hi Olivia,\n\nMarcus Delacroix suggested I reach out to you after we spoke at the SEO Career Summit in New York about a grocery chain turnaround he had worked on. What stuck with me was his point that consumer deals ultimately come down to repeat customers, which is part of what draws me to consumer and retail M&A. He mentioned that your team runs the sophomore program and hires from it, which is why he sent me your way.\n\nMy name is Maya Okafor, and I'm a sophomore from Atlanta studying Economics at Duke University, graduating in 2029. This past summer I interned at Pinecrest Wealth Partners building a screening model for 40 dividend stocks used in client portfolio reviews, and I currently work as a consumer sector analyst for the Duke Investment Club.\n\nFirst, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?\n\nMy resume is attached. Thank you for your time!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "Following Up from the SEO Career Summit in New York",
+      "body": "Hi Olivia,\n\nIt was great meeting you at the SEO Career Summit in New York, where we talked about the grocery chain turnaround you worked on. Your point that consumer deals come down to repeat customers stuck with me, and it's part of why I'm drawn to consumer and retail M&A.\n\nI later emailed Marcus Delacroix, who mentioned that your team runs the sophomore program and hires from it. That's why he suggested I reach out to you directly.\n\nMy name is Maya Okafor, and I'm a sophomore from Atlanta studying Economics at Duke University, graduating in 2029. This past summer I interned at Pinecrest Wealth Partners building a screening model for 40 dividend stocks used in client portfolio reviews, and I currently work as a consumer sector analyst for the Duke Investment Club.\n\nFirst, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?\n\nMy resume is attached. Thank you for your time.\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "647",
+      "profile": "full",
+      "boxes": [
+        "thanks.chat",
+        "thanks.helped"
+      ],
+      "summary": "Say thank you · They offered to help · A coffee chat or call",
+      "leadType": "thank_you_offered_help",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 94,
+          "sentences": 5,
+          "contractions": 0,
+          "contractionRate": 0,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 77,
+          "sentences": 5,
+          "contractions": 3,
+          "contractionRate": 3.9,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 1,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 1
+        }
+      },
+      "notesForStudent": [],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 5135,
+        "cacheReadTokens": 5197,
+        "cacheWriteTokens": 11107,
+        "costUsd": 0.0968254
+      },
+      "timings": {
+        "draftMs": 12056,
+        "lintMs": 1,
+        "reviewMs": 46020,
+        "reviewRetryMs": null,
+        "totalMs": 58080
+      },
+      "preReviewSubject": "Thank You",
+      "preReviewBody": "Hi Rachel,\n\nThank you for taking the time to talk with me this morning. I appreciated hearing how you decide which consumer brands actually have staying power versus which ones are riding a trend, especially since that is the same question I have been working through as the consumer sector analyst for my school's investment club.\n\nThank you as well for offering to pass my resume along to your recruiting team. It is attached here so it is easy to forward, and my application is in under req #55120.\n\nI appreciate your time and the help!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "Thank You",
+      "body": "Hi Rachel,\n\nThank you for taking the time to talk with me this morning. I appreciated hearing how you decide which consumer brands have staying power, since I think about similar questions as the consumer sector analyst for Duke Investment Club.\n\nThank you as well for offering to pass my resume along to your recruiting team. It's attached here so it's easy to forward, and I've submitted my application under req #55120.\n\nI appreciate your time and the help!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "660",
+      "profile": "full",
+      "boxes": [
+        "stay.redirected",
+        "stay.second"
+      ],
+      "summary": "Stay in touch · Ask for a second conversation · Thank the person who sent me elsewhere",
+      "leadType": "second_conversation",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 114,
+          "sentences": 7,
+          "contractions": 0,
+          "contractionRate": 0,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 114,
+          "sentences": 7,
+          "contractions": 0,
+          "contractionRate": 0,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": false,
+        "rejected": "dropped something the student typed: \"March; she told me to start tracking a few consumer brands c…\"",
+        "retried": true,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 4,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 2,
+          "structure": 1,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "The TODAY field said September 20, 2026, but the system clock shows October 13, 2026 - I used October 13 as today, which means the October 15 deadline is only two days out. Please double-check the real deadline before sending.",
+        "I kept a thank-you at both the opening and the close since this email combines a redirect thank-you with the second-conversation ask - let me know if you'd rather trim one."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 8,
+        "outputTokens": 11898,
+        "cacheReadTokens": 19160,
+        "cacheWriteTokens": 16801,
+        "costUsd": 0.19003199999999998
+      },
+      "timings": {
+        "draftMs": 54484,
+        "lintMs": 0,
+        "reviewMs": 46931,
+        "reviewRetryMs": 19994,
+        "totalMs": 121453
+      },
+      "preReviewSubject": "15 Minutes Before the Deadline, and Thank You for Ben",
+      "preReviewBody": "Hi Rachel,\n\nThank you again for pointing me to Ben Ortega. He walked me through how the consumer team decides which deals sophomores get staffed on, which gave me a much clearer picture of the group.\n\nI also followed through on what you told me back in March: I started tracking three consumer brands closely, the way you suggested, and it has sharpened how I think about the sector.\n\nThe summer analyst application closes on October 15. Would you have 15 minutes before then for a second conversation? I would value your take on how I am approaching the application given everything I have learned since we first spoke.\n\nThank you again for all of it!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "15 Minutes Before the Deadline, and Thank You for Ben",
+      "body": "Hi Rachel,\n\nThank you again for pointing me to Ben Ortega. He walked me through how the consumer team decides which deals sophomores get staffed on, which gave me a much clearer picture of the group.\n\nI also followed through on what you told me back in March: I started tracking three consumer brands closely, the way you suggested, and it has sharpened how I think about the sector.\n\nThe summer analyst application closes on October 15. Would you have 15 minutes before then for a second conversation? I would value your take on how I am approaching the application given everything I have learned since we first spoke.\n\nThank you again for all of it!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    },
+    {
+      "id": "661",
+      "profile": "full",
+      "boxes": [
+        "stay.redirected",
+        "stay.second",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Ask for a second conversation · Thank the person who sent me elsewhere · Share an update",
+      "leadType": "second_conversation",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 110,
+          "sentences": 7,
+          "contractions": 1,
+          "contractionRate": 0.91,
+          "longestIRun": 0,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 104,
+          "sentences": 8,
+          "contractions": 2,
+          "contractionRate": 1.92,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 0,
+        "kinds": {
+          "structure": 1,
+          "flow": 1,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "The application deadline you gave (October 15) is just two days out from today, so send this as soon as you can to leave Rachel time to reply.",
+        "I kept the thank-you to one line near the end, since the format calls for a single thank-you rather than one after the redirect update and another at the close."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 15526,
+        "cacheReadTokens": 5197,
+        "cacheWriteTokens": 11596,
+        "costUsd": 0.20269140000000002
+      },
+      "timings": {
+        "draftMs": 68742,
+        "lintMs": 1,
+        "reviewMs": 81597,
+        "reviewRetryMs": null,
+        "totalMs": 150346
+      },
+      "preReviewSubject": "15 Minutes Before October 15?",
+      "preReviewBody": "Hi Rachel,\n\nWe spoke back in March, when you suggested I start tracking a few consumer brands closely, and I've been following three ever since. You also sent me to Ben Ortega, who explained how the consumer team decides which deals get staffed with sophomores.\n\nCongratulations on your promotion to Director! Since we last spoke, I also spent the summer at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews.\n\nThe summer analyst application closes October 15, and I would value your perspective before I submit. Would you have 15 minutes sometime before then?\n\nThank you again for the advice and the introduction!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142",
+      "subject": "15 Minutes Before October 15?",
+      "body": "Hi Rachel,\n\nWe spoke back in March, when you suggested I start tracking a few consumer brands closely. I've been following three ever since. You also sent me to Ben Ortega, who explained how the consumer team decides which deals get staffed with sophomores.\n\nCongratulations on your promotion to Director! This past summer, I worked at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews.\n\nThe summer analyst application closes October 15, and I'd value your perspective before I submit. Would you have 15 minutes sometime before then?\n\nThank you again for the advice and the introduction!\n\nBest,\nMaya Okafor\nDuke University ’29\nmaya.okafor@duke.edu\n(919) 555-0142"
+    }
+  ]
+}

@@ -1,0 +1,1663 @@
+{
+ "generatedAt": "2026-09-20T01:39:31.321Z",
+ "note": "Monitored sources plus every staged probe hit, so the Archive sweep covers all industries rather than only the investment banks the crawler happens to hold today. Rebuild after a database restore so this does not describe an older set of sources than the crawler has.",
+ "count": 184,
+ "boards": [
+  {
+   "slug": "barclays-us",
+   "name": "Barclays (US)",
+   "tier": "critical",
+   "careersUrl": "https://search.jobs.barclays/graduates-investment-banking",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "citigroup",
+   "name": "Citigroup",
+   "tier": "critical",
+   "careersUrl": "https://citi.eightfold.ai/careers/join?jtn_form_id=jtn-early-career",
+   "connectorId": "eightfold",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "deutsche-bank-us",
+   "name": "Deutsche Bank (US)",
+   "tier": "critical",
+   "careersUrl": "https://careers.db.com/students-graduates/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "goldman-sachs",
+   "name": "Goldman Sachs",
+   "tier": "critical",
+   "careersUrl": "https://higher.gs.com/roles",
+   "connectorId": "goldman",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "jpmorgan",
+   "name": "JPMorgan",
+   "tier": "critical",
+   "careersUrl": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions",
+   "connectorId": "oracle-hcm",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "morgan-stanley",
+   "name": "Morgan Stanley",
+   "tier": "critical",
+   "careersUrl": "https://morganstanley.tal.net/candidate/jobboard/vacancy/1/adv/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "ubs-incl-credit-suisse-ib-us",
+   "name": "UBS (incl. Credit Suisse IB, US)",
+   "tier": "critical",
+   "careersUrl": "https://www.ubs.com/global/en/careers/professional-careers/investment-bank.html",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "allen-and-company",
+   "name": "Allen & Company",
+   "tier": "high",
+   "careersUrl": "https://www.allenco.com/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "centerview-partners",
+   "name": "Centerview Partners",
+   "tier": "high",
+   "careersUrl": "https://www.centerviewpartners.com/careers.aspx",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "ducera-partners",
+   "name": "Ducera Partners",
+   "tier": "high",
+   "careersUrl": "https://boards.greenhouse.io/ducerapartnerscampus",
+   "connectorId": "greenhouse",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "evercore",
+   "name": "Evercore",
+   "tier": "high",
+   "careersUrl": "https://evercore.tal.net/candidate/jobboard/vacancy/2/adv/",
+   "connectorId": "talentlink",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "greenhill-and-co",
+   "name": "Greenhill & Co",
+   "tier": "high",
+   "careersUrl": "https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "guggenheim-securities",
+   "name": "Guggenheim Securities",
+   "tier": "high",
+   "careersUrl": "https://guggenheim.wd1.myworkdayjobs.com/Guggenheim_Careers_Campus",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "houlihan-lokey",
+   "name": "Houlihan Lokey",
+   "tier": "high",
+   "careersUrl": "https://hl.wd1.myworkdayjobs.com/Campus",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "jefferies",
+   "name": "Jefferies",
+   "tier": "high",
+   "careersUrl": "https://jefferies.tal.net/candidate/jobboard/vacancy/2/adv/",
+   "connectorId": "talentlink",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "lazard",
+   "name": "Lazard",
+   "tier": "high",
+   "careersUrl": "https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/jobs",
+   "connectorId": "oracle-hcm",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "liontree",
+   "name": "LionTree",
+   "tier": "high",
+   "careersUrl": "https://liontree.com/contact/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "moelis-and-company",
+   "name": "Moelis & Company",
+   "tier": "high",
+   "careersUrl": "https://moelis-careers.tal.net/candidate/jobboard/vacancy/2/adv/",
+   "connectorId": "talentlink",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "pjt-partners",
+   "name": "PJT Partners",
+   "tier": "high",
+   "careersUrl": "https://pjtpartners.wd1.myworkdayjobs.com/Students",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "perella-weinberg-partners",
+   "name": "Perella Weinberg Partners",
+   "tier": "high",
+   "careersUrl": "https://pwpcareers.tal.net/candidate/jobboard/vacancy/2/adv/",
+   "connectorId": "talentlink",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "qatalyst-partners",
+   "name": "Qatalyst Partners",
+   "tier": "high",
+   "careersUrl": "https://qatalyst.com/contact/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "rothschild-and-co-us",
+   "name": "Rothschild & Co (US)",
+   "tier": "high",
+   "careersUrl": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "solomon-partners-fka-peter-j-solomon-company",
+   "name": "Solomon Partners (fka Peter J. Solomon Company)",
+   "tier": "high",
+   "careersUrl": "https://job-boards.greenhouse.io/solomonpartnersstudentsgraduates",
+   "connectorId": "greenhouse",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "union-square-advisors",
+   "name": "Union Square Advisors",
+   "tier": "high",
+   "careersUrl": "https://www.usadvisors.com/join-our-team/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "ankura",
+   "name": "Ankura",
+   "tier": "standard",
+   "careersUrl": "https://ankura.wd5.myworkdayjobs.com/Ankura",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "bdo-capital-advisors",
+   "name": "BDO Capital Advisors",
+   "tier": "standard",
+   "careersUrl": "https://ebqb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs",
+   "connectorId": "oracle-hcm",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "bgc-group",
+   "name": "BGC Group",
+   "tier": "standard",
+   "careersUrl": "https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003",
+   "connectorId": "oracle-hcm",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "bmo-capital-markets-us",
+   "name": "BMO Capital Markets (US)",
+   "tier": "standard",
+   "careersUrl": "https://bmo.wd3.myworkdayjobs.com/External",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "bnp-paribas-usa",
+   "name": "BNP Paribas USA",
+   "tier": "standard",
+   "careersUrl": "https://bnppus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-5db317b8ad85/candidate/jobboard/vacancy/1/adv/",
+   "connectorId": "talentlink",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "baker-tilly-capital",
+   "name": "Baker Tilly Capital",
+   "tier": "standard",
+   "careersUrl": "https://bakertilly.wd5.myworkdayjobs.com/BTCareers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "bank-of-america",
+   "name": "Bank of America",
+   "tier": "standard",
+   "careersUrl": "https://bankcampuscareers.tal.net/vx/lang-en-GB/mobile-0/brand-4/xf-6f0048376f93/candidate/jobboard/vacancy/2/adv/",
+   "connectorId": "talentlink",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "berkeley-research-group",
+   "name": "Berkeley Research Group",
+   "tier": "standard",
+   "careersUrl": "https://thinkbrg.wd5.myworkdayjobs.com/BRG_External_Career_Site",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "brown-gibbons-lang",
+   "name": "Brown Gibbons Lang & Company",
+   "tier": "standard",
+   "careersUrl": "https://boards.greenhouse.io/browngibbonslangcompany",
+   "connectorId": "greenhouse",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "cain-brothers",
+   "name": "Cain Brothers",
+   "tier": "standard",
+   "careersUrl": "https://keybank.wd5.myworkdayjobs.com/External_Career_Site",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "cowen-now-td-cowen",
+   "name": "Cowen (now TD Cowen)",
+   "tier": "standard",
+   "careersUrl": "https://td.wd3.myworkdayjobs.com/en-US/TD_Bank_Careers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "d-a-davidson-co",
+   "name": "D.A. Davidson & Co",
+   "tier": "standard",
+   "careersUrl": "https://jobs.lever.co/dadavidson",
+   "connectorId": "lever",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "financial-technology-partners",
+   "name": "Financial Technology Partners",
+   "tier": "standard",
+   "careersUrl": "https://job-boards.greenhouse.io/financialtechnologypartners",
+   "connectorId": "greenhouse",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "hsbc-us",
+   "name": "HSBC (US)",
+   "tier": "standard",
+   "careersUrl": "https://www.hsbc.com/careers/students-and-graduates/university-students-and-graduates/investment-banking",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "harris-williams",
+   "name": "Harris Williams",
+   "tier": "standard",
+   "careersUrl": "https://pnc.wd5.myworkdayjobs.com/HarrisWilliams",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "intrepid-investment-bankers",
+   "name": "Intrepid Investment Bankers",
+   "tier": "standard",
+   "careersUrl": "https://mufgub.wd3.myworkdayjobs.com/en-US/MUFG-Careers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "leerink-partners",
+   "name": "Leerink Partners",
+   "tier": "standard",
+   "careersUrl": "https://leerink.wd5.myworkdayjobs.com/en-US/leerinkpartners",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "lincoln-international",
+   "name": "Lincoln International",
+   "tier": "standard",
+   "careersUrl": "https://www.lincolninternational.com/campus-early-careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "mufg-securities-americas",
+   "name": "MUFG Securities Americas",
+   "tier": "standard",
+   "careersUrl": "https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "miller-buckfire",
+   "name": "Miller Buckfire",
+   "tier": "standard",
+   "careersUrl": "https://careers-stifel.icims.com/jobs/search?mode=job&iis=Company+Website",
+   "connectorId": "icims",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "nomura-us",
+   "name": "Nomura (US)",
+   "tier": "standard",
+   "careersUrl": "https://nomuracampus.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/xf-3348347fc789/candidate/jobboard/vacancy/1/adv/",
+   "connectorId": "talentlink",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "piper-sandler",
+   "name": "Piper Sandler",
+   "tier": "standard",
+   "careersUrl": "https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "raymond-james",
+   "name": "Raymond James",
+   "tier": "standard",
+   "careersUrl": "https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "seaport-global",
+   "name": "Seaport Global",
+   "tier": "standard",
+   "careersUrl": "https://jobs.lever.co/seaportglobal",
+   "connectorId": "lever",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "stout",
+   "name": "Stout",
+   "tier": "standard",
+   "careersUrl": "https://stout.wd5.myworkdayjobs.com/Stout-Student-Careers",
+   "connectorId": "workday",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "william-blair",
+   "name": "William Blair",
+   "tier": "standard",
+   "careersUrl": "https://boards.greenhouse.io/williamblair",
+   "connectorId": "greenhouse",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "agc-partners",
+   "name": "AGC Partners",
+   "tier": "discovery",
+   "careersUrl": "https://www.agcpartners.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "academy-securities",
+   "name": "Academy Securities",
+   "tier": "discovery",
+   "careersUrl": "https://academysecurities.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "alantra",
+   "name": "Alantra",
+   "tier": "discovery",
+   "careersUrl": "https://www.alantra.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "berkery-noyes",
+   "name": "Berkery Noyes",
+   "tier": "discovery",
+   "careersUrl": "https://berkerynoyes.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "blackarch-partners",
+   "name": "BlackArch Partners",
+   "tier": "discovery",
+   "careersUrl": "https://blackarchpartners.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "blaylock-van",
+   "name": "Blaylock Van",
+   "tier": "discovery",
+   "careersUrl": "https://blaylockvan.com/internship-program/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "bourne-partners",
+   "name": "Bourne Partners",
+   "tier": "discovery",
+   "careersUrl": "https://bourne-partners.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "cibc-capital-markets",
+   "name": "CIBC Capital Markets",
+   "tier": "discovery",
+   "careersUrl": "https://www.cibc.com/en/about-cibc/careers.html",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "canaccord-genuity",
+   "name": "Canaccord Genuity",
+   "tier": "discovery",
+   "careersUrl": "https://www.canaccordgenuity.com/global-careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "capstone-partners",
+   "name": "Capstone Partners",
+   "tier": "discovery",
+   "careersUrl": "https://www.capstonepartners.com/about/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "cary-street-partners",
+   "name": "Cary Street Partners",
+   "tier": "discovery",
+   "careersUrl": "https://carystreetpartners.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "cascadia-capital",
+   "name": "Cascadia Capital",
+   "tier": "discovery",
+   "careersUrl": "https://www.cascadiacapital.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "chardan",
+   "name": "Chardan",
+   "tier": "discovery",
+   "careersUrl": "https://www.chardan.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "clearsight-advisors",
+   "name": "Clearsight Advisors",
+   "tier": "discovery",
+   "careersUrl": "https://clearsightadvisors.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "configure-partners",
+   "name": "Configure Partners",
+   "tier": "discovery",
+   "careersUrl": "https://configurepartners.com/contact/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "deloitte",
+   "name": "Deloitte",
+   "tier": "discovery",
+   "careersUrl": "https://apply.deloitte.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "edgemont-partners",
+   "name": "Edgemont Partners",
+   "tier": "discovery",
+   "careersUrl": "https://www.edgemont.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "founders-advisors",
+   "name": "Founders Advisors",
+   "tier": "discovery",
+   "careersUrl": "https://foundersib.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "g2-capital-advisors",
+   "name": "G2 Capital Advisors",
+   "tier": "discovery",
+   "careersUrl": "https://g2capitaladvisors.com/about/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "gp-bullhound",
+   "name": "GP Bullhound",
+   "tier": "discovery",
+   "careersUrl": "https://www.gpbullhound.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "grace-matthews",
+   "name": "Grace Matthews",
+   "tier": "discovery",
+   "careersUrl": "https://gracematthews.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "harvey",
+   "name": "Harvey & Company",
+   "tier": "discovery",
+   "careersUrl": "https://harveyllc.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "hennepin-partners",
+   "name": "Hennepin Partners",
+   "tier": "discovery",
+   "careersUrl": "https://hennepinpartners.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "hyde-park-capital",
+   "name": "Hyde Park Capital",
+   "tier": "discovery",
+   "careersUrl": "https://www.hydeparkcapital.com/about/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "kbw-keefe-bruyette-and-woods",
+   "name": "KBW (Keefe, Bruyette & Woods)",
+   "tier": "discovery",
+   "careersUrl": "https://www.kbw.com/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "kroll",
+   "name": "Kroll",
+   "tier": "discovery",
+   "careersUrl": "https://careers.kroll.com/en",
+   "connectorId": "kroll",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "livingstone-partners",
+   "name": "Livingstone Partners",
+   "tier": "discovery",
+   "careersUrl": "https://livingstonepartners.com/about-us/work-at-livingstone/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "loop-capital",
+   "name": "Loop Capital",
+   "tier": "discovery",
+   "careersUrl": "https://www.loopcapital.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "mts-health-partners",
+   "name": "MTS Health Partners",
+   "tier": "discovery",
+   "careersUrl": "https://www.mtspartners.com/who-we-are/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "macquarie-group",
+   "name": "Macquarie Group",
+   "tier": "discovery",
+   "careersUrl": "https://www.macquarie.com/us/en/careers.html",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "matrix-capital-markets-group",
+   "name": "Matrix Capital Markets Group",
+   "tier": "discovery",
+   "careersUrl": "https://matrixcmg.com/our-firm/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "mercer-capital",
+   "name": "Mercer Capital",
+   "tier": "discovery",
+   "careersUrl": "https://mercercapital.com/about/careers-at-mercer-capital/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "oppenheimer-and-co",
+   "name": "Oppenheimer & Co",
+   "tier": "discovery",
+   "careersUrl": "https://www.oppenheimer.com/careers/banking-analyst-program",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "p-m-corporate-finance",
+   "name": "P&M Corporate Finance",
+   "tier": "discovery",
+   "careersUrl": "https://pmcf.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "park-lane",
+   "name": "Park Lane",
+   "tier": "discovery",
+   "careersUrl": "https://www.prkln.com/internships",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "progress-partners",
+   "name": "Progress Partners",
+   "tier": "discovery",
+   "careersUrl": "https://progresspartners.com/careers-at-progress-partners/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "provident-healthcare-partners",
+   "name": "Provident Healthcare Partners",
+   "tier": "discovery",
+   "careersUrl": "https://www.providenthp.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "rbc-capital-markets-us",
+   "name": "RBC Capital Markets (US)",
+   "tier": "discovery",
+   "careersUrl": "https://www.rbccm.com/en/careers/campus-recruiting",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "robert-w-baird",
+   "name": "Robert W. Baird",
+   "tier": "discovery",
+   "careersUrl": "https://www.bairdcareers.com/our-teams/global-investment-banking/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "roberts-ryan",
+   "name": "Roberts & Ryan",
+   "tier": "discovery",
+   "careersUrl": "https://roberts-ryan.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "roth-capital-partners",
+   "name": "Roth Capital Partners",
+   "tier": "discovery",
+   "careersUrl": "https://www.roth.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "smbc-nikko-securities-america",
+   "name": "SMBC Nikko Securities America",
+   "tier": "discovery",
+   "careersUrl": "https://www.smbcgroup.com/americas/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "samuel-a-ramirez",
+   "name": "Samuel A. Ramirez & Company",
+   "tier": "discovery",
+   "careersUrl": "https://www.ramirezco.com/Careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "scotiabank-global-banking-and-markets",
+   "name": "Scotiabank Global Banking and Markets",
+   "tier": "discovery",
+   "careersUrl": "https://www.scotiabank.com/careers/en/careers.html",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "siebert-williams-shank-co",
+   "name": "Siebert Williams Shank & Co",
+   "tier": "discovery",
+   "careersUrl": "https://www.siebertwilliams.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "silverwood-partners",
+   "name": "Silverwood Partners",
+   "tier": "discovery",
+   "careersUrl": "https://silverwoodpartners.com/about-us/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "soci-t-g-n-rale-us",
+   "name": "Société Générale (US)",
+   "tier": "discovery",
+   "careersUrl": "https://careers.societegenerale.com/en/internships-trainee-programs",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "stephens",
+   "name": "Stephens Inc",
+   "tier": "discovery",
+   "careersUrl": "https://www.stephens.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "the-mclean-group",
+   "name": "The McLean Group",
+   "tier": "discovery",
+   "careersUrl": "https://mcleanllc.com/jobs/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "truist-securities",
+   "name": "Truist Securities (truistsecurities.com)",
+   "tier": "discovery",
+   "careersUrl": "https://www.truist.com/commercial-corporate-institutional/investment-banking/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "tully-holland",
+   "name": "Tully & Holland",
+   "tier": "discovery",
+   "careersUrl": "https://www.tullyandholland.com/careers",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "zachary-scott",
+   "name": "Zachary Scott",
+   "tier": "discovery",
+   "careersUrl": "https://zacharyscott.com/careers/",
+   "connectorId": "generic",
+   "sectorCategory": "investment_banking",
+   "origin": "monitored"
+  },
+  {
+   "slug": "symmetry-investments-lp",
+   "name": "Symmetry Investments LP",
+   "tier": "discovery",
+   "careersUrl": "https://jobs.lever.co/symmetryinvestments",
+   "connectorId": "lever",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "bracebridge-capital-llc",
+   "name": "Bracebridge Capital, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/bracebridgecapital",
+   "connectorId": "greenhouse",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "pzena-investment-management-llc",
+   "name": "Pzena Investment Management LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/pzenainvestmentmanagement",
+   "connectorId": "greenhouse",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "weiss-asset-management",
+   "name": "Weiss Asset Management",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/weissassetmanagement",
+   "connectorId": "greenhouse",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "magnitude-capital-llc",
+   "name": "Magnitude Capital, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/magnitudecapital",
+   "connectorId": "greenhouse",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "algert-global-llc",
+   "name": "Algert Global LLC",
+   "tier": "discovery",
+   "careersUrl": "https://jobs.lever.co/algertglobal",
+   "connectorId": "lever",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "laurion-capital-management-lp",
+   "name": "Laurion Capital Management LP",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/laurioncapitalmanagement",
+   "connectorId": "greenhouse",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "aquatic-capital-management-llc",
+   "name": "Aquatic Capital Management LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/aquaticcapitalmanagement",
+   "connectorId": "greenhouse",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "avala-global-lp",
+   "name": "Avala Global LP",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/avalaglobal",
+   "connectorId": "greenhouse",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "y-intercept-hong-kong-limited",
+   "name": "Y-intercept (Hong Kong) Limited",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/yintercepthongkonglimited",
+   "connectorId": "greenhouse",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "theorem",
+   "name": "Theorem",
+   "tier": "discovery",
+   "careersUrl": "https://jobs.ashbyhq.com/theorem",
+   "connectorId": "ashby",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "325-capital",
+   "name": "325 Capital",
+   "tier": "discovery",
+   "careersUrl": "https://apply.workable.com/325capital",
+   "connectorId": "workable",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "4d-advisors-llc",
+   "name": "4d Advisors, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://apply.workable.com/4dadvisors",
+   "connectorId": "workable",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "22nw-lp",
+   "name": "22nw, LP",
+   "tier": "discovery",
+   "careersUrl": "https://apply.workable.com/22nw",
+   "connectorId": "workable",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "unimar",
+   "name": "Unimar",
+   "tier": "discovery",
+   "careersUrl": "https://apply.workable.com/unimar",
+   "connectorId": "workable",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "intercapital",
+   "name": "Intercapital",
+   "tier": "discovery",
+   "careersUrl": "https://apply.workable.com/intercapital",
+   "connectorId": "workable",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "37spruce-investment-partners-llc",
+   "name": "37spruce Investment Partners, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://apply.workable.com/37spruceinvestmentpartners",
+   "connectorId": "workable",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "firstwave",
+   "name": "Firstwave",
+   "tier": "discovery",
+   "careersUrl": "https://apply.workable.com/firstwave",
+   "connectorId": "workable",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "2717-partners-lp",
+   "name": "2717 Partners LP",
+   "tier": "discovery",
+   "careersUrl": "https://apply.workable.com/2717partners",
+   "connectorId": "workable",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "4alphas-capital-llc",
+   "name": "4alphas Capital LLC",
+   "tier": "discovery",
+   "careersUrl": "https://apply.workable.com/4alphascapital",
+   "connectorId": "workable",
+   "sectorCategory": "hedge_fund",
+   "origin": "probed-hedge-fund.json"
+  },
+  {
+   "slug": "fisher-smb",
+   "name": "Fisher\\smb",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/fishersmb",
+   "connectorId": "greenhouse",
+   "sectorCategory": "other_finance",
+   "origin": "probed-other-finance.json"
+  },
+  {
+   "slug": "bridgefront-capital-llc",
+   "name": "Bridgefront Capital, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://jobs.ashbyhq.com/bridgefrontcapital",
+   "connectorId": "ashby",
+   "sectorCategory": "other_finance",
+   "origin": "probed-other-finance.json"
+  },
+  {
+   "slug": "zuna-llc",
+   "name": "Zuna, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://zuna.getro.com/jobs",
+   "connectorId": "getro",
+   "sectorCategory": "other_finance",
+   "origin": "probed-other-finance.json"
+  },
+  {
+   "slug": "cashmere",
+   "name": "Cashmere",
+   "tier": "discovery",
+   "careersUrl": "https://cashmere.getro.com/jobs",
+   "connectorId": "getro",
+   "sectorCategory": "other_finance",
+   "origin": "probed-other-finance.json"
+  },
+  {
+   "slug": "terminal",
+   "name": "Terminal",
+   "tier": "discovery",
+   "careersUrl": "https://jobs.ashbyhq.com/terminal",
+   "connectorId": "ashby",
+   "sectorCategory": "other_finance",
+   "origin": "probed-other-finance.json"
+  },
+  {
+   "slug": "valor-equity-partners",
+   "name": "Valor Equity Partners",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/valorequitypartners",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "first-manhattan-co-llc",
+   "name": "First Manhattan CO. LLC",
+   "tier": "discovery",
+   "careersUrl": "https://jobs.lever.co/firstmanhattan",
+   "connectorId": "lever",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "bbr-partners-llc",
+   "name": "Bbr Partners, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/bbrpartners",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "hbk-capital-management",
+   "name": "Hbk Capital Management",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/hbkcapitalmanagement",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "aksia-llc",
+   "name": "Aksia LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/aksia",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "bc-partners-llp",
+   "name": "Bc Partners LLP",
+   "tier": "discovery",
+   "careersUrl": "https://bcpartners.recruitee.com",
+   "connectorId": "generic",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "pag",
+   "name": "Pag",
+   "tier": "discovery",
+   "careersUrl": "https://pag.recruitee.com",
+   "connectorId": "generic",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "audax-private-debt",
+   "name": "Audax Private Debt",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/audaxprivatedebt",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "rtw-investments-lp",
+   "name": "Rtw Investments LP",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/rtwinvestments",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "curi-capital-llc",
+   "name": "Curi Capital, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/curicapital",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "galvanize-climate-solutions-llc",
+   "name": "Galvanize Climate Solutions LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/galvanizeclimatesolutions",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "lead-edge-capital-management-llc",
+   "name": "Lead Edge Capital Management, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/leadedgecapitalmanagement",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "greycroft-lp",
+   "name": "Greycroft LP",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/greycroft",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "polychain-capital-lp",
+   "name": "Polychain Capital LP",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/polychaincapital",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "wil-llc",
+   "name": "Wil, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/wil",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "legalist",
+   "name": "Legalist",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/legalist",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "energize-capital-llc",
+   "name": "Energize Capital LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/energizecapital",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "satori-capital-llc",
+   "name": "Satori Capital, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://jobs.lever.co/satoricapital",
+   "connectorId": "lever",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "ariel-alternatives-llc",
+   "name": "Ariel Alternatives, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/arielalternatives",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "uplift",
+   "name": "Uplift",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/uplift",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "monticelloam-llc",
+   "name": "Monticelloam, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/monticelloam",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "pact",
+   "name": "Pact",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/pact",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "blue-earth-capital-ag",
+   "name": "Blue Earth Capital AG",
+   "tier": "discovery",
+   "careersUrl": "https://blueearthcapitalag.recruitee.com",
+   "connectorId": "generic",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "endless-llp",
+   "name": "Endless LLP",
+   "tier": "discovery",
+   "careersUrl": "https://endless.breezy.hr",
+   "connectorId": "breezy",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "true",
+   "name": "True",
+   "tier": "discovery",
+   "careersUrl": "https://true.breezy.hr",
+   "connectorId": "breezy",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "moonfare",
+   "name": "Moonfare",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/moonfare",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "nextgen-growth-partners-llc",
+   "name": "Nextgen Growth Partners, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/nextgengrowthpartners",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "alpaca",
+   "name": "Alpaca",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/alpaca",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "sfermion",
+   "name": "Sfermion",
+   "tier": "discovery",
+   "careersUrl": "https://sfermion.breezy.hr",
+   "connectorId": "breezy",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "guild-garage-group-llc",
+   "name": "Guild Garage Group LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/guildgaragegroup",
+   "connectorId": "greenhouse",
+   "sectorCategory": "private_equity",
+   "origin": "probed-private-equity.json"
+  },
+  {
+   "slug": "stockbridge-capital-group-llc",
+   "name": "Stockbridge Capital Group, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://jobs.dayforcehcm.com/en-US/stockbridge/CANDIDATEPORTAL",
+   "connectorId": "dayforce",
+   "sectorCategory": "real_estate",
+   "origin": "probed-real-estate-platforms.json"
+  },
+  {
+   "slug": "realterm",
+   "name": "Realterm",
+   "tier": "discovery",
+   "careersUrl": "https://jobs.dayforcehcm.com/en-US/Realterm/Candidateportal",
+   "connectorId": "dayforce",
+   "sectorCategory": "real_estate",
+   "origin": "probed-real-estate-platforms.json"
+  },
+  {
+   "slug": "fcp",
+   "name": "Fcp",
+   "tier": "discovery",
+   "careersUrl": "https://fcp.bamboohr.com/careers/list",
+   "connectorId": "bamboohr",
+   "sectorCategory": "real_estate",
+   "origin": "probed-real-estate-platforms.json"
+  },
+  {
+   "slug": "centurion-asset-management-inc",
+   "name": "Centurion Asset Management INC.",
+   "tier": "discovery",
+   "careersUrl": "https://centurion.bamboohr.com/careers/list",
+   "connectorId": "bamboohr",
+   "sectorCategory": "real_estate",
+   "origin": "probed-real-estate-platforms.json"
+  },
+  {
+   "slug": "starwood-capital-group",
+   "name": "Starwood Capital Group",
+   "tier": "discovery",
+   "careersUrl": "https://jobs.jobvite.com/starwoodcapitalgroup/jobs",
+   "connectorId": "jobvite",
+   "sectorCategory": "real_estate",
+   "origin": "probed-real-estate-platforms.json"
+  },
+  {
+   "slug": "breakthrough-properties",
+   "name": "Breakthrough Properties",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/breakthroughproperties",
+   "connectorId": "greenhouse",
+   "sectorCategory": "real_estate",
+   "origin": "probed-real-estate.json"
+  },
+  {
+   "slug": "3650-reit-investment-management-llc",
+   "name": "3650 REIT Investment Management LLC",
+   "tier": "discovery",
+   "careersUrl": "https://apply.workable.com/3650reitinvestmentmanagement",
+   "connectorId": "workable",
+   "sectorCategory": "real_estate",
+   "origin": "probed-real-estate.json"
+  },
+  {
+   "slug": "bridgeinvest-llc",
+   "name": "Bridgeinvest LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/bridgeinvest",
+   "connectorId": "greenhouse",
+   "sectorCategory": "real_estate",
+   "origin": "probed-real-estate.json"
+  },
+  {
+   "slug": "setpoint-capital",
+   "name": "Setpoint Capital",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/setpointcapital",
+   "connectorId": "greenhouse",
+   "sectorCategory": "real_estate",
+   "origin": "probed-real-estate.json"
+  },
+  {
+   "slug": "learn-capital",
+   "name": "Learn Capital",
+   "tier": "discovery",
+   "careersUrl": "https://learncapital.getro.com/jobs",
+   "connectorId": "getro",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-getro.json"
+  },
+  {
+   "slug": "ballistic-ventures",
+   "name": "Ballistic Ventures",
+   "tier": "discovery",
+   "careersUrl": "https://ballisticventures.getro.com/jobs",
+   "connectorId": "getro",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-getro.json"
+  },
+  {
+   "slug": "group-11",
+   "name": "Group 11",
+   "tier": "discovery",
+   "careersUrl": "https://group11.getro.com/jobs",
+   "connectorId": "getro",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-getro.json"
+  },
+  {
+   "slug": "aleph",
+   "name": "Aleph",
+   "tier": "discovery",
+   "careersUrl": "https://jobs.lever.co/aleph",
+   "connectorId": "lever",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-getro.json"
+  },
+  {
+   "slug": "m33-growth-llc",
+   "name": "M33 Growth LLC",
+   "tier": "discovery",
+   "careersUrl": "https://jobs.lever.co/m33growth",
+   "connectorId": "lever",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-getro.json"
+  },
+  {
+   "slug": "juxtapose",
+   "name": "Juxtapose",
+   "tier": "discovery",
+   "careersUrl": "https://jobs.ashbyhq.com/juxtapose",
+   "connectorId": "ashby",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-getro.json"
+  },
+  {
+   "slug": "lightbank",
+   "name": "Lightbank",
+   "tier": "discovery",
+   "careersUrl": "https://lightbank.getro.com/jobs",
+   "connectorId": "getro",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-getro.json"
+  },
+  {
+   "slug": "acme",
+   "name": "Acme",
+   "tier": "discovery",
+   "careersUrl": "https://acme.breezy.hr",
+   "connectorId": "breezy",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-getro.json"
+  },
+  {
+   "slug": "mercury-fund",
+   "name": "Mercury Fund",
+   "tier": "discovery",
+   "careersUrl": "https://mercuryfund.getro.com/jobs",
+   "connectorId": "getro",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-getro.json"
+  },
+  {
+   "slug": "proof",
+   "name": "Proof",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/proof",
+   "connectorId": "greenhouse",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-getro.json"
+  },
+  {
+   "slug": "mac-venture-capital",
+   "name": "Mac Venture Capital",
+   "tier": "discovery",
+   "careersUrl": "https://macventurecapital.getro.com/jobs",
+   "connectorId": "getro",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-getro.json"
+  },
+  {
+   "slug": "palm-drive-capital-llc",
+   "name": "Palm Drive Capital LLC",
+   "tier": "discovery",
+   "careersUrl": "https://jobs.lever.co/palmdrivecapital",
+   "connectorId": "lever",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-getro.json"
+  },
+  {
+   "slug": "mio-partners-inc",
+   "name": "Mio Partners, INC.",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/miopartners",
+   "connectorId": "greenhouse",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-sample.json"
+  },
+  {
+   "slug": "forbion",
+   "name": "Forbion",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/forbion",
+   "connectorId": "greenhouse",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-sample.json"
+  },
+  {
+   "slug": "5y-capital-management-limited",
+   "name": "5y Capital Management Limited",
+   "tier": "discovery",
+   "careersUrl": "https://apply.workable.com/5ycapitalmanagementlimited",
+   "connectorId": "workable",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-sample.json"
+  },
+  {
+   "slug": "83north-2017-ltd",
+   "name": "83north 2017, LTD.",
+   "tier": "discovery",
+   "careersUrl": "https://apply.workable.com/83north2017",
+   "connectorId": "workable",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-sample.json"
+  },
+  {
+   "slug": "elephant",
+   "name": "Elephant",
+   "tier": "discovery",
+   "careersUrl": "https://apply.workable.com/elephant",
+   "connectorId": "workable",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-sample.json"
+  },
+  {
+   "slug": "g2vp-llc",
+   "name": "G2vp, LLC",
+   "tier": "discovery",
+   "careersUrl": "https://job-boards.greenhouse.io/g2vp",
+   "connectorId": "greenhouse",
+   "sectorCategory": "venture_capital",
+   "origin": "probed-vc-sample.json"
+  }
+ ]
+}

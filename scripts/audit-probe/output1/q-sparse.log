@@ -1,0 +1,307 @@
+draft-cli-eval — quality only, on the Claude CLI (subscription), never the API.
+  · model claude-sonnet-5-5 (the CLI exposes no effort, thinking or fast-mode controls, so this is NOT the app's model config)
+  · durations below are CLI durations: they include process startup and say nothing about production latency
+  · no PDF document blocks over the CLI, so every draft runs the studentResumeSummary path, never the resume-PDF path
+  · costUsd is subscription accounting - what the same tokens would have cost on the API, not a charge
+  · review pass on · 12 situations, 4 at a time · seed "quality"
+
+4/12 drafted
+8/12 drafted
+12/12 drafted
+
+scenario                                                   prof  issues  lint   guard  probs  stu  words/max  contr  I-run  canned  pleas
+-------------------------------------------------------  ------  ------  ----  ------  -----  ---  ---------  -----  -----  ------  -----
+801 first.alum+first.recruiter                           sparse     2→1   0→0  ACCEPT      2    0    116/200    3→4    1→1     1→1    n→n
+804 first.recruiter+first.referred                       sparse     1→1   0→0  ACCEPT      0    0    104/165    2→2    1→1     1→1    n→n
+805 first.alum+first.met                                 sparse     0→0   0→0  ACCEPT      4    0    137/200    3→1    1→0     1→2    n→n
+806 first.met+first.referred                             sparse     0→0   0→0  ACCEPT      3    0    125/180    3→2    1→1     1→2    n→n
+807 first.alum+first.met+first.recruiter+first.referred  sparse     1→1   0→0  ACCEPT      4    0    130/200    2→3    1→1     1→1    n→n
+808 first.conference+first.recruiter                     sparse     1→1   0→0  ACCEPT      1    0    119/170    2→2    2→2     1→1    n→n
+809 first.alum+first.pointed                             sparse     1→1   0→0  ACCEPT      4    0     95/200    2→2    1→1     1→1    n→n
+815 stay.congrats+stay.update                            sparse     0→0   0→0  ACCEPT      3    0    102/150    2→2    2→2     1→1    n→n
+816 stay.referrer+stay.update                            sparse     1→0   1→0  ACCEPT      3    0     68/150    3→1    1→1     0→0    n→n
+817 stay.congrats+stay.referrer                          sparse     2→1   1→0  ACCEPT      2    0     53/110    1→2    1→1     0→0    n→n
+818 stay.congrats+stay.referrer+stay.update              sparse     2→1   1→0  ACCEPT      2    0     74/150    1→1    1→1     0→0    n→n
+819 stay.redirected+stay.update                          sparse     2→1   1→0  ACCEPT      3    1     68/150    1→1    1→1     0→0    n→n
+
+── 801 [sparse] first.alum+first.recruiter · Reach out for the first time · A campus recruiter · An alum of my school
+   review: edit APPLIED · 2 problems, 0 for the student
+   voice (final): 116 words / ceiling 200 · 4 contractions (3.45/100w) · longest I-run 1 · canned 1 · opens on a pleasantry: no
+   canned resumeLine: "My resume is attached"
+   issue: placeholder: [graduation month]
+   Subject: Duke ’29: Questions About the Morrow & Pike Sophomore Program
+   | Hi Olivia,
+   | 
+   | My name is Maya Okafor, and I'm a sophomore at Duke University graduating in [graduation month] 2029, writing to a fellow Duke alum. I'm studying economics and am curious about the sophomore program at Morrow & Pike.
+   | 
+   | Two questions, if you have a moment. First, when does the sophomore program application open? Second, does the program feed into the summer analyst class?
+   | 
+   | This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. On campus, I'm a consumer sector analyst in the Duke Investment Club. My resume is attached if you'd like more detail on either. Thank you very much for your time!
+   | 
+   | Best,
+
+── 804 [sparse] first.recruiter+first.referred · Reach out for the first time · Someone I know suggested them · A campus recruiter
+   review: edit APPLIED · 0 problems, 0 for the student
+   voice (final): 104 words / ceiling 165 · 2 contractions (1.92/100w) · longest I-run 1 · canned 1 · opens on a pleasantry: no
+   canned resumeLine: "My resume is attached"
+   issue: placeholder: [graduation month]
+   Subject: Referred by Emily Tran
+   | Hi Olivia,
+   | 
+   | Emily Tran, who interned on the consumer team at Morrow & Pike last summer, told me to reach out to you.
+   | 
+   | My name is Maya Okafor, and I'm a sophomore at Duke University studying economics, graduating in [graduation month] 2029. This summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks, and I'm a consumer sector analyst in the Duke Investment Club.
+   | 
+   | I have two questions about the firm's programs. First, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?
+   | 
+   | My resume is attached. Thank you for your time!
+   | 
+   | Best,
+
+── 805 [sparse] first.alum+first.met · Reach out for the first time · We met in person · An alum of my school
+   review: edit APPLIED · 4 problems, 0 for the student
+   voice (final): 137 words / ceiling 200 · 1 contractions (0.73/100w) · longest I-run 0 · canned 2 · opens on a pleasantry: no
+   canned resumeLine: "my resume is attached"
+   canned flexibilityLine: "Any time that suits you works for me"
+   Subject: Great Meeting You at the SEO Career Summit in NYC
+   | Hi Rachel,
+   | 
+   | Thank you for talking with me at the SEO Career Summit in NYC about the grocery chain turnaround you worked on. My name is Maya Okafor, a Duke sophomore studying economics, and I enjoyed meeting a fellow Duke alum there.
+   | 
+   | As a consumer sector analyst in the Duke Investment Club, I've been looking at how retail businesses are valued, so hearing about a turnaround from someone who worked on it was a real treat. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews.
+   | 
+   | Would you have 10-15 minutes for a call so I can hear more about your path to Morrow & Pike and the work you do there? Any time that suits you works for me, and my resume is attached.
+   | 
+   | Best,
+
+── 806 [sparse] first.met+first.referred · Reach out for the first time · Someone I know suggested them · We met in person
+   review: edit APPLIED · 3 problems, 0 for the student
+   voice (final): 125 words / ceiling 180 · 2 contractions (1.6/100w) · longest I-run 1 · canned 2 · opens on a pleasantry: no
+   canned resumeLine: "my resume is attached"
+   canned flexibilityLine: "Any time that suits you works for me"
+   Subject: Referred by Emily Tran, and Great to Meet You at the SEO Career Summit NYC
+   | Hi Rachel,
+   | 
+   | Hearing about the grocery chain turnaround you worked on was a highlight of our conversation at the SEO Career Summit NYC. Emily Tran, who interned on the consumer team last summer, suggested I reach out to you.
+   | 
+   | I'm Maya Okafor, a sophomore at Duke studying economics and a consumer sector analyst in the Duke Investment Club. At Pinecrest Wealth Partners, I built a screening model for 40 dividend stocks used in client portfolio reviews.
+   | 
+   | As I begin recruiting, I'd love to learn about your path, your firm and your work, and to hear more about that turnaround. Would you have 10 to 15 minutes for a call? Any time that suits you works for me, and my resume is attached.
+   | 
+   | Thank you for your time!
+   | 
+   | Best,
+
+── 807 [sparse] first.alum+first.met+first.recruiter+first.referred · Reach out for the first time · Someone I know suggested them · We met in person · A campus recruiter · An alum of my school
+   review: edit APPLIED (after one retry) · 4 problems, 0 for the student
+   voice (final): 130 words / ceiling 200 · 3 contractions (2.31/100w) · longest I-run 1 · canned 1 · opens on a pleasantry: no
+   canned resumeLine: "My resume is attached"
+   issue: placeholder: [graduation month]
+   Subject: Referred by Emily Tran, and We Met at the SEO Career Summit NYC
+   | Hi Olivia,
+   | 
+   | I enjoyed hearing about the grocery chain turnaround you worked on when we met at the SEO Career Summit in NYC. Emily Tran, who interned on the consumer team last summer, suggested I write to you.
+   | 
+   | My name is Maya Okafor, and I'm a sophomore studying economics at Duke, where you're a fellow Duke alum. I graduate in [graduation month] 2029. This past summer I built a screening model for 40 dividend stocks at Pinecrest Wealth Partners, and I'm a consumer sector analyst in the Duke Investment Club.
+   | 
+   | I have two questions about recruiting at Morrow & Pike. First, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?
+   | 
+   | My resume is attached, including the Pinecrest screening model. Thank you for your time!
+   | 
+   | Best,
+
+── 808 [sparse] first.conference+first.recruiter · Reach out for the first time · We met at a conference · A campus recruiter
+   review: edit APPLIED · 1 problems, 0 for the student
+   voice (final): 119 words / ceiling 170 · 2 contractions (1.68/100w) · longest I-run 2 · canned 1 · opens on a pleasantry: no
+   canned resumeLine: "My resume is attached"
+   issue: placeholder: [graduation month]
+   Subject: Following Up from the SEO Career Summit in New York
+   | Hi Olivia,
+   | 
+   | It was great to meet you at the SEO Career Summit in New York. We talked at the Morrow & Pike table at lunch about the grocery turnaround.
+   | 
+   | My name is Maya Okafor, and I'm a sophomore at Duke University studying Economics, graduating in [graduation month] 2029. This summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. I'm also a consumer sector analyst in the Duke Investment Club.
+   | 
+   | I have two questions. First, when does the sophomore program open for applications? Second, does it feed into the summer analyst class?
+   | 
+   | My resume is attached for more detail on the Pinecrest work. Thank you for your time!
+   | 
+   | Best,
+
+── 809 [sparse] first.alum+first.pointed · Reach out for the first time · Someone I emailed sent me to them · An alum of my school
+   review: edit APPLIED · 4 problems, 0 for the student
+   voice (final): 95 words / ceiling 200 · 2 contractions (2.11/100w) · longest I-run 1 · canned 1 · opens on a pleasantry: no
+   canned resumeLine: "My resume is attached"
+   issue: placeholder: [what you originally asked Marcus about]
+   Subject: Marcus Delacroix Suggested I Write to You
+   | Hi Rachel,
+   | 
+   | My name is Maya Okafor. Marcus Delacroix suggested I write to you after I emailed him about [what you originally asked Marcus about].
+   | 
+   | I'm an economics sophomore at Duke writing to a fellow Duke alum. This past summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. On campus, I'm a consumer sector analyst in the Duke Investment Club.
+   | 
+   | Would you have 10 minutes for a call? My resume is attached and has more on the Pinecrest work.
+   | 
+   | Thank you for your time!
+   | 
+   | Best,
+
+── 815 [sparse] stay.congrats+stay.update · Stay in touch · Share an update · Congratulate them
+   review: edit APPLIED · 3 problems, 0 for the student
+   voice (final): 102 words / ceiling 150 · 2 contractions (1.96/100w) · longest I-run 2 · canned 1 · opens on a pleasantry: no
+   canned easyOutLine: "I understand if"
+   Subject: Congratulations, and a Quick Update
+   | Hi Rachel,
+   | 
+   | Congratulations on your promotion to director! I saw the news on LinkedIn.
+   | 
+   | We spoke in March about consumer coverage, and I have a short update from my summer. I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews. I'm also a consumer sector analyst in the Duke Investment Club, and our conversation has stayed relevant as I look at those names.
+   | 
+   | If you have a few minutes to catch up sometime, I'd enjoy that, and I understand if things are busy. Thank you again for your time in March.
+   | 
+   | Best,
+
+── 816 [sparse] stay.referrer+stay.update · Stay in touch · Thank the person who introduced me · Share an update
+   review: edit APPLIED · 3 problems, 0 for the student
+   voice (final): 68 words / ceiling 150 · 1 contractions (1.47/100w) · longest I-run 1 · canned 0 · opens on a pleasantry: no
+   Subject: Thank You for the Introduction
+   | Hi Rachel,
+   | 
+   | Ben Ortega and I just spoke. Thank you for putting us in touch.
+   | 
+   | He explained how the consumer team staffs deals, which filled in a lot for me on the consumer coverage we talked about in March.
+   | 
+   | Since then, I interned at Pinecrest Wealth Partners for the summer and built a dividend stock screen.
+   | 
+   | I'll keep you posted on what comes next. Thanks again for making the introduction.
+   | 
+   | Best,
+
+── 817 [sparse] stay.congrats+stay.referrer · Stay in touch · Thank the person who introduced me · Congratulate them
+   review: edit APPLIED · 2 problems, 0 for the student
+   voice (final): 53 words / ceiling 110 · 2 contractions (3.77/100w) · longest I-run 1 · canned 0 · opens on a pleasantry: no
+   issue: answer may be missing (0%): introducedTo = "ben ortega"
+   Subject: Thank You, and Congratulations
+   | Hi Rachel,
+   | 
+   | Ben and I just got off our call. Thank you for introducing us. He explained how the consumer team staffs deals, which matters to me as a consumer sector analyst in Duke Investment Club.
+   | 
+   | I saw on LinkedIn that you've been promoted to director. Congratulations!
+   | 
+   | Please don't feel you need to write back.
+   | 
+   | Best,
+
+── 818 [sparse] stay.congrats+stay.referrer+stay.update · Stay in touch · Thank the person who introduced me · Share an update · Congratulate them
+   review: edit APPLIED · 2 problems, 0 for the student
+   voice (final): 74 words / ceiling 150 · 1 contractions (1.35/100w) · longest I-run 1 · canned 0 · opens on a pleasantry: no
+   issue: answer may be missing (0%): introducedTo = "ben ortega"
+   Subject: Thank You, and Congratulations
+   | Hi Rachel,
+   | 
+   | Ben and I just had our call. Thank you for introducing us. He explained how the consumer team staffs deals, which connects to what you and I discussed about consumer coverage in March.
+   | 
+   | I saw on LinkedIn that you were promoted to director. Congratulations!
+   | 
+   | Since we last spoke, I spent the summer at Pinecrest Wealth Partners building a dividend screen. I'd enjoy staying in touch and will keep you posted on how things go.
+   | 
+   | Best,
+
+── 819 [sparse] stay.redirected+stay.update · Stay in touch · Thank the person who sent me elsewhere · Share an update
+   review: edit APPLIED · 3 problems, 1 for the student
+   voice (final): 68 words / ceiling 150 · 1 contractions (1.47/100w) · longest I-run 1 · canned 0 · opens on a pleasantry: no
+   issue: placeholder: [one specific thing from Ben's advice]
+   Subject: Thank You for Sending Me to Ben Ortega
+   | Hi Rachel,
+   | 
+   | Thank you for pointing me to Ben Ortega. We spoke in March about consumer coverage.
+   | 
+   | [one specific thing from Ben's advice]
+   | 
+   | Since then, I spent the summer as an intern at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews.
+   | 
+   | I'd love to keep you posted on what comes next. Thanks again for sending me his way.
+   | 
+   | Best,
+
+===== AGGREGATE =====
+metric                         value
+-------------------------  ---------
+scenarios                         12
+drafted                           12
+errored                            0
+issuesPre                         13
+issuesPost                         8
+issuesPreMean                  1.083
+issuesPostMean                 0.667
+lintForReviewPre                   4
+lintForReviewPost                  0
+lintForStudentPost                 0
+lintCleanPre                       8
+lintCleanPost                     12
+reviewRan                         12
+reviewApplied                     12
+reviewRejected                     0
+reviewErrored                      0
+reviewRetried                      1
+reviewRetrySkippedForTime          0
+guardAcceptRate                    1
+problems                          31
+problemsMean                   2.583
+problemsNeedsStudent               1
+wordsPreMean                  101.25
+wordsPostMean                  99.25
+overCeilingPre                     0
+overCeilingPost                    0
+overCeilingWordsPost               0
+contractionsPreMean            2.083
+contractionsPostMean           1.917
+contractionRatePreMean          2.04
+contractionRatePostMean        1.985
+zeroContractionPre                 0
+zeroContractionPost                0
+longestIRunPreMean             1.167
+longestIRunPostMean            1.083
+threeIStartsPre                    0
+threeIStartsPost                   0
+cannedLinesPre                     8
+cannedLinesPost                   10
+cannedResumePre                    7
+cannedResumePost                   7
+cannedFlexibilityPre               0
+cannedFlexibilityPost              2
+cannedEasyOutPre                   1
+cannedEasyOutPost                  1
+pleasantryOpenPre                  0
+pleasantryOpenPost                 0
+repeatedSentencesPre               7
+repeatedSentencesPost              8
+blockedLanguage                    0
+inputTokens                       56
+outputTokens                   37008
+cacheReadTokens               195648
+cacheWriteTokens               42350
+costUsdSubscription           0.5787
+draftMsMean                12097.917
+reviewMsMean                9162.417
+totalMsMean                22414.833
+
+Review problem kinds:
+  14x flow
+  6x tone
+  4x grammar
+  4x structure
+  2x other
+  1x invented
+
+Sentences shared word for word by more than one email (final):
+  5x "thank you for your time!"
+  3x "this past summer i interned at pinecrest wealth partners, where i built a screening model for 40 dividend stocks used in client portfolio reviews."
+  3x "first, when does the sophomore program open for applications?"
+  3x "second, does it feed into the summer analyst class?"
+  2x "on campus, i'm a consumer sector analyst in the duke investment club."
+  2x "my name is maya okafor, and i'm a sophomore at duke university studying economics, graduating in [graduation month] 2029."
+  2x "any time that suits you works for me, and my resume is attached."
+  2x "thank you for introducing us."
+
+JSON written to scripts/audit-probe/output1/q-sparse.json

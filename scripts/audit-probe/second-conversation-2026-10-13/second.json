@@ -1,0 +1,529 @@
+{
+  "meta": {
+    "script": "scripts/draft-cli-eval.ts",
+    "ranAt": "2026-10-13T04:54:04.471Z",
+    "transport": "claude CLI (subscription)",
+    "model": "claude-sonnet-5-5",
+    "review": true,
+    "seed": "offerly",
+    "scenarios": 99,
+    "filter": "stay.second",
+    "profile": "sparse",
+    "caveat": "quality only; durations are CLI durations, not production latency; studentResumeSummary path only"
+  },
+  "aggregate": {
+    "scenarios": 5,
+    "drafted": 5,
+    "errored": 0,
+    "issuesPre": 0,
+    "issuesPost": 0,
+    "issuesPreMean": 0,
+    "issuesPostMean": 0,
+    "lintForReviewPre": 0,
+    "lintForReviewPost": 0,
+    "lintForStudentPost": 0,
+    "lintCleanPre": 5,
+    "lintCleanPost": 5,
+    "reviewRan": 5,
+    "reviewApplied": 5,
+    "reviewRejected": 0,
+    "reviewErrored": 0,
+    "reviewRetried": 0,
+    "reviewRetrySkippedForTime": 0,
+    "guardAcceptRate": 1,
+    "problems": 10,
+    "problemsMean": 2,
+    "problemsNeedsStudent": 0,
+    "wordsPreMean": 101.6,
+    "wordsPostMean": 92.6,
+    "overCeilingPre": 0,
+    "overCeilingPost": 0,
+    "overCeilingWordsPost": 0,
+    "contractionsPreMean": 4,
+    "contractionsPostMean": 4.2,
+    "contractionRatePreMean": 3.932,
+    "contractionRatePostMean": 4.504,
+    "zeroContractionPre": 0,
+    "zeroContractionPost": 0,
+    "longestIRunPreMean": 1.6,
+    "longestIRunPostMean": 1.8,
+    "threeIStartsPre": 0,
+    "threeIStartsPost": 0,
+    "cannedLinesPre": 0,
+    "cannedLinesPost": 1,
+    "cannedResumePre": 0,
+    "cannedResumePost": 0,
+    "cannedFlexibilityPre": 0,
+    "cannedFlexibilityPost": 1,
+    "cannedEasyOutPre": 0,
+    "cannedEasyOutPost": 0,
+    "pleasantryOpenPre": 0,
+    "pleasantryOpenPost": 0,
+    "repeatedSentencesPre": 4,
+    "repeatedSentencesPost": 4,
+    "blockedLanguage": 0,
+    "inputTokens": 26,
+    "outputTokens": 16109,
+    "cacheReadTokens": 56411,
+    "cacheWriteTokens": 53382,
+    "costUsdSubscription": 0.386,
+    "draftMsMean": 15257.6,
+    "reviewMsMean": 9340.8,
+    "totalMsMean": 24610.6
+  },
+  "scenarios": [
+    {
+      "id": "822",
+      "profile": "sparse",
+      "boxes": [
+        "stay.second",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Ask for a second conversation · Share an update",
+      "leadType": "second_conversation",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 102,
+          "sentences": 7,
+          "contractions": 4,
+          "contractionRate": 3.92,
+          "longestIRun": 2,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 86,
+          "sentences": 7,
+          "contractions": 4,
+          "contractionRate": 4.65,
+          "longestIRun": 2,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 2,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 1,
+          "other": 1
+        }
+      },
+      "notesForStudent": [
+        "You didn't give a reason for asking now, so the email asks for the 15 minutes plainly. If there's a real one, like a deadline or the start of recruiting, add it.",
+        "The email says tracking the brands has become a regular habit. Delete that clause if it isn't accurate.",
+        "Consider naming the three brands you're tracking, since specifics make the strongest case for a second call."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2362,
+        "cacheReadTokens": 5754,
+        "cacheWriteTokens": 9467,
+        "costUsd": 0.0626468
+      },
+      "timings": {
+        "draftMs": 11052,
+        "lintMs": 13,
+        "reviewMs": 8728,
+        "reviewRetryMs": null,
+        "totalMs": 19821
+      },
+      "preReviewSubject": "A Second Conversation, If You Have 15 Minutes",
+      "preReviewBody": "Hi Rachel,\n\nWhen we spoke in March, you suggested I track a few brands. I'm following three of them now, and it has become a regular habit rather than a one-time exercise.\n\nI also spent this summer as an intern at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews.\n\nWould you have 15 minutes to talk again? I'd like to hear what you make of where I've taken your suggestion, and what you'd look at next.\n\nWhatever day suits your calendar works on my end. Thank you again for the first conversation!\n\nBest,",
+      "subject": "A Second Conversation, If You Have 15 Minutes",
+      "body": "Hi Rachel,\n\nWhen we spoke in March, you suggested I track a few brands. I'm following three of them now.\n\nOver the summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks that was used in client portfolio reviews.\n\nWould you have 15 minutes to talk again? I'd like to hear what you make of where I've taken your suggestion, and what you'd look at next.\n\nI can make whichever day you pick work. Thank you again for the first conversation!\n\nBest,"
+    },
+    {
+      "id": "823",
+      "profile": "sparse",
+      "boxes": [
+        "stay.referrer",
+        "stay.second"
+      ],
+      "summary": "Stay in touch · Ask for a second conversation · Thank the person who introduced me",
+      "leadType": "second_conversation",
+      "ceiling": 140,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 94,
+          "sentences": 8,
+          "contractions": 4,
+          "contractionRate": 4.26,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 90,
+          "sentences": 7,
+          "contractions": 3,
+          "contractionRate": 3.33,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 1,
+        "needsStudent": 0,
+        "kinds": {
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "Your notes didn't give a reason for asking now, so the email asks for the 15 minutes plainly. If there's a real one, like a recruiting date, add it.",
+        "I didn't name the three brands because you didn't list them. Naming them would make the update stronger."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 6,
+        "outputTokens": 3557,
+        "cacheReadTokens": 14403,
+        "cacheWriteTokens": 10869,
+        "costUsd": 0.0819386
+      },
+      "timings": {
+        "draftMs": 17491,
+        "lintMs": 0,
+        "reviewMs": 9154,
+        "reviewRetryMs": null,
+        "totalMs": 26649
+      },
+      "preReviewSubject": "A Second Conversation, and Thank You for Introducing Me to Ben",
+      "preReviewBody": "Hi Rachel,\n\nWhen we spoke in March, you suggested I track a few brands. I'm tracking three now, alongside my work as a consumer sector analyst in Duke Investment Club.\n\nThank you for introducing me to Ben Ortega. We just had our call, and he explained how the consumer team staffs deals.\n\nWould you have 15 minutes to talk? I'd like to walk you through the three brands and hear how you'd keep building on them.\n\nPick whatever day suits you, and I'll fit around it. Thank you again for the advice and for the introduction.\n\nBest,",
+      "subject": "A Second Conversation, and Thank You for Introducing Me to Ben",
+      "body": "Hi Rachel,\n\nWhen we spoke in March, you suggested I track a few brands. I'm tracking three now, alongside my work as a consumer sector analyst in Duke Investment Club.\n\nThank you for introducing me to Ben Ortega. We just had our call, and he explained how the consumer team staffs deals.\n\nWould you have 15 minutes to talk on a day that suits you? I'd like to walk you through the three brands and hear how you'd keep building on them.\n\nThank you again for the advice and for the introduction.\n\nBest,"
+    },
+    {
+      "id": "824",
+      "profile": "sparse",
+      "boxes": [
+        "stay.referrer",
+        "stay.second",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Ask for a second conversation · Thank the person who introduced me · Share an update",
+      "leadType": "second_conversation",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 112,
+          "sentences": 9,
+          "contractions": 4,
+          "contractionRate": 3.57,
+          "longestIRun": 2,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 99,
+          "sentences": 9,
+          "contractions": 3,
+          "contractionRate": 3.03,
+          "longestIRun": 2,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": "Any time that suits you works for me",
+            "easyOutLine": null
+          },
+          "cannedCount": 1,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 2,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 1,
+          "flow": 1
+        }
+      },
+      "notesForStudent": [
+        "Today is October 13, so check that March was the right month for your first conversation; six months is a long gap and the email says 'in March'.",
+        "You didn't give a reason for asking now, so the email asks for 15 minutes plainly. Add one (a deadline, recruiting) if you have it.",
+        "You didn't say which three brands you track. Naming them would make the email stronger."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2640,
+        "cacheReadTokens": 5754,
+        "cacheWriteTokens": 10527,
+        "costUsd": 0.0696668
+      },
+      "timings": {
+        "draftMs": 11667,
+        "lintMs": 6,
+        "reviewMs": 9151,
+        "reviewRetryMs": null,
+        "totalMs": 20827
+      },
+      "preReviewSubject": "A Second Conversation, If You Have 15 Minutes",
+      "preReviewBody": "Hi Rachel,\n\nThank you for introducing me to Ben Ortega. We just spoke, and he walked me through how the consumer team staffs deals.\n\nWhen we talked in March, you suggested I track a few brands. I'm following three now, which has given me something concrete to bring to my work as a consumer sector analyst in Duke Investment Club. I also spent the summer at Pinecrest Wealth Partners building a dividend screen.\n\nWould you have 15 minutes to talk again? I'd value your thoughts on how I'm tracking the brands. Whatever window suits you is fine by me, and I'll fit around it.\n\nThanks for the advice and for connecting me with Ben.\n\nBest,",
+      "subject": "A Second Conversation, If You Have 15 Minutes",
+      "body": "Hi Rachel,\n\nThank you for introducing me to Ben Ortega. We just spoke, and he walked me through how the consumer team staffs deals.\n\nWhen we talked in March, you suggested I track a few brands. I'm following three now, alongside my role as a consumer sector analyst in Duke Investment Club. I also spent the summer at Pinecrest Wealth Partners building a dividend screen.\n\nWould you have 15 minutes to talk again? I'd value your thoughts on how I'm tracking the brands. Any time that suits you works for me.\n\nThanks for the advice and for connecting me with Ben.\n\nBest,"
+    },
+    {
+      "id": "825",
+      "profile": "sparse",
+      "boxes": [
+        "stay.redirected",
+        "stay.second"
+      ],
+      "summary": "Stay in touch · Ask for a second conversation · Thank the person who sent me elsewhere",
+      "leadType": "second_conversation",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 94,
+          "sentences": 7,
+          "contractions": 3,
+          "contractionRate": 3.19,
+          "longestIRun": 2,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 85,
+          "sentences": 7,
+          "contractions": 4,
+          "contractionRate": 4.71,
+          "longestIRun": 2,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 2,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 1,
+          "flow": 1
+        }
+      },
+      "notesForStudent": [
+        "You didn't give a reason for asking now, so the ask is plain rather than urgent. Add one if there is a real reason, like a deadline.",
+        "You didn't say what came out of your talk with Ben, so the email only says you followed up with him. Add a sentence on what you learned if you'd like.",
+        "I wrote that you'd walk her through the three brands and hear what she'd look at next. Change that if it isn't what you plan to cover.",
+        "Your notes say the first talk was in March, but I wrote it without a year. Check that it was this year."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 8,
+        "outputTokens": 4612,
+        "cacheReadTokens": 24746,
+        "cacheWriteTokens": 12162,
+        "costUsd": 0.0997332
+      },
+      "timings": {
+        "draftMs": 22691,
+        "lintMs": 0,
+        "reviewMs": 9883,
+        "reviewRetryMs": null,
+        "totalMs": 32577
+      },
+      "preReviewSubject": "A Second Conversation, and an Update on Ben",
+      "preReviewBody": "Hi Rachel,\n\nWhen we spoke in March, you suggested I track a few brands. I'm tracking three now, alongside my work as a consumer sector analyst in Duke Investment Club.\n\nI also followed up with Ben Ortega, the person you pointed me to, and wanted you to know how that went.\n\nWould you have 15 minutes for a second conversation? I'd like to walk you through the three brands and hear what you'd look at next. Whatever day and time suits you works for me.\n\nThank you for the advice and for sending me to Ben.\n\nBest,",
+      "subject": "A Second Conversation, and an Update on Ben",
+      "body": "Hi Rachel,\n\nWhen we spoke in March, you suggested I track a few brands. I'm tracking three now, alongside my work as a consumer sector analyst in Duke Investment Club.\n\nI've since talked with Ben Ortega, the person you pointed me to.\n\nWould you be open to a second conversation? I'd like to walk you through the three brands and hear what you'd look at next. Any day and time that suits you works for me.\n\nThank you for the advice and for sending me to Ben.\n\nBest,"
+    },
+    {
+      "id": "826",
+      "profile": "sparse",
+      "boxes": [
+        "stay.redirected",
+        "stay.second",
+        "stay.update"
+      ],
+      "summary": "Stay in touch · Ask for a second conversation · Thank the person who sent me elsewhere · Share an update",
+      "leadType": "second_conversation",
+      "ceiling": 150,
+      "ok": true,
+      "pre": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 106,
+          "sentences": 8,
+          "contractions": 5,
+          "contractionRate": 4.72,
+          "longestIRun": 1,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "post": {
+        "issues": [],
+        "lintForReview": [],
+        "lintForStudent": [],
+        "voice": {
+          "words": 103,
+          "sentences": 8,
+          "contractions": 7,
+          "contractionRate": 6.8,
+          "longestIRun": 2,
+          "canned": {
+            "resumeLine": null,
+            "flexibilityLine": null,
+            "easyOutLine": null
+          },
+          "cannedCount": 0,
+          "opensOnPleasantry": false
+        },
+        "overCeilingBy": 0
+      },
+      "review": {
+        "ran": true,
+        "applied": true,
+        "rejected": null,
+        "retried": false,
+        "retrySkippedForTime": false,
+        "error": null,
+        "problems": 3,
+        "needsStudent": 0,
+        "kinds": {
+          "invented": 1,
+          "flow": 1,
+          "tone": 1
+        }
+      },
+      "notesForStudent": [
+        "You didn't say how the conversation with Ben Ortega went, so the email only thanks Rachel for the introduction. Add a short line about it if you'd like.",
+        "You didn't name the three brands. Consider adding them so the update is more specific.",
+        "I wrote that the brand tracking has a natural home in Duke Investment Club since you're a consumer analyst there. Remove that clause if it isn't accurate.",
+        "You gave no reason for asking now, so the ask is plain rather than tied to a deadline."
+      ],
+      "blockedLanguage": false,
+      "usage": {
+        "inputTokens": 4,
+        "outputTokens": 2938,
+        "cacheReadTokens": 5754,
+        "cacheWriteTokens": 10357,
+        "costUsd": 0.0719668
+      },
+      "timings": {
+        "draftMs": 13387,
+        "lintMs": 0,
+        "reviewMs": 9788,
+        "reviewRetryMs": null,
+        "totalMs": 23179
+      },
+      "preReviewSubject": "15 Minutes, and an Update on the Brands",
+      "preReviewBody": "Hi Rachel,\n\nWe spoke in March, and you suggested I track a few brands. I'm tracking three now. Thank you for pointing me to Ben Ortega as well.\n\nOver the summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. I'm also a consumer sector analyst in Duke Investment Club, so the brand tracking has a natural home there.\n\nWould you have 15 minutes in the coming weeks? I'd like to walk you through what I'm seeing in the three brands and hear what you'd look at next. Whatever day suits you is fine by me.\n\nBest,",
+      "subject": "15 Minutes, and an Update on the Brands",
+      "body": "Hi Rachel,\n\nWe spoke in March, and you suggested I track a few brands. I'm tracking three now. I've since spoken with Ben Ortega, and I'm grateful you pointed me to him.\n\nOver the summer I interned at Pinecrest Wealth Partners, where I built a screening model for 40 dividend stocks used in client portfolio reviews. I'm also a consumer sector analyst in Duke Investment Club.\n\nWould you have 15 minutes in the coming weeks? I'd like to walk you through what I'm seeing in the three brands and hear what you'd look at next. I can meet on whichever day is easiest for you.\n\nBest,"
+    }
+  ]
+}

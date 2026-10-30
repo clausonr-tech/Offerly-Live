@@ -1,0 +1,1047 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-13T18:54:50.212Z",
+  "entries": {
+    "overview": {
+      "hash": "8c48a38b273e22fb9277313babb27c0bbd02ea3a1a3f77e0279a895825ad65a7",
+      "sources": [
+        "README.md",
+        "RECRUITING-WORKFLOW.md",
+        "src/lib/help-guide.ts",
+        "src/lib/nav-sections.ts"
+      ],
+      "title": "Offerly",
+      "text": "For: College students recruiting for finance internships and jobs. Offerly walks you through each step — from picking target firms, to tracking openings, to finding contacts, drafting emails, and prepping for interviews — while prompting you on what to do next.\n\nGet there: offerly.com, or log in at /dashboard\n\nRECRUITING PATH\n\nOfferly guides you through six steps:\n\n1. Pick your firms (/dashboard): Set your interests, then add the firms you are targeting.\n2. Track the openings (/discovery/internships): Bookmark the internships you will apply to and see when they open.\n3. Find your people (/contacts): Build a list of contacts at each firm, or generate them from a firm's page.\n4. Reach out and follow up (/outreach): Draft a first email, then a follow-up if they have not replied.\n5. Keep it on the calendar (/schedule): Coffee chats, deadlines and interviews, all in one place.\n6. Prep for interviews (/learn): Practise technical and behavioral rounds for your industry.\n\nTHE SIDEBAR\n\nEach section below sits in the left rail. Second-level views appear either nested under the section or as a floating bar across the top of that section's pages.\n\n\"Internal Network\" (/networking): Other Offerly students. See your peers, connect with more, follow clubs, discuss interviews and message classmates. Views: Peers, Connect, Clubs, Discussions, Messages.\n\n\"External Network\" (/dashboard): The firms you're targeting, roles that match you, your contacts inside them, and what to do today. Includes a tab for Industry Contacts (/contacts). Sections below sit here.\n\n\"Schedule\" (/schedule): Your recruiting calendar — interviews, deadlines, coffee chats and info sessions. Mark an event as an interview and Offerly prompts you to prep.\n\n\"Discovery\" (/discovery): Your matched firms and every open internship and firm directory, by industry. Views: Internships, Firms.\n\n\"News\" (/news): Finance headlines, filtered by industry, for interviews and coffee chats.\n\n\"Interview Prep\" (/learn): Ten-question practice rounds — pick technical, behavioral or mixed, your difficulty and your industry. Includes Video interview (/learn/video).\n\n\"Outreach\" (/outreach): Who to write to next, plus your past emails and resume reviews. Views: Email drafts, Resume builder."
+    },
+    "shell": {
+      "hash": "a06583b171e2a429b3ff2242c90d47c6d695174344b01590552d015fe4ab2b08",
+      "sources": [
+        "src/app/(app)/Footer.tsx",
+        "src/app/(app)/HelpMenu.tsx",
+        "src/app/(app)/Logo.tsx",
+        "src/app/(app)/MessageBubble.tsx",
+        "src/app/(app)/MessageBubbleSlot.tsx",
+        "src/app/(app)/NotificationBell.tsx",
+        "src/app/(app)/NotificationSlot.tsx",
+        "src/app/(app)/PromptFlash.tsx",
+        "src/app/(app)/PromptFlashSlot.tsx",
+        "src/app/(app)/Sidebar.tsx",
+        "src/app/(app)/TimeZoneCookie.tsx",
+        "src/app/(app)/UserMenu.tsx",
+        "src/app/(app)/actions.ts",
+        "src/app/(app)/drafts/QuickDraft.tsx",
+        "src/app/(app)/layout.tsx",
+        "src/lib/policy.ts",
+        "src/lib/sidebar-rail.ts"
+      ],
+      "title": "Around the app",
+      "text": "For: navigating the app, accessing help, checking notifications and messages, and managing your account from any signed-in page\n\nGet there: every signed-in page has this frame\n\nDo here:\n- \"Open navigation\": on mobile, opens the sidebar menu\n- Click a section or subsection name in the sidebar: navigate to that area\n- Collapse/expand toggle: on desktop, click the chevron to retract the sidebar\n- \"Help (?)\": opens a panel to search the help guide, see the recruiting path, or ask the assistant\n- Type in \"What are you trying to do?\": search results appear as you type; nothing is saved or sent\n- \"Browse the full guide\" or \"Ask the assistant\": open the full Help page\n- Notification bell: shows jobs to do with a red badge count and a dot for new ones\n- Click a notification row: open that job, or click the arrow to jump to it\n- Circle checkbox: mark a notification done; it slides away once checked\n- \"Open the full list\": view all notifications on the Notifications page\n- Messages bubble: shows unread threads from your network\n- Click a message thread: open that conversation\n- \"View all messages\": open the full Messages page\n- Your name and avatar: opens your account menu with tabs for Settings, Resume, Interview prep, and Outreach settings\n- \"Sign out\": end your session\n- Prompt bubble at top of page: a one-time alert about an application or interview; disappears after 8 seconds or when you dismiss it with ×, or click to act\n\nLimits:\n- Help search stays on your device only\n- Pro sidebar sections show a lock icon on free accounts; clicking them takes you to upgrade\n- The prompt bubble appears once per event and does not return on its own\n\nRelated: Notifications (/notifications), Messages (/messages), Help guide (/help), Settings (account menu)"
+    },
+    "/": {
+      "hash": "4ee8a51eb1d01da3cf7e110974c821a69f1219b2e2e7338e1a9122a61e043b49",
+      "sources": [
+        "src/app/(marketing)/BlurHighlight.tsx",
+        "src/app/(marketing)/CityHero.tsx",
+        "src/app/(marketing)/MarketingFooter.tsx",
+        "src/app/(marketing)/MarketingHeader.tsx",
+        "src/app/(marketing)/Reveal.tsx",
+        "src/app/(marketing)/ScrollProgress.tsx",
+        "src/app/(marketing)/WaitlistButton.tsx",
+        "src/app/(marketing)/WaitlistHeroForm.tsx",
+        "src/app/(marketing)/illustrations.tsx",
+        "src/app/(marketing)/layout.tsx",
+        "src/app/(marketing)/page.tsx",
+        "src/app/(marketing)/useInViewReveal.ts",
+        "src/app/(marketing)/waitlist-actions.ts",
+        "src/app/(marketing)/waitlist-years.ts",
+        "src/lib/content-limits.ts",
+        "src/lib/firm-account.ts",
+        "src/lib/use-reduced-motion.ts"
+      ],
+      "title": "Overview",
+      "text": "For: discover Offerly and join the waitlist as a student\nGet there: \"Offerly\" logo or \"Overview\" in the header; /\nDo here:\n- \"Join the waitlist\": opens a dialog with a form to enter your email, name, graduation year, and school; you'll get an email when Offerly opens\n- \"Recruiting for a firm? Join the firm waitlist →\": takes you to the firms waitlist page at /for-firms\n- scroll down to see how the app works: timeline and calendar, firm matching, warm introductions, and student community\n- \"Log in\" (top right): takes you to /login if you have an account\n- \"Sign up\" (top right): takes you to /signup to create a student account\nLimits:\n- the waitlist form requires a valid email, your name, graduation year between 2025 and 2027, and a school name; you must check the box to receive emails\n- you can join the waitlist up to 3 times per email address per day\n- you can join up to 5 times per IP address per hour\n- the form blocks profanity and hateful language in any field\nRelated: for-firms (/for-firms), Log in (/login), Sign up (/signup), pricing (/pricing), Our Story (/who-we-are)"
+    },
+    "/applications": {
+      "hash": "7a92d392d199c471649588fc537dd92d4982c92a1665a5856131e5de05206e5a",
+      "sources": [
+        "src/app/(app)/applications/ApplicationForm.tsx",
+        "src/app/(app)/applications/TrackToggle.tsx",
+        "src/app/(app)/applications/actions.ts",
+        "src/app/(app)/applications/layout.tsx",
+        "src/app/(app)/applications/page.tsx",
+        "src/app/(app)/applications/untrack-actions.ts",
+        "src/lib/badges.ts",
+        "src/lib/content-limits.ts",
+        "src/lib/safe-url.ts",
+        "src/lib/time-zone.ts"
+      ],
+      "title": "Applications",
+      "text": "For: Track, manage, and update your job applications across finance roles\nGet there: \"Applications\" in the sidebar; /applications redirects to /dashboard\nDo here:\n- \"Firm\": enter the company name (required)\n- \"Role\": enter the job title (required)\n- \"Status\": choose from \"Not started\", \"In progress\", \"Submitted\", \"Interviewing\", \"Offer\", or \"Rejected\" (defaults to \"Not started\")\n- \"Industry\": select the finance sector like \"Investment Banking\", \"Private Equity\", \"Hedge Fund\", \"Asset Management\", \"Consulting\", or leave as \"Not specified\"\n- \"Applied date\": set the date you applied using a date picker\n- \"Est. compensation (USD/yr)\": enter the salary or leave blank\n- \"Application URL\": paste the link to the job posting or application\n- \"Notes\": write any details about the application (4 rows of text)\n- \"Linked contacts\": search and tick contacts by name or filter by company to link people you know at the firm; ticked contacts stay linked even if you filter them out\n- Submit: save your application and open its detail page\nLimits:\n- Firm and Role are required fields\n- Profanity and slurs are blocked in any text field\n- Limited to Offerly Pro (free accounts are sent to upgrade)\n- Linked contacts must be your own saved contacts\nRelated: Dashboard (/dashboard), Contact details (view linked people), Schedule (/schedule)"
+    },
+    "/applications/[id]": {
+      "hash": "182d6e7f210576d9552b2dd8d1ff9ce7cd041b71ee66f29278c684581158771f",
+      "sources": [
+        "src/app/(app)/applications/ApplicationForm.tsx",
+        "src/app/(app)/applications/[id]/page.tsx",
+        "src/app/(app)/applications/actions.ts",
+        "src/lib/safe-url.ts"
+      ],
+      "title": "Application details",
+      "text": "For: Track and edit one application you're working on\nGet there: click an application from \"Applications\" (/applications/[id])\nDo here:\n- \"Firm\": enter or edit the company name (required)\n- \"Role\": enter or edit the job title (required)\n- \"Status\": pick from Not started, In progress, Submitted, Interviewing, Offer, or Rejected\n- \"Industry\": pick a finance sector or leave as Not specified\n- \"Applied date\": enter the date you applied (date picker)\n- \"Est. compensation (USD/yr)\": enter expected or offered salary as a number\n- \"Application URL\": paste the link to the application or job posting\n- \"Notes\": type anything about this application—your thoughts, feedback from interviews, follow-up reminders\n- \"Linked contacts\": search for and check the names of contacts from your External Network to link them to this application; filter by company to narrow the list, or search by name; checked contacts stay linked even if you filter them out of view\n- \"Click here to open the application\": opens the application URL in a new tab (only shows if you added a URL)\n- \"Delete\": remove this application from your tracker and delete any offer announcement you may have posted about it\n- \"Save changes\": save edits to all fields above\nLimits:\n- \"Firm\", \"Role\", and \"Notes\" cannot contain blocked language\n- If you change the status to Offer, an announcement posts to your network; if you change it away from Offer, that announcement is removed\n- You can only link contacts you created yourself\nRelated: Applications list (/applications), External Network (/dashboard)"
+    },
+    "/applications/import": {
+      "hash": "dce3295c53b61bfd756177376a5afc5527307658d3fec4c6f93b5e0c5b401fd0",
+      "sources": [
+        "src/app/(app)/applications/import/ImportForm.tsx",
+        "src/app/(app)/applications/import/actions.ts",
+        "src/app/(app)/applications/import/page.tsx",
+        "src/lib/badges.ts",
+        "src/lib/content-limits.ts",
+        "src/lib/csv-import.ts",
+        "src/lib/firm-name.ts",
+        "src/lib/role-name.ts",
+        "src/lib/time-zone.ts"
+      ],
+      "title": "Import applications",
+      "text": "For: bringing applications you are tracking in a spreadsheet into your Offerly tracker\nGet there: from the sidebar or the web address /applications/import\nDo here:\n- \"drop or select a CSV file\": upload a spreadsheet with your tracked applications. The file must include columns for firm or company name and role or position title. It can also include status, applied date, deadline, and notes. Rows without a firm and role are skipped.\n- preview the applications before importing: after uploading, a table shows up to 25 rows from your file with firm, role, status, and deadline. If your file has more than 25 rows, a note shows how many more are included.\n- \"Import [number] applications\": submit the applications to your tracker. If a deadline date is in your file, a reminder is automatically added to your Schedule at 9 am on that date in your time zone.\nLimits:\n- You can import up to 2000 rows per file.\n- Each firm name and role can be up to 200 characters; notes up to 4000 characters.\n- Your tracker can hold up to 5000 total applications. If an import would exceed this, it stops and tells you to remove entries first.\n- You can import up to 10 files per hour.\n- Rows are matched to applications already on your tracker by firm and role, even if spelled differently. A matching row on the tracker gets the new deadline if one exists; it is not added again.\n- Your firm name, role, and notes cannot contain slurs, hateful language, or profanity.\nRelated: Applications tracker (/applications)"
+    },
+    "/applications/new": {
+      "hash": "a0e4dd6b373c7945a8cf4039abe14d678959e8ef9957599a36b7d597c613b85b",
+      "sources": [
+        "src/app/(app)/applications/ApplicationForm.tsx",
+        "src/app/(app)/applications/actions.ts",
+        "src/app/(app)/applications/new/page.tsx"
+      ],
+      "title": "Add application",
+      "text": "For: Create a new application entry in your pipeline\nGet there: \"Add application\" button on /applications, web address /applications/new\nDo here:\n- \"Firm\": enter the company name (required)\n- \"Role\": enter the job title (required)\n- \"Status\": choose where you are in the process—\"Not started\", \"In progress\", \"Submitted\", \"Interviewing\", \"Offer\", or \"Rejected\" (defaults to \"Not started\")\n- \"Industry\": select the finance sector, or leave as \"Not specified\"\n- \"Applied date\": enter the date you applied (optional)\n- \"Est. compensation (USD/yr)\": enter the annual salary estimate (optional)\n- \"Application URL\": paste the link to the job posting or application (optional)\n- \"Notes\": write anything else about this opportunity—interview details, follow-ups, or personal observations (optional)\n- \"Linked contacts\": check boxes next to any contacts you want to connect to this application; use \"Filter by company\" to narrow the list by firm, or \"Search name\" to find specific people by name (optional, shows only if you have contacts saved)\n- \"Add application\": submit the form to save your application\nLimits:\n- \"Firm\" and \"Role\" are required; without them the form will not submit\n- If you already have an application for the same firm and role, the app opens that existing entry instead of creating a duplicate\n- If you set status to \"Offer\", the app records this as an offer on your profile\nRelated: Applications list (/applications), Dashboard (/dashboard), Contacts (no direct address shown)"
+    },
+    "/consent": {
+      "hash": "9e51db49494030a187803ed142909a823c3ca7248b2329e2d28472d9d96cb034",
+      "sources": [
+        "src/app/consent/ConsentForm.tsx",
+        "src/app/consent/actions.ts",
+        "src/app/consent/page.tsx",
+        "src/lib/firm-sharing.ts",
+        "src/lib/policy.ts"
+      ],
+      "title": "Policy Consent",
+      "text": "For: reviewing and agreeing to Offerly's updated terms, privacy policy, and optional data-sharing choices\nGet there: automatic redirect when terms are updated; web address /consent\nDo here:\n- \"I agree\" button: saves your consent to the current policy version, your choice to share your profile with recruiting firms, and your choice to help train Offerly's writing tools, then takes you to the dashboard\n- \"shareWithFirms\" checkbox: opt in to let firms see your name, school, class year, degree, major, target sectors and roles, cities, email, LinkedIn, and resume\n- \"trainingOptIn\" checkbox: opt in to let Offerly use your resume edits and drafts (with names and contact details removed) to improve its writing tools\n- view full text: links to \"Terms of Service\" and \"Privacy Policy\" pages show the complete policy at the version number displayed\nLimits:\n- Agreeing to the current policy version is required to use Offerly. You cannot decline; your only option if you do not agree is to stop using the app and delete your account from Settings\n- If you previously agreed to an earlier policy version, you must review and agree again when the policy changes\n- The \"trainingOptIn\" checkbox defaults to your previous answer if you have one, or unchecked if this is your first time\n- Both optional checkboxes can be changed later in Settings\n- If the page fails to save, an error message appears and you can try again\nRelated: Terms of Service (/terms), Privacy Policy (/privacy), Settings (where you can change firm sharing and training choices), Dashboard (/dashboard)"
+    },
+    "/contacts": {
+      "hash": "66ce2084f8a1388ef0f11badf63bbe36ac64d1126b6c3452683d0053f07a8a6b",
+      "sources": [
+        "src/app/(app)/SectionTopBar.tsx",
+        "src/app/(app)/contacts/ContactForm.tsx",
+        "src/app/(app)/contacts/ContactGrid.tsx",
+        "src/app/(app)/contacts/actions.ts",
+        "src/app/(app)/contacts/contact-actions.ts",
+        "src/app/(app)/contacts/contacts-data.ts",
+        "src/app/(app)/contacts/layout.tsx",
+        "src/app/(app)/contacts/loading.tsx",
+        "src/app/(app)/contacts/page.tsx",
+        "src/app/(app)/drafts/QuickDraft.tsx",
+        "src/app/(app)/drafts/quick-draft-actions.ts",
+        "src/lib/contact-email-render.ts",
+        "src/lib/contact-level.ts",
+        "src/lib/contact-removal.ts",
+        "src/lib/contact-spread.ts",
+        "src/lib/content-limits.ts",
+        "src/lib/firm-name.ts",
+        "src/lib/outreach-ladder.ts",
+        "src/lib/response-likelihood.ts",
+        "src/lib/safe-url.ts"
+      ],
+      "title": "Industry Contacts",
+      "text": "For: See all your sourced and manually added contacts in one table, organized by firm and ranked by match score.\nGet there: \"Industry Contacts\" in the top nav bar inside External Network, or /contacts\nDo here:\n- \"Search name, firm, role, school or email\": Find contacts by typing any field; searches normalize firm names\n- \"Firm\", \"School\", \"Level\", \"Outreach\", and \"Email\" filters: Narrow contacts by any combination; filters are searchable dropdowns with counts\n- Column headers (Match, Name, Role, School, Outreach): Click to sort; click again to reverse\n- Contact name: Click \"Draft email\" button to write a cold email in a side panel\n- Email address: Click to open the outreach form already addressed to that contact; shows a badge (CATCH-ALL, PREDICTED, or none) if confidence is not verified\n- \"Why them\" column: Shows your connection angle\n- \"Outreach\" column: Shows stage (Not contacted, Follow-up due, Waiting on reply, Replied, No reply after 3); when contacted, lists each email sent with its date; click \"Mark [1st/2nd/3rd] sent\", \"They replied\", or \"Undo reply\"\n- × button on email: Undo only the most recent email\n- LinkedIn button: Opens that contact's LinkedIn profile in a new tab\n- Active filter chips: Click one or the × to remove it\n- \"Clear all\": Remove all filters and search query\n- \"See all\" link at bottom: Links to the full Outreach page\nLimits:\n- Only the most recent email can be undone\n- A follow-up is due 7 days after each email; the ladder stops after 3 emails or when you mark the contact as replied\nRelated: Add Contact (/contacts/add), Contact Detail (/contacts/[id]), Outreach (/outreach), Dashboard (/dashboard)"
+    },
+    "/contacts/[id]": {
+      "hash": "6574f5f04e9f13852043f3db4b1a0d24b2171809c59fbb626b14031f8e444cd6",
+      "sources": [
+        "src/app/(app)/contacts/ContactForm.tsx",
+        "src/app/(app)/contacts/[id]/page.tsx",
+        "src/app/(app)/contacts/actions.ts",
+        "src/app/(app)/drafts/Composer.tsx",
+        "src/app/(app)/drafts/QuickDraft.tsx",
+        "src/app/(app)/drafts/quick-draft-actions.ts",
+        "src/lib/relevance.ts",
+        "src/lib/safe-url.ts"
+      ],
+      "title": "Contact detail",
+      "text": "For: viewing and editing a single contact from your Industry Contacts list\nGet there: click a contact name in Industry Contacts (/contacts), or get redirected there after adding one\nDo here:\n- \"Name\", \"Firm\", \"Role\", \"School\", \"Email\", \"LinkedIn URL\": edit the contact's details\n- \"Relationship status\": set status to \"Not contacted\", \"Reached out\", \"In conversation\", \"Ongoing\", or \"Cold\"\n- \"Last contact date\": pick a date you last spoke with them\n- \"Background\": add notes about prior firm, group, or how you're connected (appears below the main fields)\n- \"Notes\": add longer notes about the contact (large text box)\n- \"Save changes\": save your edits to the contact\n- \"Delete\": remove this contact from your list\n- relevance tags: see which connections match your profile (school, hometown, interests, clubs) if your profile is filled in\n- \"Draft email\": open a quick email composer in a side panel to write a cold outreach to them\n- \"Sourced from the firm's official site\": link to where this contact was found, if auto-added from a firm directory\n- back arrow or \"Industry Contacts\" link: return to your contacts list\nLimits:\n- \"Name\" is required\n- if your profile has no school, hometown, interests, or clubs filled in, relevance tags do not appear; fill your profile to see matches\n\nRelated: Industry Contacts (/contacts), Email drafts (/outreach/email), Profile (/profile/interests)"
+    },
+    "/contacts/company/[key]": {
+      "hash": "c79397a54c7db2ebd19f0157bef020ee94d1b41d9bbcd77e3bb637e1857f1ed3",
+      "sources": [
+        "src/app/(app)/contacts/company/[key]/page.tsx",
+        "src/app/(app)/discovery/FirmLogo.tsx",
+        "src/lib/badges.ts",
+        "src/lib/safe-url.ts"
+      ],
+      "title": "Company Contacts",
+      "text": "For: view all people you know at a specific firm, grouped by division\nGet there: \"Industry Contacts\" page, then click a company name; /contacts/company/[company-key]\nDo here:\n- Click \"← Industry Contacts\": go back to your full contacts list\n- Click a person's name: open their individual contact card\n- Click the email address: open your email client to send them a message\n- Click \"LinkedIn\": open their LinkedIn profile in a new window (only appears if available)\n- Click \"Firm profile\": view that firm's full recruiting page and details (only appears if the firm is in the directory)\n- View contact's role and seniority: shown under their name\n- View contact's school: shown on the right if recorded\n- View relationship status badge: shows whether you have not contacted them, reached out, are in conversation, have an ongoing relationship, or marked them cold\n\nThe page groups contacts by the divisions the firm recruits for—Investment Banking, Private Equity, Hedge Funds, Asset Management, Sales and Trading, and others. If a contact's division is not recorded, they appear under \"Division not known\". The firm's logo appears at the top with a count of your total contacts at that company.\n\nRelated: Industry Contacts (/contacts); individual contact card (/contacts/[contact-id])"
+    },
+    "/contacts/import": {
+      "hash": "2d63f42db39d0465a8ded45f30612d79f2156c0deb8f26d7f9acc8eb0ab7b27d",
+      "sources": [
+        "src/app/(app)/contacts/import/ImportForm.tsx",
+        "src/app/(app)/contacts/import/actions.ts",
+        "src/app/(app)/contacts/import/page.tsx",
+        "src/lib/content-limits.ts",
+        "src/lib/csv-import.ts"
+      ],
+      "title": "Import contacts",
+      "text": "For: Bulk-add contacts from a CSV file instead of typing them one by one.\nGet there: \"Contacts\" sidebar label, then click the import button; /contacts/import\nDo here:\n- Drop or select a CSV file: accepts a LinkedIn connections export (from Settings → Data privacy → Get a copy of your data → Connections) or any CSV with name, company, role, email, and optional school, notes, LinkedIn URL, or last contact date columns\n- Preview the parsed rows in a table: shows name, firm, role, and email for up to 25 contacts; if more exist, displays a count of the rest\n- \"Import [number] contact(s)\" button: saves all valid rows to your contacts list and returns you to the contacts page\nLimits:\n- File size: up to 2,000,000 characters and 2,000 rows per import\n- Your total contacts across all imports: up to 10,000\n- Import frequency: maximum 10 imports per hour\n- Required field: name; all others optional\n- Character limits: name 200 chars, firm/role/school/email each 200 chars, LinkedIn URL 500 chars, notes 4,000 chars\n- Rows with no name are skipped and counted separately\n- LinkedIn URLs must be valid; invalid URLs are silently dropped but the row is kept\n- Name, firm, role, school, and notes cannot contain slurs, hateful language, or profanity\n- Empty states: if the CSV has no valid header row, or no rows have a name, an error message appears and nothing imports\n\nRelated: Contacts (/contacts)"
+    },
+    "/contacts/new": {
+      "hash": "00139d35c3852d6a5383c7f94d0a6429981f6f678fcc61ffa2bdd0b541ca0236",
+      "sources": [
+        "src/app/(app)/contacts/ContactForm.tsx",
+        "src/app/(app)/contacts/actions.ts",
+        "src/app/(app)/contacts/new/page.tsx"
+      ],
+      "title": "Add contact",
+      "text": "For: Create a new contact to track for recruiting outreach\nGet there: \"Add contact\" button on Contacts page (/contacts/new)\nDo here:\n- \"Name\": enter contact's full name (required)\n- \"Firm\": enter company or organization name\n- \"Role\": enter job title or position\n- \"School\": enter university or college\n- \"Email\": enter email address\n- \"LinkedIn URL\": enter full LinkedIn profile link\n- \"Relationship status\": select current stage of outreach from \"Not contacted\", \"Reached out\", \"In conversation\", \"Ongoing\", or \"Cold\" (defaults to \"Not contacted\")\n- \"Last contact date\": enter the date you last spoke with this contact\n- \"Background\": enter details like prior firm, group, or how you're connected (multiline)\n- \"Notes\": enter any additional information about the contact (multiline)\n- \"Add contact\": save the new contact and go to their profile\n- \"Cancel\": return to Contacts page without saving\nLimits:\n- \"Name\" is required; all other fields are optional\n- Certain words may be blocked in form fields\n\nRelated: Contacts (/contacts), Contact profile (/contacts/[id])"
+    },
+    "/dashboard": {
+      "hash": "29df5ffa939aae28c7ecbf1fce099f959bfd1b7f067d9808f867a9fcb6a66e63",
+      "sources": [
+        "src/app/(app)/ExpandableGrid.tsx",
+        "src/app/(app)/SectionTopBar.tsx",
+        "src/app/(app)/applications/TrackToggle.tsx",
+        "src/app/(app)/dashboard/AddTopFirmButton.tsx",
+        "src/app/(app)/dashboard/ContactMap.tsx",
+        "src/app/(app)/dashboard/FindTopFirmsButton.tsx",
+        "src/app/(app)/dashboard/LoadNextButton.tsx",
+        "src/app/(app)/dashboard/MatchedFirmGrid.tsx",
+        "src/app/(app)/dashboard/TaskRow.tsx",
+        "src/app/(app)/dashboard/TodayList.tsx",
+        "src/app/(app)/dashboard/TopApplications.tsx",
+        "src/app/(app)/dashboard/TopApplicationsSection.tsx",
+        "src/app/(app)/dashboard/TopFirmsBoard.tsx",
+        "src/app/(app)/dashboard/TopFirmsSection.tsx",
+        "src/app/(app)/dashboard/actions.ts",
+        "src/app/(app)/dashboard/layout.tsx",
+        "src/app/(app)/dashboard/loading.tsx",
+        "src/app/(app)/dashboard/page.tsx",
+        "src/app/(app)/dashboard/todo-actions.ts",
+        "src/app/(app)/discovery/FirmLogo.tsx",
+        "src/app/(app)/discovery/firm/[slug]/GenerateContactsButton.tsx",
+        "src/app/(app)/drafts/QuickDraft.tsx",
+        "src/lib/expected-postings.ts",
+        "src/lib/internship-year.ts",
+        "src/lib/label-colors.ts",
+        "src/lib/posting-timing.ts",
+        "src/lib/role-title.ts",
+        "src/lib/task-types.ts",
+        "src/lib/us-map.ts"
+      ],
+      "title": "Dashboard",
+      "text": "For: see your recruiting pipeline at a glance — your top firms, today's tasks, applications to send, and where your network is\nGet there: \"Dashboard\" tab in External Network (top of /dashboard)\nDo here:\n- Open a firm card to see contacts and roles: click the firm's name or chevron\n- \"Generate contacts\": search for people at a firm using your profile and resume; shows matches with emails and why they fit you\n- \"Find more people\": request a different set of contacts after generating\n- Reorder your top firms list by dragging firms or using arrow keys on the drag handle\n- \"Add a firm you're targeting\": search and add a firm to your list\n- Remove a firm: click the X on hover\n- \"Track\" or stop tracking a posting: click the bookmark icon on any role card\n- \"Apply\": click to open the application on the firm's site\n- Mark a task done: click the checkmark on any task in the Today section\n- \"Load the next 5\": load more tasks after completing today's five\n- \"Find my top firms\": run an AI search to match firms to your profile (appears when you have no matches or new firms match your sectors)\n- Click a dot on the contact map to see which firms you know people at in that city\nLimits:\n- You can only open one firm at a time\n- Each contact search uses one of your monthly searches (or unlimited if your account has them)\n- The map shows only US cities\n- Expected roles appear only if they're likely to open within about a month\nRelated: Industry Contacts (/contacts), Discovery (/discovery), Schedule (/schedule), Internships (/discovery/internships), Email drafts (/drafts)"
+    },
+    "/discovery": {
+      "hash": "1bcb2dc9feb11d2b4fa501afefc34508f61eb94373291a785e788a49d713b371",
+      "sources": [
+        "src/app/(app)/ExpandableGrid.tsx",
+        "src/app/(app)/MultiSelect.tsx",
+        "src/app/(app)/applications/TrackToggle.tsx",
+        "src/app/(app)/dashboard/actions.ts",
+        "src/app/(app)/discovery/ExpectedPostings.tsx",
+        "src/app/(app)/discovery/FirmBrowser.tsx",
+        "src/app/(app)/discovery/FirmLogo.tsx",
+        "src/app/(app)/discovery/IndustryCards.tsx",
+        "src/app/(app)/discovery/InternshipBrowser.tsx",
+        "src/app/(app)/discovery/InternshipPostings.tsx",
+        "src/app/(app)/discovery/MatchedSection.tsx",
+        "src/app/(app)/discovery/firmBrowserConfig.ts",
+        "src/app/(app)/discovery/firmFilterParams.ts",
+        "src/app/(app)/discovery/firmSearchAction.ts",
+        "src/app/(app)/discovery/loading.tsx",
+        "src/app/(app)/discovery/page.tsx",
+        "src/lib/content-limits.ts",
+        "src/lib/crest-version.ts",
+        "src/lib/expected-postings.ts",
+        "src/lib/firm-logo-domain.ts",
+        "src/lib/role-title.ts",
+        "src/lib/safe-url.ts"
+      ],
+      "title": "Discovery",
+      "text": "For: exploring matched firms, internship openings, and the full firm directory by sector, size, location and other filters\nGet there: \"Discovery\" in the sidebar\nDo here:\n- \"Your matches\" tab: view AI-matched firms picked for you based on your profile interests, with a list of people to contact at each and roles that are open\n- \"Internships\" tab: browse summer internship postings across all firms; search by firm, role or location name; filter by industry, deadline (confirmed date, rolling, TBD or closed), and location (states and cities); sort by best match, deadline soonest, firm name or role name; click \"Clear filters\" to reset all\n- \"Firms\" tab: search the full firm directory by name or location; filter by sector, assets under management (custom range slider), location (states and cities), or verified student program status; click \"Show more\" to load additional results\n- Internship cards: click to expand and see full role description, timing, recruiter contact info, link to firm profile and apply button; use track toggle to add or remove from your applications pipeline\n- Firm cards: click to view full firm profile with all their open roles\n- Expected postings section: view internship roles expected to open based on last cycle's dates, with link to firm careers page instead of apply button\nLimits:\n- Firm directory shows 100 results on first load, then 50 more per click\n- Internship browser shows up to 12 expected postings before \"Show all\"\n- Search limited to 100 characters\n- Location filters accept up to 10 place names\n- Assets under management slider ranges from $1M to $1T\nRelated: Applications pipeline (/applications), Profile interests (/profile/interests), Contacts directory (/contacts)"
+    },
+    "/discovery/[category]": {
+      "hash": "491871d3f9b0e32353b488111839b8fdb82af0a532f283a09b03f607141db74d",
+      "sources": [
+        "src/app/(app)/MultiSelect.tsx",
+        "src/app/(app)/discovery/FirmBrowser.tsx",
+        "src/app/(app)/discovery/FirmLogo.tsx",
+        "src/app/(app)/discovery/[category]/RecruitingTimeline.tsx",
+        "src/app/(app)/discovery/[category]/page.tsx",
+        "src/app/(app)/discovery/firmBrowserConfig.ts",
+        "src/app/(app)/discovery/firmFilterParams.ts",
+        "src/app/(app)/discovery/firmSearchAction.ts"
+      ],
+      "title": "Discovery category (firms in a sector)",
+      "text": "For: browse and filter firms in a specific finance sector, see when recruiting typically happens, and link to internship openings in that sector\nGet there: click a sector name from /discovery, or visit /discovery/[category] where category is investment-banking, private-equity, hedge-funds, asset-management, sales-trading, or other-roles\nDo here:\n- \"Search by firm name or location\": type to filter the firm list by text, updates live with a 250ms delay\n- \"All locations\": pick states and cities where firms are based, or type custom place names to search headquarters text; can combine multiple states or places\n- \"All sizes\": filter by asset-under-management bands (Mega, Large, Mid, Small, Not reported) or set a custom range by typing or dragging sliders; supports shorthand like 750M, 2.5B, 1T\n- \"Known student program\": toggle to show only firms with a verified recruiting program\n- \"Clear\": remove all active filters except the locked sector\n- \"Show [X] more\": load the next batch of firms\n- click a firm card to view its details and return here on back\n- \"Internships in [sector]\": link to posting listings for this sector\nLimits:\n- Cannot combine \"Known student program\" filter with a location filter (those firms lack location data)\n- Cannot filter by firm type on a sector page (the sector is locked)\nRelated: Firms directory (/discovery/firms), individual firm detail page (/discovery/firm/[slug])"
+    },
+    "/discovery/[category]/internships": {
+      "hash": "976682482858ca1a8ed3f31432bb3ce59d023f898b3438b322821c23438ced0d",
+      "sources": [
+        "src/app/(app)/ExpandableGrid.tsx",
+        "src/app/(app)/MultiSelect.tsx",
+        "src/app/(app)/discovery/ExpectedPostings.tsx",
+        "src/app/(app)/discovery/FirmLogo.tsx",
+        "src/app/(app)/discovery/InternshipBrowser.tsx",
+        "src/app/(app)/discovery/InternshipPostings.tsx",
+        "src/app/(app)/discovery/[category]/RecruitingTimeline.tsx",
+        "src/app/(app)/discovery/[category]/internships/page.tsx",
+        "src/lib/internship-year.ts"
+      ],
+      "title": "Internships in [Industry]",
+      "text": "For: browsing internship postings filtered to a specific industry, with a recruiting timeline and expected roles for the coming season\nGet there: from the Discovery tab's industry cards, and at /discovery/[category]/internships\nDo here:\n- \"← Internships\": return to the combined internship browser\n- \"Firms in [Industry] →\": switch to the firms view for this industry\n- \"Recruiting timeline\": view the typical application and interview schedule for this sector, with today's position marked\n- \"Search by firm, role or location\": filter postings by text match\n- \"Any deadline\": filter postings by deadline status (Confirmed date, Rolling, Deadline TBD, Closed)\n- \"All locations\": filter postings by state, city or region; search locations by name\n- \"Sort\": order postings by Best match, Deadline soonest, Firm A–Z, or Role A–Z\n- \"Clear filters\": reset all filters\n- click a firm card: expand to see all that firm's postings, full job descriptions, recruiter contact details, and links to apply\n- \"Track\": save a posting to your applications\n- \"View [Firm] profile →\": open the firm's full profile in Discovery\n- \"Read the full posting\": open the original posting on the firm's site\n- \"Apply\": open the application or firm careers page\n- \"Show all [count] →\": reveal postings expected to open soon based on last cycle's dates\n- \"What it was last year\": read the description of an expected posting before it opens\n- \"[Firm] careers page\": open the careers page for an expected posting's firm\nLimits:\n- Shows only postings for your target internship year; add your graduation year in your profile to see any\n- Only one firm card can be expanded at a time\n- Free version shows current postings and timeline; Pro may offer additional features\nRelated: Combined internship browser (/discovery/internships), Firms view (/discovery/[category]), Discovery tab overview (/discovery)"
+    },
+    "/discovery/firm/[slug]": {
+      "hash": "42540910196ae35b833c756e8d9c34c998c4f8fe2060749f89cc40256f7b0fe3",
+      "sources": [
+        "src/app/(app)/discovery/FirmLogo.tsx",
+        "src/app/(app)/discovery/firm/[slug]/FirmProgramTabs.tsx",
+        "src/app/(app)/discovery/firm/[slug]/FirmRecruitingEvents.tsx",
+        "src/app/(app)/discovery/firm/[slug]/GenerateContactsButton.tsx",
+        "src/app/(app)/discovery/firm/[slug]/ReportOpeningForm.tsx",
+        "src/app/(app)/discovery/firm/[slug]/actions.ts",
+        "src/app/(app)/discovery/firm/[slug]/cycles.ts",
+        "src/app/(app)/discovery/firm/[slug]/generateContactsAction.ts",
+        "src/app/(app)/discovery/firm/[slug]/page.tsx",
+        "src/app/(app)/drafts/Composer.tsx",
+        "src/app/(app)/drafts/QuickDraft.tsx",
+        "src/app/(app)/drafts/quick-draft-actions.ts",
+        "src/lib/contact-email-render.ts",
+        "src/lib/content-limits.ts",
+        "src/lib/firm-delivery-rules.ts",
+        "src/lib/label-colors.ts",
+        "src/lib/recruiting-event-display.ts",
+        "src/lib/relevance.ts",
+        "src/lib/safe-url.ts"
+      ],
+      "title": "Firm Detail Page",
+      "text": "For: learn about a specific firm, see who works there, add recruiting events to your calendar, and report openings you've spotted\n\nGet there: \"← Back\" link from a filtered Discovery view, or direct URL `/discovery/firm/[slug]`\n\nDo here:\n- Read the firm's description, headquarters, key offices, website link, and self-description\n- \"Top people to reach out to\": view up to five ranked contacts with LinkedIn profiles and reasons to contact them; click \"Draft\" to write a cold email\n- \"Your contacts here\": use \"Generate [N] contacts\" to AI-search for people at this firm; view saved contacts with emails (verified, catch-all, or predicted), titles, and LinkedIn profiles; click to view details or draft an email\n- \"Recruiting events at [Firm]\": see upcoming events with dates, times, locations, and registration deadlines; click \"Add to my calendar\" to save events\n- \"Programs & application timing\": browse recruiting programs by sector, showing role names, timing guidance, careers page links, recruiting channel contacts, and \"Add reminder to Schedule\" buttons\n- \"Seen [Firm] open applications?\": click \"Report an opening\" to choose the programme and recruiting cycle, optionally paste a link and add notes, then submit to record as a student sighting\n- View how many other students have reported this firm as open this cycle\n\nLimits:\n- \"Add to my calendar\" requires the event to have a published date\n- Contact search limited by monthly credit allowance\n- Report opening limited to 30 submissions per student per 24 hours\n- Report opening notes limited to 500 characters; URLs limited to 500 characters\n- URLs must start with http:// or https://\n- Only recruiting cycles within one year before and after the current default cycle may be reported\n\nRelated: Discovery directory (/discovery), Schedule (/schedule), Contacts (/contacts), Email drafts (/drafts)"
+    },
+    "/discovery/internships": {
+      "hash": "a15832ecd7c624c9a1c88e4c768b95b591d1f9eeb123bfdadcfba79527332d44",
+      "sources": [
+        "src/app/(app)/ExpandableGrid.tsx",
+        "src/app/(app)/MultiSelect.tsx",
+        "src/app/(app)/discovery/FirmLogo.tsx",
+        "src/app/(app)/discovery/IndustryCards.tsx",
+        "src/app/(app)/discovery/InternshipBrowser.tsx",
+        "src/app/(app)/discovery/InternshipPostings.tsx",
+        "src/app/(app)/discovery/internships/page.tsx",
+        "src/lib/internship-year.ts"
+      ],
+      "title": "Internships",
+      "text": "For: Browse internship postings filtered by industry, deadline, location and search, with details and recruiter contact info\nGet there: \"Internships\" in the sidebar, /discovery/internships\nDo here:\n- \"Search by firm, role or location\": search postings by text\n- \"All industries\": filter by industry category; shows count per industry\n- \"Any deadline\": filter by deadline status (Confirmed date, Rolling, Deadline TBD, Closed)\n- \"All locations\": filter by state or city; expand a state to pick individual cities\n- \"Sort\": reorder by Best match, Deadline soonest, Firm A–Z, or Role A–Z\n- \"Clear filters\": reset all filters at once\n- Click a firm card: open its postings in a full-width panel below the row\n- Click a posting: expand details — full role title, program summary, requirements, recruiter contact, links to firm profile and application\n- \"Show full posting\": reveal boilerplate sections (only if present)\n- Track toggle (bell icon): add role to your tracking list\n- \"Apply\": open the application URL in a new tab\n- \"View [firm] profile\": open the firm's Discovery page\n- \"Read the full posting\": open the original posting URL\n- Industry pills at top: filter by one industry and see only its postings\nLimits:\n- You must set your graduation year in your profile to see postings matched to your recruiting cycle\n- Only one firm card can be open at a time\n- A posting that spans multiple industries counts under each one\n- Postings are shown only for your grad year's recruiting cycle (the summer before graduation)\nRelated: Firms (/discovery/firms), individual industry pages (/discovery/[category]/internships)"
+    },
+    "/drafts": {
+      "hash": "c1f681d7889ada670d3d2f24a25ef6c76b6dbb3ba3351e1fc02cc58bab34866c",
+      "sources": [
+        "src/app/(app)/drafts/Composer.tsx",
+        "src/app/(app)/drafts/DraftStreamPreview.tsx",
+        "src/app/(app)/drafts/GenerateForm.tsx",
+        "src/app/(app)/drafts/QuickDraft.tsx",
+        "src/app/(app)/drafts/RecipientPicker.tsx",
+        "src/app/(app)/drafts/actions.ts",
+        "src/app/(app)/drafts/draft-request.ts",
+        "src/app/(app)/drafts/draft-stream-view.ts",
+        "src/app/(app)/drafts/layout.tsx",
+        "src/app/(app)/drafts/page.tsx",
+        "src/app/(app)/drafts/quick-draft-actions.ts",
+        "src/app/(app)/drafts/suggestion-actions.ts",
+        "src/app/(app)/drafts/useDraftStream.ts",
+        "src/lib/content-limits.ts",
+        "src/lib/copy-send.ts",
+        "src/lib/draft-field-labels.ts",
+        "src/lib/draft-form-answers.ts",
+        "src/lib/firm-links.ts",
+        "src/lib/outreach-ladder.ts",
+        "src/lib/quick-draft.ts",
+        "src/lib/relevance.ts",
+        "src/lib/resume-formats.ts",
+        "src/lib/safe-url.ts",
+        "src/lib/time-zone.ts"
+      ],
+      "title": "Your past emails",
+      "text": "For: View and reopen every email you've drafted\nGet there: \"Outreach\" > link to \"Your past emails\" at top of Email drafts page, or direct to /drafts\nDo here:\n- Open any email: click its row to view what you entered and the draft as you last left it, where you can edit and send it\nLimits:\n- Free accounts cannot access this page; it requires Offerly Pro\nRelated: Email drafts (/outreach/email), Outreach (/outreach)"
+    },
+    "/drafts/[id]": {
+      "hash": "3bb4645f0b74c2c48663be4bffe6c149d8417ed73eeb38c5ade450f737bb89b8",
+      "sources": [
+        "src/app/(app)/drafts/Composer.tsx",
+        "src/app/(app)/drafts/[id]/page.tsx",
+        "src/app/(app)/drafts/actions.ts",
+        "src/app/(app)/drafts/draft-request.ts"
+      ],
+      "title": "Draft Detail",
+      "text": "For: edit and send a single email draft\nGet there: \"Past emails\" link from /drafts, or directly at /drafts/[id]\nDo here:\n- \"Copy email\": copy the entire message body to your clipboard and record it as sent, marking your follow-up ladder\n- \"Copy subject\": copy just the subject line\n- \"Save\": save any edits you made to the subject or body\n- Edit \"To\" field: add or change the recipient's email address\n- Edit subject line: type or change the email's subject\n- Edit message body: type or change the email text; any text in red [brackets] is a placeholder you must fill in before sending\n- \"I sent this email\" checkbox: tick it if you sent this email outside Offerly (through your own mail), or untick it to take back a recorded send; ticking also marks it as sent and starts the follow-up clock\n- \"Undo\" button: appears after you copy the email or tick the checkbox; click to take back the send record\n- \"Delete\" button: delete this draft and its archived copy\n- Copy via keyboard: press Cmd+C while selecting most of the message body to record it as sent (same as \"Copy email\" button)\nLimits:\n- Subject line: 500 characters max\n- Message body: 20,000 characters max\n- Email address required in the \"To\" field to mark as sent\n- Copying the email is blocked if the message still has text in [brackets] that needs to be filled in\n- If a resume should attach: the composer reminds you to drag or attach it yourself in your mail, since copied text cannot carry files\nRelated: Past emails list (/drafts), generate a new draft (the form before this page)"
+    },
+    "/for-firms": {
+      "hash": "148d6beefa979eae6dedc4fde801d29fcc3e0af5226920d6c466bf848ac170eb",
+      "sources": [
+        "src/app/(marketing)/Reveal.tsx",
+        "src/app/(marketing)/WaitlistButton.tsx",
+        "src/app/(marketing)/WaitlistHeroForm.tsx",
+        "src/app/(marketing)/for-firms/page.tsx",
+        "src/app/(marketing)/useInViewReveal.ts"
+      ],
+      "title": "For firms",
+      "text": "For: learn what the firm portal does and join the waitlist to recruit on Offerly\nGet there: /for-firms\nDo here:\n- \"Join the firm waitlist\": opens a form to add your firm to the waitlist; you enter work email, name, your title, and firm name, then opt in to email updates\nLimits:\n- \"Work email\", \"Name\", \"Your title\", and \"Firm\" are required fields\n- All fields must be filled before you can submit\n- You must check the consent box to receive email updates when Offerly opens\n\nRelated: Waitlist (form in dialog on this page)"
+    },
+    "/help": {
+      "hash": "d2df1df74cd16718d14e27c2642caba9ac3189ce3bc75380239ff41ddf671a39",
+      "sources": [
+        "src/app/(app)/help/HelpChat.tsx",
+        "src/app/(app)/help/help-actions.ts",
+        "src/app/(app)/help/page.tsx",
+        "src/lib/content-limits.ts",
+        "src/lib/help-chat-rules.ts",
+        "src/lib/help-reply-format.ts",
+        "src/lib/nav-sections.ts"
+      ],
+      "title": "/help",
+      "text": "The draft didn't come through. The message ends after \"Here is a draft entry:\" with nothing under it, so I have no text to cut down.\n\nPlease paste one of these:\n\n- The source code for the page you want documented. I'll write the entry from that, using only what the code shows.\n- The draft entry itself, if you already have one. I'll cut it to under 250 words and keep every action a student can take.\n\nIf the page only redirects somewhere else, send its source code too. I'll write the two-line redirect entry for it."
+    },
+    "/learn": {
+      "hash": "7c02883000940f7b5cfb832f0fbb9cc68cd33949bc4815e37a402f87d8c0b186",
+      "sources": [
+        "src/app/(app)/SectionTopBar.tsx",
+        "src/app/(app)/learn/PlatformerGame.tsx",
+        "src/app/(app)/learn/PracticeSession.tsx",
+        "src/app/(app)/learn/SchoolLeaderboard.tsx",
+        "src/app/(app)/learn/layout.tsx",
+        "src/app/(app)/learn/loading.tsx",
+        "src/app/(app)/learn/page.tsx",
+        "src/app/(app)/learn/pixel-font.ts",
+        "src/app/(app)/learn/practice-actions.ts",
+        "src/lib/content-limits.ts",
+        "src/lib/practice-config.ts",
+        "src/lib/question-bank/picker-labels.ts",
+        "src/lib/question-bank/specialties.ts",
+        "src/lib/question-bank/types.ts"
+      ],
+      "title": "Interview Prep",
+      "text": "For: practice interview questions and build your skills through rounds of technical, behavioral, or mixed questions with instant feedback\nGet there: \"Practice rounds\" tab at /learn\nDo here:\n- \"Format\": pick Technical, Behavioral, or Mixed mode\n- \"Difficulty\": choose Beginner, Intermediate, Advanced, or Surprise me\n- \"Questions\": select Written, Multiple choice, or Mixed types\n- \"Industry\": pick one or more sectors (Investment Banking, Private Equity, etc.); required for technical or mixed rounds, optional for behavioral\n- \"Sector\": narrow to specialties like Restructuring or M&A Advisory, or pick \"All [Industry]\"\n- \"Start round\": begin a 10-question round; works by pressing Enter\n- answer by typing (written) or clicking an option (multiple choice)\n- \"Submit\": send your answer; works by pressing Enter or Shift+Enter for a new line\n- review your grade with feedback, points earned, what you got wrong, and what you missed\n- \"Next question\" or \"Finish\": move through questions or see your round summary\n- \"Play again\": start another round with the same setup; your streak carries over\n- \"Change setup\": customize your next round\n- see your personal best score, current streak, and best streak at the top\n- view the school leaderboard showing how you rank against classmates by points, best streak, rounds played, or applications\n- play the platformer game (technical multiple-choice only): answer correctly to climb; a perfect 10-question run reaches the flag\nLimits:\n- Rounds are 10 questions, scored out of 100 points\n- Written answers capped at 4000 characters\n- Interview Prep is Pro only\n- Questions may run dry for specific difficulty and industry combos\n- Multiple-choice questions are marked instantly; written questions use AI grading\n- School leaderboard requires verifying your school email\nRelated: Video interview practice at /learn/video"
+    },
+    "/learn/video": {
+      "hash": "ea1393babcffbf33c21d40679c9fdcd2d9215a44b5837b2b204ead6f87c00d0d",
+      "sources": [
+        "src/app/(app)/learn/video/CoachUnavailable.tsx",
+        "src/app/(app)/learn/video/InterviewReport.tsx",
+        "src/app/(app)/learn/video/InterviewSetup.tsx",
+        "src/app/(app)/learn/video/RobotInterviewer.tsx",
+        "src/app/(app)/learn/video/TrainingConsentDialog.tsx",
+        "src/app/(app)/learn/video/VideoInterview.tsx",
+        "src/app/(app)/learn/video/actions.ts",
+        "src/app/(app)/learn/video/page.tsx",
+        "src/lib/use-reduced-motion.ts",
+        "src/lib/video-interview/end-interview.ts",
+        "src/lib/video-interview/interview-machine.ts",
+        "src/lib/video-interview/start-flow.ts",
+        "src/lib/video-interview/types.ts"
+      ],
+      "title": "Video interview",
+      "text": "For: practice one-way interviews with an AI interviewer, get transcripts and feedback on each answer, then see your overall score and insights\nGet there: sidebar label \"Video interview\" or web address /learn/video\nDo here:\n- \"Set up your interview\": choose \"Behavioral\", \"Technical\", or \"Both\" mode, set \"Think time\" (15/30/60 seconds) and \"Answer time\" (60/120/180 seconds), pick \"Technical level\" for technical questions\n- \"How your answers are handled\": read what happens to your answers, tick the checkbox, and click \"Save\" to consent before starting\n- \"Start interview\": begin a five-question interview after consenting\n- \"Your past interviews\": view finished interviews by type and date with score, click one to open its report, click the trash icon to delete one, or click \"Delete all my video interview data\" to remove everything\n- \"Turn on camera\": request camera and microphone access, then \"Begin interview\"\n- During the interview: \"Replay question\" to hear it again, \"Mute interviewer\" to toggle the AI's voice, \"I'm ready - start the countdown\" to skip think time, \"Finish answer\" to end recording early, \"Try again\" to re-record, \"Record again\" to re-record from scratch, \"Skip question\" to move on, or \"End interview\" to finish early\n- After each answer: watch playback video, download it, or open \"Transcript\" to read what was transcribed\n- On the report page: view overall score out of 100, category scores (Grammar & clarity, Pace & pauses, Filler words & repetition, Structure, Relevance, Completeness, Logic, Concision), delivery stats, \"What went well\" and \"Work on next\" lists, expand questions for per-answer feedback with STAR structure analysis for behavioral answers, grammar notes, and key concepts, or click \"New interview\" or \"Delete this interview\"\n- \"Retry saving training copy\": if camera recording failed to upload for training, try again\nLimits:\n- Five questions per interview\n- Must allow camera and microphone access in your browser\n- Minimum 2 seconds must be recorded before finishing an answer\n- Training contribution is optional; change it in Profile > Connections\nRelated: Profile > Connections (/profile/connections)"
+    },
+    "/legal": {
+      "hash": "912a8b2bda7de5fc5f8271eca18c6590d4c2e95bd0fda22ab028af03ddf5fbd4",
+      "sources": [
+        "src/app/(marketing)/legal/LegalDocument.tsx",
+        "src/app/(marketing)/legal/page.tsx",
+        "src/lib/legal-docs.ts"
+      ],
+      "title": "Legal",
+      "text": "For: reading Offerly's terms, privacy policy and other legal documents\nGet there: \"Legal\" link in the footer, at /legal\nDo here:\n- click a document title to read it: each document opens on its own page with the full text\nDocuments are grouped by who they're for: \"For students\" covers Terms of Service, Privacy Policy, Subscription Terms, Community Guidelines, Outreach Code of Conduct, Messaging Terms and How Offerly Uses AI; \"For everyone\" covers Notice to Professionals, Resume Link Notice, Copyright and IP Policy, Accessibility, Security and Vulnerability Disclosure, and Law Enforcement Guidelines; \"For firms\" covers Firm Terms of Service, Firm Posting Guidelines and Firm Data Protection Addendum. Each document shows a one-line summary to help you find what you need.\nRelated: Terms of Service (/terms), Privacy Policy (/privacy), Subscription Terms (/legal/subscription-terms), Community Guidelines (/legal/community-guidelines), Outreach Code of Conduct (/legal/outreach-code-of-conduct), Messaging Terms (/legal/messaging-terms), How Offerly Uses AI (/legal/ai), Notice to Professionals (/legal/professionals), Resume Link Notice (/legal/resume-link), Copyright and IP Policy (/legal/copyright), Accessibility (/legal/accessibility), Security and Vulnerability Disclosure (/legal/security), Law Enforcement Guidelines (/legal/law-enforcement), Firm Terms of Service (/legal/firm-terms), Firm Posting Guidelines (/legal/firm-posting-guidelines), Firm Data Protection Addendum (/legal/firm-dpa)"
+    },
+    "/legal/[slug]": {
+      "hash": "8d2fcbbd662dfcbe3b7817282f15d5dd3b35a1ed7773b3a86c1fe8e4c5ac9d40",
+      "sources": [
+        "src/app/(marketing)/legal/LegalDocument.tsx",
+        "src/app/(marketing)/legal/[slug]/page.tsx",
+        "src/lib/legal-docs.ts"
+      ],
+      "title": "Legal Documents",
+      "text": "For: read Offerly's terms, policies, and guidelines\nGet there: \"Legal\" link in footer or navigation; /legal/[document-name]\nDo here:\n- follow the \"Contents\" table of contents to jump to sections within the document (on mobile, tap \"Contents\" to expand; on desktop it stays visible on the left)\n- click links in the document to navigate to related pages or external sites\n- read the document version if shown at the top\nLimits:\n- documents are read-only; you cannot edit or comment on them\n\nRelated: Legal hub (/legal)"
+    },
+    "/login": {
+      "hash": "03b470a505eb7b60469bc045c7d4747167d261035458c4d7c4e0625ecf51ffcc",
+      "sources": [
+        "src/app/(marketing)/illustrations.tsx",
+        "src/app/AudienceSwitch.tsx",
+        "src/app/AuthShell.tsx",
+        "src/app/DevAutofill.tsx",
+        "src/app/login/LoginForm.tsx",
+        "src/app/login/actions.ts",
+        "src/app/login/page.tsx"
+      ],
+      "title": "Log in",
+      "text": "For: signing into your Offerly account as a student\nGet there: \"Log in\" button on the home page, or /login\nDo here:\n- \"I'm a student\" / \"I'm at a firm\": switch between student and firm sign-in (students use passwords; firms use a code sent to their work email)\n- \"Email\": enter your email address\n- \"Password\": enter your password\n- toggle next to password field: show or hide your password as you type\n- \"Log in\": submit your credentials and sign in\n- \"Don't have an account? Sign up\": go to the sign-up page instead\nLimits:\n- Email and password are required fields\n- If you enter an incorrect email or password, you see \"Incorrect email or password\" - the app won't say which field was wrong, to keep account addresses private\n- If you fail to log in too many times from the same account or device in 15 minutes, the app blocks further attempts temporarily to prevent password guessing\n- If you try to log in with a firm account email (accounts that sign in with a work inbox code instead), you're told \"Firm accounts sign in at /firms/login\"\nRelated: Sign up (/signup), Firms log in (/firms/login)"
+    },
+    "/messages/[userId]": {
+      "hash": "5eec6f84a084855393d0e9c09f8f7e878b6d5df03f4b9d1320ab17d2fea01d07",
+      "sources": [
+        "src/app/(app)/messages/MessagesView.tsx",
+        "src/app/(app)/messages/NewMessageButton.tsx",
+        "src/app/(app)/messages/ScrollToEnd.tsx",
+        "src/app/(app)/messages/ThreadList.tsx",
+        "src/app/(app)/messages/[userId]/Composer.tsx",
+        "src/app/(app)/messages/[userId]/MessageBubble.tsx",
+        "src/app/(app)/messages/[userId]/page.tsx",
+        "src/app/(app)/messages/actions.ts",
+        "src/lib/message-limits.ts"
+      ],
+      "title": "Conversation with a student",
+      "text": "For: Send and read messages with one student from your network.\nGet there: Click a name in your Messages inbox, or use the pencil button to search and pick someone. Address: /messages/[userId]\nDo here:\n- \"Message [name]\": type a message in the text box at the bottom and press Enter to send, or Shift+Enter for a new line. The box grows as you type, up to 2000 characters.\n- \"Send\": button to submit your message. Greyed out while sending.\n- \"Edit\": on your own messages only, within 10 minutes of sending. Click to change the text, press Enter or click \"Save\" to confirm, or press Escape or click \"Cancel\" to stop. After 10 minutes the button disappears.\n- \"View profile\": button in the header to see the other student's full profile.\n- Back arrow: on mobile, returns to your inbox.\n- Scroll through the conversation: messages are grouped by date and show when they were sent. Your messages appear on the right in dark bubbles; theirs on the left in light bubbles. A time label and \"Edited\" tag appear below each message.\nLimits:\n- Messages are limited to 2000 characters.\n- You can only edit your own messages, and only within 10 minutes of sending.\n- Opening a conversation marks it read and removes its unread count.\n- Your message must not be empty.\nRelated: Messages inbox (/networking/messages)"
+    },
+    "/networking": {
+      "hash": "9da64421cb948d7509cdad4cece7a78452fb85c766f81515a915f716c159792a",
+      "sources": [
+        "src/app/(app)/SectionTopBar.tsx",
+        "src/app/(app)/discovery/FirmLogo.tsx",
+        "src/app/(app)/messages/PeopleFilters.tsx",
+        "src/app/(app)/networking/AddPeerButton.tsx",
+        "src/app/(app)/networking/BridgeIcon.tsx",
+        "src/app/(app)/networking/CommunityNav.tsx",
+        "src/app/(app)/networking/DiscussionsPanel.tsx",
+        "src/app/(app)/networking/FeedComposer.tsx",
+        "src/app/(app)/networking/FollowButton.tsx",
+        "src/app/(app)/networking/MeetPeersPanel.tsx",
+        "src/app/(app)/networking/NetworkingHub.tsx",
+        "src/app/(app)/networking/PeopleSection.tsx",
+        "src/app/(app)/networking/PostComposer.tsx",
+        "src/app/(app)/networking/ProfilePreviewCard.tsx",
+        "src/app/(app)/networking/actions.ts",
+        "src/app/(app)/networking/compose-actions.ts",
+        "src/app/(app)/networking/feed-actions.ts",
+        "src/app/(app)/networking/layout.tsx",
+        "src/app/(app)/networking/loading.tsx",
+        "src/app/(app)/networking/page.tsx",
+        "src/app/(app)/networking/peer-actions.ts",
+        "src/lib/content-limits.ts",
+        "src/lib/discussions.ts",
+        "src/lib/feed-engagement.ts",
+        "src/lib/feed.ts",
+        "src/lib/internships.ts",
+        "src/lib/peer-match.ts",
+        "src/lib/post-limits.ts",
+        "src/lib/safe-url.ts"
+      ],
+      "title": "Networking",
+      "text": "For: the social hub where students see what peers are doing, meet people to know, read discussions, and connect with classmates\nGet there: \"Networking\" in the sidebar at /networking\nDo here:\n- \"Feed\": scroll live posts from students about internship offers, superdays, questions, and accomplishments. Click a post to read it, add emoji reactions, or comment\n- \"Write a post\": share something with the feed by adding a title (up to 120 characters), text (up to 600 characters), and optionally one image (JPEG or PNG only), then \"Publish\"\n- \"Your profile\": preview card showing your photo or school crest, name, major, graduation year, About me, and internships. Click \"View as others see it\" for your full profile page, or \"Edit\" to change it\n- \"Discussions\": most active threads grouped by topic (Interviews, Technicals, Offers, etc.). Click one to read and reply, or tap \"All discussions\" to browse and start your own\n- \"Meet Peers\": students ranked by shared target firms, school, graduation year, sectors, cities and interests. \"Add +\" to add them as a peer, \"Message\" to write them, or \"Follow\" to watch their activity\n- \"Connect\": full directory of every student on Offerly, searchable by name, school or firm. \"Filters\" narrows by school, graduation year, or target firm. Each member shows followers and peer count. Same \"Add +\", \"Follow\" and \"Message\" options as Meet Peers. Stats row tracks your peer requests and mutual peers\n- Comments: up to 500 characters each\nLimits:\n- Posts: 40 per day, 12 with images per day\nRelated: Messages (/networking/messages), Clubs & firms (/networking/clubs), Posts you started (/networking/post)"
+    },
+    "/networking/clubs": {
+      "hash": "9bfd2589f9e2e51a2734306189cd2d5bb23c805ffb2d853a8faffd04975eb326",
+      "sources": [
+        "src/app/(app)/networking/FollowButton.tsx",
+        "src/app/(app)/networking/actions.ts",
+        "src/app/(app)/networking/clubs/ClubMembershipControls.tsx",
+        "src/app/(app)/networking/clubs/actions.ts",
+        "src/app/(app)/networking/clubs/page.tsx",
+        "src/lib/clubs.ts",
+        "src/lib/safe-url.ts"
+      ],
+      "title": "Clubs",
+      "text": "For: Find clubs at your school and see which ones you're a member of.\nGet there: \"Networking\" sidebar label, then select Clubs from the menu; /networking/clubs\nDo here:\n- \"Follow\" or \"Following\": toggle whether a club's posts appear in your feed. Following is not membership - only the club president can add members.\n- Click a club name or logo: open the club's page to see its description, members, and posts.\n- \"Leave club\": remove yourself as a member. A confirmation appears first. Only the president can add you back.\n- \"Website\": open the club's external website in a new tab, if it has one.\n\nThe page shows two sections. \"Your clubs\" lists only clubs you are a member of. \"Find clubs\" lists all other clubs at your school, sorted by activity (posts and members). Each card shows the club name, school, number of members, number of posts, and a sample tag if it's an example club. If you haven't set your school in your profile, no clubs appear and a message prompts you to add it.\n\nLimits:\n- You can follow or unfollow up to 300 clubs per hour.\n- You can only see clubs at your school. Multi-school clubs appear to all students.\n- Only a club's president can add or remove members.\n\nRelated: Club detail page (/networking/clubs/[slug]), Networking (/networking)"
+    },
+    "/networking/clubs/[slug]": {
+      "hash": "f2eae7027637534c5959eec99cb0452df3171e493b9c5e26099d4a53f0a63911",
+      "sources": [
+        "src/app/(app)/networking/FollowButton.tsx",
+        "src/app/(app)/networking/actions.ts",
+        "src/app/(app)/networking/clubs/ClubMembershipControls.tsx",
+        "src/app/(app)/networking/clubs/[slug]/page.tsx",
+        "src/app/(app)/networking/clubs/actions.ts",
+        "src/lib/clubs.ts",
+        "src/lib/safe-url.ts"
+      ],
+      "title": "Club",
+      "text": "For: View a club's details, members, and leadership; manage membership if you're the president.\nGet there: From \"Clubs\" (/networking/clubs), click a club name. The page is at /networking/clubs/[slug].\nDo here:\n- \"Leave club\": Exit the club. Only members can use this. A confirmation prompt appears first.\n- \"Follow\": Follow the club to see its posts in your feed. The button changes to \"Following\" after you click it.\n- \"Website\": Open the club's website in a new tab, if one is listed.\n- \"Search students by name\": President only. Type at least 2 characters to search for students not yet in the club. Results show name, school, and graduation year.\n- \"Add\": President only. Click next to a search result to add that student to the club.\n- \"Message\" button on each member: Open a direct message with that member.\n- \"Remove\" button on each member (president only): Remove that member from the club. A confirmation prompt appears first. You cannot remove yourself.\nLimits:\n- Only students at your school can see this club's page.\n- Only the club president (or co-president) can add or remove members.\n- Members can only leave; they cannot join on their own.\n- Following a club does not make you a member.\n- You can follow up to 300 targets (users, clubs, and firms combined) per hour.\nRelated: Clubs (/networking/clubs), User profile (/u/[id]), Messages (/messages/[id])"
+    },
+    "/networking/compose": {
+      "hash": "76715eaec1696f20ad7b8cfe5e66d97c9040d1b360453cc453c3cb1d03432313",
+      "sources": [
+        "src/app/(app)/networking/PostComposer.tsx",
+        "src/app/(app)/networking/actions.ts",
+        "src/app/(app)/networking/compose/page.tsx",
+        "src/lib/feed.ts"
+      ],
+      "title": "Compose a post",
+      "text": "For: Create and publish an event, announcement, or other post to the networking feed\nGet there: \"Compose\" tab in the sidebar, at /networking/compose\nDo here:\n- \"What kind of post is this?\": Choose the post type: Event, Speaker event, Coffee chat, Deadline, or Announcement. Announcements don't require a date; other types do.\n- \"Title\": Enter a title up to 200 characters\n- \"Description\": Enter details up to 4000 characters (who it's for, what you'll cover, how to sign up)\n- \"Starts\": Set the date and time the post begins (required for non-announcements)\n- \"Ends (optional)\": Set when it ends; must be after the start time if filled\n- \"Industry (optional)\": Tag it to a specific sector or leave it as \"Not sector-specific\"\n- \"Who should see this?\": Choose \"Students at every school\" or \"Only my school\"\n- \"Location (optional)\": Enter the venue up to 200 characters, or leave blank\n- \"Link (optional)\": Paste a URL up to 500 characters (sign-up form, registration page, etc.)\n- \"What should the button say?\": If you added a link, pick the button text: Details, Sign up, RSVP, Apply, or Register\n- \"Post to feed\": Submit the form to publish\nLimits:\n- Title: 200 characters max\n- Description: 4000 characters max\n- Location: 200 characters max\n- Link: 500 characters max\n- Only club leads and firm accounts approved to post can access this page; students cannot post\n- End time must not be before start time\n- Events, speaker events, coffee chats, and deadlines require a start date and time; announcements do not\n- Content is scanned for blocked language\n- You can post to your school only or to all schools on the feed"
+    },
+    "/networking/connect": {
+      "hash": "4d98a69b46010b962ec1f6b8d7ba61c1414cc99a59969eadd23defa76546e007",
+      "sources": [
+        "src/app/(app)/messages/PeopleFilters.tsx",
+        "src/app/(app)/networking/AddPeerButton.tsx",
+        "src/app/(app)/networking/FollowButton.tsx",
+        "src/app/(app)/networking/PeopleSection.tsx",
+        "src/app/(app)/networking/connect/page.tsx"
+      ],
+      "title": "Connect",
+      "text": "For: Browse and message students on Offerly, ranked by similarity to your profile.\nGet there: \"Community\" sidebar, then \"Connect\" tab; /networking/connect\nDo here:\n- Search box: find members by name, school, or target firm (case-insensitive)\n- \"Filters\" button: filter by school, graduation year, or target firms. Type to narrow options or pick from chips for grad years. Click a filter chip to toggle it; \"Clear all\" removes all filters at once\n- Stats row: shows member count, your peer count (linked to Peers page if nonzero), peer request count (linked to Peers page if nonzero), and following count\n- Active filters and search appear as removable chips below. Click the X on any chip to remove it; \"Clear all\" link removes all at once\n- Member cards: show name, school, grad year, follower and peer counts, target firms, and matching reasons (like \"Same school\")\n- \"Add +\" / \"Requested\" / \"Add back\" / \"Peers\" button on each card: add someone as a peer (mutual connection). Label shows state and toggles on click; disabled while saving\n- \"Follow\" / \"Following\" button on each card: follow their activity one-way. Click to toggle; disabled while saving\n- \"Message\" button on each card: opens a direct message thread\nLimits:\n- Search, filters, and results are URL parameters and survive reload or sharing\n- Member list ranks by similarity (school, class, target firms, interests)\n- Filters use OR logic within a category and AND logic between categories\n- Filter dropdown shows up to 50 matches when typing\nRelated: Peers (/networking/peers), Live feed (/networking), Messages (/messages), member profile (/u/{id})"
+    },
+    "/networking/contacts": {
+      "hash": "0a2a30030c087940ce340591d3bb8d84c76bcaf10ba9d8bc12770a5664ed7b13",
+      "sources": [
+        "src/app/(app)/networking/contacts/page.tsx"
+      ],
+      "title": "Industry Contacts",
+      "text": "For: opens Industry Contacts (/contacts)"
+    },
+    "/networking/discussions": {
+      "hash": "30c9eb7fa17640097ea4541b83068d35f7aab99fef9e475a7f89a8d2a5f46a70",
+      "sources": [
+        "src/app/(app)/discovery/FirmLogo.tsx",
+        "src/app/(app)/networking/discussions/DiscussionBits.tsx",
+        "src/app/(app)/networking/discussions/DiscussionForms.tsx",
+        "src/app/(app)/networking/discussions/actions.ts",
+        "src/app/(app)/networking/discussions/page.tsx",
+        "src/lib/content-limits.ts",
+        "src/lib/discussions.ts"
+      ],
+      "title": "Discussions",
+      "text": "For: Ask and answer questions about interviews, timelines, offers, and recruiting in threaded conversations.\nGet there: \"Discussions\" in the sidebar; /networking/discussions\n\nDo here:\n- \"Start a discussion\": Opens a form to create a new thread. Fill in \"Title\" (up to 140 characters), pick a \"Topic\" from the list, optionally name a \"Firm\", write the \"Body\" (up to 4000 characters), then toggle \"Post anonymously\" if you want others to see \"Anonymous\" instead of your name and school. Click \"Post\" to submit.\n- Search box: Type to search discussion titles, bodies, and firm names. Results update on the page.\n- Topic chips: Click \"All\" or any topic name to filter threads by that topic only. The active chip appears highlighted. Search results filter by topic if one is selected.\n- Discussion thread row: Click the title to open that thread's full view with all replies.\n- Firm logo: Shows next to each discussion if a firm was named; displays the firm's logo or your name's first letter.\n- Reply count: Shows how many replies the thread has received.\n- Author byline: Shows who posted (your name and school, or \"Anonymous\"), with an eye icon if anonymous, plus how long ago it was posted.\n\nLimits:\n- Discussion title: maximum 140 characters.\n- Discussion body: maximum 4000 characters.\n- You can start up to 25 discussions per day.\n- You can reply up to 120 times per hour across all discussions.\n- You can reply up to 30 times per day in a single thread.\n- Posts and replies cannot contain slurs, hateful language, or profanity.\n\nRelated: Individual discussion thread (/networking/discussions/[id])"
+    },
+    "/networking/discussions/[id]": {
+      "hash": "cf929bba55eb002510ab33ff2deada6465b41413e1cb15897a4d5cc18fd62b17",
+      "sources": [
+        "src/app/(app)/discovery/FirmLogo.tsx",
+        "src/app/(app)/networking/discussions/DiscussionBits.tsx",
+        "src/app/(app)/networking/discussions/DiscussionForms.tsx",
+        "src/app/(app)/networking/discussions/[id]/page.tsx",
+        "src/app/(app)/networking/discussions/actions.ts",
+        "src/lib/discussions.ts"
+      ],
+      "title": "Discussion",
+      "text": "For: Read a discussion thread and its replies, or start a conversation.\nGet there: \"Discussions\" link from /networking/discussions, or a discussion card from that page\nDo here:\n- Read the original post: title, topic tag, firm name (if given), body text, and who posted it and when\n- View a firm logo if one was entered\n- \"← Discussions\": go back to the discussions list\n- Read all replies in order from oldest to newest, each showing the reply text, author, and when it was posted\n- \"Reply\" button (or text box): add your own reply; fill \"Your reply\" (up to 2000 characters), check \"Post anonymously\" if you want others to see \"Anonymous\" instead of your name and school, then click \"Reply\"\n- \"Delete\" link (only on your own posts): removes your reply; a confirmation appears first\n- \"Delete\" link (only on the original post if you started it): removes the entire thread and all its replies; a confirmation appears first\nLimits:\n- Reply text is required and capped at 2000 characters\n- You can post up to 120 replies per hour across all discussions\n- You can post up to 30 replies in a single discussion per day\n- Posts checked for blocked language; error shown if content is not allowed\n- If a discussion no longer exists when you try to reply, you see \"That discussion no longer exists.\"\nRelated: Discussions list (/networking/discussions), Networking hub (/networking)"
+    },
+    "/networking/messages": {
+      "hash": "655a255091fc095dc563b764a21b707a9ce3219be654eff9e6c076a3f9b662c7",
+      "sources": [
+        "src/app/(app)/messages/MessagesView.tsx",
+        "src/app/(app)/messages/NewMessageButton.tsx",
+        "src/app/(app)/messages/ScrollToEnd.tsx",
+        "src/app/(app)/messages/ThreadList.tsx",
+        "src/app/(app)/messages/[userId]/Composer.tsx",
+        "src/app/(app)/messages/[userId]/MessageBubble.tsx",
+        "src/app/(app)/networking/messages/page.tsx"
+      ],
+      "title": "Messages",
+      "text": "For: sending and receiving direct messages with other students\nGet there: \"Messages\" in the sidebar at /networking/messages\nDo here:\n- \"New message\" button (pencil icon): opens a search dialog to pick a student and start a conversation; type in \"To: search students\" to filter by name, school, or graduation year\n- \"Search messages\" field: filters your conversation list by student name, school, or last message text\n- Click a conversation in the list: opens that thread on the right (or full screen on phone); marks it read\n- Type in the message box: compose a message to the open conversation; the box grows as you type up to a maximum height, then scrolls\n- \"Send\" button or press Enter: sends your message; press Shift+Enter for a new line\n- \"Edit\" button on your own message: change what you wrote within 10 minutes of sending; press Enter to save, Escape to cancel\n- \"Cancel\" button in edit mode: discard changes and close the editor\n- Click a person's name or school in the conversation header: opens their profile at /u/{id}\n- \"View profile\" button in the conversation header: opens their profile\n- Back arrow (phone only): return to the conversation list\nLimits:\n- You can only message students in the Offerly network\n- Messages have a character limit\n- You can only edit your own messages for 10 minutes after sending\n- The conversation list shows up to 30 results when searching"
+    },
+    "/networking/peers": {
+      "hash": "a142fa6e12f536b8e3a4ad953eae9811ecac298334f2ae77b25a28c6acbb7f09",
+      "sources": [
+        "src/app/(app)/networking/AddPeerButton.tsx",
+        "src/app/(app)/networking/peer-actions.ts",
+        "src/app/(app)/networking/peers/page.tsx"
+      ],
+      "title": "Peers",
+      "text": "For: See the students you know (mutual connections) and respond to peer requests from others.\nGet there: \"Peers\" in the sidebar; /networking/peers\n\nDo here:\n- \"Add +\" button: send a peer request to someone. The label changes to \"Requested\" while you wait for them to add you back.\n- \"Add back\" button: complete a mutual peer connection with someone who added you first. Changes to \"Peers\" once they confirm.\n- \"Peers\" button: remove someone from your peers. Click it to drop the connection; they stay in your list but the status resets.\n- Click a name: go to that person's profile.\n- View peer count: each person shows how many peers they have (example: \"3 peers\").\n- View school and graduation year: displayed under each name if they have set them.\n\nLimits:\n- Peer requests show at the top of the page in a \"Waiting on you\" section only if you have incoming requests; the section disappears when empty.\n- If you have no peers yet, an empty state message appears directing you to the Connect page to find people.\n\nRelated: Connect (/networking/connect), a student's profile (/u/{id})"
+    },
+    "/networking/post": {
+      "hash": "b34fe45ae76ee77fdb2a60472230a19d7e710d8c4cdf9a9c12e3a4b82dc6adf7",
+      "sources": [
+        "src/app/(app)/networking/post/PostForm.tsx",
+        "src/app/(app)/networking/post/actions.ts",
+        "src/app/(app)/networking/post/page.tsx",
+        "src/lib/content-limits.ts",
+        "src/lib/post-limits.ts"
+      ],
+      "title": "New Post",
+      "text": "For: write and publish an update to the live feed that all students can see\nGet there: the + button in the Community sidebar, at /networking/post\nDo here:\n- \"Share an update\": type your message in the text box. The placeholder shows \"Superday at Evercore next week - anyone else going?\" as an example. You can write up to 600 characters. When you have 60 characters or fewer left, the remaining count displays below the box.\n- \"Post\": submit your message to the feed. The button is disabled until you type something and becomes disabled again while posting.\nLimits:\n- Posts must be between 1 and 600 characters. You cannot post if your message is empty or only spaces.\n- Posts cannot contain slurs, hateful language, or profanity. If yours does, you will see an error message naming which field is blocked and asking you to remove it.\n- You can post up to 40 times in a 24-hour period. If you hit this limit, you will see an error telling you roughly when you can post again.\nRelated: Networking (/networking), Compose (/networking/compose)"
+    },
+    "/news": {
+      "hash": "b00b8a975c9fc281d99b382dc5dfd4e06940b2db24897f2ac598dcc73e5190f6",
+      "sources": [
+        "src/app/(app)/discovery/FirmLogo.tsx",
+        "src/app/(app)/news/MarketBoard.tsx",
+        "src/app/(app)/news/MarketChart.tsx",
+        "src/app/(app)/news/MarketsDashboard.tsx",
+        "src/app/(app)/news/NewsSourcesPicker.tsx",
+        "src/app/(app)/news/NewsViewSelect.tsx",
+        "src/app/(app)/news/ReportStory.tsx",
+        "src/app/(app)/news/StoryImage.tsx",
+        "src/app/(app)/news/StoryPanel.tsx",
+        "src/app/(app)/news/TradingViewSingleTicker.tsx",
+        "src/app/(app)/news/TradingViewWidget.tsx",
+        "src/app/(app)/news/actions.ts",
+        "src/app/(app)/news/layout.tsx",
+        "src/app/(app)/news/loading.tsx",
+        "src/app/(app)/news/page.tsx",
+        "src/lib/news/access.ts",
+        "src/lib/news/report-reasons.ts",
+        "src/lib/news/takedown.ts",
+        "src/lib/safe-url.ts"
+      ],
+      "title": "Finance News",
+      "text": "For: reading curated finance news, market summaries, and market data across different views\nGet there: sidebar \"Finance News\" or /news\nDo here:\n- \"Show\": choose between your digest, top stories, markets overview, all market charts, or news by sector (Investment Banking, Private Equity, etc.)\n- \"Your news sources\": select which paid news outlets you can read (Wall Street Journal, Bloomberg, Financial Times, etc.) so the page prioritizes stories you can open\n- click any story card to open a panel with the article link, key points, takeaway, and a question to ask about it in interviews\n- \"Report\": flag a story as not finance news, wrong, in the wrong section, or offensive\n- on the Markets view, click \"Overview\" to see today's market summary and the market board, or \"All charts\" to see the full Markets dashboard with stocks, bonds, rates, currencies, commodities and economy data\n- on the digest view, open \"Today's briefing\" to read AI-written summaries of deals, market moves, economy and policy\n- click a company or index on the market board to see its price chart across different time ranges (1 day to 60 months)\n- expand the market board across the full page with the expand button\nLimits:\n- This section requires Offerly Pro\n- Stories behind paywalls you haven't added to your news sources show a \"Subscriber\" label\n- You can report up to 10 stories per day\n- A story must be reported by 3 different school email accounts to be hidden\n- The market board defaults to compact width and remembers your preference\n\nRelated: Discovery (/discovery)"
+    },
+    "/notifications": {
+      "hash": "6c0162a96355a5cad2cf8d6e5af7a75dfcbe2082cd1f7ba14d4d8a66e27b8a62",
+      "sources": [
+        "src/app/(app)/notification-actions.ts",
+        "src/app/(app)/notifications/NotificationTask.tsx",
+        "src/app/(app)/notifications/page.tsx"
+      ],
+      "title": "What needs doing",
+      "text": "For: see all outstanding tasks the app is asking you to complete, with progress on each one\nGet there: the bell icon (top right on most pages), or /notifications\nDo here:\n- \"Go do it\": opens the task you need to complete\n- \"Mark as done\": manually close a task, even if the app can finish it automatically for you\nLimits:\n- finished work does not appear here and cannot be recovered\n- tasks close automatically once you complete the underlying work (send an email, complete an interview round, or send a thank-you), so \"Mark as done\" is optional unless the app cannot detect your progress\nRelated: /dashboard (External Network)"
+    },
+    "/onboarding": {
+      "hash": "d86d8f4ba1b1b7f485121afcdef1e771f14944a1111ec3fc86e1972d8f7441db",
+      "sources": [
+        "src/app/(app)/SchoolCombobox.tsx",
+        "src/app/onboarding/OnboardingWizard.tsx",
+        "src/app/onboarding/QuestionField.tsx",
+        "src/app/onboarding/actions.ts",
+        "src/app/onboarding/page.tsx",
+        "src/lib/content-limits.ts",
+        "src/lib/countries.ts",
+        "src/lib/firm-sharing.ts",
+        "src/lib/internship-year.ts",
+        "src/lib/locations.ts",
+        "src/lib/match-config.ts",
+        "src/lib/niche-sectors.ts",
+        "src/lib/onboarding-questions.ts",
+        "src/lib/policy.ts",
+        "src/lib/sector-questions.ts"
+      ],
+      "title": "Onboarding",
+      "text": "For: tell Offerly about yourself so it can find matching firms and build your profile\nGet there: first login after email verification, or /onboarding\nDo here:\n- Answer questions across multiple screens about degree, graduation year, target internship summer, preferred finance sectors, and locations\n- Pick one answer per question for single-select questions, or multiple answers for sectors and locations\n- Type free text answers for GPA, major, hometown, interests, work style, motivations, and experience\n- Choose a country from the \"Which country?\" combobox by typing to select from the provided list\n- Click \"I'm not sure yet\" to record uncertainty instead of skipping\n- Progress through all required core questions, then choose to answer 22 optional deep-dive questions by clicking \"Keep going\" or skip them with \"Skip for now\"\n- Review your answers on the final screen\n- Check the box to agree to Offerly's Terms of Service and Privacy Policy\n- Optionally check the box to let Offerly share your profile with recruiting firms\n- Click \"Finish\" to complete onboarding and see your matched firm list\nLimits:\n- Degree level, graduation year, target internship summer, and preferred sectors are required to advance\n- Free text fields have character limits shown as you type\n- Text is checked for hateful language and profanity; rejected submissions will not go through\n- You must agree to Terms of Service and Privacy Policy to finish\n- Free accounts go to the upgrade page after finishing; paid accounts go to the dashboard\nRelated: Profile page (/profile), Interests (/profile?tab=interests), Settings (/settings)"
+    },
+    "/onboarding/links": {
+      "hash": "e544e35b94d71647c3cbbc63a0c58e525dac340034194748b658c3bbadea2eee",
+      "sources": [
+        "src/app/(app)/SchoolCombobox.tsx",
+        "src/app/onboarding/links/LinksForm.tsx",
+        "src/app/onboarding/links/actions.ts",
+        "src/app/onboarding/links/page.tsx",
+        "src/lib/profile-autofill.ts",
+        "src/lib/resume-formats.ts",
+        "src/lib/use-file-drop.ts"
+      ],
+      "title": "Add your school, phone, LinkedIn and resume",
+      "text": "For: Complete your profile during onboarding by adding your school, phone number, LinkedIn URL, and resume.\nGet there: Onboarding flow at /onboarding/links\nDo here:\n- \"School\": Search and select from a list of about 2,500 schools. Type to filter; arrow keys to navigate; Enter to choose. A partial or unrecognized name won't submit.\n- \"LinkedIn profile URL\": Enter your full LinkedIn profile URL (e.g., https://www.linkedin.com/in/your-name). Used to auto-fill your About me and major if those fields are empty.\n- \"Phone number\": Enter your phone number in any common format like (555) 123-4567. Optional. Appears in email signatures when you draft messages in the app.\n- \"Resume\": Upload a resume file by clicking \"Choose File\" or dragging a file onto the box. Accepts PDF, Word (.docx), image (PNG, JPG, WebP), or text file, up to 4MB. The app reads your resume to auto-fill your major.\n- \"Continue →\": Save your information and move to the next onboarding step. Shows \"Saving...\" while processing.\n- \"Skip for now\": Skip this step and return to onboarding. You can add or update these details later from your profile.\nLimits:\n- School: required; must pick from the allowlist, not free text.\n- LinkedIn URL: required; must be a valid URL.\n- Phone number: optional; must be 7–20 characters of digits, spaces, parentheses, plus signs, hyphens, or periods if provided.\n- Resume: optional; must be under 4MB and a supported file type.\n- LinkedIn lookups for auto-filling are limited to 3 per day per account.\nRelated: Verify school at /onboarding/verify-school"
+    },
+    "/onboarding/verify-school": {
+      "hash": "e48f8e7424ac654b540cfbef0acc243f74195f793e30b2f7fe9224cc82618793",
+      "sources": [
+        "src/app/(app)/profile/school-verification-actions.ts",
+        "src/app/onboarding/verify-school/VerifySchoolStep.tsx",
+        "src/app/onboarding/verify-school/page.tsx"
+      ],
+      "title": "Verify School",
+      "text": "For: proving you own your school email address during onboarding\nGet there: onboarding flow after picking your school, address /onboarding/verify-school\nDo here:\n- \"School email\": enter your school email address (a field pre-fills with a suggestion based on your school's domain)\n- \"Send code\": request a verification code be emailed to you\n- \"I'll do this later\": skip verification and continue onboarding\n- \"Enter the 6-digit code\": after \"Send code\" succeeds, paste the code from your email here\n- \"Confirm\": submit the code to complete verification\n- \"Use a different address\": go back to the email form if you need to try a different address\nLimits:\n- School email must be from a recognised school domain; personal addresses like Gmail won't work\n- You can request at most five codes in 15 minutes per account and per address\n- Each code expires and allows a limited number of wrong attempts before you must request a new one\n- Verification is optional during onboarding; you can skip it, but the app will keep asking in your profile\n- When you verify, your profile picture is replaced with your school's crest if you had one\nRelated: profile school verification (/profile)"
+    },
+    "/outreach": {
+      "hash": "587ccc66cb3cdd4161522dfa7b55ddbb9c5fd2feb0ffce5879f305c1894f97f1",
+      "sources": [
+        "src/app/(app)/dashboard/TaskRow.tsx",
+        "src/app/(app)/dashboard/todo-actions.ts",
+        "src/app/(app)/outreach/ResumePanel.tsx",
+        "src/app/(app)/outreach/RevisedResume.tsx",
+        "src/app/(app)/outreach/layout.tsx",
+        "src/app/(app)/outreach/page.tsx",
+        "src/app/(app)/outreach/resume-actions.ts",
+        "src/lib/content-limits.ts",
+        "src/lib/resume-placeholders.ts",
+        "src/lib/use-file-drop.ts"
+      ],
+      "title": "Outreach",
+      "text": "For: See who you need to reach out to next, write emails, and review your resume.\nGet there: \"Outreach\" in the sidebar, /outreach\nDo here:\n- \"Who to reach out to\": A numbered list of follow-ups, thank-yous, and people to contact, sorted by urgency. Click any task to write that email. Tick the circle button on the right to mark it done; it crosses out and stays on the list as a record.\n- \"Write an email →\": Link to the email drafting tool.\n- \"Your past emails\": Card showing how many emails you have drafted. Click to view them all.\n- \"Your past resumes\": Card showing how many resume reviews you have completed. Click to see scores and history.\n- \"See all\" / \"Show fewer\": Toggle to show all tasks or just the first eight, keeping history cards in view.\nLimits:\n- Outreach is part of Offerly Pro. Free accounts cannot access it.\n- The list shows up to eight tasks at a time before you choose to expand.\nRelated: Email drafting at /outreach/email, Resume review at /outreach/resume"
+    },
+    "/outreach/email": {
+      "hash": "8d4f0405084ad380e9a86b44a8239840e47e31b4dc8543cff776e7aa4151096f",
+      "sources": [
+        "src/app/(app)/drafts/GenerateForm.tsx",
+        "src/app/(app)/drafts/draft-request.ts",
+        "src/app/(app)/drafts/suggestion-actions.ts",
+        "src/app/(app)/outreach/email/page.tsx",
+        "src/lib/relevance.ts"
+      ],
+      "title": "Email drafts",
+      "text": "For: Write and generate AI-drafted networking emails to finance contacts\nGet there: \"Email drafts\" in the sidebar, or /outreach/email\nDo here:\n- \"Who are you writing to?\": Choose between \"Someone you found yourself\" or \"One of your Offerly contacts\"\n- Pick a recipient: Select an Offerly contact from the dropdown, or enter name, firm, email, role, group or division, school, LinkedIn profile, and what you know about them\n- \"What do you want to do?\": Select the email type—cold outreach, follow-up, thank you, keep in touch, or something else\n- Check boxes describing your situation: Select how you know them or what triggered this email based on your email type\n- Fill in the email's details: Answer required and optional questions for your situation, such as what you have in common or details about a prior conversation\n- \"Your resume\": Upload a resume if this email type attaches it, or select one on file\n- \"Anything else to include?\": Add optional details for the email\n- Check \"My email adds my signature automatically\": Tick if your email client adds your signature, so the draft ends on \"Best,\"\n- \"Generate draft\": Click to write the email with AI; the draft appears below and opens in the composer\nLimits:\n- Required fields: recipient, email type, and situation boxes; some questions depend on what you choose\n- Most fields cap at 2,000 characters; \"Anything else to include?\" caps at 4,000\n- Resume: Required for certain email types; must be PDF, Word, image or text file\n- Follow-ups: Fill in the subject line of the earlier Offerly email you're replying to\n- Blocked language: Slurs, hateful terms or profanity stop generation\n- Drafts count toward your monthly plan limit\nRelated: Your past emails (/drafts), Your profile (/profile), Discovery (/discovery)"
+    },
+    "/outreach/resume": {
+      "hash": "c6b329e84c1532874707348012e5bb470e55bd8ff764736096a4528f5a1a7158",
+      "sources": [
+        "src/app/(app)/outreach/ResumePanel.tsx",
+        "src/app/(app)/outreach/RevisedResume.tsx",
+        "src/app/(app)/outreach/resume-actions.ts",
+        "src/app/(app)/outreach/resume/page.tsx"
+      ],
+      "title": "Resume builder",
+      "text": "For: Upload your resume for AI-powered review, then rewrite it with suggested changes.\nGet there: \"Resume builder\" in the sidebar, at /outreach/resume\nDo here:\n- \"Choose a PDF resume, or drag one here\": Upload a PDF file by clicking or dragging.\n- \"Target job description (optional)\": Paste a job posting for keyword gap analysis.\n- \"Review my resume\": Submit for review. Shows progress, then displays a 0–100 score with label and summary of strengths and weaknesses.\n- View breakdown: See five scored dimensions with notes on what to improve, plus a \"Keep these\" section for strengths to preserve.\n- \"Where to focus next\": Two tabs—\"High impact\" and \"Finishing touches\"—list issues and suggested rewrites. Click checkboxes to select which changes to apply; all are ticked by default.\n- Copy suggested wording: Click the copy icon on each suggestion to copy text to your clipboard.\n- Fill in gaps: For suggestions with \"[bracketed text]\", type the missing information into the input box below that row.\n- \"Rewrite these changes for me\": After selecting changes and filling required gaps, click to generate a revised resume.\n- Download revised resume: Export in \"Word\" or \"PDF\" format once rewritten.\n- View past reviews: Link to \"/outreach/resume/history\" if you have reviewed multiple resumes.\nLimits:\n- PDF only, under 4MB.\n- Job description limited to 20,000 characters.\n- At most 20 changes shown per tab.\n- Rewrite is blocked until all gaps in selected changes are filled.\n- Rewriting counts against your monthly quota.\nRelated: Past reviews at /outreach/resume/history"
+    },
+    "/outreach/resume/history": {
+      "hash": "9cd430f6af2daba487a0e028f3c6edcb6bbab1ffaae9fabeca20077736823f70",
+      "sources": [
+        "src/app/(app)/outreach/resume/history/page.tsx"
+      ],
+      "title": "Your past resumes",
+      "text": "For: see every resume you have uploaded and reviewed, with scores from newest to oldest\nGet there: Outreach sidebar, then Resume, then \"Your past resumes\"; web address /outreach/resume/history\nDo here:\n- view each resume you uploaded: filename, a summary of feedback, your score out of 100, and the date you uploaded it\n- tap a resume in the list to open it and see full details\n- \"Open the resume builder →\": go back to the resume builder to upload or edit a resume\nLimits:\n- you must upload at least one resume before this page shows anything\nRelated: Resume builder (/outreach/resume), Outreach (/outreach)"
+    },
+    "/pricing": {
+      "hash": "bc0913e8be7ff1fd7933d47222f29b89b1103e77c56684cd1fa3633dc6f09a6f",
+      "sources": [
+        "src/app/(marketing)/Reveal.tsx",
+        "src/app/(marketing)/pricing/FaqAccordion.tsx",
+        "src/app/(marketing)/pricing/PricingTiers.tsx",
+        "src/app/(marketing)/pricing/page.tsx",
+        "src/app/(marketing)/useInViewReveal.ts"
+      ],
+      "title": "Pricing",
+      "text": "For: see Offerly's Free, Pro and Pro+ plans, features, and pricing options.\nGet there: \"Pricing\" link on the marketing website; /pricing\n\nDo here:\n- \"Monthly\" / \"Yearly\" toggle: switch between monthly and yearly billing to see different prices. Yearly saves 15%.\n- Click a tier's call-to-action button: join the waitlist for that plan (Free, Pro, or Pro+).\n- Expand a FAQ question: click any question under \"Frequently asked\" to read the answer. The first question opens by default.\n\nLimits:\n- Free plan costs $0 and lasts forever.\n- Yearly billing is 15% cheaper than paying monthly for paid plans.\n- Monthly plans cannot be refunded; cancel anytime and the plan runs out at month end. Yearly plans refund the unused portion pro rata if cancelled early; email to request the refund after cancelling.\n- School email verification is optional and only unlocks alumni-network matching at your school; personal email works fine.\n- Your profile data is never sold or shared with firms unless you opt in via Settings. Your contacts, drafts, and GPA are never shared, even on Free.\n- Free plan includes the Internal Network (student community), Discovery (feed, discussions, clubs, peers, direct messages, profile, internship postings, firm directory, firm matches). Pro and Pro+ add the recruiting toolkit (firm tracking, scheduling, news, interview prep, outreach).\n\nRelated: None listed in code."
+    },
+    "/privacy": {
+      "hash": "0b65b4358d7296eb65c631524cdd1fcb5753611f2faa89acb7098c2dbd35cc30",
+      "sources": [
+        "src/app/(marketing)/legal/LegalDocument.tsx",
+        "src/app/(marketing)/privacy/page.tsx",
+        "src/lib/policy.ts"
+      ],
+      "title": "Privacy Policy",
+      "text": "For: Read what Offerly collects, how it uses your data, who can see it, and what rights you have.\nGet there: \"Legal\" link in the footer; /privacy\n\nDo here:\n- \"Contents\": jump to sections of the policy using the table of contents (on mobile, tap to expand; on desktop, it stays visible on the left)\n\nLimits:\n- The policy version shown is the one you agreed to when you signed up or last gave consent\n\nRelated: Terms of Service (/terms), Legal (/legal)"
+    },
+    "/profile": {
+      "hash": "a8da45b44b43a43f7453da35d6b202931639645ee51a067b5e091a68f453e308",
+      "sources": [
+        "src/app/(app)/dashboard/actions.ts",
+        "src/app/(app)/discovery/FirmLogo.tsx",
+        "src/app/(app)/profile/AccountForm.tsx",
+        "src/app/(app)/profile/DeleteAccount.tsx",
+        "src/app/(app)/profile/InternshipsField.tsx",
+        "src/app/(app)/profile/MonthPicker.tsx",
+        "src/app/(app)/profile/MoreAnswersForm.tsx",
+        "src/app/(app)/profile/PasswordForm.tsx",
+        "src/app/(app)/profile/PhoneField.tsx",
+        "src/app/(app)/profile/ProfilePhoto.tsx",
+        "src/app/(app)/profile/ProfileSection.tsx",
+        "src/app/(app)/profile/ProfileTabs.tsx",
+        "src/app/(app)/profile/ResumeSection.tsx",
+        "src/app/(app)/profile/SchoolEmailVerify.tsx",
+        "src/app/(app)/profile/TimeZoneField.tsx",
+        "src/app/(app)/profile/actions.ts",
+        "src/app/(app)/profile/layout.tsx",
+        "src/app/(app)/profile/page.tsx",
+        "src/app/(app)/profile/school-verification-actions.ts",
+        "src/lib/content-limits.ts",
+        "src/lib/internships.ts",
+        "src/lib/profile-autofill.ts",
+        "src/lib/profile-tabs.ts",
+        "src/lib/resume-formats.ts",
+        "src/lib/safe-url.ts",
+        "src/lib/school-crest.ts",
+        "src/lib/time-zone.ts",
+        "src/lib/use-crest-tint.ts"
+      ],
+      "title": "Your profile",
+      "text": "For: edit your personal details, contact info, resume, LinkedIn, phone number, time zone, and delete your account\nGet there: \"Your profile\" in the sidebar, /profile\n\nDo here:\n- \"Account\" tab: edit \"Name\", \"Major\", \"About me\", add internships, control visibility of hometown and interests, upload profile photo, verify school email, enter phone number, set time zone\n- \"Name\" field: required, text entry\n- \"Major\" field: optional, text entry\n- \"About me\" field: optional, up to 600 characters\n- \"Internships\": add positions with firm name, role, start month, end month (or mark ongoing). Search firms by name; unmatched firms are accepted. Remove with X button\n- \"Show my hometown on my public profile\" and \"Show my interests on my public profile\": checkboxes\n- \"School\" field: locked to your verified school. Click \"Verify\" to verify your school email (sends 6-digit code), or \"Change\" to verify a different school\n- \"Phone number\" field: optional, used for text reminders\n- \"Time zone\" dropdown: select \"Automatic\" or a specific zone\n- \"LinkedIn profile\" field: paste your full LinkedIn URL and click \"Save\"\n- \"Resume\" section: upload PDF, Word (.docx), image (PNG, JPG, WebP), or text file. Click \"Upload resume\", \"Replace resume\", or \"View\". Click \"Try again\" if your resume couldn't be read\n- Profile photo: click to upload JPEG, or click \"Use my school crest\" to restore your school's default image\n- \"Information\" tab at /profile/interests: edit hometown and interests\n- \"Connections\" tab at /profile/connections: connect Google Calendar and manage text reminders\n- \"Billing\" tab at /profile/billing: view subscription and payments\n- \"Security\" tab at /profile/security: change password, delete account\n\nLimits:\n- \"Name\" required; \"About me\" up to 600 characters; up to 12 internships; internship firm and role limited to 100 characters each; start month required, end month required unless marked ongoing; start month must not be after end month; phone number optional, 7–20 characters if provided; profile photo must be JPEG; resume must be PDF, Word, .doc, PNG, JPG, WebP, or text; school email code: 5 attempts per 15 minutes, expires after 10 minutes; changing or verifying school email replaces profile photo with school crest"
+    },
+    "/profile/billing": {
+      "hash": "9ac1fb19364e106813e5dd28aa489cd4d88b49c959bfaa585874aea88f44a341",
+      "sources": [
+        "src/app/(app)/profile/billing/BillingForms.tsx",
+        "src/app/(app)/profile/billing/actions.ts",
+        "src/app/(app)/profile/billing/page.tsx"
+      ],
+      "title": "Billing",
+      "text": "For: View your current plan, monthly allowances, and buy or manage a paid subscription.\nGet there: \"Billing\" in the sidebar, /profile/billing\n\nDo here:\n- See \"Current plan\": displays your active plan name. If Free, explains what it includes. If paid, shows \"Manage billing\" button.\n- \"Manage billing\": opens Stripe's secure portal to update your card, switch plans, download invoices, or cancel your subscription.\n- Toggle \"Monthly\" or \"Yearly (15% off)\": switches the price display between monthly and yearly billing intervals.\n- \"Get Pro\" or \"Get Pro Plus\": sends you to Stripe Checkout to start a subscription (or to the Customer Portal if you already subscribe, to switch plans). Shows \"Your current plan\" if you already have that tier.\n- View \"This month\" usage: if you have a paid plan, shows how many allowances you've used out of your limit for each feature, with a progress bar. Resets each calendar month.\n- See checkout status messages: \"Payment received - thank you\" appears after a successful purchase; \"Checkout closed - nothing was charged\" appears if you cancel Checkout partway through.\n\nLimits:\n- Monthly payments cannot be refunded. To refund an unused portion of a yearly plan, cancel and email alex.rivera@example.com.\n- Your plan updates within a few seconds after payment; refresh the page if it doesn't show immediately.\n- If Stripe is not configured on this server, the upgrade section will say so and you cannot buy a plan.\n- You must choose a valid plan and billing interval; invalid choices are rejected.\n\nRelated: Profile (/profile)"
+    },
+    "/profile/connections": {
+      "hash": "a5cd819fb910728ab1a26f4f5ab2fbbe421f908389a0272c21d9ca94fd2f66e6",
+      "sources": [
+        "src/app/(app)/learn/video/actions.ts",
+        "src/app/(app)/profile/connections/FirmSharingToggle.tsx",
+        "src/app/(app)/profile/connections/TrainingChoiceToggle.tsx",
+        "src/app/(app)/profile/connections/VideoTrainingToggle.tsx",
+        "src/app/(app)/profile/connections/email-actions.ts",
+        "src/app/(app)/profile/connections/page.tsx",
+        "src/app/(app)/profile/connections/sharing-actions.ts",
+        "src/app/(app)/settings/PhoneForm.tsx",
+        "src/app/(app)/settings/actions.ts",
+        "src/lib/firm-sharing.ts",
+        "src/lib/training-rule.ts"
+      ],
+      "title": "Connections",
+      "text": "For: Manage how firms find you, which emails you get, and what data Offerly keeps to improve its tools.\nGet there: \"Connections\" in the sidebar; /profile/connections\nDo here:\n- \"Connect Google Calendar\": link your Google account so calendars show on Schedule and events sync back to Google. Mark the first connection as Primary. \"Disconnect\" removes an account.\n- \"Connect another Google account\": add more Google accounts after the first.\n- \"Turn on\" or \"Turn off\" (Email section): get emails when a firm you match with posts an internship or event at your school.\n- \"Sharing with firms\" toggle: let firms find your profile on their matching page.\n- \"Improving Offerly's writing tools\" toggle: let Offerly use your written answers to train its writing AI. Turning off deletes answers you've already contributed.\n- \"Contribute my interviews\" or \"Don't share them\" (radio buttons): choose whether Offerly uses your video recordings to train its coaching AI. If off, future interviews aren't kept, but past contributions stay until you delete them.\n- \"Delete all training recordings\": remove all videos and voice recordings you've contributed. Confirm to delete; see how many were deleted and how many are pending removal.\n- \"Send test SMS\": send a test text to check the connection works.\n- \"Add one on your profile\" or \"Change it on your profile\" (SMS section): link to /profile to set or edit your phone number.\nLimits:\n- Test SMS: 5 per account per 24 hours, and 5 per phone number per 24 hours.\n- Google Calendar, SMS, and video training only work if configured on this deployment.\nRelated: Schedule (/schedule), Profile (/profile)"
+    },
+    "/profile/interests": {
+      "hash": "3a001eb994991d7c67bf9b24f941e95b037b1472fc6eac5002dba59400f6660d",
+      "sources": [
+        "src/app/(app)/SchoolCombobox.tsx",
+        "src/app/(app)/profile/MoreAnswersForm.tsx",
+        "src/app/(app)/profile/actions.ts",
+        "src/app/(app)/profile/interests/page.tsx",
+        "src/app/(app)/settings/RecruitingAnswers.tsx",
+        "src/app/(app)/settings/recruiting-actions.ts",
+        "src/lib/locations.ts",
+        "src/lib/niche-sectors.ts",
+        "src/lib/question-bank/specialties.ts"
+      ],
+      "title": "Interests",
+      "text": "For: Edit everything that decides your firm matches—sectors, tiers, locations, niches, and personal details.\nGet there: \"Interests\" in the sidebar; /profile/interests\nDo here:\n- \"Recruiting answers\": An expandable section showing questions from your onboarding. Click any row to open it and change your answer. Sectors, tiers, coverage groups and locations appear as clickable chips; text fields, comboboxes and multi-select also appear depending on the question. Unsure answers collapse back to blank. Picked chips highlight as you click them even before saving.\n- \"Save answers\": Submits all recruiting answers at once. Shows \"Saving...\" while working, then \"Saved.\" on success or an error message if something fails.\n- \"Other industries / keywords\": A text field where you describe additional sectors or terms you're interested in, like \"impact investing, ESG, family office\".\n- \"What's a challenge or setback you learned the most from?\": A text area where you describe a setback, mistake or hard situation and what it taught you.\n- \"Save\": Submits the additional fields. Shows \"Saving...\" while working, then \"Saved.\" on success or an error message if something fails.\nLimits:\n- Text fields and text areas have character limits. Sector, tier and location lists are capped. \"Other industries\" and \"challenge\" answers are checked against a blocked-language filter and rejected if flagged.\nRelated: Account (/profile), Dashboard (/dashboard), Discovery (/discovery)"
+    },
+    "/profile/security": {
+      "hash": "bcaeb0aac0fa915ee090b06d5504918dae8ba89e754aea91466b0ea2e1cd29cd",
+      "sources": [
+        "src/app/(app)/profile/DeleteAccount.tsx",
+        "src/app/(app)/profile/PasswordForm.tsx",
+        "src/app/(app)/profile/ProfileSection.tsx",
+        "src/app/(app)/profile/actions.ts",
+        "src/app/(app)/profile/security/page.tsx"
+      ],
+      "title": "Security",
+      "text": "For: Managing your login email, password, and account deletion\nGet there: Profile sidebar, /profile/security\nDo here:\n- \"Login email\": View the email address you use to sign in. This cannot be changed on this page.\n- \"Current password\": Enter your current password to change it\n- \"New password\": Enter a new password at least 8 characters long\n- \"Confirm new password\": Re-enter your new password to confirm it matches\n- \"Change password\": Submit your new password. You stay signed in here; other devices are signed out\n- \"Delete my account...\": Open the account deletion form. Deletes your account, contacts, drafts, schedule, applications and uploaded resumes permanently and cannot be undone\n- \"Your password\": Enter your password to confirm deletion\n- \"Type DELETE to confirm\": Type DELETE in capitals to confirm you want to permanently delete your account\n- \"Permanently delete account\": Submit and permanently delete your account\n- \"Cancel\": Close the deletion form without deleting anything\nLimits:\n- New password must be at least 8 characters\n- You can attempt to change your password or delete your account up to 5 times in 15 minutes; further attempts are blocked temporarily\n- Deletion requires both your correct current password and typing DELETE exactly to confirm\n- Once you delete your account, this action cannot be undone\n\nRelated: Account (/profile), Connections (/profile/connections), Interests (/profile/interests)"
+    },
+    "/schedule": {
+      "hash": "e2a86ab7300914f85cf200123db569ad84a549f455ee1d88fd200532ba6fea0b",
+      "sources": [
+        "src/app/(app)/ContactPicker.tsx",
+        "src/app/(app)/ShowMoreList.tsx",
+        "src/app/(app)/UpcomingApplications.tsx",
+        "src/app/(app)/applications/actions.ts",
+        "src/app/(app)/schedule/AddApplicationForm.tsx",
+        "src/app/(app)/schedule/CalendarView.tsx",
+        "src/app/(app)/schedule/EditEventForm.tsx",
+        "src/app/(app)/schedule/EventForm.tsx",
+        "src/app/(app)/schedule/EventRow.tsx",
+        "src/app/(app)/schedule/ExportToGoogle.tsx",
+        "src/app/(app)/schedule/GoogleConnectBanner.tsx",
+        "src/app/(app)/schedule/QuickAddDialog.tsx",
+        "src/app/(app)/schedule/actions.ts",
+        "src/app/(app)/schedule/layout.tsx",
+        "src/app/(app)/schedule/page.tsx",
+        "src/lib/calendar.ts",
+        "src/lib/content-limits.ts",
+        "src/lib/event-notes.ts",
+        "src/lib/event-type-guess.ts",
+        "src/lib/safe-url.ts",
+        "src/lib/time-zone.ts"
+      ],
+      "title": "Schedule",
+      "text": "For: manage your calendar of events, deadlines, and application tracking\nGet there: \"Schedule\" in the sidebar; /schedule\nDo here:\n- \"Calendar\" view: switch between \"month\", \"week\", and \"day\" modes, navigate with arrow buttons or \"Today\", click empty slots to create events\n- \"Add an event\" form: set title, type, start and end times, link a contact and application; submit to add to your calendar\n- \"Add an application\" form: enter firm, role, and application link; submit to add to your tracking list and calendar\n- \"Upcoming\" section: list of upcoming events within 30 days, collapsible with \"Show N more\" button\n- \"Past - did these happen?\" section: unchecked events from earlier dates; mark each \"done\" or edit its date\n- \"Completed\" section: checked-off events\n- Edit event: click \"Edit\" on any event row to change type, title, start and end times; changes sync to Google Calendar if connected\n- Mark event done or upcoming: toggle \"Mark done\" / \"Mark upcoming\" button on any row\n- Delete event: click \"Delete\" to remove from your schedule\n- \"Connect Google Calendar +\" or \"Manage\": set up or adjust your Google Calendar connection to sync events both ways\n- \"Export to Google\": manually copy your Offerly schedule to your Google account\n- Pending Google sync section: accept synced events to push to Google Calendar, or dismiss them\n- Bulk import: upload a JSON file of events with title and date to add many at once\nLimits:\n- Requires Offerly Pro\n- Up to 5000 events per student\n- Import up to 2000 rows per file; 10 imports per hour\n- Event titles capped at 300 characters; notes at 2000 characters\nRelated: Applications (/applications), Discovery (/discovery), Profile connections (/profile/connections)"
+    },
+    "/settings": {
+      "hash": "240b5b348bb62667a5aaef4ad055dbfebf8d4883ab9bfc1f9bb01e8b11893d53",
+      "sources": [
+        "src/app/(app)/SchoolCombobox.tsx",
+        "src/app/(app)/settings/PhoneForm.tsx",
+        "src/app/(app)/settings/RecruitingAnswers.tsx",
+        "src/app/(app)/settings/actions.ts",
+        "src/app/(app)/settings/page.tsx",
+        "src/app/(app)/settings/recruiting-actions.ts",
+        "src/lib/city-spelling.ts",
+        "src/lib/content-limits.ts",
+        "src/lib/countries.ts",
+        "src/lib/gpa.ts",
+        "src/lib/internship-year.ts",
+        "src/lib/match-config.ts",
+        "src/lib/niche-options.ts",
+        "src/lib/onboarding-questions.ts",
+        "src/lib/recruiting-answer-keys.ts",
+        "src/lib/sector-questions.ts"
+      ],
+      "title": "Settings",
+      "text": "For: opens Connections (/profile/connections)."
+    },
+    "/signup": {
+      "hash": "cfdae54dd37f657fba79657a56a5c3712baee198ec5bd4dfce85ecd8e4c3ef5d",
+      "sources": [
+        "src/app/(marketing)/illustrations.tsx",
+        "src/app/AudienceSwitch.tsx",
+        "src/app/AuthShell.tsx",
+        "src/app/signup/SignupForm.tsx",
+        "src/app/signup/actions.ts",
+        "src/app/signup/page.tsx",
+        "src/lib/content-limits.ts",
+        "src/lib/firm-account.ts",
+        "src/lib/policy.ts"
+      ],
+      "title": "Sign up",
+      "text": "For: creating your Offerly student account\nGet there: \"I'm a student\" toggle on the sign-up pages, or /signup\nDo here:\n- \"Name\": enter your full name\n- \"School or personal email\": enter an email address where you'll receive a verification code\n- \"School email\": enter the email that will appear in the signature of drafts you write in Offerly (can be the same as above)\n- \"Password\": create a password (at least 8 characters); use \"Show password\" or \"Hide password\" to toggle visibility\n- \"I agree to the Terms of Service and Privacy Policy\": checkbox confirming you accept the terms; unchecking it blocks sign-up\n- \"Training Use\": checkbox to let Offerly use your drafts and resume edits (with names and contact details removed) to improve its writing tools; you can change this later\n- \"Sign up\": submit your details to receive a verification code by email\n- After submitting, enter the 6-digit code sent to your email in the \"6-digit code\" field and tap \"Create account\" to finish\n- \"Use a different email, or send a new code\": start over with different details or request a new code\nLimits:\n- All fields except \"School email\" are required\n- Password must be at least 8 characters and at most 200 characters\n- Name and school email cannot contain slurs, hateful language or profanity\n- Sign-up attempts are limited to 5 per inbox address per 15 minutes\n- Verification codes expire after 15 minutes and allow 5 incorrect attempts\n- If you received a waitlist invite, your name and email are prefilled from it\nRelated: Log in (/login), Terms of Service (/terms), Privacy Policy (/privacy)"
+    },
+    "/terms": {
+      "hash": "c11575da8a56fada1d46b1da23862a3bf4ddbcac120ddd8525925b6cc27bea3b",
+      "sources": [
+        "src/app/(marketing)/legal/LegalDocument.tsx",
+        "src/app/(marketing)/terms/page.tsx",
+        "src/lib/policy.ts"
+      ],
+      "title": "Terms of Service",
+      "text": "For: reading Offerly's Terms of Service, which explains the agreement for using the app, your account, your content, the rules, and how disputes work\nGet there: \"Legal\" link on the Legal page (/legal), or directly at /terms\nDo here:\n- \"Contents\": on mobile, expand a dropdown menu to jump to sections; on larger screens, a sidebar shows the full contents list\n- click any section in \"Contents\": jump to that part of the document\nLimits:\n- the document shows a version number, which changes only when material changes are made to what may be done with your data\n\nRelated: Legal (/legal), Privacy Policy (/privacy)"
+    },
+    "/todo": {
+      "hash": "f25d64cbd6c3f71673122277e084558397a5e67d00b79246b0adbdbbf08d5371",
+      "sources": [
+        "src/app/(app)/dashboard/TaskRow.tsx",
+        "src/app/(app)/dashboard/todo-actions.ts",
+        "src/app/(app)/todo/layout.tsx",
+        "src/app/(app)/todo/page.tsx"
+      ],
+      "title": "Everything to do",
+      "text": "For: See your full to-do list, including tasks from the dashboard and recently finished ones\nGet there: \"See everything\" button on the dashboard, or /todo\nDo here:\n- Click a task title or detail: open that task to act on it\n- Click the circle button on a task: mark it done (it moves to \"Done in the last day\" and gets crossed out)\n- \"Back to External Network\": return to the dashboard\n- \"See all completed\" link: go to your completed task history (/todo/done)\nLimits:\n- Pro members only (free accounts are sent to upgrade)\n- Finished tasks appear in \"Done in the last day\" for one day, then move to your history\n- Only tasks with open work show in the main list; interviews, follow-ups, thank-yous, and deadline reminders generate tasks here\n\nRelated: Opportunities dashboard (/dashboard), completed task history (/todo/done)"
+    },
+    "/todo/done": {
+      "hash": "bed8ead7e0782d468567fe21c7c48b01a84dab3939a028eb2c61003574df5fe4",
+      "sources": [
+        "src/app/(app)/dashboard/TaskRow.tsx",
+        "src/app/(app)/dashboard/todo-actions.ts",
+        "src/app/(app)/todo/done/page.tsx"
+      ],
+      "title": "Completed",
+      "text": "For: see all tasks you've finished, organized by the day you completed them\nGet there: \"Back to everything to do\" link on the to-do page, or /todo/done\nDo here:\n- view finished tasks: each task shows its number, kind (as a colored label), title, and detail; tasks are crossed out and grayed out\n- return to to-do: click \"← Back to everything to do\" at the top\nLimits:\n- read-only: you cannot change or delete completed tasks here\n\nRelated: to-do page (/todo), dashboard (/dashboard)"
+    },
+    "/tracking": {
+      "hash": "77b3581eb067b8386cd8dfbc7cae243ec0702f74e386c37a09a94e4ef7951fad",
+      "sources": [
+        "src/app/(app)/ExpandableGrid.tsx",
+        "src/app/(app)/applications/TrackToggle.tsx",
+        "src/app/(app)/applications/untrack-actions.ts",
+        "src/app/(app)/discovery/FirmLogo.tsx",
+        "src/app/(app)/discovery/InternshipPostings.tsx",
+        "src/app/(app)/tracking/TrackedFirmList.tsx",
+        "src/app/(app)/tracking/layout.tsx",
+        "src/app/(app)/tracking/page.tsx",
+        "src/lib/internship-year.ts"
+      ],
+      "title": "What you're tracking",
+      "text": "For: viewing and managing all the roles and firms you're tracking across your pipeline\nGet there: \"Internships\" tab in Discovery (sidebar), then \"← Internships\" link at top of page; /tracking\nDo here:\n- Open a firm card to see all roles tracked at that firm as full posting cards with deadlines, locations, descriptions, and recruiter contact info\n- \"Track [role]\" or \"Stop tracking [role]\" toggle (bookmark icon) on each role card to add or remove it from your pipeline\n- \"Stop tracking this firm\" button in the firm panel to untrack every role at that firm in one click\n- \"Stop tracking all [count] roles at [firm]\" button (X icon, top right of each firm card) for the same one-click removal\n- View the firm's full directory profile by clicking \"View [firm] profile →\" in an opened role's detail panel\n- Click \"Read the full posting\" to see the original posting on the firm's site\n- Click \"Apply\" to go directly to the application, tracked through the firm's analytics\n- Collapse an opened firm by clicking its card again or the chevron icon\nLimits:\n- Offerly Pro only: free accounts cannot access this page\n- You can only track roles you find through Discovery or add manually; stub rows (roles you added yourself without a posting) show \"Deadline TBD\" and carry no deadline, location, industry, or description\n- Roles automatically added when you match a firm are tagged \"Auto\" so you can tell them from ones you chose\nRelated: Discovery Internships tab (/discovery/internships), individual role details (opened inline on this page)"
+    },
+    "/u/[id]": {
+      "hash": "80487ed3f254ccef813ece39136906c8ce73e0d0cd1f3a2da3a03ec7a28874d7",
+      "sources": [
+        "src/app/(app)/u/[id]/page.tsx",
+        "src/lib/safe-url.ts"
+      ],
+      "title": "Student Profile",
+      "text": "For: viewing another student's profile and learning about their background, interests, and experience\nGet there: from Internal Network (/networking) or a direct link to /u/[id]\nDo here:\n- \"Back to Internal Network\": returns to the networking page\n- view their name, school, graduation year, and hometown\n- view their \"About\" bio if they've written one\n- view their \"Interests\" if they've shared them\n- view their \"Past internships\" list showing role and firm\n- view their \"Target firms\" they want to work at\n- \"Send message\": opens a direct message conversation with them (not shown on your own profile)\n- \"LinkedIn\": opens their LinkedIn profile in a new tab (only shown if they've linked it)\n- \"Edit your profile\": takes you to your own profile editor (only shown when viewing your own profile)\n- see a note at the bottom saying \"This is how your profile looks to everyone else on Offerly\" (only shown on your own profile)\nLimits:\n- School is marked \"Verified\" only if they proved it with a school email; otherwise you can't tell if they verified it or just picked it from a list\n- Hometown and Interests show \"Not shared\" if they didn't fill them in or turned off sharing for them\n- \"About\" shows \"No bio yet\" if empty\n- \"Past internships\" shows \"No internships listed yet\" if they haven't added any\n- \"Target firms\" shows \"No target firms yet\" if they haven't added any\n- \"Send message\" button only appears when viewing someone else's profile\nRelated: Internal Network (/networking), Edit Profile (/profile), Messages (/messages/[id])"
+    },
+    "/upgrade": {
+      "hash": "cdac7499aea5be90412d4b60d2f9f5e45698d7b83c7ddbbe6208dc11fd6b9f2d",
+      "sources": [
+        "src/app/(app)/profile/billing/BillingForms.tsx",
+        "src/app/(app)/profile/billing/actions.ts",
+        "src/app/(app)/upgrade/page.tsx"
+      ],
+      "title": "Upgrade",
+      "text": "For: see what Pro includes and upgrade your free account to paid\nGet there: when you try to access a paid feature, the app redirects you here; or navigate directly to /upgrade\nDo here:\n- \"Monthly\" / \"Yearly (15% off)\": switch between monthly and yearly billing; yearly pricing shows a 15% discount\n- \"Get Pro\" or \"Get Pro Plus\": start the upgrade process for that plan; if you already have a subscription, this opens Stripe's portal instead to switch plans\n- review the features list for each plan, with prices displayed for your chosen billing interval\n- \"Back to the Internal Network\": return to the networking page without upgrading\nLimits:\n- you see this page only if your account is free; paid accounts are redirected to the dashboard\n- monthly payments cannot be refunded; yearly plans can be cancelled by emailing alex.rivera@example.com for a pro rata refund of unused time\n- subscriptions run through the end of your paid period even after cancellation\n\nRelated: Manage Billing (/app/profile/billing), Dashboard (/dashboard), Internal Network (/networking)"
+    },
+    "/who-we-are": {
+      "hash": "5f57a1b95170fc69baf48840b44fb891c40c4b9f8cd2694a90c812df68f97fed",
+      "sources": [
+        "src/app/(marketing)/BlurHighlight.tsx",
+        "src/app/(marketing)/Reveal.tsx",
+        "src/app/(marketing)/useInViewReveal.ts",
+        "src/app/(marketing)/who-we-are/page.tsx"
+      ],
+      "title": "Who We Are",
+      "text": "For: Learn about Offerly's founders and mission\nGet there: the website (/who-we-are)\nDo here:\n- \"Join the waitlist\": link to the main page to sign up\n- Founder cards: click a founder's card to open their LinkedIn profile in a new tab; hover to reveal a LinkedIn link\nRelated: Home (/)"
+    }
+  }
+}

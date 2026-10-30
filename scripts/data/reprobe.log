@@ -1,0 +1,927 @@
+waiting for the AWM probe (pid 42574) to finish...
+[2026-09-20T15:49:11Z] === re-probe starting: 10 platforms, all 14 sectors ===
+[2026-09-20T15:49:11Z] asset_wealth_management probe is running (pid 42575) - waiting for it
+[2026-09-20T16:32:11Z] asset_wealth_management probe finished
+[2026-09-20T16:32:11Z] --- sectors with no sources at all ---
+[2026-09-20T16:32:11Z] probing consulting -> scripts/data/probed-consulting.json
+Probing 0 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 0 requests.
+
+
+0 boards found from 0 firms in 0s (0 requests).
+0 firms need a re-run (no answer, not a negative).
+
+by platform:
+
+by category (found / probed):
+
+written to scripts/data/probed-consulting.json
+[2026-09-20T16:32:12Z] done consulting (0 platforms)
+[2026-09-20T16:32:12Z] probing market_infrastructure -> scripts/data/probed-market-infrastructure.json
+Probing 3 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 60 requests.
+
+
+  retrying 3 firms that never got an answer...
+  retry left 3 still unanswered.
+
+0 boards found from 3 firms in 15s (33 requests).
+3 firms need a re-run (no answer, not a negative).
+
+by platform:
+
+by category (found / probed):
+      0 / 3        0.0%  market_infrastructure
+
+written to scripts/data/probed-market-infrastructure.json
+[2026-09-20T16:32:27Z] done market_infrastructure (10 platforms)
+[2026-09-20T16:32:27Z] probing fintech -> scripts/data/probed-fintech.json
+Probing 7 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 140 requests.
+
+
+  retrying 7 firms that never got an answer...
+  retry left 7 still unanswered.
+
+0 boards found from 7 firms in 38s (77 requests).
+7 firms need a re-run (no answer, not a negative).
+
+by platform:
+
+by category (found / probed):
+      0 / 7        0.0%  fintech
+
+written to scripts/data/probed-fintech.json
+[2026-09-20T16:33:06Z] done fintech (10 platforms)
+[2026-09-20T16:33:06Z] probing insurance -> scripts/data/probed-insurance.json
+Probing 1 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 20 requests.
+
+
+  retrying 1 firms that never got an answer...
+  retry left 1 still unanswered.
+
+0 boards found from 1 firms in 3s (11 requests).
+1 firms need a re-run (no answer, not a negative).
+
+by platform:
+
+by category (found / probed):
+      0 / 1        0.0%  insurance
+
+written to scripts/data/probed-insurance.json
+[2026-09-20T16:33:09Z] done insurance (10 platforms)
+[2026-09-20T16:33:09Z] probing sales_trading -> scripts/data/probed-sales-trading.json
+Probing 0 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 0 requests.
+
+
+0 boards found from 0 firms in 0s (0 requests).
+0 firms need a re-run (no answer, not a negative).
+
+by platform:
+
+by category (found / probed):
+
+written to scripts/data/probed-sales-trading.json
+[2026-09-20T16:33:09Z] done sales_trading (0 platforms)
+[2026-09-20T16:33:09Z] redo private_credit - stored answer used 7 of 10 platforms
+[2026-09-20T16:33:09Z] probing private_credit -> scripts/data/probed-private-credit.json
+Probing 80 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 1600 requests.
+
+  + Cfi Partners -> BambooHR "cfipartners" (0 listings)
+  ... 50/80 firms, 481 requests, 1 boards
+
+  retrying 77 firms that never got an answer...
+[2026-09-20T16:39:27Z] === re-probe starting: 10 platforms, all 14 sectors ===
+[2026-09-20T16:39:27Z] --- sectors with no sources at all ---
+[2026-09-20T16:39:27Z] redo consulting - stored answer used 0 of 10 platforms
+[2026-09-20T16:39:27Z] probing consulting -> scripts/data/probed-consulting.json
+Probing 0 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 0 requests.
+
+
+0 boards found from 0 firms in 0s (0 requests).
+0 firms need a re-run (no answer, not a negative).
+
+by platform:
+
+by category (found / probed):
+
+written to scripts/data/probed-consulting.json
+[2026-09-20T16:39:27Z] done consulting (0 platforms)
+[2026-09-20T16:39:27Z] skip market_infrastructure - already probed with 10 platforms
+[2026-09-20T16:39:27Z] skip fintech - already probed with 10 platforms
+[2026-09-20T16:39:27Z] skip insurance - already probed with 10 platforms
+[2026-09-20T16:39:27Z] redo sales_trading - stored answer used 0 of 10 platforms
+[2026-09-20T16:39:27Z] probing sales_trading -> scripts/data/probed-sales-trading.json
+Probing 0 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 0 requests.
+
+
+0 boards found from 0 firms in 0s (0 requests).
+0 firms need a re-run (no answer, not a negative).
+
+by platform:
+
+by category (found / probed):
+
+written to scripts/data/probed-sales-trading.json
+[2026-09-20T16:39:28Z] done sales_trading (0 platforms)
+[2026-09-20T16:39:28Z] redo private_credit - stored answer used 7 of 10 platforms
+[2026-09-20T16:39:28Z] probing private_credit -> scripts/data/probed-private-credit.json
+Probing 80 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 1600 requests.
+
+  + Cfi Partners -> BambooHR "cfipartners" (0 listings)
+  ... 50/80 firms, 481 requests, 1 boards
+
+  retrying 77 firms that never got an answer...
+  retry left 77 still unanswered.
+
+1 boards found from 80 firms in 818s (850 requests).
+77 firms need a re-run (no answer, not a negative).
+
+by platform:
+      1  BambooHR
+
+by category (found / probed):
+      1 / 80       1.3%  private_credit
+
+written to scripts/data/probed-private-credit.json
+[2026-09-20T16:53:06Z] done private_credit (10 platforms)
+[2026-09-20T16:53:06Z] probing commercial_banking -> scripts/data/probed-commercial-banking.json
+Probing 1 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 20 requests.
+
+
+  retrying 1 firms that never got an answer...
+  retry left 1 still unanswered.
+
+0 boards found from 1 firms in 5s (11 requests).
+1 firms need a re-run (no answer, not a negative).
+
+by platform:
+
+by category (found / probed):
+      0 / 1        0.0%  commercial_banking
+
+written to scripts/data/probed-commercial-banking.json
+[2026-09-20T16:53:11Z] done commercial_banking (10 platforms)
+[2026-09-20T16:53:11Z] --- sectors that already have sources, re-probed for the new platforms ---
+[2026-09-20T16:53:11Z] redo asset_wealth_management - stored answer used 7 of 10 platforms
+[2026-09-20T16:53:11Z] probing asset_wealth_management -> scripts/data/probed-asset-wealth-management.json
+Probing 7436 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 148720 requests.
+
+  + Assetmark, INC. -> Getro "assetmark" (0 listings)
+  + Ieq Capital, LLC -> Greenhouse "ieqcapital" (41 listings)
+  + Cwm, LLC -> BambooHR "cwm" (0 listings)
+  ... 50/7436 firms, 484 requests, 3 boards
+  + Feg -> Dayforce "feg" (3 listings)
+  + Stratos Wealth Partners, LTD -> Recruitee "stratoswealthpartners" (7 listings)
+  ... 100/7436 firms, 975 requests, 5 boards
+  + We Family Offices -> BambooHR "wefamilyoffices" (0 listings)
+  + Modera Wealth Management, LLC -> Greenhouse "moderawealthmanagement" (11 listings)
+  + Concentric -> Greenhouse "concentric" (13 listings)
+  + Acorns -> Ashby "acorns" (10 listings)
+  ... 150/7436 firms, 1430 requests, 9 boards
+  + Parallel Advisors, LLC -> Lever "paralleladvisors" (2 listings)
+  + Ethic -> Greenhouse "ethic" (4 listings)
+  ... 200/7436 firms, 1919 requests, 11 boards
+  + Horizon Investments LLC -> BambooHR "horizoninvestments" (1 listings)
+  + Rfg Advisory, LLC -> BambooHR "rfgadvisory" (0 listings)
+  ... 250/7436 firms, 2401 requests, 13 boards
+  ... 300/7436 firms, 2901 requests, 13 boards
+  + Dynamic -> Getro "dynamic" (0 listings)
+  ... 350/7436 firms, 3400 requests, 14 boards
+  + Coastal Bridge Advisors -> BambooHR "coastalbridgeadvisors" (1 listings)
+  + Savvy -> Ashby "savvy" (25 listings)
+  + Stash -> Ashby "stash" (0 listings)
+  ... 400/7436 firms, 3883 requests, 17 boards
+  + Inspire Investing, LLC -> BambooHR "inspireinvesting" (0 listings)
+  ... 450/7436 firms, 4374 requests, 18 boards
+  + Mozaic, LLC -> Breezy "mozaic" (1 listings)
+  ... 500/7436 firms, 4874 requests, 19 boards
+  + Vista Capital Partners, INC. -> BambooHR "vistacapitalpartners" (1 listings)
+  ... 550/7436 firms, 5355 requests, 20 boards
+  + Foster & Motley INC -> BambooHR "fosterandmotley" (0 listings)
+  ... 600/7436 firms, 5846 requests, 21 boards
+  + Mcadam LLC -> Workable "mcadam" (0 listings)
+  + Ipex, INC. -> Workable "ipex" (0 listings)
+  ... 650/7436 firms, 6330 requests, 23 boards
+  + Wealth Architects, LLC -> BambooHR "wealtharchitects" (2 listings)
+  ... 700/7436 firms, 6821 requests, 24 boards
+  + Moneco Advisors -> Greenhouse "monecoadvisors" (7 listings)
+  + 1834 Investment Advisors CO. -> Workable "1834investmentadvisors" (0 listings)
+  ... 750/7436 firms, 7312 requests, 26 boards
+  ... 800/7436 firms, 7812 requests, 26 boards
+  + Unison -> Dayforce "unison" (3 listings)
+  + Cfo4life -> BambooHR "cfo4life" (0 listings)
+  ... 850/7436 firms, 8296 requests, 28 boards
+  + Auxano Advisors -> BambooHR "auxanoadvisors" (0 listings)
+  ... 900/7436 firms, 8787 requests, 29 boards
+  ... 950/7436 firms, 9287 requests, 29 boards
+  ... 1000/7436 firms, 9787 requests, 29 boards
+  ... 1050/7436 firms, 10277 requests, 29 boards
+  ... 1100/7436 firms, 10777 requests, 29 boards
+  + 49 Financial -> Workable "49financial" (0 listings)
+  + The Planning Center, INC. -> BambooHR "theplanningcenter" (1 listings)
+  ... 1150/7436 firms, 11255 requests, 31 boards
+  ... 1200/7436 firms, 11755 requests, 31 boards
+  ... 1250/7436 firms, 12255 requests, 31 boards
+  ... 1300/7436 firms, 12745 requests, 31 boards
+  + Capital Wealth Management, LLC -> BambooHR "capitalwealthmanagement" (0 listings)
+  ... 1350/7436 firms, 13236 requests, 32 boards
+  ... 1400/7436 firms, 13736 requests, 32 boards
+  + Talon LLC -> BambooHR "talon" (0 listings)
+  ... 1450/7436 firms, 14227 requests, 33 boards
+  + Seeds -> BambooHR "seeds" (17 listings)
+  + Syntheticfi LLC -> BambooHR "syntheticfi" (5 listings)
+  ... 1500/7436 firms, 14709 requests, 35 boards
+  ... 1550/7436 firms, 15209 requests, 35 boards
+  + Frisch Financial Group, INC. -> BambooHR "frischfinancialgroup" (0 listings)
+  + Riversedge Advisors -> BambooHR "riversedgeadvisors" (2 listings)
+  ... 1600/7436 firms, 15691 requests, 37 boards
+  + Syverson Strege -> BambooHR "syversonstrege" (0 listings)
+  + Alley Company -> BambooHR "alley" (0 listings)
+  ... 1650/7436 firms, 16163 requests, 39 boards
+  ... 1700/7436 firms, 16663 requests, 39 boards
+  ... 1750/7436 firms, 17163 requests, 39 boards
+  + Francis Financial -> BambooHR "francisfinancial" (0 listings)
+  ... 1800/7436 firms, 17654 requests, 40 boards
+  ... 1850/7436 firms, 18154 requests, 40 boards
+  + Perennial -> Lever "perennial" (0 listings)
+  ... 1900/7436 firms, 18649 requests, 41 boards
+  + August Group -> BambooHR "augustgroup" (0 listings)
+  ... 1950/7436 firms, 19140 requests, 42 boards
+  ... 2000/7436 firms, 19640 requests, 42 boards
+  + The Retirement Solution LLC -> BambooHR "theretirementsolution" (0 listings)
+  ... 2050/7436 firms, 20131 requests, 43 boards
+  ... 2100/7436 firms, 20631 requests, 43 boards
+  + Bare Wealth Advisors -> BambooHR "barewealthadvisors" (1 listings)
+  + Betterwealth LLC -> Workable "betterwealth" (0 listings)
+  ... 2150/7436 firms, 21119 requests, 45 boards
+  + Single Point Partners -> BambooHR "singlepointpartners" (0 listings)
+  + Peak Retirement Planning, INC. -> BambooHR "peakretirementplanning" (1 listings)
+  ... 2200/7436 firms, 21601 requests, 47 boards
+  ... 2250/7436 firms, 22101 requests, 47 boards
+  ... 2300/7436 firms, 22591 requests, 47 boards
+  + Cfci -> BambooHR "cfci" (12 listings)
+  ... 2350/7436 firms, 23082 requests, 48 boards
+  + Frec -> Ashby "frec" (6 listings)
+  ... 2400/7436 firms, 23578 requests, 49 boards
+  ... 2450/7436 firms, 24068 requests, 49 boards
+  + Adaptive Financial Consulting, LLC -> Greenhouse "adaptivefinancialconsulting" (16 listings)
+  + Dividend Assets Capital, LLC -> BambooHR "dividendassetscapital" (0 listings)
+  ... 2500/7436 firms, 24543 requests, 51 boards
+  ... 2550/7436 firms, 25043 requests, 51 boards
+  + Mindful Asset Planning -> BambooHR "mindfulassetplanning" (1 listings)
+  ... 2600/7436 firms, 25534 requests, 52 boards
+  + Wiser Wealth Management, INC -> BambooHR "wiserwealthmanagement" (0 listings)
+  ... 2650/7436 firms, 26005 requests, 53 boards
+  + Dentist Advisors -> BambooHR "dentistadvisors" (2 listings)
+  ... 2700/7436 firms, 26496 requests, 54 boards
+  + Parkview LTD. -> BambooHR "parkview" (2 listings)
+  ... 2750/7436 firms, 26987 requests, 55 boards
+  ... 2800/7436 firms, 27487 requests, 55 boards
+  ... 2850/7436 firms, 27987 requests, 55 boards
+  ... 2900/7436 firms, 28487 requests, 55 boards
+  ... 2950/7436 firms, 28987 requests, 55 boards
+  ... 3000/7436 firms, 29487 requests, 55 boards
+  ... 3050/7436 firms, 29987 requests, 55 boards
+  ... 3100/7436 firms, 30487 requests, 55 boards
+  ... 3150/7436 firms, 30987 requests, 55 boards
+  ... 3200/7436 firms, 31477 requests, 55 boards
+  ... 3250/7436 firms, 31977 requests, 55 boards
+  ... 3300/7436 firms, 32477 requests, 55 boards
+  ... 3350/7436 firms, 32977 requests, 55 boards
+  ... 3400/7436 firms, 33477 requests, 55 boards
+  ... 3450/7436 firms, 33967 requests, 55 boards
+  ... 3500/7436 firms, 34457 requests, 55 boards
+  ... 3550/7436 firms, 34957 requests, 55 boards
+  ... 3600/7436 firms, 35457 requests, 55 boards
+  ... 3650/7436 firms, 35957 requests, 55 boards
+  + Elevate Wealth Management -> BambooHR "elevatewealthmanagement" (0 listings)
+  ... 3700/7436 firms, 36438 requests, 56 boards
+  + Mbi LLC -> BambooHR "mbi" (0 listings)
+  ... 3750/7436 firms, 36919 requests, 57 boards
+  ... 3800/7436 firms, 37419 requests, 57 boards
+  ... 3850/7436 firms, 37919 requests, 57 boards
+  ... 3900/7436 firms, 38419 requests, 57 boards
+  ... 3950/7436 firms, 38909 requests, 57 boards
+  ... 4000/7436 firms, 39399 requests, 57 boards
+  ... 4050/7436 firms, 39889 requests, 57 boards
+  ... 4100/7436 firms, 40389 requests, 57 boards
+  ... 4150/7436 firms, 40889 requests, 57 boards
+  ... 4200/7436 firms, 41389 requests, 57 boards
+  ... 4250/7436 firms, 41889 requests, 57 boards
+  ... 4300/7436 firms, 42389 requests, 57 boards
+  + Firstrust -> Dayforce "firstrust" (3 listings)
+  ... 4350/7436 firms, 42882 requests, 58 boards
+  + Global Wealth Management, LLC -> BambooHR "globalwealthmanagement" (0 listings)
+  ... 4400/7436 firms, 43373 requests, 59 boards
+  ... 4450/7436 firms, 43863 requests, 59 boards
+  ... 4500/7436 firms, 44353 requests, 59 boards
+  ... 4550/7436 firms, 44853 requests, 59 boards
+  ... 4600/7436 firms, 45353 requests, 59 boards
+  ... 4650/7436 firms, 45833 requests, 59 boards
+  ... 4700/7436 firms, 46333 requests, 59 boards
+  ... 4750/7436 firms, 46833 requests, 59 boards
+  ... 4800/7436 firms, 47333 requests, 59 boards
+[2026-09-21T03:39:09Z] done asset_wealth_management (10 platforms)
+[2026-09-21T03:39:09Z] redo real_estate - stored answer used 6 of 10 platforms
+[2026-09-21T03:39:09Z] probing real_estate -> scripts/data/probed-real-estate.json
+Probing 420 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 8400 requests.
+
+  + Fiera Capital INC. -> Dayforce "fieracapital" (3 listings)
+  + Realterm -> Dayforce "realterm" (3 listings)
+  ... 50/420 firms, 476 requests, 2 boards
+  + Fcp -> BambooHR "fcp" (5 listings)
+  + Raith Capital Partners -> BambooHR "raithcapitalpartners" (0 listings)
+  + Breakthrough Properties -> BambooHR "breakthroughproperties" (0 listings)
+  ... 100/420 firms, 949 requests, 5 boards
+  + Iron Point Partners, LLC -> BambooHR "ironpointpartners" (0 listings)
+  ... 150/420 firms, 1430 requests, 6 boards
+  + Alpine Grove Partners LLP -> BambooHR "alpinegrovepartners" (0 listings)
+  + Bridgeinvest LLC -> Greenhouse "bridgeinvest" (2 listings)
+  + Setpoint Capital -> Greenhouse "setpointcapital" (0 listings)
+  ... 200/420 firms, 1899 requests, 9 boards
+  + Rra Capital -> BambooHR "rracapital" (0 listings)
+  + Castleforge -> BambooHR "castleforge" (0 listings)
+  ... 250/420 firms, 2371 requests, 11 boards
+  ... 300/420 firms, 2871 requests, 11 boards
+  ... 350/420 firms, 3361 requests, 11 boards
+  ... 400/420 firms, 3861 requests, 11 boards
+
+  retrying 403 firms that never got an answer...
+  retry left 154 still unanswered, 249 not reached within the budget.
+
+11 boards found from 420 firms in 2213s (4211 requests).
+403 firms need a re-run (no answer, not a negative).
+
+by platform:
+      7  BambooHR
+      2  Dayforce
+      2  Greenhouse
+
+by category (found / probed):
+     11 / 420      2.6%  real_estate
+
+written to scripts/data/probed-real-estate.json
+[2026-09-21T04:16:02Z] done real_estate (10 platforms)
+[2026-09-21T04:16:02Z] probing investment_banking -> scripts/data/probed-investment-banking.json
+Probing 1 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 20 requests.
+
+
+  retrying 1 firms that never got an answer...
+  retry left 1 still unanswered.
+
+0 boards found from 1 firms in 4s (11 requests).
+1 firms need a re-run (no answer, not a negative).
+
+by platform:
+
+by category (found / probed):
+      0 / 1        0.0%  investment_banking
+
+written to scripts/data/probed-investment-banking.json
+[2026-09-21T04:16:07Z] done investment_banking (10 platforms)
+[2026-09-21T04:16:07Z] probing venture_capital -> scripts/data/probed-venture-capital.json
+Probing 1863 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 37260 requests.
+
+  + Mio Partners, INC. -> Greenhouse "miopartners" (9 listings)
+  + Forbion -> Greenhouse "forbion" (2 listings)
+  + Foundation Capital, LLC -> BambooHR "foundationcapital" (0 listings)
+  + Foundry Group, LLC -> Getro "foundrygroup" (0 listings)
+  ... 50/1863 firms, 468 requests, 4 boards
+  + Crewe Advisors -> BambooHR "creweadvisors" (1 listings)
+  + Partech Partners -> Getro "partechpartners" (0 listings)
+  + Blockchain Capital, LLC -> Getro "blockchaincapital" (0 listings)
+  + Dcm -> BambooHR "dcm" (6 listings)
+  ... 100/1863 firms, 948 requests, 8 boards
+  + G2vp, LLC -> Greenhouse "g2vp" (3 listings)
+  ... 150/1863 firms, 1432 requests, 9 boards
+  + Team8 -> BambooHR "team8" (0 listings)
+  + Learn Capital -> Getro "learncapital" (0 listings)
+  ... 200/1863 firms, 1922 requests, 11 boards
+  + Ballistic Ventures -> Getro "ballisticventures" (0 listings)
+  + Group 11 -> Getro "group11" (0 listings)
+  + Aleph -> Lever "aleph" (103 listings)
+  + Sozo Ventures -> BambooHR "sozoventures" (0 listings)
+  + M33 Growth LLC -> Lever "m33growth" (0 listings)
+  + Juxtapose -> Ashby "juxtapose" (0 listings)
+  ... 250/1863 firms, 2397 requests, 17 boards
+  + Lightbank -> Getro "lightbank" (0 listings)
+  + Acme -> BambooHR "acme" (4 listings)
+  + Mercury Fund -> Getro "mercuryfund" (0 listings)
+  + Proof -> Greenhouse "proof" (126 listings)
+  ... 300/1863 firms, 2880 requests, 21 boards
+  ... 350/1863 firms, 3370 requests, 21 boards
+  ... 400/1863 firms, 3870 requests, 21 boards
+  + Mac Venture Capital -> Getro "macventurecapital" (0 listings)
+  ... 450/1863 firms, 4359 requests, 22 boards
+  ... 500/1863 firms, 4859 requests, 22 boards
+  + Palm Drive Capital LLC -> Lever "palmdrivecapital" (0 listings)
+  ... 550/1863 firms, 5354 requests, 23 boards
+  + Anterra Capital -> BambooHR "anterracapital" (0 listings)
+  + Oca Ventures, LLC -> Getro "ocaventures" (0 listings)
+  ... 600/1863 firms, 5844 requests, 25 boards
+  + Deepwork Capital, LLC -> Getro "deepworkcapital" (0 listings)
+  + Scrum Ventures LLC -> Recruitee "scrumventures" (2 listings)
+  ... 650/1863 firms, 6341 requests, 27 boards
+  ... 700/1863 firms, 6841 requests, 27 boards
+  + Tech Square Ventures -> Getro "techsquareventures" (0 listings)
+  + Chalfen Ventures LLP -> Getro "chalfenventures" (0 listings)
+  + 4dx Ventures -> BambooHR "4dxventures" (0 listings)
+  ... 750/1863 firms, 7330 requests, 30 boards
+  ... 800/1863 firms, 7830 requests, 30 boards
+  ... 850/1863 firms, 8330 requests, 30 boards
+  + 01vc Advisor LTD -> Workable "01vcadvisor" (1 listings)
+  ... 900/1863 firms, 8827 requests, 31 boards
+  + Building Ventures, LLC -> Getro "buildingventures" (0 listings)
+  + Dgf -> Workable "dgf" (0 listings)
+  + Super{set} -> Greenhouse "superset" (2 listings)
+  ... 950/1863 firms, 9317 requests, 34 boards
+  ... 1000/1863 firms, 9817 requests, 34 boards
+  + Af Ventures -> BambooHR "afventures" (0 listings)
+  ... 1050/1863 firms, 10308 requests, 35 boards
+  ... 1100/1863 firms, 10808 requests, 35 boards
+  + Strike Capital -> Ashby "strikecapital" (0 listings)
+  + Technexus LLC -> Lever "technexus" (1 listings)
+  ... 1150/1863 firms, 11299 requests, 37 boards
+  ... 1200/1863 firms, 11799 requests, 37 boards
+  + Downing Capital Group -> Greenhouse "downingcapitalgroup" (0 listings)
+  ... 1250/1863 firms, 12293 requests, 38 boards
+  + 8-Bit Capital Management, LLC -> Workable "8bitcapitalmanagement" (0 listings)
+  + Drawdown Fund -> Workable "drawdownfund" (0 listings)
+[2026-09-21T15:44:21Z] === re-probe starting: 10 platforms, all 14 sectors ===
+[2026-09-21T15:44:21Z] --- sectors with no sources at all ---
+[2026-09-21T15:44:21Z] redo consulting - stored answer used 0 of 10 platforms
+[2026-09-21T15:44:21Z] probing consulting -> scripts/data/probed-consulting.json
+Probing 0 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 0 requests.
+
+
+0 boards found from 0 firms in 0s (0 requests).
+0 firms need a re-run (no answer, not a negative).
+
+by platform:
+
+by category (found / probed):
+
+written to scripts/data/probed-consulting.json
+[2026-09-21T15:44:21Z] done consulting (0 platforms)
+[2026-09-21T15:44:21Z] skip market_infrastructure - already probed with 10 platforms
+[2026-09-21T15:44:21Z] skip fintech - already probed with 10 platforms
+[2026-09-21T15:44:22Z] skip insurance - already probed with 10 platforms
+[2026-09-21T15:44:22Z] redo sales_trading - stored answer used 0 of 10 platforms
+[2026-09-21T15:44:22Z] probing sales_trading -> scripts/data/probed-sales-trading.json
+Probing 0 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 0 requests.
+
+
+0 boards found from 0 firms in 0s (0 requests).
+0 firms need a re-run (no answer, not a negative).
+
+by platform:
+
+by category (found / probed):
+
+written to scripts/data/probed-sales-trading.json
+[2026-09-21T15:44:22Z] done sales_trading (0 platforms)
+[2026-09-21T15:44:22Z] skip private_credit - already probed with 10 platforms
+[2026-09-21T15:44:22Z] skip commercial_banking - already probed with 10 platforms
+[2026-09-21T15:44:22Z] --- sectors that already have sources, re-probed for the new platforms ---
+[2026-09-21T15:44:22Z] skip asset_wealth_management - already probed with 10 platforms
+[2026-09-21T15:44:22Z] skip real_estate - already probed with 10 platforms
+[2026-09-21T15:44:22Z] skip investment_banking - already probed with 10 platforms
+[2026-09-21T15:44:22Z] probing venture_capital -> scripts/data/probed-venture-capital.json
+Probing 1863 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 37260 requests.
+
+  + Mio Partners, INC. -> Greenhouse "miopartners" (9 listings)
+  + Forbion -> Greenhouse "forbion" (2 listings)
+  + 83north 2017, LTD. -> Workable "83north2017" (0 listings)
+  + Elephant -> Workable "elephant" (0 listings)
+  ... 50/1863 firms, 472 requests, 4 boards
+  + Crewe Advisors -> BambooHR "creweadvisors" (1 listings)
+  + Partech Partners -> Workable "partechpartners" (0 listings)
+  + Blockchain Capital, LLC -> Getro "blockchaincapital" (0 listings)
+  + 1sharpe Capital LLC -> Workable "1sharpecapital" (1 listings)
+  + Dcm -> Workable "dcm" (0 listings)
+  ... 100/1863 firms, 953 requests, 9 boards
+  + 406 Ventures Management, LLC -> Workable "406venturesmanagement" (0 listings)
+  + G2vp, LLC -> Greenhouse "g2vp" (3 listings)
+  ... 150/1863 firms, 1434 requests, 11 boards
+  + Team8 -> BambooHR "team8" (0 listings)
+  + 010118 Management, L.P. -> Workable "010118managementlp" (0 listings)
+  + Learn Capital -> Getro "learncapital" (0 listings)
+  ... 200/1863 firms, 1921 requests, 14 boards
+  + Ballistic Ventures -> Getro "ballisticventures" (0 listings)
+  + Group 11 -> Getro "group11" (0 listings)
+  + M33 Growth LLC -> Lever "m33growth" (0 listings)
+  + Sozo Ventures -> BambooHR "sozoventures" (0 listings)
+  + Aleph -> Lever "aleph" (101 listings)
+  + Juxtapose -> Ashby "juxtapose" (0 listings)
+  ... 250/1863 firms, 2396 requests, 20 boards
+  + Lightbank -> Getro "lightbank" (0 listings)
+  + Acme -> BambooHR "acme" (4 listings)
+  + Mercury Fund -> Getro "mercuryfund" (0 listings)
+  + Proof -> Greenhouse "proof" (126 listings)
+  ... 300/1863 firms, 2879 requests, 24 boards
+  ... 350/1863 firms, 3369 requests, 24 boards
+  ... 400/1863 firms, 3869 requests, 24 boards
+  + Mac Venture Capital -> Getro "macventurecapital" (0 listings)
+  ... 450/1863 firms, 4358 requests, 25 boards
+  + 1kx Management LTD. -> Workable "1kxmanagement" (1 listings)
+  ... 500/1863 firms, 4855 requests, 26 boards
+  + Palm Drive Capital LLC -> Lever "palmdrivecapital" (0 listings)
+  ... 550/1863 firms, 5350 requests, 27 boards
+  + Anterra Capital -> BambooHR "anterracapital" (0 listings)
+  + Oca Ventures, LLC -> Getro "ocaventures" (0 listings)
+  ... 600/1863 firms, 5840 requests, 29 boards
+  + Deepwork Capital, LLC -> Getro "deepworkcapital" (0 listings)
+  + Scrum Ventures LLC -> Recruitee "scrumventures" (2 listings)
+  ... 650/1863 firms, 6337 requests, 31 boards
+  ... 700/1863 firms, 6837 requests, 31 boards
+  + Tech Square Ventures -> Getro "techsquareventures" (0 listings)
+  + Chalfen Ventures LLP -> Getro "chalfenventures" (0 listings)
+  + 4dx Ventures -> BambooHR "4dxventures" (0 listings)
+  ... 750/1863 firms, 7326 requests, 34 boards
+  ... 800/1863 firms, 7826 requests, 34 boards
+  ... 850/1863 firms, 8326 requests, 34 boards
+  ... 900/1863 firms, 8826 requests, 34 boards
+  + Building Ventures, LLC -> Getro "buildingventures" (0 listings)
+  + Super{set} -> Greenhouse "superset" (1 listings)
+  ... 950/1863 firms, 9319 requests, 36 boards
+  ... 1000/1863 firms, 9819 requests, 36 boards
+  + Af Ventures -> BambooHR "afventures" (0 listings)
+  ... 1050/1863 firms, 10310 requests, 37 boards
+  ... 1100/1863 firms, 10810 requests, 37 boards
+  + Strike Capital -> Ashby "strikecapital" (0 listings)
+  + Technexus LLC -> Lever "technexus" (1 listings)
+  ... 1150/1863 firms, 11301 requests, 39 boards
+  ... 1200/1863 firms, 11801 requests, 39 boards
+  + Downing Capital Group -> Greenhouse "downingcapitalgroup" (0 listings)
+  ... 1250/1863 firms, 12295 requests, 40 boards
+  ... 1300/1863 firms, 12795 requests, 40 boards
+  + Almaz Capital -> Getro "almazcapital" (0 listings)
+  + Overline -> Greenhouse "overline" (0 listings)
+  ... 1350/1863 firms, 13288 requests, 42 boards
+  ... 1400/1863 firms, 13788 requests, 42 boards
+  ... 1450/1863 firms, 14288 requests, 42 boards
+  ... 1500/1863 firms, 14788 requests, 42 boards
+  ... 1550/1863 firms, 15288 requests, 42 boards
+  + Orbit -> Ashby "orbit" (2 listings)
+  ... 1600/1863 firms, 15784 requests, 43 boards
+  ... 1650/1863 firms, 16284 requests, 43 boards
+  + Product Hunt, INC. -> Ashby "producthunt" (0 listings)
+  + Greymatter Capital -> Getro "greymattercapital" (0 listings)
+  ... 1700/1863 firms, 16779 requests, 45 boards
+  + Ex/ante LLC -> BambooHR "exante" (14 listings)
+  ... 1750/1863 firms, 17260 requests, 46 boards
+  + 100km Ventures LLC -> Workable "100kmventures" (0 listings)
+  ... 1800/1863 firms, 17757 requests, 47 boards
+  ... 1850/1863 firms, 18257 requests, 47 boards
+  + Fenrir -> Workable "fenrir" (0 listings)
+
+  retrying 1592 firms that never got an answer...
+  + Foundation Capital, LLC -> BambooHR "foundationcapital"
+  + 5y Capital Management Limited -> Workable "5ycapitalmanagementlimited"
+  + 468 Management Gmbh -> Workable "468managementgmbh"
+  retry left 147 still unanswered, 1359 not reached within the budget.
+
+51 boards found from 1863 firms in 10540s (18754 requests).
+1506 firms need a re-run (no answer, not a negative).
+
+by platform:
+     14  Getro
+     12  Workable
+      9  BambooHR
+      7  Greenhouse
+      4  Lever
+      4  Ashby
+      1  Recruitee
+
+by category (found / probed):
+     51 / 1863     2.7%  venture_capital
+
+written to scripts/data/probed-venture-capital.json
+[2026-09-21T18:40:02Z] done venture_capital (10 platforms)
+[2026-09-21T18:40:02Z] redo other_finance - stored answer used 7 of 10 platforms
+[2026-09-21T18:40:02Z] probing other_finance -> scripts/data/probed-other-finance.json
+Probing 1238 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 24760 requests.
+
+  ... 50/1238 firms, 490 requests, 0 boards
+  + 1823 Partners (US) LLC -> Workable "1823partnersus" (0 listings)
+  ... 100/1238 firms, 957 requests, 1 boards
+  + Fisher\smb -> Greenhouse "fishersmb" (18 listings)
+  ... 150/1238 firms, 1441 requests, 2 boards
+  ... 200/1238 firms, 1941 requests, 2 boards
+  ... 250/1238 firms, 2441 requests, 2 boards
+  ... 300/1238 firms, 2921 requests, 2 boards
+  ... 350/1238 firms, 3421 requests, 2 boards
+  ... 400/1238 firms, 3921 requests, 2 boards
+  ... 450/1238 firms, 4421 requests, 2 boards
+  + Bridgefront Capital, LLC -> Ashby "bridgefrontcapital" (1 listings)
+  ... 500/1238 firms, 4917 requests, 3 boards
+  + Zuna, LLC -> Getro "zuna" (0 listings)
+  ... 550/1238 firms, 5406 requests, 4 boards
+  ... 600/1238 firms, 5896 requests, 4 boards
+  ... 650/1238 firms, 6396 requests, 4 boards
+  + Iic -> Workable "iic" (0 listings)
+  ... 700/1238 firms, 6893 requests, 5 boards
+  + 13d Management LLC -> Workable "13dmanagement" (0 listings)
+  + 3pim International (Ifsc) LLP -> Workable "3piminternationalifsc" (0 listings)
+  ... 750/1238 firms, 7387 requests, 7 boards
+  ... 800/1238 firms, 7887 requests, 7 boards
+  ... 850/1238 firms, 8367 requests, 7 boards
+  + Newday -> Workable "newday" (0 listings)
+  + 21shares US LLC -> Workable "21sharesus" (0 listings)
+  ... 900/1238 firms, 8861 requests, 9 boards
+  + 100x Entrepreneur Fund Advisory, LLC -> Workable "100xentrepreneurfundadvisory" (0 listings)
+  + 18 Salisbury Capital -> Workable "18salisburycapital" (0 listings)
+  + 3d Advisor Group, INC. -> Workable "3dadvisorgroup" (0 listings)
+  + 24a Capital Management LLC -> Workable "24acapitalmanagement" (0 listings)
+  + 4fi Management Gmbh -> Workable "4fimanagementgmbh" (0 listings)
+  + 5280 Associates -> Workable "5280associates" (0 listings)
+  + 755 Financial -> Workable "755financial" (0 listings)
+  ... 950/1238 firms, 9340 requests, 16 boards
+  + Brightplan LLC -> Workable "brightplan" (5 listings)
+  ... 1000/1238 firms, 9827 requests, 17 boards
+  + Dualitas -> BambooHR "dualitas" (0 listings)
+  ... 1050/1238 firms, 10298 requests, 18 boards
+  ... 1100/1238 firms, 10788 requests, 18 boards
+  ... 1150/1238 firms, 11268 requests, 18 boards
+  + Quadriga -> Workable "quadriga" (0 listings)
+  + Terminal -> Ashby "terminal" (9 listings)
+  ... 1200/1238 firms, 11761 requests, 20 boards
+
+  retrying 934 firms that never got an answer...
+  + 55ip -> Workable "55ip"
+  + Foresight Group LLP -> Workable "foresightgroup"
+  retry left 18 still unanswered, 827 not reached within the budget.
+
+22 boards found from 1238 firms in 11804s (12243 requests).
+845 firms need a re-run (no answer, not a negative).
+
+by platform:
+     17  Workable
+      2  Ashby
+      1  Greenhouse
+      1  Getro
+      1  BambooHR
+
+by category (found / probed):
+     22 / 1238     1.8%  other_finance
+
+written to scripts/data/probed-other-finance.json
+[2026-09-21T21:56:47Z] done other_finance (10 platforms)
+[2026-09-21T21:56:47Z] redo hedge_fund - stored answer used 7 of 10 platforms
+[2026-09-21T21:56:47Z] probing hedge_fund -> scripts/data/probed-hedge-fund.json
+Probing 1928 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 38560 requests.
+
+  + Symmetry Investments LP -> Lever "symmetryinvestments" (0 listings)
+  + Lmr Partners LLC -> BambooHR "lmrpartners" (0 listings)
+  + Bracebridge Capital, LLC -> Greenhouse "bracebridgecapital" (6 listings)
+  + Pzena Investment Management LLC -> Greenhouse "pzenainvestmentmanagement" (2 listings)
+  + Investure, LLC -> BambooHR "investure" (5 listings)
+  ... 50/1928 firms, 465 requests, 5 boards
+  + Monarch -> BambooHR "monarch" (4 listings)
+  + Weiss Asset Management -> Greenhouse "weissassetmanagement" (4 listings)
+  + Intech -> Workable "intech" (1 listings)
+  ... 100/1928 firms, 947 requests, 8 boards
+  + Magnitude Capital, LLC -> Greenhouse "magnitudecapital" (2 listings)
+  + Algert Global LLC -> Lever "algertglobal" (0 listings)
+  ... 150/1928 firms, 1426 requests, 10 boards
+  + Laurion Capital Management LP -> Greenhouse "laurioncapitalmanagement" (0 listings)
+  ... 200/1928 firms, 1920 requests, 11 boards
+  + Dalton Investments, INC. -> BambooHR "daltoninvestments" (0 listings)
+  + Aquatic Capital Management LLC -> Greenhouse "aquaticcapitalmanagement" (8 listings)
+  ... 250/1928 firms, 2405 requests, 13 boards
+  + Avala Global LP -> Greenhouse "avalaglobal" (2 listings)
+  ... 300/1928 firms, 2899 requests, 14 boards
+  ... 350/1928 firms, 3399 requests, 14 boards
+  ... 400/1928 firms, 3899 requests, 14 boards
+  ... 450/1928 firms, 4399 requests, 14 boards
+  ... 500/1928 firms, 4899 requests, 14 boards
+  + Y-intercept (Hong Kong) Limited -> Greenhouse "yintercepthongkonglimited" (14 listings)
+  ... 550/1928 firms, 5393 requests, 15 boards
+  ... 600/1928 firms, 5883 requests, 15 boards
+  ... 650/1928 firms, 6383 requests, 15 boards
+  + Theorem -> Ashby "theorem" (0 listings)
+  + 36 South Capital Advisors LLP -> Workable "36southcapitaladvisors" (0 listings)
+  + Dawson Partners -> BambooHR "dawsonpartners" (9 listings)
+  ... 700/1928 firms, 6857 requests, 18 boards
+  + Roscommon Analytics LLC -> BambooHR "roscommonanalytics" (0 listings)
+  ... 750/1928 firms, 7338 requests, 19 boards
+  ... 800/1928 firms, 7838 requests, 19 boards
+  ... 850/1928 firms, 8338 requests, 19 boards
+  ... 900/1928 firms, 8828 requests, 19 boards
+  ... 950/1928 firms, 9328 requests, 19 boards
+  ... 1000/1928 firms, 9828 requests, 19 boards
+  ... 1050/1928 firms, 10328 requests, 19 boards
+  ... 1100/1928 firms, 10818 requests, 19 boards
+  ... 1150/1928 firms, 11318 requests, 19 boards
+  + Proteus, LLC -> BambooHR "proteus" (0 listings)
+  ... 1200/1928 firms, 11809 requests, 20 boards
+  + Unimar -> Getro "unimar" (0 listings)
+  ... 1250/1928 firms, 12298 requests, 21 boards
+  ... 1300/1928 firms, 12798 requests, 21 boards
+  ... 1350/1928 firms, 13298 requests, 21 boards
+  ... 1400/1928 firms, 13798 requests, 21 boards
+  ... 1450/1928 firms, 14298 requests, 21 boards
+  ... 1500/1928 firms, 14798 requests, 21 boards
+  ... 1550/1928 firms, 15298 requests, 21 boards
+  ... 1600/1928 firms, 15798 requests, 21 boards
+  ... 1650/1928 firms, 16298 requests, 21 boards
+  ... 1700/1928 firms, 16798 requests, 21 boards
+  ... 1750/1928 firms, 17298 requests, 21 boards
+  ... 1800/1928 firms, 17798 requests, 21 boards
+  ... 1850/1928 firms, 18298 requests, 21 boards
+  + 21peaks Capital Management, LLC -> Workable "21peakscapitalmanagement" (0 listings)
+  + 3tech Management LLC -> Workable "3techmanagement" (0 listings)
+  + 7 Main Capital LLC -> Workable "7maincapital" (0 listings)
+  ... 1900/1928 firms, 18789 requests, 24 boards
+
+  retrying 1682 firms that never got an answer...
+  retry left 15 still unanswered, 1634 not reached within the budget.
+
+24 boards found from 1928 firms in 17571s (19126 requests).
+1649 firms need a re-run (no answer, not a negative).
+
+by platform:
+      8  Greenhouse
+      7  BambooHR
+      5  Workable
+      2  Lever
+      1  Ashby
+      1  Getro
+
+by category (found / probed):
+     24 / 1928     1.2%  hedge_fund
+
+written to scripts/data/probed-hedge-fund.json
+[2026-09-22T02:49:39Z] done hedge_fund (10 platforms)
+[2026-09-22T02:49:39Z] redo private_equity - stored answer used 6 of 10 platforms
+[2026-09-22T02:49:39Z] probing private_equity -> scripts/data/probed-private-equity.json
+Probing 2882 firms across 10 platforms (BambooHR, Jobvite, Dayforce, Greenhouse, Lever, Ashby, Workable, Recruitee, Getro, Breezy), up to 2 tokens each.
+Worst case 57640 requests.
+
+  + Valor Equity Partners -> Greenhouse "valorequitypartners" (1 listings)
+  + First Manhattan CO. LLC -> Lever "firstmanhattan" (3 listings)
+  + Bbr Partners, LLC -> Greenhouse "bbrpartners" (7 listings)
+  + Hbk Capital Management -> Greenhouse "hbkcapitalmanagement" (1 listings)
+  + Aksia LLC -> Greenhouse "aksia" (22 listings)
+  ... 50/2882 firms, 461 requests, 5 boards
+  + Bc Partners LLP -> BambooHR "bcpartners" (1 listings)
+  + Pag -> Recruitee "pag" (5 listings)
+  + Vitruvian Partners LLP -> BambooHR "vitruvianpartners" (2 listings)
+  + Audax Private Debt -> Greenhouse "audaxprivatedebt" (9 listings)
+  + Bridgepoint LLC -> Workable "bridgepoint" (0 listings)
+  ... 100/2882 firms, 932 requests, 10 boards
+  + 3i Investments PLC -> Workable "3iinvestments" (0 listings)
+  + 3g Capital Partners LP -> Workable "3gcapitalpartners" (0 listings)
+  + 50 South Capital Advisors, LLC -> Workable "50southcapitaladvisors" (0 listings)
+  + Cv Advisors LLC -> BambooHR "cvadvisors" (0 listings)
+  + 17 Capital LLP -> BambooHR "17capital" (5 listings)
+  + Rtw Investments LP -> Greenhouse "rtwinvestments" (7 listings)
+  ... 150/2882 firms, 1389 requests, 16 boards
+  + 137 Ventures Management, LLC -> Workable "137venturesmanagement" (0 listings)
+  + Octopus Energy Generation -> Getro "octopusenergygeneration" (0 listings)
+  + Curi Capital, LLC -> Greenhouse "curicapital" (16 listings)
+  + Equitix -> BambooHR "equitix" (7 listings)
+  + Ngp -> Workable "ngp" (0 listings)
+  ... 200/2882 firms, 1867 requests, 21 boards
+  + Main Street Advisors -> BambooHR "mainstreetadvisors" (0 listings)
+  + Hunter Point Capital LP -> BambooHR "hunterpointcapital" (5 listings)
+  + Archimed -> Workable "archimed" (25 listings)
+  + Qic -> Workable "qic" (0 listings)
+  ... 250/2882 firms, 2343 requests, 25 boards
+  + Cercano Management LLC -> BambooHR "cercanomanagement" (2 listings)
+  + Galvanize Climate Solutions LLC -> Greenhouse "galvanizeclimatesolutions" (2 listings)
+  + Stellex Capital -> Getro "stellexcapital" (0 listings)
+  + Lead Edge Capital Management, LLC -> Greenhouse "leadedgecapitalmanagement" (0 listings)
+  ... 300/2882 firms, 2811 requests, 29 boards
+  ... 350/2882 firms, 3311 requests, 29 boards
+  ... 400/2882 firms, 3801 requests, 29 boards
+  + Greycroft LP -> Greenhouse "greycroft" (2 listings)
+  ... 450/2882 firms, 4295 requests, 30 boards
+  + Pai Partners -> Recruitee "paipartners" (7 listings)
+  + Northleaf Capital Partners -> BambooHR "northleafcapitalpartners" (11 listings)
+  + Epiris LLP -> BambooHR "epiris" (0 listings)
+  ... 500/2882 firms, 4775 requests, 33 boards
+  ... 550/2882 firms, 5275 requests, 33 boards
+  + Polychain Capital LP -> Greenhouse "polychaincapital" (1 listings)
+  + Kawa Capital Management, INC. -> BambooHR "kawacapitalmanagement" (1 listings)
+  ... 600/2882 firms, 5760 requests, 35 boards
+  + Lightrock LLP -> BambooHR "lightrock" (1 listings)
+  ... 650/2882 firms, 6251 requests, 36 boards
+  + Summa Equity -> BambooHR "summaequity" (1 listings)
+  + Wil, LLC -> Greenhouse "wil" (3 listings)
+  ... 700/2882 firms, 6726 requests, 38 boards
+  + Integral Corporation -> BambooHR "integral" (8 listings)
+  + Ourcrowd -> Getro "ourcrowd" (0 listings)
+  + Crg -> BambooHR "crg" (12 listings)
+  ... 750/2882 firms, 7187 requests, 41 boards
+  + Operose Advisors LLC -> BambooHR "operoseadvisors" (0 listings)
+  + Arc Financial -> Dayforce "arcfinancial" (3 listings)
+  + Legalist -> Greenhouse "legalist" (5 listings)
+  ... 800/2882 firms, 7665 requests, 44 boards
+  ... 850/2882 firms, 8165 requests, 44 boards
+  + Energize Capital LLC -> BambooHR "energizecapital" (0 listings)
+  + Satori Capital, LLC -> Lever "satoricapital" (0 listings)
+  ... 900/2882 firms, 8651 requests, 46 boards
+  + Titan Advisors, LLC -> BambooHR "titanadvisors" (0 listings)
+  + Ariel Alternatives, LLC -> Greenhouse "arielalternatives" (1 listings)
+  ... 950/2882 firms, 9136 requests, 48 boards
+  + Fengate -> Dayforce "fengate" (3 listings)
+  ... 1000/2882 firms, 9629 requests, 49 boards
+  ... 1050/2882 firms, 10129 requests, 49 boards
+  ... 1100/2882 firms, 10629 requests, 49 boards
+  + Uplift -> Greenhouse "uplift" (22 listings)
+  ... 1150/2882 firms, 11103 requests, 50 boards
+  + Sandlot Partners, LLC -> BambooHR "sandlotpartners" (1 listings)
+  ... 1200/2882 firms, 11594 requests, 51 boards
+  + Monticelloam, LLC -> Greenhouse "monticelloam" (8 listings)
+  + Kairos -> Getro "kairos" (0 listings)
+  + Pact -> BambooHR "pact" (41 listings)
+  ... 1250/2882 firms, 12078 requests, 54 boards
+  ... 1300/2882 firms, 12568 requests, 54 boards
+  + Blue Earth Capital AG -> Recruitee "blueearthcapitalag" (3 listings)
+  ... 1350/2882 firms, 13066 requests, 55 boards
+  + Egeria -> Recruitee "egeria" (2 listings)
+  ... 1400/2882 firms, 13564 requests, 56 boards
+  + Endless LLP -> Breezy "endless" (0 listings)
+  + True -> BambooHR "true" (8 listings)
+  ... 1450/2882 firms, 14055 requests, 58 boards
+  + All Seas Capital -> BambooHR "allseascapital" (2 listings)
+  ... 1500/2882 firms, 14536 requests, 59 boards
+  ... 1550/2882 firms, 15036 requests, 59 boards
+  ... 1600/2882 firms, 15526 requests, 59 boards
+  ... 1650/2882 firms, 16026 requests, 59 boards
+  ... 1700/2882 firms, 16526 requests, 59 boards
+  + Moonfare -> Greenhouse "moonfare" (13 listings)
+  ... 1750/2882 firms, 17020 requests, 60 boards
+  + Rallyday Partners, LLC -> Getro "rallydaypartners" (0 listings)
+  ... 1800/2882 firms, 17509 requests, 61 boards
+  ... 1850/2882 firms, 18009 requests, 61 boards
+  ... 1900/2882 firms, 18509 requests, 61 boards
+  + Nextgen Growth Partners, LLC -> Greenhouse "nextgengrowthpartners" (3 listings)
+  + Lumos Capital Group LLC -> Getro "lumoscapitalgroup" (0 listings)
+  + Emergevest -> BambooHR "emergevest" (0 listings)
+  ... 1950/2882 firms, 18993 requests, 64 boards
+  ... 2000/2882 firms, 19483 requests, 64 boards
+  ... 2050/2882 firms, 19983 requests, 64 boards
+  ... 2100/2882 firms, 20483 requests, 64 boards
+  ... 2150/2882 firms, 20983 requests, 64 boards
+  ... 2200/2882 firms, 21473 requests, 64 boards
+  + Alpaca -> BambooHR "alpaca" (0 listings)
+  ... 2250/2882 firms, 21964 requests, 65 boards
+  + Nexus Energy Partners -> BambooHR "nexusenergypartners" (0 listings)
+  ... 2300/2882 firms, 22445 requests, 66 boards
+  ... 2350/2882 firms, 22935 requests, 66 boards
+  ... 2400/2882 firms, 23435 requests, 66 boards
+  ... 2450/2882 firms, 23935 requests, 66 boards
+  + Sfermion -> Breezy "sfermion" (1 listings)
+  ... 2500/2882 firms, 24435 requests, 67 boards
+  ... 2550/2882 firms, 24935 requests, 67 boards
+  ... 2600/2882 firms, 25435 requests, 67 boards
+  ... 2650/2882 firms, 25935 requests, 67 boards
+  ... 2700/2882 firms, 26435 requests, 67 boards
+  + Guild Garage Group LLC -> Greenhouse "guildgaragegroup" (90 listings)
+  + The Equity Alliance -> BambooHR "theequityalliance" (6 listings)
+  ... 2750/2882 firms, 26920 requests, 69 boards
+  ... 2800/2882 firms, 27410 requests, 69 boards
+  ... 2850/2882 firms, 27910 requests, 69 boards
+
+  retrying 2588 firms that never got an answer...
+  retry left 156 still unanswered, 2420 not reached within the budget.
+
+69 boards found from 2882 firms in 16495s (28459 requests).
+2576 firms need a re-run (no answer, not a negative).
+
+by platform:
+     26  BambooHR
+     19  Greenhouse
+      8  Workable
+      6  Getro
+      4  Recruitee
+      2  Lever
+      2  Dayforce
+      2  Breezy
+
+by category (found / probed):
+     69 / 2882     2.4%  private_equity
+
+written to scripts/data/probed-private-equity.json
+[2026-09-22T07:24:34Z] done private_equity (10 platforms)
+[2026-09-22T07:24:34Z] === re-probe complete ===
+[2026-09-22T07:24:34Z] Review the files, then apply with scripts/apply-probed-boards.ts

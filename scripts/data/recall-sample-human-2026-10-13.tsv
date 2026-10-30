@@ -1,0 +1,337 @@
+# HUMAN GROUND TRUTH. Every verdict below was typed by Kai, hand-checking
+# each posting on 13 October 2026: 254 agree, 62 unsure (not checked), 2 WRONG.
+# Verified 318/318 identical to his Numbers export.
+#
+# It previously carried an inherited '# LABELS BELOW ARE THE AGENT'S' banner,
+# copied in by the script that built this file from the agent-filled sample.
+# A later agent read that banner and concluded the ground truth was mostly
+# agent-derived - which would have invalidated every rate measured against it.
+# It was wrong, but the file was lying to it. Do not reintroduce that header,
+# and never run `recall-sample.ts --fill-from-agent` against this file.
+# RECALL SAMPLE - the title rule, drawn 2026-10-13
+# 2294 listings are rejected because their title names no internship.
+# Put ONE of these in YOUR_VERDICT, or a plain reason:
+#   agree  - rightly rejected, this is not an undergraduate finance internship
+#   WRONG  - this IS one and we are missing it
+#   unsure - the page does not say
+# Stratum sizes are in scripts/data/recall-sample-2026-10-13.json and the estimate is weighted by them,
+# so a small stratum here still stands for its real share.
+YOUR_VERDICT	stratum	firm	title	url	id
+agree	B	Forbion	Fellowship - Investment team	https://job-boards.eu.greenhouse.io/forbion/jobs/5003764101	881d1551-0ce8-48d9-8433-1d8a95e9d973
+agree	C	Stifel	Venture Banking Credit Analyst (Summer 2027 Start)	https://careers-stifel.icims.com/jobs/9903/venture-banking-credit-analyst-%28summer-2027-start%29/job	6b75e166-4670-4780-977e-e081366b1879
+agree	C	MUFG Securities Americas	2027 MUFG UK Analyst Programme: Digital Transformation & Artificial Intelligence	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Analyst-Programme--Digital-Transformation---Artificial-Intelligence_10080075-WD-1	cf5f9be1-e326-4ac9-9c3c-bb132997e45f
+agree	C	Intrepid Investment Bankers	2027 MUFG UK Analyst Programme: Digital Transformation & Artificial Intelligence	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Analyst-Programme--Digital-Transformation---Artificial-Intelligence_10080075-WD-1	407976eb-f0a1-44d0-87e0-5e537b71b3cf
+agree	C	Jefferies	2027 Investment Banking Analyst - Frankfurt (German language skills required)	https://jefferies.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/1937-2027-Investment-Banking-Analyst-Frankfurt-German-language-skills-required/en-GB	c2b30700-135d-4e4f-9394-80e850990bd4
+agree	C	Intrepid Investment Bankers	2027 MUFG Analyst Programme Frankfurt: Global Coverage & Invesment Banking	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/Frankfurt/XMLNAME-2026-MUFG-Analyst-Programme--Frankfurt-GCIB-Rotational-Programme_10073048-WD	810257fd-f312-4cf2-8ab1-3485882a5a32
+agree	C	Jefferies	2027 Private Credit Investment Analyst Programme - London	https://jefferies.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/1949-2027-Private-Credit-Investment-Analyst-Programme-London/en-GB?instant=apply	8a3cd0f0-05e9-4eb7-b0ed-ee33501db06d
+agree	C	Stifel	Venture Banking Credit Analyst (Summer 2027 Start)	https://careers-stifel.icims.com/jobs/9902/venture-banking-credit-analyst-%28summer-2027-start%29/job	300baf4a-bd4a-4f2b-8968-eea821ed9875
+agree	C	BGC Group	Real Estate Investment Banking Analyst (class of 2027)	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250094	42521bbe-2751-43b7-8b33-b2c1716c69fa
+agree	C	MUFG Securities Americas	2027 MUFG UK Analyst Programme:	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Analyst-Programme-_10080071-WD-1	763a4a7d-a310-457c-b92d-37c0bf4d839f
+agree	C	Cantor Fitzgerald	Real Estate Investment Banking Analyst (class of 2027)	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250094	d6b74764-0dd7-41b9-9c84-b7dae8cb8b97
+agree	C	Intrepid Investment Bankers	2027 MUFG UK Analyst Programme:	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Analyst-Programme-_10080071-WD-1	121b1b3d-3d46-4585-a752-0ce7f6f39b65
+agree	C	MUFG Securities Americas	2027 MUFG UK Analyst Programme:	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Analyst-Programme-_10080071-WD-1	71ad3681-b72e-4b53-921c-fc2ddca1589b
+agree	C	Miller Buckfire	Venture Banking Credit Analyst (Summer 2027 Start)	https://careers-stifel.icims.com/jobs/9902/venture-banking-credit-analyst-%28summer-2027-start%29/job	8086583b-371a-4363-9c8c-16eba4e8799a
+agree	C	BDO Capital Advisors	Advisory Associate, Valuation & Capital Market Analysis, Complex Financial Instruments - September 2026 (Atlanta, Baltimore, Houston, Los Angeles, New York, San Francisco, San Jose, Walnut Creek)	https://ebqb.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/13356	153eeb4a-df16-4fb0-a9df-6e4d6d3899c2
+agree	C	Houlihan Lokey	2027 Graduate Financial Analyst - Corporate Finance (M&A)	https://hl.wd1.myworkdayjobs.com/Campus/job/London-UK/XMLNAME-2027-Graduate-Financial-Analyst---Corporate-Finance--M-A-_R3599	90257fec-387d-4997-9b8a-d0b35bcf72cb
+agree	C	Jefferies	2027 Risk Management Associate Program – New York	https://jefferies.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/1987-2027-Risk-Management-Associate-Program-New-York/en-GB	126f9ee2-eef9-4938-a497-3ef6b50e1955
+WRONG	C	Point72 Asset Management	Point72 Academy Investment Analyst Program for Upcoming Graduates (2027 – JP)	https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-2027-jp-&jobCode=CPA-0014816&location=Tokyo&locale=English&retURL=/CSCareerSearch	465fece5-abf8-4567-ad96-570ef1c9921e
+agree	C	Berkeley Research Group	2027 Associate - Corporate Finance - Healthcare Transaction Advisory - Nashville, TN	https://thinkbrg.wd5.myworkdayjobs.com/BRG_External_Career_Site/job/Nashville-TN/XMLNAME-2027-Associate---Corporate-Finance---Healthcare-Transaction-Advisory---Nashville--TN_JR101034	075e38f2-a50d-4364-bf4d-87d5c4c276f3
+agree	C	Houlihan Lokey	2027 Financial Analyst (Class of 2027), Portfolio Valuation and Fund Advisory Services - Chicago	https://hl.wd1.myworkdayjobs.com/Campus/job/Chicago-IL-USA/XMLNAME-2027-Financial-Analyst--Class-of-2027---Portfolio-Valuation-and-Fund-Advisory-Services---Chicago_R3654	ea2f7b45-c026-44ca-856f-c5de752e1d93
+agree	C	Stifel	Venture Banking Credit Analyst (Summer 2027 Start)	https://careers-stifel.icims.com/jobs/9903/venture-banking-credit-analyst-%28summer-2027-start%29/job	957376ed-e1ff-46f5-b4c2-78c62fb4d856
+agree	C	Houlihan Lokey	Financial Analyst, Portfolio Valuation and Fund Advisory Services (Structured Products), 2026 Graduate - London	https://hl.wd1.myworkdayjobs.com/Campus/job/London-UK/Financial-Analyst--Portfolio-Valuation-and-Fund-Advisory-Services--Structured-Products---2026-Graduate---London_R3390	f8546d70-a187-4a6d-bac4-6c68a9817675
+agree	C	Jefferies	2027 Finance Controllers Analyst Programme - London	https://jefferies.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/1978-2027-Finance-Controllers-Analyst-Programme-London/en-GB	7261cb7a-ab10-43ad-8251-107ce55e273a
+agree	C	Leerink Partners	Investment Banking Analyst, Class of 2027	https://leerink.wd5.myworkdayjobs.com/leerinkpartners/job/USA-NC-Charlotte/Investment-Banking-Analyst--Class-of-2027_R00676	2760b0d8-2b50-4a65-9479-9e4ac9c9f57d
+agree	C	BGC Group	Analyst - Consumer & Retail Investment Banking (Class of 2027)	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250035	14dd7889-6bee-4866-a55d-b50299023d3d
+agree	C	Stifel	Venture Banking Credit Analyst (Summer 2027 Start)	https://careers-stifel.icims.com/jobs/9902/venture-banking-credit-analyst-%28summer-2027-start%29/job	45d1a6e7-962a-4200-8231-cf07b833e83b
+agree	C	Intrepid Investment Bankers	2027 MUFG UK Analyst Programme:	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Analyst-Programme-_10080071-WD-1	31daf7cc-1689-42bb-ac0c-9ff6995928f7
+agree	C	Stifel	Venture Banking Credit Analyst (Summer 2027 Start)	https://careers-stifel.icims.com/jobs/9902/venture-banking-credit-analyst-%28summer-2027-start%29/job	1ed66416-7a36-4fa8-8c15-2a1c1bbcc84d
+agree	C	Miller Buckfire	Venture Banking Credit Analyst (Summer 2027 Start)	https://careers-stifel.icims.com/jobs/9903/venture-banking-credit-analyst-%28summer-2027-start%29/job	da165e84-f437-437d-b1c6-27192ce531fe
+agree	C	Houlihan Lokey	Investment Banking Financial Analyst | Atlanta, Business Services (Class of 2027)	https://hl.wd1.myworkdayjobs.com/Campus/job/Atlanta-GA-USA/Investment-Banking-Financial-Analyst---Atlanta--Business-Services--Class-of-2027-_R3473	64ca61db-2043-4f11-a718-ee4f140e51e9
+agree	C	Miller Buckfire	Venture Banking Credit Analyst (Summer 2027 Start)	https://careers-stifel.icims.com/jobs/9902/venture-banking-credit-analyst-%28summer-2027-start%29/job	4efbc74b-d893-4764-b6ef-7adb1d96c115
+agree	C	Cantor Fitzgerald	Analyst - Consumer & Retail Investment Banking (Class of 2027)	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250035	2049d83d-84ae-4c14-861d-c4053f55e106
+agree	C	MUFG Securities Americas	2027 MUFG Analyst Programme Frankfurt: Global Coverage & Invesment Banking	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/Frankfurt/XMLNAME-2026-MUFG-Analyst-Programme--Frankfurt-GCIB-Rotational-Programme_10073048-WD	af7fc814-d186-480a-a362-59b20517b2d5
+agree	C	Miller Buckfire	Venture Banking Credit Analyst (Summer 2027 Start)	https://careers-stifel.icims.com/jobs/9903/venture-banking-credit-analyst-%28summer-2027-start%29/job	fb46886c-d102-4719-bb26-5d5326c7864e
+agree	C	Citizens Financial Group	2027 Associate Financial Analyst Development Program	https://jobs.citizensbank.com/category/student-and-recent-graduates-jobs/288/8240544/1	1575fb1b-57eb-40be-aeb4-1b7636fc9407
+agree	C	Jefferies	2027 Equity Research Analyst Programme - London	https://jefferies.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/1936-2027-Equity-Research-Analyst-Programme-London/en-GB	d923f0bb-1ca0-40a3-9b17-47e05f0d81b2
+agree	C	Intrepid Investment Bankers	2027 MUFG UK Analyst Programme: Digital Transformation & Artificial Intelligence	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Analyst-Programme--Digital-Transformation---Artificial-Intelligence_10080075-WD-1	98a52112-6355-4719-a478-3c0ad4a643b3
+agree	C	MUFG Securities Americas	2027 MUFG UK Analyst Programme: Digital Transformation & Artificial Intelligence	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/London/XMLNAME-2027-MUFG-UK-Analyst-Programme--Digital-Transformation---Artificial-Intelligence_10080075-WD-1	1e3e2079-e3e3-4c32-91ab-9c73c04f628b
+WRONG	C	Jefferies	2027 Finance Controllers Analyst Programme - London	https://jefferies.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/2/opp/1978-2027-Finance-Controllers-Analyst-Programme-London/en-GB?instant=apply	196e6f88-71ee-449a-abcb-519612f295b0
+agree	D	Cain Brothers	Personal Banker	https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Cincinnati-OH/Personal-Banker_R-42622	7719642f-f200-49b0-a771-86d5c7b0f2b5
+unsure	D	William Blair	Research Associate, Global Financials	https://www.williamblair.com/Careers/job-description?gh_jid=5238905007	98c9e35d-35e9-44d0-bfe8-7585b663431b
+agree	D	Ieq Capital, LLC	Associate, Client Onboarding Specialist	https://job-boards.greenhouse.io/ieqcapital/jobs/7786299003	24d76373-63ee-43c5-b372-1105a78c2165
+agree	D	William Blair	Associate I, CRU Risk	https://www.williamblair.com/Careers/job-description?gh_jid=5246805007	df3856d6-c5f4-44c7-8e7f-0199412f750a
+agree	D	Unison	Case Manager III/IV - Ware BH	https://jobs.dayforcehcm.com/en-US/unison/CANDIDATEPORTAL/jobs/4925	c2b1022c-1128-49b8-bb2e-e4fd25016ff4
+agree	D	Baker Tilly Capital	Associate Product Manager	https://bakertilly.wd5.myworkdayjobs.com/BTCareers/job/IND-KA-Bangalore---Cherry-Hills/Associate-Product-Manager_JR108436	24f23cbf-6274-4815-9a34-32c124c17660
+unsure	D	Miller Buckfire	Operations Manager - Stock Records	https://careers-stifel.icims.com/jobs/9968/operations-manager---stock-records/job	8dd92b60-d993-481f-a040-56288b9ffde0
+unsure	D	Stifel	Operations Manager - Stock Records	https://careers-stifel.icims.com/jobs/9968/operations-manager---stock-records/job	f001ddcf-bf86-44cd-ae2b-a780c2ece39b
+unsure	D	William Blair	Research Associate - U.S. Growth & Core (Technology)	https://www.williamblair.com/Careers/job-description?gh_jid=5243362007	0c92c2c7-2843-4a3d-8cfe-aff1d3469229
+agree	D	Raymond James	Client Services Representative, Servicing	https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Pittsburgh-Pennsylvania---United-States/Client-Services-Representative--Servicing_R-0013328	b91aee5f-1199-4ad5-9486-2309ed714349
+agree	D	Mio Partners, INC.	Associate	https://job-boards.greenhouse.io/miopartners/jobs/5398477008	68548420-d2dc-4c1e-a8a6-66434937e0f1
+agree	D	Piper Sandler	Private Funds Advisory - Distribution Associate	https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers/job/Dallas-TX/Private-Funds-Advisory---Distribution-Associate_R-100736	968ba408-ad4a-46c7-a0d0-c9ecb86c5436
+agree	D	Cain Brothers	Personal Banker	https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Issaquah-WA/Personal-Banker_R-42107	05f74f9b-8a6c-4fed-913c-7acf29e04efc
+agree	D	Unison	Behavioral Health Worker I Peer PRN - Ware Day	https://jobs.dayforcehcm.com/en-US/unison/CANDIDATEPORTAL/jobs/4966	be1bba50-fbed-47ff-959c-6df896ec2c45
+agree	D	Cain Brothers	Licensed Private Client Banker	https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Issaquah-WA/Licensed-Private-Client-Banker_R-42634	512bb009-c5af-4953-80bd-fc498fd524de
+unsure	D	William Blair	Hospitality Specialist	https://www.williamblair.com/Careers/job-description?gh_jid=5255986007	8beafaf6-e4b2-4786-813c-4b02dcb57a62
+agree	D	Frec	Investment Associate	https://jobs.ashbyhq.com/frec/ffdf118e-a778-423c-b78c-e9858e89f3f2	0b049179-1637-4067-b431-a1e5a7c26937
+unsure	D	Miller Buckfire	IB Analyst - Real Estate	https://careers-stifel.icims.com/jobs/9923/ib-analyst---real-estate/job	10e5ce4f-368c-46bf-ab6d-50828c425702
+agree	D	Stratos Wealth Partners, LTD	Relationship Manager	https://careers.stratoswealthpartners.com/o/relationship-manager	0a7cc7a5-def3-495c-9817-01c7fb43642d
+agree	D	Financial Technology Partners	Equity Research Associate – FinTech	https://job-boards.greenhouse.io/financialtechnologypartners/jobs/8641891002	e0df2721-abcd-4415-b86a-3f207d415e95
+agree	D	Cain Brothers	Personal Banker	https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Fairbanks-AK/Personal-Banker_R-42038	5aeb85b7-e6f3-4b12-bfdb-51def56a6f02
+agree	D	Ieq Capital, LLC	Associate, Wealth Management 	https://job-boards.greenhouse.io/ieqcapital/jobs/7578317003	edca08d9-5b33-4174-aada-11608b063ad9
+unsure	D	Baker Tilly Capital	Manager, Fiscal Operations Advisory	https://bakertilly.wd5.myworkdayjobs.com/BTCareers/job/USA-IN-Remote/Manager--Fiscal-Operations-Advisory_JR108028	a54e1860-f603-4b1c-ac4b-5deb7ad20b97
+unsure	D	Miller Buckfire	HR Systems Analyst	https://careers-stifel.icims.com/jobs/10019/hr-systems-analyst/job	14fe6262-8c6f-403e-a36d-8450fd0e9d95
+agree	D	Greenhill & Co	Internal Audit - Credit Risk	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/NYC-1285/Internal-Audit---Credit-Rsik_R7373	de7e6b23-1883-4f1d-9156-c25a25b84a3e
+agree	D	Aksia LLC	Analyst/Associate, Private Equity Primaries	https://job-boards.greenhouse.io/aksia/jobs/8403129002	8a8c1880-d264-49c5-b50c-8fcffee2f16c
+agree	D	Fcp	Financial Reporting Analyst/Sr. Analyst – Investor Relations and Capital Formation	https://fcp.bamboohr.com/careers/78	c92a5b0d-eb94-461b-bf5d-2c679f7d04fd
+agree	D	Cantor Fitzgerald	Analyst, Metals & Mining Investment Banking	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250178	9efe56e1-2d80-4810-a1f2-cf8bb277a7cb
+agree	D	Stratos Wealth Partners, LTD	Operations Manager	https://careers.stratoswealthpartners.com/o/operations-manager-2	72a4cb55-d023-410b-9f8b-ab06cc6ddddf
+agree	D	Piper Sandler	Quantitative Associate - Special District Group	https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers/job/Denver-CO/Quantitative-Associate---Special-District-Group_R-100728-1	e4d6281b-f92e-4780-83e1-ba8c7cee1bfd
+agree	D	Cowen (now TD Cowen)	Premier Banker- Cherry Hill Mall	https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Cherry-Hill-New-Jersey/Premier-Banker--Cherry-Hill-Mall_R_1482385-1	112efa5e-98f9-4e2d-9bf6-425555c19aa3
+agree	D	William Blair	Investment Banking Associate, Healthcare	https://www.williamblair.com/Careers/job-description?gh_jid=5245824007	638ea6c4-a5d8-411d-80b4-70ff775b8bda
+unsure	D	Miller Buckfire	Commercial Credit Analyst-Broadly Syndicated Lending	https://careers-stifel.icims.com/jobs/10042/commercial-credit-analyst-broadly-syndicated-lending/job	400981b9-a7f5-44ff-8b22-d1508b31d33d
+unsure	D	Stifel	New Account Operations Associate II-International	https://careers-stifel.icims.com/jobs/9911/new-account-operations-associate-ii-international/job	2625d447-7a27-4d46-8ef7-e1af7ae7c7dc
+unsure	D	Miller Buckfire	Operations Associate - IRA and Qualified Plans	https://careers-stifel.icims.com/jobs/10017/operations-associate---ira-and-qualified-plans/job	997b4d3e-6afc-4918-96d2-0393565126b5
+agree	D	Blue Earth Capital AG	Junior Compliance Officer	https://blueearthcapitalag.recruitee.com/o/junior-compliance-officer	be99094d-a7fd-4f07-93e1-3000300fb8d7
+agree	D	Ieq Capital, LLC	Associate, Client Onboarding Specialist	https://job-boards.greenhouse.io/ieqcapital/jobs/7786295003	64dc685f-d423-4355-bf78-d9af7cc5c41a
+agree	D	Financial Technology Partners	FinTech / Payments Business Development Associate	https://job-boards.greenhouse.io/financialtechnologypartners/jobs/8602839002	15a5dbe7-fe14-4795-88cb-1ac57d711bb7
+agree	D	Alpaca	Product Manager - Brokerage - Middle East	https://job-boards.greenhouse.io/alpaca/jobs/6187211004	d7053297-a953-46b2-b107-0402f8f1a7c9
+agree	D	BMO Capital Markets (US)	AVP, Commercial Banking	https://bmo.wd3.myworkdayjobs.com/External/job/Los-Angeles-CA-USA/AVP--Commercial-Banking_R260028477	74208724-e805-4890-8034-0e4b3d7c195f
+unsure	D	Miller Buckfire	Annuity Solutions Specialist II	https://careers-stifel.icims.com/jobs/9888/annuity-solutions-specialist-ii/job	aca20e1b-84aa-439b-b2de-30c6f4e91695
+agree	D	JPMorgan	Investment Banking – Equity Capital Markets – Analyst	https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210765321	d84d0944-5232-40d2-a57b-6a35a8d4f36d
+agree	D	Ieq Capital, LLC	Associate, Research	https://job-boards.greenhouse.io/ieqcapital/jobs/7850304003	5b6e2642-5c52-41c5-825b-ce93b99ec8fc
+agree	D	Raymond James	Trading Support Associate III - Rebalance Support	https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Saint-Petersburg-Florida---United-States/Trading-Support-Associate-III---Rebalance-Support_R-0013376-1	5cfb57c7-cba2-43cb-bf72-483af5a57530
+unsure	D	Miller Buckfire	Operations Associate - IRA and Qualified Plans	https://careers-stifel.icims.com/jobs/10017/operations-associate---ira-and-qualified-plans/job	aca73878-e4a2-40fa-9e64-ffce20455c7c
+agree	D	Mizuho Americas	Internal Audit - Liquidity Risk Management	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/NYC-1285/Internal-Audit---Liquidity-Risk-Management_R7384	c544a499-4da4-4369-b699-0d375b6ad88f
+unsure	D	Stifel	Operations Associate - IRA and Qualified Plans	https://careers-stifel.icims.com/jobs/10017/operations-associate---ira-and-qualified-plans/job	6c69b213-6f7a-4446-8fc0-20fc7718a0aa
+agree	D	Mizuho Americas	Investment & Corporate Banking - Consumer & Retail, Associate	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Consumer---Retail--Associate_R7401	7795d40b-1958-44ae-a497-438fb60c094e
+agree	D	Mio Partners, INC.	Wealth Planning Associate	https://job-boards.greenhouse.io/miopartners/jobs/5408829008	d4bf8495-53f4-4c71-aa50-c2fa2749f2d7
+agree	D	Clera	Accounting Manager	https://jobs.ashbyhq.com/clera/c2505fd5-c344-43cb-b958-54dcee78a144	584cec5e-9390-402b-bddf-613e16e1bf6d
+agree	D	Raymond James	Complex Business Coordinator (Houston, TX)	https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Houston-Texas---United-States/Complex-Business-Coordinator--Houston--TX-_R-0013325	de929ad3-1118-45bf-a1e1-605bed37dedc
+agree	D	Berkeley Research Group	Managing Consultant - Revenue Cycle - Healthcare	https://thinkbrg.wd5.myworkdayjobs.com/BRG_External_Career_Site/job/Remote---USA/Managing-Consultant---Revenue-Cycle---Healthcare_JR101136	5948826d-8370-4853-b4e1-386ba97d6522
+agree	D	Mizuho Americas	Associate, GTB (Global Transaction Banking) Advisory	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Associate--GTB--Global-Transaction-Banking--Advisory_R7432	5c800a5c-0763-4a40-93bb-c58020b689a6
+unsure	D	Stifel	Technical Risk Analyst	https://careers-stifel.icims.com/jobs/9942/technical-risk-analyst/job	bc2894b1-3607-4594-90a7-1bd08baf8412
+unsure	D	William Blair	Working in Technology (WiT) Platform Engineering - Summer 2027	https://www.williamblair.com/Careers/job-description?gh_jid=5242282007	798264af-422c-420e-bfc8-796b74cf7499
+unsure	D	Miller Buckfire	Operations Manager - Stock Records	https://careers-stifel.icims.com/jobs/9968/operations-manager---stock-records/job	a298ffb2-cf95-442c-b15d-f7334a51145f
+agree	D	Stockbridge Capital Group, LLC	Asset Management - Associate	https://jobs.dayforcehcm.com/en-US/stockbridge/CANDIDATEPORTAL/jobs/756	5f049705-303f-4d14-aee0-5e46170640dd
+agree	D	Moonfare	Investor Relations Manager (DACH) (m/f/d)	https://www.moonfare.com/open-position/?gh_jid=7701620003	71ca7035-78da-4741-8aa2-10ff9d56b7e2
+agree	D	Greenhill & Co	Investment & Corporate Banking – Energy - Oil & Gas, Analyst (Houston, TX)	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/Houston-TX/Investment---Corporate-Banking---Energy---Oil---Gas--Analyst--Houston--TX-_R7413-1	d7634bdc-95bd-40a4-9077-ac42ae600964
+agree	D	Piper Sandler	Investment Banking Associate - Financial Services - Specialty Finance	https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers/job/Charlotte-2-NC/Investment-Banking-Associate---FSG-Specialty-Finance_R-100703-1	afabb487-643e-4170-bec5-ef63dd66544e
+agree	D	JPMorgan	Investment Advisor [Multiple Positions Available]	https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210796791	0fa0c8c6-a988-4ba2-b174-e78acd0268c1
+agree	D	Greenhill & Co	AVP - Financial Planning & Analysis (supporting Markets business)	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/AVP---Financial-Planning---Analysis--supporting-Markets-business-_R7447	74b27b99-3855-448e-9009-a15cd5a78f13
+unsure	D	Stifel	Hedge Fund Liquid Alternative Specialist II	https://careers-stifel.icims.com/jobs/9859/hedge-fund-liquid-alternative-specialist-ii/job	075c6745-c09e-4ee0-811f-476be6faff95
+agree	D	Ankura	University Associate, Disputes & Economics - Financial Services Advisory (NYC)	https://ankura.wd5.myworkdayjobs.com/Ankura/job/New-York-NY/University-Associate--Disputes---Economics---Financial-Services-Advisory--NYC-_R104989	9af6c22d-d348-408d-b5d1-4afed04257f8
+unsure	D	Stifel	Operations Associate II-Stifel Support	https://careers-stifel.icims.com/jobs/9896/operations-associate-ii-stifel-support/job	78d5c434-c6b3-4df4-a5bb-265b9cbe6ef7
+agree	D	Clera	AI/ML Engineer	https://jobs.ashbyhq.com/clera/612fae00-2e1e-48b4-a014-d57bfc94b53f	3c2b8be5-8888-496e-a841-b4e4f2b844e0
+agree	D	Cowen (now TD Cowen)	Branch Manager I - Woodstock Branch	https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Woodstock-New-Brunswick/Branch-Manager-I---Woodstock-Branch_R_1505567	32472057-167c-4bba-b0e9-274bbc027e84
+agree	D	Mizuho Americas	Associate, Transaction Banking Sales Support	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Associate--Transaction-Banking-Sales-Support_R7407	3a5e5c9b-a08b-4ba6-8209-5549f97f1ba2
+agree	D	Fcp	Asset Management Analyst	https://fcp.bamboohr.com/careers/83	b873c96a-8639-4fd7-83fd-8edc5a761444
+agree	D	Ieq Capital, LLC	Team Lead, Wealth Management	https://job-boards.greenhouse.io/ieqcapital/jobs/7886409003	02b7f6f6-6a3d-48cb-9507-51b1b5b2654b
+agree	D	Aquatic Capital Management LLC	Quantitative Researcher	https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/7529282002	5086effd-d255-462e-a904-58ea0a4c7748
+agree	D	Curi Capital, LLC	Wealth Advisor	https://job-boards.greenhouse.io/curicapital/jobs/4092986009	21590a98-3d45-4135-bbee-2b15fae70947
+agree	D	Greenhill & Co	Investment & Corporate Banking - Industrials & Diversified Industries, Analyst	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Investment---Corporate-Banking---Industrials---Diversified-Industries--Analyst_R7394	fe76a8dc-a1b2-40a6-ac1f-c38431f8bed6
+agree	D	William Blair	Investment Banking Associate - Industrial Growth Products (Energy/Energy Transition)	https://www.williamblair.com/Careers/job-description?gh_jid=5186683007	34ca01dd-727c-4151-9f2a-060bdffe0142
+unsure	D	Breakthrough Properties	Executive Operations Associate/Coordinator	https://btprop.com/career-opportunities/?gh_jid=5222394008	c0a2763d-409e-46f5-8d0b-2b7a442e2b76
+agree	D	Baker Tilly Capital	Employee Benefits Consultant - ACA Reporting	https://bakertilly.wd5.myworkdayjobs.com/BTCareers/job/USA-PA-Clarks-Summit/Employee-Benefits-Consultant---ACA-Reporting_JR108408	ca66fab1-9cac-48cf-ac66-52ec77c208e8
+agree	D	Pact	BIM Manager (Digital Delivery Manager)	https://pact.bamboohr.com/careers/161	60d69d40-55d9-4d62-9f5b-44f590fd328a
+agree	D	Intrepid Investment Bankers	Bilingual Marketing Officer	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/New-York-NY/Bilingual-Marketing-Officer_10080080-WD-1	bbab4ae7-c6da-445a-8395-01bdfe6b4024
+agree	D	Miller Buckfire	Financial Advisor Associate	https://careers-stifel.icims.com/jobs/9929/financial-advisor-associate/job	83182472-f8b5-47b5-b099-12da75e98395
+agree	D	Cowen (now TD Cowen)	Premier Banker- Hackensack	https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Hackensack-New-Jersey/Premier-Banker--Hackensack_R_1493691	6515be3b-0b2c-4c35-bda3-7f92a48c2b7d
+agree	D	Cowen (now TD Cowen)	Bilingual Resource Officer III, Contact Center	https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Laval-Qubec/Bilingual-Resource-Officer-III--Contact-Center_R_1485854	d0f40513-3a4f-4686-9b80-d644d3891422
+unsure	D	Miller Buckfire	Portfolio Analyst	https://careers-stifel.icims.com/jobs/10014/portfolio-analyst/job	40b9f2d7-3802-45ac-b67f-60b73bb1fae1
+agree	D	Piper Sandler	Investment Banking Associate – Energy & Power – Upstream	https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers/job/Houston-4-TX-Main-Street/Investment-Banking-Associate---Energy---Power---Upstream_R-100737	ea394a7c-9a7e-467f-a071-ceaf9e38796b
+agree	D	Starwood Capital Group	Hotel Asset Management Associate	https://jobs.jobvite.com/starwoodcapitalgroup/job/oGRRAfwI	f3e51e17-8b3f-4d61-aaef-3fd2aa3b5209
+unsure	D	William Blair	Meeting Planning & Hospitality Specialist	https://www.williamblair.com/Careers/job-description?gh_jid=5254893007	7b286010-b73d-4c9e-b3d9-14f13673e615
+unsure	D	Baker Tilly Capital	Experienced Associate - Transaction Advisory Services	https://bakertilly.wd5.myworkdayjobs.com/BTCareers/job/USA-CA-San-Francisco-333-Bush-St/Experienced-Associate---Transaction-Advisory-Services_JR108443	e467bbdf-9b52-44a4-810a-747321ef35f9
+unsure	D	Miller Buckfire	Advisor Directed Programs Specialist II	https://careers-stifel.icims.com/jobs/9955/advisor-directed-programs-specialist-ii/job	79166965-7575-482d-952d-711a75fc105d
+agree	D	Stifel	Financial Advisor Associate	https://careers-stifel.icims.com/jobs/9929/financial-advisor-associate/job	4c54c874-2c41-418b-b07b-cc2a394c340c
+agree	D	Greenhill & Co	Associate, Transaction Banking Sales Support	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Associate--Transaction-Banking-Sales-Support_R7407	c90f5ad0-511f-4245-a0d8-f99fbe2e7ab6
+agree	D	Realterm	Property Manager, US (West)	https://jobs.dayforcehcm.com/en-US/Realterm/Candidateportal/jobs/1144	9babf2ee-f374-429c-a833-8e1dd863cb5e
+agree	D	Greenhill & Co	Data Analytics	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/NYC-1285/Data-Analytics_R7439-1	85674b69-7d99-4ced-95ec-d50fe76e4b15
+agree	D	MUFG Securities Americas	Analyst: First Line of Defense Control Office	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/New-York-NY/Analyst--First-Line-of-Defense-Control-Office_10079952-WD	6ef0531c-80ca-4fae-8ebe-e76a0c6c3b33
+agree	D	Intrepid Investment Bankers	Murex Support Analyst - EMEA	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/MUFG-Global-Service-Private-Ltd---Bengaluru-BCIT/Murex-Support-Analyst---EMEA_10080078-WD	db428a3a-9502-41c1-aac1-df937fc69dfd
+unsure	D	Miller Buckfire	Developer- Credit Analytics	https://careers-stifel.icims.com/jobs/10047/developer--credit-analytics/job	13f9108a-9bcf-4800-8ef7-ac878dc8053d
+agree	D	Curi Capital, LLC	Wealth Management Associate 	https://job-boards.greenhouse.io/curicapital/jobs/4317274009	27713fa2-54cd-4577-a749-f1d33f7450ae
+agree	D	TD Securities	Manager, Customer Experience - Montreal-East (Future Opportunities)	https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Saint-Lonard-Qubec/Manager--Customer-Experience---Montreal-East--Future-Opportunities-_R_1502007-1	0bca6d78-8a25-4ee4-be18-66f90260c969
+agree	D	Alpaca	Global Settlements Associate 1 	https://job-boards.greenhouse.io/alpaca/jobs/6186981004	e3fcc8c6-fd19-4758-8e16-a09df3384f77
+agree	D	Berkeley Research Group	Junior Conflicts Analyst	https://thinkbrg.wd5.myworkdayjobs.com/BRG_External_Career_Site/job/Chicago-IL/Junior-Conflicts-Analyst_JR101147	ee554da9-f18e-4786-8fd1-711d5c3f498f
+agree	D	Crg	Visa Analyst	https://crg.bamboohr.com/careers/217	76d87106-af21-4bfd-996d-4ade7c670aaf
+unsure	D	Miller Buckfire	Deposit Operations Business Systems Analyst	https://careers-stifel.icims.com/jobs/9938/deposit-operations-business-systems-analyst/job	641b1e89-91b4-4b67-9e8d-3bc1b48f9787
+agree	D	Leerink Partners	Investment Banking Associate, Biopharma	https://leerink.wd5.myworkdayjobs.com/leerinkpartners/job/USA-MA-Boston/Investment-Banking-Associate--Biopharma_R00660	0af25d9b-9d32-4b8a-933e-25835bff2901
+agree	D	JPMorgan	Banker [Multiple Positions Available]	https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210796410	2d60f5d4-c4e4-4558-baf2-05184437766c
+agree	D	Baker Tilly Capital	Sr Manager, Technology Enablement (Consulting & Managed Services)	https://bakertilly.wd5.myworkdayjobs.com/BTCareers/job/USA-TX-Frisco/Sr-Manager--Technology-Enablement--Consulting---Managed-Services-_JR108452	a6adad6e-4279-43b8-86ba-6520c1acb818
+agree	D	Pact	Risk Manager (Construction)	https://pact.bamboohr.com/careers/247	b8327496-b0ee-40b3-8fdc-7d76edc46ea7
+unsure	D	Stifel	Advisor Directed Programs Specialist II	https://careers-stifel.icims.com/jobs/10000/advisor-directed-programs-specialist-ii/job	05dbdc75-f2c1-463e-aeb4-3b2798af383e
+agree	D	Baker Tilly Capital	Sales Operations, Manager	https://bakertilly.wd5.myworkdayjobs.com/BTCareers/job/USA-FL-Miami/Sales-Operations--Manager_JR108495	26b6c74a-3270-4e13-9ccc-b4908a44cc12
+agree	D	Modera Wealth Management, LLC	Financial Advisor	https://job-boards.greenhouse.io/moderawealthmanagement/jobs/5404985008	d7d3ecbd-9852-4a29-a489-f10c88c92869
+agree	D	Piper Sandler	Equity Research Associate – Power Generation	https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers/job/New-York-NY/Equity-Research-Associate---Energy_R-100719	c7f04b8c-670e-4660-9399-1781345a36e8
+agree	D	D.A. Davidson & Co	Computer Network Administrator	https://jobs.lever.co/dadavidson/33fff989-1816-458b-a21d-9f66080932f0	102c10b9-4da2-451b-9b3f-80d30802ab44
+agree	D	Mizuho Americas	Technology Project Manager	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Technology-Project-Manager_R7225-4	0d394ea5-f6f4-45e3-ab0e-fc08899a7b7e
+agree	D	JPMorgan	Reference Data Specialist	https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210793911	131705aa-ad84-43aa-8710-433ceb6f874a
+agree	D	Financial Technology Partners	Associate, Investment Banking	https://job-boards.greenhouse.io/financialtechnologypartners/jobs/8364412002	3a99d01e-2c56-4419-a55a-a1a23ed2f480
+agree	D	Intrepid Investment Bankers	Analyst: First Line of Defense Control Office	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/New-York-NY/Analyst--First-Line-of-Defense-Control-Office_10079952-WD	fdcaea8f-6b56-4582-ac77-da8d8d0948ff
+agree	D	Miller Buckfire	Operations Associate II - Corporate Action Services	https://careers-stifel.icims.com/jobs/9941/operations-associate-ii---corporate-action-services/job	84d70217-93d5-47f2-90e1-250f7ebe2d53
+agree	D	Mizuho Americas	Technical Lead – Transaction Monitoring	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/NYC-1285/Technical-Lead---Transaction-Monitoring_R7015-3	c148d356-a154-4449-8bc2-44d2caed9f3c
+unsure	D	Stifel	Technical Product Owner	https://careers-stifel.icims.com/jobs/9863/technical-product-owner/job	6b02d9d4-39a8-4597-8e5e-85ebd02163f2
+agree	D	JPMorgan	Lead Security Engineer	https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210790193	7512c163-751f-4f06-9a85-f55a0ef24c53
+agree	D	Baker Tilly Capital	Bookkeeping Specialist - Private Wealth	https://bakertilly.wd5.myworkdayjobs.com/BTCareers/job/USA-NY-Uniondale-1500-RXR-Plaza/Tax-Specialist---Private-Wealth_JR106523	de7ee9d2-2e2b-4559-bee2-f4e97dfc4bff
+agree	D	JPMorgan	J.P. Morgan Wealth Management – Private Client Advisor - Saint Cloud, MN	https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210797784	155cce3b-4095-4043-ad44-1e57b10505d6
+agree	D	BGC Group	Investment Implementation Analyst	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250153	2b1f41b6-84b2-480b-83f2-0077ea10516f
+agree	D	Berkeley Research Group	Associate - Valuation & Damages, Forensic Accounting	https://thinkbrg.wd5.myworkdayjobs.com/BRG_External_Career_Site/job/Hong-Kong/Associate---Forensic-Accounting---Commercial-Disputes_JR101112	a4344561-4e57-4c4b-96c0-8a8412a507f7
+agree	D	Cowen (now TD Cowen)	Personnal Banker - Future Opportunities, Abitibi-Témiscamingue	https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Val-dOr-Qubec/Personnal-Banker---Future-Opportunities--Abitibi-Tmiscamingue_R_1502469	eaa81072-4303-47f4-942a-8157418bfc9a
+agree	D	MUFG Securities Americas	Salesforce Development Engineer & Systems Engineer	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/Jersey-City-NJ/Application-Management---Coordination_10078152-WD-1	9c19f671-c4dc-42d3-8074-c216b6510193
+agree	D	Kroll	Analyst, Real Estate Advisory	https://careers.kroll.com/en/job/atlanta/analyst-real-estate-advisory/21014736	47a2349f-5b62-41a9-aca7-bb594e683805
+agree	D	Mizuho Americas	AVP - Financial Planning & Analysis (supporting Markets business)	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/AVP---Financial-Planning---Analysis--supporting-Markets-business-_R7447	631b5cc2-c631-4b84-8865-ac7ae3d52ece
+agree	D	Fisher\smb	Participant Engagement Associate	https://job-boards.greenhouse.io/fishersmb/jobs/4606518008	2e7f1198-6a22-4dcf-8004-a9371b6e8268
+agree	D	Cowen (now TD Cowen)	Equity Research Associate - Consumer Restaurants	https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/New-York-New-York/Equity-Research-Associate---Consumer-Restaurants_R_1502983	016778e9-b7c8-4ad5-bd6c-e96bbe643cd0
+agree	D	TD Securities	Premier Banker- Medford	https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Medford-New-Jersey/Premier-Banker--Medford_R_1488088	c4f40b38-0e84-4e2d-8586-0102848adff0
+agree	D	Clera	Account Executive	https://jobs.ashbyhq.com/clera/e6ff2785-5fe8-4e5e-80a1-9523d3376760	5bd39ef9-83a1-4b8d-86f4-6dfdf192246d
+agree	D	Greenhill & Co	Internal Audit - Liquidity Risk Management	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/NYC-1285/Internal-Audit---Liquidity-Risk-Management_R7384	ca964498-b80b-4546-9e04-c9013540789b
+unsure	D	BGC Group	Investment Banking Associate - AI Product & Engineering	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250028	4a72be88-b09a-429e-ac9d-e87c488b8444
+unsure	D	Stifel	Advisory Marketing Specialist II	https://careers-stifel.icims.com/jobs/10048/advisory-marketing-specialist-ii/job	143b98a2-5676-4526-a4ae-bfbda354c027
+agree	D	Vertis Wealth, LLC	Associate Advisor/Account Manager	https://vertiswealth.bamboohr.com/careers/192	ea256211-402a-480f-902b-5c550671353b
+agree	D	Cowen (now TD Cowen)	Premier Banker- Haddonfield	https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Haddonfield-New-Jersey/Premier-Banker--Haddonfield_R_1493375-1	2a17bdeb-93ca-422c-b2fc-1b46673b1d05
+unsure	D	Stifel	Portfolio Analyst	https://careers-stifel.icims.com/jobs/10014/portfolio-analyst/job	9c81870a-4f60-4981-9076-9566fdb8089a
+agree	D	Realterm	Payroll Technician	https://jobs.dayforcehcm.com/en-US/Realterm/Candidateportal/jobs/1133	56c961be-7c81-45a6-8a14-9edf5d8263dc
+unsure	D	Baker Tilly Capital	Associate, Accounting & Technology Implementation	https://bakertilly.wd5.myworkdayjobs.com/BTCareers/job/USA-TX-Frisco/Onboarding-Associate--Client-Accounting-Services_JR107130	8783c96b-f76b-426e-a483-21cb0f207745
+unsure	D	Raymond James	AMS Solutions Specialist	https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Saint-Petersburg-Florida---United-States/AMS-Solutions-Specialist_R-0012645	c681b031-5e1a-4b4c-ae23-7974b3dd0a50
+agree	D	TD Securities	Premier Banker- Cherry Hill Mall	https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Cherry-Hill-New-Jersey/Premier-Banker--Cherry-Hill-Mall_R_1482385-1	68a7f657-e3ab-4987-99eb-fc198c621298
+unsure	D	Miller Buckfire	Annuity Solutions Specialist II	https://careers-stifel.icims.com/jobs/9888/annuity-solutions-specialist-ii/job	4f2ce52c-1b13-4295-b33f-5f4d67ca0000
+agree	D	Cain Brothers	Enterprise GenAI Product Manager	https://keybank.wd5.myworkdayjobs.com/External_Career_Site/job/Brooklyn-OH/Enterprise-GenAI-Product-Manager_R-42650-1	b944c5c4-5ea0-4f26-b816-f415342619d2
+agree	D	Miller Buckfire	IB Analyst - Diversified Industrials/Services (Baltimore)	https://careers-stifel.icims.com/jobs/9865/ib-analyst---diversified-industrials-services-%28baltimore%29/job	8e892b4f-cb7a-457e-9b0a-cc4c78344fc7
+unsure	D	Moonfare	Head of DACH, Investor Relations	https://www.moonfare.com/open-position/?gh_jid=7863991003	20711aba-6f7e-4122-b778-0a58c0275477
+agree	D	Lazard	Internal Sales Desk Manager	https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6379	f712756e-0411-4d79-a137-f5e291fe4130
+agree	D	TD Securities	Premier Banker- Flourtown	https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Flourtown-Pennsylvania/Premier-Banker--Flourtown_R_1504058	7daef0b4-2dea-42db-a9b5-4854f91fa1b3
+agree	D	Miller Buckfire	KBW Equity Research Associate I - Banking sector coverage	https://careers-stifel.icims.com/jobs/9835/kbw-equity-research-associate-i---banking-sector-coverage/job	88f1e7b6-c3fe-4aa3-bc41-78f73f4e2854
+agree	D	Concentric	GSOC Manager	https://job-boards.greenhouse.io/concentric/jobs/4719049006	ad3e1f1b-eb82-4e7a-b2c0-4172be0a66bf
+agree	D	TD Securities	Premier Banker- Haddonfield	https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Haddonfield-New-Jersey/Premier-Banker--Haddonfield_R_1493375-1	353f1f11-a8b5-4024-b622-e26fc2018e0d
+agree	D	Riversedge Advisors	Producing Financial Planner	https://riversedgeadvisors.bamboohr.com/careers/23	52c1d035-ca09-47a5-a528-71935a389cf5
+agree	D	Intrepid Investment Bankers	Salesforce Development Engineer & Systems Engineer	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/Jersey-City-NJ/Application-Management---Coordination_10078152-WD-1	553e6e14-05b5-446a-8159-8a8bf4e153f4
+unsure	E	Clera	Junior Operations Manager	https://jobs.ashbyhq.com/clera/b7f92da3-0538-4a86-bfaa-b6b043de7c48	041b3a1d-1df0-4194-a1cd-8f727fe2953b
+agree	E	Clera	Early-Career Account Executive	https://jobs.ashbyhq.com/clera/527b00c5-056b-41ea-956e-9a998cee88d5	0c7b1164-ccbf-4b58-9327-16c46f66402c
+agree	E	Clera	Junior to Mid-Level GTM Engineer	https://jobs.ashbyhq.com/clera/5b043863-9845-4e69-b864-446482185c6f	57f38ffb-6739-4091-9429-c854b17a1b79
+agree	E	Ankura	Account Coordinator, Strategic Communications and Public Affairs	https://ankura.wd5.myworkdayjobs.com/Ankura/job/USA-Washington-DC-655-15th-Street-NW-Red-Flag/Account-Coordinator--Strategic-Communications-and-Public-Affairs_R105054	efda18b4-e5c4-452b-9cde-865b59bd8866
+unsure	E	Rothschild and CO Wealth Management UK Limited	Current vacancies	https://rothschildandco.com/en/careers/experienced-professionals/vacancies/	80d69f6f-b8dc-4a74-9353-507934bfe8e3
+unsure	E	Clera	Technical Operations Lead	https://jobs.ashbyhq.com/clera/45ce1d42-9f3f-4675-adf7-a93cf0384a9e	dcf1c24e-34db-4292-92f1-8cf59a921b37
+agree	E	Ankura	Account Executive, Public Affairs	https://ankura.wd5.myworkdayjobs.com/Ankura/job/USA-Washington-DC-655-15th-Street-NW-Red-Flag/Account-Executive--Public-Affairs_R105053	64159875-5703-4307-85f0-f148c1b54679
+agree	E	Berkeley Research Group	Associate — Forensic Investigations	https://thinkbrg.wd5.myworkdayjobs.com/BRG_External_Career_Site/job/Dusseldorf-GER/Associate---Forensic-Investigations_JR101073	8f8fbad6-0722-437e-a54e-fc28cbbf9667
+agree	E	Clera	Marketing Lead / Product Marketing Manager	https://jobs.ashbyhq.com/clera/365bef41-e422-492e-8ad7-4747df948779	f118a807-40b7-4868-b91a-16a0880d36c5
+agree	F	Stifel	Client Service Associate	https://careers-stifel.icims.com/jobs/9883/client-service-associate/job	410d05a4-9d89-4623-8616-91503f1f9eb5
+agree	F	Galvanize Climate Solutions LLC	Analyst, Asset Management Real Estate	https://job-boards.greenhouse.io/galvanizeclimatesolutions/jobs/6208797004	fea962bc-72e4-43ab-9f78-0c364e21132f
+agree	F	JPMorgan	Associate Banker, 30 Hours, Kansas City, MO - Stateline Branch	https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210793744	acf18b41-8c3c-48a6-8b65-d995f3377383
+agree	F	JPMorgan	Treasury Operations Analyst	https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210794097	509248b5-f818-460c-b7d8-09f70de927f2
+unsure	F	Miller Buckfire	Commercial Servicing Associate III	https://careers-stifel.icims.com/jobs/9928/commercial-servicing-associate-iii/job	0f6e67e7-5804-491a-b98b-b76a7ca92d30
+agree	F	JPMorgan	Asset Servicing Analyst	https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210794793	98cdab6d-b75d-4381-af53-7b1224ff5068
+agree	F	Mizuho Americas	Equities Strategic Initiatives & Transformation	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/New-York-NY-1271-AOA6th-Ave/Equities-Strategic-Initiatives---AI-Transformation_R7176-1	5a202ac5-d551-4304-8874-6ab674756dbd
+agree	F	Ankura	Conflict Analyst	https://ankura.wd5.myworkdayjobs.com/Ankura/job/San-Francisco-CA/Conflict-Analyst_R104852	5549eb48-e9ac-4f6d-8c24-d34240be281c
+unsure	F	Stifel	Wealth Strategist I	https://careers-stifel.icims.com/jobs/8312/wealth-strategist-i/job	1fa956ef-ee15-426a-b4a2-7fc4d31b98c4
+agree	F	Kroll	Associate Agency And Trustee Services	https://careers.kroll.com/en/job/london/associate-agency-and-trustee-services/21013134	c025343c-82fe-45b3-b81e-14c323b5bf95
+unsure	F	BMO Capital Markets (US)	Associate Banker	https://bmo.wd3.myworkdayjobs.com/External/job/Chandler-AZ-USA/Associate-Banker_R260028713	3141b7ea-c167-4b47-9915-7275506cfb2e
+agree	F	Adaptive Financial Consulting, LLC	Java Developer  - Barcelona 	https://job-boards.greenhouse.io/adaptivefinancialconsulting/jobs/8264100	a045aaf9-d2b1-4c0d-b6e1-7b301f7bb002
+agree	F	Stifel	Client Reporting Services Specialist	https://careers-stifel.icims.com/jobs/9798/client-reporting-services-specialist/job	45e54590-3fbb-48cf-82a5-2da13d2eb682
+agree	F	BGC Group	Junior Helpdesk Support	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250011	f0ae6a99-99de-4840-b55a-89e376c50ee3
+agree	F	Archimed	Investment Associate (Seoul, South Korea)	https://apply.workable.com/j/412BD8011D	7ed4ce29-cfa9-44bd-af5d-9977e0df9d2c
+agree	F	Lazard	Internal Advisor Consultant	https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6270	6124d264-0f82-45f6-9f11-3b6e4a66022e
+agree	F	Aksia LLC	Client Operations Associate, Private Markets	https://job-boards.greenhouse.io/aksia/jobs/8367158002	e6ee4226-1a40-417f-a649-d64e2ca1c6d5
+agree	F	Stifel	IB Associate - Diversified Industrials & Services	https://careers-stifel.icims.com/jobs/9812/ib-associate---diversified-industrials-%26-services/job	97471eda-09ed-4896-bcc4-2dab75141d04
+agree	F	Mizuho Americas	Product Security Lead	https://mizuho.wd1.myworkdayjobs.com/mizuhoamericas/job/NYC-1285/Product-Security-Lead_R7379-3	8c7248ca-d222-4b68-bb98-1b96e53e638b
+unsure	F	Clera	Product Engineer (Mid-Level)	https://jobs.ashbyhq.com/clera/8c684fae-6e6b-42e1-9694-5474ac9b16cc	e543de3c-7058-4ee6-beee-c4afdfc49569
+unsure	F	Vision Capital Management INC	Schedule An Introduction	https://vcmi.net/contact	2c20478b-07b3-4531-b8d3-e4bb5a0c5f9e
+agree	F	Clera	Founding Sales Executive	https://jobs.ashbyhq.com/clera/31a1dadd-b273-46d4-921b-0df1c348b29d	86a2ee34-c82f-4bef-8b31-c5b4a3d688ae
+agree	F	Aleph	Client Partner - Tik Tok Ad Sales	https://jobs.lever.co/aleph/6199c89f-60f4-4d14-b6ee-af70f3442ae1	67bf53cf-ac5f-410f-9a3e-b79352c1ab74
+agree	F	Plaid	Launch Your Career with Plaid	https://app.ripplematch.com/v2/public/company/plaid	fd562771-7383-4a53-8035-259a0d9594cc
+agree	F	Lazard	Analyst - Technology	https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6574	ef3bf0be-89df-42f7-b9de-3da09ecba864
+agree	F	Guild Garage Group LLC	General Application	https://job-boards.greenhouse.io/guildgaragegroup/jobs/4017790009	b39f8d73-e829-4976-a2ef-523af64a390c
+agree	F	Clera	Founding Account Executive	https://jobs.ashbyhq.com/clera/c7b84cab-2b67-4266-93c0-7639c390ea2e	b6addf0f-3720-47f4-9649-8cb89aa782b4
+agree	F	JPMorgan	Part Time (30 Hours) Associate Banker, Stevensville Branch, Stevensville, MI	https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210798090	307804eb-2d25-4761-b1f8-10afda4c0053
+unsure	F	Miller Buckfire	Cloud Security Engineer	https://careers-stifel.icims.com/jobs/9795/cloud-security-engineer/job	8ae666c2-cf0e-49ba-a710-b59ce81baf3c
+agree	F	Piper Sandler	Merchant Banking Associate	https://pipersandler.wd501.myworkdayjobs.com/Piper_Sandler_Careers/job/Minneapolis-MN---HQ/Merchant-Banking-Associate_R-100606-1	b177c519-d85c-4e6c-b158-fe92a11e75cf
+unsure	F	Stifel	Operations Associate-Digital Support	https://careers-stifel.icims.com/jobs/9822/operations-associate-digital-support/job	bd2fbf34-00bf-4a81-9e22-bb00774c3485
+agree	F	BGC Group	Surveillance Tuning Expert	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/246576	b6ec1b09-d5a9-46a2-b1b9-bdc87ab0c160
+agree	F	New York Life Investments	Start your career journey off right	https://www.newyorklife.com/careers/corporate/internships	1b925a5c-b6c8-4646-995a-432cd1653baf
+agree	F	Giverny Capital	Nos rendements historiques	https://givernycapital.com/rendements-de-portefeuille/	6b667915-1e9a-4642-9270-837385c1ddf5
+agree	F	Seeds	Volunteer	https://seeds.bamboohr.com/careers/27	07955380-3f78-4149-ac7e-526884c58fe8
+agree	F	Aksia LLC	Junior IT Systems Administrator 	https://job-boards.greenhouse.io/aksia/jobs/8855518002	0258bafb-a8e8-4f58-82ce-0f9d8d1785d8
+agree	F	Uplift	Psychiatrist - Remote	https://job-boards.greenhouse.io/uplift/jobs/4215620009	9fab463d-e35a-45f5-b928-010530103a20
+agree	F	Concentric	Vendor Safety Agent, Part-Time	https://job-boards.greenhouse.io/concentric/jobs/4714668006	a9cd5b4d-51a9-4286-937d-953b5b86dbd3
+agree	F	Earlybird Gmbh & CO. Kg	Company Spotlight Status Stage Location	https://earlybird.com/companies/aris-machina	d12fb3d7-62c9-4554-a030-73e56c403b95
+agree	F	Miller Buckfire	Client Relationship Manager	https://careers-stifel.icims.com/jobs/9402/client-relationship-manager/job	98f37ec1-b3e0-4c3c-8954-d96801647515
+agree	F	Lazard	M&A FIG Analyst	https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6620	b5227aff-093c-4b77-a1c5-32f28ee0638f
+unsure	F	Miller Buckfire	Municipal Bonds Trader	https://careers-stifel.icims.com/jobs/9635/municipal-bonds-trader/job	c89a317b-dd12-4723-b4b5-f28ba0ff5739
+agree	F	Numa	Sales Development Representative (SDR)	https://job-boards.greenhouse.io/numa/jobs/4284352009	88dc064e-7105-4f89-8163-a808009b0d33
+agree	F	Adaptive Financial Consulting, LLC	Solution Engineer (Aeron and Capital Markets)	https://job-boards.greenhouse.io/adaptivefinancialconsulting/jobs/6562151	e36b9eb6-82fe-48f1-b6fd-8ff4c2fb18f4
+agree	F	Savvy	Strategic Growth Manager (Account Executive)	https://jobs.ashbyhq.com/savvy/d77fb747-d092-4d5d-bdbe-689b3143d93f	a6d9d068-949b-49f8-a4a2-11686c5bc471
+agree	F	BGC Group	Equity Research Associate – Semiconductors & Semiconductor Equipment	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/249980	951ed832-06b8-43cd-945b-da92628db93c
+agree	F	Kroll	Manager Ai Transformation Advisory	https://careers.kroll.com/en/job/new-york/manager-ai-transformation-advisory/21013805	89d8ec14-c914-43e5-af47-e88e3ee444ce
+agree	F	Uplift	Online Psychiatric Nurse Practitioner (PMHNP)	https://job-boards.greenhouse.io/uplift/jobs/4307670009	c24d7957-0b17-4df5-8647-84ac36127366
+agree	F	Earlybird Gmbh & CO. Kg	Company Spotlight Status Stage Location	https://earlybird.com/companies/bridgeco	200dc968-36c5-46b8-b0ef-293bf8076fae
+agree	F	Clera	Founding Engineer ($3M pre-seed)	https://jobs.ashbyhq.com/clera/b7d33639-e631-46ae-9ea0-75ee4717b3c4	a0a75c17-37e0-4635-8442-8d5aee87781a
+agree	F	Lazard	Equity Research Analyst - US Healthcare	https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6406	60332119-8a99-4f22-be92-798b51c82230
+agree	F	Proof	1099 Process Server	https://www.proofserve.com/careers/4706658005?gh_jid=4706658005	7310eb52-d0fe-4003-a77d-8d9ca59271b1
+agree	F	Kroll	Associate Investigations Diligence And Compliance Core Arabic Speaker Talent Pool	https://careers.kroll.com/en/job/london/associate-investigations-diligence-and-compliance-core-arabic-speaker-talent-pool/21014688	19434599-0dc2-46b1-b0fd-9fe50a3be154
+agree	F	Y-intercept (Hong Kong) Limited	Quantitative Researcher (EQ)	https://job-boards.anz.greenhouse.io/yintercepthongkonglimited/jobs/4000271201	6588ca04-501a-4e41-9aca-603a71444736
+agree	F	Clera	Product Engineer, Mid-Level	https://jobs.ashbyhq.com/clera/e7d32663-07eb-46c8-b770-7d34d06859bf	5eec85a7-fc17-4be9-bfd8-54ba42774c65
+unsure	F	Miller Buckfire	Research Associate II - Biotechnology	https://careers-stifel.icims.com/jobs/9815/research-associate-ii---biotechnology/job	b3170cba-cbaa-44cc-a2d9-01630727aa74
+unsure	F	Raymond James	IT Operations Associate Analyst	https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Saint-Petersburg-Florida---United-States/IT-Operations-Associate-Analyst_R-0013112	16e07323-2ba7-41e3-8602-f6d3615a8cc5
+agree	F	JPMorgan	Relationship Banker - Minnesota Southern Market	https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210797710	d2098db9-41da-41ca-92a6-ca162aac80ac
+agree	F	Raymond James	Registered Client Service Associate-Greenville, SC	https://raymondjames.wd1.myworkdayjobs.com/RaymondJamesCareers/job/Greenville-South-Carolina---United-States/Registered-Client-Service-Associate-Greenville--SC_R-0013331-1	57bd228c-3c6d-4b07-9dda-03fb7f5bad5f
+unsure	F	Breakthrough Properties	IT Systems Engineer	https://btprop.com/career-opportunities/?gh_jid=5425950008	861d9647-b2c6-4ad4-ad1f-8dde044914a2
+agree	F	Kroll	Associate Investigations Diligence And Compliance Core Frenchgerman Speaker	https://careers.kroll.com/en/job/london/associate-investigations-diligence-and-compliance-core-frenchgerman-speaker/21014686	8ce977c3-df15-4b22-b442-eee3ae520699
+unsure	F	Defy Partners Management, LLC	enduring company	https://defy.vc/companies/	4521ddb0-d3ef-4609-bed0-ac4c3691fcc2
+agree	F	Fisher\smb	Technical Product Manager	https://job-boards.greenhouse.io/fishersmb/jobs/4937589008	2c5307a7-8a9a-4229-a75e-8c084f24969c
+unsure	F	Citigroup	Oracle EBS Fixed Assets or Project accounting Functional Consultant	https://citi.eightfold.ai/careers/job/859038093509	3f1305ee-ef5d-4b2f-8b75-939160d88160
+unsure	F	Miller Buckfire	Operations Engineer (Cloud)	https://careers-stifel.icims.com/jobs/9080/operations-engineer-%28cloud%29/job	62451aa6-b857-4886-a3e7-b359d24c8bf8
+agree	F	Miller Buckfire	Part-time Client Service Associate - NR	https://careers-stifel.icims.com/jobs/10020/part-time-client-service-associate---nr/job	1f610c11-f27a-4b91-b492-81c218346a7e
+agree	F	Wing	Assistant Chief Pilot	https://wing.com/careers/8809451002?gh_jid=8809451002	235618f5-bc94-415c-924e-a127b9dde313
+agree	F	Pact	Environmental Coordinator	https://pact.bamboohr.com/careers/215	f40f42a1-7128-458c-9d9a-d790ae280147
+agree	F	Cantor Fitzgerald	Sr Technical Account Manager	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/250026	f016feda-232a-4ffd-9363-036394697505
+agree	F	Clera	Founding Engineer ($3M pre-seed)	https://jobs.ashbyhq.com/clera/7d473c29-98bc-4f00-b3ca-8ae555f3516d	022b9887-b6bb-4832-922a-1a0a9de7e691
+agree	F	Guild Garage Group LLC	Customer Service Representative	https://job-boards.greenhouse.io/guildgaragegroup/jobs/4436572009	e3a3a061-f26e-4b05-aa2b-a3f07839076a
+unsure	F	Legalist	Content Marketing Manager	https://www.legalist.com/careers?gh_jid=6135341004	743f762a-dd2e-4e3e-afd3-b9511c7488eb
+agree	F	Intrepid Investment Bankers	Analyst KYC Maker	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/MUFG-Global-Service-Private-Ltd---Bengaluru-BCIT/Analyst-KYC-Maker_10078708-WD-3	28a62418-6837-4768-aeec-efcf18ac25d4
+agree	F	Blossom Capital Management Limited	How WE Work	https://blossomcap.com/how-we-work	1626ad8c-f906-4a6f-9998-6e59f03fe201
+unsure	F	Clera	Backend Engineer	https://jobs.ashbyhq.com/clera/e37cae26-bbc6-49c2-840b-9d77c3861f29	33f075a0-e2e3-43ef-9fe9-9d5ecb473b2b
+agree	F	Assetmark, INC.	Mature Stage Advisors	https://www.assetmark.com/solutions/mature-stage-advisors/	037e5479-3016-4f20-be97-61199f37289b
+unsure	F	Keating Financial Advisory Services	Schedule Here	https://calendly.com/josh-hill-hsw	4bd9a158-33ec-4caa-82e7-aedb8fac995d
+agree	F	Hub Investment Partners, LLC	Family Office Services Coordinated planning for complex wealth	https://hubrpw.com/family-office/	e40d3e78-9729-4a13-b013-eda48ae4ea3f
+unsure	F	Stifel	Private Equity Due Diligence Specialist	https://careers-stifel.icims.com/jobs/9670/private-equity-due-diligence-specialist/job	6bf42398-ef46-44a7-bfd9-1c6bef840f73
+agree	F	Cantor Fitzgerald	AVP, DTC Settlements	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/249697	71770302-29b0-416f-a275-f42905e5bced
+unsure	F	Stifel	IT Sr. Project Manager	https://careers-stifel.icims.com/jobs/7885/it-sr.-project-manager/job	7ed1da8e-a062-4e60-a794-d1210e0c63f0
+agree	F	Miller Buckfire	Client Service Associate - Non-Registered	https://careers-stifel.icims.com/jobs/9633/client-service-associate---non-registered/job	c0860c23-1341-4d1e-9e9a-d54c03f4c9a3
+agree	F	Northleaf Capital Partners	Future Opportunities - Investor Operations Team	https://northleafcapitalpartners.bamboohr.com/careers/117	b9da436d-5bda-48de-87ff-4448b5220fcf
+agree	F	Giverny Capital	Voir les lettres	https://givernycapital.com/lettres-aux-partenaires/	a16ebb89-0b5b-48d5-9539-0c99e7151a7b
+agree	F	Aleph	Client Solutions Manager	https://jobs.lever.co/aleph/f5a60fe8-b9d1-44cb-947b-0f67f6f98ed7	f52666b5-bb11-4362-8900-ef2981d88e03
+agree	F	Lazard	Financial Planning & Analysis Manager (New York)	https://icbpjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LazardStudentCareers/job/6547	885747bc-5ab2-41f3-81d1-50e916ec959d
+agree	F	Proof	1099 Process Server	https://www.proofserve.com/careers/4697973005?gh_jid=4697973005	8e62e0d4-9b3c-4713-9b6b-d366689c6d02
+agree	F	JPMorgan	Associate Banker, 20 Hours, Woodland Park, CO - Woodland Hwy Branch,	https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210793848	0be90e91-9844-4c01-8e19-0668d261b675
+agree	F	Harris Williams	Experienced M&A Associate - Healthcare & Life Sciences	https://pnc.wd5.myworkdayjobs.com/HarrisWilliams/job/VA---Richmond-23219/Experienced-M-A-Associate_R209141	10a81e06-7eb6-494c-bf1e-1c9bc963893a
+agree	F	Seeds	Field Therapist	https://seeds.bamboohr.com/careers/23	f50c7b8e-ee17-4e69-9c50-88e433b0f84a
+agree	F	Trez Capital Fund Management Limited Partnership	$44,094,783 USD | Texas	https://www.trezcapital.com/financings/44094783-usd-texas	20d4b055-d4e8-406e-9ac6-c75e1d3e1bd1
+unsure	F	Zachary Scott	please follow us on LinkedIn	https://www.linkedin.com/company/zachary-scott/	1873bb8a-a9eb-42ba-9f76-1ecb12909e6f
+agree	F	Stifel	Client Service Associate - NR	https://careers-stifel.icims.com/jobs/9973/client-service-associate---nr/job	ac21845c-6b19-4a2c-9415-b820bc1637a0
+agree	F	Pact	Logistics Coordinator (Construction)	https://pact.bamboohr.com/careers/240	9e3ccd4d-00ce-4ccf-ab2f-1213256f8f82
+unsure	F	Notable Capital	PortfolioPeopleApproachContentEarly Stage	https://www.notablecap.com/content	49c874a1-854f-43b9-b56d-2ee868bc9562
+agree	F	Clera	Founding Engineer – SF Hackerhouse (Visa sponsored; $3M pre-seed)	https://jobs.ashbyhq.com/clera/d7d2e765-3ef1-49fb-8817-b1bda06db041	4b368a9a-7242-4775-9710-3a883639dfdc
+agree	F	17 Capital LLP	Associate, Performance (Middle Office)	https://17capital.bamboohr.com/careers/57	50b91e11-44a7-48b3-9539-76101bcbab63
+agree	F	Cfci	Registered Behavior Technician (RBT) - Trinidad	https://cfci.bamboohr.com/careers/272	cca30881-ca30-4291-a36b-b181121add8c
+agree	F	MUFG Securities Americas	FP&A Analytics Specialist	https://mufgub.wd3.myworkdayjobs.com/MUFG-Careers/job/Amsterdam/FP-A-Analytics-Specialist_10079946-WD-1	4e320a5d-4aa4-4948-b03c-ff29fe768737
+agree	F	Stifel	Part-time Client Service Associate - NR - Temp	https://careers-stifel.icims.com/jobs/9897/part-time-client-service-associate---nr---temp/job	1f5c2c52-59d8-4cc2-bcca-dc5bebd33cfd
+agree	F	Clera	Founding Engineer	https://jobs.ashbyhq.com/clera/1ed53642-8b0e-4de5-8d66-8cb81a3e7e73	5e00cdbe-53fe-4678-913c-6f41bcc4485c
+unsure	F	Stifel	IB Associate - Energy (Houston)	https://careers-stifel.icims.com/jobs/9684/ib-associate---energy-%28houston%29/job	53028617-f77d-414f-9c90-72956714d736
+agree	F	Aleph	SMB Account Manager - TikTok	https://jobs.lever.co/aleph/521e751f-3953-4f02-803e-13f83681d606	83ad00cd-5e2b-4d5c-89a7-7df601b331d2
+agree	F	JPMorgan	Loans Transaction Management Specialist	https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210796560	0a93ee5d-a06f-4318-9ac5-e9ae4b25a072
+agree	F	BMO Capital Markets (US)	Associate Banker	https://bmo.wd3.myworkdayjobs.com/External/job/Bakersfield-CA-USA/Associate-Banker_R260028728	0ea18346-f62f-45a8-927f-65ff860ed630
+agree	F	Unison	CLIENT SUPPORT AIDE PT (1:1) - Ware CS	https://jobs.dayforcehcm.com/en-US/unison/CANDIDATEPORTAL/jobs/4674	a0eb018a-05b3-4e9b-a6d2-c4198317ed53
+agree	F	Cowen (now TD Cowen)	Engineer I	https://td.wd3.myworkdayjobs.com/TD_Bank_Careers/job/Toronto-Ontario/Senior-Mainframe-Engineer--TD-Securities_R_1501349-1	8a3b8766-afdd-4cf2-8775-f6cb14aaa3b3
+unsure	F	Rothschild and CO Wealth Management UK Limited	Visit Careers	https://rothschildandco.com/en/careers/	2d6af13b-4b01-4c49-b515-e689d50d372d
+agree	F	Alpaca	ERM Program Manager	https://job-boards.greenhouse.io/alpaca/jobs/6219278004	0d333b8e-bfc4-4058-91ab-588dd24e348a
+agree	F	Proof	1099 Process Server	https://www.proofserve.com/careers/4726936005?gh_jid=4726936005	5fe11d94-b594-4740-8fb2-6698928f1bd1
+agree	F	Cantor Fitzgerald	Associate, Market Risk Associate	https://hdow.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1003/job/249324	ec23ef43-f50e-4594-bac8-4cea2ebd0899
+unsure	F	Yukon Partners Management, L.L.C.	rtcaerospace.com	http://rtcaerospace.com/	6f737557-eaad-4318-9aac-8c1f6deeb469
+agree	F	Aleph	Client Partner	https://jobs.lever.co/aleph/d31fcbae-e689-4511-a6c7-a0fc3fdacd93	fcc2ecbc-0ef6-4af9-918b-e2645ac0671b
+agree	F	OrbiMed	Taking a leading approach to tackle the complexities of cancer	https://www.orbimed.com/portfolio/#avenzo-therapeutics	d56f0b4c-a2b5-4e24-a688-043c88301b01
+agree	F	A.g.p / Alliance Global Partners	Independent Thinking Institutional Execution	https://allianceg.com/investment-banking/transactions	fe2a7ed5-d8f0-483a-a403-11456a2032ca
+agree	F	Parallel Advisors, LLC	Operations Associate - Client Services	https://jobs.lever.co/paralleladvisors/21b6485b-7c01-4dc7-b2aa-76974f8c747e	e83439d2-1258-4a73-90df-9127a2a3200d
+agree	F	Kotak Alternate Asset Managers Limited	Media Coverage	https://www.linkedin.com/feed/update/urn:li:activity:7169222712010129411/	ca4e7cb5-5195-4541-abe9-ef9e982fd9ed
+agree	F	JPMorgan	Testing & Evaluation Associate	https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210797492	c7879819-97c7-491b-bf54-2e0426fe4404
+agree	F	Stifel	Technical Product Owner	https://careers-stifel.icims.com/jobs/9863/technical-product-owner/job	28cd487d-d27b-4baa-9a15-cf8dff52302a
+agree	F	Kroll	Analyst Compliance Consulting	https://careers.kroll.com/en/job/mumbai/analyst-compliance-consulting/21014704	806cad20-b0b8-4202-8abe-40dfee883f48

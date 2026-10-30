@@ -1,0 +1,166 @@
+scripts/draft-reply-grader.ts - 10 emails, one model call each, blind.
+  judge claude-sonnet-5-5 (pinned)
+  prompt reply-grader/1 (sha 8700addf89d0)
+  arm post (the email that would reach the student)
+  from scripts/audit-probe/output1/q-full.json, scripts/audit-probe/output1/q-sparse.json
+  4 at a time, 2 attempts each, two passes
+  transport: claude CLI on the subscription - nothing here bills anything.
+  607 off_putting
+  603 would_reply
+  616 off_putting
+  601 would_reply
+  806 would_reply
+  801 off_putting
+  645 off_putting
+  660 would_reply
+  809 off_putting
+  817 would_reply
+  601 would_reply
+  603 would_reply
+  607 off_putting
+  616 off_putting
+  645 off_putting
+  801 off_putting
+  806 would_reply
+  660 would_reply
+  809 off_putting
+  817 would_reply
+
+=== DISTRIBUTION (post-review), pass 1 ===
+graded 10, errored 0  
+
+  would_reply     5 of 10  (50%)
+  would_ignore    0 of 10  (0%)
+  off_putting     5 of 10  (50%)
+
+  THE NUMBER: 5 of 10 would get a reply.
+
+  Tells, most common first:
+      8  cv_recital
+      5  placeholder_left_in
+      4  reads_machine_written
+      2  template_closer
+      2  overclaims_connection
+      2  no_specific_reason
+      1  awkward_phrasing
+      1  no_ask
+
+  worst_line was verbatim in 10 of 10 (0 emails had nothing to name).
+
+  Per email:
+    601  would_reply   137w  She met me at the summit, shares my school and hometown, and asks two concrete questions I can answer in two lines: "when does the sophomore program open? Second, does it feed into the summer analyst class?"
+         worst: "My name is Maya Okafor, and I'm a sophomore at Duke University, graduating in 2029, writing to a fellow Duke alum and fellow Atlanta native."
+         tells: cv_recital
+    603  would_reply   137w  A named referral from someone who interned on my team ("Emily Tran, the president of the Duke Investment Club, interned on your team") plus a small 10-15 minute ask makes this easy to answer with a quick yes.
+         worst: "Any time that suits you works for me, and my resume is attached."
+    607  off_putting   139w  The unfilled slot "graduating in [graduation month] 2029" shows a template, and the referral story is muddled ("president of the Duke Investment Club... I interned on her team"), so I'd think less of her.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, awkward_phrasing, cv_recital, reads_machine_written
+    616  off_putting   170w  The unfilled slot "graduating in [graduation month] 2029" shows a mail-merge template, which undercuts the personal referral and the claimed conversation about the grocery chain.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, reads_machine_written, cv_recital, template_closer
+    645  off_putting   173w  The unfilled slot "graduating in [graduation month] 2029" shows a mail-merge or tool, and the "Atlanta native like you" and "fellow Duke alum" claims feel stitched on, so I'd think less of her.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, reads_machine_written, overclaims_connection, cv_recital
+    660  would_reply   115w  I already sent her to Ben, she followed through on my advice ("I started tracking three consumer brands"), and the ask is a concrete, small 15 minutes before a stated deadline.
+         worst: "I'm a consumer sector analyst in Duke Investment Club, and this summer at Pinecrest Wealth Partners I built a screening model for 40 dividend stocks used in client portfolio reviews."
+         tells: cv_recital
+    801  off_putting   119w  The unfilled slot "graduating in [graduation month] 2029" shows a mail-merge template, and the questions are things the program's website would answer.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, no_specific_reason, cv_recital, overclaims_connection, reads_machine_written
+    806  would_reply   128w  We met at the summit, a named colleague ("Emily Tran, who interned on the consumer team") referred her, and the ask is a small 10-15 minute call, so I'd write back with a time.
+         worst: "Any time that suits you works for me, and my resume is attached."
+         tells: cv_recital
+    809  off_putting    98w  The unfilled slot "[what you originally asked Marcus about]" in the first line shows the sender didn't proofread, and it hides the one thing that would have made the Marcus referral meaningful.
+         worst: "after I emailed him about [what you originally asked Marcus about]."
+         tells: placeholder_left_in, cv_recital, template_closer, no_specific_reason
+    817  would_reply    56w  I made the intro and the student followed up with a specific, true thank-you ("He explained how the consumer team staffs deals"), so I'd probably type a quick "glad it helped, congrats back" even though they said not to.
+         worst: "Please don't feel you need to write back."
+         tells: no_ask
+
+  Notional cost: $0.0302 of subscription accounting for 10 calls (2457 output tokens). Billed to nobody.
+
+=== DISTRIBUTION (post-review), pass 2 ===
+graded 10, errored 0  
+
+  would_reply     5 of 10  (50%)
+  would_ignore    0 of 10  (0%)
+  off_putting     5 of 10  (50%)
+
+  THE NUMBER: 5 of 10 would get a reply.
+
+  Tells, most common first:
+      8  cv_recital
+      5  placeholder_left_in
+      5  reads_machine_written
+      1  buried_ask
+      1  no_specific_reason
+      1  overclaims_connection
+      1  template_closer
+      1  no_ask
+
+  worst_line was verbatim in 10 of 10 (0 emails had nothing to name).
+
+  Per email:
+    601  would_reply   137w  Met at the summit, a shared Duke and Atlanta background, and two plain factual questions I can answer in two lines ("when does the sophomore program open?").
+         worst: "I'm also a consumer sector analyst in the Duke Investment Club."
+         tells: cv_recital
+    603  would_reply   137w  Emily Tran, who interned on my team, pointed her to me, and the ask is small and clear: "10-15 minutes for a call" about moving from Duke into consumer coverage.
+         worst: "Any time that suits you works for me, and my resume is attached."
+         tells: cv_recital
+    607  off_putting   139w  The unfilled slot "graduating in [graduation month] 2029" shows a template was sent without being checked, and that outweighs the otherwise easy questions and the referral.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, reads_machine_written, cv_recital
+    616  off_putting   170w  The unfilled slot "graduating in [graduation month] 2029" shows a mail-merge template, which makes the personal details (referral, summit chat) feel mass-produced.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, cv_recital, reads_machine_written
+    645  off_putting   173w  The unfilled slot "graduating in [graduation month] 2029" shows a mail-merge or machine draft, and it undercuts the personal details around it.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, reads_machine_written, cv_recital, buried_ask
+    660  would_reply   115w  She's following up on my own referral to Ben, and the ask is small and clear ("Would you have 15 minutes before then"), so I'd fire back a quick time or tell her to email Ben.
+         worst: "Any day that suits you before then works for me."
+    801  off_putting   119w  The unfilled slot "graduating in [graduation month] 2029" shows a mail-merge template, and the questions are ones a recruiting page would answer.
+         worst: "graduating in [graduation month] 2029"
+         tells: placeholder_left_in, no_specific_reason, cv_recital, overclaims_connection, reads_machine_written
+    806  would_reply   128w  We met at the summit and a colleague pointed her to me ("Emily Tran, who interned on the consumer team last summer"), so there's a clear reason she wrote and a small, easy ask of 10 to 15 minutes.
+         worst: "Any time that suits you works for me, and my resume is attached."
+         tells: cv_recital
+    809  off_putting    98w  The unfilled slot "[what you originally asked Marcus about]" in the first sentence shows a mail-merge template and makes the referral look careless, even though Marcus's name is the only thing that might have earned a reply.
+         worst: "Marcus Delacroix suggested I write to you after I emailed him about [what you originally asked Marcus about]."
+         tells: placeholder_left_in, cv_recital, template_closer, reads_machine_written
+    817  would_reply    56w  I made the intro, so a short, specific thank-you ("Thank you for introducing us") closing the loop is something I'd answer with a quick "Glad it helped, congrats and good luck" even though they said not to.
+         worst: "Please don't feel you need to write back."
+         tells: no_ask
+
+  Notional cost: $0.0296 of subscription accounting for 10 calls (2396 output tokens). Billed to nobody.
+
+=== CALIBRATION against the 28-email human read ===
+docs/concepts/audit/OUTPUT-1-quality.md, 11 October 2026.
+Human totals: 13 would reply, 14 off-putting, 1 deliberately expects no reply, 0 merely ignored.
+
+  AGREEMENT: 10 of 10 verdicts match (100%).
+  Baseline to beat: always answering "off_putting" would score 5 of 10 (50%).
+  817 ("no reply wanted" in the human read) was graded "would_reply" - counted as agreement.
+
+  No disagreements.
+
+=== STABILITY: the same emails graded twice ===
+Same judge, same pinned prompt, two independent passes. 10 emails compared.
+
+    601  same  would_reply   -> would_reply    tells 1/1 shared
+    603  same  would_reply   -> would_reply    tells 0/1 shared
+    607  same  off_putting   -> off_putting    tells 3/4 shared
+    616  same  off_putting   -> off_putting    tells 3/4 shared
+    645  same  off_putting   -> off_putting    tells 3/5 shared
+    660  same  would_reply   -> would_reply    tells 0/1 shared
+    801  same  off_putting   -> off_putting    tells 5/5 shared
+    806  same  would_reply   -> would_reply    tells 1/1 shared
+    809  same  off_putting   -> off_putting    tells 3/5 shared
+    817  same  would_reply   -> would_reply    tells 1/1 shared
+
+  0 of 10 verdicts flipped.
+  Self-agreement 100%. A grader that flips often cannot measure a small change:
+  at this flip rate, a difference of fewer than about 1 emails in 10 is noise.
+
+Total: 20 calls, 20 graded, 0 errored, $0.0598 of subscription accounting.
+Wrote scripts/audit-probe/grader/stability-v1.json
